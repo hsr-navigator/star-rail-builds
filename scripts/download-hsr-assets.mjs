@@ -292,7 +292,9 @@ async function loadLocalCharacters() {
 
             element:
                 String(
-                    data.element ?? '',
+                    data.type ??
+                    data.element ??
+                    '',
                 ).toLowerCase(),
 
             rarity:
