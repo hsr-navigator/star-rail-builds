@@ -11,7 +11,7 @@ export default defineConfig({
             ? `https://${process.env.VERCEL_URL}`
             : 'https://hsr-navigator.github.io',
 
-    base: isVercel ? '/' : '/star-rail-builds',
+    base: isVercel ? '/' : '/star-rail-builds/',
 
     integrations: [webcore(), pagefind(), sitemap()],
 });

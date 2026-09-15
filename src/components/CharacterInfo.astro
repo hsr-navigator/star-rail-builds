@@ -469,10 +469,7 @@ const renderVariantDescription = (
                             : firstScalableVariant;
 
                         const { minLevel, maxLevel, defaultLevel, levels } =
-                            getAbilityLevelConfig(
-                                ability,
-                                levelSource,
-                            );
+                            getAbilityLevelConfig(ability, levelSource);
 
                         const hasScalableVariant =
                             firstScalableVariant !== undefined;
@@ -1629,7 +1626,33 @@ const renderVariantDescription = (
         .character-eidolon-grid {
             grid-template-columns: 1fr;
         }
+        .character-stat-grid {
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
 
+        .character-stat-grid > span {
+            box-sizing: border-box;
+
+            width: 100%;
+            min-width: 0;
+
+            align-items: center;
+
+            gap: 0.75rem;
+
+            padding: 0.55rem 0.7rem;
+
+            font-size: 0.9rem;
+        }
+
+        .character-stat-grid > span > strong {
+            flex: 0 0 auto;
+
+            margin-left: auto;
+
+            white-space: nowrap;
+        }
         .character-info-section {
             padding: 4px 0;
 
