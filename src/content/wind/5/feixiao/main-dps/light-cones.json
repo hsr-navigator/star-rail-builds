@@ -1,0 +1,70 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "i-venture-forth-to-hunt",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "baptism-of-pure-thought",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-finale-of-a-lie",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "worrisome-blissful",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "cruising",
+                    "superimposition": 5
+                },
+                {
+                    "name": "see-you-at-the-end",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "race-to-the-horizon",
+                    "superimposition": 5
+                },
+                {
+                    "name": "osr",
+                    "superimposition": 5,
+                    "note": {
+                        "en": "Only viable in 1-2 target scenario."
+                    }
+                },
+                {
+                    "name": "swordplay",
+                    "superimposition": 5,
+                    "note": {
+                        "en": "Assuming no target switching."
+                    }
+                }
+            ]
+        }
+    ]
+}    

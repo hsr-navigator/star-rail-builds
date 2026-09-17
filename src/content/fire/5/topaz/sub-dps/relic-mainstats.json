@@ -1,0 +1,17 @@
+{
+    "main_stats": {
+        "body": [
+            "cr/cd"
+        ],
+        "feet": [
+            "atk%",
+            "spd"
+        ],
+        "planar_sphere": [
+            "fire-dmg"
+        ],
+        "link_rope": [
+            "atk%"
+        ]
+    }
+}

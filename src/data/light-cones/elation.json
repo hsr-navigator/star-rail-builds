@@ -243,34 +243,44 @@
         "version_released": "4.5",
         "source": "limited-warp",
         "passive": {
-            "en": "Not available yet",
-            "ru": "Еще не доступно",
+            "en": "ncreases the wearer's CRIT Rate by {{value}}%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by {{value}}%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by {{value}}%.\nWhen every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.",
+            "ru": "",
             "vn": ""
         },
         "s1": [
-
+            18,
+            24,
+            40
         ],
         "s2": [
-
+            21,
+            28,
+            55
         ],
         "s3": [
-
+            24,
+            32,
+            70
         ],
         "s4": [
-
+            27,
+            36,
+            85
         ],
         "s5": [
-
+            30,
+            40,
+            100
         ],
         "level_1": {
-            "hp": 0,
-            "atk": 0,
-            "def": 0
+            "hp": 43,
+            "atk": 26,
+            "def": 24
         },
         "level_max": {
-            "hp": 0,
-            "atk": 0,
-            "def": 0
+            "hp": 952,
+            "atk": 582,
+            "def": 529
         }
     },
     "todays-good-luck": {

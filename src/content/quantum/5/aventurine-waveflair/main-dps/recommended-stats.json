@@ -1,0 +1,19 @@
+{
+    "stats": [
+        {
+            "name": "spd",
+            "recommended": "160+"
+        },
+        {
+            "name": "cr",
+            "recommended": "100%",
+            "note": {
+                "en": "Assuming [[set:magical-girl]] is being used. If using [[set:diviner]], aim for 82% [[stat:cr]] instead."
+            }
+        },
+        {
+            "name": "cd",
+            "recommended": "120%"
+        }
+    ]
+}

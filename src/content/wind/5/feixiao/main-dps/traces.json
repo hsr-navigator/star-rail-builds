@@ -1,0 +1,31 @@
+{
+    "traces": [
+        {
+            "items": [
+                {
+                    "name": "ultimate"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "talent"
+                },
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "basic",
+                    "note":{
+                        "en": "Basic ATK can be ignored."
+                    }
+                }
+            ]
+        }
+    ]
+}

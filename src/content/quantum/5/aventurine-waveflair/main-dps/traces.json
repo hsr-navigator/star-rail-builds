@@ -1,0 +1,36 @@
+{
+    "traces": [
+        {
+            "items": [
+                {
+                    "name": "elation-skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ultimate"
+                },
+                {
+                    "name": "talent"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note_group": "skillba",
+                    "note": {
+                        "en": "Skill and Basic ATK can be ignored."
+                    }
+                },
+                {
+                    "name": "basic",
+                    "note_group": "skillba"
+                }
+            ]
+        }
+    ]
+}

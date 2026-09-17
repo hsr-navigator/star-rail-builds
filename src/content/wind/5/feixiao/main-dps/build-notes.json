@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Main DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Feixiao launches a Follow-Up ATK after using her skill and when an ally attacks. For every 2 ally attacks, a point of \"Flying Aureus\" is gained, storing up to 12 points. Activating her Ultimate consume 6 points, unleashing a strong Single-Target attack.\n- Her Ultimate counts as both Follow-Up ATK damage and Ultimate damage. It can deal Toughness Damage regardless of Weakness Type. She also buffs her own CRIT DMG% and ATK% by a good amount.\n- Feixiao's performance heavily depends on Teammates Investments. Robin synergises well with allies that attack frequently. Her strong teamwide buffs also complement Feixiao's preference for Dual DPS setups. Ashveil is currently the best sub-dps for Feixiao due to his insane team-wide buffs that benefit Follow-Up ATK units and also DEF reduction for the enemies."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > E1 > S1"
+            },
+            "details": {
+                "en": "- E2 lets each Follow-Up ATK from any ally charges 1 point of \"Flying Aureus\", greatly increasing the amount of Ultimates.\n- S1 [[light-cone:i-venture-forth-to-hunt]] provides Feixiao with [[stat:cr]] and DEF Ignore. It's a decent damage increase, but Feixiao has access to other alternatives."
+            }
+        }
+    }
+} 

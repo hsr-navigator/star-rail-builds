@@ -1,0 +1,23 @@
+{
+    "stats": [
+        {
+            "name": "atk",
+            "recommended": "2500+"
+        },
+        {
+            "name": "spd",
+            "recommended": "110 / 134",
+            "note": {
+                "en": "If Topaz is paired with another Follow-Up ATK DPS, either ATK% or SPD feet can work, with the choice between the two depending on the specific team and rotation."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "100%"
+        },
+        {
+            "name": "cd",
+            "recommended": "150%+"
+        }
+    ]
+}

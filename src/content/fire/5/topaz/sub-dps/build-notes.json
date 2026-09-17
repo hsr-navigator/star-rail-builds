@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Sub DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Topaz inflicts \"Proof of Debt\" debuff on 1 target which increases Follow-Up ATK DMG taken. Using Skill can reapply this debuff and let Numby attack once.\n- Numby appears on the action order and attacks the target with \"Proof of Debt\". Numby gets advanced by 50% if its target is attacked by a Follow-Up ATK. All Topaz's attacks are considered Follow-Up ATKs.\n- Topaz's Ultimate buffs Numby, allowing Numby to be advanced by any type of attacks for 2 turns."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "S1 = E1"
+            },
+            "details": {
+                "en": "- S1 [[light-cone:worrisome-blissful]] provides good stat buff, can work for all Follow-Up ATK Hunt units and makes the wearer able to inflict a debuff: making the target take increased 24% CRIT DMG.\n- E1 makes enemies afflicted with \"Proof of Debt\" take extra Follow-Up ATK [[stat:cd]]."
+            }
+        }
+    }
+} 

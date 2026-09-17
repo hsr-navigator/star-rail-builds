@@ -1,0 +1,43 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "summer-rides-the-surf",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "welcome-to-the-cosmic-city",
+                    "superimposition": 1
+                },
+                {
+                    "name": "until-the-flowers-bloom-again",
+                    "superimposition": 1
+                },
+                {
+                    "name": "a-little-getaway",
+                    "superimposition": 5
+                },
+                {
+                    "name": "todays-good-luck",
+                    "superimposition": 5,
+                    "note_group": "s1-comparison",
+                    "note": {
+                        "en": "If [[light-cone:todays-good-luck]] S1, [[light-cone:mushy-shroomys-adventures]] will perfom better.",
+                        "ru": "Если [[light-cone:todays-good-luck]] S1, то [[light-cone:mushy-shroomys-adventures]] будет сильнее.",
+                        "vn": "Nếu [[light-cone:todays-good-luck]] S1 thì [[light-cone:mushy-shroomys-adventures]] tốt hơn"
+                    }
+                },
+                {
+                    "name": "mushy-shroomys-adventures",
+                    "superimposition": 5,
+                    "note_group": "s1-comparison"
+                }
+            ]
+        }
+    ]
+}

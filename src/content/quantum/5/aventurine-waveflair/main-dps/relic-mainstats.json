@@ -1,0 +1,24 @@
+{
+    "main_stats": {
+        "body": [
+            "cr/cd"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            {
+            "name": "ANY",
+            "note":
+                {
+                    "en": "Use any Main Stats as he does not scale off of ATK, HP, or DEF.",
+                    "ru": "Используйте любые основные статы, так как она не зависит от атаки, HP или защиты.",
+                    "vn": "Dùng bất kỳ Thuộc Tính Chính nào, bởi vì anh ấy không phụ thuộc vào Tấn Công, HP, hoặc Phòng Thủ."
+                }
+            }
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}
