@@ -72,6 +72,7 @@ const noteMarkerExplanation = t(
     undefined,
     false,
 );
+const buildGuideLabel = t(locale, 'ui', 'Builds', undefined, false);
 ---
 
 <CharacterPageLayout
@@ -110,67 +111,90 @@ const noteMarkerExplanation = t(
                             hidden={!isDefaultBuild}
                         >
                             <div class="build-content">
-                                {hasNoteMarkerHint && (
-                                    <div class="build-note-hint">
+                                <details
+                                    class="card section-collapse build-guide-section"
+                                    open
+                                >
+                                    <summary class="section-collapse-summary">
+                                        <h2>{buildGuideLabel}</h2>
+
                                         <span
-                                            class="note-marker-text"
+                                            class="section-collapse-chevron"
                                             aria-hidden="true"
-                                        >
-                                            ⓘ
-                                        </span>
-
-                                        <span>{noteMarkerExplanation}</span>
-                                    </div>
-                                )}
-
-                                <div class="grid">
-                                    {build.lightCones && (
-                                        <LightCone
-                                            lightCones={build.lightCones}
-                                            locale={locale}
-                                            lang={currentLang}
                                         />
-                                    )}
+                                    </summary>
 
-                                    {build.relics.sets && (
-                                        <Relic
-                                            relics={build.relics}
-                                            locale={locale}
-                                            lang={currentLang}
-                                        />
-                                    )}
+                                    <div class="section-collapse-body">
+                                        {hasNoteMarkerHint && (
+                                            <div class="build-note-hint">
+                                                <span
+                                                    class="note-marker-text"
+                                                    aria-hidden="true"
+                                                >
+                                                    ⓘ
+                                                </span>
 
-                                    {build.relics.mainstats &&
-                                        build.relics.substats && (
-                                            <RelicStats
-                                                relics={build.relics}
-                                                locale={locale}
-                                            />
+                                                <span>
+                                                    {noteMarkerExplanation}
+                                                </span>
+                                            </div>
                                         )}
-                                    {(build.recommendedStats ||
-                                        build.traces) && (
-                                        <div class="stats-traces-column">
-                                            {build.recommendedStats && (
-                                                <RecommendedStats
-                                                    stats={
-                                                        build.recommendedStats
+
+                                        <div class="grid">
+                                            {build.lightCones && (
+                                                <LightCone
+                                                    lightCones={
+                                                        build.lightCones
                                                     }
                                                     locale={locale}
+                                                    lang={currentLang}
                                                 />
                                             )}
 
-                                            {build.traces && (
-                                                <Trace
-                                                    traces={build.traces}
+                                            {build.relics.sets && (
+                                                <Relic
+                                                    relics={build.relics}
                                                     locale={locale}
-                                                    characterData={
-                                                        characterData
-                                                    }
+                                                    lang={currentLang}
                                                 />
+                                            )}
+
+                                            {build.relics.mainstats &&
+                                                build.relics.substats && (
+                                                    <RelicStats
+                                                        relics={build.relics}
+                                                        locale={locale}
+                                                    />
+                                                )}
+
+                                            {(build.recommendedStats ||
+                                                build.traces) && (
+                                                <div class="stats-traces-column">
+                                                    {build.recommendedStats && (
+                                                        <RecommendedStats
+                                                            stats={
+                                                                build.recommendedStats
+                                                            }
+                                                            locale={locale}
+                                                        />
+                                                    )}
+
+                                                    {build.traces && (
+                                                        <Trace
+                                                            traces={
+                                                                build.traces
+                                                            }
+                                                            locale={locale}
+                                                            characterData={
+                                                                characterData
+                                                            }
+                                                        />
+                                                    )}
+                                                </div>
                                             )}
                                         </div>
-                                    )}
-                                </div>
+                                    </div>
+                                </details>
 
                                 <Notes
                                     notes={build.notes}

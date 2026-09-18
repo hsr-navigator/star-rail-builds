@@ -120,6 +120,114 @@ html[lang='ru'] .page-title {
     word-break: normal;
 }
 
+/* =========================================================
+   Top-level collapsible sections
+   ========================================================= */
+
+.section-collapse {
+    box-sizing: border-box;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    margin-right: 0;
+    margin-left: 0;
+
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+/*
+ * Build Guide and Character Info inherit the global .card
+ * padding of 14px. Remove it so all top-level collapsible
+ * headers use the exact same outer width as Notes/Overview.
+ */
+.build-guide-section.section-collapse,
+.character-info-card.section-collapse {
+    padding: 0;
+}
+
+/* Restore spacing inside their CONTENT instead of on the card itself. */
+.build-guide-section>.section-collapse-body,
+.character-info-card>.section-collapse-body {
+    padding: 14px;
+}
+
+.section-collapse>.section-collapse-summary {
+    position: relative;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    padding: 0 42px 0 14px;
+
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+}
+
+.section-collapse>.section-collapse-summary::-webkit-details-marker {
+    display: none;
+}
+
+.section-collapse>.section-collapse-summary::marker {
+    content: '';
+}
+
+.section-collapse>.section-collapse-summary h2 {
+    width: 100%;
+    margin: 0;
+
+    text-align: left;
+}
+
+.section-collapse-chevron {
+    position: absolute;
+
+    top: 50%;
+    right: 16px;
+
+    box-sizing: border-box;
+
+    width: 9px;
+    height: 9px;
+
+    border-right: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+
+    transform: translateY(-50%) rotate(-45deg);
+
+    transition: transform 0.18s ease;
+}
+
+.section-collapse[open] .section-collapse-chevron {
+    transform: translateY(-65%) rotate(45deg);
+}
+
+/*
+ * build-content itself has 10px padding.
+ * Expand its top-level sections through that padding so they
+ * share the same outer edge as Character Info.
+ */
+.build-content>.section-collapse {
+    box-sizing: border-box;
+
+    width: calc(100% + 20px);
+    max-width: none;
+
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+
 .character-meta-type-icon {
     display: block;
     width: 20px;
@@ -1702,6 +1810,15 @@ html[lang='ru'] .page-title {
 }
 
 @media (max-width: 720px) {
+    .section-collapse>.section-collapse-summary {
+        min-height: 28px;
+        padding-right: 42px;
+    }
+
+    .section-collapse[open]>.section-collapse-body {
+        margin-top: 12px;
+    }
+
     .character-title-row {
         gap: 5px;
     }

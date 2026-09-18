@@ -91,80 +91,92 @@ const hasOverview = hasSummary || hasPrioritySection;
 
 {
     hasNotes && (
-        <section class="card notes-card">
-            <h2>{ui('Notes')}</h2>
+        <details class="card notes-card section-collapse" open>
+            <summary class="section-collapse-summary">
+                <h2>{ui('Notes')}</h2>
 
-            <div class="notes-content">
-                {buildNotes.length > 0 && (
-                    <div class="build-note-list">
-                        {buildNotes.map((note) => (
-                            <div class="build-note" set:html={note} />
-                        ))}
-                    </div>
-                )}
+                <span class="section-collapse-chevron" aria-hidden="true" />
+            </summary>
 
-                {globalNotes.length > 0 && (
-                    <div class="notes-global-list">
-                        {globalNotes.map((note) => (
-                            <div class="note-global" set:html={note} />
-                        ))}
-                    </div>
-                )}
+            <div class="section-collapse-body">
+                <div class="notes-content">
+                    {buildNotes.length > 0 && (
+                        <div class="build-note-list">
+                            {buildNotes.map((note) => (
+                                <div class="build-note" set:html={note} />
+                            ))}
+                        </div>
+                    )}
 
-                {itemNotes.length > 0 && (
-                    <div class="note-list">
-                        {itemNotes.map((note) => (
-                            <div
-                                id={note.id}
-                                class="note-target"
-                                set:html={`<span class="type-bold">${note.name}:</span> ${note.note}`}
-                            />
-                        ))}
-                    </div>
-                )}
+                    {globalNotes.length > 0 && (
+                        <div class="notes-global-list">
+                            {globalNotes.map((note) => (
+                                <div class="note-global" set:html={note} />
+                            ))}
+                        </div>
+                    )}
+
+                    {itemNotes.length > 0 && (
+                        <div class="note-list">
+                            {itemNotes.map((note) => (
+                                <div
+                                    id={note.id}
+                                    class="note-target"
+                                    set:html={`<span class="type-bold">${note.name}:</span> ${note.note}`}
+                                />
+                            ))}
+                        </div>
+                    )}
+                </div>
             </div>
-        </section>
+        </details>
     )
 }
 
 {
     hasOverview && (
-        <section class="card notes-card overview-card">
-            <h2>{ui('Overview')}</h2>
+        <details class="card notes-card overview-card section-collapse" open>
+            <summary class="section-collapse-summary">
+                <h2>{ui('Overview')}</h2>
 
-            <div class="overview-content">
-                {hasSummary && overview?.summary && (
-                    <section class="overview-section">
-                        <h3>{ui('Summary and General Analysis')}</h3>
+                <span class="section-collapse-chevron" aria-hidden="true" />
+            </summary>
 
-                        <div
-                            class="overview-text"
-                            set:html={overview.summary}
-                        />
-                    </section>
-                )}
+            <div class="section-collapse-body">
+                <div class="overview-content">
+                    {hasSummary && overview?.summary && (
+                        <section class="overview-section">
+                            <h3>{ui('Summary and General Analysis')}</h3>
 
-                {hasPrioritySection && prioritySection && (
-                    <section class="overview-section">
-                        <h3>{prioritySection.title}</h3>
-
-                        {prioritySection.data.priority && (
-                            <div
-                                class="overview-investment-priority"
-                                set:html={prioritySection.data.priority}
-                            />
-                        )}
-
-                        {prioritySection.data.details && (
                             <div
                                 class="overview-text"
-                                set:html={prioritySection.data.details}
+                                set:html={overview.summary}
                             />
-                        )}
-                    </section>
-                )}
+                        </section>
+                    )}
+
+                    {hasPrioritySection && prioritySection && (
+                        <section class="overview-section">
+                            <h3>{prioritySection.title}</h3>
+
+                            {prioritySection.data.priority && (
+                                <div
+                                    class="overview-investment-priority"
+                                    set:html={prioritySection.data.priority}
+                                />
+                            )}
+
+                            {prioritySection.data.details && (
+                                <div
+                                    class="overview-text"
+                                    set:html={prioritySection.data.details}
+                                />
+                            )}
+                        </section>
+                    )}
+                </div>
             </div>
-        </section>
+        </details>
     )
 }
 
