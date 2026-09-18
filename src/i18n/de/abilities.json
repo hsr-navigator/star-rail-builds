@@ -1,16 +1,11 @@
 {
-    "na": "Standardangriff",
-    "ca": "Heftiger Schlag",
-    "skill": "Fähigkeit",
-    "burst": "Spezialfähigkeit",
-    "bol": "Eid des Lebens",
-    "nightsoul-blessing": "Nachtseelensegen",
-    "nightsoul-burst": "Nachtseelenaufbruch",
-    "nightsoul-point": "Nachtseelenpunkt",
-    "nightsoul-transmission": "Nachtseelen-Übertragung",
-    "arkhe": "Arkhe",
-    "pneuma": "Pneuma",
-    "ousia": "Ousia",
-    "hexerei": "Hexerei",
-    "verdant-dew": "Grünender Tau"
+    "basic": "Standardangriff",
+    "skill": "Fertigkeit",
+    "ultimate": "Ultimate",
+    "talent": "Talent",
+    "technique": "Technik",
+    "elation-skill": "Fähigkeit des Hochgefühls",
+    "assist-skill": "Unterstützungsfertigkeit",
+    "memo-skill": "Technik von Memogeist",
+    "memo-talent": "Talent von Memogeist"
 }

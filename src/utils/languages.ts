@@ -4,8 +4,8 @@ export const languages = [
     { code: 'cht', name: '繁體中文' },
     { code: 'vn', name: 'Tiếng Việt' },
     { code: 'fr', name: 'Français' },
-    /*{ code: 'de', name: 'Deutsch' },
-    { code: 'es', name: 'Español' },
+    { code: 'de', name: 'Deutsch' },
+    /*{ code: 'es', name: 'Español' },
     { code: 'it', name: 'Italiano' },
     { code: 'pt', name: 'Português' },*/
 ] as const;
