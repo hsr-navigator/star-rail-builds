@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Break DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Firefly is a strong Blast Break DPS, relying on her Complete Combustion state to do damage. She enters it by activating her Ultimate.\n- In this state, Firefly's Basic ATK and Skill are enhanced, and she gains increased SPD, Break Effect, and Effect RES. Additionally, whenever Firefly inflicts Weakness Break, the duration of her Complete Combustion state is extended.\n- Her Enhanced Basic ATK and Enhanced Skill both restore her HP. Combined with her 40% DMG Reduction, this makes Firefly a surprisingly durable DPS. Her Enhanced Skill can also implant Fire Weakness on its targets.\n- Firefly's performance is heavily reliant on Dahlia, who enables Super Break damage against enemies that have not yet been Weakness Broken."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > S1"
+            },
+            "details": {
+                "en": "- Firefly's damage output lives on multiple sources of Super Break DMG, from herself and her supports. It is highly recommended to pull for both Fugue and The Dahlia.\n- E2 is her next major investment, potentially allowing Firefly to double the turns that she takes and synergizes well with Fugue's Talent, allowing Firefly to claim Extra Turns when breaking the enemies' second Toughness bar as well.\n- Signatures and early Eidolons for Fugue and The Dahlia also benefit the team (E1, E2, S1)."
+            }
+        }
+    }
+}

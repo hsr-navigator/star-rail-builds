@@ -11,7 +11,7 @@
             "en": "- Clara is a Counter DPS who's primary damage is Single Target. However, her Skill deals AoE damage. When attacked by an enemy, Svarog will Counter with a Single Target attack on the enemy attacking her. Keep in mind that Svarog does not count as a Summon.\n- Her Ultimate provides DMG Reduction for 2 turns, and enhances Svarog’s Counter for the next 2 Counters. The Enhanced state of Svarog’s Counter changes his Single Target damage to Blast while also allowing Svarog to launch Counters when any ally is attacked.\n- When an enemy attacks Clara, they are marked with \"Mark of Counter\". Her next Skill deals additional damage to enemies with \"Mark of Counter\" and removes \"Mark of Counter\" from all enemies after Skill is used.",
             "ru": "- Клара — это ДД от контратак, основной урон которой наносится по одной цели. Однако её навык наносит AoE-урон. Когда Клара атакована противником, Сварог контратакует, нанося урон по одной цели атакующему её противнику. Следует помнить, что Сварог не считается призванным существом.\n- Её сверхспособность даёт ей снижение получаемого урона на 2 хода и усиливает контратаку Сварога на следующие 2 хода. Усиленная контратака Сварога меняет его атаку по одной цели на взрывную атаку, а также позволяет Сварогу использовать контратаки при атаке любого союзника.\n- Когда противник атакует Клару, он получает Метку контратаки. Её следующий навык наносит дополнительный урон противникам с Меткой контратаки и снимает Метку контратаки со всех противников после использования навыка."
         },
-        "investment_priority": {
+        "notable_eidolons": {
             "priority": {
                 "en": "E6",
                 "ru": "E6"

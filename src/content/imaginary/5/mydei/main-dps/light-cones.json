@@ -1,0 +1,44 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "flame-of-blood-blaze-my-path",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-unreachable-side",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-secret-vow",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-trail-of-bygone-blood",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ninja-record-sound-hunt",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

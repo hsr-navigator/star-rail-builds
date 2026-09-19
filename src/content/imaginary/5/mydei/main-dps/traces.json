@@ -1,0 +1,32 @@
+{
+    "traces": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ultimate"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "talent"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "basic"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "stats": [
+        {
+            "name": "hp",
+            "recommended": "8500+",
+            "note": {
+                "en": "S1 [[light-cone:flame-of-blood-blaze-my-path]] requires Jingliu to have at least 8334 HP for her to gain the additional 30% DMG boost."
+            }
+        },
+        {
+            "name": "spd",
+            "recommended": "96",
+            "note": {
+                "en": "This build does not require [[stat:spd]]."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "50%"
+        },
+        {
+            "name": "cd",
+            "recommended": "180%"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "iron-cavalry",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thief",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "watchmaker",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "forge",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "talia",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

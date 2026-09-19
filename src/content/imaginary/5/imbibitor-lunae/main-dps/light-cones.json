@@ -1,0 +1,55 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "thus-burns-the-dawn",
+                    "superimposition": 1,
+                    "note": {
+                        "en": "Using [[light-cone:thus-burns-the-dawn]] and [[set:poet-of-mourning-collapse]] will disqualify you from the highest CRIT Rate bonus."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "brighter-than-the-sun",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "aeon",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "something-irreplaceable",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-secret-vow",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "under-the-blue-sky",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

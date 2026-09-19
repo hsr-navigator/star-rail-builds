@@ -1,0 +1,22 @@
+{
+    "best": true,
+    "name": {
+        "en": "Main DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- When Jingliu uses her Skill or Ultimate, she gains 1 stack of \"Syzygy\". When she has 2 \"Syzygy\" stacks, Jingliu enters the \"Spectral Transmigration\" state, advances herself, gains an extra \"Syzygy\" stack, and increase the \"Syzygy\" cap to 4. In this state, Jingliu gains CRIT Rate% and can only use Enhanced Skill.\n- When Jingliu uses Enhanced Skill, she consumes allies' HP and a stack of \"Syzygy\" to launch a Blast ATK.\n- Whenever allies' HP is reduced, she gains Moonlight stacks, which increases Crit DMG%. Additionally, when allies' HP are reduced 20 times, gains 1 \"Syzygy\" stack.\n- Jingliu's performance is heavily dependent on Hyacine. Hyacine E0S1 is especially important for Jingliu, as they allow her to maintain a full uptime on her \"Spectral Transmigration\" state on top of a solid HP buff."
+
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E1 > S1 [[light-cone:flame-of-blood-blaze-my-path]] > S1"
+            },
+            "details": {
+                "en": "- E1 increases her CRIT DMG% and allows Jingliu to deal additional damage to the primary target, increasing Jingliu's strength in single-target combats.\n- S1 [[light-cone:flame-of-blood-blaze-my-path]] gives better damage increase than her own S1 [[light-cone:i-shall-be-my-own-sword]] and also contributes to generating \"Syzygy\" stacks."
+            }
+        }
+    }
+}

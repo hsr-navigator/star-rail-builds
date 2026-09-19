@@ -1,0 +1,20 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "thus-burns-the-dawn",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "indelible-promise",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

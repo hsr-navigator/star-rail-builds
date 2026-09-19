@@ -243,9 +243,9 @@
         "version_released": "4.5",
         "source": "limited-warp",
         "passive": {
-            "en": "ncreases the wearer's CRIT Rate by {{value}}%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by {{value}}%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by {{value}}%.\nWhen every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.",
+            "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by {{value}}%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by {{value}}%.\nWhen every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.",
             "ru": "",
-            "vn": ""
+            "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, nhận \"Làn Gió Mới\", \"Làn Gió Mới\" khiến Tốc Độ của người trang bị tăng {{value}}%. Nếu Kỹ Năng Vui Vẻ thi triển khác với Kỹ Năng Vui Vẻ thi triển lần trước, sẽ nhận thêm \"Trào Lưu\", \"Trào Lưu\" khiến Độ Vui Vẻ của người trang bị tăng {{value}}%.\nKhi bắt đầu mỗi đợt hoặc sau mỗi khi người trang bị thi triển 3 lần Kỹ Năng Vui Vẻ, hồi 1 Điểm Chiến Kỹ."
         },
         "s1": [
             18,

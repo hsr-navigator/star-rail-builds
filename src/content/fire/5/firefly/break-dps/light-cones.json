@@ -1,0 +1,40 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "whereabouts-should-dreams-rest",
+                    "superimposition": 1
+                },
+                {
+                    "name": "thus-burns-the-dawn",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thus-burns-the-dawn",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "aeon",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "indelible-promise",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en": "Hybrid DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Xueyi is a four-star Break DPS. She was designed to be a hybrid CRIT and Break DPS. Going fully into Break build is better, thanks to the incredible buffs and debuffs the team has to offer.\n- When dealing Toughness Reduction, Xueyi gains Karma. After reacing 8 Karma, she launches a Follow-Up ATK. This Follow-Up ATK cannot add Karma stacks. Karma can have 6 overflow stacks, up to a max of 14."
+        },
+        "notable_eidolons": {
+            "priority": {
+                "en": "E1, E6"
+            },
+            "details": {
+                "en": "- E1 increases the damage dealt by the Follow-Up ATK by 40%. Since most her damage comes from here, it makes it pretty good.\n- E6 reduces the stacks needed to launch a Follow-Up ATK, leading to more frequent Toughness damage."
+            }
+        }
+    }
+}

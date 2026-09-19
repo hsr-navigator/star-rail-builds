@@ -1,0 +1,17 @@
+{
+    "main_stats": {
+        "body": [
+            "cr/cd"
+        ],
+        "feet": [
+            "hp%"
+        ],
+        "planar_sphere": [
+            "ice-dmg",
+            "hp%"
+        ],
+        "link_rope": [
+            "hp%"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "genius",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "talia",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sss",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

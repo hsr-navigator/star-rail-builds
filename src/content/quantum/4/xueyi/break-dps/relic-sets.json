@@ -1,0 +1,54 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "iron-cavalry",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thief",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "forge",
+                            "pieces": 2,
+                            "note":{
+                                "en": "The Dahlia or an enemy with Fire Weakness must be present.",
+                                "ru": "Необходима Георгина или противник с огненной уязвимостью."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "talia",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

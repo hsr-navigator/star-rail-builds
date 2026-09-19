@@ -1,0 +1,26 @@
+{
+    "stats": [
+        {
+            "name": "hp",
+            "recommended": "8000+",
+            "note": {
+                "en": "As long as Mydei has 8,000+ HP at the VERY start of Combat, he will gain 48% CRIT Rate from his A6 Trace Bloodied Chiton."
+            }
+        },
+        {
+            "name": "spd",
+            "recommended": "95",
+            "note": {
+                "en": "This build does not require [[stat:spd]]."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "52%"
+        },
+        {
+            "name": "cd",
+            "recommended": "250%"
+        }
+    ]
+}
