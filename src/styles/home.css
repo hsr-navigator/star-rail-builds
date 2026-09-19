@@ -418,31 +418,31 @@ body[data-type="base"].browser-background {
 }
 
 .roster-character.physical {
-    --roster-type: #b8b6b5;
+    --roster-type: #cccccc;
 }
 
 .roster-character.fire {
-    --roster-type: #ff6640;
+    --roster-type: #EA3F3F;
 }
 
 .roster-character.ice {
-    --roster-type: #7af0f0;
+    --roster-type: #7FD2FC;
 }
 
 .roster-character.lightning {
-    --roster-type: #D559FF;
+    --roster-type: #BE79D8;
 }
 
 .roster-character.wind {
-    --roster-type: #9de43b;
+    --roster-type: #67C086;
 }
 
 .roster-character.quantum {
-    --roster-type: #7552FF;
+    --roster-type: #9284EA;
 }
 
 .roster-character.imaginary {
-    --roster-type: #f3b530;
+    --roster-type: #F3C030;
 }
 
 .roster-character[data-rarity='4'] {
@@ -697,7 +697,11 @@ body[data-type="base"].browser-background {
     padding: 7px 6px;
 
     background:
-        rgba(3, 5, 8, 0.72);
+        /* rgba(3, 5, 8, 0.72); */
+        /* #0f2340b8; */
+        /* #142032b8; */
+        /* #1825388f; */
+        #3a4e6a54;
 }
 
 .roster-character-name {
