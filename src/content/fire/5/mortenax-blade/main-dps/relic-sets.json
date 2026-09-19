@@ -1,0 +1,55 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "divine-querying-master-smith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "eagle",
+                            "pieces": 4,
+                            "note_group": "mblade-support",
+                            "note": {
+                                "en": "Are best used if you want more of his supportive capabilities while sacrificing a bit of his personal damage."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "bone",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "vonwacq",
+                            "pieces": 2,
+                            "note_group": "mblade-support"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

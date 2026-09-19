@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Support/Sub-DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- A Support/Sub-DPS unit with extremely strong buffs provided through his Ultimate's \"Zone\" effect. \n- This \"Zone\" reduces enemy DEF while providing Vulnerability, 50% teamwide DMG%, and either 75% Ultimate DMG% or 75% self DMG% if he is the sole Nihility character on the team. Enemy attacks will cause them to be debuffed, granting Blade \"Charges\" for his Follow-Up ATK. It also buffs his own CRIT Rate and CRIT DMG, increasing his personal damage potential. While the \"Zone\" is active, increases his Incoming Healing and decreases DMG taken for himself.\n- Due to his very broad amplifications, he can slot into any team and opens up the possibility of sustainless gameplay through his \"Taunt\" increase."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > E1 > S1"
+            },
+            "details": {
+                "en": "- E2 allows any ally's Ultimate to be considered a Follow-Up ATK. It also increases the damage of Follow-Up ATKs while lowering the charges required for his own Follow-Up ATK. This E2 is the single largest boost for any team with Ashveil, since now any Ultimate will have his Follow-Up ATK buffs.\n- E1 reduces All-Type RES of all enemies by 20%. It also delays the countdown on his Ultimate every time Mortenax Blade uses his Follow-Up ATK, allowing for more uptime on his \"Zone\".\n- S1 [[lightcone:reforged-in-hellfire]] has the highest HP values of any Nihility light cones, allows a first-turn Ultimate for himself, but lacks value for teamwide damage amplification. S1 has higher value if you choose to use him as the carry of the team."
+            }
+        }
+    }
+}

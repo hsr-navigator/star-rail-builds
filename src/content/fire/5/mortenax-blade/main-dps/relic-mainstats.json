@@ -1,0 +1,19 @@
+{
+    "main_stats": {
+        "body": [
+            "cr"
+        ],
+        "feet": [
+            "spd",
+            "hp%"
+        ],
+        "planar_sphere": [
+            "hp%",
+            "fire-dmg"
+        ],
+        "link_rope": [
+            "err",
+            "hp%"
+        ]
+    }
+}
