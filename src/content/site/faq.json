@@ -2,31 +2,31 @@
     "intro": {
         "en": "Hello and welcome to Star Rail Builds!<br><br>This website aims to help players build their Honkai: Star Rail characters as effectively as possible by providing recommended Light Cones, Relic and Planar Ornament sets, Main Stats, substats, and Trace priorities. This FAQ explains how the guide works and how to interpret its recommendations.",
         "ru": "Добро пожаловать в руководство по билдам персонажей Honkai: Star Rail!<br><br> Цель этого сайта - помочь игрокам как можно лучше собрать своих персонажей: выбрать оптимальные Световые конусы, наборы реликвий и планарные украшения, основаные статы, сабстаты, и приоритетные следы. Раздел FAQ предназначен для того, чтобы помочь разобраться, как работает руководство и как интерпретировать его рекомендации.",
-        "vn": "Xin chào và chào mừng bạn đến với Star Rail Builds!<br><br>Trang web này được làm ra nhằm mục đích giúp người chơi build các Nhân Vật Honkai: Star Rail của họ một cách hiệu quả nhất có thể bằng cách cung cấp các Nón Ánh Sáng, bộ Di Vật và Phụ Kiện Vị Diện được đề xuất, các chỉ số chính, chỉ số phụ và mức độ ưu tiên của Vết Tích. Phần Câu hỏi thường gặp này giải thích cách hoạt động của hướng dẫn này và cách diễn giải các đề xuất trong đó."
+        "vn": "Xin chào và chào mừng bạn đến với Star Rail Builds!<br><br>Trang web này được làm ra nhằm mục đích giúp người chơi build các Nhân Vật Honkai: Star Rail của họ một cách hiệu quả nhất có thể bằng cách cung cấp đề xuất các Nón Ánh Sáng, bộ Di Vật và Phụ Kiện Vị Diện, các Thuộc Tính Chính, Thuộc Tính Phụ và mức độ ưu tiên của Vết Tích. Phần Câu hỏi thường gặp này giải thích cách hoạt động của hướng dẫn này và cách diễn giải các đề xuất trong đó."
     },
     "items": [
         {
             "question": {
                 "en": "Why use a website instead of a Google Sheet?",
                 "ru": "Почему вы используете веб-сайт, вместо таблицы Google Sheet?",
-                "vn": "Tại sao lại sử dụng trang web thay vì Google Sheet?"
+                "vn": "Tại sao lại sử dụng trang web thay vì Google Trang tính?"
             },
             "answer": {
                 "en": "The guide originally existed as a Google Sheet, but as the amount of Honkai: Star Rail build information grew, a website became a better way to organize and present it. The website makes it easier to browse characters, search and filter Light Cones and Relics, view detailed set and Light Cone information, manage multiple builds for a character, and expand the guide with new features without overcrowding a spreadsheet.",
                 "ru": "Первоначально руководство существовало в виде таблицы Google Sheets, но по мере роста объема информации о сборках персонажей в Honkai: Star Rail, веб-сайт стал более удобным способом организации и представления данных. Веб-сайт упрощает поиск персонажей, фильтрацию Световых конусов и реликвий, просмотр подробной информации о наборах и Световых конусах, управление несколькими сборками для одного персонажа, а также позволяет расширять руководство новыми функциями, не перегружая электронную таблицу.",
-                "vn": "Hướng dẫn ban đầu tồn tại dưới dạng bảng tính Google Sheets, nhưng khi lượng thông tin về cách build Nhân Vật trong Honkai: Star Rail tăng lên, một trang web trở thành cách tốt hơn để tổ chức và trình bày nó. Trang web giúp dễ dàng duyệt Nhân Vật, tìm kiếm và lọc các Nón Ánh Sáng và bộ Di Vật, xem thông tin chi tiết về bộ trang bị và Nón Ánh Sáng, quản lý nhiều build khác nhau của một Nhân Vật và mở rộng hướng dẫn với các tính năng mới mà không làm quá tải bảng tính."
+                "vn": "Hướng dẫn ban đầu tồn tại dưới dạng bảng tính Google Trang tính, nhưng khi lượng thông tin về cách build Nhân Vật trong Honkai: Star Rail tăng lên, một trang web trở thành cách tốt hơn để tổ chức và trình bày nó. Trang web giúp dễ dàng duyệt Nhân Vật, tìm kiếm và lọc các Nón Ánh Sáng và bộ Di Vật, xem thông tin chi tiết về bộ trang bị và Nón Ánh Sáng, quản lý nhiều build khác nhau của một Nhân Vật và mở rộng hướng dẫn với các tính năng mới mà không làm quá tải bảng tính."
             }
         },
         {
             "question": {
                 "en": "What happened to the original Google Sheet?",
                 "ru": "Что случилось с оригинальной таблицей Google Sheets?",
-                "vn": "Điều gì đã xảy ra với Google Sheet gốc?"
+                "vn": "Điều gì đã xảy ra với Google Trang tính gốc?"
             },
             "answer": {
                 "en": "The website is the continuation of the original Honkai: Star Rail build guide that was maintained in Google Sheets. The move to a website allows the guide to present the same kind of build information in a more organized and interactive format while making future updates and new features easier to manage.",
                 "ru": "Этот веб-сайт является продолжением оригинального руководства по сборке Honkai: Star Rail, которое ранее велось в Google Sheets. Переход на веб-сайт позволяет представить ту же информацию о сборке в более организованном и интерактивном формате, а также упрощает управление будущими обновлениями и новыми функциями.",
-                "vn": "Trang web này là phần tiếp theo của hướng dẫn build Nhân Vật Honkai: Star Rail gốc được duy trì trên Google Sheets. Việc chuyển sang trang web cho phép hướng dẫn trình bày thông tin build tương tự một cách có tổ chức và tương tác hơn, đồng thời giúp việc quản lý các bản cập nhật và tính năng mới trong tương lai dễ dàng hơn."
+                "vn": "Trang web này là phần tiếp theo của hướng dẫn build Nhân Vật Honkai: Star Rail gốc được duy trì trên Google Trang tính. Việc chuyển sang trang web cho phép hướng dẫn trình bày thông tin build tương tự một cách có tổ chức và tương tác hơn, đồng thời giúp việc quản lý các bản cập nhật và tính năng mới trong tương lai dễ dàng hơn."
             }
         },
         {
