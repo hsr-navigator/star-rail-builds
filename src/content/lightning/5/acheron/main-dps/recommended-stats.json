@@ -5,6 +5,13 @@
             "recommended": "3100+"
         },
         {
+            "name": "spd",
+            "recommended": "101",
+            "note": {
+                "en": "This build does not require [[stat:spd]]."
+            }
+        },
+        {
             "name": "cr",
             "recommended": "84%",
             "note": {
