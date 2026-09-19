@@ -4,6 +4,11 @@
             "version": "Site Conversion",
             "entries": [
                 {
+                    "date": "September 19, 2026",
+                    "changes": "Build transfer completed",
+                    "appliedBy": "Navigator Team"
+                },
+                {
                     "date": "August 31, 2026",
                     "changes": "Added elation and preservation builds",
                     "appliedBy": "Navigator Team"
