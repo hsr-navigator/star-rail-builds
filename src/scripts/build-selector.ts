@@ -75,7 +75,7 @@ function selectBuild(targetId: string | null, updateUrl = true) {
   });
 
   if (updateUrl) {
-    window.history.pushState({}, '', getBuildUrl(activeId));
+    window.history.replaceState({}, '', getBuildUrl(activeId));
   }
 }
 
