@@ -12,16 +12,16 @@ const locale = getLocale('en');
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{t(locale, 'ui', 'Page Not Found')} - Star Rail Builds</title>
-  </head>
-  <body data-type="base">
-    <Header locale={locale} lang="en" page="404" />
-    <NotFoundContent locale={locale} lang="en" detectLanguage />
-    <Footer lang="en" />
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/webp" href={sitePath('favicon.png')} />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{t(locale, 'ui', 'Page Not Found')} - Star Rail Builds</title>
+    </head>
+    <body data-type="base">
+        <Header locale={locale} lang="en" page="404" />
+        <NotFoundContent locale={locale} lang="en" detectLanguage />
+        <Footer lang="en" />
+    </body>
 </html>
