@@ -2,7 +2,7 @@
     "substats_priority": [
         "spd",
         "cr",
-        "cdmg",
+        "cd",
         "hp%"
     ]
 }
