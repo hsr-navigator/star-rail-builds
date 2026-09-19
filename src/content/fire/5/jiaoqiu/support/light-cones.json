@@ -1,0 +1,31 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "those-many-springs",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "lies-dance-on-the-breeze",
+                    "superimposition": 1,
+                    "note": {
+                        "en": "This light cone offers great buffing power, especially when combined with other DEF Ignore/Reduction sources, but will need to change his build for higher focus on Effect Hit Rate to compensate"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "before-the-tutorial-mission-starts",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

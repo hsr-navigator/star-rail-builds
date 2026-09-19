@@ -1,0 +1,27 @@
+{
+    "stats": [
+        {
+            "name": "spd",
+            "recommended": "102 / 134+",
+            "note": {
+                "en": "Depends on team and rotation."
+            }
+        },
+        {
+            "name": "ehr",
+            "recommended": "80%"
+        },
+        {
+            "name": "atk",
+            "recommended": "2600+"
+        },
+        {
+            "name": "cr",
+            "recommended": "100%"
+        },
+        {
+            "name": "cd",
+            "recommended": "90%"
+        }
+    ]
+}

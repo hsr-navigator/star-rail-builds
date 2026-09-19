@@ -1,15 +1,14 @@
 {
     "main_stats": {
         "body": [
-            "cr/cd"
+            "ehr"
         ],
         "feet": [
-            "atk%",
             "spd"
         ],
         "planar_sphere": [
-            "atk%",
-            "lightning-dmg"
+            "wind-dmg",
+            "atk%"
         ],
         "link_rope": [
             "atk%"

@@ -3,13 +3,6 @@
     {
       "items": [
         {
-          "name": "ultimate"
-        }
-      ]
-    },
-    {
-      "items": [
-        {
           "name": "skill"
         }
       ]
@@ -17,17 +10,22 @@
     {
       "items": [
         {
-          "name": "talent"
+          "name": "ultimate"
         }
       ]
     },
     {
       "items": [
         {
-          "name": "basic",
+          "name": "talent",
+          "note_group": "talentba",
           "note": {
-            "en": "Basic ATK can be ignored."
+            "en": "Talent and Basic ATK can be ignored."
           }
+        },
+        {
+          "name": "basic",
+          "note_group": "talentba"
         }
       ]
     }

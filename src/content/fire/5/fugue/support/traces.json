@@ -1,0 +1,29 @@
+{
+    "traces": [
+        {
+            "items": [
+                {
+                    "name": "talent"
+                },
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ultimate",
+                    "note_group": "ultba",
+                    "note": {
+                        "en": "Ultimate and Basic ATK can be ignored."
+                    }
+                },
+                {
+                    "name": "basic",
+                    "note_group": "ultba"
+                }
+            ]
+        }
+    ]
+}

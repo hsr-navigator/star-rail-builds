@@ -1,0 +1,24 @@
+{
+    "best": true,
+    "name": {
+        "en": "Support"
+    },
+    "notes": [
+        {
+            "en": "Cipher's traces only need to be leveled if she's being run as a Sub-DPS."
+        }
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Cipher is a general support capable of storing damage taken by enemies.\n- Cipher's Ultimate records a percentage of the DMG enemies take, excluding overkill, and deals it later. This ability to backload damage allows her teams to skip difficult phases or focus damage onto high priority targets."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "S1 > E1 > E2"
+            },
+            "details": {
+                "en": "- S1 [[light-cone:lies-dance-on-the-breeze]] provides a large personal SPD boost while also reducing the DEF of enemies. It is highly flexible and can be used effectively on other Nihility supports as well.\n- E1 increases the damage she records and grants herself an ATK% buff.\n- E2 provides an additional Vulnerability debuff."
+            }
+        }
+    }
+}

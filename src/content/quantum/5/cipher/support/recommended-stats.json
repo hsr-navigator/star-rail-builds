@@ -1,0 +1,34 @@
+{
+    "stats": [
+        {
+            "name": "spd",
+            "recommended": "170+ / 200+",
+            "note": {
+                "en": "Cipher needs minimum 170 SPD to fulfill her A2 Trace. If being run as a Support, maximize Cipher's SPD."
+            }
+        },
+        {
+            "name": "ehr",
+            "recommended": "38.9%",
+            "note_group": "ehr",
+            "note": {
+                "en": "In case you're not using her signature, you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs."
+            }
+        },
+        {
+            "name": "atk",
+            "recommended": "2500+",
+            "note_group": "subdps"
+        },
+        {
+            "name": "cr",
+            "recommended": "50%",
+            "note_group": "subdps"
+        },
+        {
+            "name": "cd",
+            "recommended": "140%+",
+            "note_group": "subdps"
+        }
+    ]
+}

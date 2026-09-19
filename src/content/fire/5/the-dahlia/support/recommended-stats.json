@@ -1,0 +1,20 @@
+{
+    "stats": [
+        {
+            "name": "spd",
+            "recommended": "160+"
+        },
+        {
+            "name": "be",
+            "recommended": "180%+"
+        },
+        {
+            "name": "ehr",
+            "recommended": "66.7%",
+            "note_group": "ehr",
+            "note": {
+                "en": "In case you're not using her signature, you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs. Dahlia and her S1 [[light-cone:never-forget-her-flame]] do not require any."
+            }
+        }
+    ]
+}

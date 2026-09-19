@@ -3,24 +3,8 @@
         {
             "items": [
                 {
-                    "name": "tutorial",
-                    "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "lies-dance-on-the-breeze",
+                    "name": "along-the-passing-shore",
                     "superimposition": 1
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "thermae",
-                    "superimposition": 5
                 }
             ]
         },
@@ -35,7 +19,23 @@
         {
             "items": [
                 {
-                    "name": "pearls",
+                    "name": "gnsw",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "boundless-choreo",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fermata",
                     "superimposition": 5
                 }
             ]

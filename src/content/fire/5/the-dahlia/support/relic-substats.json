@@ -1,0 +1,10 @@
+{
+    "substats_priority": [
+        "spd",
+        "be",
+        {
+            "name": "ehr",
+            "note_group": "ehr"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "DoT DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Sampo is a 4-star DoT DPS who specializes in applying Wind Shear.\n- His Ultimate applies DoT Vulnerability, and all of his attacks have a chance to inflict Wind Shear on enemies.\n- Sampo's personal damage and teamwide damage amplification are relatively low, making him a weak choice for most endgame content."
+        },
+        "notable_eidolons": {
+            "priority": {
+                "en": "E4, E6"
+            },
+            "details": {
+                "en": "- E4 allows his Skill to detonate 8% of the Wind Shear damage if the enemy has 5 or more stacks of Wind Shear.\n- E6 is a direct multiplier increase to his Wind Shear damage."
+            }
+        }
+    }
+}

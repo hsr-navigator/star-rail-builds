@@ -5,11 +5,8 @@
                 {
                     "items": [
                         {
-                            "name": "eagle-of-twilight-line",
-                            "pieces": 4,
-                            "note": {
-                                "en": "The Action Advance from the 4-Pc effect can be especially valuable for faster rotations."
-                            }
+                            "name": "pioneer",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -18,19 +15,17 @@
         {
             "groups": [
                 {
-                    "choose": true,
                     "items": [
                         {
-                            "name": "2pc-spd",
-                            "pieces": 2
+                            "name": "genius",
+                            "pieces": 4
                         }
                     ]
                 },
                 {
                     "items": [
                         {
-                            "name": "master-smith",
-
+                            "name": "wastelander",
                             "pieces": 4
                         }
                     ]
@@ -44,26 +39,22 @@
                 {
                     "items": [
                         {
-                            "name": "lushaka",
+                            "name": "pan-cosmic",
                             "pieces": 2
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "items": [
                         {
-                            "name": "vonwacq",
-                            "pieces": 2
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "penacony",
+                            "name": "izumo",
                             "pieces": 2,
                             "note": {
-                                "en": "This can only be used if the wearer is of the same Type as the DPS."
+                                "en": "Requires a teammate of the Nihility Path on the team."
                             }
                         }
                     ]
@@ -75,15 +66,7 @@
                 {
                     "items": [
                         {
-                            "name": "city",
-                            "pieces": 2
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "keel",
+                            "name": "rutilant",
                             "pieces": 2
                         }
                     ]

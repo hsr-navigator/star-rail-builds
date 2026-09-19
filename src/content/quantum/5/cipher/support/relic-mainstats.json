@@ -1,0 +1,28 @@
+{
+    "main_stats": {
+        "body": [
+            "ANY",
+            {
+                "name": "cd",
+                "note_group": "subdps"
+            }
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            "ANY",
+            {
+                "name": "quantum-dmg",
+                "note_group": "subdps"
+            }
+        ],
+        "link_rope": [
+            "ANY",
+            {
+                "name": "atk%",
+                "note_group": "subdps"
+            }
+        ]
+    }
+}

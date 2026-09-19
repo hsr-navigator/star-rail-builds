@@ -3,21 +3,6 @@
         {
             "groups": [
                 {
-                    "items": [
-                        {
-                            "name": "eagle-of-twilight-line",
-                            "pieces": 4,
-                            "note": {
-                                "en": "The Action Advance from the 4-Pc effect can be especially valuable for faster rotations."
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
                     "choose": true,
                     "items": [
                         {
@@ -32,6 +17,19 @@
                             "name": "master-smith",
 
                             "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "pioneer",
+                            "pieces": 4,
+                            "note_group": "subdps"
                         }
                     ]
                 }
@@ -85,6 +83,19 @@
                         {
                             "name": "keel",
                             "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "glamoth",
+                            "pieces": 2,
+                            "note_group": "subdps"
                         }
                     ]
                 }

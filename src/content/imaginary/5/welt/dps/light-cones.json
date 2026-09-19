@@ -1,0 +1,56 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "those-many-springs",
+                    "superimposition": 1
+                },
+                {
+                    "name": "along-the-passing-shore",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thermae",
+                    "superimposition": 5
+                },
+                {
+                    "name": "pearls",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "in-the-name-of-the-world",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "incessant-rain",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gnsw",
+                    "superimposition": 5
+                },
+                {
+                    "name": "boundless-choreo",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

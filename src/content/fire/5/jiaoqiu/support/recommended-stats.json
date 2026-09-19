@@ -5,12 +5,8 @@
             "recommended": "160+"
         },
         {
-            "name": "atk",
-            "recommended": "3000+"
-        },
-        {
             "name": "ehr",
-            "recommended": "66.7%"
+            "recommended": "140%"
         }
     ]
 }

@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Break Support"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- The Dahlia is a core support for Break teams.\n- The Dahlia's skill deploys a Zone for three turns. While the Zone is active, allies gain extra Weakness Break Efficency and converts Toughness Damage dealt to targets with toughness bars is into Super Break damage.\n- The Dahlia designates the ally that enters combat as the Dance Partner. The Dahlia provides extra buffs for the Dance Partner and implants with Weakness of the Dance Partner's Type on enemies with her Ultimate.\n- The Dahlia's ability to enable Super Break damage against enemies that are not Weakness Broken makes her a core support for all Super Break characters."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > E1 = S1"
+            },
+            "details": {
+                "en": "- E2 grants a teamwide RES PEN buff and inflicts Wilt on enemies when they enter the field. It provides a significant damage increase for Super Break DPS characters that cannot consistently apply their own Type Weakness, especially Rappa. Energy Regeneration Rate% rope loses value if Dahlia is E2, as Wilt will be applied whenever enemies appear. Thus, Break Effect% becomes better for her own personal damage.\n- S1 [[light-cone:never-forget-her-flame]] grants a rare Break DMG% multiplier, making it a strong overall damage increase.\n- E1 causes the Dance Partner's first attack against each enemy to deal additional Toughness damage equal to 25% of the target's maximum Toughness (up to 300 Toughness)."
+            }
+        }
+    }
+}

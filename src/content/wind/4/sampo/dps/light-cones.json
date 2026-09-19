@@ -3,13 +3,9 @@
         {
             "items": [
                 {
-                    "name": "tutorial",
-                    "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
+                    "name": "those-many-springs",
+                    "superimposition": 1
+                },
                 {
                     "name": "lies-dance-on-the-breeze",
                     "superimposition": 1
@@ -20,20 +16,28 @@
             "items": [
                 {
                     "name": "thermae",
-                    "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "incessant-rain",
                     "superimposition": 1
                 }
             ]
         },
         {
             "items": [
+                {
+                    "name": "payn",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gnsw",
+                    "superimposition": 5
+                },
+                {
+                    "name": "eotp",
+                    "superimposition": 5
+                },
                 {
                     "name": "pearls",
                     "superimposition": 5

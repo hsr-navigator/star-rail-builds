@@ -1,0 +1,19 @@
+{
+    "stats": [
+        {
+            "name": "atk",
+            "recommended": "3100+"
+        },
+        {
+            "name": "cr",
+            "recommended": "84%",
+            "note": {
+                "en": "Assuming Acheron is at E0, and the sets [[set:pioneer]] and [[set:izumo]] are being used. At E1+ while using these two sets, aim for 66% [[stat:cr]] instead. Otherwise adjust accordingly, for 100% [[stat:cr]] in combat."
+            }
+        },
+        {
+            "name": "cd",
+            "recommended": "165%+"
+        }
+    ]
+}

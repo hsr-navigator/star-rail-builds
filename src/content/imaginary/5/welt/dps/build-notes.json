@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Welt is a general support that can also be played as the 4th party member substituting a sustain thanks to his delays and SPD reduction. He can also be played as a main DPS, preferably at higher eidolons.\n- He reduces enemies SPD and from his Ultimate applies the \"Weightless\" state which not only delays enemies on hit, but also is the main source of his amplification.\n- Welt may struggle against multiple waves of enemies, notably in Pure Fiction, as the large amount of enemies entering lowers the uptime on his debuffs.\n- Although Welt can delay enemies, he is not a dedicated sustain character.\n- Welt can cast his Ultimate between an enemy's action and their extra action(s), which will cancel the extra action(s)."
+        },
+        "notable_eidolons": {
+            "priority": {
+                "en": "E4, E2, E6"
+            },
+            "details": {
+                "en": "- E4 reduces the All-Type RES of all enemies under the \"Weightless\" state by 30%.\n- E2 generates 3 extra energy for Welt every time he attacks a Slowed enemy, greatly speeding up his Ultimate recovery.\n- E6 grants Welt 30% CRIT Rate and 60% CRIT DMG for attacks against Slowed enemies."
+            }
+        }
+    }
+}

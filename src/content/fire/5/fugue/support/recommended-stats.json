@@ -2,15 +2,11 @@
     "stats": [
         {
             "name": "spd",
-            "recommended": "134+"
-        },
-        {
-            "name": "atk",
-            "recommended": "3200+"
+            "recommended": "160+"
         },
         {
             "name": "be",
-            "recommended": "120%+"
+            "recommended": "190%+"
         },
         {
             "name": "ehr",

@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Support"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Jiaoqiu is a support unit that debuffs the enemies with Ashen Roast, a unique DoT that also works gives Vulnerability. His Ultimate deploys a Zone that makes so his debuffs are unremovable and carry through waves.\n- His debuffs at a base are 35% Vulnerability (15% + 5% for every stack of Ashen Roast above 1) and 15% specifically for Ultimates (with his zone). The extra utility he provides is mostly noticeable in Pure Fiction, as the debuffs carry over between waves."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "S1 > E1 >> E2"
+            },
+            "details": {
+                "en": "- S1 [[light-cone:those-many-springs]] offers the highest Effect Hit Rate% on a cone at 60%, as well as more Vulnerability and even more for Ultimates.\n- E1 offers quicker ramp up (often negligeable) as well as a bit of an extra amplificatiom.\n- E2 increases the damage of his Ashen Roast DoT, but it is only really impactful for DoT comps. Even so, there are better options, even for sustainless DoT teams."
+            }
+        }
+    }
+}

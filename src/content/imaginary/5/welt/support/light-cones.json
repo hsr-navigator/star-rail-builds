@@ -21,19 +21,7 @@
                 {
                     "name": "thermae",
                     "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "incessant-rain",
-                    "superimposition": 1
-                }
-            ]
-        },
-        {
-            "items": [
+                },
                 {
                     "name": "pearls",
                     "superimposition": 5

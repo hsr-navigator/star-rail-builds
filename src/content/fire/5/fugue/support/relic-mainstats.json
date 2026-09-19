@@ -1,0 +1,22 @@
+{
+    "main_stats": {
+        "body": [
+            "ehr"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            "ANY"
+        ],
+        "link_rope": [
+            "be",
+            {
+                "name": "err",
+                "note": {
+                    "en": "Fugue can be on an Energy Regeneration Rate rope if she has enough [[stat:be]] from her subs, have S1 [[light-cone:long-road-leads-home]], and/or you have her E2."
+                }
+            }
+        ]
+    }
+}

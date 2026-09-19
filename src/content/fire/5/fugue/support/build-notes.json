@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Break Support"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Fugue is a Break focused debuffer. By just being on the team, all the Toughness Reduction dealt will be converted into one instance of 100% Super Break DMG.\n- On top of that, all enemies will get an exo-toughness; whenever an enemy's Toughness bar has been brought to 0, an additional (weaker) bar will appear (both bars can be broken at once).\n- Her skill designates 1 ally, increasing their Break Effect% and making them able to deal 50% of original the Toughness Reduction, even if the enemy does not have the corresponding Weakness. Whenever this ally attacks, Fugue has a chance to decrease the hit enemy's DEF."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > E1 > S1"
+            },
+            "details": {
+                "en": "- E2 grants teamwide action advance equivalent to S5 Dance! Dance! Dance! and gains Energy whenever an enemy's Weakness gets broken.\n- E1 provides 50% Weakness Break Efficiency.\n- S1 provides self Break Effect% and Break Vulnerability on enemies who's Weakness has been Broken, but her E1 and E2 are far more valuable, especially because she has great alternative options."
+            }
+        }
+    }
+}

@@ -1,11 +1,10 @@
 {
     "main_stats": {
         "body": [
+            "ANY",
             {
                 "name": "ehr",
-                "note": {
-                    "en": "Use an [[stat:ehr]] body if you cannot reach the desired [[stat:ehr]] target through substats."
-                }
+                "note_group": "ehr"
             }
         ],
         "feet": [
@@ -15,6 +14,7 @@
             "ANY"
         ],
         "link_rope": [
+            "be",
             "err"
         ]
     }

@@ -5,11 +5,8 @@
                 {
                     "items": [
                         {
-                            "name": "eagle-of-twilight-line",
-                            "pieces": 4,
-                            "note": {
-                                "en": "The Action Advance from the 4-Pc effect can be especially valuable for faster rotations."
-                            }
+                            "name": "iron-cavalry",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -18,19 +15,23 @@
         {
             "groups": [
                 {
-                    "choose": true,
                     "items": [
                         {
-                            "name": "2pc-spd",
-                            "pieces": 2
+                            "name": "eagle",
+
+                            "pieces": 4
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "items": [
                         {
-                            "name": "master-smith",
-
+                            "name": "thief",
+                   
                             "pieces": 4
                         }
                     ]
@@ -44,27 +45,8 @@
                 {
                     "items": [
                         {
-                            "name": "lushaka",
+                            "name": "forge",
                             "pieces": 2
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "vonwacq",
-                            "pieces": 2
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "penacony",
-                            "pieces": 2,
-                            "note": {
-                                "en": "This can only be used if the wearer is of the same Type as the DPS."
-                            }
                         }
                     ]
                 }
@@ -75,15 +57,19 @@
                 {
                     "items": [
                         {
-                            "name": "city",
+                            "name": "vonwacq",
                             "pieces": 2
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "items": [
                         {
-                            "name": "keel",
+                            "name": "talia",
                             "pieces": 2
                         }
                     ]

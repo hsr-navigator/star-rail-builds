@@ -3,32 +3,19 @@
     "name": {
         "en": "Support"
     },
-    "global": [
-        {
-            "tag": "character-calculations",
-            "author": "coffinn",
-            "link": "https://example.com/calcs",
-            "detail": "Character calculations"
-        },
-        {
-            "tag": "investment-chart",
-            "author": "houseplantofficial",
-            "link": "https://imgur.com/a/Cn0nbGf",
-            "detail": "Investment Chart"
-        },
-        {
-            "tag": "team-guide",
-            "author": "GuideAuthor",
-            "link": "https://example.com/teams",
-            "detail": "Team guide"
-        }
-    ],
     "notes": [
-        {
-            "en": "This is the first test Honkai: Star Rail character build."
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Silver Wolf provides a strong amount of AoE RES Pen and DEF Down through her Skill and Ultimate, strongly amplifying damage dealt.\n- Silver Wolf's Skill implants the enemy with the Weakness Type of the first ally target in the lineup while also reducing the target enemy's RES to that Weakness Type. Enemies can only have 1 Weakness Type implated by Silver Wolf at a time."
         },
-        {
-            "en": "Silver Wolf is being used to test the new HSR content structure."
+        "investment_priority": {
+            "priority": {
+                "en": "E1 > E2 > S1"
+            },
+            "details": {
+                "en": "- E1 grants her additional Energy when using her Ultimate to attack debuffed enemies.\n- E2 allows all allies' attacks to inflict debuffs, a vital upgrade for Best in Slot teams for Acheron. However, her E2 loses much of its value when not being used with Acheron.\n- S1 [[light-cone:incessant-rain]] provides [[stat:ehr]], [[stat:cr]], and Vulnerability. While it is an okay choice, Silver Wolf has access to other alternatives."
+            }
         }
-    ]
+    }
 }

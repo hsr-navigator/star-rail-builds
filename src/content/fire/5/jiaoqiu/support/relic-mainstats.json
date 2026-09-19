@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "body": [
+            "ehr"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            {
+                "name": "ANY",
+                "note": {
+                    "en": "His damage contribution is low so defensive main stats are appreciated."
+                }
+            }
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}

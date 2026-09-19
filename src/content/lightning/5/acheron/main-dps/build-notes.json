@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Main DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Acheron is an Ultimate-focused DPS who excells with teammates who can frequently apply debuffs to enemies.\n- Acheron uses a unique Ultimate resource called Slashed Dream. Her Ultimate becomes available at nine stacks, and she can store up to 12. Her skill grants an additional Slashed Dream stack, and she gains stacks whenever allies apply debuffs to enemies, up to one stack per action.\n- Acheron's performance is heavily reliant on Mortenax Blade for damage amplification and frequent debuff application. Due to her A4 trace, Acheron typically wants two other Nihility teammates."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 ≥ S1 > E1"
+            },
+            "details": {
+                "en": "- E2 allows her to fully max out her A4's Trace bonus with only one other Nihility teammate in the team, opening up her team options, as well as providing an additional Slashed Dream stack on her turn.\n- S1 [[light-cone:along-the-passing-shore]] provides herself a large personal damage boost and is a strong Light Cone that often outperforms her other options.\n- E1 provides extra CRIT Rate for her Ultimate."
+            }
+        }
+    }
+}
