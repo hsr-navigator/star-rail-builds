@@ -14,7 +14,16 @@ const { lang = 'en', locale } = Astro.props as {
     lang?: string;
     locale: any;
 };
+const termsOfServiceUrls: Record<string, string> = {
+    en: 'https://hsr.hoyoverse.com/en-us/company/terms',
+    cht: 'https://hsr.hoyoverse.com/zh-tw/company/terms',
+    de: 'https://hsr.hoyoverse.com/de-de/company/terms',
+    fr: 'https://hsr.hoyoverse.com/fr-fr/company/terms',
+    ru: 'https://hsr.hoyoverse.com/ru-ru/company/terms',
+    vn: 'https://hsr.hoyoverse.com/vi-vn/company/terms',
+};
 
+const termsOfServiceUrl = termsOfServiceUrls[lang] ?? termsOfServiceUrls.en;
 const creditsData = credits as CreditsData;
 const translators = [
     ...new Set(Object.values(creditsData.translators ?? {}).flat()),
@@ -56,11 +65,7 @@ const translators = [
     <p>
         {t(locale, 'ui', 'Legal notice unpublished', undefined, false)}{' '}
 
-        <a
-            href="https://hsr.hoyoverse.com/en-us/company/terms"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
+        <a href={termsOfServiceUrl} target="_blank" rel="noopener noreferrer">
             {t(locale, 'ui', 'Terms of Service', undefined, false)}
         </a>
         .

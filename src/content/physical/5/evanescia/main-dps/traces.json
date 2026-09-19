@@ -28,6 +28,19 @@
 
                 }
             ]
+        },
+        {
+            "items": [
+                {
+                    "name": "basic",
+                    "note": {
+                        "en": "Basic ATK can be ignored.",
+                        "ru": "Базовую атаку можно не прокачивать.",
+                        "vn": "Có thể bỏ qua [[ability:basic]].",
+                        "cht": "[[ability:basic]]可以不升級。"
+                    }
+                }
+            ]
         }
     ]
 }
