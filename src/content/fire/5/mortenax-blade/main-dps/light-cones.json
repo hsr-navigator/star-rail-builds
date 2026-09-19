@@ -1,0 +1,48 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "reforged-in-hellfire",
+                    "superimposition": 1
+                },
+                {
+                    "name": "lies-dance-on-the-breeze",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tutorial",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "resolution-shines-as-pearls-of-sweat",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thermae",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "boundless",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

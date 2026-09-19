@@ -1,0 +1,27 @@
+{
+    "stats": [
+        {
+            "name": "hp",
+            "recommended": "5300+ / 7000+"
+        },
+        {
+            "name": "spd",
+            "recommended": "140+ / 134+ / 107",
+            "note_group": "mblade-spd",
+            "note": {
+                "en": "E2 - 140+. E1 - 134+, E2 - Base SPD or 134."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "80%",
+            "note": {
+                "en": "Mortenax Blade self buffs 20% CRIT Rate."
+            }
+        },
+        {
+            "name": "cd",
+            "recommended": "120%+"
+        }
+    ]
+}
