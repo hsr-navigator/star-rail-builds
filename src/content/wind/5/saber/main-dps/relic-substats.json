@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "cr",
+        "cd",
+        "atk%",
+        {
+            "name": "spd",
+            "note_group": "spd",
+            "note": {
+                "en": "Depends on team. 134 SPD or base speed."
+            }
+        }
+    ]
+}

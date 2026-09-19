@@ -1,0 +1,23 @@
+{
+    "stats": [
+        {
+            "name": "atk",
+            "recommended": "3000+"
+        },
+        {
+            "name": "spd",
+            "recommended": "97",
+            "note": {
+                "en": "This build does not require [[stat:spd]]."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "100%"
+        },
+        {
+            "name": "cd",
+            "recommended": "130%+"
+        }
+    ]
+}

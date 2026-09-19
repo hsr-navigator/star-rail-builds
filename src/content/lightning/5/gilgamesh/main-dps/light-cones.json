@@ -1,0 +1,56 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "i-am-as-you-behold",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-thankless-coronation",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thus-burns-the-dawn",
+                    "superimposition": 1
+                },
+                {
+                    "name": "aeon",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-trail-of-bygone-blood",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "something-irreplaceable",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-moles-welcome-you",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

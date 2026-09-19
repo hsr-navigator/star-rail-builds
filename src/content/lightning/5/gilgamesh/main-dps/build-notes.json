@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Main/Sub-DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Gilgamesh is a sub-DPS who has a unique Joint Follow-Up ATK mechanic with Saber.\n- Whenever an ally takes an action, Gilgamesh gains 1 \"Interest\". Each stack of \"Interest\" increases his SPD by 10%. Using his Skill consumes all \"Interest\" stacks.\n- When Gilgamesh and Saber perform a combined total of 8 attacks, they launch a Joint Follow-Up ATK. After it triggers, Saber gains Energy, and her next Ultimate deals significantly increased damage.\n- Gilgamesh is a core support for Saber, but he can also be played as a main DPS in dedicated teams."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E1 > S1 > E2 / E6"
+            },
+            "details": {
+                "en": "- E1 grants Gilgamesh additional fixed Energy whenever he uses his Skill, while also giving allies DEF Ignore. A strong Eidolon that can speed up his Ultimate rotation while supporting the team.\n- S1 [[light-cone:i-am-as-you-behold]] increases his Ultimate DMG, ATK%, and Energy Regeneration Rate, while also granting allies CRIT DMG%. Since most of Gilgamesh's Energy generation is fixed, the Energy Regeneration Rate% provides relatively little benefit.\n- E2 primarily improves his personal damage, making it an upgrade for his Main DPS teams.\n- E6 greatly increases the damage of his Ultimate."
+            }
+        }
+    }
+}

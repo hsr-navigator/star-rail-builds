@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Main DPS"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Saber’s kit revolves around \"Core Resonance\". One \"Core Resonance\" is considered 8 fixed Energy. Saber obtains \"Core Resonance\" through her Skill (+3), Enhanced Basic Attack (+2), Ally Ultimates (+3), and after entering battle with Technique (+3). Saber can hold 120 excess Energy.\n- Upon using Saber's Ultimate, she deals 1 instance of AoE damage followed by 10 additional instances of bounce damage. After using her Ultimate, she is forced to use an Enhanced Basic Attack.\n- Saber's Enhanced Basic Attack deals AoE damage, and deals additional damage if there are less than 2 enemies. Additionally, this ability grants \"Mana Burst\" upon use. While Saber has \"Mana Burst\", when Saber's Ultimate can fully be charged with the energy from \"Core Resonance\" and her Skill, Saber consumes \"Mana Burst\" to immediately take action and gain 1 Skill Point."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E6 > E1 ≥ S1 "
+            },
+            "details": {
+                "en": "- E6 is extremely important for Saber.  When she uses Ultimate for the first time in battle, she gains 300 fixed energy. This can be triggered once after every 3 Ultimates.\n- E1 increases Ultimate DMG by 60% and grants 1 \"Core Resonance\" after Basic ATK/Skill.\n- S1 [[light-cone:a-thankful-coronation]] gives 36% CRIT DMG. When using her Ultimate, she gains 40% attack, a fixed 10% amount of energy equal to her max energy and another 40% attack increase for 2 turns."
+            }
+        }
+    }
+}

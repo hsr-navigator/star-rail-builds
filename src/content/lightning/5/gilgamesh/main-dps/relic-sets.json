@@ -1,0 +1,90 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "genius",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scholar",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "duke",
+                            "pieces": 4,
+                            "note_group": "saber",
+                            "note": {
+                                "en": "Can be used if Gilgamesh is in a team with Saber."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "cosmic",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "rutilant",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "inert-salsotto",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "izumo",
+                            "pieces": 2,
+                            "note": {
+                                "en": "Requires a teammate of the Destruction Path on the team."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "city",
+                            "pieces": 2,
+                            "note_group": "saber"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

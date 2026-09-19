@@ -1,0 +1,80 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scholar",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "eagle",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "genius",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Genius is worse than her other options with no other sources of DEF Ignore. However can become her BiS with more sources of DEF Ignore/DEF Reduction."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "cosmic",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "rutilant",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "inert-salsotto",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "izumo",
+                            "pieces": 2,
+                            "note": {
+                                "en": "Requires a teammate of the Destruction Path on the team."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

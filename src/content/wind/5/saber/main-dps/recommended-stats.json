@@ -1,0 +1,24 @@
+{
+    "stats": [
+        {
+            "name": "atk",
+            "recommended": "2500+"
+        },
+        {
+            "name": "spd",
+            "recommended": "101 / 134",
+            "note_group": "spd"
+        },
+        {
+            "name": "cr",
+            "recommended": "80%",
+            "note": {
+                "en": "Saber's A2 buffs her [[stat:cr]] by 20%, for 100% [[stat:cr]] in battle."
+            }
+        },
+        {
+            "name": "cd",
+            "recommended": "160%+"
+        }
+    ]
+}
