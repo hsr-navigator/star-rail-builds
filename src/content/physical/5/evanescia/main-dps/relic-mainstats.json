@@ -5,11 +5,13 @@
         ],
         "feet": [
             "atk%",
-            "spd"
+            "spd", 
+            "ANY"
         ],
         "planar_sphere": [
             "physical-dmg",
-            "atk%"
+            "atk%",
+            "ANY"
         ],
         "link_rope": [
             "err"

@@ -1,15 +1,6 @@
 {
     "stats": [
-        {
-            "name": "spd",
-            "recommended": "104",
-            "note": {
-                "en": "This build does not require [[stat:spd]].",
-                "ru": "Данный билд не требует скорость.",
-                "vn": "Build này không cần [[stat:spd]].",
-                "cht": "這套出裝不需要[[stat:spd]]。"
-            }
-        },
+        
         {
             "name": "cr",
             "recommended": "70%",
