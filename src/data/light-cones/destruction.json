@@ -210,7 +210,7 @@
         "version_released": "2.4",
         "source": ["limited-warp", "stellar-convergence"],
         "passive": {
-            "en": "Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by {{value}}%. After the wearer uses Ultimate, receives 1 stack of Firedance, lasting for 2 turns and stacking up to 2 time(s). Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by {{value}}%.",
+            "en": "Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by {{value}}%. After the wearer uses Ultimate, receives 1 stack of \"Firedance\", lasting for 2 turns and stacking up to 2 time(s). Each stack of \"Firedance\" increases the DMG dealt by the wearer's Follow-Up ATK by {{value}}%.",
             "ru": "Шанс владельца быть атакованным противниками значительно повышается. Его крит. урон также повышается на {{value}}%.  После использования сверхспособности владелец получает 1 ур. статуса Огненный танец на 2 хода. Этот эффект может складываться до 2 раз. Каждый уровень статуса Огненный танец повышает наносимый бонус-атакой владельца урон на {{value}}%.",
             "vn": "Tăng mạnh xác suất người trang bị chịu tấn công, Sát Thương Bạo Kích tăng {{value}}%. Sau khi người trang bị thi triển Tuyệt Kỹ, sẽ nhận được 1 tầng Hỏa Vũ, duy trì 2 hiệp, tối đa cộng dồn 2 tầng. Mỗi tầng Hỏa Vũ khiến sát thương do Đòn Đánh Theo Sau của người trang bị gây ra tăng {{value}}%."
         },
