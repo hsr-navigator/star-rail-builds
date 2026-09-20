@@ -104,10 +104,28 @@ export function getHomePageData(lang = 'en') {
                 builds: getBuildSummaries(characterPath, lang, translator),
             };
         })
-        .sort(
-            (a, b) =>
-                a.type.localeCompare(b.type) || a.name.localeCompare(b.name),
-        );
+        .sort((a, b) => {
+            const leftVersion =
+                Number.parseFloat(a.versionReleased);
+
+            const rightVersion =
+                Number.parseFloat(b.versionReleased);
+
+            const safeLeft =
+                Number.isFinite(leftVersion)
+                    ? leftVersion
+                    : Number.NEGATIVE_INFINITY;
+
+            const safeRight =
+                Number.isFinite(rightVersion)
+                    ? rightVersion
+                    : Number.NEGATIVE_INFINITY;
+
+            return (
+                safeRight - safeLeft ||
+                a.name.localeCompare(b.name)
+            );
+        });
 
     const recentlyUpdatedCharacters = characters.filter(
         (character) => character.isRecentlyUpdated,

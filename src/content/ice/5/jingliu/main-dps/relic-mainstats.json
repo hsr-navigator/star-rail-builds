@@ -1,13 +1,13 @@
 {
     "main_stats": {
         "body": [
-            "cr/cd"
+            "hp%"
         ],
         "feet": [
             "hp%"
         ],
         "planar_sphere": [
-            "imaginary-dmg",
+            "ice-dmg",
             "hp%"
         ],
         "link_rope": [

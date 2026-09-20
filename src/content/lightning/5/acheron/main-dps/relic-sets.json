@@ -7,6 +7,25 @@
                         {
                             "name": "pioneer",
                             "pieces": 4
+                        },
+                        {
+                            "name": "duke",
+                            "pieces": 4,
+                            "note": {
+                                "en":"Best in Slot when used with E2 Mortenax Blade."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups":[
+                {
+                    "items":[
+                        {
+                            "name": "eagle",
+                            "pieces": 4
                         }
                     ]
                 }

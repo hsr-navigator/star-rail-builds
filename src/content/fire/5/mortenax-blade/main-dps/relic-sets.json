@@ -27,20 +27,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "groups":[
+                {
+                    "items":[
+                        {
+                            "name": "guard",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Viable set for sustainless runs."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "planar_ornaments": [
         {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "bone",
-                            "pieces": 2
-                        }
-                    ]
-                },
-                {
+            "groups": [{
                     "items": [
                         {
                             "name": "vonwacq",
@@ -48,7 +54,16 @@
                             "note_group": "mblade-support"
                         }
                     ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "bone",
+                            "pieces": 2
+                        }
+                    ]
                 }
+                
             ]
         }
     ]

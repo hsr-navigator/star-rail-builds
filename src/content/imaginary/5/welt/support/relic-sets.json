@@ -30,7 +30,6 @@
                     "items": [
                         {
                             "name": "master-smith",
-
                             "pieces": 4
                         }
                     ]
@@ -44,7 +43,7 @@
                 {
                     "items": [
                         {
-                            "name": "lushaka",
+                            "name": "vonwacq",
                             "pieces": 2
                         }
                     ]
@@ -52,7 +51,7 @@
                 {
                     "items": [
                         {
-                            "name": "vonwacq",
+                            "name": "lushaka",
                             "pieces": 2
                         }
                     ]
