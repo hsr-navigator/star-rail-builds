@@ -37,6 +37,7 @@
                     ]
                 },
                 {
+                    "choose": true,
                     "items": [
                         {
                             "name": "2pc-be",
