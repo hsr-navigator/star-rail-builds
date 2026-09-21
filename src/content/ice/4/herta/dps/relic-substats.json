@@ -1,14 +1,8 @@
 {
     "substats_priority": [
         "cr",
-        {
-            "name": "cd"
-        },
-        {
-            "name": "spd"
-        },
-        {
-            "name": "atk%"
-        }
+        "cd",
+        "atk%",
+        "spd"
     ]
 }

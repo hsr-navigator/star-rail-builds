@@ -5,13 +5,21 @@
         ],
         "feet": [
             "atk%",
-            "spd", 
-            "ANY"
+            {
+                "name": "ANY",
+                "note": {
+                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus HP or DEF Main Stats are viable options for better survivability. For maximizing damage, [[stat:atk]] is more recommended. SPD is only recommended for specific rotations."
+                }
+            }
         ],
         "planar_sphere": [
             "physical-dmg",
-            "atk%",
-            "ANY"
+            {
+                "name": "ANY",
+                "note": {
+                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus she can use any Main Stat. For maximizing damage, [[stat:physical-dmg]] is more recommended."
+                }
+            }
         ],
         "link_rope": [
             "err"

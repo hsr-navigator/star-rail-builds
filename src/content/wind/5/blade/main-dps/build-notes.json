@@ -7,14 +7,14 @@
     ],
     "overview": {
         "summary": {
-            "en": "- When [[character:blade]] uses his Skill, he consumes his HP and enters the \"Hellscape\" state. In this state, he deals more damage, increases his chance of being hit, and enhances his Basic ATK, by consuming his HP and deals Blast damage. His Enhanced Basic ATK will not generate Skill Points, and he will exit the \"Hellscape\" state after 3 turns.\n- When his HP reduces or he takes damage, he gains 1 \"Charge\". When he obtains 5 \"Charge\", [[character:blade]] unleashes an AoE Follow-Up ATK, gains 15 Energy, and heals himself.\n- When using his Ultimate, he sets his HP to 50% of his Max HP and deals Blast damage based on his Max HP and the tallied HP that he lost during the battle."
+            "en": "- When [[character:blade]] uses his Skill, he consumes his HP and enters the \"Hellscape\" state. In this state, he deals more damage, increases his chance of being hit, and enhances his Basic ATK, which consumes his HP and deals Blast damage when used. His Enhanced Basic ATK will not generate Skill Points, and he will exit the \"Hellscape\" state after 3 turns.\n- When his HP is reduced or he takes damage, he gains 1 \"Charge\". When he obtains 5 \"Charge\", [[character:blade]] unleashes an AoE Follow-Up ATK, gains 15 Energy, and heals himself.\n- When using his Ultimate, he sets his HP to 50% of his Max HP and deals Blast damage based on his Max HP and the tallied HP that he lost during the battle."
         },
         "investment_priority": {
             "priority": {
                 "en": "E1 > S1"
             },
             "details": {
-                "en": "- E1 allows [[character:blade]]'s Enhanced Basic ATK and Ultimate to deal additional damage based on 150% of his lost tallied HP.\n- S1 [[light-cone:the-unreachable-side]] is one of his best options, but he has great alternative options."
+                "en": "- E1 allows [[character:blade]]'s Enhanced Basic ATK and Ultimate to deal additional damage based on 150% of his lost tallied HP.\n- S1 [[light-cone:the-unreachable-side]] is one of his best options, but he has great alternatives."
             }
         }
     }

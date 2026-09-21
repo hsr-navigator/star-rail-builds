@@ -5,10 +5,12 @@
             "cd"
         ],
         "feet": [
-            "atk%","spd"
+            "atk%",
+            "spd"
         ],
         "planar_sphere": [
-            "ice-dmg","atk%"
+            "ice-dmg",
+            "atk%"
         ],
         "link_rope": [
             "atk%"

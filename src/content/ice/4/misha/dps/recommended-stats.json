@@ -4,7 +4,7 @@
             "name": "cr",
             "recommended": "94%",
             "note": {
-                "en": "Assumes [[set:pioneer]] is being used. Tune your CRIT Rate according to in battle buffs.",
+                "en": "Assumes [[set:pioneer]] is being used. Adjust your CRIT Rate according to in battle buffs.",
                 "ru": "Предполагается, что используется [[set:pioneer]]. Настройте свой крит. шанс в соответствии с баффами в бою"
             }
         },

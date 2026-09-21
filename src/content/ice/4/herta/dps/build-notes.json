@@ -1,14 +1,16 @@
 {
     "best": true,
     "name": {
-        "en": "Sub DPS",
-        "ru": "Саб-ДД"
+        "en": "Sub-DPS",
+        "ru": "Саб-ДД",
+        "vn": "Sub-DPS"
     },
     "notes": [],
     "overview": {
         "summary": {
             "en": "- Herta's primary source of damage is her AoE Follow-Up ATK, which is triggered when any ally causes an enemy’s HP to fall below 50%. This Follow-Up ATK can only be performed 5 times at once, and any unused charges are stored until the next instance of an ally reducing an enemy’s HP below 50%.\n- She has few cases outside of being a low-investment sub DPS option for The Herta, primarily in Pure Fiction. Thanks to her frequent attacks and her personal damage, she generates Energy decently well for The Herta while also helping to defeat enemies.\n- She is a usable DPS in Pure Fiction, but gets held back by subpar damage multipliers from being an older 4-star.",
-            "ru": "- Основной источник урона Герты — это её AoE-бонус-атака, которая активируется, когда любой союзник снижает здоровье противника ниже 50%. Эта бонус-атака может быть выполнена только 5 раз за раз, и все неиспользованные заряды сохраняются до следующего случая, когда союзник снизит здоровье противника ниже 50%.\n- У неё мало применений, кроме как в качестве недорогого Саб-ДД для Великой Герты, в основном в Чистом вымысле. Благодаря частым атакам и собственному урону она неплохо генерирует энергию для Великой Герты, а также помогает побеждать противников.\n- Она является полезным ДД в Чистом вымысле, но её сдерживают невысокие множители урона, обусловленные тем, что это старый 4-звёздочный персонаж."
+            "ru": "- Основной источник урона Герты — это её AoE-бонус-атака, которая активируется, когда любой союзник снижает здоровье противника ниже 50%. Эта бонус-атака может быть выполнена только 5 раз за раз, и все неиспользованные заряды сохраняются до следующего случая, когда союзник снизит здоровье противника ниже 50%.\n- У неё мало применений, кроме как в качестве недорогого Саб-ДД для Великой Герты, в основном в Чистом вымысле. Благодаря частым атакам и собственному урону она неплохо генерирует энергию для Великой Герты, а также помогает побеждать противников.\n- Она является полезным ДД в Чистом вымысле, но её сдерживают невысокие множители урона, обусловленные тем, что это старый 4-звёздочный персонаж.",
+            "vn": "- Nguồn sát thương chính của Herta đến từ Đòn Đánh Theo Sau diện Đánh Lan, được kích hoạt khi bất kỳ đồng minh nào khiến HP của kẻ địch giảm xuống dưới 50%. Đòn Đánh Theo Sau này chỉ có thể thực hiện tối đa 5 lần liên tiếp, các lượt kích hoạt chưa dùng đến sẽ được tích trữ lại cho đến khi có đồng minh tiếp theo làm giảm HP của kẻ địch xuống dưới 50%.\n- Cô ấy hiếm khi được sử dụng ngoài vai trò là một lựa chọn sub-DPS cho [[character:the-herta]], chủ yếu là trong chế độ Kể Chuyện Hư Cấu. Nhờ tần suất tấn công dày đặc và lượng sát thương cá nhân tốt, cô vừa giúp nạp Năng Lượng hiệu quả cho [[character:the-herta]], vừa hỗ trợ tiêu diệt kẻ địch.\n- Cô ấy là một DPS có thể sử dụng được trong Kể Chuyện Hư Cấu, nhưng bị hạn chế bởi các hệ số sát thương không quá cao do là nhân vật 4 sao đời đầu."
         },
         "notable_eidolons": {
             "priority": {
@@ -17,7 +19,8 @@
             },
             "details": {
                 "en": "- Her E2 provides 15% total CRIT Rate, allowing her to only need 85% before entering combat.",
-                "ru": "- Ее E2 даёт 15% крит. шанса, благодаря чему ей достаточно 85% перед началом боя."
+                "ru": "- Ее E2 даёт 15% крит. шанса, благодаря чему ей достаточно 85% перед началом боя.",
+                "vn": "- E2 của cô cung cấp tổng 15% [[stat:cr]], nhờ đó cô chỉ cần đạt 85% trước khi vào trận."
             }
         }
     }
