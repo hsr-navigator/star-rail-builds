@@ -11,6 +11,14 @@
         {
             "items": [
                 {
+                    "name": "summer-rides-the-surf",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "todays-good-luck",
                     "superimposition": 5,
                     "note_group": "s1-comparison",
