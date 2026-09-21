@@ -23,7 +23,8 @@
                     "superimposition": 3,
                     "note": {
                         "en": "Only better than a 635+ base ATK Light Cone from any Path at S3+. If wanting to buff the selected DPS with ATK, use a high base ATK Light Cone from any Path instead of [[light-cone:journey-forever-peaceful]].",
-                        "ru": "Лучше, чем Световой конус с базовой атакой 635+ любого Пути только на S3+. Если вы хотите больший бафф силы атаки для вашего ДД, то используйте Световой конус с большой базовой силой атаки любого Пути вместо [[light-cone:journey-forever-peaceful]]."
+                        "ru": "Лучше, чем Световой конус с базовой атакой 635+ любого Пути только на S3+. Если вы хотите больший бафф силы атаки для вашего ДД, то используйте Световой конус с большой базовой силой атаки любого Пути вместо [[light-cone:journey-forever-peaceful]].",
+                        "vn": "Chỉ tốt hơn Nón Ánh Sáng có chỉ số [[stat:atk]] cơ bản trên 635 từ bất kỳ Vận Mệnh nào ở Tích Tầng Bậc 3+. Nếu muốn tăng buff [[stat:atk]] cho DPS đã chọn, hãy sử dụng Nón Ánh Sáng có chỉ số [[stat:atk]] cơ bản cao từ bất kỳ Vận Mệnh nào thay vì [[light-cone:journey-forever-peaceful]]."
                     }
                 }
             ]
@@ -35,7 +36,8 @@
                     "superimposition": 5,
                     "note": {
                         "en": "Majority of Preservation Light Cones do not have a high base ATK. As a result, using a high base ATK Light Cone from any Path works better. Prioritize 635+ base ATK Light Cones, ex. Acheron's S1 [[light-cone:along-the-passing-shore]]. If lacking 635+ base ATK light cones, use any 582+ base ATK Light Cone from any Path, e.g. Himeko's S1 [[light-cone:milky-way]].",
-                        "ru": "Большинство Световых конусов Сохранения не обладают высокой базовой атакой, поэтому лучше использовать любой Световой конус с высокой базовой атакой любого Пути. Отдавайте приоритет Световым конусам с базовой атакой 635+, например, S1 Ахерон [[light-cone:along-the-passing-shore]]. Если у вас недостаточно Световых конусов с базовой атакой 635+, используйте любой Световой конус с базовой атакой 582+ любого Пути, например, S1 Химеко [[light-cone:milky-way]]."
+                        "ru": "Большинство Световых конусов Сохранения не обладают высокой базовой атакой, поэтому лучше использовать любой Световой конус с высокой базовой атакой любого Пути. Отдавайте приоритет Световым конусам с базовой атакой 635+, например, S1 Ахерон [[light-cone:along-the-passing-shore]]. Если у вас недостаточно Световых конусов с базовой атакой 635+, используйте любой Световой конус с базовой атакой 582+ любого Пути, например, S1 Химеко [[light-cone:milky-way]].",
+                        "vn": "Đa số các Nón Ánh Sáng Bảo Hộ không có chỉ số [[stat:atk]] cơ bản cao. Do đó, sử dụng Nón Ánh Sáng có chỉ số [[stat:atk]] cơ bản cao từ bất kỳ Vận Mệnh nào sẽ hiệu quả hơn. Ưu tiên các Nón Ánh Sáng có chỉ số [[stat:atk]] cơ bản từ 635 trở lên, ví dụ: S1 của Acheron [[light-cone:along-the-passing-shore]]. Nếu thiếu Nón Ánh Sáng có chỉ số [[stat:atk]] cơ bản từ 635 trở lên, hãy sử dụng bất kỳ Nón Ánh Sáng nào có chỉ số [[stat:atk]] cơ bản từ 582 trở lên từ bất kỳ Vận Mệnh nào, ví dụ: S1 của Himeko [[light-cone:milky-way]]."
                     }
                 }
             ]
@@ -46,8 +48,9 @@
             "name": "mov",
             "superimposition": 1,
             "note": {
-                "en": "Can be used with DoT teams. Build 75% [[stat:ehr|Effect Hit Rate]] to receive a 100% ATK buff from Kafka's A2 Trace: Torture.",
-                "ru": "Может использоваться в команде, наносящей периодический урон. Доведите шанс попадания эффектов до 75%, чтобы получить 100% бафф силы атаки от дополнительной способности Кафки A2: Пытка."
+                "en": "Can be used with DoT teams. Build 75% [[stat:ehr]] to receive a 100% ATK buff from Kafka's A2 Trace: Torture.",
+                "ru": "Может использоваться в команде, наносящей периодический урон. Доведите шанс попадания эффектов до 75%, чтобы получить 100% бафф силы атаки от дополнительной способности Кафки A2: Пытка.",
+                "vn": "Có thể sử dụng với đội Sát Thương Duy Trì (DoT). Build 75% [[stat:ehr]] để được tăng 100% [[stat:atk]] nhờ Vết Tích A2 của Kafka."
             }
         }
     ]

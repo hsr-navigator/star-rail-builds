@@ -377,7 +377,7 @@
         "passive": {
             "en": "Increases the wearer's ATK by {{value}}%. After the wearer uses Follow-Up ATK, increases their CRIT DMG by {{value}}% for 2 turn(s). This effect can stack up to 10 times.",
             "ru": "Повышает силу атаки владельца на {{value}}%. После того как владелец использует бонус-атаку, его крит. урон повышается на {{value}}% на 2 хода. Эффект может складываться до 10 раз. ",
-            "vn": ""
+            "vn": "Tăng {{value}}% Tấn Công của người trang bị. Sau khi người trang bị thi triển Đòn Đánh Theo Sau, tăng {{value}}% Sát Thương Bạo Kích của người trang bị, duy trì 2 hiệp, hiệu ứng này tối đa cộng dồn 10 tầng."
         },
         "s1": [
             12,
