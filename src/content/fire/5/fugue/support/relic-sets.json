@@ -33,6 +33,11 @@
                             "name": "thief",
                    
                             "pieces": 4
+                        },
+                        {
+                            "name": "2pc-be",
+
+                            "pieces": 2
                         }
                     ]
                 }
