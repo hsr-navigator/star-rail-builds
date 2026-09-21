@@ -1,13 +1,13 @@
 {
     "main_stats": {
         "body": [
-            "ANY"
+            "atk%"
         ],
         "feet": [
             "spd"
         ],
         "planar_sphere": [
-            "ANY"
+            "atk%"
         ],
         "link_rope": [
             "be"
