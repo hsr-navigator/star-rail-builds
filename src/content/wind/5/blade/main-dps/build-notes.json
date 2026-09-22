@@ -7,7 +7,7 @@
     ],
     "overview": {
         "summary": {
-            "en": "- When [[character:blade]] uses his Skill, he consumes his HP and enters the \"Hellscape\" state. In this state, he deals more damage, increases his chance of being hit, and enhances his Basic ATK, which consumes his HP and deals Blast damage when used. His Enhanced Basic ATK will not generate Skill Points, and he will exit the \"Hellscape\" state after 3 turns.\n- When his HP is reduced or he takes damage, he gains 1 \"Charge\". When he obtains 5 \"Charge\", [[character:blade]] unleashes an AoE Follow-Up ATK, gains 15 Energy, and heals himself.\n- When using his Ultimate, he sets his HP to 50% of his Max HP and deals Blast damage based on his Max HP and the tallied HP that he lost during the battle."
+            "en": "- When [[character:blade]] uses his Skill, he consumes his HP and enters the \"Hellscape\" state. In this state, he deals more damage, increases his chance of being hit, and enhances his Basic ATK, which consumes his HP and deals Blast damage when used. His Enhanced Basic ATK will not generate Skill Points, and he will exit the \"Hellscape\" state after 3 turns.\n- When his HP is reduced or he takes damage, he gains 1 Charge. When he obtains 5 Charge, [[character:blade]] unleashes an AoE Follow-Up ATK, gains 15 Energy, and heals himself.\n- When using his Ultimate, he sets his HP to 50% of his Max HP and deals Blast damage based on his Max HP and the tallied HP that he lost during the battle."
         },
         "investment_priority": {
             "priority": {
