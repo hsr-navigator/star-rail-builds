@@ -1,8 +1,12 @@
 {
+    "best": true,
     "name": {
-        "en": "Crit DPS"
+        "en": "Support"
     },
     "notes": [
+        {
+            "en": "As a support for [[character:himeko-nova]], [[character:hm7]]'s personal damage can be ignored."
+        }
     ],
     "overview": {
         "summary": {

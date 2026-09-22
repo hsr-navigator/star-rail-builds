@@ -1,0 +1,16 @@
+{
+    "main_stats": {
+        "body": [
+            "ANY"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            "ANY"
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}

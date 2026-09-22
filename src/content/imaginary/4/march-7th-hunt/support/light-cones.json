@@ -1,0 +1,28 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "cruising",
+                    "superimposition": 5
+                },
+                {
+                    "name": "swordplay",
+                    "superimposition": 5
+                },
+                {
+                    "name": "river-flows-in-spring",
+                    "superimposition": 5
+                },
+                {
+                    "name": "shadowed-by-night",
+                    "superimposition": 5
+                },
+                {
+                    "name": "adversarial",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}    
