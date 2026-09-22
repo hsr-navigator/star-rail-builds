@@ -28,16 +28,22 @@
         {
             "groups": [
                 {
-                    "items": [
+                    "choices": [
                         {
-                            "name": "2pc-hp"
-                        }
-                    ]
-                },
-                {
-                    "items": [
+                            "items": [
+                                {
+                                    "name": "2pc-hp",
+                                    "pieces": 2
+                                }
+                            ]
+                        },
                         {
-                            "name": "2pc-spd"
+                            "items": [
+                                {
+                                    "name": "2pc-spd",
+                                    "pieces": 2
+                                }
+                            ]
                         }
                     ]
                 }
