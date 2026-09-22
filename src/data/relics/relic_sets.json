@@ -1,4 +1,44 @@
 {
+    "the-edacious-heretic": {
+        "type": "cavern",
+        "rarity": 5,
+        "version_released": "4.6",
+        "tags": [
+            "atk",
+            "crit-dmg",
+            "basic-atk-dmg"
+        ],
+        "2p": {
+            "en": "Increases CRIT DMG by 16%.",
+            "ru": "",
+            "vn": ""
+        },
+        "4p": {
+            "en": "Increases DMG dealt by the wearer's Basic ATK by 36%. When the wearer uses a Basic ATK, increases the wearer's ATK by 20%, lasting for 2 turn(s).",
+            "ru": "",
+            "vn": ""
+        }
+    },
+    "dreamlit-actor": {
+        "type": "cavern",
+        "rarity": 5,
+        "version_released": "4.6",
+        "tags": [
+            "spd",
+            "elation",
+            "crit-dmg"
+        ],
+        "2p": {
+            "en": "Increases SPD by 6%.",
+            "ru": "",
+            "vn": ""
+        },
+        "4p": {
+            "en": "When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by 16%, lasting for 3 turn(s). If the wearer has 10 or more points of Certified Banger, additionally increases all ally targets' CRIT DMG by 12%, lasting for 3 turn(s).",
+            "ru": "",
+            "vn": ""
+        }
+    },
     "as-navigator-isee-sees-it": {
         "type": "cavern",
         "rarity": 5,

@@ -97,7 +97,9 @@
         "wavestrider": "wavestrider-captain",
         "deliverer": "world-remaking-deliverer",
         "anchorage": "fallen-star-anchorage",
-        "cosmic": "cosmic-life-sciences-institute"
+        "cosmic": "cosmic-life-sciences-institute",
+        "heretic": "the-edacious-heretic",
+        "actor": "dreamlit-actor"
     },
     "character": {
         "dmc": "trailblazer-destruction",
