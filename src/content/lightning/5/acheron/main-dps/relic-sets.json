@@ -7,7 +7,9 @@
                         {
                             "name": "pioneer",
                             "pieces": 4
-                        },
+                        }
+                    ],
+                    "items":[
                         {
                             "name": "duke",
                             "pieces": 4,
