@@ -7,7 +7,7 @@
     ],
     "overview": {
         "summary": {
-            "en": "- [[character:dhil]] is a CRIT DPS that excels at Blast as well as single-target fights. His Skill allows him to enhance his Basic ATK. The more Skill Points you use (up to 3), the more damage it deals. The attack starts as a single-target attack, then a weak Blast attack, then after enhancing it twice, it becomes a Blast attack, dealing massive damage.\n- His Ultimate gives him 2 stacks of \"Squama Sacrosancta\", acting like Skill Points for enhancing DHIL's Basic ATK, easing Skill Point consumption.\n- [[character:dhil]]'s performance heavily relies on Sparkle. Getting Sparkle is recommended before going for [[character:dhil]]'s own vertical investments."
+            "en": "- [[character:dhil]] is a CRIT DPS that excels at Blast as well as single-target fights. His Skill allows him to enhance his Basic ATK and extend his turn. The more Skill Points he consumes in a single turn (up to 3), the stronger his Basic ATK becomes, upgrading it from a weak Single Target attack into a powerful Blast attack.”\n- His Ultimate gives him 2 stacks of \"Squama Sacrosancta\", acting like Skill Points for enhancing DHIL's Basic ATK, easing Skill Point consumption.\n- [[character:dhil]]'s performance heavily relies on Sparkle. Getting Sparkle is recommended before going for [[character:dhil]]'s own vertical investments."
         },
         "investment_priority": {
             "priority": {

@@ -7,14 +7,14 @@
     ],
     "overview": {
         "summary": {
-            "en": "- Mydei's normal Skill depletes his HP and does not require Skill Points. Upon losing 1% HP, gains 1 point of Charge. At 100 Charge, Mydei consumes 100 Charge to enter the [Vendetta] state. While in the [Vendetta] state, Mydei gains increased Max HP and sets his DEF to 0, allowing him to lose more HP and gain more Charge. He also becomes immune to Crowd Control debuffs. On his turn, he launches an Enhanced Skill. If 150 Charge is gained in this state, he consumes it to obtain one Extra Turn dealing an even stronger enhanced skill.\n- When receiving a killing blow in the [Vendetta] state, Mydei will not be knocked down and will return to the [Vendetta] state, up to 3 times in battle. If Mydei is knocked down and is not in the [Vendetta] state, he will not be revived.\n- Ultimate heals, gives Charge, and deals a Blast attack, Taunting all enemies hit for 2 turns. The primary target of the Ultimate will also be targeted by his Enhanced Skill. This allows for some control over his automatic playstyle."
+            "en": "- Mydei's normal Skill depletes his HP and does not require Skill Points. Upon losing 1% HP, gains 1 point of Charge. At 100 Charge, Mydei consumes 100 Charge to enter the \"Vendetta\" state. While in the \"Vendetta\" state, Mydei gains increased Max HP and sets his DEF to 0, allowing him to lose more HP and gain more Charge. He also becomes immune to Crowd Control debuffs. On his turn, he launches an Enhanced Skill. If 150 Charge is gained in this state, he consumes it to obtain one Extra Turn and launch an even stronger Enhanced Skill.\n- When receiving a killing blow in the \"Vendetta\" state, Mydei will not be knocked down and will return to the \"Vendetta\" state, up to 3 times in battle. If Mydei is knocked down and is not in the \"Vendetta\" state, he will not be revived.\n- Ultimate heals, gives Charge, and deals a Blast attack, Taunting all enemies hit for 2 turns. The primary target of the Ultimate will also be targeted by his Enhanced Skill. This allows for some control over his automatic playstyle."
         },
         "investment_priority": {
             "priority": {
                 "en": "S1 ≥ E1 > E2"
             },
             "details": {
-                "en": "- S1 buffs Max HP and Incoming Healing; consumes 6% Max HP when using Skill or Ultimate for +30% DMG to that attack, plus another 30% if at least 500 HP is consumed. Overall strong for its DMG enhancement and buff to Charge gain.\n- E1 increases the Enhanced Skill's multiplier by 30% and allows it to attack all targets, letting Mydei work better in AoE battles.\n- E2 in [Vendetta] state, DMG dealt ignores 15% DEF. When he receives healing, 40% of the amount healed is converted to Charge."
+                "en": "- S1 buffs Max HP and Incoming Healing; consumes 6% Max HP when using Skill or Ultimate for +30% DMG to that attack, plus another 30% if at least 500 HP is consumed. Overall strong for its DMG enhancement and buff to Charge gain.\n- E1 increases the Enhanced Skill's multiplier by 30% and allows it to attack all targets, letting Mydei work better in AoE battles.\n- E2 in \"Vendetta\" state, DMG dealt ignores 15% DEF. When he receives healing, 40% of the amount healed is converted to Charge."
             }
         }
     }
