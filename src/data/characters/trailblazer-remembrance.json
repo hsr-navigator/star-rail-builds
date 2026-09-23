@@ -152,7 +152,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Summons memosprite Mem. Grants Mem 40% Charge, then makes Mem deal Ice DMG equal to {{scaling}}% of Mem's ATK to all enemies.",
+      "description_template": "Summons memosprite Mem. Grants Mem 40% Charge, then makes Mem deal Ice DMG equal to {{scaling1}}% of Mem's ATK to all enemies.",
       "scaling": {
         "scaling1": [
           120,
