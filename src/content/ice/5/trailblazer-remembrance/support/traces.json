@@ -3,7 +3,14 @@
         {
             "items": [
                 {
-                    "name": "skill"
+                    "name": "memo-skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "memo-talent"
                 }
             ]
         },
@@ -18,11 +25,10 @@
             "items": [
                 {
                     "name": "ultimate"
-                }
-            ]
-        },
-        {
-            "items": [
+                },
+                {
+                    "name": "skill"
+                },
                 {
                     "name": "basic",
                     "note": "[[ability:basic]] can be ignored."
