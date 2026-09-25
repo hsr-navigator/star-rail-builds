@@ -114,6 +114,18 @@ const sortOptions = [
         value: 'release',
         label: t(locale, 'ui', 'Release Date - Newest', undefined, false),
     },
+    {
+        value: 'baseHp',
+        label: t(locale, 'ui', 'Base HP - Highest', undefined, false),
+    },
+    {
+        value: 'baseAtk',
+        label: t(locale, 'ui', 'Base ATK - Highest', undefined, false),
+    },
+    {
+        value: 'baseDef',
+        label: t(locale, 'ui', 'Base DEF - Highest', undefined, false),
+    },
 ];
 
 const pathIcons = {
@@ -310,6 +322,9 @@ const orderedPaths = [...data.paths].sort((a, b) => {
                     data-rarity={lightCone.rarity}
                     data-path={lightCone.path}
                     data-version-released={lightCone.versionReleased}
+                    data-base-hp={lightCone.levelMaxHp}
+                    data-base-atk={lightCone.levelMaxAtk}
+                    data-base-def={lightCone.levelMaxDef}
                 >
                     <header class="weapon-entry-header">
                         <div class="weapon-entry-title">

@@ -124,6 +124,45 @@ function compareCatalogCards(
         return byType || byName;
     }
 
+    /*
+ * Light Cone base stat sorting.
+ * Highest max-level base stat first,
+ * then A-Z when two Light Cones tie.
+ */
+    if (
+        kind === 'lightCone' &&
+        (
+            sort === 'baseHp' ||
+            sort === 'baseAtk' ||
+            sort === 'baseDef'
+        )
+    ) {
+        const leftValue =
+            Number.parseFloat(
+                cardValue(left, sort),
+            );
+
+        const rightValue =
+            Number.parseFloat(
+                cardValue(right, sort),
+            );
+
+        const safeLeft =
+            Number.isFinite(leftValue)
+                ? leftValue
+                : Number.NEGATIVE_INFINITY;
+
+        const safeRight =
+            Number.isFinite(rightValue)
+                ? rightValue
+                : Number.NEGATIVE_INFINITY;
+
+        return (
+            safeRight - safeLeft ||
+            byName
+        );
+    }
+
     if (sort === 'release') {
         return (
             Number.parseFloat(
