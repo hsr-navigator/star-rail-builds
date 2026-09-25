@@ -19,10 +19,7 @@
         },
         {
             "name": "cd",
-            "recommended": "150%+",
-            "note": {
-                "en": "Recommendation for E0. For E1, aim for at least 190%+ CRIT DMG."
-            }
+            "recommended": "190%+"
         }
     ]
 }
