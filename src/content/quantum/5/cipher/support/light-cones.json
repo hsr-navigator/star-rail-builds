@@ -19,18 +19,6 @@
                     "superimposition": 5
                 }
             ]
-        },
-        {
-            "items": [
-                {
-                    "name": "along-the-passing-shore",
-                    "superimposition": 1,
-                    "note_group": "subdps",
-                    "note": {
-                        "en": "Cipher can optionally be built as a sub-DPS, though a support focused build may often perform better."
-                    }
-                }
-            ]
         }
     ]
 }

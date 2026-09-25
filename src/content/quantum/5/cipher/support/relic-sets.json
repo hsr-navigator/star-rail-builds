@@ -21,19 +21,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "pioneer",
-                            "pieces": 4,
-                            "note_group": "subdps"
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "planar_ornaments": [
@@ -83,19 +70,6 @@
                         {
                             "name": "keel",
                             "pieces": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "glamoth",
-                            "pieces": 2,
-                            "note_group": "subdps"
                         }
                     ]
                 }
