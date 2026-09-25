@@ -7,14 +7,14 @@
     ],
     "overview": {
         "summary": {
-            "en": "- Hysilens is a DoT DPS who applies a random DoT type on enemies when allies attack, giving extra bonuses for the Bleed state. Her Skill can inflict Vulnerability to enemies.\n- Her Ultimate deploys a Zone that reduces enemy targets' ATK and DEF and deals a large portion of the DoT damage taken by enemies as additional Physical DoT. With her A4 Trace The Bubble of Banquets, her Ultimate can also detonate DoT's.\n- Hysilens' performance is heavily reliant on Kafka, who is currently the only reliable DoT detonator."
+            "en": "- Hysilens is a DoT DPS who applies a random DoT on enemies when allies attack. Her Skill can inflict Vulnerability to enemies.\n- Her Ultimate deploys a Zone that reduces enemy targets' ATK and DEF, and for each instance of DoT taken by the enemy, an addtional Physical DoT is dealt, up to 8 times for each attack. With her A4 Trace The Bubble of Banquets, her Ultimate can also detonate DoT's.\n- Hysilens' performance is heavily reliant on Kafka, who is currently the only reliable DoT detonator."
         },
         "investment_priority": {
             "priority": {
                 "en": "E1 > S1"
             },
             "details": {
-                "en": "- Her E1 is DoT's best early investment, significantly boosting DoT ramp up and damage for the whole team.\n- S1 [[light-cone:why-does-the-ocean-sing]] inflicts DoT Vulnerability and increases ally's SPD, particularly useful for helping Kafka reach SPD breakpoints. If both Hysilens and Black Swan are E1, they can swap signature Light Cones."
+                "en": "- Her E1 is DoT's best early investment, significantly boosting DoT damage and ramp up for the whole team.\n- S1 [[light-cone:why-does-the-ocean-sing]] inflicts DoT Vulnerability and increases ally's SPD, particularly useful for helping Kafka reach SPD breakpoints. If both Hysilens and Black Swan are E1, they can swap signature Light Cones."
             }
         }
     }
