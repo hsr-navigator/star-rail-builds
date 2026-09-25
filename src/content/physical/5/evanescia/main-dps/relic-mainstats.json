@@ -8,7 +8,8 @@
             {
                 "name": "ANY",
                 "note": {
-                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus HP or DEF Main Stats are viable options for better survivability. For maximizing damage, [[stat:atk]] is more recommended. SPD is only recommended for specific rotations."
+                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus HP or DEF Main Stats are viable options for better survivability. For maximizing damage, [[stat:atk]] is more recommended. SPD is only recommended for specific rotations.",
+                    "cht": "[[stat:atk]]只佔緋英的傷害的一小部分，若有需要提高生存能力可以選擇生命/防禦主詞。若需要極致傷害，[[stat:atk]]可以考慮。速度多數情況不推薦，除非排軸需要。"
                 }
             }
         ],
@@ -17,7 +18,8 @@
             {
                 "name": "ANY",
                 "note": {
-                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus she can use any Main Stat. For maximizing damage, [[stat:physical-dmg]] is more recommended."
+                    "en": "Only a small portion of Evanescia's damage scales on [[stat:atk]], thus she can use any Main Stat. For maximizing damage, [[stat:physical-dmg]] is more recommended.",
+                    "cht": "直傷只佔緋英的傷害的一小部分，因此任意主詞條都可以用。若需要極致傷害，可以考慮[[stat:physical-dmg]]"
                 }
             }
         ],
