@@ -15,7 +15,7 @@
                 "name": "quantum-dmg",
                 "note_group": "cas-orb",
                 "note": {
-                    "en": "HP% is preferred for builds with lower number of HP subs and Quantum DMG Boost for builds with higher number of HP subs."
+                    "en": "HP% is preferred for builds with lower number of HP subs and Quantum DMG Boost% for builds with higher number of HP subs. If unsure, default to HP% Planar Sphere."
                 }
             }
 
