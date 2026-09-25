@@ -14,7 +14,7 @@ const { character, locale } = Astro.props as {
 };
 
 const ui = (id: string) => t(locale, 'ui', id, undefined, false);
-
+const ascensionTracesLabel = `${ui('Ascension')} ${ui('Traces')}`;
 /*
  * Prefer the current human-readable UI key, but fall back to the
  * older snake_case key used by some locale files. This keeps labels
@@ -407,522 +407,599 @@ const renderVariantDescription = (
         }
 
         <!-- ========================= -->
-        <!-- Abilities                 -->
+        <!-- Collapsible Kit Sections  -->
         <!-- ========================= -->
 
-        {
-            abilitySections.map((section) => (
-                <section class="character-info-section">
-                    <h3>{section.title}</h3>
+        <details class="character-kit-collapse" open>
+            <summary class="character-kit-collapse-summary">
+                <h3>{ui('Abilities')}</h3>
 
-                    {section.id === 'memosprite' && character.memosprite && (
-                        <div class="character-detail-meta character-mechanic-meta">
-                            {character.memosprite.initial_spd !== undefined && (
-                                <span>
-                                    {ui('Initial SPD')}:{' '}
-                                    <strong>
-                                        {character.memosprite.initial_spd}
-                                    </strong>
-                                </span>
+                <span class="character-kit-collapse-chevron" aria-hidden="true"
+                ></span>
+            </summary>
+
+            <div class="character-kit-collapse-body">
+                {
+                    abilitySections.map((section) => (
+                        <section class="character-info-section">
+                            {section.id !== 'normal' && (
+                                <h3>{section.title}</h3>
                             )}
 
-                            {character.memosprite.hp_source && (
-                                <span>
-                                    {ui('Max HP')}:{' '}
-                                    <strong>
-                                        {character.memosprite.hp_source}
-                                    </strong>
-                                </span>
-                            )}
-                        </div>
-                    )}
-
-                    <div class="character-info-details character-ability-grid">
-                        {section.abilities.map(({ id, ability }) => {
-                            const metaItems = getAbilityMetaItems(ability);
-                            const hasMeta = hasAbilityMeta(ability);
-                            const selectableAbility =
-                                ability as SelectableCharacterAbility;
-
-                            const variants = selectableAbility.variants ?? [];
-
-                            /*
-                             * The parent ability normally owns the trace level.
-                             * Some grouped abilities are static parents with a
-                             * scalable variant instead. Castorice's Memosprite
-                             * Talent is the important example:
-                             *
-                             * - Mooncocoon Shrouds the Form: static parent
-                             * - Roar Rumbles the Realm: static variant
-                             * - Wings Sweep the Ruins: Lv. 1-7 scalable variant
-                             *
-                             * In that case, let the scalable variant provide the
-                             * shared slider's min/max/default level.
-                             */
-                            const abilityScalable = Boolean(
-                                ability.description_template && ability.scaling,
-                            );
-
-                            const firstScalableVariant = variants.find(
-                                (variant) =>
-                                    Boolean(
-                                        variant.description_template &&
-                                        variant.scaling,
-                                    ),
-                            );
-
-                            const levelSource = abilityScalable
-                                ? undefined
-                                : firstScalableVariant;
-
-                            const { minLevel, maxLevel, defaultLevel, levels } =
-                                getAbilityLevelConfig(ability, levelSource);
-
-                            const hasScalableVariant =
-                                firstScalableVariant !== undefined;
-
-                            const scalable =
-                                (abilityScalable || hasScalableVariant) &&
-                                maxLevel > minLevel;
-
-                            const variantSelector =
-                                selectableAbility.variant_selector;
-
-                            return (
-                                <details
-                                    open
-                                    data-character-ability={id}
-                                    data-level-prefix={levelAbbreviation}
-                                    data-static-detail
-                                >
-                                    <summary>
-                                        <strong>
-                                            {getAbilityTypeLabel(
-                                                id,
-                                                ability.type,
-                                            )}
-                                        </strong>
-
-                                        <span class="character-ability-name">
-                                            {ability.name}
-                                        </span>
-
-                                        {scalable && (
-                                            <span
-                                                class="character-ability-level"
-                                                data-character-level-value
-                                            >
-                                                {levelAbbreviation}{' '}
-                                                {defaultLevel}
+                            {section.id === 'memosprite' &&
+                                character.memosprite && (
+                                    <div class="character-detail-meta character-mechanic-meta">
+                                        {character.memosprite.initial_spd !==
+                                            undefined && (
+                                            <span>
+                                                {ui('Initial SPD')}:{' '}
+                                                <strong>
+                                                    {
+                                                        character.memosprite
+                                                            .initial_spd
+                                                    }
+                                                </strong>
                                             </span>
                                         )}
-                                    </summary>
 
-                                    <div class="character-detail-body">
-                                        {ability.tag && (
-                                            <p class="character-ability-tag">
-                                                <strong>{ui('Type')}:</strong>{' '}
-                                                {ability.tag}
-                                            </p>
+                                        {character.memosprite.hp_source && (
+                                            <span>
+                                                {ui('Max HP')}:{' '}
+                                                <strong>
+                                                    {
+                                                        character.memosprite
+                                                            .hp_source
+                                                    }
+                                                </strong>
+                                            </span>
                                         )}
+                                    </div>
+                                )}
 
-                                        {metaItems.length > 0 && (
-                                            <div class="character-detail-meta">
-                                                {metaItems.map((item) => (
-                                                    <span>
-                                                        {item.label}:{' '}
-                                                        <strong>
-                                                            {item.value}
-                                                        </strong>
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        )}
+                            <div class="character-info-details character-ability-grid">
+                                {section.abilities.map(({ id, ability }) => {
+                                    const metaItems =
+                                        getAbilityMetaItems(ability);
+                                    const hasMeta = hasAbilityMeta(ability);
+                                    const selectableAbility =
+                                        ability as SelectableCharacterAbility;
 
-                                        {scalable && (
-                                            <div class="character-trace-slider">
-                                                <div class="character-slider-header">
-                                                    <strong>
-                                                        {ui('Trace Level')}
-                                                    </strong>
+                                    const variants =
+                                        selectableAbility.variants ?? [];
 
+                                    /*
+                                     * The parent ability normally owns the trace level.
+                                     * Some grouped abilities are static parents with a
+                                     * scalable variant instead. Castorice's Memosprite
+                                     * Talent is the important example:
+                                     *
+                                     * - Mooncocoon Shrouds the Form: static parent
+                                     * - Roar Rumbles the Realm: static variant
+                                     * - Wings Sweep the Ruins: Lv. 1-7 scalable variant
+                                     *
+                                     * In that case, let the scalable variant provide the
+                                     * shared slider's min/max/default level.
+                                     */
+                                    const abilityScalable = Boolean(
+                                        ability.description_template &&
+                                        ability.scaling,
+                                    );
+
+                                    const firstScalableVariant = variants.find(
+                                        (variant) =>
+                                            Boolean(
+                                                variant.description_template &&
+                                                variant.scaling,
+                                            ),
+                                    );
+
+                                    const levelSource = abilityScalable
+                                        ? undefined
+                                        : firstScalableVariant;
+
+                                    const {
+                                        minLevel,
+                                        maxLevel,
+                                        defaultLevel,
+                                        levels,
+                                    } = getAbilityLevelConfig(
+                                        ability,
+                                        levelSource,
+                                    );
+
+                                    const hasScalableVariant =
+                                        firstScalableVariant !== undefined;
+
+                                    const scalable =
+                                        (abilityScalable ||
+                                            hasScalableVariant) &&
+                                        maxLevel > minLevel;
+
+                                    const variantSelector =
+                                        selectableAbility.variant_selector;
+
+                                    return (
+                                        <details
+                                            open
+                                            data-character-ability={id}
+                                            data-level-prefix={
+                                                levelAbbreviation
+                                            }
+                                            data-static-detail
+                                        >
+                                            <summary>
+                                                <strong>
+                                                    {getAbilityTypeLabel(
+                                                        id,
+                                                        ability.type,
+                                                    )}
+                                                </strong>
+
+                                                <span class="character-ability-name">
+                                                    {ability.name}
+                                                </span>
+
+                                                {scalable && (
                                                     <span
+                                                        class="character-ability-level"
                                                         data-character-level-value
                                                     >
                                                         {levelAbbreviation}{' '}
                                                         {defaultLevel}
                                                     </span>
-                                                </div>
+                                                )}
+                                            </summary>
 
-                                                <input
-                                                    type="range"
-                                                    min={minLevel}
-                                                    max={maxLevel}
-                                                    step="1"
-                                                    value={defaultLevel}
-                                                    data-character-level-slider
-                                                    aria-label={`${ability.name} ${ui('Trace Level')}`}
-                                                />
-
-                                                <div class="character-slider-bounds">
-                                                    <span>
-                                                        {levelAbbreviation}{' '}
-                                                        {minLevel}
-                                                    </span>
-
-                                                    <span>
-                                                        {levelAbbreviation}{' '}
-                                                        {maxLevel}
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        )}
-
-                                        <div class="character-ability-description">
-                                            {abilityScalable &&
-                                            maxLevel > minLevel ? (
-                                                levels.map((level) => (
-                                                    <p
-                                                        data-character-level-panel={
-                                                            level
-                                                        }
-                                                        hidden={
-                                                            level !==
-                                                            defaultLevel
-                                                        }
-                                                    >
-                                                        <HighlightedText
-                                                            text={renderCharacterAbilityDescription(
-                                                                ability,
-                                                                level,
-                                                                minLevel,
-                                                                defaultLevel,
-                                                            )}
-                                                        />
+                                            <div class="character-detail-body">
+                                                {ability.tag && (
+                                                    <p class="character-ability-tag">
+                                                        <strong>
+                                                            {ui('Type')}:
+                                                        </strong>{' '}
+                                                        {ability.tag}
                                                     </p>
-                                                ))
-                                            ) : (
-                                                <p>
-                                                    <HighlightedText
-                                                        text={renderCharacterAbilityDescription(
-                                                            ability,
-                                                            undefined,
-                                                            minLevel,
-                                                            defaultLevel,
-                                                        )}
-                                                    />
-                                                </p>
-                                            )}
-                                        </div>
-
-                                        {variants.length > 0 && (
-                                            <div
-                                                class="character-ability-variants"
-                                                data-ability-variants
-                                            >
-                                                {variantSelector && (
-                                                    <label class="character-variant-selector">
-                                                        <span>
-                                                            {variantSelector.label ??
-                                                                ui('Select')}
-                                                        </span>
-
-                                                        <select
-                                                            data-variant-select
-                                                            aria-label={
-                                                                variantSelector.label ??
-                                                                ui(
-                                                                    'Select alternate ability',
-                                                                )
-                                                            }
-                                                        >
-                                                            {variants.map(
-                                                                (
-                                                                    variant,
-                                                                    index,
-                                                                ) => (
-                                                                    <option
-                                                                        value={
-                                                                            variant.id ??
-                                                                            String(
-                                                                                index,
-                                                                            )
-                                                                        }
-                                                                    >
-                                                                        {variant.selector_label ??
-                                                                            variant.name}
-                                                                    </option>
-                                                                ),
-                                                            )}
-                                                        </select>
-                                                    </label>
                                                 )}
 
-                                                {variants.map(
-                                                    (variant, index) => {
-                                                        const variantMetaItems =
-                                                            getAbilityMetaItems(
-                                                                variant,
-                                                            );
-                                                        const variantLevelConfig =
-                                                            getAbilityLevelConfig(
-                                                                variant,
-                                                                ability,
-                                                            );
-
-                                                        const variantScalable =
-                                                            Boolean(
-                                                                variant.description_template &&
-                                                                variant.scaling,
-                                                            ) &&
-                                                            variantLevelConfig.maxLevel >
-                                                                variantLevelConfig.minLevel;
-
-                                                        const variantId =
-                                                            variant.id ??
-                                                            String(index);
-                                                        const variantHasMeta =
-                                                            hasAbilityMeta(
-                                                                variant,
-                                                            );
-                                                        return (
-                                                            <section
-                                                                class="character-ability-variant"
-                                                                data-ability-variant
-                                                                data-variant-id={
-                                                                    variantId
-                                                                }
-                                                                hidden={
-                                                                    variantSelector
-                                                                        ? index !==
-                                                                          0
-                                                                        : false
-                                                                }
-                                                            >
-                                                                <div class="character-ability-variant-header">
+                                                {metaItems.length > 0 && (
+                                                    <div class="character-detail-meta">
+                                                        {metaItems.map(
+                                                            (item) => (
+                                                                <span>
+                                                                    {item.label}
+                                                                    :{' '}
                                                                     <strong>
                                                                         {
-                                                                            variant.type
+                                                                            item.value
                                                                         }
                                                                     </strong>
+                                                                </span>
+                                                            ),
+                                                        )}
+                                                    </div>
+                                                )}
 
-                                                                    <span class="character-ability-name">
-                                                                        {
-                                                                            variant.name
-                                                                        }
-                                                                    </span>
-                                                                </div>
-
-                                                                {variant.tag && (
-                                                                    <p class="character-ability-tag">
-                                                                        <strong>
-                                                                            {ui(
-                                                                                'Type',
-                                                                            )}
-                                                                            :
-                                                                        </strong>{' '}
-                                                                        {
-                                                                            variant.tag
-                                                                        }
-                                                                    </p>
+                                                {scalable && (
+                                                    <div class="character-trace-slider">
+                                                        <div class="character-slider-header">
+                                                            <strong>
+                                                                {ui(
+                                                                    'Trace Level',
                                                                 )}
-                                                                {variantMetaItems.length >
-                                                                    0 && (
-                                                                    <div class="character-detail-meta">
-                                                                        {variantMetaItems.map(
-                                                                            (
-                                                                                item,
-                                                                            ) => (
-                                                                                <span>
-                                                                                    {
-                                                                                        item.label
-                                                                                    }
+                                                            </strong>
 
-                                                                                    :{' '}
-                                                                                    <strong>
-                                                                                        {
-                                                                                            item.value
-                                                                                        }
-                                                                                    </strong>
-                                                                                </span>
-                                                                            ),
+                                                            <span
+                                                                data-character-level-value
+                                                            >
+                                                                {
+                                                                    levelAbbreviation
+                                                                }{' '}
+                                                                {defaultLevel}
+                                                            </span>
+                                                        </div>
+
+                                                        <input
+                                                            type="range"
+                                                            min={minLevel}
+                                                            max={maxLevel}
+                                                            step="1"
+                                                            value={defaultLevel}
+                                                            data-character-level-slider
+                                                            aria-label={`${ability.name} ${ui('Trace Level')}`}
+                                                        />
+
+                                                        <div class="character-slider-bounds">
+                                                            <span>
+                                                                {
+                                                                    levelAbbreviation
+                                                                }{' '}
+                                                                {minLevel}
+                                                            </span>
+
+                                                            <span>
+                                                                {
+                                                                    levelAbbreviation
+                                                                }{' '}
+                                                                {maxLevel}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                )}
+
+                                                <div class="character-ability-description">
+                                                    {abilityScalable &&
+                                                    maxLevel > minLevel ? (
+                                                        levels.map((level) => (
+                                                            <p
+                                                                data-character-level-panel={
+                                                                    level
+                                                                }
+                                                                hidden={
+                                                                    level !==
+                                                                    defaultLevel
+                                                                }
+                                                            >
+                                                                <HighlightedText
+                                                                    text={renderCharacterAbilityDescription(
+                                                                        ability,
+                                                                        level,
+                                                                        minLevel,
+                                                                        defaultLevel,
+                                                                    )}
+                                                                />
+                                                            </p>
+                                                        ))
+                                                    ) : (
+                                                        <p>
+                                                            <HighlightedText
+                                                                text={renderCharacterAbilityDescription(
+                                                                    ability,
+                                                                    undefined,
+                                                                    minLevel,
+                                                                    defaultLevel,
+                                                                )}
+                                                            />
+                                                        </p>
+                                                    )}
+                                                </div>
+
+                                                {variants.length > 0 && (
+                                                    <div
+                                                        class="character-ability-variants"
+                                                        data-ability-variants
+                                                    >
+                                                        {variantSelector && (
+                                                            <label class="character-variant-selector">
+                                                                <span>
+                                                                    {variantSelector.label ??
+                                                                        ui(
+                                                                            'Select',
                                                                         )}
-                                                                    </div>
-                                                                )}
+                                                                </span>
 
-                                                                <div class="character-ability-description">
-                                                                    {variantScalable ? (
-                                                                        levels.map(
-                                                                            (
-                                                                                level,
-                                                                            ) => (
-                                                                                <p
-                                                                                    data-character-level-panel={
-                                                                                        level
-                                                                                    }
-                                                                                    hidden={
-                                                                                        level !==
-                                                                                        defaultLevel
-                                                                                    }
-                                                                                >
+                                                                <select
+                                                                    data-variant-select
+                                                                    aria-label={
+                                                                        variantSelector.label ??
+                                                                        ui(
+                                                                            'Select alternate ability',
+                                                                        )
+                                                                    }
+                                                                >
+                                                                    {variants.map(
+                                                                        (
+                                                                            variant,
+                                                                            index,
+                                                                        ) => (
+                                                                            <option
+                                                                                value={
+                                                                                    variant.id ??
+                                                                                    String(
+                                                                                        index,
+                                                                                    )
+                                                                                }
+                                                                            >
+                                                                                {variant.selector_label ??
+                                                                                    variant.name}
+                                                                            </option>
+                                                                        ),
+                                                                    )}
+                                                                </select>
+                                                            </label>
+                                                        )}
+
+                                                        {variants.map(
+                                                            (
+                                                                variant,
+                                                                index,
+                                                            ) => {
+                                                                const variantMetaItems =
+                                                                    getAbilityMetaItems(
+                                                                        variant,
+                                                                    );
+                                                                const variantLevelConfig =
+                                                                    getAbilityLevelConfig(
+                                                                        variant,
+                                                                        ability,
+                                                                    );
+
+                                                                const variantScalable =
+                                                                    Boolean(
+                                                                        variant.description_template &&
+                                                                        variant.scaling,
+                                                                    ) &&
+                                                                    variantLevelConfig.maxLevel >
+                                                                        variantLevelConfig.minLevel;
+
+                                                                const variantId =
+                                                                    variant.id ??
+                                                                    String(
+                                                                        index,
+                                                                    );
+                                                                const variantHasMeta =
+                                                                    hasAbilityMeta(
+                                                                        variant,
+                                                                    );
+                                                                return (
+                                                                    <section
+                                                                        class="character-ability-variant"
+                                                                        data-ability-variant
+                                                                        data-variant-id={
+                                                                            variantId
+                                                                        }
+                                                                        hidden={
+                                                                            variantSelector
+                                                                                ? index !==
+                                                                                  0
+                                                                                : false
+                                                                        }
+                                                                    >
+                                                                        <div class="character-ability-variant-header">
+                                                                            <strong>
+                                                                                {
+                                                                                    variant.type
+                                                                                }
+                                                                            </strong>
+
+                                                                            <span class="character-ability-name">
+                                                                                {
+                                                                                    variant.name
+                                                                                }
+                                                                            </span>
+                                                                        </div>
+
+                                                                        {variant.tag && (
+                                                                            <p class="character-ability-tag">
+                                                                                <strong>
+                                                                                    {ui(
+                                                                                        'Type',
+                                                                                    )}
+
+                                                                                    :
+                                                                                </strong>{' '}
+                                                                                {
+                                                                                    variant.tag
+                                                                                }
+                                                                            </p>
+                                                                        )}
+                                                                        {variantMetaItems.length >
+                                                                            0 && (
+                                                                            <div class="character-detail-meta">
+                                                                                {variantMetaItems.map(
+                                                                                    (
+                                                                                        item,
+                                                                                    ) => (
+                                                                                        <span>
+                                                                                            {
+                                                                                                item.label
+                                                                                            }
+
+                                                                                            :{' '}
+                                                                                            <strong>
+                                                                                                {
+                                                                                                    item.value
+                                                                                                }
+                                                                                            </strong>
+                                                                                        </span>
+                                                                                    ),
+                                                                                )}
+                                                                            </div>
+                                                                        )}
+
+                                                                        <div class="character-ability-description">
+                                                                            {variantScalable ? (
+                                                                                levels.map(
+                                                                                    (
+                                                                                        level,
+                                                                                    ) => (
+                                                                                        <p
+                                                                                            data-character-level-panel={
+                                                                                                level
+                                                                                            }
+                                                                                            hidden={
+                                                                                                level !==
+                                                                                                defaultLevel
+                                                                                            }
+                                                                                        >
+                                                                                            <HighlightedText
+                                                                                                text={renderVariantDescription(
+                                                                                                    variant,
+                                                                                                    ability,
+                                                                                                    level,
+                                                                                                )}
+                                                                                            />
+                                                                                        </p>
+                                                                                    ),
+                                                                                )
+                                                                            ) : (
+                                                                                <p>
                                                                                     <HighlightedText
                                                                                         text={renderVariantDescription(
                                                                                             variant,
                                                                                             ability,
-                                                                                            level,
                                                                                         )}
                                                                                     />
                                                                                 </p>
-                                                                            ),
-                                                                        )
-                                                                    ) : (
-                                                                        <p>
-                                                                            <HighlightedText
-                                                                                text={renderVariantDescription(
-                                                                                    variant,
-                                                                                    ability,
-                                                                                )}
-                                                                            />
-                                                                        </p>
-                                                                    )}
-                                                                </div>
-                                                            </section>
-                                                        );
-                                                    },
+                                                                            )}
+                                                                        </div>
+                                                                    </section>
+                                                                );
+                                                            },
+                                                        )}
+                                                    </div>
                                                 )}
                                             </div>
-                                        )}
+                                        </details>
+                                    );
+                                })}
+                            </div>
+                        </section>
+                    ))
+                }
+
+                {
+                    globalPassives.length > 0 && (
+                        <section class="character-info-section">
+                            <h3>{ui('Global Passives')}</h3>
+
+                            <div class="character-global-passive-grid">
+                                {globalPassives.map(({ id, passive }) => (
+                                    <article
+                                        class="character-global-passive-card"
+                                        data-global-passive={id}
+                                    >
+                                        <div class="character-global-passive-header">
+                                            <strong class="character-global-passive-type">
+                                                {ui('Global')}
+                                                <small>{ui('Passive')}</small>
+                                            </strong>
+
+                                            <div class="character-global-passive-title">
+                                                <span class="character-ability-name">
+                                                    {passive.name}
+                                                </span>
+
+                                                {passive.tag && (
+                                                    <small>{passive.tag}</small>
+                                                )}
+                                            </div>
+                                        </div>
+
+                                        <div class="character-global-passive-body">
+                                            <p>
+                                                <HighlightedText
+                                                    text={passive.description}
+                                                />
+                                            </p>
+                                        </div>
+                                    </article>
+                                ))}
+                            </div>
+                        </section>
+                    )
+                }
+            </div>
+        </details>
+
+        <details class="character-kit-collapse" open>
+            <summary class="character-kit-collapse-summary">
+                <h3>{ui('Ascension')} {ui('Traces')}</h3>
+
+                <span class="character-kit-collapse-chevron" aria-hidden="true"
+                ></span>
+            </summary>
+
+            <div class="character-kit-collapse-body">
+                <section class="character-info-section">
+                    <h3>{ui('Major Traces')}</h3>
+
+                    <div
+                        class="character-info-details character-major-trace-grid"
+                    >
+                        {
+                            majorTraces.map(([ascension, trace]) => (
+                                <details open data-static-detail>
+                                    <summary>
+                                        <strong class="character-major-trace-label">
+                                            {ascension && (
+                                                <span>A{ascension}</span>
+                                            )}
+
+                                            <small>{ui('Major Trace')}</small>
+                                        </strong>
+                                        <span>{trace.name}</span>
+                                    </summary>
+
+                                    <div class="character-detail-body">
+                                        <p>
+                                            <HighlightedText
+                                                text={trace.description}
+                                            />
+                                        </p>
                                     </div>
                                 </details>
-                            );
-                        })}
+                            ))
+                        }
                     </div>
                 </section>
-            ))
-        }
 
-        {
-            globalPassives.length > 0 && (
+                <!-- ========================= -->
+                <!-- Stat Bonuses              -->
+                <!-- ========================= -->
+
                 <section class="character-info-section">
-                    <h3>{ui('Global Passives')}</h3>
+                    <h3>{ui('Stat Bonuses')}</h3>
 
-                    <div class="character-global-passive-grid">
-                        {globalPassives.map(({ id, passive }) => (
-                            <article
-                                class="character-global-passive-card"
-                                data-global-passive={id}
-                            >
-                                <div class="character-global-passive-header">
-                                    <strong class="character-global-passive-type">
-                                        {ui('Global')}
-                                        <small>{ui('Passive')}</small>
-                                    </strong>
+                    <div class="character-stat-grid">
+                        {
+                            character.stat_bonuses.map((bonus) => (
+                                <span>
+                                    {bonus.stat}
 
-                                    <div class="character-global-passive-title">
-                                        <span class="character-ability-name">
-                                            {passive.name}
-                                        </span>
-
-                                        {passive.tag && (
-                                            <small>{passive.tag}</small>
-                                        )}
-                                    </div>
-                                </div>
-
-                                <div class="character-global-passive-body">
-                                    <p>
-                                        <HighlightedText
-                                            text={passive.description}
-                                        />
-                                    </p>
-                                </div>
-                            </article>
-                        ))}
+                                    <strong>{bonus.value}</strong>
+                                </span>
+                            ))
+                        }
                     </div>
                 </section>
-            )
-        }
-
-        <!-- ========================= -->
-        <!-- Major Traces              -->
-        <!-- ========================= -->
-
-        <section class="character-info-section">
-            <h3>{ui('Major Traces')}</h3>
-
-            <div class="character-info-details character-major-trace-grid">
-                {
-                    majorTraces.map(([ascension, trace]) => (
-                        <details open data-static-detail>
-                            <summary>
-                                <strong class="character-major-trace-label">
-                                    {ascension && <span>A{ascension}</span>}
-
-                                    <small>{ui('Major Trace')}</small>
-                                </strong>
-                                <span>{trace.name}</span>
-                            </summary>
-
-                            <div class="character-detail-body">
-                                <p>
-                                    <HighlightedText text={trace.description} />
-                                </p>
-                            </div>
-                        </details>
-                    ))
-                }
             </div>
-        </section>
+        </details>
 
-        <!-- ========================= -->
-        <!-- Stat Bonuses              -->
-        <!-- ========================= -->
+        <details class="character-kit-collapse" open>
+            <summary class="character-kit-collapse-summary">
+                <h3>{ui('Eidolons')}</h3>
 
-        <section class="character-info-section">
-            <h3>{ui('Stat Bonuses')}</h3>
+                <span class="character-kit-collapse-chevron" aria-hidden="true"
+                ></span>
+            </summary>
 
-            <div class="character-stat-grid">
-                {
-                    character.stat_bonuses.map((bonus) => (
-                        <span>
-                            {bonus.stat}
+            <div class="character-kit-collapse-body">
+                <section class="character-info-section">
+                    <h3>{ui('Eidolons')}</h3>
 
-                            <strong>{bonus.value}</strong>
-                        </span>
-                    ))
-                }
+                    <div class="character-info-details character-eidolon-grid">
+                        {
+                            eidolons.map((eidolon) => (
+                                <details open data-static-detail>
+                                    <summary>
+                                        <strong>E{eidolon.level}</strong>
+
+                                        <span>{eidolon.name}</span>
+                                    </summary>
+
+                                    <div class="character-detail-body">
+                                        <p>
+                                            <HighlightedText
+                                                text={eidolon.description}
+                                            />
+                                        </p>
+                                    </div>
+                                </details>
+                            ))
+                        }
+                    </div>
+                </section>
             </div>
-        </section>
-
-        <!-- ========================= -->
-        <!-- Eidolons                  -->
-        <!-- ========================= -->
-
-        <section class="character-info-section">
-            <h3>{ui('Eidolons')}</h3>
-
-            <div class="character-info-details character-eidolon-grid">
-                {
-                    eidolons.map((eidolon) => (
-                        <details open data-static-detail>
-                            <summary>
-                                <strong>E{eidolon.level}</strong>
-
-                                <span>{eidolon.name}</span>
-                            </summary>
-
-                            <div class="character-detail-body">
-                                <p>
-                                    <HighlightedText
-                                        text={eidolon.description}
-                                    />
-                                </p>
-                            </div>
-                        </details>
-                    ))
-                }
-            </div>
-        </section>
+        </details>
     </div>
 </details>
 
@@ -1075,7 +1152,114 @@ const renderVariantDescription = (
         margin-top: 0;
         margin-bottom: 10px;
     }
+    /* =====================================================
+   Kit section collapse groups
+   ===================================================== */
 
+    .character-kit-collapse {
+        box-sizing: border-box;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        margin-top: 1.5rem;
+    }
+
+    .character-kit-collapse-summary {
+        position: relative;
+
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        min-width: 0;
+
+        padding: 10px 44px 10px 12px;
+
+        border-radius: 8px;
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(255, 255, 255, 0.055),
+                rgba(255, 255, 255, 0.02)
+            ),
+            rgba(7, 10, 15, 0.22);
+
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09);
+
+        cursor: pointer;
+        list-style: none;
+        user-select: none;
+    }
+
+    .character-kit-collapse-summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .character-kit-collapse-summary::marker {
+        content: '';
+    }
+
+    .character-kit-collapse-summary h3 {
+        margin: 0;
+
+        color: var(--accent);
+
+        font-size: 1rem;
+        font-weight: 850;
+
+        letter-spacing: 0.035em;
+    }
+
+    .character-kit-collapse-chevron {
+        position: absolute;
+
+        top: 50%;
+        right: 16px;
+
+        box-sizing: border-box;
+
+        width: 9px;
+        height: 9px;
+
+        border-right: 2px solid var(--accent);
+        border-bottom: 2px solid var(--accent);
+
+        transform: translateY(-50%) rotate(-45deg);
+
+        transition: transform 0.18s ease;
+    }
+
+    .character-kit-collapse[open]
+        > .character-kit-collapse-summary
+        .character-kit-collapse-chevron {
+        transform: translateY(-65%) rotate(45deg);
+    }
+
+    .character-kit-collapse-body {
+        display: grid;
+
+        width: 100%;
+        min-width: 0;
+
+        gap: 1rem;
+
+        margin-top: 10px;
+    }
+
+    /*
+ * The body already supplies spacing, so don't also apply the
+ * normal 1.5rem section-to-section margin.
+ */
+    .character-kit-collapse-body
+        > .character-info-section
+        + .character-info-section {
+        margin-top: 0;
+    }
     /* =====================================================
        Stats
        ===================================================== */
@@ -1792,6 +1976,22 @@ const renderVariantDescription = (
             width: 100%;
 
             padding: 0.7rem 0.8rem;
+        }
+        .character-kit-collapse {
+            margin-top: 1rem;
+        }
+
+        .character-kit-collapse-summary {
+            padding: 8px 42px 8px 10px;
+        }
+
+        .character-kit-collapse-summary h3 {
+            font-size: 0.9rem;
+        }
+
+        .character-kit-collapse-body {
+            gap: 0.75rem;
+            margin-top: 8px;
         }
     }
     .character-ability-variant > .character-ability-tag {
