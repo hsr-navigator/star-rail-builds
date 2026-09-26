@@ -9,9 +9,9 @@
     "max_energy": 220,
     "max_charge": 4,
     "level_80_stats": {
-        "hp": 1011,
-        "atk": 739,
-        "def": 422,
+        "hp": 1164,
+        "atk": 620,
+        "def": 485,
         "spd": 105
     },
     "abilities": {

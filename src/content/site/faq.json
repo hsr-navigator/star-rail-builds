@@ -2,319 +2,372 @@
     "intro": {
         "en": "Hello and welcome to Star Rail Builds!<br><br>This website aims to help players build their Honkai: Star Rail characters as effectively as possible by providing recommended Light Cones, Relic and Planar Ornament sets, Main Stats, substats, and Trace priorities. This FAQ explains how the guide works and how to interpret its recommendations.",
         "ru": "Добро пожаловать в руководство по билдам персонажей Honkai: Star Rail!<br><br> Цель этого сайта - помочь игрокам как можно лучше собрать своих персонажей: выбрать оптимальные Световые конусы, наборы реликвий и планарные украшения, основаные статы, сабстаты, и приоритетные следы. Раздел FAQ предназначен для того, чтобы помочь разобраться, как работает руководство и как интерпретировать его рекомендации.",
-        "vn": "Xin chào và chào mừng bạn đến với Star Rail Builds!<br><br>Trang web này được làm ra nhằm mục đích giúp người chơi build các Nhân Vật Honkai: Star Rail của họ một cách hiệu quả nhất có thể bằng cách cung cấp đề xuất các Nón Ánh Sáng, bộ Di Vật và Phụ Kiện Vị Diện, các Thuộc Tính Chính, Thuộc Tính Phụ và mức độ ưu tiên của Vết Tích. Phần Câu hỏi thường gặp này giải thích cách hoạt động của hướng dẫn này và cách diễn giải các đề xuất trong đó."
+        "vn": "Xin chào và chào mừng bạn đến với Star Rail Builds!<br><br>Trang web này được làm ra nhằm mục đích giúp người chơi build các Nhân Vật Honkai: Star Rail của họ một cách hiệu quả nhất có thể bằng cách cung cấp đề xuất các Nón Ánh Sáng, bộ Di Vật và Phụ Kiện Vị Diện, các Thuộc Tính Chính, Thuộc Tính Phụ và mức độ ưu tiên của Vết Tích. Phần Câu hỏi thường gặp này giải thích cách hoạt động của hướng dẫn này và cách diễn giải các đề xuất trong đó.",
+        "cht": "歡迎來到《崩壞：星穹鐵道》出裝攻略！<br><br>這個網站主要是通過推薦適當的光錐、遺器與位面飾品、主副詞條、以及行跡優先度來方便各位開拓者遊戲中更有效地培養自己喜歡的角色。這份常見問答將會引導你如何使用這份攻略和理解推薦原因。"
     },
     "items": [
         {
             "question": {
                 "en": "Why use a website instead of a Google Sheet?",
                 "ru": "Почему вы используете веб-сайт, вместо таблицы Google Sheet?",
-                "vn": "Tại sao lại sử dụng trang web thay vì Google Trang tính?"
+                "vn": "Tại sao lại sử dụng trang web thay vì Google Trang tính?",
+                "cht": "為什麼不用Google Sheet，反而選擇用網站？"
             },
             "answer": {
                 "en": "The guide originally existed as a Google Sheet, but as the amount of Honkai: Star Rail build information grew, a website became a better way to organize and present it. The website makes it easier to browse characters, search and filter Light Cones and Relics, view detailed set and Light Cone information, manage multiple builds for a character, and expand the guide with new features without overcrowding a spreadsheet.",
                 "ru": "Первоначально руководство существовало в виде таблицы Google Sheets, но по мере роста объема информации о сборках персонажей в Honkai: Star Rail, веб-сайт стал более удобным способом организации и представления данных. Веб-сайт упрощает поиск персонажей, фильтрацию Световых конусов и реликвий, просмотр подробной информации о наборах и Световых конусах, управление несколькими сборками для одного персонажа, а также позволяет расширять руководство новыми функциями, не перегружая электронную таблицу.",
-                "vn": "Hướng dẫn ban đầu tồn tại dưới dạng bảng tính Google Trang tính, nhưng khi lượng thông tin về cách build Nhân Vật trong Honkai: Star Rail tăng lên, một trang web trở thành cách tốt hơn để tổ chức và trình bày nó. Trang web giúp dễ dàng duyệt Nhân Vật, tìm kiếm và lọc các Nón Ánh Sáng và bộ Di Vật, xem thông tin chi tiết về bộ trang bị và Nón Ánh Sáng, quản lý nhiều build khác nhau của một Nhân Vật và mở rộng hướng dẫn với các tính năng mới mà không làm quá tải bảng tính."
+                "vn": "Hướng dẫn ban đầu tồn tại dưới dạng bảng tính Google Trang tính, nhưng khi lượng thông tin về cách build Nhân Vật trong Honkai: Star Rail tăng lên, một trang web trở thành cách tốt hơn để tổ chức và trình bày nó. Trang web giúp dễ dàng duyệt Nhân Vật, tìm kiếm và lọc các Nón Ánh Sáng và bộ Di Vật, xem thông tin chi tiết về bộ trang bị và Nón Ánh Sáng, quản lý nhiều build khác nhau của một Nhân Vật và mở rộng hướng dẫn với các tính năng mới mà không làm quá tải bảng tính.",
+                "cht": "這份攻略源自於玩家們先前製作的Google Sheet，但由於《崩壞：星穹鐵道》的內容逐漸擴大，利用網站來更有效地整理資訊和展現內容也變得更有必要。這個網站讓各位開拓者更方便搜尋角色、查詢和過濾光錐和遺器，查詢更詳細的遺器和光錐資訊，兼顧到角色的多種出裝，以及更方便在未來進行功能擴張。"
             }
         },
         {
             "question": {
                 "en": "What happened to the original Google Sheet?",
                 "ru": "Что случилось с оригинальной таблицей Google Sheets?",
-                "vn": "Điều gì đã xảy ra với Google Trang tính gốc?"
+                "vn": "Điều gì đã xảy ra với Google Trang tính gốc?",
+                "cht": "那原本的Google Sheet攻略怎麼辦？"
             },
             "answer": {
                 "en": "The website is the continuation of the original Honkai: Star Rail build guide that was maintained in Google Sheets. The move to a website allows the guide to present the same kind of build information in a more organized and interactive format while making future updates and new features easier to manage.",
                 "ru": "Этот веб-сайт является продолжением оригинального руководства по сборке Honkai: Star Rail, которое ранее велось в Google Sheets. Переход на веб-сайт позволяет представить ту же информацию о сборке в более организованном и интерактивном формате, а также упрощает управление будущими обновлениями и новыми функциями.",
-                "vn": "Trang web này là phần tiếp theo của hướng dẫn build Nhân Vật Honkai: Star Rail gốc được duy trì trên Google Trang tính. Việc chuyển sang trang web cho phép hướng dẫn trình bày thông tin build tương tự một cách có tổ chức và tương tác hơn, đồng thời giúp việc quản lý các bản cập nhật và tính năng mới trong tương lai dễ dàng hơn."
+                "vn": "Trang web này là phần tiếp theo của hướng dẫn build Nhân Vật Honkai: Star Rail gốc được duy trì trên Google Trang tính. Việc chuyển sang trang web cho phép hướng dẫn trình bày thông tin build tương tự một cách có tổ chức và tương tác hơn, đồng thời giúp việc quản lý các bản cập nhật và tính năng mới trong tương lai dễ dàng hơn.",
+                "cht": "這個網站將延續原先在《崩壞：星穹鐵道》Google Sheet進行的更新。這次的搬遷讓這一份攻略能夠更好的展示出裝攻略內容和更有效地互動模式，同時也更方便未來進行優化和更新，以及資訊管理更便捷。"
             }
         },
         {
             "question": {
                 "en": "What is featured on this build guide?",
                 "ru": "Что представлено в этом руководстве по сборке?",
-                "vn": "Hướng dẫn build này có những gì?"
+                "vn": "Hướng dẫn build này có những gì?",
+                "cht": "那這份攻略有什麼特點？"
             },
             "answer": {
                 "en": "Each character guide can include recommended **Light Cones**, **Cavern Relics**, **Planar Ornaments**, **Relic Main Stats**, **substat priorities**, and **Trace priorities**. Some characters may also have multiple builds when they have meaningfully different playstyles or roles.",
                 "ru": "В каждом руководстве по персонажу могут быть указаны рекомендуемые **Световые конусы**, **пещерные реликвии**, **планарные украшения**, **основные характеристики реликвий**, **приоритеты дополнительных характеристик** и **приоритеты следов**. У некоторых персонажей также может быть несколько вариантов прокачки, если у них существенно различаются стили игры или роли.",
-                "vn": "Mỗi hướng dẫn Nhân Vật có thể bao gồm **Nón Ánh Sáng**, **Di Vật Hang Động**, **Phụ Kiện Vị Diện**, **Chỉ số chính của Di Tích**, **Các ưu tiên chỉ số phụ** và **Ưu tiên Vết Tích**. Một số Nhân Vật cũng có thể có nhiều build khác nhau khi họ có các phong cách chơi hoặc vai trò khác nhau."
+                "vn": "Mỗi hướng dẫn Nhân Vật có thể bao gồm **Nón Ánh Sáng**, **Di Vật Hang Động**, **Phụ Kiện Vị Diện**, **Chỉ số chính của Di Tích**, **Các ưu tiên chỉ số phụ** và **Ưu tiên Vết Tích**. Một số Nhân Vật cũng có thể có nhiều build khác nhau khi họ có các phong cách chơi hoặc vai trò khác nhau.",
+                "cht": "每一個角色都包括了**光錐推薦**、**遺器推薦**、**位面飾品推薦**、**主詞條**、**副詞條優先度**、以及**行跡優先度**。有一部分角色會有多種出裝來應付不同情況和功能。"
             }
         },
         {
             "question": {
                 "en": "Who is this guide intended for?",
                 "ru": "Для кого предназначено это руководство?",
-                "vn": "Hướng dẫn này dành cho ai?"
+                "vn": "Hướng dẫn này dành cho ai?",
+                "cht": "這份攻略的目標對象會是誰？"
             },
             "answer": {
                 "en": "The guide is primarily intended for players who are actively building characters and have access to normal endgame gearing options, including 5★ Relics. Newer players can still use the recommendations, but they may not yet have access to every Light Cone, Relic set, or stat combination shown.",
                 "ru": "Данное руководство в первую очередь предназначено для игроков, активно прокачивающих своих персонажей и имеющих доступ к стандартным вариантам экипировки для эндгейма, включая 5★ реликвии. Новые игроки также могут использовать эти рекомендации, но у них может еще не быть доступа ко всем показанным комбинациям Световых конусов, наборов реликвий или характеристик.",
-                "vn": "Hướng dẫn này chủ yếu dành cho những người chơi đang tích cực build Nhân Vật và có thể đạt được các tùy chọn trang bị endgame thông thường, bao gồm cả Di Vật 5★. Người chơi mới vẫn có thể sử dụng các đề xuất, nhưng họ có thể chưa có nhiều loại Nón Ánh Sáng, bộ Di Vật hoặc sự kết hợp chỉ số được hiển thị."
+                "vn": "Hướng dẫn này chủ yếu dành cho những người chơi đang tích cực build Nhân Vật và có thể đạt được các tùy chọn trang bị endgame thông thường, bao gồm cả Di Vật 5★. Người chơi mới vẫn có thể sử dụng các đề xuất, nhưng họ có thể chưa có nhiều loại Nón Ánh Sáng, bộ Di Vật hoặc sự kết hợp chỉ số được hiển thị.",
+                "cht": "這份攻略主要是給打算認真培養角色，並且當下能夠為挑戰普通的高難關卡做準備的開拓者，包括穩定刷5星遺器。新玩家當然也可以參考，但有可能未必會達到推薦的要求，比如光錐選擇、遺器套裝、或詞條分配。"
             }
         },
         {
             "question": {
                 "en": "How are Light Cones ranked?",
                 "ru": "Как оцениваются Световые конусы?",
-                "vn": "Nón Ánh Sáng được xếp hạng như thế nào?"
+                "vn": "Nón Ánh Sáng được xếp hạng như thế nào?",
+                "cht": "光錐是怎麼排名的？"
             },
             "answer": {
                 "en": "Light Cones are ranked based on how well they perform for the specific character and build being shown. Rankings may account for damage, support value, utility, consistency, and other effects relevant to that character. A Light Cone being strong in general does not necessarily mean it will rank highly for every character.",
                 "ru": "Эффективность Световых конусов оценивается на основе того, насколько хорошо они подходят для конкретного персонажа и сборки. При ранжировании могут учитываться урон, польза для команды, функциональность, стабильность и другие эффекты, имеющие отношение к данному персонажу. Высокая эффективность Светового конуса в целом не обязательно означает, что он будет занимать высокое место в рейтинге для любого персонажа.",
-                "vn": "Nón Ánh Sáng được xếp hạng dựa trên hiệu quả hoạt động của chúng đối với Nhân Vật cụ thể và build được hiển thị. Thứ hạng có thể tính đến sát thương, giá trị hỗ trợ, tiện ích, tính nhất quán và các hiệu ứng khác liên quan đến Nhân Vật đó. Một Nón Ánh Sáng mạnh nói chung không nhất thiết có nghĩa là nó sẽ xếp hạng cao cho mọi Nhân Vật."
+                "vn": "Nón Ánh Sáng được xếp hạng dựa trên hiệu quả hoạt động của chúng đối với Nhân Vật cụ thể và build được hiển thị. Thứ hạng có thể tính đến sát thương, giá trị hỗ trợ, tiện ích, tính nhất quán và các hiệu ứng khác liên quan đến Nhân Vật đó. Một Nón Ánh Sáng mạnh nói chung không nhất thiết có nghĩa là nó sẽ xếp hạng cao cho mọi Nhân Vật.",
+                "cht": "一般情況光錐都是根據各個角色的試用表現和遺器搭配程度。排名會考慮傷害、輔助能力、通用能力、合理性、以及角色相關的其他效果。一張強力光錐也未必適配每個角色。"
             }
         },
         {
             "question": {
                 "en": "What does S1, S2, S3, S4, or S5 mean?",
                 "ru": "Что означают S1, S2, S3, S4 или S5?",
-                "vn": "S1, S2, S3, S4, hoặc là S5 có nghĩa là gì?"
+                "vn": "S1, S2, S3, S4, hoặc là S5 có nghĩa là gì?",
+                "cht": "S1、S2、S3、S4、S5是什麼意思？"
             },
             "answer": {
                 "en": "**S** refers to a Light Cone's **Superimposition level**. For example, S1 means Superimposition 1 and S5 means Superimposition 5. Unless otherwise stated, limited 5★ Light Cones are generally compared at S1, while some accessible Light Cones may be shown at higher Superimposition levels when appropriate.",
                 "ru": "**S** обозначает **уровень наложения** (Superimposition level) Светового конуса. Например, S1 означает уровень наложения 1, а S5 — уровень наложения 5. Если не указано иное, лимитированные 5★ Световые конусы обычно сравниваются на уровне S1, в то время как некоторые бесплатные Световые конусы могут отображаться на более высоких уровнях наложения, если это необходимо.",
-                "vn": "**S** đề cập đến **Bậc Tích Tầng** (Superimposition level) của một Nón Ánh Sáng. Ví dụ, S1 có nghĩa là Tích Tầng Bậc 1 và S5 có nghĩa là Tích Tầng Bậc 5. Trừ khi có ghi chú khác, các Nón Ánh Sáng 5★ giới hạn thường được so sánh ở mức S1, trong khi một số Nón Ánh Sáng dễ dàng đạt được hơn có thể được hiển thị ở Bậc Tích Tầng cao hơn khi thích hợp."
+                "vn": "**S** đề cập đến **Bậc Tích Tầng** (Superimposition level) của một Nón Ánh Sáng. Ví dụ, S1 có nghĩa là Tích Tầng Bậc 1 và S5 có nghĩa là Tích Tầng Bậc 5. Trừ khi có ghi chú khác, các Nón Ánh Sáng 5★ giới hạn thường được so sánh ở mức S1, trong khi một số Nón Ánh Sáng dễ dàng đạt được hơn có thể được hiển thị ở Bậc Tích Tầng cao hơn khi thích hợp.",
+                "cht": "**S**指的是一張光錐的疊影等級。例如：S1是疊影1，S5是疊影5。若沒特別註明，限定5★光錐都以S1作為標准；有一部分可輕鬆獲取的光錐可能會顯示更高疊影。"
             }
         },
         {
             "question": {
                 "en": "Why are some Light Cones highlighted?",
                 "ru": "Почему некоторые Световые конусы выделены?",
-                "vn": "Tại sao một số Nón Ánh Sáng lại được tô sáng?"
+                "vn": "Tại sao một số Nón Ánh Sáng lại được tô sáng?",
+                "cht": "為什麼有一部分光錐被“點亮”了？"
             },
             "answer": {
                 "en": "Highlighted Light Cones represent free or especially accessible options according to the site's Light Cone data. They are included to make sure players can identify useful alternatives even when they do not own the higher-ranked limited options. A highlighted option is not necessarily the character's strongest option.",
                 "ru": "Выделенные Световые конусы обозначают бесплатные или более доступные варианты согласно данным сайта. Они включены для того, чтобы игроки могли определить полезные альтернативы, даже если у них нет более высокоранговых эксклюзивных вариантов. Выделенный конус не обязательно является самым сильным вариантом для персонажа.",
-                "vn": "Các Nón Ánh Sáng được tô sáng đại diện cho các lựa chọn miễn phí hoặc có thể dễ dàng đạt được dựa theo dữ liệu Nón Ánh Sáng của trang web. Chúng được đưa vào để đảm bảo người chơi có thể xác định các lựa chọn thay thế hữu ích ngay cả khi họ không sở hữu các lựa chọn giới hạn được xếp hạng cao hơn. Lựa chọn được tô sáng không nhất thiết là lựa chọn mạnh nhất của Nhân Vật."
+                "vn": "Các Nón Ánh Sáng được tô sáng đại diện cho các lựa chọn miễn phí hoặc có thể dễ dàng đạt được dựa theo dữ liệu Nón Ánh Sáng của trang web. Chúng được đưa vào để đảm bảo người chơi có thể xác định các lựa chọn thay thế hữu ích ngay cả khi họ không sở hữu các lựa chọn giới hạn được xếp hạng cao hơn. Lựa chọn được tô sáng không nhất thiết là lựa chọn mạnh nhất của Nhân Vật.",
+                "cht": "被特別“點亮”的光錐代表著免費或特定情況獲取的光錐。這是為了更方便玩家在沒有高排名選擇的情況下能有下位替代。被“點亮”的選項也未必是該角色最好的選擇。"
             }
         },
         {
             "question": {
                 "en": "How are Relic and Planar Ornament sets ranked?",
                 "ru": "Как оцениваются реликвии и планарные украшения?",
-                "vn": "Các bộ Di Vật và Phụ Kiện Vị Diện được xếp hạng như thế nào?"
+                "vn": "Các bộ Di Vật và Phụ Kiện Vị Diện được xếp hạng như thế nào?",
+                "cht": "遺器和飾品是怎麼排名的？"
             },
             "answer": {
                 "en": "Relic recommendations are based on the value of their set effects for the character's intended build. **Cavern Relics** can be recommended as 2-Pc or 4-Pc sets, while **Planar Ornaments** are 2-Pc sets. Rankings may change depending on team composition, Speed tuning, Eidolons, Light Cones, or other assumptions mentioned in the guide.",
                 "ru": "Рекомендации по реликвиям основаны на ценности их эффектов для предполагаемой сборки персонажа. **Пещерные реликвии** могут быть рекомендованы как наборами из 2 или 4 шт., а **Планарные украшения** — как наборы из 2 шт. Рейтинги могут меняться в зависимости от состава команды, баланса скорости, эйдолонов, Световых конусов или других предположений, упомянутых в руководстве.",
-                "vn": "Các Di Vật được đề xuất dựa trên giá trị của hiệu ứng hoàn bộ dành cho lối chơi dự định của Nhân Vật. **Di Vật Hang động** có thể được đề xuất dưới dạng bộ 2 món hoặc 4 món, trong khi **Phụ Kiện Vị Diện** là bộ 2 món. Xếp hạng có thể thay đổi tùy thuộc vào đội hình, điều chỉnh Tốc Độ, Tinh Hồn, Nón Ánh Sáng hoặc các giả định khác được đề cập trong hướng dẫn."
+                "vn": "Các Di Vật được đề xuất dựa trên giá trị của hiệu ứng hoàn bộ dành cho lối chơi dự định của Nhân Vật. **Di Vật Hang động** có thể được đề xuất dưới dạng bộ 2 món hoặc 4 món, trong khi **Phụ Kiện Vị Diện** là bộ 2 món. Xếp hạng có thể thay đổi tùy thuộc vào đội hình, điều chỉnh Tốc Độ, Tinh Hồn, Nón Ánh Sáng hoặc các giả định khác được đề cập trong hướng dẫn.",
+                "cht": "遺器推薦一般上都是根據角色需求和提升來排名。**侵蝕隧洞遺器**可以以2件或4件套來推薦，**位面飾品**則都是2件套。排名也會根據隊伍排列、配速、光錐、或其他這份攻略會提到的。"
             }
         },
         {
             "question": {
                 "en": "Why does the guide recommend a 2-Pc + 2-Pc Relic combination?",
                 "ru": "Почему в руководстве рекомендуется комбинация из 2 шт. + 2 шт. наборов реликвий?",
-                "vn": "Tại sao hướng dẫn lại đề xuất kết hợp Di Vật 2 Món + 2 Món?"
+                "vn": "Tại sao hướng dẫn lại đề xuất kết hợp Di Vật 2 Món + 2 Món?",
+                "cht": "為什麼這份攻略會推薦2+2散搭裝？"
             },
             "answer": {
                 "en": "Some characters do not gain enough from a specific 4-Pc set to justify forcing it. In those cases, combining two useful 2-Pc bonuses can perform similarly or better while also making Relic farming and substat optimization easier.",
                 "ru": "Некоторым персонажам конкретный набор из 4 шт. не приносит достаточно пользы, чтобы оправдать его обязательное использование. В таких случаях сочетание двух полезных бонусов от наборов из 2 шт. может дать аналогичные или даже лучшие результаты, а также упростить фарм реликвий и оптимизацию сабстатов.",
-                "vn": "Một số Nhân Vật không đạt đủ lợi ích từ một bộ 4 Món cụ thể để biện minh cho việc buộc phải sử dụng nó. Trong những trường hợp đó, việc kết hợp hai hiệu ứng 2 Món hữu ích có thể có tác dụng tương tự hoặc tốt hơn đồng thời giúp việc farm Di Vật và tối ưu hóa thuộc tính phụ trở nên dễ dàng hơn."
+                "vn": "Một số Nhân Vật không đạt đủ lợi ích từ một bộ 4 Món cụ thể để biện minh cho việc buộc phải sử dụng nó. Trong những trường hợp đó, việc kết hợp hai hiệu ứng 2 Món hữu ích có thể có tác dụng tương tự hoặc tốt hơn đồng thời giúp việc farm Di Vật và tối ưu hóa thuộc tính phụ trở nên dễ dàng hơn.",
+                "cht": "有一部分角色無法完全利用一些4件套效果。因此，在沒有太大的差距或甚至更好的情況下，2件套+2件套的散搭也不為失是個方案，湊詞條也比較容易。"
             }
         },
         {
             "question": {
                 "en": "How should I read the Relic Main Stat recommendations?",
                 "ru": "Как мне следует интерпретировать рекомендации по основным статам реликвии?",
-                "vn": "Tôi nên đọc các đề xuất về thuộc tính chính của Di Vật như thế nào?"
+                "vn": "Tôi nên đọc các đề xuất về thuộc tính chính của Di Vật như thế nào?",
+                "cht": "我該怎麼讀/理解遺器主詞條的推薦？"
             },
             "answer": {
                 "en": "The guide separately lists recommended Main Stats for **Body**, **Feet**, **Planar Sphere**, and **Link Rope**. When multiple stats are listed for one slot, the best choice may depend on your build, team, Light Cone, or existing stats. Check the character's notes when additional context is provided.",
                 "ru": "В руководстве отдельно указаны рекомендуемые основные статы для **тела**, **ног**, **планарной сферы** и **соединительной вязи**. Если для одного слота указано несколько характеристик, лучший выбор может зависеть от вашей сборки, команды, Светового конуса или имеющихся статов. Для получения дополнительной информации обратитесь к примечаниям к персонажу.",
-                "vn": "Hướng dẫn liệt kê riêng các đề xuất thuộc tính chính cho **Thân**, **Chân**, **Quả Cầu Vị Diện** và **Dây Liên Kết**. Khi nhiều thuộc tính được liệt kê cho một vị trí, lựa chọn tốt nhất có thể phụ thuộc vào lối chơi, đội hình, Nón Ánh Sáng hoặc các chỉ số hiện có của bạn. Kiểm tra ghi chú của Nhân Vật khi ngữ cảnh bổ sung được cung cấp."
+                "vn": "Hướng dẫn liệt kê riêng các đề xuất thuộc tính chính cho **Thân**, **Chân**, **Quả Cầu Vị Diện** và **Dây Liên Kết**. Khi nhiều thuộc tính được liệt kê cho một vị trí, lựa chọn tốt nhất có thể phụ thuộc vào lối chơi, đội hình, Nón Ánh Sáng hoặc các chỉ số hiện có của bạn. Kiểm tra ghi chú của Nhân Vật khi ngữ cảnh bổ sung được cung cấp.",
+                "cht": "這份攻略有明確表示**頭部**、**腳步**、**位面球**、以及**連結繩**。當一個部位有不同的主詞條推薦，最佳的選項往往和你當喜愛的配隊、出裝、光錐或現有詞條有關。更多詳情可以查看各個角色的備註。"
             }
         },
         {
             "question": {
                 "en": "How should I read the substat priority?",
                 "ru": "Как мне следует интерпретировать рекомендации по сабстатам?",
-                "vn": "Tôi nên đọc mức độ ưu tiên của thuộc tính phụ như thế nào?"
+                "vn": "Tôi nên đọc mức độ ưu tiên của thuộc tính phụ như thế nào?",
+                "cht": "我該怎麼閱讀/理解副詞條優先度？"
             },
             "answer": {
                 "en": "Substats are listed in their general order of value for the build. This does **not** mean that every roll into the first-listed stat is always better than every roll into the next stat. Stat thresholds, Speed tuning, Crit balance, Effect Hit Rate requirements, and other character-specific mechanics can change the relative value of individual rolls.",
                 "ru": "Сабстаты перечислены в общем порядке их значимости для данной сборки. Это не означает, что каждый ролл в первый указанный стат всегда лучше, чем каждый ролл в следующий. Пороговые значения статов, баланс скорости, баланс критов, требования к шансу попадания эффектов и другие специфические для персонажа механики могут изменить относительную ценность отдельных бросков.",
-                "vn": "Các thuộc tính phụ được liệt kê theo thứ tự giá trị chung cho build. Điều này **không** có nghĩa là mỗi roll vào thuộc tính được liệt kê đầu tiên luôn tốt hơn roll vào thuộc tính tiếp theo. Ngưỡng chỉ số, điều chỉnh Tốc Độ, cân bằng Bạo Kích, yêu cầu về Chính Xác Hiệu Ứng và các cơ chế dành riêng cho Nhân Vật khác có thể thay đổi giá trị tương đối của từng roll."
+                "vn": "Các thuộc tính phụ được liệt kê theo thứ tự giá trị chung cho build. Điều này **không** có nghĩa là mỗi roll vào thuộc tính được liệt kê đầu tiên luôn tốt hơn roll vào thuộc tính tiếp theo. Ngưỡng chỉ số, điều chỉnh Tốc Độ, cân bằng Bạo Kích, yêu cầu về Chính Xác Hiệu Ứng và các cơ chế dành riêng cho Nhân Vật khác có thể thay đổi giá trị tương đối của từng roll.",
+                "cht": "副詞條會根據優先度來排行。但這**不代表**全跳第一個詞條就是最好的。每個角色都有各自的詞條需求來滿足或觸發對應的機制，進而達到平衡。"
             }
         },
         {
             "question": {
                 "en": "Why don't you give exact stat goals for every character?",
                 "ru": "Почему бы вам не указать точные целевые статы для каждого персонажа?",
-                "vn": "Tại sao bạn không đưa ra mục tiêu chỉ số chính xác cho từng Nhân Vật?"
+                "vn": "Tại sao bạn không đưa ra mục tiêu chỉ số chính xác cho từng Nhân Vật?",
+                "cht": "為啥不直接給每個角色提供準確的推薦面板？"
             },
             "answer": {
                 "en": "Exact stat goals can vary substantially between accounts. Team composition, Light Cones, Relic sets, external buffs, Eidolons, enemy mechanics, and the content being played can all change how much of a stat is needed. When a character has an important threshold, such as a Speed or Effect Hit Rate requirement, it may be mentioned directly in the guide or its notes.",
                 "ru": "Точные целевые статы могут существенно различаться в зависимости от аккаунтов. Состав команды, Световые конусы, наборы реликвий, внешние баффы, эйдолоны, механика врагов и игровой контент — всё это может влиять на необходимые значения того или иного стата. Если у персонажа есть важный пороговый показатель, например, требование к скорости или шансу попадания эффектов, это может быть прямо указано в руководстве или его примечаниях.",
-                "vn": "Mục tiêu chỉ số chính xác có thể khác nhau đáng kể giữa các tài khoản. Thành phần đội hình, Nón Ánh Sáng, bộ Di Vật, buff bên ngoài, Tinh Hồn, cơ chế của Phe Địch và nội dung game được chơi đều có thể thay đổi lượng chỉ số cần thiết. Khi một Nhân Vật có một ngưỡng chỉ số quan trọng, chẳng hạn như yêu cầu về Tốc Độ hoặc Chính Xác Hiệu Ứng, nó có thể được đề cập trực tiếp trong hướng dẫn hoặc ghi chú trong đó."
+                "vn": "Mục tiêu chỉ số chính xác có thể khác nhau đáng kể giữa các tài khoản. Thành phần đội hình, Nón Ánh Sáng, bộ Di Vật, buff bên ngoài, Tinh Hồn, cơ chế của Phe Địch và nội dung game được chơi đều có thể thay đổi lượng chỉ số cần thiết. Khi một Nhân Vật có một ngưỡng chỉ số quan trọng, chẳng hạn như yêu cầu về Tốc Độ hoặc Chính Xác Hiệu Ứng, nó có thể được đề cập trực tiếp trong hướng dẫn hoặc ghi chú trong đó.",
+                "cht": "每個賬號的目標詞條或多或少都會不一樣。配隊、光錐、遺器套裝、戰鬥增益、星魂、敵人機制、戰鬥環境都會一定程度影響詞條需求。若某個角色有特定的閾值，比如速度/效果命中需求，則會標註清楚再各個角色的攻略頁面或備註。"
             }
         },
         {
             "question": {
                 "en": "What does the Trace priority mean?",
                 "ru": "Что означает приоритет прокачки следов?",
-                "vn": "Ưu tiên Vết Tích nghĩa là gì?"
+                "vn": "Ưu tiên Vết Tích nghĩa là gì?",
+                "cht": "行跡優先度是什麼？"
             },
             "answer": {
                 "en": "Trace priority shows the relative importance of leveling a character's **Basic ATK**, **Skill**, **Ultimate**, and **Talent** for the selected build. The recommended levels can be adjusted using the Trace sliders on the character page so you can see how the ability values change at different levels.",
                 "ru": "Приоритет прокачки следов показывает относительную важность прокачки **базовой атаки**, **навыка**, **сверхспособности** и **таланта** персонажа для выбранной сборки. Рекомендуемые уровни можно настроить с помощью ползунков следов на странице персонажа, чтобы увидеть, как значения способностей меняются на разных уровнях.",
-                "vn": "Ưu tiên Vết Tích thể hiện tầm quan trọng tương đối của việc nâng cấp **Tấn Công Thường**, **Chiến Kỹ**, **Tuyệt Kỹ** và **Thiên Phú** của Nhân Vật cho lối chơi đã chọn. Cấp độ đề xuất có thể được điều chỉnh bằng cách sử dụng thanh trượt tại mỗi Vết Tích trên trang Nhân Vật để xem giá trị kỹ năng thay đổi như thế nào ở các cấp độ khác nhau."
+                "vn": "Ưu tiên Vết Tích thể hiện tầm quan trọng tương đối của việc nâng cấp **Tấn Công Thường**, **Chiến Kỹ**, **Tuyệt Kỹ** và **Thiên Phú** của Nhân Vật cho lối chơi đã chọn. Cấp độ đề xuất có thể được điều chỉnh bằng cách sử dụng thanh trượt tại mỗi Vết Tích trên trang Nhân Vật để xem giá trị kỹ năng thay đổi như thế nào ở các cấp độ khác nhau.",
+                "cht": "行跡優先度顯示了提升**普攻**、**戰技**、**終結技**、**天賦**或命途對應行跡的等級的重要性。各個角色的推薦行跡等級都能通過拉動滑軌來查看某個行跡各個等級的數值差距。"
             }
         },
         {
             "question": {
                 "en": "Do I need to level every Trace?",
                 "ru": "Нужно ли прокачивать все следы?",
-                "vn": "Tôi có cần thăng cấp mọi Vết Tích không?"
+                "vn": "Tôi có cần thăng cấp mọi Vết Tích không?",
+                "cht": "那我需要拉滿全部行跡嗎？"
             },
             "answer": {
                 "en": "No. Some characters gain little or no practical benefit from leveling certain abilities. The Trace priority is intended to show where your materials provide the most value. Major Traces and useful stat nodes should generally be unlocked as appropriate for the character.",
                 "ru": "Нет. Некоторые персонажи получают мало или совсем никакой практической пользы от прокачки определенных способностей. Приоритет прокачки cледов призван показать, где ваши материалы приносят наибольшую пользу. Основные следы и полезные узлы со статами, как правило, следует разблокировать по мере необходимости для персонажа.",
-                "vn": "Không. Một số Nhân Vật nhận được rất ít hoặc không có lợi ích thực tế nào từ việc thăng cấp một số khả năng nhất định. Ưu tiên Dấu vết nhằm mục đích hiển thị nơi tài liệu của bạn mang lại giá trị cao nhất. Dấu vết chính và nút chỉ số hữu ích nói chung phải được mở khóa phù hợp với Nhân Vật."
+                "vn": "Không. Một số Nhân Vật nhận được rất ít hoặc không có lợi ích thực tế nào từ việc thăng cấp một số khả năng nhất định. Ưu tiên Dấu vết nhằm mục đích hiển thị nơi tài liệu của bạn mang lại giá trị cao nhất. Dấu vết chính và nút chỉ số hữu ích nói chung phải được mở khóa phù hợp với Nhân Vật.",
+                "cht": "並非。部分行跡等級對特定角色並沒有或只有些許收益。行跡優先度就明確告訴你了你的材料優先花在哪裡更有性價比。額外能力和有用的詞條提升行跡都盡可能解鎖來提升角色能力。"
             }
         },
         {
             "question": {
                 "en": "What Eidolon level does the guide assume?",
                 "ru": "Каковы требования к Эйдолонам персонажей?",
-                "vn": "Hướng dẫn sử dụng cấp độ Tinh Hồn nào?"
+                "vn": "Hướng dẫn sử dụng cấp độ Tinh Hồn nào?",
+                "cht": "這份攻略都以哪個星魂作為標准？"
             },
             "answer": {
                 "en": "Unless a guide specifically says otherwise, limited 5★ characters should generally be interpreted from an **E0 baseline**. Recommendations may change at higher Eidolons, and particularly important Eidolon-dependent differences can be mentioned in the build notes.",
                 "ru": "Если в руководстве не указано иное, эксклюзивные 5★ персонажи, как правило, рассматриваются на **базе E0**. Рекомендации могут меняться на более высоких уровнях эйдолонов, и особенно важные различия, зависящие от эйдолона, могут быть упомянуты в примечаниях к сборке.",
-                "vn": "Trừ khi hướng dẫn có biểu thị cụ thể khác, các Nhân Vật 5 sao giới hạn thường nên được đánh giá dựa trên **mốc E0** (Tinh Hồn - Eidolon). Các hướng dẫn có thể thay đổi ở các cấp độ Tinh Hồn cao hơn và các sự khác biệt phụ thuộc vào Tinh Hồn đặc biệt quan trọng có thể được đề cập trong ghi chú xây dựng."
+                "vn": "Trừ khi hướng dẫn có biểu thị cụ thể khác, các Nhân Vật 5 sao giới hạn thường nên được đánh giá dựa trên **mốc E0** (Tinh Hồn - Eidolon). Các hướng dẫn có thể thay đổi ở các cấp độ Tinh Hồn cao hơn và các sự khác biệt phụ thuộc vào Tinh Hồn đặc biệt quan trọng có thể được đề cập trong ghi chú xây dựng.",
+                "cht": "除非有額外寫明，限定5星都以**0星魂**為基準。部分的推薦會因為星魂而有所改變，而這顯著的不通電會特別標註出來。"
             }
         },
         {
             "question": {
                 "en": "A new character was just released. Why aren't they on the site yet?",
                 "ru": "Недавно вышел новый персонаж. Почему его ещё нет на сайте?",
-                "vn": "Một Nhân Vật mới ra mắt. Tại sao thông tin của họ vẫn chưa có trên trang web?"
+                "vn": "Một Nhân Vật mới ra mắt. Tại sao thông tin của họ vẫn chưa có trên trang web?",
+                "cht": "新角色剛剛出來了。怎麼還沒更新上網站？"
             },
             "answer": {
                 "en": "New character guides take time to research, calculate, test, write, and review. A character may appear as **WIP** while their guide is still being completed. We would rather take additional time to publish useful recommendations than rush a guide immediately after release.",
                 "ru": "Создание новых руководств по персонажам требует времени на исследования, расчеты, тестирование, написание и проверку. Информация о персонаже может отображаться как **в процессе разработки**, пока руководство еще не завершено. Мы предпочитаем потратить дополнительное время на публикацию полезных рекомендаций, чем спешить с выпуском руководства сразу после его выхода.",
-                "vn": "Hướng dẫn Nhân Vật mới cần thời gian để nghiên cứu, tính toán, thử nghiệm, viết và xem xét. Một Nhân Vật có thể xuất hiện dưới dạng **Đang trong quá trình hoàn thiện** trong khi hướng dẫn của họ vẫn đang được hoàn thành. Chúng tôi muốn dành thêm thời gian để đăng tải các hướng dẫn hữu ích hơn là vội vàng ra mắt hướng dẫn ngay sau khi phát hành."
+                "vn": "Hướng dẫn Nhân Vật mới cần thời gian để nghiên cứu, tính toán, thử nghiệm, viết và xem xét. Một Nhân Vật có thể xuất hiện dưới dạng **Đang trong quá trình hoàn thiện** trong khi hướng dẫn của họ vẫn đang được hoàn thành. Chúng tôi muốn dành thêm thời gian để đăng tải các hướng dẫn hữu ích hơn là vội vàng ra mắt hướng dẫn ngay sau khi phát hành.",
+                "cht": "新角色需要花時間來研究、計算、測試、編寫和審核。相關未完成攻略的角色會出現**編輯中**的字眼。我們會多花些時間來發佈實際有用的推薦，因此不會為了趕緊出貨而倉促趕工。"
             }
         },
         {
             "question": {
                 "en": "When will an outdated character guide be updated?",
                 "ru": "Когда будет обновлено устаревшее руководство по персонажу?",
-                "vn": "Khi nào hướng dẫn của một Nhân Vật lỗi thời sẽ được cập nhật?"
+                "vn": "Khi nào hướng dẫn của một Nhân Vật lỗi thời sẽ được cập nhật?",
+                "cht": "已經過時的角色出裝攻略還會更新下去嗎？"
             },
             "answer": {
                 "en": "Character builds can change when new Light Cones, Relic sets, teammates, enemies, or game modes are released. Maintaining every character at once takes time, so updates may be prioritized based on how significantly a character's recommendations have changed. Check the character's displayed update version to see when their guide was last reviewed.",
                 "ru": "Сборки персонажей могут меняться при появлении новых Световых конусов, наборов реликвий, новых персонажей, врагов или игровых режимов. Поддержание актуальности всех персонажей одновременно требует времени, поэтому приоритет обновлений может определяться тем, насколько существенно изменились рекомендации по персонажу. Проверьте указанную версию руководства, чтобы узнать, когда оно обновлялось в последний раз.",
-                "vn": "Cách xây dựng Nhân Vật có thể thay đổi khi có Nón Ánh Sáng, bộ Di Vật, đồng đội, Phe Địch hoặc game mode mới được phát hành. Việc duy trì tất cả các Nhân Vật cùng một lúc tốn thời gian, vì vậy các bản cập nhật có thể được ưu tiên dựa trên mức độ thay đổi đáng kể của các hướng dẫn dành cho Nhân Vật đó. Hãy kiểm tra phiên bản cập nhật được hiển thị của từng Nhân Vật để xem lần cuối cùng hướng dẫn của họ được xem xét là khi nào."
+                "vn": "Cách xây dựng Nhân Vật có thể thay đổi khi có Nón Ánh Sáng, bộ Di Vật, đồng đội, Phe Địch hoặc game mode mới được phát hành. Việc duy trì tất cả các Nhân Vật cùng một lúc tốn thời gian, vì vậy các bản cập nhật có thể được ưu tiên dựa trên mức độ thay đổi đáng kể của các hướng dẫn dành cho Nhân Vật đó. Hãy kiểm tra phiên bản cập nhật được hiển thị của từng Nhân Vật để xem lần cuối cùng hướng dẫn của họ được xem xét là khi nào.",
+                "cht": "當有新光錐、遺器套裝、隊友、敵人或新模式出現時，出裝攻略也會作出對應的調整。持續更新所有角色會耗費一些時間，所以我們會優先針對重大改變的角色作出調整。請以每個角色所顯示的最新更新版本來知道什麼時候更新過。"
             }
         },
         {
             "question": {
                 "en": "I think a different Light Cone or Relic set should be ranked. Why isn't it included?",
                 "ru": "Я считаю, что в рейтинг следует включить другой Световой конус или набор реликвий. Почему его нет?",
-                "vn": "Tôi nghĩ nên xếp hạng một Nón Ánh Sáng hoặc bộ Di Vật khác. Tại sao nó lại không được thêm vào?"
+                "vn": "Tôi nghĩ nên xếp hạng một Nón Ánh Sáng hoặc bộ Di Vật khác. Tại sao nó lại không được thêm vào?",
+                "cht": "我覺得某些光錐或遺器套裝應該被標上推薦。為什麼沒有被包括在內？"
             },
             "answer": {
                 "en": "Recommendations are based on the assumptions and calculations used for that specific build. Some options may be very close in performance, highly situational, dependent on specific teams, or simply worse under the guide's assumptions. Rankings can also change as new characters, Light Cones, and Relics are released.",
                 "ru": "Рекомендации основаны на предположениях и расчетах, использованных для конкретного билда. Некоторые варианты могут быть очень близки по производительности, сильно зависеть от ситуации, от конкретных команд или просто быть хуже при исходных предположениях руководства. Рейтинги также могут меняться по мере выхода новых персонажей, Световых конусов и реликвий.",
-                "vn": "Đề xuất dựa trên dựa trên các giả định và tính toán được sử dụng cho build cụ thể đó. Một số lựa chọn có thể rất giống nhau về hiệu suất, mang tính tình huống cao, phụ thuộc vào các đội hình cụ thể hoặc chỉ đơn giản là tệ hơn theo giả định của hướng dẫn. Thứ hạng cũng có thể thay đổi khi các Nhân Vật, Nón Ánh Sáng và Di Vật mới được phát hành."
+                "vn": "Đề xuất dựa trên dựa trên các giả định và tính toán được sử dụng cho build cụ thể đó. Một số lựa chọn có thể rất giống nhau về hiệu suất, mang tính tình huống cao, phụ thuộc vào các đội hình cụ thể hoặc chỉ đơn giản là tệ hơn theo giả định của hướng dẫn. Thứ hạng cũng có thể thay đổi khi các Nhân Vật, Nón Ánh Sáng và Di Vật mới được phát hành.",
+                "cht": "所有的對應推薦都是根據各個情況和計算的出的結果。有一部分的選項或許相差不大、很吃環境、依賴特定陣容、或純粹不推薦。所有排名都會隨著新角色、光錐和遺器套裝的推出而有所更新。"
             }
         },
         {
             "question": {
                 "en": "Can niche or unusual builds be added?",
                 "ru": "Можно ли добавить нишевые или необычные билды?",
-                "vn": "Có thể thêm các bản build đặc biệt hoặc khác thường không?"
+                "vn": "Có thể thêm các bản build đặc biệt hoặc khác thường không?",
+                "cht": "很專或不尋常的出裝方式會被加上去嗎？"
             },
             "answer": {
                 "en": "The guide focuses primarily on builds that make effective use of a character's intended kit and practical playstyles. A genuinely useful alternative playstyle may receive its own build, but extremely niche or novelty setups generally will not be prioritized.",
                 "ru": "В данном руководстве основное внимание уделяется билдам, эффективно использующим предназначенный для персонажа набор способностей и практичные стили игры. Действительно полезный альтернативный стиль игры может получить свой собственный билд, но крайне нишевые или необычные варианты, как правило, не будут рассматриваться в приоритетном порядке.",
-                "vn": "Hướng dẫn này chủ yếu tập trung vào các bản build tận dụng hiệu quả bộ kỹ năng dự định và lối chơi thực tế của Nhân Vật. Một lối chơi thay thế thực sự hữu ích có thể được thiết lập riêng, nhưng các thiết lập quá đặc biệt hoặc hiếm lạ thường sẽ không được ưu tiên."
+                "vn": "Hướng dẫn này chủ yếu tập trung vào các bản build tận dụng hiệu quả bộ kỹ năng dự định và lối chơi thực tế của Nhân Vật. Một lối chơi thay thế thực sự hữu ích có thể được thiết lập riêng, nhưng các thiết lập quá đặc biệt hoặc hiếm lạ thường sẽ không được ưu tiên.",
+                "cht": "這份攻略主要以各個角色最核心的玩法和通用的操作思路作為標準。在特定情況有妙用但其他大部分情況並不適用的出裝不會包括在內。"
             }
         },
         {
             "question": {
                 "en": "Why isn't an exact Energy Regeneration Rate requirement listed?",
                 "ru": "Почему не указана точная требуемая скорость восстановления энергии?",
-                "vn": "Tại sao lại không liệt kê yêu cầu cụ thể về Hiệu Suất Hồi Năng Lượng?"
+                "vn": "Tại sao lại không liệt kê yêu cầu cụ thể về Hiệu Suất Hồi Năng Lượng?",
+                "cht": "為什麼沒有準備充能效率需求？"
             },
             "answer": {
                 "en": "Energy requirements depend heavily on team composition, enemy behavior, rotations, how often characters are hit or defeat enemies, and the Energy generated by teammates. Because of this, a single Energy Regeneration Rate value is not always accurate for every team or encounter. Important Energy considerations can instead be explained in the character's notes.",
                 "ru": "Потребность в энергии сильно зависит от состава команды, поведения противников, ротаций, частоты атак по персонажам или  врагам, а также от энергии, генерируемой товарищами по команде. Поэтому единое значение скорости восстановления энергии не всегда является точным для каждой команды или сражения. Важные моменты, касающиеся энергии, могут быть объяснены в заметках персонажа.",
-                "vn": "Nhu cầu Năng Lượng phụ thuộc rất nhiều vào đội hình, hành vi của phe địch, lượt đi, tần suất Nhân Vật bị tấn công hoặc tiêu diệt kẻ địch, và Năng Lượng do đồng đội tạo ra. Vì vậy, một giá trị Hiệu Suất Hồi Năng Lượng duy nhất không phải lúc nào cũng chuẩn xác cho mọi đội hình hoặc cuộc chạm trán. Những cân nhắc quan trọng về Năng Lượng có thể được giải thích trong phần ghi chú của Nhân Vật."
+                "vn": "Nhu cầu Năng Lượng phụ thuộc rất nhiều vào đội hình, hành vi của phe địch, lượt đi, tần suất Nhân Vật bị tấn công hoặc tiêu diệt kẻ địch, và Năng Lượng do đồng đội tạo ra. Vì vậy, một giá trị Hiệu Suất Hồi Năng Lượng duy nhất không phải lúc nào cũng chuẩn xác cho mọi đội hình hoặc cuộc chạm trán. Những cân nhắc quan trọng về Năng Lượng có thể được giải thích trong phần ghi chú của Nhân Vật.",
+                "cht": "充能需求重度依賴配隊、敵人行動模式、配軸、受擊和擊殺、隊友供能等，因此特定的充能效率需求沒辦法很準確來應對不同情況。各個角色重要的能量相關備註會特別標註。"
             }
         },
         {
             "question": {
                 "en": "Are the rankings backed by calculations?",
                 "ru": "Подтверждены ли эти рейтинги расчетами?",
-                "vn": "Các xếp hạng có dựa trên các tính toán chi tiết không?"
+                "vn": "Các xếp hạng có dựa trên các tính toán chi tiết không?",
+                "cht": "排行是否有計算結果來背書？"
             },
             "answer": {
                 "en": "Where appropriate, recommendations are informed by theorycrafting, calculations, testing, and the mechanics relevant to each character. The goal is for rankings to have a practical or mathematical basis rather than simply being based on preference. When detailed calculations are available, the site may provide a link to them.",
                 "ru": "В соответствующих случаях рекомендации основываются на теоретических расчетах, тестировании и механике, относящейся к каждому персонажу. Цель состоит в том, чтобы рейтинги имели практическую или математическую основу, а не просто базировались на личных предпочтениях. При наличии подробных расчетов сайт может предоставить ссылку на них.",
-                "vn": "Khi thích hợp, các đề xuất được dựa trên lý thuyết, tính toán, thử nghiệm và cơ chế liên quan đến từng Nhân Vật. Mục tiêu là để xếp hạng có cơ sở thực tiễn hoặc toán học chứ không chỉ đơn thuần dựa trên sở thích. Nếu có các tính toán chi tiết, trang web có thể cung cấp đường liên kết đến chúng."
+                "vn": "Khi thích hợp, các đề xuất được dựa trên lý thuyết, tính toán, thử nghiệm và cơ chế liên quan đến từng Nhân Vật. Mục tiêu là để xếp hạng có cơ sở thực tiễn hoặc toán học chứ không chỉ đơn thuần dựa trên sở thích. Nếu có các tính toán chi tiết, trang web có thể cung cấp đường liên kết đến chúng.",
+                "cht": "在適用的情況下，推薦內容會參考理論分析、數據計算、實際測試，以及與各角色相關的遊戲機制。排名的目的，是建立在實際表現或數學依據之上，而非單純基於個人偏好。當有詳細的計算資料可供參考時，網站也可能提供相關計算內容的連結。"
             }
         },
         {
             "question": {
                 "en": "Do you use unreleased information for character guides?",
                 "ru": "",
-                "vn": "Bạn có sử dụng thông tin rò rỉ hoặc dữ liệu từ bản thử nghiệm (beta) để làm hướng dẫn xây dựng Nhân Vật không?"
+                "vn": "Bạn có sử dụng thông tin rò rỉ hoặc dữ liệu từ bản thử nghiệm (beta) để làm hướng dẫn xây dựng Nhân Vật không?",
+                "cht": "你們會用未公佈的內容來做攻略嗎？"
             },
             "answer": {
                 "en": "No. The public build guide is intended to be based on officially released Honkai: Star Rail content. Unreleased content is not used as the basis for published build recommendations.",
                 "ru": "",
-                "vn": "Không. Các hướng dẫn build Nhân Vật được công bố chỉ dựa trên nội dung chính thức của Honkai: Star Rail. Các Nhân Vật, Nón Ánh Sáng, Di Vật chưa ra mắt và những thay đổi trong bản thử nghiệm (beta) sẽ không được sử dụng làm cơ sở cho các hướng dẫn build Nhân Vật."
+                "vn": "Không. Các hướng dẫn build Nhân Vật được công bố chỉ dựa trên nội dung chính thức của Honkai: Star Rail. Các Nhân Vật, Nón Ánh Sáng, Di Vật chưa ra mắt và những thay đổi trong bản thử nghiệm (beta) sẽ không được sử dụng làm cơ sở cho các hướng dẫn build Nhân Vật.",
+                "cht": "不會。這面向大眾的出裝攻略會以官方《崩壞：星穹鐵道》正式服的內容為準。未公佈的內容不會考量在內。"
             }
         },
         {
             "question": {
                 "en": "Do you provide full team recommendations?",
                 "ru": "Вы предоставляете рекомендации команд?",
-                "vn": "Bạn có cung cấp đề xuất đội tình hoàn chỉnh không?"
+                "vn": "Bạn có cung cấp đề xuất đội tình hoàn chỉnh không?",
+                "cht": "你們會提供配隊思路嗎？"
             },
             "answer": {
                 "en": "The site primarily focuses on **building individual characters**, rather than providing a complete team database. Important teammates, synergies, or team-dependent assumptions may still be mentioned when they materially affect a character's build.",
                 "ru": "Сайт в первую очередь ориентирован на **билды персонажей**, а не на предоставление полной базы данных команд. Важные товарищи по команде, синергии или зависящие от команды предположения могут упоминаться, если они существенно влияют на билд персонажа.",
-                "vn": "Trang web chủ yếu tập trung vào **build từng Nhân Vật**, thay vì cung cấp cơ sở dữ liệu về đội hình hoàn chỉnh. Các đồng đội quan trọng, sự phối hợp hoặc các giả định phụ thuộc vào đội hình vẫn có thể được đề cập khi chúng ảnh đáng kể đến việc build Nhân Vật."
+                "vn": "Trang web chủ yếu tập trung vào **build từng Nhân Vật**, thay vì cung cấp cơ sở dữ liệu về đội hình hoàn chỉnh. Các đồng đội quan trọng, sự phối hợp hoặc các giả định phụ thuộc vào đội hình vẫn có thể được đề cập khi chúng ảnh đáng kể đến việc build Nhân Vật.",
+                "cht": "目前這網站主要針對**各個角色**來編寫，而不是完整的配隊思路。重要的隊友、重點互動、或特定配隊的情況會額外註明，畢竟會影響部分角色的出裝方式。"
             }
         },
         {
             "question": {
                 "en": "Why can the same character have more than one build?",
                 "ru": "Почему у одного и того же персонажа может быть несколько вариантов билда?",
-                "vn": "Tại sao một Nhân Vật có thể có nhiều build khác nhau?"
+                "vn": "Tại sao một Nhân Vật có thể có nhiều build khác nhau?",
+                "cht": "同一個角色為什麼會有多於一個出裝方式？"
             },
             "answer": {
                 "en": "Some characters can be built for meaningfully different roles or playstyles. Separate builds allow the Light Cone, Relic, stat, and Trace recommendations to change without trying to force every possible setup into one ranking.",
                 "ru": "Некоторые персонажи могут быть собраны для совершенно разных ролей или стилей игры. Раздельные билды позволяют изменять рекомендации по Световому конусу, реликвиям, статам и следам, не пытаясь подогнать все возможные варианты под один рейтинг.",
-                "vn": "Một số Nhân Vật có thể được build cho các vai trò hoặc lối chơi khác nhau. Các cách build riêng biệt cho phép các đề xuất về Nón Ánh Sáng, Di Vật, chỉ số và Vết Tích thay đổi mà không cần cố gắng ép buộc mọi bố trí có thể vào một thứ hạng duy nhất."
+                "vn": "Một số Nhân Vật có thể được build cho các vai trò hoặc lối chơi khác nhau. Các cách build riêng biệt cho phép các đề xuất về Nón Ánh Sáng, Di Vật, chỉ số và Vết Tích thay đổi mà không cần cố gắng ép buộc mọi bố trí có thể vào một thứ hạng duy nhất.",
+                "cht": "有一部分角色會根據不同的作用和玩法來配裝。分開的出裝方式可以推薦的光錐、遺器、詞條和行跡靈活調整，而不必試圖將所有可能的配置強行納入同一個排名中。"
             }
         },
         {
             "question": {
                 "en": "What do the numbers next to Relic sets mean?",
                 "ru": "Что означают цифры рядом с наборами реликвий?",
-                "vn": "Các con số bên cạnh bộ Di Vật có nghĩa là gì?"
+                "vn": "Các con số bên cạnh bộ Di Vật có nghĩa là gì?",
+                "cht": "遺器套裝旁邊的數字是什麼意思？"
             },
             "answer": {
                 "en": "The number indicates how many pieces of that set are being recommended. For example, **Eagle of Twilight Line (4)** means a 4-Pc Eagle of Twilight Line setup, while a Planar Ornament shown as **(2)** means its full 2-Pc set bonus is being used.",
                 "ru": "Число указывает, сколько предметов из этого набора рекомендуется. Например, **Орёл сумеречного рубежа (4)** означает набор из 4 предметов Орёл сумеречного рубежа, а планарные украшения, обозначенные как **(2)**, означают, что используется полный бонус от набора из 2 предметов.",
-                "vn": "Con số cho biết số Món của bộ đó được đề xuất. Ví dụ, **Chim Ưng Ranh Giới Ngày Đêm (4)** có nghĩa là bố trí Chim Ưng Ranh Giới Ngày Đêm bộ 4 Món, trong khi một Phụ Kiện Vị Diện được hiển thị là **(2)** có nghĩa là đang sử dụng toàn bộ hiệu ứng bộ 2 Món."
+                "vn": "Con số cho biết số Món của bộ đó được đề xuất. Ví dụ, **Chim Ưng Ranh Giới Ngày Đêm (4)** có nghĩa là bố trí Chim Ưng Ranh Giới Ngày Đêm bộ 4 Món, trong khi một Phụ Kiện Vị Diện được hiển thị là **(2)** có nghĩa là đang sử dụng toàn bộ hiệu ứng bộ 2 Món.",
+                "cht": "那個數字代表著4件套或2件套。例如 **晨昏交界的翔鷹 (4)** 代表著4件套的晨昏交界的翔鷹，而位面飾品中的 **(2)** 代表著2件套。"
             }
         },
         {
             "question": {
                 "en": "Why do recommendations sometimes change after a patch?",
                 "ru": "Почему рекомендации иногда меняются после выхода обновления?",
-                "vn": "Tại sao đề xuất đôi khi lại thay đổi sau một phiên bản?"
+                "vn": "Tại sao đề xuất đôi khi lại thay đổi sau một phiên bản?",
+                "cht": "為什麼有時版本更新後，推薦出裝會有所改變？"
             },
             "answer": {
                 "en": "Honkai: Star Rail regularly introduces new characters, Light Cones, Relic sets, enemies, and game mechanics. Any of these can affect the relative value of existing options. Rankings should therefore be treated as recommendations based on the current state of the game rather than permanent placements.",
                 "ru": "В Honkai: Star Rail регулярно появляются новые персонажи, Световые конусы, наборы реликвий, враги и игровые механики. Любой из этих элементов может повлиять на относительную ценность существующих вариантов. Поэтому рейтинги следует рассматривать как рекомендации, основанные на текущем состоянии игры, а не как окончательные.",
-                "vn": "Honkai: Star Rail thường xuyên giới thiệu các Nhân Vật, Nón Ánh Sáng, bộ Di Vật, Phe Địch và cơ chế trò chơi mới. Bất kỳ điều nào trong số này đều có thể ảnh hưởng đến giá trị tương đối của các lựa chọn hiện có. Do đó, xếp hạng nên được coi là đề xuất dựa trên tình trạng hiện tại của trò chơi thay vì chỉ giữ vị một trí cố định."
+                "vn": "Honkai: Star Rail thường xuyên giới thiệu các Nhân Vật, Nón Ánh Sáng, bộ Di Vật, Phe Địch và cơ chế trò chơi mới. Bất kỳ điều nào trong số này đều có thể ảnh hưởng đến giá trị tương đối của các lựa chọn hiện có. Do đó, xếp hạng nên được coi là đề xuất dựa trên tình trạng hiện tại của trò chơi thay vì chỉ giữ vị một trí cố định.",
+                "cht": "《崩壞：星穹鐵道》一般會定期推出新角色、光錐、遺器套裝、敵人和玩法機制。上述任何一樣都有可能會影響已有的選項。因此排名都會靈活根據遊戲當下版本的內容作推薦"
             }
         }
     ]

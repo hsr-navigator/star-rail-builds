@@ -8,9 +8,9 @@
     "rework_version": "3.x (Novaflare Update)",
     "max_energy": 120,
     "level_80_stats": {
-        "hp": 813,
-        "atk": 766,
-        "def": 320,
+        "hp": 931,
+        "atk": 640,
+        "def": 363,
         "spd": 115
     },
     "abilities": {
