@@ -7,7 +7,8 @@
         "passive": {
             "en": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by {{value}}%.",
             "ru": "Когда владелец использует навык или сверхспособность, его исходящее лечение повышается на {{value}}%.",
-            "vn": "Khi người trang bị thi triển Chiến Kỹ và Tuyệt Kỹ, lượng Trị Liệu tăng {{value}}%."
+            "vn": "Khi người trang bị thi triển Chiến Kỹ và Tuyệt Kỹ, lượng Trị Liệu tăng {{value}}%.",
+            "cht": "裝備者施放戰技和終結技時，治療量提高{{value}}%"
         },
         "s1": [
             12
@@ -42,7 +43,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. After attacking enemy targets that are Weakness Broken, regenerates {{value}} Energy. This effect can trigger up to 2 time(s) per turn.",
             "ru": "Скорость владельца повышается на {{value}}%. После атаки противника с пробитой уязвимостью восстанавливает {{value}} ед. энергии владельца. Этот эффект может сработать до 2 раз за ход.",
-            "vn": "Tăng {{value}}% tốc độ của người trang bị, sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ hồi {{value}} điểm Năng Lượng, hiệu ứng này mỗi hiệp tối đa kích hoạt 2 lần."
+            "vn": "Tăng {{value}}% tốc độ của người trang bị, sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ hồi {{value}} điểm Năng Lượng, hiệu ứng này mỗi hiệp tối đa kích hoạt 2 lần.",
+            "cht": "使裝備者的速度提高{{value}}%，攻擊處於弱點擊破狀態下的敵方目標後，恢復{{value}}點能量，該效果每回合最多觸發2次。"
         },
         "s1": [
             8,
@@ -82,7 +84,8 @@
         "passive": {
             "en": "Increases the wearer's ATK by {{value}}%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates {{value}} Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain {{value}} SPD for 1 turn.",
             "ru": "Сила атаки владельца повышается на {{value}}%. Каждый поражённый атакой владельца противник восстанавливает владельцу {{value}} ед. энергии. Каждая атака может восстановить энергию подобным образом до 3 раз. После использования владельцем сверхспособности скорость всех союзников повышается на {{value}} ед. на 1 ход.",
-            "vn": "Tăng {{value}}% tấn công của người trang bị. Sau khi người trang bị tấn công, mỗi khi đánh trúng một kẻ địch khác nhau, sẽ hồi {{value}} Năng Lượng, tối đa hồi năng lượng 3 lần bằng cách này. Sau khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến toàn bộ phe ta tăng {{value}} tốc độ, duy trì 1 hiệp."
+            "vn": "Tăng {{value}}% tấn công của người trang bị. Sau khi người trang bị tấn công, mỗi khi đánh trúng một kẻ địch khác nhau, sẽ hồi {{value}} Năng Lượng, tối đa hồi năng lượng 3 lần bằng cách này. Sau khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến toàn bộ phe ta tăng {{value}} tốc độ, duy trì 1 hiệp.",
+            "cht": "使裝備者的攻擊力提高{{value}}%。當裝備者施放攻擊後，每命中1名不同的敵方目標，便恢復{{value}}點能量，每次攻擊最多依此方式恢復3次能量。當裝備者施放終結技後，使我方全體速度提高{{value}}點，持續1回合。"
         },
         "s1": [
             24,
@@ -128,7 +131,8 @@
         "passive": {
             "en": "At the start of the battle, immediately regenerates {{value}} Energy for all allies.",
             "ru": "В начале боя немедленно восстанавливает всем союзникам {{value}} ед. энергии.",
-            "vn": "Khi bắt đầu chiến đấu sẽ hồi ngay cho toàn phe ta {{value}} điểm Năng Lượng."
+            "vn": "Khi bắt đầu chiến đấu sẽ hồi ngay cho toàn phe ta {{value}} điểm Năng Lượng.",
+            "cht": "戰鬥開始時，立即為我方全體恢復{{value}}點能量。"
         },
         "s1": [
             6
@@ -164,7 +168,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. When the wearer uses their Skill, increases Outgoing Healing by {{value}}%, lasting for 2 turn(s).",
             "ru": "Макс. HP владельца повышается на {{value}}%. Когда владелец использует навык, его исходящее исцеление повышается на {{value}}% на 2 хода.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi người trang bị thi triển Chiến Kỹ, lượng trị liệu tăng {{value}}%, duy trì 2 hiệp."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi người trang bị thi triển Chiến Kỹ, lượng trị liệu tăng {{value}}%, duy trì 2 hiệp.",
+            "cht": "使裝備者的生命上限提高{{value}}%。當裝備者施放戰技時，治療量提高{{value}}%，持續2回合。"
         },
         "s1": [
             8,
@@ -205,7 +210,8 @@
         "passive": {
             "en": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by {{value}}%.",
             "ru": "После использования владельцем базовой атаки его следующее действие продвигается вперёд на {{value}}%.",
-            "vn": "Sau khi người trang bị thi triển tấn công thường sẽ Ưu Tiên Hành Động {{value}}% cho lần tiếp theo."
+            "vn": "Sau khi người trang bị thi triển tấn công thường sẽ Ưu Tiên Hành Động {{value}}% cho lần tiếp theo.",
+            "cht": "當裝備者發動普攻後，下一次行動提前{{value}}%。"
         },
         "s1": [
             12
@@ -240,7 +246,8 @@
         "passive": {
             "en": "Increases the wearer's Energy Regeneration Rate by {{value}}%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to {{value}}% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by {{value}}%. This effect can stack up to 5 times and lasts for 2 turn(s).",
             "ru": "Скорость восстановления энергии владельца повышается на {{value}}%. Когда союзник использует сверхспособность, владелец восстанавливает {{value}}% HP союзника с самым низким процентом HP. Когда владелец исцеляет союзника, сила атаки этого союзника повышается на {{value}}%. Этот эффект может складываться до 5 раз и длится 2 хода.",
-            "vn": "Tăng {{value}}% hiệu suất hồi phục Năng Lượng của người trang bị. Khi mục tiêu phe ta thi triển Tuyệt Kỹ, người trang bị sẽ hồi HP bằng {{value}}% Giới Hạn HP cho mục tiêu phe ta có Phần Trăm HP thấp nhất hiện tại. Khi người trang bị trị liệu cho mục tiêu phe ta, sẽ khiến tấn công của mục tiêu này tăng {{value}}%, hiệu ứng này tối đa cộng dồn 5 tầng, duy trì 2 hiệp."
+            "vn": "Tăng {{value}}% hiệu suất hồi phục Năng Lượng của người trang bị. Khi mục tiêu phe ta thi triển Tuyệt Kỹ, người trang bị sẽ hồi HP bằng {{value}}% Giới Hạn HP cho mục tiêu phe ta có Phần Trăm HP thấp nhất hiện tại. Khi người trang bị trị liệu cho mục tiêu phe ta, sẽ khiến tấn công của mục tiêu này tăng {{value}}%, hiệu ứng này tối đa cộng dồn 5 tầng, duy trì 2 hiệp.",
+            "cht": "使裝備者的能量恢復效率提高{{value}}%。我方目標終結技時，裝備者為現有生命值百分比最低的我目標回復等同於其{{value}}%生命上限的生命值。裝備者為我方目標提供治療時，使該目標的攻力提高{{value}}%，該效果最多疊加5層，持續2回合。"
         },
         "s1": [
             12,
@@ -285,7 +292,8 @@
         "passive": {
             "en": "Increases the wearer's Effect RES by {{value}}% and increases Outgoing Healing by an amount that is equal to {{value}}% of Effect RES. Outgoing Healing can be increased this way by up to {{value}}%.",
             "ru": "Сопротивление эффектам владельца повышается на {{value}}%. Исходящее исцеление владельца повышается на {{value}}% от сопротивления эффектам владельца до макс. {{value}}%.",
-            "vn": "Tăng {{value}}% Kháng Hiệu Ứng của người trang bị. Khi Kháng Hiệu Ứng của người trang bị từ {{value}}% trở lên, Sát Thương Bạo Kích của toàn bộ phe ta tăng {{value}}%."
+            "vn": "Tăng {{value}}% Kháng Hiệu Ứng của người trang bị. Khi Kháng Hiệu Ứng của người trang bị từ {{value}}% trở lên, Sát Thương Bạo Kích của toàn bộ phe ta tăng {{value}}%.",
+            "cht": "使裝備者的效果抵抗提高{{value}}%，並使裝備者的治療量提高，提高數值等同於效果抵抗的{{value}}%，最多使治療量提高{{value}}%。"
         },
         "s1": [
             16,
@@ -330,7 +338,8 @@
         "passive": {
             "en": "Increases the wearer's Energy Regeneration Rate by {{value}}% and increases Outgoing Healing when they use their Ultimate by {{value}}%.",
             "ru": "Скорость восстановления энергии владельца повышается на {{value}}%. Использование сверхспособности владельца повышает его исходящее исцеление на {{value}}%.",
-            "vn": "Khiến hiệu suất hồi năng lượng của người trang bị tăng {{value}}%, đồng thời lượng trị liệu khi thi triển Tuyệt Kỹ tăng {{value}}%."
+            "vn": "Khiến hiệu suất hồi năng lượng của người trang bị tăng {{value}}%, đồng thời lượng trị liệu khi thi triển Tuyệt Kỹ tăng {{value}}%.",
+            "cht": "使裝備者的能量恢復效率提高{{value}}%，並在施放終結技時治療量提高{{value}}%。"
         },
         "s1": [
             8,
@@ -371,7 +380,8 @@
         "passive": {
             "en": "At the start of the wearer's turn, regenerates {{value}} Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
             "ru": "В начале своего хода владелец восстанавливает {{value}} ед. энергии случайному союзнику, кроме владельца, чья текущая энергия ниже 50%.",
-            "vn": "Khi bắt đầu hiệp của người trang bị, sẽ hồi {{value}} Năng Lượng cho 1 mục tiêu khác ngẫu nhiên của phe ta có Năng Lượng hiện tại dưới 50%."
+            "vn": "Khi bắt đầu hiệp của người trang bị, sẽ hồi {{value}} Năng Lượng cho 1 mục tiêu khác ngẫu nhiên của phe ta có Năng Lượng hiện tại dưới 50%.",
+            "cht": "當裝備者的回合開始時，隨機為1個現有能量百分比小於50%的我方其他目標恢復{{value}}點能量。"
         },
         "s1": [
             8
@@ -406,7 +416,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for 2 turn(s). While in \"Woefree,\" enemy targets take {{value}}% increased DMG. The effect of increasing DMG taken is additionally boosted by {{value}}% if the wearer's current Break Effect is 150% or higher.",
             "ru": "Эффект пробития владельца повышается на {{value}}%. После того как владелец использует сверхспособность для атаки противника, он накладывает на него статус Беззаботность на 2 хода. Получаемый противником с этим статусом урон повышается на {{value}}%. Если текущий эффект пробития владельца выше или равен 150%, то получаемый противником урон повышается на доп. {{value}}%.",
-            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Tuyệt Kỹ tấn công kẻ địch, sẽ khiến kẻ đó rơi vào trạng thái Vong Ưu, duy trì 2 hiệp. Sát thương phải chịu của kẻ địch trong trạng thái Vong Ưu tăng {{value}}%, nếu Tấn Công Kích Phá hiện tại của người trang bị lớn hơn hoặc bằng 150%, hiệu ứng tăng sát thương phải chịu sẽ tăng thêm {{value}}%."
+            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Tuyệt Kỹ tấn công kẻ địch, sẽ khiến kẻ đó rơi vào trạng thái Vong Ưu, duy trì 2 hiệp. Sát thương phải chịu của kẻ địch trong trạng thái Vong Ưu tăng {{value}}%, nếu Tấn Công Kích Phá hiện tại của người trang bị lớn hơn hoặc bằng 150%, hiệu ứng tăng sát thương phải chịu sẽ tăng thêm {{value}}%.",
+            "cht": "使裝備者擊破特攻提高{{value}}%。裝備者施放終結技攻擊敵方目標後，使其陷入【忘憂】狀態，持續2回合，【忘憂】狀態下的敵方目標受到的傷害提高{{value}}%，若裝備者目前擊破特攻大於等於150%，受到的傷害提高效果額外提高{{value}}%。"
         },
         "s1": [
             60,
@@ -451,7 +462,8 @@
         "passive": {
             "en": "Increases the wearer's Outgoing Healing by {{value}}%. When using Skill, regenerates {{value}} Energy for all allies.",
             "ru": "Исходящее исцеление владельца повышается на {{value}}%. Использование навыка владельца восстанавливает всем союзникам {{value}} ед. энергии.",
-            "vn": "Tăng 10~20% lượng trị liệu của người trang bị, đồng thời khi thi triển Chiến Kỹ, toàn bộ phe ta sẽ hồi 2~4 điểm Năng Lượng."
+            "vn": "Tăng 10~20% lượng trị liệu của người trang bị, đồng thời khi thi triển Chiến Kỹ, toàn bộ phe ta sẽ hồi 2~4 điểm Năng Lượng.",
+            "cht": "使裝備者的治療量提高{{value}}%，並在施放戰技時為我方全體恢復{{value}}點能量。"
         },
         "s1": [
             10,
@@ -491,7 +503,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}% and Outgoing Healing by {{value}}%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to {{value}}% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
             "ru": "Макс. HP владельца повышается на {{value}}%, а его исходящее исцеление - на {{value}}%. Когда владелец исцеляет союзника, величина этого исцеления записывается. Когда какой-либо союзник использует атаку, один случайный поражённый противник получает дополнительный урон типа атаки владельца, равный {{value}}% от записанной величины исцеления. На этот дополнительный урон не влияют другие усиления, и он высчитывается только один раз за ход.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%, lượng trị liệu tăng {{value}}%. Khi người trang bị cung cấp trị liệu cho mục tiêu phe ta, sẽ ghi lại lượng trị liệu. Sau khi mục tiêu bất kỳ của phe ta tấn công, sẽ căn cứ {{value}}% lượng trị liệu được ghi, gây sát thương kèm theo cho 1 kẻ địch bị tấn công ngẫu nhiên dựa trên thuộc tính người trang bị. Sát thương này không chịu ảnh hưởng bởi các buff khác, mỗi hiệp tối đa tổng kết 1 lần."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%, lượng trị liệu tăng {{value}}%. Khi người trang bị cung cấp trị liệu cho mục tiêu phe ta, sẽ ghi lại lượng trị liệu. Sau khi mục tiêu bất kỳ của phe ta tấn công, sẽ căn cứ {{value}}% lượng trị liệu được ghi, gây sát thương kèm theo cho 1 kẻ địch bị tấn công ngẫu nhiên dựa trên thuộc tính người trang bị. Sát thương này không chịu ảnh hưởng bởi các buff khác, mỗi hiệp tối đa tổng kết 1 lần.",
+            "cht": "使裝備者生命上限提高{{value}}%、治療量提高{{value}}%。當裝備者對我方目標提供治療時，記錄治療量。當任意我方目標發動攻擊後，按照治療量紀錄的{{value}}%，對隨機1個受到攻擊的敵方目標根據裝備者屬性造成附加傷害。該傷害不受加成影響，每回合最多結算1次。"
         },
         "s1": [
             18,
@@ -536,7 +549,8 @@
         "passive": {
             "en": "Increases the wearer's Outgoing Healing by {{value}}%. When an ally target's current HP percentage is greater than or equal to 50%, increases the DMG dealt by {{value}}%.",
             "ru": "Исходящее исцеление владельца повышается на {{value}}%. Когда текущее НР союзника становится выше или равно 50%, наносимый им урон повышается на {{value}}%.",
-            "vn": "Khiến Lượng Trị Liệu của người trang bị tăng {{value}}%. Khi Phần Trăm HP hiện tại của mục tiêu phe ta lớn hơn hoặc bằng 50%, sát thương gây ra tăng {{value}}%."
+            "vn": "Khiến Lượng Trị Liệu của người trang bị tăng {{value}}%. Khi Phần Trăm HP hiện tại của mục tiêu phe ta lớn hơn hoặc bằng 50%, sát thương gây ra tăng {{value}}%.",
+            "cht": "使裝備者的治療量提高{{value}}%。我方目標現有生命值百分比大於等於 50% 時，發動的傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -576,7 +590,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. When using Basic ATK or Skill, restores all allies' HP by an amount equal to {{value}}% of their respective Max HP.",
             "ru": "Макс. НР владельца повышается на {{value}}%. Использование базовой атаки или навыка восстанавливает всем союзникам НР, равное {{value}}% от их макс. НР.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Sau khi thi triển Tấn Công Thường hoặc Chiến Kỹ, sẽ hồi cho toàn phe ta một lượng HP bằng {{value}}% Giới Hạn HP của mỗi người."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Sau khi thi triển Tấn Công Thường hoặc Chiến Kỹ, sẽ hồi cho toàn phe ta một lượng HP bằng {{value}}% Giới Hạn HP của mỗi người.",
+            "cht": "使裝備者的生命上限提高{{value}}%。發動普通攻擊或戰技後，為我方全體回復等同於各自生命上限{{value}}%的生命值。"
         },
         "s1": [
             16,
@@ -617,7 +632,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%. After using Basic ATK, restores HP for the wearer by an amount equal to {{value}}% of Max HP plus 800.",
             "ru": "Эффект пробития владельца повышается на {{value}}%. Базовые атаки владельца восстанавливают {{value}}% его НР плюс 800 ед.",
-            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Sau khi Tấn Công Thường, người trang bị sẽ hồi một lượng HP bằng {{value}}% Giới Hạn HP +800."
+            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Sau khi Tấn Công Thường, người trang bị sẽ hồi một lượng HP bằng {{value}}% Giới Hạn HP +800.",
+            "cht": "使裝備者的擊破特攻提高{{value}}%。發動普通攻擊後，裝備者回復等同於{{value}}%生命上限+800點的生命值。"
         },
         "s1": [
             24,
