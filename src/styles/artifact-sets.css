@@ -316,8 +316,37 @@
 }
 
 @media (max-width: 920px) {
+
+    /*
+     * Once the Relic browser becomes a single-column layout,
+     * let every card grow naturally with its content.
+     */
     .artifact-set-grid {
         grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        align-items: start;
+    }
+
+    .artifact-set-entry {
+        height: auto;
+
+        /*
+         * Header + however much set-effect text exists.
+         * Additional children also create natural-height rows.
+         */
+        grid-template-rows: auto;
+    }
+
+    .artifact-set-bonus-list {
+        height: auto;
+        max-height: none;
+        min-height: 0;
+
+        /*
+         * No internal scrolling on mobile/tablet.
+         * The page itself scrolls instead.
+         */
+        overflow: visible;
     }
 }
 
@@ -366,9 +395,7 @@
         justify-self: start;
     }
 
-    .artifact-set-bonus-list {
-        height: 280px;
-    }
+
 
     .artifact-set-usage {
         grid-template-rows: auto minmax(0, 86px);
