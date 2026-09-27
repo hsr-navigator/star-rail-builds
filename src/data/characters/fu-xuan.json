@@ -43,7 +43,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by {{hp_boost}}% of Fu Xuan's Max HP, and increases CRIT Rate by {{crit_rate}}%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "description_template": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by {{hp_boost}}% of Fu Xuan's Max HP, and increases CRIT Rate by {{crit_rate}}%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
 
       "scaling": {
         "hp_boost": [
@@ -118,7 +118,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take {{dmg_reduction}}% less DMG. When Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by {{hp_restore}}% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+      "description_template": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take {{dmg_reduction}}% less DMG.\nWhen Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by {{hp_restore}}% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
 
       "scaling": {
         "dmg_reduction": [
@@ -136,18 +136,8 @@
           19.8
         ],
         "hp_restore": [
-          45.0,
-          49.5,
-          54.0,
-          58.5,
-          63.0,
-          67.5,
-          73.125,
-          78.75,
-          84.375,
-          90.0,
-          94.5,
-          99.0
+          80, 81, 82, 83, 84, 85, 86.25, 87.5, 88.75, 90, 91, 92
+
         ]
       }
     },
