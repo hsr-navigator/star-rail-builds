@@ -23,7 +23,7 @@
             "min_level": 1,
             "max_level": 7,
             "default_level": 6,
-            "description_template": "Deals Quantum DMG equal to {{damage}}% of Rin Tohsaka's ATK to one designated enemy target.",
+            "description_template": "Deals Quantum DMG equal to {{damage}}% of Rin Tohsaka's ATK to one designated enemy.",
             "scaling": {
                 "damage": [
                     50,
@@ -45,7 +45,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Deals Quantum DMG equal to {{damage}}% of Rin Tohsaka's ATK to one designated enemy target.",
+            "description_template": "Deals Quantum DMG equal to {{damage}}% of Rin Tohsaka's ATK to one designated enemy.",
             "scaling": {
                 "damage": [
                     100.0,
@@ -70,7 +70,7 @@
                     "energy_gain": 30,
                     "break_aoe": 20,
                     "break_bounce": 2,
-                    "description_template": "Deals Quantum DMG equal to {{aoe_damage}}% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to {{bounce_damage}}% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0, up to a maximum of 33 time(s). When used, if current Skill Points are greater than 2, consumes Skill Points until there are 2 point(s) left, immediately gaining 2 point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
+                    "description_template": "Deals Quantum DMG equal to {{aoe_damage}}% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additional deal Quantum DMG equal to {{bounce_damage}}% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\"",
                     "scaling": {
                         "aoe_damage": [
                             50.0,
@@ -115,7 +115,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Deals Quantum DMG equal to {{main_damage}}% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to {{aoe_damage}}% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by {{dmg_taken}}% for 3 turn(s).",
+            "description_template": "Deals Quantum DMG equal to {{main_damage}}% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to {{aoe_damage}}% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by {{dmg_taken}}%, for 3 turn(s).",
             "scaling": {
                 "main_damage": [
                     300.0,
@@ -168,7 +168,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\"\nWhen entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by {{crit_dmg}}% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka possesses 15 or more \"Gem Energy\" or if current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\"",
+            "description_template": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by {{crit_dmg}}% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced into \"Second Magic Experiment.\"",
             "scaling": {
                 "crit_dmg": [
                     35.0,
@@ -192,7 +192,7 @@
                     "tag": "AoE",
                     "energy_gain": 10,
                     "break_aoe": 20,
-                    "description_template": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if there are 3 or fewer Skill Point(s) remaining or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch a Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to {{rin_damage}}% of Rin Tohsaka's ATK and {{archer_damage}}% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
+                    "description_template": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to {{rin_damage}}% of Rin Tohsaka's ATK and {{archer_damage}}% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
                     "scaling": {
                         "rin_damage": [
                             150.0,
@@ -230,21 +230,21 @@
             "type": "Technique",
             "name": "Conversion Charge",
             "tag": "Enhance",
-            "description": "After using the Technique, gains 10 point(s) of \"Gem Energy\" at the start of the next combat."
+            "description": "After using the Technique, gains 10 \"Gem Energy\" at the start of the next battle."
         }
     },
     "major_traces": {
         "2": {
             "name": "Elegant Conduct",
-            "description": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by 2. When entering combat, Rin Tohsaka's ATK increases by 150%, and Quantum RES PEN increases by 15%. If Archer is in the team, Archer also gains this effect."
+            "description": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by 2. When entering combat, Rin Tohsaka's ATK increases by 150%, and Quantum RES PEN increases by 15%. If Archer is in the team, Archer also gains this effect."
         },
         "4": {
             "name": "Ladylike Poise",
-            "description": "When entering combat and after using Enhanced Skill, Rin Tohsaka's SPD increases by 20%, lasting for 3 turn(s)."
+            "description": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD increases by 20%, lasting for 3 turn(s)."
         },
         "6": {
             "name": "Inbound Prosperity",
-            "description": "When Rin Tohsaka uses her Ultimate, she gains 12 point(s) of \"Gem Energy.\""
+            "description": "When Rin Tohsaka uses her Ultimate, she gains 12 \"Gem Energy.\""
         }
     },
     "stat_bonuses": [
@@ -265,32 +265,32 @@
         {
             "level": 1,
             "name": "Zelretch's Apprentice",
-            "description": "If the amount of \"Gem Energy\" consumed by a single Enhanced Skill is 30 or more, Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed. While possessing \"Shadow Gem,\" Skill is enhanced to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect of converting Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\""
+            "description": "If one instance of the Enhanced Skill consumes 30 or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into  \"Gem Energy,\" and does not consume \"Gem Energy\""
         },
         {
             "level": 2,
             "name": "Dimensional Traveler",
-            "description": "Increases Rin Tohsaka's Skill DMG by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG."
+            "description": "Rin Tohsaka's Skill DMG dealt increases by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG."
         },
         {
             "level": 3,
             "name": "Holy Grail War: Victory Memorial",
-            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
         },
         {
             "level": 4,
             "name": "Red Devil: Triple Speed",
-            "description": "When the CRIT DMG boost effect from Talent \"Gem Magecraft\" takes effect on Rin Tohsaka, the effect can stack up to 2 time(s)."
+            "description": "When the CRIT DMG boost effect from Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to 2 time(s)."
         },
         {
             "level": 5,
             "name": "Goddess of Venus's Favor",
-            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
         },
         {
             "level": 6,
             "name": "Nailed It This Time!",
-            "description": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 point(s) of \"Gem Energy\" and 1 extra turn."
+            "description": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 \"Gem Energy\" and 1 extra turn."
         }
     ]
 }

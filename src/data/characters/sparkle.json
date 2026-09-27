@@ -26,7 +26,7 @@
       "max_level": 7,
       "default_level": 6,
 
-      "description_template": "Deals Quantum DMG equal to {{damage}}% of Sparkle's ATK to one designated enemy target.",
+      "description_template": "Deals Quantum DMG equal to {{damage}}% of Sparkle's ATK to one designated enemy.",
 
       "scaling": {
         "damage": [50, 60, 70, 80, 90, 100, 110]
@@ -43,7 +43,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Increases the CRIT DMG of a designated ally by {{crit_dmg_ratio}}% of Sparkle's CRIT DMG plus {{crit_dmg_flat}}%, lasting for 2 turn(s). And at the same time, advances this ally's action by 50%. When Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
+      "description_template": "Increases the CRIT DMG of a designated ally by {{crit_dmg_ratio}}% of Sparkle's CRIT DMG plus {{crit_dmg_flat}}%, lasting for 2 turn(s). And at the same time, advances this ally's action by 50%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
 
       "scaling": {
         "crit_dmg_ratio": [
@@ -88,7 +88,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Recovers 6 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of 10 points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies \"Cipher.\" For ally targets with \"Cipher,\" each stack of the DMG taken increase against enemies provided by Sparkle's Talent additionally increases by {{cipher_dmg_bonus}}% per stack, lasting for 3 turn(s).",
+      "description_template": "Recovers 6 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of 10 points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies \"Cipher.\" For ally targets with \"Cipher,\" each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by {{cipher_dmg_bonus}}% per stack, lasting for 3 turn(s).",
 
       "scaling": {
         "cipher_dmg_bonus": [
@@ -193,7 +193,7 @@
     {
       "level": 3,
       "name": "Pipedream",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
 
     {
@@ -205,7 +205,7 @@
     {
       "level": 5,
       "name": "Parallax Truth",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
 
     {
