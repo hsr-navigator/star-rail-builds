@@ -6,7 +6,8 @@
         "passive": {
             "en": "Increases the wearer's Elation by {{value}}%. During the use of Elation Skill by the wearer, ignores {{value}}% of the target's DEF.",
             "ru": "Повышает уровень Радости владельца на {{value}}%. Когда владелец использует навык Радости, он игнорирует {{value}}% защиты цели.",
-            "vn": "Tăng {{value}} Độ Vui Vẻ của người trang bị. Trong thời gian người trang bị thi triển Kỹ Năng Vui Vẻ, bỏ qua {{value}} Phòng Thủ của mục tiêu."
+            "vn": "Tăng {{value}} Độ Vui Vẻ của người trang bị. Trong thời gian người trang bị thi triển Kỹ Năng Vui Vẻ, bỏ qua {{value}} Phòng Thủ của mục tiêu.",
+            "cht": "使裝備者的歡愉度提高{{value}}%。裝備者發動歡愉技期間無視目標{{value}}%的防禦力。"
         },
         "s1": [
             20,
@@ -46,7 +47,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. While the wearer is on the field, for every Elation character on the team, increases the Skill Point upper limit by 1, up to a max increase of 3. For every 1 Skill Point the wearer consumes, ignores {{value}}% of enemy targets' DEF when this unit deals Elation DMG, stacking up to 4 times. If 4 or more Skill Points are consumed in the same turn, the wearer gains \"Stream Promo,\" which increases all allies' Elation by {{value}}%. Light Cone effects of the same type cannot stack.",
             "ru": "Повышает крит. урон владельца на {{value}}%. Когда владелец находится на поле боя, за каждого персонажа Пути Радости в отряде максимум очков навыков повышается на 1, но не более чем на 3. Каждый раз, когда владелец расходует 1 очко навыков, наносимый им урон Радости игнорирует {{value}}% защиты цели. Может складываться до 4 раз. Если в этот же ход израсходовано 4 или более оч. навыков, то владелец получает Продвижение стрима: Радость всех союзников повышается на {{value}}%. Одинаковые эффекты Световых конусов не складываются.",
-            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị ở trong trận, trong đội cứ có 1 nhân vật vận mệnh \"Vui Vẻ\", thì giới hạn Điểm Chiến Kỹ sẽ tăng 1 điểm, tối đa tăng 3 điểm; Mỗi khi người trang bị tiêu hao 1 Điểm Chiến Kỹ sẽ khiến Sát Thương Vui Vẻ bản thân gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu phe địch, tối đa cộng dồn 4 tầng, nếu tiêu hao từ 4 Điểm Chiến Kỹ trở lên trong cùng 1 hiệp, sẽ khiến người trang bị nhận được \"Đẩy Stream\". Khi người trang bị sở hữu \"Đẩy Stream\", Độ Vui Vẻ của toàn phe ta tăng {{value}}%. Hiệu ứng Nón Ánh Sáng cùng loại không thể cộng dồn."
+            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị ở trong trận, trong đội cứ có 1 nhân vật vận mệnh \"Vui Vẻ\", thì giới hạn Điểm Chiến Kỹ sẽ tăng 1 điểm, tối đa tăng 3 điểm; Mỗi khi người trang bị tiêu hao 1 Điểm Chiến Kỹ sẽ khiến Sát Thương Vui Vẻ bản thân gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu phe địch, tối đa cộng dồn 4 tầng, nếu tiêu hao từ 4 Điểm Chiến Kỹ trở lên trong cùng 1 hiệp, sẽ khiến người trang bị nhận được \"Đẩy Stream\". Khi người trang bị sở hữu \"Đẩy Stream\", Độ Vui Vẻ của toàn phe ta tăng {{value}}%. Hiệu ứng Nón Ánh Sáng cùng loại không thể cộng dồn.",
+            "cht": "使裝備者的爆擊傷害提高{{value}}%。裝備者在場時，隊伍中每有1名「歡愉」命途的角色，戰技點上限提高1點，最多提高3點；裝備者每消耗1個戰技點使自身造成的歡愉傷害無視敵方目標{{value}}%的防禦力，最多可推4層，只有在同一回合內則可推裝備者持有【推流】時，我方全體歡愉度提高{{value}}%。同類光錐效果無法疊加。"
         },
         "s1": [
             48,
@@ -92,7 +94,8 @@
         "passive": {
             "en": "Increases the wearer's ATK by {{value}}%. After the wearer uses their Skill or Ultimate on one ally character, increases the target's Elation stat by {{value}}% for 2 turn(s).",
             "ru": "Сила атаки владельца повышается на {{value}}%. После того как владелец использует навык или сверхспособность на одном союзнике, уровень Радости цели повышается на {{value}}% на 2 хода.",
-            "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng {{value}}%, duy trì 2 hiệp."
+            "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng {{value}}%, duy trì 2 hiệp.",
+            "cht": "使裝備者的攻擊力提高{{value}}%。當裝備者對我方單體角色施放戰技或終結技後，使目標歡愉度提高{{value}}%，持續2回合。"
         },
         "s1": [
             20,
@@ -133,7 +136,8 @@
         "passive": {
             "en": "When the Punchline held is 10 or more, the wearer's CRIT DMG increases by {{value}}%.",
             "ru": "Если единиц Юмора 10 или больше, крит. урон владельца повышается на {{value}}%.",
-            "vn": "Khi Điểm Hài Hước sở hữu lớn hơn hoặc bằng 10, Sát Thương Bạo Kích của người trang bị tăng {{value}}%."
+            "vn": "Khi Điểm Hài Hước sở hữu lớn hơn hoặc bằng 10, Sát Thương Bạo Kích của người trang bị tăng {{value}}%.",
+            "cht": "當擁有的笑點達到10點時，裝備者的暴擊傷害提高{{value}}%。"
         },
         "s1": [
             20
@@ -169,7 +173,8 @@
         "passive": {
             "en": "Increases the wearer's Elation by {{value}}%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by {{value}}% for 2 turn(s).",
             "ru": "Радость владельца повышается на {{value}}%. Когда владелец использует навык Радости, получаемый всеми противниками урон Радости повышается на {{value}}% на 2 хода.",
-            "vn": "Khiến Độ Vui Vẻ của người trang bị tăng {{value}}%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến Sát Thương Vui Vẻ mà toàn bộ phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp."
+            "vn": "Khiến Độ Vui Vẻ của người trang bị tăng {{value}}%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến Sát Thương Vui Vẻ mà toàn bộ phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp.",
+            "cht": "使裝備者的歡愉度提高{{value}}%。裝備者施放歡愉時，使敵方全體受到的歡愉傷害提高{{value}}%，持續2回合。"
         },
         "s1": [
             12,
@@ -210,7 +215,8 @@
         "passive": {
             "en": "When Aha Instant is activated, the wearer's Elation increases by {{value}}%, lasting until Aha Instant ends.",
             "ru": "При активации Мига Ахи Радость владельца повышается на {{value}}%, пока действует Миг Ахи.",
-            "vn": "Khi phát động Thời Khắc Aha, khiến Độ Vui Vẻ của người trang bị tăng {{value}}%, duy trì đến khi Thời Khắc Aha kết thúc."
+            "vn": "Khi phát động Thời Khắc Aha, khiến Độ Vui Vẻ của người trang bị tăng {{value}}%, duy trì đến khi Thời Khắc Aha kết thúc.",
+            "cht": "阿哈時刻發動時，使裝備者的歡愉度提高{{value}}%，持續到阿哈時刻結束。"
         },
         "s1": [
             16
@@ -245,7 +251,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by {{value}}%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by {{value}}%.\nWhen every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.",
             "ru": "",
-            "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, nhận \"Làn Gió Mới\", \"Làn Gió Mới\" khiến Tốc Độ của người trang bị tăng {{value}}%. Nếu Kỹ Năng Vui Vẻ thi triển khác với Kỹ Năng Vui Vẻ thi triển lần trước, sẽ nhận thêm \"Trào Lưu\", \"Trào Lưu\" khiến Độ Vui Vẻ của người trang bị tăng {{value}}%.\nKhi bắt đầu mỗi đợt hoặc sau mỗi khi người trang bị thi triển 3 lần Kỹ Năng Vui Vẻ, hồi 1 Điểm Chiến Kỹ."
+            "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, nhận \"Làn Gió Mới\", \"Làn Gió Mới\" khiến Tốc Độ của người trang bị tăng {{value}}%. Nếu Kỹ Năng Vui Vẻ thi triển khác với Kỹ Năng Vui Vẻ thi triển lần trước, sẽ nhận thêm \"Trào Lưu\", \"Trào Lưu\" khiến Độ Vui Vẻ của người trang bị tăng {{value}}%.\nKhi bắt đầu mỗi đợt hoặc sau mỗi khi người trang bị thi triển 3 lần Kỹ Năng Vui Vẻ, hồi 1 Điểm Chiến Kỹ.",
+            "cht": "使裝備者的暴擊率提高{{value}}%。裝備者施放歡愉技時，獲得【風口】，【風口】使裝備者的速度提高{{value}}%。若施放的歡愉技與上一次施放的歡愉技不同，則額外獲得【潮流】，【潮流】使裝備者的歡愉度提高{{value}}%。每一波開始時或裝備者每施放3次歡愉技後，恢復1個戰技點。"
         },
         "s1": [
             18,
@@ -290,7 +297,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer uses an Elation Skill, increases Elation by {{value}}%, stacking up to 2 times.",
             "ru": "Крит. шанс владельца повышается на {{value}}%. Когда владелец использует навык Радости, Радость повышается на {{value}}%. Может складываться до 2 раз.",
-            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, Độ Vui Vẻ tăng {{value}}%, hiệu ứng này tối đa cộng dồn 2 lần."
+            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, Độ Vui Vẻ tăng {{value}}%, hiệu ứng này tối đa cộng dồn 2 lần.",
+            "cht": "使裝備者的暴擊率提高{{value}}%。裝備者施放歡愉技時，歡愉度提高{{value}}%，此效果最多疊加2次。"
         },
         "s1": [
             12,
@@ -331,7 +339,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. After the wearer uses their Ultimate, increases the Elation of all allies by {{value}}%, lasting for 1 turn(s).",
             "ru": "Крит. урон владельца повышается на {{value}}%. После того как владелец использует сверхспособность, уровень Радости всех союзников повышается на {{value}}% на 1 ход.",
-            "vn": ""
+            "vn": "",
+            "cht": "使裝備者的暴擊傷害提高{{value}}%。裝備者施放終結技後，使我方全體歡愉度提高{{value}}%，持續1回合。"
         },
         "s1": [
             12,
@@ -371,7 +380,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}% and Energy Regeneration Rate by {{value}}%. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by {{value}}% for 2 turn(s). Effects of the same type cannot stack.",
             "ru": "Крит. урон владельца повышается на {{value}}%, а скорость восстановления энергии - на {{value}}%. Когда макс. энергия владельца превышает 120 ед., каждые 10 ед. энергии сверх максимума повышают скорость восстановления энергии на 0,3%, учитывается максимум 360 ед. Когда владелец использует навык Радости, получаемый всеми противниками урон повышается на {{value}}% на 2 хода. Эффекты подобного типа не могут складываться.",
-            "vn": "Tăng {{value}}% Sát Thương Bạo Kích và {{value}}% Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0,3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn."
+            "vn": "Tăng {{value}}% Sát Thương Bạo Kích và {{value}}% Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0,3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+            "cht": "使裝備者的暴擊傷害提高{{value}}%，能量恢復效率提高{{value}}%。裝備者的能量上限大於120時，每超出10點能量上限額外使能量恢復效率提高0.3%，最多計入360點超出的能量上限。裝備者施放歡愉技時，使敵方全體受到的傷害提高{{value}}%，持續2回合，同類效果無法疊加。"
         },
         "s1": [
             60,
@@ -416,7 +426,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%, and the Elation DMG dealt ignores {{value}}% of the target's DEF. When the wearer uses Ultimate on themselves, gains {{value}} \"Punchline.\" This effect can be triggered up to 1 time, and will be reset after using Basic ATK 3 times.",
             "ru": "Скорость владельца повышается на {{value}}%, а нанесение урона Радости игнорирует {{value}}% защиты цели. После использования сверхспособности на себе владелец получает {{value}} ед. Юмора. Этот эффект может быть вызван только один раз, после 3 раз использования базовой атаки количество активаций эффекта сбрасывается.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%, Sát Thương Vui Vẻ gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận {{value}} \"Điểm Hài Hước\\\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt."
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%, Sát Thương Vui Vẻ gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận {{value}} \"Điểm Hài Hước\\\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+            "cht": "使裝備者的速度提高{{value}}%，造成的歡愉傷害無視目標{{value}}%的防禦力。當裝備者對自身單體施放終結技時，獲得{{value}}點【笑點】。該效果最多觸發1次，發動3次普通攻擊後重置可觸發次數。"
         },
         "s1": [
             18,
@@ -461,7 +472,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. When the wearer enters combat or uses Ultimate on an ally target, the wearer gains \"Great Fortune\" for 3 turn(s). While the wearer has \"Great Fortune,\" all allies' CRIT Rate increases by {{value}}%, CRIT DMG increases by {{value}}%, and the wearer's Energy Regeneration Rate increases by {{value}}%.\nAt the start of each wave, the wearer regenerates a fixed amount of 15 Energy.",
             "ru": "Скорость владельца повышается на {{value}}%. В начале боя или используя сверхспособность на союзнике, владелец получает статус Большая удача на 3 хода. Пока у владельца есть статус Большая удача, крит. шанс всех союзников повышается на {{value}}%, крит. урон - на {{value}}%, а скорость восстановления энергии владельца - на {{value}}%.\nВ начале каждой волны владелец восстанавливает 15 ед. энергии.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ lên mục tiêu phe ta, sẽ nhận được \"Quẻ Thượng Thượng\", duy trì 3 hiệp. Khi người trang bị có \"Quẻ Thượng Thượng\", toàn bộ phe ta tăng {{value}}% Tỷ Lệ Bạo Kích, tăng {{value}}% Sát Thương Bạo Kích, bản thân người trang bị tăng {{value}}% Hiệu Suất Hồi Phục Năng Lượng.\nKhi bắt đầu mỗi đợt, người trang bị sẽ hồi cố định 15 điểm Năng Lượng."
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ lên mục tiêu phe ta, sẽ nhận được \"Quẻ Thượng Thượng\", duy trì 3 hiệp. Khi người trang bị có \"Quẻ Thượng Thượng\", toàn bộ phe ta tăng {{value}}% Tỷ Lệ Bạo Kích, tăng {{value}}% Sát Thương Bạo Kích, bản thân người trang bị tăng {{value}}% Hiệu Suất Hồi Phục Năng Lượng.\nKhi bắt đầu mỗi đợt, người trang bị sẽ hồi cố định 15 điểm Năng Lượng.",
+            "cht": "使裝備者的速度提高{{value}}%。裝備者進入戰鬥或對我方目標施放終結技時，使裝備者獲得【上上簽】，持續3回合。當裝備者持有【上上簽】時，我方全體爆擊率提高{{value}}%，暴擊傷害提高{{value}}%，裝備者自身能量恢復效率提高{{value}}%。\n每個波次開始時，裝備者固定恢復15點能量。"
         },
         "s1": [
             18,
