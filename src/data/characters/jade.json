@@ -45,7 +45,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to {{additional_damage}}% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to 2% of their Max HP. If the current HP is insufficient, reduces HP to 1. If Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.",
+      "description_template": "Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).\nAfter the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to {{additional_damage}}% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to 2% of their Max HP. If the current HP is insufficient, reduces HP to 1.\nIf Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.",
 
       "scaling": {
         "additional_damage": [
@@ -212,7 +212,7 @@
     {
       "level": 3,
       "name": "Honesty? Soon Mortgaged",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
 
     {
@@ -224,7 +224,7 @@
     {
       "level": 5,
       "name": "Hope? Hitherto Forfeited",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
 
     {

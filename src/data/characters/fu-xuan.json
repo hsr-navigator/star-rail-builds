@@ -186,7 +186,7 @@
     {
       "level": 1,
       "name": "Dominus Pacis",
-      "description": "The Knowledge effect additionally increases CRIT DMG by 30%."
+      "description": "The Knowledge effect increases CRIT DMG by 30%."
     },
 
     {
@@ -198,7 +198,7 @@
     {
       "level": 3,
       "name": "Apex Nexus",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
 
     {
@@ -210,13 +210,13 @@
     {
       "level": 5,
       "name": "Arbiter Primus",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
 
     {
       "level": 6,
       "name": "Omnia Vita",
-      "description": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss. This tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used."
+      "description": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss.\nThis tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used."
     }
   ]
 }
