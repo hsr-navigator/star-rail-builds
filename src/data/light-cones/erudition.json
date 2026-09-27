@@ -6,7 +6,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT Rate by {{value}}%. The Ultimate DMG and Follow-Up ATK DMG dealt by the wearer increase by {{value}}%.",
       "ru": "Крит. шанс владельца повышается на {{value}}%. Наносимый владельцем урон сверхспособности и бонус-атаки повышается на {{value}}%.",
-      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Sát thương Tuyệt Kỹ và Đòn Đánh Theo Sau của người trang bị gây ra tăng {{value}}%."
+      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Sát thương Tuyệt Kỹ và Đòn Đánh Theo Sau của người trang bị gây ra tăng {{value}}%.",
+      "cht": "使裝備者的暴擊率提高{{value}}%。裝備者造成的終結技和追加攻擊傷害提高{{value}}%。"
     },
     "s1": [
       12,
@@ -46,7 +47,8 @@
     "passive": {
       "en": "The wearer ignores {{value}}% of the target's DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by {{value}}%. When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by {{value}}%.",
       "ru": "Владелец игнорирует {{value}}% защиты цели при нанесении урона. Когда владелец использует навык поддержки, он восстанавливает 6 ед. энергии и получает статус Отправление на 2 хода, который может складываться до 3 раз. Каждый уровень статуса Отправление повышает урон навыка поддержки на {{value}}%. При достижении 3 ур. статуса Отправление каждый уровень также повышает урон сверхспособности на {{value}}%.",
-      "vn": "Khi người trang bị gây sát thương sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng {{value}}% sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng {{value}}% Sát Thương Tuyệt Kỹ."
+      "vn": "Khi người trang bị gây sát thương sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng {{value}}% sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng {{value}}% Sát Thương Tuyệt Kỹ.",
+      "cht": "使裝備者造成傷害時無視目標{{value}}%的防禦力。當裝備者施放助戰技時，恢復6點能量並獲得【啟航】，持續2回合，最多疊加3層。每層【啟航】使助戰技傷害提高{{value}}%，【啟航】達到3層時，每層【啟航】使終結技傷害提高{{value}}%。"
     },
     "s1": [
       32,
@@ -91,7 +93,8 @@
     "passive": {
       "en": "Increases the wearer's Break Effect by {{value}}%. After the wearer uses Ultimate, increases SPD by {{value}}%, lasting for 2 turn(s).",
       "ru": "Эффект пробития владельца повышается на {{value}}%. После того как владелец использует сверхспособность, его скорость повышается на {{value}}% на 2 хода.",
-      "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, Tốc Độ tăng {{value}}%, duy trì 2 hiệp."
+      "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, Tốc Độ tăng {{value}}%, duy trì 2 hiệp.",
+      "cht": "使裝備者的擊破特攻提高{{value}}%。裝備者施放終結技後，速度提高{{value}}%，持續2回合。"
     },
     "s1": [
       28,
@@ -134,7 +137,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT DMG by {{value}}%. When the wearer uses Ultimate, increases DMG dealt by the wearer's Ultimate based on their Max Energy. Each point of Energy increases DMG dealt by Ultimate by {{value}}%. A max of 180 points of Energy will be taken into account for this.",
       "ru": "Крит. урон владельца повышается на {{value}}%. Когда владелец использует сверхспособность, наносимый ею урон повышается на {{value}}% за каждую единицу от макс. энергии владельца. Этот эффект может складываться до макс. 180 ед. энергии.",
-      "vn": "Khiến sát thương bạo kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ tăng sát thương Tuyệt Kỹ mà người trang bị gây ra theo giới hạn năng lượng của người trang bị: mỗi điểm năng lượng tăng {{value}}%, tối đa 180 điểm năng lượng."
+      "vn": "Khiến sát thương bạo kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ tăng sát thương Tuyệt Kỹ mà người trang bị gây ra theo giới hạn năng lượng của người trang bị: mỗi điểm năng lượng tăng {{value}}%, tối đa 180 điểm năng lượng.",
+      "cht": "使裝備者的暴擊傷害提高{{value}}%。當裝備者施放終結技時，根據裝備者的能量上限，提高裝備者終結技造成的傷害：每點能量提高{{value}}%，最多計入180點。"
     },
     "s1": [
       36,
@@ -174,7 +178,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT DMG by {{value}}%. Increases DMG dealt by the wearer's Skill and Ultimate by {{value}}%. After the wearer uses Skill or Ultimate, gains \"Somnus Corpus.\" Upon triggering a Follow-Up ATK, consumes \"Somnus Corpus,\" and increases DMG dealt by Follow-Up ATK by {{value}}%.",
       "ru": "Крит. урон владельца повышается на {{value}}%, а наносимый навыком и сверхспособностью владельца урон - на {{value}}%. После использования навыка или сверхспособности владелец получает статус Спящее тело. Выполнение бонус-атаки расходует статус Спящее тело и повышает наносимый бонус-атакой урон на {{value}}%.",
-      "vn": "Tăng {{value}}% Sát Thương Bạo Kích của người trang bị. Tăng {{value}}% sát thương do Chiến Kỹ và Tuyệt Kỹ của người trang bị gây ra. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ, sẽ nhận hiệu ứng \"Thân Mộng\". Khi thi triển Đòn Đánh Theo Sau, tiêu hao \"Thân Mộng\", tăng {{value}}% sát thương do Đòn Đánh Theo Sau gây ra."
+      "vn": "Tăng {{value}}% Sát Thương Bạo Kích của người trang bị. Tăng {{value}}% sát thương do Chiến Kỹ và Tuyệt Kỹ của người trang bị gây ra. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ, sẽ nhận hiệu ứng \"Thân Mộng\". Khi thi triển Đòn Đánh Theo Sau, tiêu hao \"Thân Mộng\", tăng {{value}}% sát thương do Đòn Đánh Theo Sau gây ra.",
+      "cht": "使裝備者暴擊傷害提高{{value}}%。使裝備者戰技和終結技造成的傷害提高{{value}}%。裝備者施放戰技或終結技後，獲得【夢身】效果。觸發追加攻擊時，消耗【夢身】，使追加攻擊造成的傷害提高{{value}}%。"
     },
     "s1": [
       36,
@@ -220,7 +225,8 @@
     "passive": {
       "en": "Increases DMG dealt by the wearer's Ultimate by {{value}}%.",
       "ru": "Наносимый сверхспособностью владельца урон повышается на {{value}}%.",
-      "vn": "Khiến sát thương do Tuyệt Kỹ gây ra của người trang bị tăng {{value}}%."
+      "vn": "Khiến sát thương do Tuyệt Kỹ gây ra của người trang bị tăng {{value}}%.",
+      "cht": "使裝備者施放終結技時造成的傷害提高{{value}}%。"
     },
     "s1": [
       28
@@ -256,7 +262,8 @@
     "passive": {
       "en": "Increases the wearer's ATK by {{value}}%. After using an attack, for each enemy target hit, additionally increases ATK by {{value}}%. This effect can stack up to 5 times and last until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by {{value}}%, lasting for 1 turn(s).",
       "ru": "Сила атаки владельца повышается на {{value}}%. Каждый поражённый атакой противник повышает силу атаки владельца на доп. {{value}}%. Этот эффект может складываться до 5 раз и длится до следующей атаки. Если количество поражённых противников выше или равно 3, скорость владельца повышается на {{value}}% на 1 ход.",
-      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi thi triển tấn công, mỗi khi đánh trúng 1 kẻ địch sẽ tăng thêm {{value}}% Tấn Công, hiệu ứng này tối đa cộng dồn 5 lần, duy trì cho đến sau lần tấn công tiếp theo, nếu đánh trúng 3 kẻ địch trở lên, sẽ tăng {{value}}% Tốc Độ của bản thân, duy trì 1 hiệp."
+      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi thi triển tấn công, mỗi khi đánh trúng 1 kẻ địch sẽ tăng thêm {{value}}% Tấn Công, hiệu ứng này tối đa cộng dồn 5 lần, duy trì cho đến sau lần tấn công tiếp theo, nếu đánh trúng 3 kẻ địch trở lên, sẽ tăng {{value}}% Tốc Độ của bản thân, duy trì 1 hiệp.",
+      "cht": "使裝備者的攻擊力提高{{value}}%。發動攻擊後，每命中一名敵方目標，使攻擊力額外提高{{value}}%，該效果最多疊加5次，持續至下次攻擊後，若命中大於等於3名敵方目標，使自身速度提高{{value}}%，持續1回合。"
     },
     "s1": [
       8,
@@ -301,7 +308,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT Rate by {{value}}%. When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores {{value}}% of the target's DEF, and the Skill DMG dealt by the wearer increases by {{value}}%. Effects of the same type cannot stack.",
       "ru": "Повышает крит. шанс владельца на {{value}}%. Когда любой союзник в течение своего хода суммарно расходует не менее 4 оч. навыков, владелец получает эффект Сияющая корона на 3 хода. Пока владелец обладает эффектом Сияющая корона, наносимый всеми союзниками урон игнорирует {{value}}% защиты цели, а урон навыка владельца повышается на {{value}}%. Эффекты подобного типа не могут складываться.",
-      "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng {{value}}%, hiệu ứng cùng loại không thể cộng dồn."
+      "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng {{value}}%, hiệu ứng cùng loại không thể cộng dồn.",
+      "cht": "使裝備者的爆擊率提高{{value}}%。我方任意角色在自身同一回合內累積消耗大於等於4點戰技點時，裝備者獲得【閃耀王冠】，持續3回合。裝備者持有【閃耀王冠】時，我方全體造成的傷害無視目標{{value}}%的防禦力，裝備者造成的戰技傷害提高{{value}}%，同類效果無法疊加。"
     },
     "s1": [
       18,
@@ -346,7 +354,8 @@
     "passive": {
       "en": "Increases the wearer's ATK by {{value}}%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by {{value}}% for 3 turn(s).",
       "ru": "Сила атаки владельца повышается на {{value}}%. Когда владелец побеждает противника, его крит. урон повышается на {{value}}% на 3 хода.",
-      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%, sau khi người trang bị tiêu diệt kẻ địch, Sát Thương Bạo Kích tăng {{value}}%, duy trì 3 hiệp."
+      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%, sau khi người trang bị tiêu diệt kẻ địch, Sát Thương Bạo Kích tăng {{value}}%, duy trì 3 hiệp.",
+      "cht": "使裝備者攻擊力提高{{value}}%，裝備者消滅敵方目標後，暴擊傷害提高{{value}}%，持續3回合。"
     },
     "s1": [
       16,
@@ -386,7 +395,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer uses Ultimate, increases the Skill and Ultimate DMG dealt by the wearer by {{value}}%, lasting for 3 turn(s). After the wearer uses Ultimate, if this instance of Ultimate consumed 140 or more energy, recovers 1 Skill Point.",
       "ru": "Крит. шанс владельца повышается на {{value}}%. Когда владелец использует сверхспособность, наносимый им урон навыка и сверхспособности повышаются на {{value}}% на 3 хода. Если израсходованная этой сверхспособностью энергия выше или равна 140 ед., то она восстанавливает 1 очко навыков отряда.",
-      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến sát thương Chiến Kỹ và Tuyệt Kỹ do người trang bị gây ra tăng {{value}}%, duy trì 3 hiệp. Sau khi người trang bị thi triển Tuyệt Kỹ, nếu Năng Lượng tiêu hao trong lần Tuyệt Kỹ này lớn hơn hoặc bằng 140 điểm, sẽ hồi 1 điểm Chiến Kỹ."
+      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến sát thương Chiến Kỹ và Tuyệt Kỹ do người trang bị gây ra tăng {{value}}%, duy trì 3 hiệp. Sau khi người trang bị thi triển Tuyệt Kỹ, nếu Năng Lượng tiêu hao trong lần Tuyệt Kỹ này lớn hơn hoặc bằng 140 điểm, sẽ hồi 1 điểm Chiến Kỹ.",
+      "cht": "使裝備者的暴擊率提高{{value}}%。裝備者施放終結技時，使裝備者造成的戰技和終結技傷害提高{{value}}%，持續3回合。裝備者施放終結技後，若本次終結技消耗的能量大於等於140點，恢復1個戰技點。"
     },
     "s1": [
       12,
@@ -426,7 +436,8 @@
     "passive": {
       "en": "When the wearer's turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer's DMG dealt to it by {{value}}%. When an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by {{value}}%, lasting for 2 turn(s). The same types of effects cannot stack.",
       "ru": "В начале хода владельца восстанавливает 10 ед. энергии. Если противник имеет добавленный владельцем тип уязвимости, то наносимый ему владельцем урон повышается на {{value}}%. Атакуя противника, владелец понижает его защиту на {{value}}% на 2 хода. Эффекты подобного типа не могут складываться.",
-      "vn": "Khi bắt đầu hiệp của người trang bị sẽ hồi 10 Năng Lượng. Nếu mục tiêu phe địch có điểm yếu được thêm vào bởi người trang bị, thì sát thương người trang bị gây ra cho kẻ đó tăng {{value}}%.\nKhi mục tiêu phe địch bị người trang bị tấn công, người trang bị sẽ khiến kẻ đó giảm {{value}}%, phòng thủ, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn."
+      "vn": "Khi bắt đầu hiệp của người trang bị sẽ hồi 10 Năng Lượng. Nếu mục tiêu phe địch có điểm yếu được thêm vào bởi người trang bị, thì sát thương người trang bị gây ra cho kẻ đó tăng {{value}}%.\nKhi mục tiêu phe địch bị người trang bị tấn công, người trang bị sẽ khiến kẻ đó giảm {{value}}%, phòng thủ, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn.",
+      "cht": "裝備者回合開始時恢復10點能量。若敵方目標擁有裝備者附加的弱點，裝備者對其造成的傷害提高{{value}}%。\n當敵方目標受到裝備者攻擊時，裝備者使其防禦力降低{{value}}%，持續2回合。同類效果無法疊加。"
     },
     "s1": [
       60,
@@ -466,7 +477,8 @@
     "passive": {
       "en": "The wearer regenerates {{value}} Energy immediately upon entering battle, and increases DMG dealt by the wearer's Ultimate by {{value}}%.",
       "ru": "В начале боя восстанавливает владельцу {{value}} ед. энергии. Наносимый сверхспособностью владельца урон повышается на {{value}}%.",
-      "vn": "Khiến người trang bị khi vào chiến đấu sẽ hồi ngay {{value}} điểm Năng Lượng, đồng thời khiến sát thương Tuyệt Kỹ mà người đó gây ra tăng {{value}}%."
+      "vn": "Khiến người trang bị khi vào chiến đấu sẽ hồi ngay {{value}} điểm Năng Lượng, đồng thời khiến sát thương Tuyệt Kỹ mà người đó gây ra tăng {{value}}%.",
+      "cht": "使裝備者進入戰鬥時立即恢復{{value}}點能量，同時使其終結技造成的傷害提高{{value}}%。"
     },
     "s1": [
       20,
@@ -509,7 +521,8 @@
     "passive": {
       "en": "For every enemy on the field, increases the wearer's ATK by {{value}}%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by {{value}}% for 1 turn.",
       "ru": "За каждого противника на поле боя сила атаки владельца повышается на {{value}}%. Этот эффект может складываться до 5 раз. Если на поле боя есть противник с пробитой уязвимостью, то урон владельца повышается на {{value}}% на 1 ход.",
-      "vn": "Mỗi một kẻ địch trong trận, sẽ khiến Tấn Công của người trang bị tăng {{value}}%, hiệu ứng này tối đa cộng dồn 5 tầng. Khi có kẻ địch bị phá vỡ Điểm Yếu, sát thương mà người trang bị gây ra sẽ tăng {{value}}%, duy trì 1 hiệp."
+      "vn": "Mỗi một kẻ địch trong trận, sẽ khiến Tấn Công của người trang bị tăng {{value}}%, hiệu ứng này tối đa cộng dồn 5 tầng. Khi có kẻ địch bị phá vỡ Điểm Yếu, sát thương mà người trang bị gây ra sẽ tăng {{value}}%, duy trì 1 hiệp.",
+      "cht": "場上每有1個敵方目標，便使裝備者的攻擊力提高{{value}}%，最多疊加5次。當有敵方目標的弱點被擊破時，裝備者造成的傷害提高{{value}}%，持續1回合"
     },
     "s1": [
       "9.0",
@@ -549,7 +562,8 @@
     "passive": {
       "en": "Increases the wearer's Break Effect by {{value}}%. When entering battle, immediately regenerates {{value}} Energy. After the wearer uses Ultimate, obtains \"Raiton.\" After using 2 Basic ATKs, advances the wearer's action by {{value}}% and removes \"Raiton.\" After the wearer uses Ultimate, resets \"Raiton.\"",
       "ru": "Эффект пробития владельца повышается на {{value}}%. В начале боя владелец немедленно восстанавливает {{value}} ед. энергии. После использования владельцем сверхспособности он получает статус Спасение от грома. После выполнения базовой атаки 2 раза действие владельца продвигается вперёд на {{value}}%, после чего статус Спасение от грома снимается. После повторного использования владельцем сверхспособности на него снова накладывается статус Спасение от грома.",
-      "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Khi vào chiến đấu, lập tức hồi {{value}}% điểm Năng Lượng. Và sau khi người trang bị thi triển Tuyệt Kỹ, nhận Lôi Độn. Sau khi thi triển 2 lần Tấn Công Thường, người trang bị Ưu Tiên Hành Động {{value}}%, và xóa Lôi Độn. Sau khi người trang bị thi triển Tuyệt Kỹ sẽ làm mới Lôi Độn."
+      "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Khi vào chiến đấu, lập tức hồi {{value}}% điểm Năng Lượng. Và sau khi người trang bị thi triển Tuyệt Kỹ, nhận Lôi Độn. Sau khi thi triển 2 lần Tấn Công Thường, người trang bị Ưu Tiên Hành Động {{value}}%, và xóa Lôi Độn. Sau khi người trang bị thi triển Tuyệt Kỹ sẽ làm mới Lôi Độn.",
+      "cht": "使裝備者的擊破特攻提高{{value}}%。進入戰鬥時立即恢復{{value}}點能量，且裝備者施放終結技後獲得【雷遁】，發動2次普通攻擊後，裝備者行動提前{{value}}%，並移除【雷遁】。裝備者施放終結技後會重置【雷遁】。"
     },
     "s1": [
       60,
@@ -595,7 +609,8 @@
     "passive": {
       "en": "After the wearer uses their Skill, additionally regenerates {{value}} Energy. This effect cannot be repeatedly triggered in a single turn.",
       "ru": "После использования владельцем навыка дополнительно восстанавливает {{value}} ед. энергии. Этот эффект может сработать только один раз за ход.",
-      "vn": "Sau khi người trang bị thi triển Chiến Kỹ sẽ hồi thêm {{value}} điểm Năng Lượng, hiệu ứng này không thể kích hoạt trùng lặp trong 1 hiệp."
+      "vn": "Sau khi người trang bị thi triển Chiến Kỹ sẽ hồi thêm {{value}} điểm Năng Lượng, hiệu ứng này không thể kích hoạt trùng lặp trong 1 hiệp.",
+      "cht": "使裝備者施放戰技後額外恢復{{value}}點能量。該效果單個回合內不可重複觸發。"
     },
     "s1": [
       8
@@ -631,7 +646,8 @@
     "passive": {
       "en": "When the wearer uses their Ultimate, increases ATK by {{value}}% for 2 turn(s).",
       "ru": "Когда владелец использует сверхспособность, его сила атаки повышается на {{value}}% на 2 хода.",
-      "vn": "Khi người trang bị thi triển Tuyệt Kỹ, Tấn Công sẽ tăng {{value}}%, duy trì 2 hiệp."
+      "vn": "Khi người trang bị thi triển Tuyệt Kỹ, Tấn Công sẽ tăng {{value}}%, duy trì 2 hiệp.",
+      "cht": "當裝備者施放終結技時，攻擊力提高{{value}}%，持續2回合。"
     },
     "s1": [
       24
@@ -666,7 +682,8 @@
     "passive": {
       "en": "Increases DMG dealt by the wearer's Follow-Up ATKs by {{value}}%. If the current HP percentage of the enemy target is below or equal to 50%, increases DMG dealt by Follow-Up ATKs by an extra {{value}}%.",
       "ru": "Наносимый бонус-атакой владельца урон повышается на {{value}}%. Если текущее НР противника ниже или равно 50%, то наносимый бонус-атакой владельца урон этому противнику, повышается на {{value}}%.",
-      "vn": "Tăng {{value}}% sát thương gây ra bởi Đòn Đánh Theo Sau của người trang bị. Nếu Phần Trăm HP hiện tại của kẻ địch này nhỏ hơn hoặc bằng 50%, thì sát thương của Đòn Đánh Theo Sau tăng thêm {{value}}%."
+      "vn": "Tăng {{value}}% sát thương gây ra bởi Đòn Đánh Theo Sau của người trang bị. Nếu Phần Trăm HP hiện tại của kẻ địch này nhỏ hơn hoặc bằng 50%, thì sát thương của Đòn Đánh Theo Sau tăng thêm {{value}}%.",
+      "cht": "使裝備者追加攻擊造成的傷害提高{{value}}%。若該敵方目標生命值在其生命上限的50%以下，則追加攻擊造成的傷害額外提高{{value}}%。"
     },
     "s1": [
       24,
@@ -710,7 +727,8 @@
     "passive": {
       "en": "Increases the wearer's ATK by {{value}}%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer's CRIT DMG increases by {{value}}%, lasting for 2 turn(s).",
       "ru": "Сила атаки владельца повышается на {{value}}%. Если после атаки владельца не менее 2 целей имеют соответствующую уязвимость, крит. урон владельца повышается на {{value}}% на 2 хода.",
-      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị tấn công, nếu có từ 2 kẻ địch bị tấn công trở lên mang Điểm Yếu thuộc tính tương ứng, thì Sát Thương Bạo Kích của người trang bị tăng {{value}}%, duy trì 2 hiệp."
+      "vn": "Khiến Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị tấn công, nếu có từ 2 kẻ địch bị tấn công trở lên mang Điểm Yếu thuộc tính tương ứng, thì Sát Thương Bạo Kích của người trang bị tăng {{value}}%, duy trì 2 hiệp.",
+      "cht": "使裝備者的攻擊力提高{{value}}%。裝備者發動攻擊後，若有不少於2個被攻擊的敵方目標具有對應屬性弱點，則裝備者的暴擊傷害提高{{value}}%，持續2回合。"
     },
     "s1": [
       16,
@@ -751,7 +769,8 @@
     "passive": {
       "en": "Increase the wearer's ATK by {{value}}%. For every 1 different Weakness Type an enemy target has, increase the DMG dealt to it by the wearer by {{value}}%. Up to a max of 7 Weakness Types can be taken into account for this effect.",
       "ru": "Сила атаки владельца повышается на {{value}}%. За каждый имеющийся у противника тип уязвимости наносимый владельцем урон повышается на {{value}}%. Этот эффект может складываться до 7 раз.",
-      "vn": "Khiến tấn công của người trang bị tăng {{value}}%. Mỗi khi mục tiêu phe địch có 1 Điểm Yếu thuộc tính khác nhau, thì sát thương người trang bị gây ra cho kẻ đó tăng {{value}}%, tối đa tính 7 Điểm Yếu."
+      "vn": "Khiến tấn công của người trang bị tăng {{value}}%. Mỗi khi mục tiêu phe địch có 1 Điểm Yếu thuộc tính khác nhau, thì sát thương người trang bị gây ra cho kẻ đó tăng {{value}}%, tối đa tính 7 Điểm Yếu.",
+      "cht": "使裝備者的攻擊力提高{{value}}%。敵方目標每擁有1個不同屬性的弱點，裝備者對其造成的傷害提高，最多計入7個。"
     },
     "s1": [
       8,
@@ -796,7 +815,8 @@
     "passive": {
       "en": "Increases the wearer's DMG by {{value}}%. For every enemy defeated by the wearer, the wearer's ATK increases by {{value}}%, stacking up to 3 time(s).",
       "ru": "Наносимый владельцем урон повышается на {{value}}%. За каждого побеждённого противника сила атаки владельца повышается на {{value}}%. Этот эффект может складываться до 3 раз.",
-      "vn": "\tSẵn Sàng\nKhiến sát thương gây ra bởi người trang bị tăng {{value}}%. Mỗi khi tiêu diệt 1 kẻ địch, Tấn Công của người trang bị tăng {{value}}%, hiệu ứng này tối đa cộng dồn 3 tầng."
+      "vn": "\tSẵn Sàng\nKhiến sát thương gây ra bởi người trang bị tăng {{value}}%. Mỗi khi tiêu diệt 1 kẻ địch, Tấn Công của người trang bị tăng {{value}}%, hiệu ứng này tối đa cộng dồn 3 tầng.",
+      "cht": "使裝備者造成傷害提高{{value}}%。每消滅1個敵方目標，裝備者的攻擊力提高{{value}}%，最多疊加3次。"
     },
     "s1": [
       12,
@@ -836,7 +856,8 @@
     "passive": {
       "en": "After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by {{value}}%. A max of 160 Energy will be taken into account for this.",
       "ru": "В начале боя наносимый владельцем урон повышается на {{value}}% за каждую единицу его макс. энергии до макс. 160 ед.",
-      "vn": "Sau khi vào chiến đấu, dựa theo giới hạn Năng Lượng của người trang bị để tăng sát thương mà người trang bị gây ra: Mỗi điểm Năng Lượng tăng {{value}}%, tối đa tính 160 điểm."
+      "vn": "Sau khi vào chiến đấu, dựa theo giới hạn Năng Lượng của người trang bị để tăng sát thương mà người trang bị gây ra: Mỗi điểm Năng Lượng tăng {{value}}%, tối đa tính 160 điểm.",
+      "cht": "進入戰鬥後，根據裝備者的能量上限，提高裝備者造成的傷害：每點能量提高{{value}}%，最多計入160點。"
     },
     "s1": [
       "0.20"
@@ -871,7 +892,8 @@
     "passive": {
       "en": "Increases the wearer's CRIT Rate by {{value}}%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by Follow-Up ATK increases by {{value}}%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables the DMG dealt by Ultimate or Follow-Up ATK to ignore {{value}}% of the target's DEF, lasting for 2 turn(s).",
       "ru": "Крит. шанс владельца повышается на {{value}}%. Если крит. урон владельца во время боя становится выше 120%, то наносимый его бонус-атакой урон повышается на {{value}}% за каждые 20%, превышающие это значение. Этот эффект может складываться до 4 раз. В начале боя или после использования владельцем базовой атаки урон, наносимый сверхспособностью или бонус-атакой, игнорирует {{value}}% защиты цели в течение 2 ходов.",
-      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi Sát Thương Bạo Kích của người trang bị trong trận lớn hơn 120%, mỗi 20% vượt quá thì Sát Thương Đòn Đánh Theo Sau gây ra tăng {{value}}%, hiệu ứng này có thể cộng dồn 4 tầng. Khi bắt đầu chiến đấu hoặc sau khi người trang bị dùng Tấn Công Thường sẽ khiến Tuyệt Kỹ hoặc sát thương Đòn Đánh Theo Sau gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu, duy trì 2 hiệp."
+      "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi Sát Thương Bạo Kích của người trang bị trong trận lớn hơn 120%, mỗi 20% vượt quá thì Sát Thương Đòn Đánh Theo Sau gây ra tăng {{value}}%, hiệu ứng này có thể cộng dồn 4 tầng. Khi bắt đầu chiến đấu hoặc sau khi người trang bị dùng Tấn Công Thường sẽ khiến Tuyệt Kỹ hoặc sát thương Đòn Đánh Theo Sau gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu, duy trì 2 hiệp.",
+      "cht": "使裝備者的暴擊率提高{{value}}%。當裝備者在戰鬥中暴擊傷害高於120%時，每超過20%，追加攻擊造成的傷害提高{{value}}%，該效果可疊加4層。戰鬥開始時和裝備者發動普通攻擊後，使終結技或追加攻擊造成的傷害無視目標{{value}}%的防禦，持續2回合。"
     },
     "s1": [
       16,
