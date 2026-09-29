@@ -77,7 +77,7 @@
                     "name": "Brushstroke: Render the Great Wave",
                     "tag": "Aoe",
                     "break": "30",
-                    "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies, restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
+                    "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies. Restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
                     "scaling": {
                         "ice_dmg": [
                             50,
@@ -233,6 +233,10 @@
         {
             "stat": "Effect RES",
             "value": "+10%"
+        },
+        {
+            "stat": "Elation",
+            "value": "+10.0%"
         }
     ],
     "eidolons": [
