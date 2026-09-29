@@ -45,7 +45,8 @@
         "version_released": "4.6",
         "source": "warp",
         "passive": {
-            "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies."
+            "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies.",
+            "cht": "使裝備者的防禦力提高{{value}}%。裝備者對我方全體施放歡愉技時，使敵方全體受到的傷害提高{{value}}%，持續3回合，為裝備者固定恢復10點能量，並為我方全體回復等同於裝備者防禦力的生命值。"
         },
         "s1": [
             48,
