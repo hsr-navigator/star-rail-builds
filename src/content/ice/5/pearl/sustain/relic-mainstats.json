@@ -1,0 +1,16 @@
+{
+    "main_stats": {
+        "body": [
+            "ogh"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            "def"
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}

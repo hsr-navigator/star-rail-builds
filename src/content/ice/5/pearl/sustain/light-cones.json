@@ -1,0 +1,20 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "colors-for-tomorrow",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "shroomy",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

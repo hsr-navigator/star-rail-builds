@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Sustain"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "-"
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 > E1 > S1"
+            },
+            "details": {
+                "en": "-"
+            }
+        }
+    }
+}

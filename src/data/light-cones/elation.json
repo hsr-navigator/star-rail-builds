@@ -40,6 +40,49 @@
             "def": 396
         }
     },
+    "colors-for-tomorrow": {
+        "rarity": 5,
+        "version_released": "4.6",
+        "source": "warp",
+        "passive": {
+            "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies."
+        },
+        "s1": [
+            48,
+            22,
+            10
+        ],
+        "s2": [
+            60,
+            28,
+            13
+        ],
+        "s3": [
+            72,
+            33,
+            15
+        ],
+        "s4": [
+            84,
+            39,
+            18
+        ],
+        "s5": [
+            96,
+            44,
+            20
+        ],
+        "level_1": {
+            "hp": 48,
+            "atk": 21,
+            "def": 27
+        },
+        "level_max": {
+            "hp": 1058,
+            "atk": 475,
+            "def": 595
+        }
+    },
     "dazzled-by-a-flowery-world": {
         "rarity": 5,
         "version_released": "4.0",
