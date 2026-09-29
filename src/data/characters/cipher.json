@@ -186,7 +186,7 @@
     {
       "level": 6,
       "name": "The Thief's Game, Unsung and Free",
-      "description": "The DMG dealt by the Talent's Follow-Up ATK increases by 350%. During the tally, an additional 16% of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, 20% of the cleared tally is returned."
+      "description": "The DMG dealt by Follow-Up ATK from Cipher's Talent increases by 350%. During the tally, an additional 16% of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, 20% of the cleared tally is returned."
     }
   ]
 }

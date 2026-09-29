@@ -349,7 +349,7 @@
     {
       "level": 4,
       "name": "Rest in Songs of Gloom",
-      "description": "While Castorice is on the field, all allies' Incoming Healing during HP restoration increases by 20%."
+      "description": "While Castorice is on the field, all allies' HP restored when receiving healing increases by 20%."
     },
     {
       "level": 5,

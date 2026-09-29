@@ -46,7 +46,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Enters the \"Circuit Connection\" state. Deals Quantum DMG equal to {{damage}}% of Archer's ATK to one designated enemy. After using Skill in the \"Circuit Connection\" state, the current turn does not end and the DMG dealt by Archer's Skill increases by 100%. This effect can stack up to 2 time(s), lasting until he exits the \"Circuit Connection\" state. After actively using Skill 5 time(s) or when Skill Points are insufficient, exits the \"Circuit Connection\" state. After all enemy targets are defeated in each wave, exits the \"Circuit Connection\" state.",
+            "description_template": "Enters the \"Circuit Connection\" state. Deals Quantum DMG equal to {{damage}}% of Archer's ATK to one designated enemy. After using Skill in the \"Circuit Connection\" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by 100%. This effect can stack up to 2 time(s), lasting until he exits the \"Circuit Connection\" state. After actively using Skill 5 time(s) or when Skill Points are insufficient to use Skill again, exits the \"Circuit Connection\" state. After all enemy targets have been defeated in each wave, exits the \"Circuit Connection\" state.",
             "scaling": {
                 "damage": [
                     180.0,
@@ -101,7 +101,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches a Follow-Up ATK on the primary target, dealing Quantum DMG equal to {{damage}}% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before the Follow-Up ATK is launched, it will instead target one random enemy.",
+            "description_template": "After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches a Follow-Up ATK on the primary target, dealing Quantum DMG equal to {{damage}}% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before the Follow-Up ATK is launched, the Follow-Up ATK will be directed at one target one random enemy instead.",
             "scaling": {
                 "damage": [
                     100.0,
@@ -137,7 +137,7 @@
         },
         "6": {
             "name": "Guardian",
-            "description": "After allies gain a Skill Point, if there are 4 Skill Points or more, increases Archer's CRIT DMG by 120% for 1 turn."
+            "description": "After allies gain a Skill Point, if there are 4 Skill Points or more, increases Archer's CRIT DMG by 120% for 1 turn(s)."
         }
     },
     "stat_bonuses": [
@@ -147,7 +147,7 @@
         },
         {
             "stat": "ATK",
-            "value": "+18%"
+            "value": "+18.0%"
         },
         {
             "stat": "CRIT Rate",
@@ -183,7 +183,7 @@
         {
             "level": 6,
             "name": "The Endless Pilgrimage",
-            "description": "When the turn starts, recovers 1 Skill Point for allies. The maximum number of stacks for the DMG boost effect from this unit's Skill increases by 1. Skill DMG dealt ignores 20% of DEF."
+            "description": "When the turn starts, recovers 1 Skill Point for allies. The maximum number of stacks allowed for the DMG boost effect provided by this unit's SKill increases by 1. The Skill DMG dealt ignores 20% of DEF."
         }
     ]
 }
