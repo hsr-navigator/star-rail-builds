@@ -7,7 +7,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. When equipped by Trailblazer (Remembrance), increases all ally targets' DMG dealt by {{value}}% and DMG dealt by Enhanced Basic ATK \"Together, We Script Tomorrow!\" by {{value}}%.",
             "ru": "Крит. урон владельца повышается на {{value}}%. Если владельцем является Первопроходец (Память), то наносимый всеми союзниками урон повышается на {{value}}%, а также повышает урон, наносимый усиленной базовой атакой «Вместе опишем облик завтрашнего дня!», на {{value}}%.",
-            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Khi Nhà Khai Phá - Ký Ức trang bị, khiến Sát Thương toàn bộ mục tiêu phe ta gây ra tăng {{value}}%, Sát Thương Tấn Công Thường Cường Hóa \"Cùng Nhau Viết Nên Ngày Mai Nhé!\" gây ra tăng {{value}}%."
+            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Khi Nhà Khai Phá - Ký Ức trang bị, khiến Sát Thương toàn bộ mục tiêu phe ta gây ra tăng {{value}}%, Sát Thương Tấn Công Thường Cường Hóa \"Cùng Nhau Viết Nên Ngày Mai Nhé!\" gây ra tăng {{value}}%.",
+            "cht": "使裝備者的爆擊傷害提高{{value}}%。拓荒者•記憶裝備時，使我方全體目標造成的傷害提高{{value}}%，強化普攻【明天，一同寫下！】造成的傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -52,7 +53,8 @@
         "passive": {
             "en": "Increases the wearer's ATK by {{value}}%. After the wearer uses Ultimate, increases the Basic ATK DMG dealt by the wearer and their memosprite by {{value}}%, lasting for 3 turn(s).",
             "ru": "Сила атаки владельца повышается на {{value}}%. После того как владелец использует сверхспособность, наносимый базовыми атаками владельца и духа памяти урон повышается на {{value}}% на 3 хода.",
-            "vn": "Khiên Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến sát thương Tấn Công Thường mà người trang bị và Linh Hồn Ký Ức gây ra tăng {{value}}%, duy trì 3 hiệp."
+            "vn": "Khiên Tấn Công của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến sát thương Tấn Công Thường mà người trang bị và Linh Hồn Ký Ức gây ra tăng {{value}}%, duy trì 3 hiệp.",
+            "cht": "使裝備者的攻擊力提高{{value}}%，裝備者施放終結技後，使裝備者與憶靈造成的普通攻擊傷害提高{{value}}%，持續3回合。"
         },
         "s1": [
             16,
@@ -92,7 +94,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to {{value}}% of their current HP and additionally deals 1 instance of Additional DMG of the wearer's memosprite Type equal to {{value}}% of the total consumed HP to the attacked target after the next attack launched by the wearer's memosprite. The total HP consumed is then reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by {{value}}% for 2 turn(s). The same types of effects cannot stack.",
             "ru": "Скорость владельца повышается на {{value}}%. Когда владелец использует базовую атаку, навык или сверхспособность, он расходует {{value}}% от текущего НР всех союзников и позволяет следующей атаке своего духа памяти нанести атакованной цели соответствующий типу духа памяти дополнительный урон, равный {{value}}% от общего количества израсходованного НР, после чего это количество сбрасывается. Когда дух памяти владельца использует свой навык, получаемый всеми противниками урон повышается на {{value}}% на 2 хода. Эффекты подобного типа не могут складываться.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tấn Công Thường, Chiến Kỹ và Tuyệt Kỹ sẽ tiêu hao HP của toàn thể phe ta bằng {{value}}% HP hiện tại và khiến Linh Hồn Ký Ức của người trang bị sau lần tấn công kế tiếp sẽ gây thêm 1 lần Sát Thương Kèm Theo dựa trên thuộc tính Linh Hồn Ký Ức của người trang bị bằng {{value}}% tổng lượng HP tiêu hao cho mục tiêu bị tấn công, sau đó xóa tổng lượng HP tiêu hao. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức, sẽ khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn."
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tấn Công Thường, Chiến Kỹ và Tuyệt Kỹ sẽ tiêu hao HP của toàn thể phe ta bằng {{value}}% HP hiện tại và khiến Linh Hồn Ký Ức của người trang bị sau lần tấn công kế tiếp sẽ gây thêm 1 lần Sát Thương Kèm Theo dựa trên thuộc tính Linh Hồn Ký Ức của người trang bị bằng {{value}}% tổng lượng HP tiêu hao cho mục tiêu bị tấn công, sau đó xóa tổng lượng HP tiêu hao. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức, sẽ khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn.",
+            "cht": "使裝備者的速度提高{{value}}%。裝備者施放普攻、戰技和終結技時消耗我方全體等同於當前生命值{{value}}%的生命值並使裝備者的憶靈下一次攻擊後額外對攻擊目標造成1次等同於{{value}}%生命值消耗總量的基於裝備者的憶靈屬性的附加傷害，隨後清空生命值消耗總量。裝備者的憶靈施放憶靈技時，使敵方全體受到的傷害提高{{value}}%，持續2回合。同類效果無法疊加。"
         },
         "s1": [
             18,
@@ -142,7 +145,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. When the wearer or their memosprite loses HP during their own turn, the wearer gains \"Death Flower.\" \"Death Flower\" allows the wearer and their memosprite to ignore {{value}}% of the target's DEF when dealing DMG, lasting for 2 turn(s). When the wearer's memosprite disappears, advances the wearer's action by {{value}}%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.",
             "ru": "Макс. НР владельца повышается на {{value}}%. Если НР владельца или его духа памяти опускается в течение их хода, владелец получает статус Цветок смерти, который позволяет владельцу и его духу памяти во время нанесения урона игнорировать {{value}}% защиты противника в течение 2 ходов. Исчезновение духа памяти продвигает действие владельца вперёд на {{value}}%. Этот эффект может сработать только 1 раз. Использование сверхспособности владельцем сбрасывает количество срабатываний этого эффекта.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi người trang bị hoặc Linh Hồn Ký Ức của người trang bị mất HP trong hiệp của mình, người trang bị sẽ nhận Hoa Âm Ty. Hoa Âm Ty khiến người trang bị và Linh Hồn Ký Ức của họ khi gây sát thương có thể bỏ qua {{value}}% phòng thủ của mục tiêu, duy trì 2 hiệp.\nKhi Linh Hồn Ký Ức của người trang bị biến mất, người trang bị sẽ ưu tiên hành động {{value}}%. Hiệu ứng này chỉ kích hoạt tối đa 1 lần, và sẽ được làm mới số lần mỗi khi người trang bị thi triển Tuyệt Kỹ."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi người trang bị hoặc Linh Hồn Ký Ức của người trang bị mất HP trong hiệp của mình, người trang bị sẽ nhận Hoa Âm Ty. Hoa Âm Ty khiến người trang bị và Linh Hồn Ký Ức của họ khi gây sát thương có thể bỏ qua {{value}}% phòng thủ của mục tiêu, duy trì 2 hiệp.\nKhi Linh Hồn Ký Ức của người trang bị biến mất, người trang bị sẽ ưu tiên hành động {{value}}%. Hiệu ứng này chỉ kích hoạt tối đa 1 lần, và sẽ được làm mới số lần mỗi khi người trang bị thi triển Tuyệt Kỹ.",
+            "cht": "使裝備者的生命上限提高{{value}}%，裝備者或裝備者的憶靈在自身回合內損失生命值時，裝備者獲得【冥花】，【冥花】可以使裝備者和裝備者的憶靈造成傷害時，無視目標{{value}}%的防禦力，持續2回合。\n當裝備者的憶靈消失時，使裝備者行動提前{{value}}%。 該效果最多觸發1次，裝備者每次施放終結技時重置觸發次數。"
         },
         "s1": [
             30,
@@ -188,7 +192,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. After the wearer uses Skill, increases the DMG dealt by all allies by {{value}}%, lasting for 3 turn(s).",
             "ru": "Скорость владельца повышается на {{value}}%. После того как владелец использует навык, наносимый всеми союзниками урон повышается на {{value}}% на 3 хода.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Chiến Kỹ, khiến sát thương toàn bộ phe ta gây ra tăng {{value}}%, duy trì 3 hiệp."
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển Chiến Kỹ, khiến sát thương toàn bộ phe ta gây ra tăng {{value}}%, duy trì 3 hiệp.",
+            "cht": "使裝備者的速度提高{{value}}%。裝備者施放戰技後，使我方全體造成的傷害提高{{value}}%，持續3回合。"
         },
         "s1": [
             "6.0",
@@ -229,7 +234,8 @@
         "passive": {
             "en": "When memosprite's turn starts, the wearer and memosprite each gain 1 stack of \"Commemoration.\" Each stack increases DMG dealt by {{value}}%, stacking up to 4 time(s). When memosprite disappears, removes \"Commemoration\" from the wearer and memosprite.",
             "ru": "В начале хода духа памяти владелец и дух памяти получают по 1 ур. статуса Почитание памяти. Каждый уровень этого статуса повышает наносимый урон на {{value}}%, складывается до 4 раз. Когда дух памяти исчезает, статус Почитание памяти снимается с владельца и духа памяти.",
-            "vn": "Khi bắt đầu hiệp của Linh Hồn Ký Ức, khiến người trang bị và Linh Hồn Ký Ức lần lượt nhận 1 tầng Tưởng Nhớ. Mỗi tầng khiến Sát Thương gây ra tăng {{value}}%, tối đa cộng dồn 4 tầng. Khi Linh Hồn Ký Ức biến mất, sẽ xóa Tưởng Nhớ của người trang bị và Linh Hồn Ký Ức."
+            "vn": "Khi bắt đầu hiệp của Linh Hồn Ký Ức, khiến người trang bị và Linh Hồn Ký Ức lần lượt nhận 1 tầng Tưởng Nhớ. Mỗi tầng khiến Sát Thương gây ra tăng {{value}}%, tối đa cộng dồn 4 tầng. Khi Linh Hồn Ký Ức biến mất, sẽ xóa Tưởng Nhớ của người trang bị và Linh Hồn Ký Ức.",
+            "cht": "憶靈的回合開始時，使裝備者和憶靈分別獲得1層【緬懷】，每層使造成的傷害提高{{value}}%，最多疊加4層。憶靈消失時移除裝備者和憶靈的【緬懷】。"
         },
         "s1": [
             8
@@ -264,7 +270,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by {{value}}% and grants the wearer \"New Melody,\" lasting for 2 turn(s). While the wearer holds \"New Melody,\" all allies' SPD increases by {{value}}%.",
             "ru": "Повышает макс. НР владельца на {{value}}%. После использования владельцем сверхспособности восстанавливает союзникам 1 очко навыков. В начале боя продвигает действие владельца вперёд на {{value}}% и накладывает на владельца статус Новая мелодия на 2 хода. Пока владелец обладает статусом Новая мелодия, скорость всех союзников повышается на {{value}}%.",
-            "vn": "Tăng {{value}}% Giới Hạn HP của người trang bị, sau khi người trang bị thi triển Tuyệt Kỹ, hồi 1 Điểm Chiến Kỹ cho phe ta. Khi vào chiến đấu, khiến hành động của người trang bị ưu tiên {{value}}%, đồng thời khiến người trang bị nhận \"Âm Thanh Mới\", duy trì 2 hiệp. Khi người trang bị có \"Âm Thanh Mới\", Tốc Độ của toàn phe ta tăng {{value}}%."
+            "vn": "Tăng {{value}}% Giới Hạn HP của người trang bị, sau khi người trang bị thi triển Tuyệt Kỹ, hồi 1 Điểm Chiến Kỹ cho phe ta. Khi vào chiến đấu, khiến hành động của người trang bị ưu tiên {{value}}%, đồng thời khiến người trang bị nhận \"Âm Thanh Mới\", duy trì 2 hiệp. Khi người trang bị có \"Âm Thanh Mới\", Tốc Độ của toàn phe ta tăng {{value}}%.",
+            "cht": "使裝備者的生命上限提高{{value}}%，裝備者施放終結技後，為我方恢復1點戰技點。進入戰鬥時，使裝備者的行動提前{{value}}%，並使裝備者獲得【新聲】，持續2回合。裝備者持有【新聲】時，我方全體速度提高{{value}}%。"
         },
         "s1": [
             30,
@@ -310,7 +317,8 @@
         "passive": {
             "en": "When the wearer summons memosprite for the first time, recovers 1 Skill Point(s) and regenerates {{value}} Energy for this unit.",
             "ru": "Когда владелец призывает духа памяти в первый раз, он восстанавливает 1 очко навыков и {{value}} ед. своей энергии.",
-            "vn": "Khi người trang bị lần đầu triệu hồi Linh Hồn Ký Ức, hồi 1 Điểm Chiến Kỹ, và hồi {{value}} điểm Năng Lượng cho bản thân."
+            "vn": "Khi người trang bị lần đầu triệu hồi Linh Hồn Ký Ức, hồi 1 Điểm Chiến Kỹ, và hồi {{value}} điểm Năng Lượng cho bản thân.",
+            "cht": "裝備者首次召喚憶靈時，恢復1點戰技點，並恢復自身{{value}}點能量。"
         },
         "s1": [
             12
@@ -345,7 +353,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer's memosprite is on the field, increases the DMG dealt by the wearer and their memosprite by {{value}}%.",
             "ru": "Крит. шанс владельца повышается на {{value}}%. Если дух памяти владельца находится на поле боя, наносимый ими урон повышается на {{value}}%.",
-            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị trong trận, Sát Thương người trang bị và Linh Hồn Ký Ức gây ra tăng {{value}}%."
+            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị trong trận, Sát Thương người trang bị và Linh Hồn Ký Ức gây ra tăng {{value}}%.",
+            "cht": "使裝備者的暴擊率提高{{value}}%，裝備者的憶靈在場上時，裝備者與憶靈造成的傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -385,7 +394,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. The CRIT DMG dealt by the wearer's Memosprite increases by {{value}}%.",
             "ru": "Повышает крит. урон владельца на {{value}}%. Наносимый духом памяти владельца крит. урон дополнительно повышается на {{value}}%.",
-            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Sát Thương Bạo Kích do Linh Hồn Ký Ức của người trang bị gây ra tăng thêm {{value}}%."
+            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng {{value}}%. Sát Thương Bạo Kích do Linh Hồn Ký Ức của người trang bị gây ra tăng thêm {{value}}%.",
+            "cht": "使裝備者的暴擊傷害提高{{value}}%。裝備者憶靈造成的暴擊傷害額外提高{{value}}%。"
         },
         "s1": [
             24,
@@ -425,7 +435,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by {{value}}%, lasting for 1 turn(s).",
             "ru": "Макс. НР владельца повышается на {{value}}%. После того как дух памяти владельца атакует, исходящее исцеление владельца и его духа памяти повышается на {{value}}% на 1 ход.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Sau khi Linh Hồn Ký Ức của người trang bị tấn công, sẽ khiến Lượng Trị Liệu của người trang bị và Linh Hồn Ký Ức tăng {{value}}%, duy trì 1 hiệp."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Sau khi Linh Hồn Ký Ức của người trang bị tấn công, sẽ khiến Lượng Trị Liệu của người trang bị và Linh Hồn Ký Ức tăng {{value}}%, duy trì 1 hiệp.",
+            "cht": "使裝備者的生命上限提高{{value}}%。裝備者的憶靈攻擊後，使裝備者與憶靈的治療量提高{{value}}%，持續1回合。"
         },
         "s1": [
             16,
@@ -465,7 +476,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. When the wearer's memosprite uses a Memosprite Skill on an ally, gains \"Blank,\" which increases DMG taken by all enemies by {{value}}%. When the wearer's memosprite uses a Memosprite Skill on an enemy, gains \"Verse,\" which increases CRIT DMG of all allies by {{value}}%. When the wearer's memosprite has both \"Blank\" and \"Verse,\" increases the effects of \"Blank\" and \"Verse\" by {{value}}%.",
             "ru": "Скорость владельца повышается на {{value}}%. Когда дух памяти владельца использует свой навык на союзнике, владелец получает статус Чистый лист, который повышает получаемый всеми противниками урон на {{value}}%. Когда дух памяти владельца использует свой навык на противнике, владелец получает статус Строфа, который повышает крит. урон всех союзников на {{value}}%. Когда дух памяти одновременно имеет статусы Чистый лист и Строфа, эффекты этих статусов повышаются на {{value}}%.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức lên 1 đồng đội, sẽ nhận được \"Khoảng Trống\": Sát thương toàn bộ phe địch phải chịu tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức lên phe địch, sẽ nhận được \"Dòng Thơ\": Sát Thương Bạo Kích của toàn bộ phe ta tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị đồng thời có \"Khoảng Trống\" và \"Dòng Thơ\", hiệu ứng của \"Khoảng Trống\" và \"Dòng Thơ\" tăng {{value}}%."
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức lên 1 đồng đội, sẽ nhận được \"Khoảng Trống\": Sát thương toàn bộ phe địch phải chịu tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển Kỹ Năng Linh Hồn Ký Ức lên phe địch, sẽ nhận được \"Dòng Thơ\": Sát Thương Bạo Kích của toàn bộ phe ta tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị đồng thời có \"Khoảng Trống\" và \"Dòng Thơ\", hiệu ứng của \"Khoảng Trống\" và \"Dòng Thơ\" tăng {{value}}%.",
+            "cht": "使裝備者的速度提高{{value}}%。裝備者的憶靈對我方單體施放憶靈技時獲得【空白】：敵方全體受到的傷害提高{{value}}%。裝備者的憶靈對敵方施放憶靈技時獲得【詩行】：我方全體的爆擊傷害提高{{value}}%。裝備者的憶靈同時持有【空白】和【詩行】時，【空白】和【詩行】的效果提高{{value}}%。"
         },
         "s1": [
             18,
@@ -515,7 +527,8 @@
         "passive": {
             "en": "Increases the wearer's base SPD by {{value}}. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer's and their memosprite's CRIT DMG by {{value}}%, stacking up to 6 time(s). When reaching maximum stacks, each \"Brocade\" stack additionally increases Basic ATK DMG dealt by {{value}}%.",
             "ru": "Базовая скорость владельца повышается на {{value}}. После атаки владельца и его духа памяти владелец получает 1 ур. статуса Парча. Каждый уровень этого статуса повышает крит. урон владельца и его духа памяти на {{value}}%, может складываться до 6 раз. Когда статус Парча достигает макс. уровня, каждый его уровень дополнительно повышает наносимый базовой атакой урон на {{value}}%.",
-            "vn": "Tốc Độ Cơ Bản của người trang bị tăng {{value}}, người trang bị và Linh Hồn Ký Ức của người trang bị sau khi tấn công sẽ khiến người trang bị nhận 1 tầng Dệt Gấm, mỗi tầng Dệt Gấm khiến sát thương bạo kích của người trang bị và Linh Hồn Ký Ức của người trang bị tăng {{value}}%, tối đa cộng dồn 6 tầng. Khi cộng dồn đến tối đa, mỗi tầng Dệt Gấm sẽ khiến Sát Thương Tấn Công Thường gây ra tăng thêm {{value}}%."
+            "vn": "Tốc Độ Cơ Bản của người trang bị tăng {{value}}, người trang bị và Linh Hồn Ký Ức của người trang bị sau khi tấn công sẽ khiến người trang bị nhận 1 tầng Dệt Gấm, mỗi tầng Dệt Gấm khiến sát thương bạo kích của người trang bị và Linh Hồn Ký Ức của người trang bị tăng {{value}}%, tối đa cộng dồn 6 tầng. Khi cộng dồn đến tối đa, mỗi tầng Dệt Gấm sẽ khiến Sát Thương Tấn Công Thường gây ra tăng thêm {{value}}%.",
+            "cht": "使裝備者的基礎速度提高{{value}}，裝備者和裝備者的憶靈在攻擊後使裝備者獲得1層【織錦】，每層【織錦】使裝備者和裝備者的憶靈暴擊傷害提高{{value}}%，最多疊加6層。疊加至上限時，每層【織錦】額外使造成的普通攻擊傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -560,7 +573,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. When the wearer's memosprite uses an ability, the wearer gains \"Noctis.\" While the wearer has \"Noctis,\" all allies' memosprites ignore {{value}}% of the target's DEF when dealing DMG. Increases the DMG dealt by the wearer and their memosprite by {{value}}%. When the wearer's memosprite disappears, the wearer recovers {{value}} Energy. Similar effects cannot stack.",
             "ru": "Макс. НР владельца повышается на {{value}}%. Когда дух памяти владельца использует умение, владелец получает статус Цвет ночи. Пока владелец имеет этот статус, наносимый духами памяти отряда урон игнорирует {{value}}% защиты цели, а также наносимый владельцем и его духом памяти урон повышается на {{value}}%. Исчезновение духа памяти владельца восстанавливает {{value}} ед. энергии владельца. Эффекты подобного типа не могут складываться.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển kỹ năng, người trang bị sẽ nhận \"Màn Đêm\". Khi người trang bị có \"Màn Đêm\", sát thương toàn bộ Linh Hồn Ký Ức phe ta gây ra sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu, sát thương người trang bị và Linh Hồn Ký Ức của người trang bị gây ra tăng {{value}}%, khi Linh Hồn Ký Ức của người trang bị biến mất sẽ hồi {{value}} điểm Năng Lượng cho người trang bị, hiệu ứng cùng loại không thể cộng dồn."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%. Khi Linh Hồn Ký Ức của người trang bị thi triển kỹ năng, người trang bị sẽ nhận \"Màn Đêm\". Khi người trang bị có \"Màn Đêm\", sát thương toàn bộ Linh Hồn Ký Ức phe ta gây ra sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu, sát thương người trang bị và Linh Hồn Ký Ức của người trang bị gây ra tăng {{value}}%, khi Linh Hồn Ký Ức của người trang bị biến mất sẽ hồi {{value}} điểm Năng Lượng cho người trang bị, hiệu ứng cùng loại không thể cộng dồn.",
+            "cht": "使裝備者的生命上限提高{{value}}%。裝備者的憶靈施放技能時，使裝備者獲得【夜色】。裝備者持有【夜色】時，我方全體憶靈造成的傷害無視目標{{value}}%的防禦力，裝備者和裝備者憶靈造成的傷害提高{{value}}%，裝備者的憶靈消失時為裝備者恢復{{value}}點能量，同類效果無法疊加。"
         },
         "s1": [
             30,
@@ -611,7 +625,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. When the wearer's memosprite uses an ability on an ally target, increases the DMG dealt by all ally targets by {{value}}%, lasting for 3 turn(s).",
             "ru": "Крит. урон владельца повышается на {{value}}%. Когда дух памяти владельца использует умение на союзнике, наносимый всеми союзниками урон повышается на {{value}}% на 3 хода.",
-            "vn": "Tăng {{value}}% Sát Thương Bạo Kích cho người trang bị. Khi Linh Hồn Ký Ức của người trang bị thi triển kỹ năng với mục tiêu phe ta, sẽ khiến Sát Thương toàn bộ mục tiêu phe ta gây ra tăng {{value}}%, duy trì 3 hiệp."
+            "vn": "Tăng {{value}}% Sát Thương Bạo Kích cho người trang bị. Khi Linh Hồn Ký Ức của người trang bị thi triển kỹ năng với mục tiêu phe ta, sẽ khiến Sát Thương toàn bộ mục tiêu phe ta gây ra tăng {{value}}%, duy trì 3 hiệp.",
+            "cht": "使裝備者的暴擊傷害提高{{value}}%，當裝備者的憶靈對我方目標施放技能時，使我方全體目標造成的傷害提高{{value}}%，持續3回合。"
         },
         "s1": [
             12,
