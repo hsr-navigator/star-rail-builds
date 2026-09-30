@@ -7,7 +7,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. If the wearer's current HP is lower than 50%, increases their DEF by a further {{value}}%.",
             "ru": "Защита владельца повышается на {{value}}%. Если текущее значение HP владельца ниже 50%, то его защита повышается на доп. {{value}}%.",
-            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Khi Phần Trăm HP hiện tại của người trang bị nhỏ hơn 50%, Phòng Thủ của người đó sẽ tăng thêm {{value}}%."
+            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Khi Phần Trăm HP hiện tại của người trang bị nhỏ hơn 50%, Phòng Thủ của người đó sẽ tăng thêm {{value}}%.",
+            "cht": "使裝備者的防禦力提高{{value}}%。當裝備者目前生命值低於自身生命上限的50%時，其防禦力額外提高{{value}}%。"
         },
         "s1": [
             16,
@@ -47,7 +48,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by {{value}}%.",
             "ru": "Защита владельца повышается на {{value}}%. За каждого имеющегося на поле боя персонажа с щитом наносимый владельцем урон повышается на {{value}}%.",
-            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị. Mỗi khi trên trận có 1 nhân vật sở hữu Khiên, sát thương do người trang bị gây ra tăng {{value}}%."
+            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị. Mỗi khi trên trận có 1 nhân vật sở hữu Khiên, sát thương do người trang bị gây ra tăng {{value}}%.",
+            "cht": "使裝備者的防禦力提高{{value}}%。場上每有一名持有護盾的角色，裝備者造成的傷害便提高{{value}}%。"
         },
         "s1": [
             16,
@@ -87,7 +89,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. After entering battle, increases All-Type RES of all allies by {{value}}%. Abilities of the same type cannot stack.",
             "ru": "Защита владельца повышается на {{value}}%. В начале боя все типы сопротивления всех союзников повышаются на {{value}}%. Этот эффект не может складываться с эффектами подобного типа.",
-            "vn": "Phòng Thủ của người trang bị tăng {{value}}%. Sau khi vào chiến đấu, Kháng Toàn Thuộc Tính của toàn bộ phe ta tăng {{value}}%. Hiệu ứng cùng loại sẽ không thể cộng dồn."
+            "vn": "Phòng Thủ của người trang bị tăng {{value}}%. Sau khi vào chiến đấu, Kháng Toàn Thuộc Tính của toàn bộ phe ta tăng {{value}}%. Hiệu ứng cùng loại sẽ không thể cộng dồn.",
+            "cht": "使裝備者的防禦力提高{{value}}%。進入戰鬥後，使我方全體的傷害抗性提高{{value}}%。同類技能無法重複生效。"
         },
         "s1": [
             16,
@@ -128,7 +131,8 @@
         "passive": {
             "en": "When the wearer unleashes their Ultimate, they restore HP by {{value}}% of their Max HP.",
             "ru": "Когда владелец использует сверхспособность, он восстанавливает {{value}}% HP.",
-            "vn": "Khi người trang bị thi triển Tuyệt Kỹ, sẽ hồi HP tương đương {{value}}% Giới Hạn HP của bản thân."
+            "vn": "Khi người trang bị thi triển Tuyệt Kỹ, sẽ hồi HP tương đương {{value}}% Giới Hạn HP của bản thân.",
+            "cht": "使裝備者施放終結技時，回復等同於自身生命上限{{value}}%的生命值。"
         },
         "s1": [
             18
@@ -164,7 +168,8 @@
         "passive": {
             "en": "Increases the wearer's Effect RES by {{value}}%. For every 100 of DEF the wearer has, increases the wearer's DMG dealt by {{value}}%, up to a maximum DMG increase of {{value}}%.",
             "ru": "Сопротивление эффектам владельца повышается на {{value}}%. Каждые 100 ед. защиты владельца повышают наносимый им урон на {{value}}% до макс. {{value}}%.",
-            "vn": "Tăng {{value}}% Kháng Hiệu Ứng của người trang bị. Mỗi khi người trang bị có 100 điểm Phòng Thủ, thì sát thương gây ra tăng {{value}}%, tối đa tăng {{value}}% sát thương gây ra."
+            "vn": "Tăng {{value}}% Kháng Hiệu Ứng của người trang bị. Mỗi khi người trang bị có 100 điểm Phòng Thủ, thì sát thương gây ra tăng {{value}}%, tối đa tăng {{value}}% sát thương gây ra.",
+            "cht": "使裝備者的效果抗性提高{{value}}%。裝備者每有100點防禦力，便使裝備者造成的傷害提高{{value}}%，最多使造成的傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -209,7 +214,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by {{value}}%, lasting for 2 turn(s). When the wearer's Follow-Up ATK hits an enemy target, there is a {{value}}% base chance to increase the DMG taken by the attacked enemy target by {{value}}%, lasting for 2 turn(s).",
             "ru": "Защита владельца повышается на {{value}}%. Когда владелец накладывает щит на союзника, крит. урон владельца повышается на {{value}}% на 2 хода. Когда владелец поражает противника бонус-атакой, он имеет базовый шанс {{value}}% повысить получаемый атакованным противником урон на {{value}}% на 2 хода.",
-            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị, khi người trang bị cung cấp khiên cho phe ta, Sát Thương Bạo Kích của người trang bị sẽ tăng {{value}}%, duy trì 2 hiệp. Khi người trang bị phát động Đòn Đánh Theo Sau tấn công kẻ địch, có {{value}}% xác suất cơ bản khiến sát thương phải chịu của kẻ địch bị tấn công tăng 10.{{value}}%, duy trì 2 hiệp."
+            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị, khi người trang bị cung cấp khiên cho phe ta, Sát Thương Bạo Kích của người trang bị sẽ tăng {{value}}%, duy trì 2 hiệp. Khi người trang bị phát động Đòn Đánh Theo Sau tấn công kẻ địch, có {{value}}% xác suất cơ bản khiến sát thương phải chịu của kẻ địch bị tấn công tăng 10.{{value}}%, duy trì 2 hiệp.",
+            "cht": "使裝備者的防禦力提高{{value}}%。當裝備者為我方目標提供護盾時，使裝備者的暴擊傷害提高{{value}}%，持續2回合。當裝備者發動追加攻擊命中敵方目標時，有{{value}}%的基礎機率使受到攻擊的敵方目標受到的傷害提高{{value}}%，持續2回合。"
         },
         "s1": [
             40,
@@ -258,7 +264,8 @@
         "passive": {
             "en": "Increases the wearer's provided Shield Effect by {{value}}%. While an ally target has a Shield, their DMG dealt increases by {{value}}%.",
             "ru": "Значение наложенного владельцем щита повышается на {{value}}%. Пока союзник имеет щит, наносимый этим союзником урон повышается на {{value}}%.",
-            "vn": "Khiến lượng Khiên mà người trang bị cung cấp tăng {{value}}%, khi mục tiêu phe ta có Khiên, sát thương gây ra tăng {{value}}%."
+            "vn": "Khiến lượng Khiên mà người trang bị cung cấp tăng {{value}}%, khi mục tiêu phe ta có Khiên, sát thương gây ra tăng {{value}}%.",
+            "cht": "使裝備者提供的護盾量提高{{value}}%，我方目標持有護盾時，發動的傷害提高{{value}}%。"
         },
         "s1": [
             12,
@@ -298,7 +305,8 @@
         "passive": {
             "en": "The wearer is more likely to be attacked, and DMG taken is reduced by {{value}}%.",
             "ru": "Шанс владельца быть атакованным противником повышается. Получаемый владельцем урон понижается на {{value}}%.",
-            "vn": "Tăng xác suất bị tấn công của người trang bị, đồng thời sát thương phải chịu sẽ giảm {{value}}%."
+            "vn": "Tăng xác suất bị tấn công của người trang bị, đồng thời sát thương phải chịu sẽ giảm {{value}}%.",
+            "cht": "使裝備者受到攻擊的機率提高，同時傷害承受降低{{value}}%。"
         },
         "s1": [
             16
@@ -333,7 +341,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}% and Effect Hit Rate by {{value}}%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra {{value}}% until the end of the wearer's turn.",
             "ru": "Защита владельца повышается на {{value}}%, а его шанс попадания эффектов - на {{value}}%. Шанс быть атакованным противником также повышается. Когда противник атакует владельца, защита владельца повышается на доп. {{value}}% до конца его хода.",
-            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị, tăng {{value}}% Chính Xác Hiệu Ứng, đồng thời cũng tăng xác suất bản thân bị tấn công. Sau khi người trang bị bị tấn công, Phòng Thủ sẽ tăng thêm {{value}}%, duy trì đến khi kết thúc hiệp của mình."
+            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị, tăng {{value}}% Chính Xác Hiệu Ứng, đồng thời cũng tăng xác suất bản thân bị tấn công. Sau khi người trang bị bị tấn công, Phòng Thủ sẽ tăng thêm {{value}}%, duy trì đến khi kết thúc hiệp của mình.",
+            "cht": "使裝備者的防禦力提高{{value}}%，效果命中提高{{value}}%，同時使自身受到攻擊的機率提高。當裝備者受到攻擊後，防禦力額外提高{{value}}%，持續到自身回合結束。"
         },
         "s1": [
             24,
@@ -379,7 +388,8 @@
         "passive": {
             "en": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by {{value}}% of their Max HP.",
             "ru": "Когда владелец пробивает уязвимость противника, он восстанавливает {{value}}% HP.",
-            "vn": "Khi người trang bị phá vỡ điểm yếu của địch, sẽ hồi HP tương đương {{value}}% Giới Hạn HP của bản thân."
+            "vn": "Khi người trang bị phá vỡ điểm yếu của địch, sẽ hồi HP tương đương {{value}}% Giới Hạn HP của bản thân.",
+            "cht": "當裝備者擊破敵方目標的弱點時，回復等同於自身生命上限{{value}}%的生命值。"
         },
         "s1": [
             12
@@ -414,7 +424,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}% and Energy Regeneration Rate by {{value}}%. When the wearer's HP is reduced, all allies' DMG dealt increases by {{value}}%, lasting for 2 turn(s).\nAt the start of every wave, restores HP to all allies by an amount equal to {{value}}% of their respective lost HP.",
             "ru": "Макс. HP владельца повышается на {{value}}%, а его скорость восстановления энергии - на {{value}}%. Когда HP владельца понижается, наносимый всеми союзниками урон повышается на {{value}}% на 2 хода.\nВ начале каждой волны восстанавливает всем союзникам HP, равное {{value}}% от потерянного HP соответствующего персонажа.",
-            "vn": "Tăng {{value}}% Giới Hạn HP của người trang bị, hiệu suất hồi phục Năng Lượng tăng {{value}}%. Khi HP của người trang bị xuống thấp, khiến toàn thể phe ta tăng {{value}}% sát thương gây ra, duy trì 2 hiệp.\nKhi bắt đầu mỗi đợt, sẽ hồi HP cho toàn phe ta bằng {{value}}% lượng HP mỗi nhân vật đã mất."
+            "vn": "Tăng {{value}}% Giới Hạn HP của người trang bị, hiệu suất hồi phục Năng Lượng tăng {{value}}%. Khi HP của người trang bị xuống thấp, khiến toàn thể phe ta tăng {{value}}% sát thương gây ra, duy trì 2 hiệp.\nKhi bắt đầu mỗi đợt, sẽ hồi HP cho toàn phe ta bằng {{value}}% lượng HP mỗi nhân vật đã mất.",
+            "cht": "使裝備者的生命上限提高{{value}}%，能量恢復效率提高{{value}}%。 當裝備者的生命值降低時，使我方全體造成的傷害提高{{value}}%，持續2回合。\n每個波次開始時，為我方全體回覆等同於各自已損失生命值{{value}}%的生命值。"
         },
         "s1": [
             24,
@@ -465,7 +476,8 @@
         "passive": {
             "en": "Increases the wearer's Effect RES by {{value}}%. If the wearer is attacked and has no Shield, they gain a Shield equal to {{value}}% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by {{value}}%.",
             "ru": "Сопротивление эффектам владельца повышается на {{value}}%. Если владелец атакован и у него нет Щита, то он получает Щит, равный {{value}}% от его макс. HP, на 2 хода. Этот эффект может сработать только один раз каждые 3 хода. Если при атаке у владельца есть Щит, то получаемый им урон понижается на {{value}}%.",
-            "vn": "Khiến Kháng Hiệu Ứng của người trang bị tăng {{value}}%, sau khi người trang bị bị tấn công, nếu bản thân chưa có khiên, sẽ nhận 1 khiên bằng {{value}}% Giới Hạn HP của người trang bị, duy trì 2 hiệp. Hiệu ứng này mỗi 3 hiệp chỉ có thể kích hoạt 1 lần. Nếu người trang bị đã có khiên, sẽ khiến sát thương phải chịu của bản thân giảm {{value}}%."
+            "vn": "Khiến Kháng Hiệu Ứng của người trang bị tăng {{value}}%, sau khi người trang bị bị tấn công, nếu bản thân chưa có khiên, sẽ nhận 1 khiên bằng {{value}}% Giới Hạn HP của người trang bị, duy trì 2 hiệp. Hiệu ứng này mỗi 3 hiệp chỉ có thể kích hoạt 1 lần. Nếu người trang bị đã có khiên, sẽ khiến sát thương phải chịu của bản thân giảm {{value}}%.",
+            "cht": "使裝備者的效果抗性提高{{value}}%。當裝備者受到攻擊後，如果自身未持有護盾，則獲得1個等同於裝備者{{value}}%生命上限的護盾，持續2回合。該效果每3回合只能觸發1次。如果裝備者持有護盾，則使自身的傷害承受降低{{value}}%。"
         },
         "s1": [
             8,
@@ -510,7 +522,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. Increases the DMG of the wearer when they use their Ultimate by {{value}}% of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.",
             "ru": "Защита владельца повышается на {{value}}%. Наносимый сверхспособностью владельца урон повышается на {{value}}% от его защиты. Этот эффект применяется только 1 раз к каждому противнику.",
-            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Tăng sát thương gây ra khi người trang bị thi triển Tuyệt Kỹ, mức tăng tương đương {{value}}% Phòng Thủ của người trang bị. Mỗi lần dùng Tuyệt Kỹ, hiệu ứng này chỉ có hiệu lực 1 lần cho mỗi kẻ địch."
+            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Tăng sát thương gây ra khi người trang bị thi triển Tuyệt Kỹ, mức tăng tương đương {{value}}% Phòng Thủ của người trang bị. Mỗi lần dùng Tuyệt Kỹ, hiệu ứng này chỉ có hiệu lực 1 lần cho mỗi kẻ địch.",
+            "cht": "使裝備者防禦力提高{{value}}%。使裝備者施放終結技時造成的傷害提高，提高數值等同於裝備者防禦力的{{value}}%。該效果對每個敵方目標僅生效1次。"
         },
         "s1": [
             16,
@@ -550,7 +563,8 @@
         "passive": {
             "en": "Increases the wearer's ATK by {{value}}%. When the wearer uses Ultimate, restores HP equal to {{value}}% of the wearer's ATK for all allies, and additionally restores HP equal to {{value}}% of the wearer's ATK for the character with the lowest current HP, and grants \"Redoubt\" to all allies for 3 turn(s). Targets with \"Redoubt\" deal {{value}}% increased DMG, which further increases by {{value}}% if the targets have summons.",
             "ru": "Сила атаки владельца повышается на {{value}}%. Когда владелец использует сверхспособность, он восстанавливает всем союзникам НР, равное {{value}}% от своей силы атаки, а также восстанавливает НР, равное {{value}}% от своей силы атаки, персонажу с наименьшим текущим НР и накладывает на всех союзников статус Дозор на 3 хода. Наносимый целью со статусом Дозор урон повышается на {{value}}%. Если эта цель имеет призванное существо, то наносимый ею урон дополнительно повышается на {{value}}%.",
-            "vn": "Khiến tấn công của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ hồi phục HP tương đương với {{value}}% Tấn Công của người trang bị cho toàn bộ phe ta, hồi thêm HP tương đương với {{value}}% Tấn Công của người trang bị cho nhân vật có HP thấp nhất hiện tại, đồng thời khiến toàn bộ phe ta nhận được \"Cảnh Vệ\", \"Cảnh Vệ\" duy trì 3 hiệp. Sát thương của mục tiêu nhận được \"Cảnh Vệ\" gây ra tăng {{value}}%, nếu mục tiêu có Vật Triệu Hồi thì sát thương gây ra tăng thêm {{value}}%."
+            "vn": "Khiến tấn công của người trang bị tăng {{value}}%. Khi người trang bị thi triển Tuyệt Kỹ, sẽ hồi phục HP tương đương với {{value}}% Tấn Công của người trang bị cho toàn bộ phe ta, hồi thêm HP tương đương với {{value}}% Tấn Công của người trang bị cho nhân vật có HP thấp nhất hiện tại, đồng thời khiến toàn bộ phe ta nhận được \"Cảnh Vệ\", \"Cảnh Vệ\" duy trì 3 hiệp. Sát thương của mục tiêu nhận được \"Cảnh Vệ\" gây ra tăng {{value}}%, nếu mục tiêu có Vật Triệu Hồi thì sát thương gây ra tăng thêm {{value}}%.",
+            "cht": "使裝備者的攻擊力提高{{value}}%。裝備者施放終結技時，為我方全體回復等同於裝備者攻擊力{{value}}%的生命值，額外為現有生命值最低的角色回復等同於裝備者攻擊力{{value}}%的生命值，並使我方全體獲得【衛戍】，【衛成】持續3回合。獲得【衛戍】的目標，造成的傷害提高{{value}}%，若目標擁有召喚物則造成的傷害額外提高{{value}}%。"
         },
         "s1": [
             64,
@@ -605,7 +619,8 @@
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. When the wearer is attacked, there is a {{value}}% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to {{value}}% of the wearer's DEF for 2 turn(s).",
             "ru": "Защита владельца повышается на {{value}}%. Когда противник атакует владельца, владелец имеет базовый шанс {{value}}% наложить на этого противника статус Горение. Противник со статусом Горение получает периодический урон, равный {{value}}% от защиты владельца, каждый ход в течение 2 ходов.",
-            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Sau khi người trang bị chịu tấn công sẽ có {{value}}% xác suất cơ bản khiến kẻ địch rơi vào trạng thái Thiêu Đốt, mỗi hiệp gây sát thương liên tục bằng {{value}}% Phòng Thủ của người trang bị, duy trì 2 hiệp."
+            "vn": "Khiến Phòng Thủ của người trang bị tăng {{value}}%. Sau khi người trang bị chịu tấn công sẽ có {{value}}% xác suất cơ bản khiến kẻ địch rơi vào trạng thái Thiêu Đốt, mỗi hiệp gây sát thương liên tục bằng {{value}}% Phòng Thủ của người trang bị, duy trì 2 hiệp.",
+            "cht": "使裝備者的防禦力提高{{value}}%。當裝備者受到攻擊後，有{{value}}%的基礎概率使敵方目標陷入灼燒狀態，每回合造成等同於裝備者{{value}}%%防禦力的持續傷害，持續2回合。"
         },
         "s1": [
             16,
@@ -651,7 +666,8 @@
         "passive": {
             "en": "At the start of the battle, the DMG dealt to all allies decreases by {{value}}% for 5 turn(s). At the same time, immediately restores HP to all allies equal to {{value}}% of the respective HP difference between the characters' Max HP and current HP.",
             "ru": "В начале боя урон, получаемый всеми союзниками, понижается на {{value}}% на 5 ходов. НР всех союзников восстанавливается на {{value}}% от разницы между их макс. НР и текущим НР.",
-            "vn": ""
+            "vn": "",
+            "cht": "戰鬥開始時，使我方全體受到的傷害降低{{value}}%，持續5回合。同時立即為我方全體回復等同於各自已損失生命值30%/35%/40%/45%/50%的生命值。"
         },
         "s1": [
             8,
