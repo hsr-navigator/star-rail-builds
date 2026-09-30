@@ -197,15 +197,15 @@
   },
   "major_traces": {
     "2": {
-      "name": "Deathrealm/Enhanced",
+      "name": "Deathrealm",
       "description": "While in the \"Spectral Transmigration\" state, Effect RES increases by 35%, and Ultimate DMG dealt increases by 20%."
     },
     "4": {
-      "name": "Sword Champion/Enhanced",
+      "name": "Sword Champion",
       "description": "After using \"Transcendent Flash,\" regenerate an additional 15 Energy, and after using \"Moon On Glacial River,\" regenerate an additional 8 Energy."
     },
     "6": {
-      "name": "Frost Wraith/Enhanced",
+      "name": "Frost Wraith",
       "description": "Upon obtaining \"Syzygy,\" if its stack limit has been reached, Jingliu's next attack ignores 25% of the target's DEF."
     }
   },
