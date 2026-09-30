@@ -1,0 +1,352 @@
+{
+    "id": "pearl",
+    "name": "Pearl",
+    "rarity": 5,
+    "type": "ice",
+    "path": "elation",
+    "version_released": "4.6",
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Brushstroke: Trace the Severed Dream",
+            "tag": "Single Target",
+            "break": "10",
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to one designated enemy.",
+            "scaling": {
+                "ice_dmg": [
+                    45,
+                    54,
+                    63,
+                    72,
+                    81,
+                    90,
+                    99
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Enhanced Basic ATK",
+                    "name": "Brushstroke: Imagenate the Starry Night",
+                    "tag": "Aoe",
+                    "break": "30",
+                    "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies, restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}. While holding \"Certified Banger\", additionally deals {{ice_elation_dmg}}% Ice Elation DMG.",
+                    "scaling": {
+                        "ice_dmg": [
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100,
+                            110
+                        ],
+                        "def_healing": [
+                            4.0,
+                            4.8,
+                            5.6,
+                            6.4,
+                            7.2,
+                            8.0,
+                            8.8
+                        ],
+                        "flat_healing": [
+                            80,
+                            96,
+                            112,
+                            128,
+                            144,
+                            160,
+                            176
+                        ],
+                        "ice_elation_dmg": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16.25
+                        ]
+                    }
+                },
+                {
+                    "type": "Enhanced Basic ATK",
+                    "name": "Brushstroke: Render the Great Wave",
+                    "tag": "Aoe",
+                    "break": "30",
+                    "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies. Restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
+                    "scaling": {
+                        "ice_dmg": [
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100,
+                            110
+                        ],
+                        "def_healing": [
+                            4.0,
+                            4.8,
+                            5.6,
+                            6.4,
+                            7.2,
+                            8.0,
+                            8.8
+                        ],
+                        "flat_healing": [
+                            80,
+                            96,
+                            112,
+                            128,
+                            144,
+                            160,
+                            176
+                        ]
+                    }
+                }
+            ]
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Relume Life's Light",
+            "tag": "Defense",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gains 15 point(s) of \"Certified Banger,\" restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
+            "scaling": {
+                "def_healing": [
+                    6.0,
+                    6.6,
+                    7.2,
+                    7.8,
+                    8.4,
+                    9.0,
+                    9.75,
+                    10.5,
+                    11.25,
+                    12,
+                    12.6,
+                    13.2
+                ],
+                "flat_healing": [
+                    120,
+                    132,
+                    144,
+                    156,
+                    168,
+                    180,
+                    195,
+                    210,
+                    225,
+                    240,
+                    252,
+                    264
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "Appraise Soul's Ground",
+            "tag": "Support",
+            "energy_cost": "180",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gains 20 point(s) of \"Certified Banger\". Uses \"Deep Learning\" on one designated ally character other than this unit, making the target the \"Aesthetic Archetype.\"\nWhen there are 1/2/(3 or more) Elation characters on the team, advances the \"Aesthetic Archetype's\" action by 10%/15%/30% respectively. When there are 4 or more Elation characters on the team, the \"Aesthetic Archetype\" gains 1 extra turn. At the start of this extra turn, the \"Aesthetic Archetype\" gains 30 point(s) of \"Certified Banger\" and 60 point(s) of Punchline, which are removed at the end of the extra turn.\nWhile \"Deep Learning,\" Basic ATK \"Brushstroke: Trace the Severed Stream\" gets enhanced to \"Brushstroke: Render the Great Wave.\" If the \"Aesthetic Archetype\" is on the Path of Elation, it is instead enhanced to \"Brushstroke: Imagenate the Starry Night.\" And after attacking, additionally deals {{ice_elation_dmg}}% Ice Elation DMG. This Elation DMG is calculated based on the \"Aesthetic Archetype's\" stats. \"Deep Learning\" has 3 point(s) of Charge. After Pearl uses an Enhanced Basic ATK, 1 point of Charge is consumed. If no Charge remains after taking action, \"Deep Learning\" ends.",
+            "scaling": {
+                "ice_elation_dmg": [
+                    30,
+                    33,
+                    36,
+                    39,
+                    42,
+                    45,
+                    48.75,
+                    52.5,
+                    56.25,
+                    60,
+                    63,
+                    66
+                ]
+            }
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "Grow Grace from Grit",
+            "tag": "Defense",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Pearl can use \"Certified Banger\" as Repellency. Each point of \"Certified Banger\" is equivalent to 200 point(s) of Repellency. When an ally target takes DMG, Pearl can consume Repellency to offset 60% of that DMG for the ally target. Pearl's \"Certified Banger\" lasts indefinitely and has a max limit of 50.\nWhen an ally target's current HP percentage is 50% or lower, their DMG taken gets reduced by {{dmg_reduction}}%.",
+            "scaling": {
+                "dmg_reduction": [
+                    15,
+                    16.5,
+                    18,
+                    19.5,
+                    21,
+                    22.5,
+                    24.375,
+                    26.25,
+                    28.125,
+                    30,
+                    31.5,
+                    33
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "Recast Masterwork in Nacre",
+            "tag": "Support",
+            "description": "After using Technique, gains \"Aesthetic Archetype.\" When switching active characters, \"Aesthetic Archetype\" transfers to the currently active character. At the start of the next battle, Pearl gains 20 \"Certified Banger\" and applies \"Deep Learning\" on the character with \"Aesthetic Archetype.\" This \"Deep Learning\" has 2 Charge. Pearl can only apply \"Deep Learning\" on characters other than herself."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Panoptic Vision",
+            "description": "When Pearl's DEF is 2400 or higher, increases this unit's Elation by 32%. For every 100 DEF exceeding that threshold, increases this unit's Elation by 3%. Up to a max of 3600 excess DEF can be taken into account for this effect. Pearl gains Outgoing Healing Boost, equal to 20% of this unit's Elation."
+        },
+        "4": {
+            "name": "Sensory Latitude",
+            "description": "While holding \"Certified Banger,\" increases all ally targets' Effect RES by 50%. When an ally target's turn begins, Pearl gains 5 point(s) of \"Certified Banger,\" up to a max of 50 point(s) of \"Certified Banger.\" The obtainable amount of \"Certified Banger\" resets at the start of Pearl's turn. When using Enhanced Basic ATK or Skill, dispels 1 debuff(s) from all ally targets."
+        },
+        "6": {
+            "name": "Aesthetic Firewall",
+            "description": "After entering combat or using Ultimate, if the \"Aesthetic Archetype\" is an Elation character, their next use of Ultimate regenerates a fixed 90 Energy for Pearl. This effect cannot stack."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "DEF",
+            "value": "+22.5%"
+        },
+        {
+            "stat": "SPD",
+            "value": "+9"
+        },
+        {
+            "stat": "Effect RES",
+            "value": "+10%"
+        },
+        {
+            "stat": "Elation",
+            "value": "+10.0%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Nestle That Pearl in Uninked Tides",
+            "description": "When the number of Elation Path characters on the team equals 2/3/(4 or more), increases Elation for all allies by 10%/20%/60% respectively. If an ally target takes fatal damage, they will not get knocked down. Instead, immediately restores their HP by an amount equal to 50% of their Max HP. This effect can trigger 2 time(s) per battle."
+        },
+        {
+            "level": 2,
+            "name": "Crop That Dappled Dawn",
+            "description": "Merrymakes all ally targets' Elation DMG by 15%. When using Ultimate, causes other ally Elation characters (excluding Pearl and \"Aesthetic Archetype\") to also trigger the action advance effect. And the \"Certified Banger\" and Punchline gained at the start of the extra turn provided by the Ultimate increase by 100%."
+        },
+        {
+            "level": 3,
+            "name": "Sketch That Suspended Wave",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. \n Basic ATK Lv. +1, up to a maximum of Lv. 10. \n Elation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 4,
+            "name": "Study That Veiled Smile",
+            "description": "The Elation DMG provided by Elation Skill to all ally targets has its multiplier increased by 100% of its original multiplier."
+        },
+        {
+            "level": 5,
+            "name": "Render Those Starlit Swirls",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\n Talent Lv. +2, up to a maximum of Lv. 15.\n Elation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 6,
+            "name": "Compute Life From One Shell",
+            "description": "While \"Deep Learning,\" all ally targets' All-Type RES PEN increases by 200%. Pearl's Enhanced Basic ATK additionally deals 400% Ice Elation DMG, which is calculated based on the stats of \"Aesthetic Archetype.\""
+        }
+    ],
+    "level_80_stats": {
+        "hp": 1203,
+        "atk": 465,
+        "def": 727,
+        "spd": 99
+    },
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Elation Skill",
+                "name": "Dissolve Reason into Elation",
+                "tag": "Support",
+                "participant_id": 104,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "When there are 1/2/3/(4 or more) Elation characters in the team, then after all ally targets use their next attack, enables them to additionally deal Elation DMG of their corresponding Type to the attack target, equal to {{elation_dmg_1}}%/{{elation_dmg_2}}%/{{elation_dmg_3}}%/{{elation_dmg_4}}% respectively.",
+                "scaling": {
+                    "elation_dmg_1": [
+                        5.0,
+                        5.5,
+                        6.0,
+                        6.5,
+                        7.0,
+                        7.5,
+                        8.125,
+                        8.75,
+                        9.375,
+                        10,
+                        10.5,
+                        11
+                    ],
+                    "elation_dmg_2": [
+                        7.5,
+                        8.25,
+                        9.0,
+                        9.75,
+                        10.5,
+                        11.25,
+                        12.1875,
+                        13.125,
+                        14.0625,
+                        15.0,
+                        15.75,
+                        16.5
+                    ],
+                    "elation_dmg_3": [
+                        10.0,
+                        11.0,
+                        12.0,
+                        13.0,
+                        14.0,
+                        15.0,
+                        16.25,
+                        17.5,
+                        18.75,
+                        20.0,
+                        21.0,
+                        22.0
+                    ],
+                    "elation_dmg_4": [
+                        20.0,
+                        22.0,
+                        24.0,
+                        26.0,
+                        28.0,
+                        30.0,
+                        32.5,
+                        35.0,
+                        37.5,
+                        40.0,
+                        42.0,
+                        44.0
+                    ]
+                }
+            }
+        }
+    }
+}
