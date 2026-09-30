@@ -6,7 +6,8 @@
         "passive": {
             "en": "Increases the wearer's CRIT DMG by {{value}}%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals {{value}}% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by {{value}}%.",
             "ru": "Крит. урон владельца повышается на {{value}}%. Когда владелец поражает противника, он также накладывает на цель статус Мираж на 1 ход. Этот эффект может сработать на каждой цели только 1 раз за каждую атаку владельца. Наносимый владельцем целям со статусом Мираж урон повышается на {{value}}% , а наносимый сверхспособностью урон дополнительно повышается на {{value}}%.",
-            "vn": "Tăng {{value}}% Sát Thương Bạo Kích của người trang bị. Khi người trang bị đánh trúng kẻ địch, sẽ khiến kẻ địch rơi vào trạng thái Bóng Hư Ảo, duy trì 1 hiệp. Mỗi lần người trang bị tấn công, đối với mỗi mục tiêu chỉ có thể được kích hoạt 1 lần. Sát Thương mà người trang bị gây ra cho mục tiêu đang ở trạng thái Bóng Hư Ảo tăng {{value}}%, sát thương do Tuyệt Kỹ gây ra tăng thêm {{value}}%."
+            "vn": "Tăng {{value}}% Sát Thương Bạo Kích của người trang bị. Khi người trang bị đánh trúng kẻ địch, sẽ khiến kẻ địch rơi vào trạng thái Bóng Hư Ảo, duy trì 1 hiệp. Mỗi lần người trang bị tấn công, đối với mỗi mục tiêu chỉ có thể được kích hoạt 1 lần. Sát Thương mà người trang bị gây ra cho mục tiêu đang ở trạng thái Bóng Hư Ảo tăng {{value}}%, sát thương do Tuyệt Kỹ gây ra tăng thêm {{value}}%.",
+            "cht": "使裝備者的暴擊傷害提高{{value}}%。當裝備者命中敵方目標時，使敵方陷入【泡影】狀態，持續1回合。裝備者每次攻擊時，對每個目標只可觸發1次。裝備者對陷入【泡影】狀態的目標造成的傷害提高{{value}}% ，終結技造成的傷害額外提高{{value}}%。"
         },
         "s1": [
             36,
@@ -52,7 +53,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}%. When the wearer attacks DEF-reduced enemies, regenerates {{value}} Energy.",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%. Когда владелец атакует противника с пониженной защитой, он восстанавливает {{value}} ед. энергии.",
-            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}% Sau khi người trang bị tấn công kẻ địch bị giảm Phòng Thủ, sẽ hồi {{value}} điểm Năng Lượng."
+            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}% Sau khi người trang bị tấn công kẻ địch bị giảm Phòng Thủ, sẽ hồi {{value}} điểm Năng Lượng.",
+            "cht": "使裝備者的效果命中提高{{value}}%。當裝備者攻擊防禦力被降低的敵方目標後，恢復{{value}}點能量。"
         },
         "s1": [
             20,
@@ -92,7 +94,8 @@
         "passive": {
             "en": "Increase the wearer's CRIT Rate by {{value}}%. The wearer deals {{value}}% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
             "ru": "Крит. шанс владельца повышается на {{value}}%. Крит. урон владельца, наносимый противникам с пониженной защитой или со статусом Замедление, повышается на {{value}}%.",
-            "vn": "Tăng {{value}}% tỷ lệ Bạo Kích của người trang bị. Sát Thương Bạo Kích mà người trang bị gây cho kẻ địch ở trạng thái Giảm Phòng Thủ hoặc Giảm Tốc tăng {{value}}%."
+            "vn": "Tăng {{value}}% tỷ lệ Bạo Kích của người trang bị. Sát Thương Bạo Kích mà người trang bị gây cho kẻ địch ở trạng thái Giảm Phòng Thủ hoặc Giảm Tốc tăng {{value}}%.",
+            "cht": "使裝備者的暴擊率提高{{value}}%。裝備者對處於防禦降低或減速狀態下的敵人造成的暴擊傷害提高{{value}}%。"
         },
         "s1": [
             8,
@@ -132,7 +135,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}% and increases DoT by {{value}}%.",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%, и его периодический урон - на {{value}}%.",
-            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng cho người trang bị, đồng thời sát thương duy trì gây ra sẽ tăng {{value}}%."
+            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng cho người trang bị, đồng thời sát thương duy trì gây ra sẽ tăng {{value}}%.",
+            "cht": "使裝備者的效果命中提高{{value}}%，同時造成的持續傷害提高{{value}}%。"
         },
         "s1": [
             20,
@@ -173,7 +177,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%, and increases their DMG to enemies afflicted with Shock or Wind Shear by {{value}}%. This also applies to DoT.",
             "ru": "Эффект пробития владельца повышается на {{value}}%. Урон владельца, наносимый противникам со статусом Шок и Выветривание, повышается на {{value}}%. Этот эффект также распространяется на периодический урон.",
-            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị, sát thương gây ra cho địch ở trạng thái Sốc Điện hoặc Bào Mòn tăng {{value}}%, hiệu ứng này cũng có hiệu lực với sát thương duy trì."
+            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị, sát thương gây ra cho địch ở trạng thái Sốc Điện hoặc Bào Mòn tăng {{value}}%, hiệu ứng này cũng có hiệu lực với sát thương duy trì.",
+            "cht": "使裝備者的擊破特攻提高{{value}}%，對處於觸電或風化狀態的敵方目標造成的傷害提高{{value}}%，該效果對持續傷害也會生效。"
         },
         "s1": [
             16,
@@ -213,7 +218,8 @@
         "passive": {
             "en": "For every debuff the target enemy has, the DMG dealt by the wearer increases by {{value}}%, stacking up to 3 time(s). This effect also applies to DoT.",
             "ru": "За каждое имеющееся у выбранного противника ослабление наносимый владельцем урон повышается на {{value}}%, складывается до 3 раз. Этот эффект распространяется и на периодический урон.",
-            "vn": "Mỗi khi kẻ địch nhận phải 1 Hiệu Ứng Xấu, thì sát thương người trang bị gây ra cho kẻ đó sẽ tăng {{value}}%, tối đa cộng dồn 3 tầng. Hiệu ứng này cũng có hiệu lực với sát thương duy trì."
+            "vn": "Mỗi khi kẻ địch nhận phải 1 Hiệu Ứng Xấu, thì sát thương người trang bị gây ra cho kẻ đó sẽ tăng {{value}}%, tối đa cộng dồn 3 tầng. Hiệu ứng này cũng có hiệu lực với sát thương duy trì.",
+            "cht": "敵方目標每承受一個負面狀態，裝備者對其造成的傷害提高{{value}}%最多疊加3次。該效果對持續傷害也會生效。"
         },
         "s1": [
             12
@@ -249,7 +255,8 @@
         "passive": {
             "en": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to {{value}}% of ATK to the target enemy.",
             "ru": "После использования навыка следующая базовая атака владельца наносит противнику доп. урон, равный {{value}}% от силы атаки владельца.",
-            "vn": "Sau khi thi triển Chiến Kỹ, sẽ khiến đòn tấn công thường tiếp theo của người trang bị gây cho kẻ địch một lượng sát thương kèm theo bằng {{value}}% Tấn Công của bản thân."
+            "vn": "Sau khi thi triển Chiến Kỹ, sẽ khiến đòn tấn công thường tiếp theo của người trang bị gây cho kẻ địch một lượng sát thương kèm theo bằng {{value}}% Tấn Công của bản thân.",
+            "cht": "施放戰技後，使裝備者的下一次普通攻擊對敵方目標造成等同於自身{{value}}%攻擊力的附加傷害。"
         },
         "s1": [
             60
@@ -284,7 +291,8 @@
         "passive": {
             "en": "Increases the wearer's DMG dealt by {{value}}%. After the wearer attacks, there is a 100% base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by {{value}}% for 2 turn(s). Effects of the same type cannot stack.",
             "ru": "Наносимый владельцем урон повышается на {{value}}%. Атака владельца имеет базовый шанс 100% наложить на атакованную цель статус Слабость, который повышает получаемый урон на {{value}}% на 2 хода. Эффекты подобного типа не могут складываться.",
-            "vn": "Khiến sát thương của người trang bị gây ra tăng {{value}}%. Sau khi người trang bị tấn công, có 100% xác suất cơ bản khiến mục tiêu bị tấn công rơi vào trạng thái Trọng Thương, sát thương phải chịu tăng {{value}}%, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn."
+            "vn": "Khiến sát thương của người trang bị gây ra tăng {{value}}%. Sau khi người trang bị tấn công, có 100% xác suất cơ bản khiến mục tiêu bị tấn công rơi vào trạng thái Trọng Thương, sát thương phải chịu tăng {{value}}%, duy trì 2 hiệp. Hiệu ứng cùng loại không thể cộng dồn.",
+            "cht": "使裝備者造成的傷害提高{{value}}%。裝備者攻擊後，有100%基礎機率使受到攻擊的目標陷入易傷狀態，受到的傷害提高{{value}}%，持續2回合。同類效果無法疊加。"
         },
         "s1": [
             16,
@@ -324,7 +332,8 @@
         "passive": {
             "en": "Increases the wearer's DMG to debuffed enemies by {{value}}%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by {{value}}%, and ATK increases by {{value}}%.",
             "ru": "Урон владельца, наносимый противникам с ослаблениями, повышается на {{value}}%. Когда владелец использует навык, шанс попадания эффектов этой атаки повышается на {{value}}%, а сила атаки - на {{value}}%.",
-            "vn": "Khiến sát thương mà người trang bị gây cho kẻ địch đang trong Hiệu Ứng Xấu tăng {{value}}%. Khi người trang bị thi triển Chiến Kỹ, Chính Xác Hiệu Ứng của lần tấn công này của người trang bị sẽ tăng {{value}}%, Tấn Công tăng {{value}}%."
+            "vn": "Khiến sát thương mà người trang bị gây cho kẻ địch đang trong Hiệu Ứng Xấu tăng {{value}}%. Khi người trang bị thi triển Chiến Kỹ, Chính Xác Hiệu Ứng của lần tấn công này của người trang bị sẽ tăng {{value}}%, Tấn Công tăng {{value}}%.",
+            "cht": "使裝備者對陷入負面效果的敵方目標造成的傷害提高{{value}}%。當裝備者施放戰技時，裝備者此次攻擊的效果命中提高{{value}}%，攻擊力提高{{value}}%。"
         },
         "s1": [
             24,
@@ -369,7 +378,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by {{value}}%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive {{value}}% increased DMG for 1 turn.",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%. Когда владелец наносит урон противнику, количество имеющихся ослаблений которого больше или равно 3, его крит. шанс повышается на {{value}}%. Когда владелец использует базовую атаку, навык или сверхспособность на противнике, не имеющем статуса Эфирный код, он имеет базовый шанс 100% наложить на него этот статус. Урон, получаемый противником со статусом Эфирный код, повышается на {{value}}% на 1 ход.",
-            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng của người trang bị. Khi người trang bị gây sát thương cho kẻ địch đang có Hiệu Ứng Xấu hoặc hơn, thì Tỷ Lệ Bạo Kích sẽ tăng {{value}}%. Sau khi người trang bị thi triển tấn công thường, Chiến Kỹ, Tuyệt Kỹ sẽ có xác suất cơ bản thi triển Mã Aether lên mục tiêu bị tấn công ngẫu nhiên chưa có Mã Aether. Sát thương phải chịu của mục tiêu có Mã Aether tăng {{value}}%, duy trì 1 hiệp."
+            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng của người trang bị. Khi người trang bị gây sát thương cho kẻ địch đang có Hiệu Ứng Xấu hoặc hơn, thì Tỷ Lệ Bạo Kích sẽ tăng {{value}}%. Sau khi người trang bị thi triển tấn công thường, Chiến Kỹ, Tuyệt Kỹ sẽ có xác suất cơ bản thi triển Mã Aether lên mục tiêu bị tấn công ngẫu nhiên chưa có Mã Aether. Sát thương phải chịu của mục tiêu có Mã Aether tăng {{value}}%, duy trì 1 hiệp.",
+            "cht": "使裝備者的效果命中提高{{value}}%。當裝備者對同時處於大於等於3個負面效果的敵方目標造成傷害時，暴擊率提高{{value}}%。裝備者施放普攻、戰技、終結技後，有100%的基礎概率對隨機1個未持有【以太編碼】的受擊目標施加【以太編碼】。持有【以太編碼】的目標受到的傷害提高{{value}}%，持續1回合。"
         },
         "s1": [
             24,
@@ -415,7 +425,8 @@
         "passive": {
             "en": "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by {{value}}%, stacking up to 3 time(s). This effect lasts for 1 turn(s). When the wearer's Effect Hit Rate is 80% or higher, increases ATK by {{value}}%.",
             "ru": "После того как владелец накладывает ослабление на противника, он получает 1 ур. статуса Трюк. Каждый уровень этого статуса повышает наносимый владельцем урон на {{value}}% до макс. 3 раз. Этот эффект длится 1 ход. Если шанс попадания эффектов владельца выше или равен 80%, его сила атаки повышается на {{value}}%.",
-            "vn": "Sau khi người trang bị thi triển Hiệu Ứng Xấu lên kẻ địch, sẽ nhận 1 tầng Vai Diễn, mỗi tầng Vai Diễn tăng {{value}}% sát thương do người trang bị gây ra, tối đa cộng dồn 3 tầng, duy trì 1 hiệp. Khi Chính Xác Hiệu Ứng của người trang bị lớn hơn hoặc bằng 80%, Tấn Công sẽ tăng {{value}}%."
+            "vn": "Sau khi người trang bị thi triển Hiệu Ứng Xấu lên kẻ địch, sẽ nhận 1 tầng Vai Diễn, mỗi tầng Vai Diễn tăng {{value}}% sát thương do người trang bị gây ra, tối đa cộng dồn 3 tầng, duy trì 1 hiệp. Khi Chính Xác Hiệu Ứng của người trang bị lớn hơn hoặc bằng 80%, Tấn Công sẽ tăng {{value}}%.",
+            "cht": "裝備者對敵方目標施加負面狀態後，獲得一層【戲法】，每層【戲法】使裝備者造成的傷害提高{{value}}%，最多疊加3層，持續1回合。當裝備者的效果命中大於等於80%時，攻擊力提高{{value}}%。"
         },
         "s1": [
             6,
@@ -455,7 +466,8 @@
         "passive": {
             "en": "Increases the wearer's SPD by {{value}}%. After the wearer uses an attack, there is a 120% base chance to inflict the \"Bamboozle\" state on every enemy target. While under the \"Bamboozle\" state, enemy targets have their DEF decreased by {{value}}% for 2 turn(s). If the wearer's SPD is higher than or equal to 170, there is a 120% base chance to inflict the \"Theft\" state on every enemy target. While under the \"Theft\" state, enemy targets have their DEF decreased by {{value}}% for 2 turn(s). When \"Bamboozle\" or \"Theft\" is repeatedly inflicted, only the most recently inflicted instance takes effect.",
             "ru": "Скорость владельца повышается на {{value}}%. После того как владелец использует атаку, он имеет базовый шанс 120% наложить на каждого противника статус Обманка, который понижает защиту цели на {{value}}% на 2 хода. Если скорость владельца выше или равна 170, то он имеет базовый шанс 120% наложить на каждого противника статус Обкраден, который понижает защиту цели на {{value}}% на 2 хода. Когда статусы Обманка или Обкраден накладываются повторно, остаётся активным только последний наложенный эффект.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển tấn công, có 120% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mơ Hồ\", mục tiêu phe địch trong trạng thái \"Mơ Hồ\" sẽ bị giảm {{value}}% Phòng Thủ, duy trì 2 hiệp, nếu Tốc Độ của người trang bị lớn hơn hoặc bằng 170, sẽ có 120% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mất Cắp\", mục tiêu phe địch trong trạng thái \"Mất Cắp\" sẽ bị giảm {{value}}% Phòng Thủ, duy trì 2 hiệp. \"Mơ Hồ\" hoặc \"Mất Cắp\" khi bị thi triển trùng lặp, thì chỉ có trạng thái thi triển mới nhất là có hiệu lực.\""
+            "vn": "Khiến Tốc Độ của người trang bị tăng {{value}}%. Sau khi người trang bị thi triển tấn công, có 120% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mơ Hồ\", mục tiêu phe địch trong trạng thái \"Mơ Hồ\" sẽ bị giảm {{value}}% Phòng Thủ, duy trì 2 hiệp, nếu Tốc Độ của người trang bị lớn hơn hoặc bằng 170, sẽ có 120% xác suất cơ bản khiến mỗi một mục tiêu phe địch rơi vào trạng thái \"Mất Cắp\", mục tiêu phe địch trong trạng thái \"Mất Cắp\" sẽ bị giảm {{value}}% Phòng Thủ, duy trì 2 hiệp. \"Mơ Hồ\" hoặc \"Mất Cắp\" khi bị thi triển trùng lặp, thì chỉ có trạng thái thi triển mới nhất là có hiệu lực.\"",
+            "cht": "使裝備者的速度提高{{value}}%。裝備者施放攻擊後，有120%的基礎機率使敵方每個單體目標陷入【茫然】狀態，【茫然】狀態下的敵方目標防禦力降低{{value}}%，持續2回合，若裝備者的速度大於等於170，有120%的基礎機率使敵方每個單體目標陷入【失竊】狀態，【失竊】狀態下的敵方目標防禦力降低{{value}}%，持續2回合。 【茫然】或【失竊】被重複施加時，僅最新施加的生效。"
         },
         "s1": [
             18,
@@ -500,7 +512,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%. When an enemy target's Weakness gets broken, there is a 100% base chance to inflict the \"Charring\" state on it, which increases its Break DMG taken by {{value}}%, lasting for 2 turn(s). This effect can stack 2 time(s).",
             "ru": "Эффект пробития владельца повышается на {{value}}%. Когда уязвимость противника пробивается, владелец имеет базовый шанс 100% наложить на него статус Жжение, который повышает получаемый урон пробития на {{value}}% на 2 хода. Этот эффект может складываться до 2 раз.",
-            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Khi điểm yếu của mục tiêu phe địch bị phá vỡ sẽ có 100% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Lửa Đốt, Sát Thương Phá Vỡ phải chịu tăng {{value}}%, duy trì 2 hiệp, hiệu ứng này có thể cộng dồn 2 tầng."
+            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Khi điểm yếu của mục tiêu phe địch bị phá vỡ sẽ có 100% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Lửa Đốt, Sát Thương Phá Vỡ phải chịu tăng {{value}}%, duy trì 2 hiệp, hiệu ứng này có thể cộng dồn 2 tầng.",
+            "cht": "使裝備者的擊破特攻提高{{value}}%。當有敵方目標的弱點被擊破時，有100%的基礎機率使其陷入【焚灼】狀態，受到的擊破傷害提高{{value}}%，持續2回合，此效果可疊加2層。"
         },
         "s1": [
             60,
@@ -541,7 +554,8 @@
         "passive": {
             "en": "Increases DMG dealt from its wearer to Slowed enemies by {{value}}%.",
             "ru": "Урон владельца, наносимый противникам со статусом Замедление, повышается на {{value}}%.",
-            "vn": "Tăng {{value}}% sát thương mà người trang bị gây ra cho kẻ địch trong trạng thái Giảm Tốc."
+            "vn": "Tăng {{value}}% sát thương mà người trang bị gây ra cho kẻ địch trong trạng thái Giảm Tốc.",
+            "cht": ""
         },
         "s1": [
             24
@@ -576,7 +590,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%. When entering combat, increases Break DMG dealt by the wearer and another teammate who triggered combat by {{value}}%. If there is no teammate who triggered combat, applies this effect to the wearer and the teammate with the highest Break Effect. Effects of the same type cannot be stacked. When the wearer applies Weakness to an enemy target, recovers 1 Skill Point. This effect can only trigger once, and trigger count resets when using Ultimate.",
             "ru": "Эффект пробития владельца повышается на {{value}}%. В начале боя наносимый владельцем и начавшим бой союзником урон пробития повышается на {{value}}%. Если союзника, начавшего бой, нет, то этот эффект действует на владельца и союзника с наивысшим эффектом пробития. Эффекты подобного типа не могут складываться. Когда владелец добавляет уязвимость противнику, он восстанавливает 1 очко навыков. Данный эффект может сработать только 1 раз, и количество его срабатываний сбрасывается при использовании сверхспособности.",
-            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Khi vào chiến đấu, khiến Sát Thương Phá Vỡ của người trang bị và một đồng đội khai chiến khác gây ra tăng {{value}}%. Nếu không có đồng đội khai chiến, thì sẽ có hiệu lực với người trang bị và đồng đội có chỉ số Tấn Công Kích Phá cao nhất. Hiệu ứng cùng loại không thể cộng dồn. Khi người trang bị gắn Điểm Yếu cho mục tiêu phe địch, sẽ hồi phục 1 Điểm Chiến Kỹ. Hiệu ứng này chỉ kích hoạt tối đa 1 lần, khi thi triển Tuyệt Kỹ sẽ làm mới số lần có thể kích hoạt."
+            "vn": "Khiến Tấn Công Kích Phá của người trang bị tăng {{value}}%. Khi vào chiến đấu, khiến Sát Thương Phá Vỡ của người trang bị và một đồng đội khai chiến khác gây ra tăng {{value}}%. Nếu không có đồng đội khai chiến, thì sẽ có hiệu lực với người trang bị và đồng đội có chỉ số Tấn Công Kích Phá cao nhất. Hiệu ứng cùng loại không thể cộng dồn. Khi người trang bị gắn Điểm Yếu cho mục tiêu phe địch, sẽ hồi phục 1 Điểm Chiến Kỹ. Hiệu ứng này chỉ kích hoạt tối đa 1 lần, khi thi triển Tuyệt Kỹ sẽ làm mới số lần có thể kích hoạt.",
+            "cht": ""
         },
         "s1": [
             60,
@@ -616,7 +631,8 @@
         "passive": {
             "en": "Increases DMG dealt by the wearer by {{value}}%. After every attack launched by wearer, their SPD increases by {{value}}%, stacking up to 3 times.If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to {{value}}% of the wearer's ATK, lasting for 1 turn(s).",
             "ru": "Наносимый владельцем урон повышается на {{value}}%. Каждая атака владельца повышает его скорость на {{value}}%. Этот эффект может складываться до 3 раз. Когда владелец поражает противника без статуса Паутинка, он имеет базовый шанс 100% наложить этот статус на цель. Противник со статусом Паутинка также считается имеющим статус Шок. Противник со статусом Паутинка получает периодический электрический урон, равный {{value}}% от силы атаки владельца, в начале каждого хода в течение 1 хода.",
-            "vn": "Sát thương người trang bị gây ra tăng {{value}}%. Sau mỗi lần người trang bị thi triển tấn công, tốc độ tăng {{value}}%, tối đa cộng dồn 3 tầng. Khi người trang bị đánh trúng kẻ địch, nếu mục tiêu này không ở trạng thái Xói Mòn sẽ có 100% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Xói Mòn. Khi kẻ địch đã ở trạng thái này sẽ được xem là rơi vào Sốc Điện. Ở trạng thái Xói Mòn, kẻ địch mỗi khi bắt đầu hiệp sẽ chịu Sát Thương Lôi Duy Trì bằng {{value}}% Tấn Công của người trang bị, duy trì 1 hiệp."
+            "vn": "Sát thương người trang bị gây ra tăng {{value}}%. Sau mỗi lần người trang bị thi triển tấn công, tốc độ tăng {{value}}%, tối đa cộng dồn 3 tầng. Khi người trang bị đánh trúng kẻ địch, nếu mục tiêu này không ở trạng thái Xói Mòn sẽ có 100% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Xói Mòn. Khi kẻ địch đã ở trạng thái này sẽ được xem là rơi vào Sốc Điện. Ở trạng thái Xói Mòn, kẻ địch mỗi khi bắt đầu hiệp sẽ chịu Sát Thương Lôi Duy Trì bằng {{value}}% Tấn Công của người trang bị, duy trì 1 hiệp.",
+            "cht": ""
         },
         "s1": [
             24,
@@ -661,7 +677,8 @@
         "passive": {
             "en": "Increases the wearer's Max HP by {{value}}%. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives {{value}}% increased CRIT DMG and {{value}}% additionally increased CRIT DMG from the wearer.",
             "ru": "Повышает макс. НР владельца на {{value}}%. В начале хода владельца восстанавливает 20 ед. энергии. Этот эффект может сработать 1 раз за волну. После атаки навыком владелец накладывает на цель статус Чистилище на 2 хода. Получаемый целью со статусом Чистилище крит. урон повышается на {{value}}%, а крит. урон от владельца дополнительно повышается на {{value}}%.",
-            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng {{value}}%, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm {{value}}%."
+            "vn": "Khiến Giới Hạn HP của người trang bị tăng {{value}}%, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng {{value}}%, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm {{value}}%.",
+            "cht": ""
         },
         "s1": [
             30,
@@ -706,7 +723,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by {{value}}% and enables the DoT dealt to ignore {{value}}% of the target's DEF.",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%. Когда владелец наносит урон со статусом Выветривание, Горение, Шок или Кровотечение, он получает по 1 ур. статуса Предсказатель. Этот эффект может складываться до 4 раз. В течение одного боя каждый тип периодического урона может добавить только 1 ур. статуса Предсказатель. Каждый уровень этого статуса повышает силу атаки на {{value}}%, а также позволяет периодическому урону игнорировать {{value}}% защиты цели.",
-            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng của người trang bị. Khi người trang bị gây sát thương cho kẻ địch đang trong trạng thái Bào Mòn, Thiêu Đốt, Sốc Điện, Chảy Máu, sẽ lần lượt nhận 1 tầng Tiên Tri, tối đa cộng dồn 4 tầng. Trong 1 trận đấu, mỗi loại trạng thái Sát Thương Duy Trì chỉ có thể cộng dồn hiệu ứng Tiên Tri 1 lần. Mỗi tầng Tiên Tri tăng {{value}}% Tấn Công của người trang bị, Sát Thương Duy Trì gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu."
+            "vn": "Tăng {{value}}% Chính Xác Hiệu Ứng của người trang bị. Khi người trang bị gây sát thương cho kẻ địch đang trong trạng thái Bào Mòn, Thiêu Đốt, Sốc Điện, Chảy Máu, sẽ lần lượt nhận 1 tầng Tiên Tri, tối đa cộng dồn 4 tầng. Trong 1 trận đấu, mỗi loại trạng thái Sát Thương Duy Trì chỉ có thể cộng dồn hiệu ứng Tiên Tri 1 lần. Mỗi tầng Tiên Tri tăng {{value}}% Tấn Công của người trang bị, Sát Thương Duy Trì gây ra bỏ qua {{value}}% Phòng Thủ của mục tiêu.",
+            "cht": ""
         },
         "s1": [
             40,
@@ -751,7 +769,8 @@
         "passive": {
             "en": "When the wearer hits an enemy and if the hit enemy is not already \"Ensnared,\" then there is a {{value}}% base chance to \"Ensnare\" the hit enemy. \"Ensnared\" enemies' DEF decreases by {{value}}% for 1 turn(s).",
             "ru": "Когда владелец поражает противника, который не имеет статуса Отлов, то он имеет базовый шанс {{value}}% наложить на этого противника статус Отлов. Защита противника со статусом Отлов понижается на {{value}}% на 1 ход.",
-            "vn": "Khi người trang bị đánh trúng mục tiêu địch, nếu mục tiêu này không ở trạng thái Đánh Hạ, sẽ có {{value}}% xác suất cơ bản khiến địch rơi vào trạng thái Đánh Hạ. Kẻ địch ở trạng thái Đánh Hạ sẽ giảm {{value}}% Phòng Thủ, duy trì 1 hiệp."
+            "vn": "Khi người trang bị đánh trúng mục tiêu địch, nếu mục tiêu này không ở trạng thái Đánh Hạ, sẽ có {{value}}% xác suất cơ bản khiến địch rơi vào trạng thái Đánh Hạ. Kẻ địch ở trạng thái Đánh Hạ sẽ giảm {{value}}% Phòng Thủ, duy trì 1 hiệp.",
+            "cht": ""
         },
         "s1": [
             60,
@@ -792,7 +811,8 @@
         "passive": {
             "en": "Increases the wearer's Break Effect by {{value}}%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by {{value}}%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates {{value}} Energy for the wearer.",
             "ru": "Эффект пробития владельца повышается на {{value}}%. Когда владелец использует сверхспособность, наносимый им периодический урон повышается на {{value}}% на 2 хода. Победа над противником с наложенным эффектом периодического урона от владельца восстанавливает {{value}} ед. его энергии.",
-            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến Sát Thương Duy Trì của người trang bị gây ra tăng {{value}}%, duy trì trong 2 hiệp. Khi kẻ địch rơi vào hiệu ứng Sát Thương Duy Trì mà người trang bị thi triển bị tiêu diệt, người trang bị sẽ hồi {{value}} điểm Năng Lượng."
+            "vn": "Tăng {{value}}% Tấn Công Kích Phá của người trang bị. Khi người trang bị thi triển Tuyệt Kỹ, sẽ khiến Sát Thương Duy Trì của người trang bị gây ra tăng {{value}}%, duy trì trong 2 hiệp. Khi kẻ địch rơi vào hiệu ứng Sát Thương Duy Trì mà người trang bị thi triển bị tiêu diệt, người trang bị sẽ hồi {{value}} điểm Năng Lượng.",
+            "cht": ""
         },
         "s1": [
             20,
@@ -837,7 +857,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives {{value}}% increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the enemy target receives by {{value}}%, lasting for 2 turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%. Когда владелец использует базовую атаку, навык или сверхспособность для атаки противника, он имеет базовый шанс 60% наложить на цель статус Доспехи прочь. Получаемый противником со статусом Доспехи прочь урон повышается на {{value}}% на 2 хода. Если противник имеет эффект с периодическим уроном, наложенный владельцем, то есть базовый шанс 60% усилить статус Доспехи прочь до статуса Загнанный в угол, который дополнительно повышает получаемый противником урон на {{value}}% на 2 хода. В течение этого времени владелец не может наложить статус Доспехи прочь.",
-            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, sau khi người trang bị thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ tấn công kẻ địch, sẽ có 60% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Tháo Giáp. Trong trạng thái Tháo Giáp, sát thương kẻ địch phải chịu tăng {{value}}%, duy trì 2 hiệp. Nếu mục tiêu ở trạng thái Sát Thương Duy Trì do người trang bị thi triển, thì có 60% xác suất cơ bản khiến trạng thái Tháo Giáp mà người trang bị thi triển tăng cấp thành trạng thái Đường Cùng, khiến sát thương kẻ địch phải chịu tăng thêm {{value}}%, duy trì 2 hiệp, trong thời gian này người trang bị không thể thi triển Tháo Giáp cho mục tiêu này."
+            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, sau khi người trang bị thi triển Tấn Công Thường, Chiến Kỹ, Tuyệt Kỹ tấn công kẻ địch, sẽ có 60% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Tháo Giáp. Trong trạng thái Tháo Giáp, sát thương kẻ địch phải chịu tăng {{value}}%, duy trì 2 hiệp. Nếu mục tiêu ở trạng thái Sát Thương Duy Trì do người trang bị thi triển, thì có 60% xác suất cơ bản khiến trạng thái Tháo Giáp mà người trang bị thi triển tăng cấp thành trạng thái Đường Cùng, khiến sát thương kẻ địch phải chịu tăng thêm {{value}}%, duy trì 2 hiệp, trong thời gian này người trang bị không thể thi triển Tháo Giáp cho mục tiêu này.",
+            "cht": ""
         },
         "s1": [
             60,
@@ -883,7 +904,8 @@
         "passive": {
             "en": "At the start of the battle, the wearer's Effect Hit Rate increases by {{value}}% for 3 turn(s).",
             "ru": "В начале боя шанс попадания эффектов владельца повышается на {{value}}% на 3 хода.",
-            "vn": "Khi bắt đầu chiến đấu sẽ khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, duy trì 3 hiệp."
+            "vn": "Khi bắt đầu chiến đấu sẽ khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, duy trì 3 hiệp.",
+            "cht": ""
         },
         "s1": [
             20
@@ -918,7 +940,8 @@
         "passive": {
             "en": "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to {{value}}% of the wearer's ATK to a random enemy that has been attacked.",
             "ru": "Когда владелец использует базовую атаку или навык, он наносит случайному атакованному противнику доп. урон, равный {{value}}% от своей силы атаки.",
-            "vn": "Sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ, sẽ gây cho 1 kẻ địch ngẫu nhiên bị đánh trúng một lượng sát thương kèm theo bằng {{value}}% Tấn Công của bản thân."
+            "vn": "Sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ, sẽ gây cho 1 kẻ địch ngẫu nhiên bị đánh trúng một lượng sát thương kèm theo bằng {{value}}% Tấn Công của bản thân.",
+            "cht": ""
         },
         "s1": [
             48
@@ -953,7 +976,8 @@
         "passive": {
             "en": "Increases the wearer's Effect Hit Rate by {{value}}%. When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter \"Enthrallment,\" lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in \"Enthrallment,\" for every 1 debuff applied by the wearer on the target, increases the target's received DoT by {{value}}%, stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker's SPD by {{value}}% for 3 turn(s). When the wearer gets knocked down, removes all \"Enthrallment.\"",
             "ru": "Шанс попадания эффектов владельца повышается на {{value}}%. Когда владелец накладывает ослабление на противника, этот противник имеет базовый шанс 80% получить статус Очарование на 3 хода. Эффекты подобного типа не могут складываться. Получаемый противником со статусом Очарование периодический урон повышается на {{value}}% за каждое ослабление, наложенное на него владельцем. Этот эффект может складываться до 6 раз. Когда союзник атакует противника с этим статусом, скорость этого союзника повышается на {{value}}% на 3 хода. Когда владелец становится неспособен сражаться, все уровни статуса Очарование снимаются.",
-            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, khi mục tiêu phe địch rơi vào Hiệu Ứng Xấu do người trang bị thi triển, có 80% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Mê Hồn, duy trì 3 hiệp, hiệu ứng cùng loại không thể cộng dồn. Trong trạng thái Mê Hồn, cứ mỗi Hiệu Ứng Xấu do người trang bị thi triển, Sát Thương Duy Trì phải chịu tăng {{value}}%, hiệu ứng này tối đa cộng dồn 6 tầng, khi bị mục tiêu phe ta tấn công, Tốc Độ của người tấn công tăng {{value}}%, duy trì 3 hiệp. Khi người trang bị rơi vào trạng thái không thể chiến đấu, sẽ xóa tất cả \"Mê Hồn\"."
+            "vn": "Khiến Chính Xác Hiệu Ứng của người trang bị tăng {{value}}%, khi mục tiêu phe địch rơi vào Hiệu Ứng Xấu do người trang bị thi triển, có 80% xác suất cơ bản khiến kẻ đó rơi vào trạng thái Mê Hồn, duy trì 3 hiệp, hiệu ứng cùng loại không thể cộng dồn. Trong trạng thái Mê Hồn, cứ mỗi Hiệu Ứng Xấu do người trang bị thi triển, Sát Thương Duy Trì phải chịu tăng {{value}}%, hiệu ứng này tối đa cộng dồn 6 tầng, khi bị mục tiêu phe ta tấn công, Tốc Độ của người tấn công tăng {{value}}%, duy trì 3 hiệp. Khi người trang bị rơi vào trạng thái không thể chiến đấu, sẽ xóa tất cả \"Mê Hồn\".",
+            "cht": ""
         },
         "s1": [
             40,
