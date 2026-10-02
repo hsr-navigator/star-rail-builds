@@ -11,12 +11,14 @@
         "2p": {
             "en": "Increases CRIT DMG by 16%.",
             "ru": "",
-            "vn": ""
+            "vn": "",
+            "cht": "暴擊傷害提高16%。"
         },
         "4p": {
             "en": "Increases DMG dealt by the wearer's Basic ATK by 36%. When the wearer uses a Basic ATK, increases the wearer's ATK by 20%, lasting for 2 turn(s).",
             "ru": "",
-            "vn": ""
+            "vn": "",
+            "cht": "使裝備者普通攻擊造成的傷害提高36%。當裝備者發動普通攻擊時，使裝備者攻擊力提高20%，持續2回合。"
         }
     },
     "dreamlit-actor": {
@@ -31,12 +33,14 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "",
-            "vn": ""
+            "vn": "",
+            "cht": "速度提高6%"
         },
         "4p": {
             "en": "When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by 16%, lasting for 3 turn(s). If the wearer has 10 or more points of Certified Banger, additionally increases all ally targets' CRIT DMG by 12%, lasting for 3 turn(s).",
             "ru": "",
-            "vn": ""
+            "vn": "",
+            "cht": "當裝備者隊我方其他單體目標施放戰技或終結技時，使技能目標的歡愉度提高16%，持續3回合，若裝備著持有的好活當賞大於等於10點，則額外使我方全體目標的暴擊傷害提高12%，持續3回合。"
         }
     },
     "as-navigator-isee-sees-it": {
@@ -51,12 +55,14 @@
         "2p": {
             "en": "Increases ATK by 12%.",
             "ru": "Повышает силу атаки владельца на 12%.",
-            "vn": "Tấn Công tăng 12%."
+            "vn": "Tấn Công tăng 12%.",
+            "cht": "攻擊力提高12%。"
         },
         "4p": {
             "en": "When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18%, stacking up to 3 times. At the start of the wearer's turn or after using Ultimate, removes 1 stack of this effect.",
             "ru": "Когда владелец вступает в бой или использует навык, урон навыка и сверхспособности повышается на 18%. Эффект может складываться до 3 раз. В начале хода владельца или после использования сверхспособности снимается 1 ур. этого эффекта.",
-            "vn": "Khi người trang bị vào chiến đấu/thi triển Chiến Kỹ, sẽ khiến sát thương Chiến Kỹ và Tuyệt Kỹ gây ra tăng 18%, tối đa cộng dồn 3 tầng, khi bắt đầu hiệp của người trang bị/sau khi thi triển Tuyệt Kỹ, xóa 1 tầng hiệu ứng này."
+            "vn": "Khi người trang bị vào chiến đấu/thi triển Chiến Kỹ, sẽ khiến sát thương Chiến Kỹ và Tuyệt Kỹ gây ra tăng 18%, tối đa cộng dồn 3 tầng, khi bắt đầu hiệp của người trang bị/sau khi thi triển Tuyệt Kỹ, xóa 1 tầng hiệu ứng này.",
+            "cht": "裝備者進入戰鬥時/施放戰技時，使戰技和終結技造成的傷害提高18%，最多疊加3層，裝備者回合開始時/施放終結技後，移除1層該效果。"
         }
     },
     "band-of-sizzling-thunder": {
@@ -70,12 +76,14 @@
         "2p": {
             "en": "Increases Lightning DMG by 10%.",
             "ru": "Повышает электрический урон на 10%.",
-            "vn": "Tăng Sát Thương Lôi 10%."
+            "vn": "Tăng Sát Thương Lôi 10%.",
+            "cht": "雷屬性傷害提高10%。"
         },
         "4p": {
             "en": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s).",
             "ru": "Когда владелец использует навык, его сила атаки повышается на 20% на 1 ход.",
-            "vn": "Khi người trang bị thi triển Chiến Kỹ, tấn công của người đó tăng 20%, duy trì 1 hiệp."
+            "vn": "Khi người trang bị thi triển Chiến Kỹ, tấn công của người đó tăng 20%, duy trì 1 hiệp.",
+            "cht": "當裝備者施放戰技時，使裝備者的攻擊力提高20%，持續1回合。"
         }
     },
     "champion-of-streetwise-boxing": {
@@ -89,12 +97,14 @@
         "2p": {
             "en": "Increases Physical DMG by 10%.",
             "ru": "Повышает физический урон на 10%.",
-            "vn": "Sát Thương Vật Lý tăng 10%."
+            "vn": "Sát Thương Vật Lý tăng 10%.",
+            "cht": "物理屬性傷害提高10%。"
         },
         "4p": {
             "en": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s).",
             "ru": "После того как владелец выполняет или получает атаку, его сила атаки повышается на 5%. Этот эффект может складываться до 5 раз.",
-            "vn": "Sau khi người trang bị tấn công hoặc bị tấn công, tấn công của người trang bị trong trận này tăng 5%, tối đa cộng dồn 5 tầng."
+            "vn": "Sau khi người trang bị tấn công hoặc bị tấn công, tấn công của người trang bị trong trận này tăng 5%, tối đa cộng dồn 5 tầng.",
+            "cht": "裝備者發動攻擊或受到攻擊後，該場戰鬥中攻擊力提高5%，最多疊加5次。"
         }
     },
     "divine-querying-master-smith": {
@@ -109,12 +119,14 @@
         "2p": {
             "en": "Increases Max HP by 12%.",
             "ru": "Повышает макс. НР владельца на 12%.",
-            "vn": "Giới Hạn HP tăng 12%."
+            "vn": "Giới Hạn HP tăng 12%.",
+            "cht": "生命上限提高12%。"
         },
         "4p": {
             "en": "Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28%. After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turns. This effect cannot be stacked. DMG dealt by ally targets with \"Comburent\" increases by 15%. This effect can be triggered again after the wearer uses an attack.",
             "ru": "Повышает крит. урон владельца по противникам с пониженной защитой на 28%. После того как владелец понижает защиту противника, все союзники получают статус Поддержание огня на 2 хода. Этот эффект не складывается. Наносимый союзниками со статусом Поддержание огня урон повышается на 15%. Этот эффект может сработать повторно после атаки владельца.",
-            "vn": "Sát Thương Bạo Kích mà người trang bị gây ra cho mục tiêu phe địch ở trạng thái giảm Phòng Thủ tăng 28%. Sau khi người trang bị thi triển trạng thái giảm Phòng Thủ cho mục tiêu phe địch, khiến toàn thể phe ta nhận \"Tiếp Lửa\", duy trì 2 hiệp, hiệu ứng này không thể cộng dồn, sát thương do mục tiêu phe ta có hiệu ứng \"Tiếp Lửa\" gây ra tăng 15%. Hiệu ứng này có thể kích hoạt lại sau khi người trang bị thi triển tấn công."
+            "vn": "Sát Thương Bạo Kích mà người trang bị gây ra cho mục tiêu phe địch ở trạng thái giảm Phòng Thủ tăng 28%. Sau khi người trang bị thi triển trạng thái giảm Phòng Thủ cho mục tiêu phe địch, khiến toàn thể phe ta nhận \"Tiếp Lửa\", duy trì 2 hiệp, hiệu ứng này không thể cộng dồn, sát thương do mục tiêu phe ta có hiệu ứng \"Tiếp Lửa\" gây ra tăng 15%. Hiệu ứng này có thể kích hoạt lại sau khi người trang bị thi triển tấn công.",
+            "cht": "裝備者對防禦力降低狀態的敵方目標造成的暴擊傷害提高28%。裝備者對敵方目標施加防禦力降低狀態後，使我方全體獲得【助燃】，持續2回合，該效果無法疊加，持有【助燃】的我方目標造成的傷害提高15%。此效果在裝備者施放攻擊後可再次觸發。"
         }
     },
     "diviner-of-distant-reach": {
@@ -129,12 +141,14 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "Повышает скорость на 6%.",
-            "vn": "Tốc Độ tăng 6%."
+            "vn": "Tốc Độ tăng 6%.",
+            "cht": "速度提高6%"
         },
         "4p": {
             "en": "Before entering combat, if the wearer's SPD is greater than or equal to 120/160, increases the wearer's CRIT Rate by 10%/18%. When the wearer uses Elation Skill for the first time in each battle, enhances all allies' Elation by 10%. This effect cannot stack.",
             "ru": "В начале боя, если скорость владельца больше или равна 120/160, повышает крит. шанс владельца на 10%/18%. Когда владелец впервые в бою использует навык Радости, повышает Радость всех союзников на 10%. Этот эффект не складывается.",
-            "vn": "Trước khi vào chiến đấu, nếu Tốc Độ của người trang bị lớn hơn hoặc bằng 120/160, sẽ khiến Tỷ Lệ Bạo Kích của người trang bị tăng 10%/18%. Khi người trang bị lần đầu tiên thi triển kỹ năng Vui Vẻ trong mỗi trận đấu, sẽ khiến Độ Vui Vẻ của toàn phe ta tăng 10%, hiệu ứng này không thể cộng dồn."
+            "vn": "Trước khi vào chiến đấu, nếu Tốc Độ của người trang bị lớn hơn hoặc bằng 120/160, sẽ khiến Tỷ Lệ Bạo Kích của người trang bị tăng 10%/18%. Khi người trang bị lần đầu tiên thi triển kỹ năng Vui Vẻ trong mỗi trận đấu, sẽ khiến Độ Vui Vẻ của toàn phe ta tăng 10%, hiệu ứng này không thể cộng dồn.",
+            "cht": "進入戰鬥前，若裝備者的速度大於等於120/160，使裝備者的爆擊率提高10%/18%。裝備者每場戰鬥首次施放歡愉時，使我方全體歡愉度提高10%，此效果無法疊加。"
         }
     },
     "eagle-of-twilight-line": {
@@ -148,12 +162,14 @@
         "2p": {
             "en": "Increases Wind DMG by 10%.",
             "ru": "Повышает ветряной урон на 10%.",
-            "vn": "Tăng Sát Thương Phong 10%."
+            "vn": "Tăng Sát Thương Phong 10%.",
+            "cht": "風屬性傷害提高10%。"
         },
         "4p": {
             "en": "After the wearer uses their Ultimate, their action is Advanced Forward by 25%.",
             "ru": "После использования сверхспособности действие владельца продвигается вперёд на 25%.",
-            "vn": "Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Hành Động của người đó ưu tiên 25%."
+            "vn": "Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Hành Động của người đó ưu tiên 25%.",
+            "cht": "當裝備者施放終結技後，使其行動提前25%。"
         }
     },
     "ever-glorious-magical-girl": {
@@ -167,12 +183,14 @@
         "2p": {
             "en": "Increases CRIT DMG by 16%.",
             "ru": "Повышает крит. урон на 16%.",
-            "vn": "Sát Thương Bạo Kích tăng 16%."
+            "vn": "Sát Thương Bạo Kích tăng 16%.",
+            "cht": "暴擊傷害提高16%。"
         },
         "4p": {
             "en": "The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s).",
             "ru": "Урон Радости, наносимый владельцем и его духом памяти, игнорирует 10% защиты цели. За каждые 5 ед. Юмора, накопленных союзником, наносимый урон Радости дополнительно игнорирует 1% защиты цели. Может складываться до 10 раз.",
-            "vn": "Sát Thương Vui Vẻ gây ra bởi người trang bị và Linh Hồn Ký Ức của người này sẽ bỏ qua 10% Phòng Thủ của mục tiêu, phe ta cứ tích lũy nhận 5 Điểm Hài Hước, Sát Thương Vui Vẻ gây ra sẽ bỏ qua thêm 1% Phòng Thủ của mục tiêu, tối đa cộng dồn 10 tầng."
+            "vn": "Sát Thương Vui Vẻ gây ra bởi người trang bị và Linh Hồn Ký Ức của người này sẽ bỏ qua 10% Phòng Thủ của mục tiêu, phe ta cứ tích lũy nhận 5 Điểm Hài Hước, Sát Thương Vui Vẻ gây ra sẽ bỏ qua thêm 1% Phòng Thủ của mục tiêu, tối đa cộng dồn 10 tầng.",
+            "cht": "使裝備者及其憶靈造成的歡愉傷害無視目標10%的防禦力，我方每累計獲得5點笑點，造成的歡愉傷害額外無視目標1%的防禦力，最多疊加10層。"
         }
     },
     "firesmith-of-lava-forging": {
@@ -186,12 +204,14 @@
         "2p": {
             "en": "Increases Fire DMG by 10%.",
             "ru": "Повышает огненный урон на 10%.",
-            "vn": "Tăng Sát Thương Hỏa 10%."
+            "vn": "Tăng Sát Thương Hỏa 10%.",
+            "cht": "火屬性傷害提高10%。"
         },
         "4p": {
             "en": "Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack.",
             "ru": "Повышает наносимый навыком владельца урон на 12%, а также повышает огненный урон следующей атаки владельца после использования сверхспособности на 12%.",
-            "vn": "Khiến sát thương Chiến Kỹ của người trang bị tăng 12%, đồng thời tăng 12% Sát Thương Hỏa của lần tấn công kế tiếp sau khi thi triển Tuyệt Kỹ."
+            "vn": "Khiến sát thương Chiến Kỹ của người trang bị tăng 12%, đồng thời tăng 12% Sát Thương Hỏa của lần tấn công kế tiếp sau khi thi triển Tuyệt Kỹ.",
+            "cht": "使裝備者施放戰技時造成的傷害提高12%，並在施放終結技後下次攻擊造成的火屬性傷害提高12%。"
         }
     },
     "genius-of-brilliant-stars": {
@@ -205,12 +225,14 @@
         "2p": {
             "en": "Increases Quantum DMG by 10%.",
             "ru": "Повышает квантовый урон на 10%.",
-            "vn": "Tăng Sát Thương Lượng Tử 10%."
+            "vn": "Tăng Sát Thương Lượng Tử 10%.",
+            "cht": "量子屬性傷害提高10%。"
         },
         "4p": {
             "en": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
             "ru": "При нанесении урона владелец игнорирует 10% защиты противника. Если у выбранного противника есть квантовая уязвимость, владелец игнорирует доп. 10% защиты.",
-            "vn": "Khi người trang bị gây sát thương lên mục tiêu địch, sẽ bỏ qua 10% Phòng Thủ của địch. Nếu mục tiêu có Điểm Yếu Lượng Tử, sẽ bỏ qua thêm 10% Phòng Thủ của địch."
+            "vn": "Khi người trang bị gây sát thương lên mục tiêu địch, sẽ bỏ qua 10% Phòng Thủ của địch. Nếu mục tiêu có Điểm Yếu Lượng Tử, sẽ bỏ qua thêm 10% Phòng Thủ của địch.",
+            "cht": "當裝備者對敵方目標造成傷害時，無視其10%的防禦力。若目標擁有量子屬性弱點，則額外無視其10%的防禦力。"
         }
     },
     "guard-of-wuthering-snow": {
@@ -223,12 +245,14 @@
         "2p": {
             "en": "Reduces DMG taken by 8%.",
             "ru": "Понижает получаемый урон на 8%.",
-            "vn": "Sát thương phải chịu giảm 8%."
+            "vn": "Sát thương phải chịu giảm 8%.",
+            "cht": "受到傷害降低8%。"
         },
         "4p": {
             "en": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
             "ru": "В начале хода, если текущее НР владельца ниже или равно 50%, восстанавливает 8% НР и 5 ед. энергии владельца.",
-            "vn": "Khi bắt đầu hiệp, nếu người trang bị có phần trăm HP hiện tại thấp hơn hoặc bằng 50%, sẽ hồi HP bằng 8% Giới Hạn HP của bản thân, và hồi 5 điểm Năng Lượng."
+            "vn": "Khi bắt đầu hiệp, nếu người trang bị có phần trăm HP hiện tại thấp hơn hoặc bằng 50%, sẽ hồi HP bằng 8% Giới Hạn HP của bản thân, và hồi 5 điểm Năng Lượng.",
+            "cht": "回合開始時，如果裝備者目前生命值小於等於其生命上限的50%，則回復等同於自身生命上限8%的生命值，並恢復5點能量。"
         }
     },
     "hero-of-triumphant-song": {
@@ -243,12 +267,14 @@
         "2p": {
             "en": "Increases ATK by 12%.",
             "ru": "Повышает силу атаки на 12%.",
-            "vn": "Tăng Tấn Công 12%."
+            "vn": "Tăng Tấn Công 12%.",
+            "cht": "攻擊力提高12%。"
         },
         "4p": {
             "en": "While the wearer's memosprite is on the field, increases the wearer's SPD by 6%. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by 30%, lasting for 2 turn(s).",
             "ru": "Пока дух памяти владельца находится на поле боя, скорость владельца повышается на 6%. Когда дух памяти владельца выполняет атаку, крит. урон владельца и его духа памяти повышается на 30% на 2 хода.",
-            "vn": "Khi Linh Hồn Ký Ức của người trang bị trong trận, Tốc Độ của người trang bị tăng 6%, Khi Linh Hồn Ký Ức của người trang bị tấn công, Sát Thương Bạo Kích của Linh Hồn Ký Ức và người trang bị tăng 30%, duy trì 2 hiệp."
+            "vn": "Khi Linh Hồn Ký Ức của người trang bị trong trận, Tốc Độ của người trang bị tăng 6%, Khi Linh Hồn Ký Ức của người trang bị tấn công, Sát Thương Bạo Kích của Linh Hồn Ký Ức và người trang bị tăng 30%, duy trì 2 hiệp.",
+            "cht": "裝備者的憶靈在場時，裝備者的速度提高6%，裝備者的憶靈攻擊時，裝備者和憶靈的暴擊傷害提高30%，持續2回合。"
         }
     },
     "hunter-of-glacial-forest": {
@@ -262,12 +288,14 @@
         "2p": {
             "en": "Increases Ice DMG by 10%.",
             "ru": "Повышает ледяной урон на 10%.",
-            "vn": "Tăng Sát Thương Băng 10%."
+            "vn": "Tăng Sát Thương Băng 10%.",
+            "cht": "冰屬性傷害提高10%。"
         },
         "4p": {
             "en": "After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).",
             "ru": "Когда владелец использует сверхспособность, его крит. урон повышается на 25% на 2 хода.",
-            "vn": "Khi người trang bị thi triển Tuyệt Kỹ, Sát Thương Bạo Kích tăng 25%, duy trì 2 hiệp."
+            "vn": "Khi người trang bị thi triển Tuyệt Kỹ, Sát Thương Bạo Kích tăng 25%, duy trì 2 hiệp.",
+            "cht": "當裝備者施放終結技後，暴擊傷害提高25%，持續2回合。"
         }
     },
     "iron-cavalry-against-the-scourge": {
@@ -281,12 +309,14 @@
         "2p": {
             "en": "Increases Break Effect by 16%.",
             "ru": "Повышает эффект пробития на 16%.",
-            "vn": "Tấn Công Kích Phá tăng 16%."
+            "vn": "Tấn Công Kích Phá tăng 16%.",
+            "cht": "擊破特攻提高16%。"
         },
         "4p": {
             "en": "If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.",
             "ru": "Если эффект пробития владельца выше или равен 150%, то при нанесении урона пробития владелец игнорирует 10% защиты противника. Если эффект пробития владельца выше или равен 250%, то наносимый им урон суперпробития игнорирует дополнительные 15% защиты.",
-            "vn": "Khi Tấn Công Kích Phá của người trang bị lớn hơn hoặc bằng 150%, Sát Thương Phá Vỡ gây ra cho kẻ địch sẽ bỏ qua 10% Phòng Thủ của kẻ đó. Khi Tấn Công Kích Phá của người trang bị lớn hơn hoặc bằng 250%, Siêu Sát Thương Phá Vỡ gây ra cho kẻ địch sẽ bỏ qua thêm 15% Phòng Thủ của kẻ đó."
+            "vn": "Khi Tấn Công Kích Phá của người trang bị lớn hơn hoặc bằng 150%, Sát Thương Phá Vỡ gây ra cho kẻ địch sẽ bỏ qua 10% Phòng Thủ của kẻ đó. Khi Tấn Công Kích Phá của người trang bị lớn hơn hoặc bằng 250%, Siêu Sát Thương Phá Vỡ gây ra cho kẻ địch sẽ bỏ qua thêm 15% Phòng Thủ của kẻ đó.",
+            "cht": "當裝備者的擊破特攻大於等於150%時，對敵方目標造成的擊破傷害無視其10%的防禦力。當裝備者的擊破特攻大於等於250%時，對敵方目標造成的超擊破傷害額外無視其15%的防禦力。"
         }
     },
     "knight-of-purity-palace": {
@@ -299,12 +329,14 @@
         "2p": {
             "en": "Increases DEF by 15%.",
             "ru": "Повышает защиту на 15%.",
-            "vn": "Tăng Phòng Thủ 15%."
+            "vn": "Tăng Phòng Thủ 15%.",
+            "cht": "防御力提高15%。"
         },
         "4p": {
             "en": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
             "ru": "Повышает урон, поглощаемый созданным владельцем Щитом, на 20%.",
-            "vn": "Tăng 20% Khiên mà người trang bị cung cấp."
+            "vn": "Tăng 20% Khiên mà người trang bị cung cấp.",
+            "cht": "使裝備者提供的護盾量提高20%。"
         }
     },
     "longevous-disciple": {
@@ -318,12 +350,14 @@
         "2p": {
             "en": "Increases the wearer's Max HP by 12%.",
             "ru": "Повышает макс. НР владельца на 12%.",
-            "vn": "Tăng Giới Hạn HP 12%."
+            "vn": "Tăng Giới Hạn HP 12%.",
+            "cht": "生命上限提高12%。"
         },
         "4p": {
             "en": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks.",
             "ru": "Когда владелец получает атаку или когда союзник расходует его НР, крит. шанс владельца повышается на 8% на 2 хода. Этот эффект может складываться до 2 раз.",
-            "vn": "Sau khi người trang bị chịu tấn công hoặc bị mục tiêu phe ta tiêu hao HP, Tỷ Lệ Bạo Kích tăng 8%, duy trì 2 hiệp. Hiệu ứng này tối đa cộng dồn 2 tầng."
+            "vn": "Sau khi người trang bị chịu tấn công hoặc bị mục tiêu phe ta tiêu hao HP, Tỷ Lệ Bạo Kích tăng 8%, duy trì 2 hiệp. Hiệu ứng này tối đa cộng dồn 2 tầng.",
+            "cht": "當裝備者受到攻擊或被我方目標消耗生命值後，暴擊率提高8%，持續2回合，該效果最多疊加2層。"
         }
     },
     "messenger-traversing-hackerspace": {
@@ -336,12 +370,14 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "Повышает скорость на 6%.",
-            "vn": "Tăng Tốc Độ 6%."
+            "vn": "Tăng Tốc Độ 6%.",
+            "cht": "速度提高6%"
         },
         "4p": {
             "en": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked.",
             "ru": "Повышает скорость всех союзников на 12%, когда владелец применяет сверхспособность к союзнику, на 1 ход. Эффект не складывается.",
-            "vn": "Khi người trang bị thi triển Tuyệt Kỹ lên mục tiêu phe ta, tốc độ toàn phe ta tăng 12%, duy trì 1 hiệp, hiệu ứng này không thể cộng dồn."
+            "vn": "Khi người trang bị thi triển Tuyệt Kỹ lên mục tiêu phe ta, tốc độ toàn phe ta tăng 12%, duy trì 1 hiệp, hiệu ứng này không thể cộng dồn.",
+            "cht": "當裝備者對我方目標施放終結技時，我方全體速度提高12%，持續1回合，該效果無法疊加。"
         }
     },
     "musketeer-of-wild-wheat": {
@@ -355,12 +391,14 @@
         "2p": {
             "en": "ATK increases by 12%.",
             "ru": "Повышает силу атаки на 12%.",
-            "vn": "Tăng Tấn Công 12%."
+            "vn": "Tăng Tấn Công 12%.",
+            "cht": "攻擊力提高12%。"
         },
         "4p": {
             "en": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%.",
             "ru": "Повышает скорость владельца на 6%, также повышает наносимый его базовой атакой урон на 10%.",
-            "vn": "Tăng 6% tốc độ của người trang bị, sát thương Tấn Công Thường tăng 10%."
+            "vn": "Tăng 6% tốc độ của người trang bị, sát thương Tấn Công Thường tăng 10%.",
+            "cht": "使裝備者的速度提高6%、普通攻擊傷害提高10%。"
         }
     },
     "passerby-of-wandering-cloud": {
@@ -373,12 +411,14 @@
         "2p": {
             "en": "Increases Outgoing Healing by 10%.",
             "ru": "Повышает исходящее исцеление на 10%.",
-            "vn": "Tăng Lượng Trị Liệu 10%."
+            "vn": "Tăng Lượng Trị Liệu 10%.",
+            "cht": "治療量提高10%。"
         },
         "4p": {
             "en": "At the start of the battle, immediately regenerates 1 Skill Point.",
             "ru": "В начале боя восстанавливает 1 очко навыков.",
-            "vn": "Khi bắt đầu chiến đấu sẽ hồi ngay cho phe ta 1 điểm Chiến Kỹ."
+            "vn": "Khi bắt đầu chiến đấu sẽ hồi ngay cho phe ta 1 điểm Chiến Kỹ.",
+            "cht": "在戰鬥開始時，立即為我方恢復1個戰技點。"
         }
     },
     "pioneer-diver-of-dead-waters": {
@@ -393,12 +433,14 @@
         "2p": {
             "en": "Increases DMG dealt to enemies with debuffs by 12%.",
             "ru": "Повышает урон, наносимый противникам с ослаблениями, на 12%.",
-            "vn": "Sát thương gây ra cho kẻ địch bị ảnh hưởng bởi Hiệu Ứng Xấu tăng 12%."
+            "vn": "Sát thương gây ra cho kẻ địch bị ảnh hưởng bởi Hiệu Ứng Xấu tăng 12%.",
+            "cht": "對受負面狀態影響的敵人造成的傷害提高12%。"
         },
         "4p": {
             "en": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
             "ru": "Повышает крит. шанс на 4%. Крит. урон владельца, наносимый противникам с не менее, чем 2/3 ослаблениями, повышается на 8%/12% соответственно. После того как владелец накладывает ослабление на противника, указанные выше эффекты повышаются на 100% на 1 ход.",
-            "vn": "Tăng 4% Tỷ Lệ Bạo Kích, tăng 8%/12% Sát Thương Bạo Kích mà người trang bị gây cho kẻ địch rơi vào không dưới 2/3 Hiệu Ứng Xấu. Sau khi người trang bị thi triển Hiệu Ứng Xấu lên kẻ địch, hiệu ứng nói trên tăng 100%, duy trì 1 hiệp."
+            "vn": "Tăng 4% Tỷ Lệ Bạo Kích, tăng 8%/12% Sát Thương Bạo Kích mà người trang bị gây cho kẻ địch rơi vào không dưới 2/3 Hiệu Ứng Xấu. Sau khi người trang bị thi triển Hiệu Ứng Xấu lên kẻ địch, hiệu ứng nói trên tăng 100%, duy trì 1 hiệp.",
+            "cht": "暴擊率提高4%，裝備者對陷入至少2/3個負面效果的敵方目標造成的暴擊傷害提高8%/12%。裝備者對敵方目標施加負面效果後，上述效果提高100%，持續1回合。"
         }
     },
     "poet-of-mourning-collapse": {
@@ -412,12 +454,14 @@
         "2p": {
             "en": "Increases Quantum DMG by 10%.",
             "ru": "Повышает квантовый урон на 10%.",
-            "vn": "Tăng Sát Thương Lượng Tử 10%."
+            "vn": "Tăng Sát Thương Lượng Tử 10%.",
+            "cht": "量子屬性傷害提高10%。"
         },
         "4p": {
             "en": "Decreases the wearer's SPD by 8%. Before entering battle, if the wearer's SPD is lower than 110/95, increases the wearer's CRIT Rate by 20%/32%. This effect applies to the wearer's memosprite at the same time.",
             "ru": "Понижает скорость владельца на 8%. Если скорость владельца до начала боя ниже 110 или 95, то его крит. шанс повышается на 20% или 32% соответственно. Этот эффект также применяется к духу памяти владельца.",
-            "vn": "Khiến Tốc Độ của người trang bị giảm 8%. Trước khi vào chiến đấu, nếu Tốc Độ của trang bị dưới 110/95, sẽ khiến Tỷ Lệ Bạo Kích của người trang bị tăng 20%/32%. Hiệu ứng này đồng thời có hiệu lực với Linh Hồn Ký Ức của người trang bị."
+            "vn": "Khiến Tốc Độ của người trang bị giảm 8%. Trước khi vào chiến đấu, nếu Tốc Độ của trang bị dưới 110/95, sẽ khiến Tỷ Lệ Bạo Kích của người trang bị tăng 20%/32%. Hiệu ứng này đồng thời có hiệu lực với Linh Hồn Ký Ức của người trang bị.",
+            "cht": "使裝備者的速度降低8%。進入戰鬥前，若裝備者的速度小於110/95，使裝備者的暴擊率提高20%/32%。該效果同時對裝備者的憶靈生效。"
         }
     },
     "prisoner-in-deep-confinement": {
@@ -432,12 +476,14 @@
         "2p": {
             "en": "ATK increases by 12%.",
             "ru": "Повышает силу атаки на 12%.",
-            "vn": "Tấn Công tăng 12%"
+            "vn": "Tấn Công tăng 12%",
+            "cht": "攻擊力提高12%。"
         },
         "4p": {
             "en": "For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.",
             "ru": "За каждый имеющийся у противника эффект с периодическим уроном (до макс. 3) при нанесении урона владелец игнорирует 6% от защиты этого противника.",
-            "vn": "Mỗi khi kẻ địch nhận phải 1 hiệu ứng Sát Thương Duy Trì, thì sát thương người trang bị gây ra cho kẻ đó sẽ bỏ qua 6% Phòng Thủ của kẻ đó. Hiệu ứng này có hiệu lực với tối đa 3 hiệu ứng Sát Thương Duy Trì"
+            "vn": "Mỗi khi kẻ địch nhận phải 1 hiệu ứng Sát Thương Duy Trì, thì sát thương người trang bị gây ra cho kẻ đó sẽ bỏ qua 6% Phòng Thủ của kẻ đó. Hiệu ứng này có hiệu lực với tối đa 3 hiệu ứng Sát Thương Duy Trì",
+            "cht": "敵方目標每承受1個持續傷害效果，裝備者對其造成傷害時便無視其6%的防禦力，最多計入3個持續傷害效果。"
         }
     },
     "sacerdos-relived-ordeal": {
@@ -451,12 +497,14 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "Повышает скорость на 6%.",
-            "vn": "Tốc Độ tăng 6%."
+            "vn": "Tốc Độ tăng 6%.",
+            "cht": "速度提高6%"
         },
         "4p": {
             "en": "When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
             "ru": "Использование навыка или сверхспособности на союзнике повышает крит. урон цели умения на 18% на 2 хода. Этот эффект может складываться до 2 раз.",
-            "vn": "Khi thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 mục tiêu phe ta, sẽ khiến Sát Thương Bạo Kích của mục tiêu kỹ năng tăng 18%, duy trì 2 hiệp, hiệu ứng này tối đa cộng dồn 2 lần."
+            "vn": "Khi thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 mục tiêu phe ta, sẽ khiến Sát Thương Bạo Kích của mục tiêu kỹ năng tăng 18%, duy trì 2 hiệp, hiệu ứng này tối đa cộng dồn 2 lần.",
+            "cht": ""
         }
     },
     "scholar-lost-in-erudition": {
@@ -471,12 +519,14 @@
         "2p": {
             "en": "Increases CRIT Rate by 8%.",
             "ru": "Повышает крит. шанс на 8%.",
-            "vn": "Tỷ Lệ Bạo Kích tăng 8%."
+            "vn": "Tỷ Lệ Bạo Kích tăng 8%.",
+            "cht": ""
         },
         "4p": {
             "en": "Increases DMG dealt by Skill and Ultimate by 20%. After using Ultimate, additionally increases the DMG dealt by the next Skill by 25%.",
             "ru": "Повышает урон навыка и сверхспособности на 20%. После использования сверхспособности урон следующего навыка повышается на 25%.",
-            "vn": "Sát thương Chiến Kỹ và Tuyệt Kỹ gây ra tăng 20%, sau khi thi triển Tuyệt Kỹ, sát thương gây ra trong lần thi triển Chiến Kỹ kế tiếp tăng thêm 25%."
+            "vn": "Sát thương Chiến Kỹ và Tuyệt Kỹ gây ra tăng 20%, sau khi thi triển Tuyệt Kỹ, sát thương gây ra trong lần thi triển Chiến Kỹ kế tiếp tăng thêm 25%.",
+            "cht": ""
         }
     },
     "self-enshrouded-recluse": {
@@ -490,12 +540,14 @@
         "2p": {
             "en": "Increases Shield Effect by 10%.",
             "ru": "Повышает поглощаемый наложенным щитом урон на 10%.",
-            "vn": "Sát Thương Bạo Kích tăng 10%."
+            "vn": "Sát Thương Bạo Kích tăng 10%.",
+            "cht": ""
         },
         "4p": {
             "en": "Increases Shield Effect provided by the wearer by 12%. When an ally target has a Shield provided by the wearer, the ally target's CRIT DMG increases by 15%.",
             "ru": "Повышает поглощаемый наложенным щитом урон на 12%. Пока союзник имеет наложенный владельцем щит, его крит. урон повышается на 15%.",
-            "vn": "Khiến lượng Khiên mà người trang bị cung cấp tăng 12%, khi mục tiêu phe ta có Khiên do người trang bị cung cấp, Sát Thương Bạo Kích tăng 15%."
+            "vn": "Khiến lượng Khiên mà người trang bị cung cấp tăng 12%, khi mục tiêu phe ta có Khiên do người trang bị cung cấp, Sát Thương Bạo Kích tăng 15%.",
+            "cht": ""
         }
     },
     "the-ashblazing-grand-duke": {
@@ -509,12 +561,14 @@
         "2p": {
             "en": "Increases the DMG dealt by Follow-Up ATK by 20%.",
             "ru": "Повышает урон бонус-атаки на 20%.",
-            "vn": "Sát thương Đòn Đánh Theo Sau gây ra tăng 20%."
+            "vn": "Sát thương Đòn Đánh Theo Sau gây ra tăng 20%.",
+            "cht": ""
         },
         "4p": {
             "en": "When the wearer uses Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK.",
             "ru": "Когда владелец выполняет бонус-атаку, его сила атаки повышается на 6% каждый раз, когда эта бонус-атака наносит урон. Этот эффект может складываться до 8 раз и длится 3 хода. Эффект снимается при следующем выполнении бонус-атаки владельцем.",
-            "vn": "Khi người trang bị thi triển Đòn Đánh Theo Sau, mỗi lần gây sát thương sẽ tăng 6% tấn công của người trang bị dựa theo số lần Đòn Đánh Theo Sau gây sát thương, tối đa cộng dồn 8 lần, duy trì 3 hiệp. Hiệu ứng này sẽ bị xóa khi người trang bị thi triển Đòn Đánh Theo Sau tiếp theo."
+            "vn": "Khi người trang bị thi triển Đòn Đánh Theo Sau, mỗi lần gây sát thương sẽ tăng 6% tấn công của người trang bị dựa theo số lần Đòn Đánh Theo Sau gây sát thương, tối đa cộng dồn 8 lần, duy trì 3 hiệp. Hiệu ứng này sẽ bị xóa khi người trang bị thi triển Đòn Đánh Theo Sau tiếp theo.",
+            "cht": ""
         }
     },
     "the-wind-soaring-valorous": {
@@ -529,12 +583,14 @@
         "2p": {
             "en": "Increases ATK by 12%.",
             "ru": "Повышает силу атаки на 12%.",
-            "vn": "Tấn Công tăng 12%."
+            "vn": "Tấn Công tăng 12%.",
+            "cht": "攻擊力提高12%"
         },
         "4p": {
             "en": "Increases the wearer's CRIT Rate by 6%. When the wearer uses a Follow-Up ATK, increases the DMG dealt by Ultimate by 36%, lasting for 1 turn(s).",
             "ru": "Повышает крит. шанс владельца на 6%. После выполнения бонус-атаки наносимый сверхспособностью владельца урон повышается на 36% на 1 ход.",
-            "vn": "Tăng 6% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Đòn Đánh Theo Sau, khiến sát thương Tuyệt Kỹ gây ra tăng 36%, duy trì 1 hiệp."
+            "vn": "Tăng 6% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Đòn Đánh Theo Sau, khiến sát thương Tuyệt Kỹ gây ra tăng 36%, duy trì 1 hiệp.",
+            "cht": ""
         }
     },
     "thief-of-shooting-meteor": {
@@ -547,12 +603,14 @@
         "2p": {
             "en": "Increases Break Effect by 16%.",
             "ru": "Повышает эффект пробития на 16%.",
-            "vn": "Tấn Công Kích Phá tăng 16%."
+            "vn": "Tấn Công Kích Phá tăng 16%.",
+            "cht": "擊破特攻提高16%。"
         },
         "4p": {
             "en": "Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemey, regenerates 3 Energy.",
             "ru": "Повышает эффект пробития владельца на 16%. Когда владелец пробивает уязвимость противника, восстанавливает 3 ед. энергии.",
-            "vn": "Tăng 16% Tấn Công Kích Phá của người trang bị. Sau khi người trang bị phá vỡ điểm yếu của kẻ địch, sẽ hồi 3 điểm Năng Lượng."
+            "vn": "Tăng 16% Tấn Công Kích Phá của người trang bị. Sau khi người trang bị phá vỡ điểm yếu của kẻ địch, sẽ hồi 3 điểm Năng Lượng.",
+            "cht": ""
         }
     },
     "warrior-goddess-of-sun-and-thunder": {
@@ -567,12 +625,14 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "Повышает скорость на 6%.",
-            "vn": "Tốc Độ tăng 6%."
+            "vn": "Tốc Độ tăng 6%.",
+            "cht": "速度提高6%"
         },
         "4p": {
             "en": "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for 2 turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by 6% and all allies' CRIT DMG increases by 15%. This effect cannot stack.",
             "ru": "Когда владелец или его дух памяти исцеляют союзников, кроме себя и своего духа памяти, владелец получает статус Нежный дождь, который может сработать 1 раз за ход и длится 2 хода. Скорость владельца со статусом Нежный дождь повышается на 6%, и крит. урон всех союзников повышается на 15%. Этот эффект не может складываться.",
-            "vn": "Sau khi người trang bị và Linh Hồn Ký Ức của người trang bị cung cấp trị liệu cho mục tiêu phe ta ngoại trừ người trang bị và Linh Hồn Ký Ức của họ, người trang bị sẽ nhận \"Cơn Mưa Ngọt Ngào\", mỗi hiệp kích hoạt tối đa 1 lần, kéo dài 2 hiệp. Khi người trang bị đang có \"Cơn Mưa Ngọt Ngào\", tốc độ tăng 6%, sát thương bạo kích toàn phe ta tăng 15%. Hiệu ứng này không thể cộng dồn."
+            "vn": "Sau khi người trang bị và Linh Hồn Ký Ức của người trang bị cung cấp trị liệu cho mục tiêu phe ta ngoại trừ người trang bị và Linh Hồn Ký Ức của họ, người trang bị sẽ nhận \"Cơn Mưa Ngọt Ngào\", mỗi hiệp kích hoạt tối đa 1 lần, kéo dài 2 hiệp. Khi người trang bị đang có \"Cơn Mưa Ngọt Ngào\", tốc độ tăng 6%, sát thương bạo kích toàn phe ta tăng 15%. Hiệu ứng này không thể cộng dồn.",
+            "cht": ""
         }
     },
     "wastelander-of-banditry-desert": {
@@ -588,12 +648,14 @@
         "2p": {
             "en": "Increases Imaginary DMG by 10%.",
             "ru": "Повышает мнимый урон на 10%.",
-            "vn": "Tăng Sát Thương Số Ảo 10%."
+            "vn": "Tăng Sát Thương Số Ảo 10%.",
+            "cht": ""
         },
         "4p": {
             "en": "When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies.",
             "ru": "Когда владелец наносит урон противнику с ослаблениями, его крит. шанс повышается на 10%, а когда владелец наносит урон противнику со статусом Заключение, его крит. урон повышается на 20%.",
-            "vn": "Khi người trang bị gây sát thương lên mục tiêu địch rơi vào Hiệu Ứng Xấu, Tỷ Lệ Bạo Kích tăng 10%, khi gây sát thương lên mục tiêu địch rơi vào trạng thái Giam Cầm, Sát Thương Bạo Kích tăng 20%."
+            "vn": "Khi người trang bị gây sát thương lên mục tiêu địch rơi vào Hiệu Ứng Xấu, Tỷ Lệ Bạo Kích tăng 10%, khi gây sát thương lên mục tiêu địch rơi vào trạng thái Giam Cầm, Sát Thương Bạo Kích tăng 20%.",
+            "cht": ""
         }
     },
     "watchmaker-master-of-dream-machinations": {
@@ -606,12 +668,14 @@
         "2p": {
             "en": "Increases Break Effect by 16%.",
             "ru": "Эффект пробития повышен на 16%.",
-            "vn": "Tấn Công Kích Phá tăng 16%."
+            "vn": "Tấn Công Kích Phá tăng 16%.",
+            "cht": ""
         },
         "4p": {
             "en": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.",
             "ru": "Когда владелец использует свою сверхспособность на союзнике, эффект пробития всех союзников повышается на 30% на 2 хода. Этот эффект не может складываться.",
-            "vn": "Khi người trang bị thi triển Tuyệt Kỹ lên mục tiêu phe ta, Tấn Công Kích Phá toàn phe ta tăng 30%, duy trì 2 hiệp, hiệu ứng này không thể cộng dồn."
+            "vn": "Khi người trang bị thi triển Tuyệt Kỹ lên mục tiêu phe ta, Tấn Công Kích Phá toàn phe ta tăng 30%, duy trì 2 hiệp, hiệu ứng này không thể cộng dồn.",
+            "cht": ""
         }
     },
     "wavestrider-captain": {
@@ -625,12 +689,14 @@
         "2p": {
             "en": "Increases CRIT DMG by 16%.",
             "ru": "Крит. урон повышается на 16%.",
-            "vn": "Sát Thương Bạo Kích tăng 16%."
+            "vn": "Sát Thương Bạo Kích tăng 16%.",
+            "cht": "暴擊傷害提高16%。"
         },
         "4p": {
             "en": "When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to 2 time(s). If there are 2 stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by 48% for 1 turn(s).",
             "ru": "Когда владелец становится целью умения другого союзника, он получает 1 ур. статуса Помощь, который может складываться до 2 раз. Если во время использования сверхспособности владелец имеет 2 ур. статуса Помощь, то он расходует все уровни этого статуса и повышает свою силу атаки на 48% на 1 ход.",
-            "vn": "Khi người trang bị trở thành mục tiêu kỹ năng của mục tiêu khác thuộc phe ta, sẽ nhận 1 tầng Trợ Lực, tối đa cộng dồn 2 tầng. Khi thi triển Tuyệt Kỹ, nếu có tầng Trợ Lực sẽ tiêu hao tất cả Trợ Lực, tăng 48% Tấn Công của người trang bị, duy trì 1 hiệp."
+            "vn": "Khi người trang bị trở thành mục tiêu kỹ năng của mục tiêu khác thuộc phe ta, sẽ nhận 1 tầng Trợ Lực, tối đa cộng dồn 2 tầng. Khi thi triển Tuyệt Kỹ, nếu có tầng Trợ Lực sẽ tiêu hao tất cả Trợ Lực, tăng 48% Tấn Công của người trang bị, duy trì 1 hiệp.",
+            "cht": ""
         }
     },
     "world-remaking-deliverer": {
@@ -645,12 +711,14 @@
         "2p": {
             "en": "Increases CRIT Rate by 8%.",
             "ru": "Повышает крит. шанс на 8%.",
-            "vn": "Tỷ Lệ Bạo Kích tăng 8%."
+            "vn": "Tỷ Lệ Bạo Kích tăng 8%.",
+            "cht": ""
         },
         "4p": {
             "en": "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' DMG by 15% until the wearer's next Basic ATK or Skill.",
             "ru": "Если после использования владельцем базовой атаки или навыка его дух памяти находится на поле боя, то макс. НР владельца и его духа памяти повышается на 24%, и наносимый всеми союзниками урон повышается на 15% до следующего использования владельцем базовой атаки или навыка.",
-            "vn": "Sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ, nếu Linh Hồn Ký Ức của người trang bị trong trận, sẽ khiến Giới Hạn HP của người trang bị và Linh Hồn Ký Ức của người đó tăng 24%, sát thương toàn bộ phe ta gây ra tăng 15%, duy trì đến sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ tiếp theo."
+            "vn": "Sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ, nếu Linh Hồn Ký Ức của người trang bị trong trận, sẽ khiến Giới Hạn HP của người trang bị và Linh Hồn Ký Ức của người đó tăng 24%, sát thương toàn bộ phe ta gây ra tăng 15%, duy trì đến sau khi người trang bị thi triển Tấn Công Thường hoặc Chiến Kỹ tiếp theo.",
+            "cht": ""
         }
     },
 
@@ -721,7 +789,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT Rate by 8%. While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked.",
             "ru": "Повышает крит. шанс владельца на 8%. Пока дух памяти владельца находится на поле боя, скорость всех союзников повышается на 8%. Этот эффект не может складываться.",
-            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng 8%. Khi Linh Hồn Ký Ức của người trang bị trong trận, Tốc Độ của toàn bộ phe ta tăng 8%, hiệu ứng này không thể cộng dồn."
+            "vn": "Khiến Tỷ Lệ Bạo Kích của người trang bị tăng 8%. Khi Linh Hồn Ký Ức của người trang bị trong trận, Tốc Độ của toàn bộ phe ta tăng 8%, hiệu ứng này không thể cộng dồn.",
+            "cht": ""
         }
     },
 
@@ -735,7 +804,8 @@
         "2p": {
             "en": "When there are currently more or less than 4 ally targets in battle, each additional/missing ally target increases the wearer and their memosprite's DMG by 9%/12%, up to a maximum of 4/3 stacks.",
             "ru": "Когда количество членов отряда на поле боя не равно 4, каждый лишний или отсутствующий союзник повышает наносимый владельцем и его духом памяти урон на 9% и 12% соответственно. Этот эффект может складываться до 4/3 раз.",
-            "vn": "Khi số lượng mục tiêu của đội ngũ phe ta ở trong trận hiện tại không bằng 4, mỗi khi thêm/mất 1 mục tiêu phe ta, sẽ khiến sát thương gây ra bởi người trang bị và Linh Hồn Ký Ức của người đó tăng 9%/12%, tối đa cộng dồn 4/3 tầng."
+            "vn": "Khi số lượng mục tiêu của đội ngũ phe ta ở trong trận hiện tại không bằng 4, mỗi khi thêm/mất 1 mục tiêu phe ta, sẽ khiến sát thương gây ra bởi người trang bị và Linh Hồn Ký Ức của người đó tăng 9%/12%, tối đa cộng dồn 4/3 tầng.",
+            "cht": ""
         }
     },
     "belobog-of-the-architects": {
@@ -749,7 +819,8 @@
         "2p": {
             "en": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
             "ru": "Повышает защиту владельца на 15%. Если шанс попадания эффектов владельца выше или равен 50%, то его защита повышается на доп. 15%.",
-            "vn": "Tăng 15% Phòng Thủ của người trang bị. Khi Chính Xác Hiệu Ứng của người trang bị từ 50% trở lên, Phòng Thủ tăng thêm 15%."
+            "vn": "Tăng 15% Phòng Thủ của người trang bị. Khi Chính Xác Hiệu Ứng của người trang bị từ 50% trở lên, Phòng Thủ tăng thêm 15%.",
+            "cht": ""
         }
     },
     "bone-collections-serene-demesne": {
@@ -763,7 +834,8 @@
         "2p": {
             "en": "Increases the wearer's Max HP by 12%. When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%.",
             "ru": "Повышает макс. НР владельца на 12%. Когда макс. НР владельца становится больше или равно 5000 ед., крит. урон владельца и его духа памяти повышается на 28%.",
-            "vn": "Tăng 12% Giới Hạn HP của người trang bị. Khi Giới Hạn HP của người trang bị lớn hơn hoặc bằng 5000, sẽ tăng 28% Sát Thương Bạo Kích của người trang bị và Linh Hồn Ký Ức của người đó."
+            "vn": "Tăng 12% Giới Hạn HP của người trang bị. Khi Giới Hạn HP của người trang bị lớn hơn hoặc bằng 5000, sẽ tăng 28% Sát Thương Bạo Kích của người trang bị và Linh Hồn Ký Ức của người đó.",
+            "cht": "生命上限提高12%。"
         }
     },
     "broken-keel": {
@@ -777,7 +849,8 @@
         "2p": {
             "en": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.",
             "ru": "Повышает сопротивление эффектам владельца на 10%. Если сопротивление эффектам владельца выше или равно 30%, крит. урон всех союзников повышается на 10%.",
-            "vn": "Tăng 10% Kháng Hiệu Ứng của người trang bị. Khi Kháng Hiệu Ứng của người trang bị từ 30% trở lên, Sát Thương Bạo Kích của toàn bộ phe ta tăng 10%."
+            "vn": "Tăng 10% Kháng Hiệu Ứng của người trang bị. Khi Kháng Hiệu Ứng của người trang bị từ 30% trở lên, Sát Thương Bạo Kích của toàn bộ phe ta tăng 10%.",
+            "cht": ""
         }
     },
     "celestial-differentiator": {
@@ -791,7 +864,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.",
             "ru": "Повышает крит. урон владельца на 16%. Если крит. урон владельца выше или равен 120%, то в начале боя крит. шанс владельца повышается на 60% до конца его первой атаки.",
-            "vn": "Khiến sát thương Bạo Kích của người trang bị tăng 16%. Khi sát thương Bạo Kích của người trang bị từ 120% trở lên, sau khi vào chiến đấu, Tỷ Lệ Bạo Kích của người trang bị tăng 60%, duy trì đến khi kết thúc thi triển lần đầu tấn công."
+            "vn": "Khiến sát thương Bạo Kích của người trang bị tăng 16%. Khi sát thương Bạo Kích của người trang bị từ 120% trở lên, sau khi vào chiến đấu, Tỷ Lệ Bạo Kích của người trang bị tăng 60%, duy trì đến khi kết thúc thi triển lần đầu tấn công.",
+            "cht": ""
         }
     },
     "city-of-converging-stars": {
@@ -805,7 +879,8 @@
         "2p": {
             "en": "When the wearer uses a Follow-Up ATK, increases their ATK by 24% for 2 turns. When an enemy target is defeated, increases CRIT DMG for all allies by 12% for the rest of the current battle. This effect cannot stack.",
             "ru": "При бонус-атаке повышает силу атаки владельца на 24% на 2 хода. После победы над противником повышает крит. урон всех союзников на 12% на весь бой. Этот эффект не складывается.",
-            "vn": "Khi người trang bị thi triển Đòn Đánh Theo Sau, Tấn Công tăng 24%, duy trì 2 hiệp. Khi mục tiêu phe địch bị tiêu diệt, Sát Thương Bạo Kích toàn phe ta trong trận này tăng 12%, hiệu ứng này không thể cộng dồn."
+            "vn": "Khi người trang bị thi triển Đòn Đánh Theo Sau, Tấn Công tăng 24%, duy trì 2 hiệp. Khi mục tiêu phe địch bị tiêu diệt, Sát Thương Bạo Kích toàn phe ta trong trận này tăng 12%, hiệu ứng này không thể cộng dồn.",
+            "cht": ""
         }
     },
     "cosmic-life-sciences-institute": {
@@ -818,7 +893,8 @@
         "2p": {
             "en": "When entering combat, if the wearer's Max Energy is greater than or equal to 200, for every 1 excess point, increases the wearer's DMG dealt by 0.2%, up to a max increase of 32%.",
             "ru": "В начале боя, если максимальная энергия владельца равна или превышает 200 ед., за каждую 1 единицу свыше этого значения повышает наносимый владельцем урон на 0,2% до макс. 32%.",
-            "vn": "Khi vào chiến đấu, nếu Giới Hạn Năng Lượng của người trang bị lớn hơn hoặc bằng 200 điểm, cứ vượt quá 1 điểm sẽ khiến sát thương do người trang bị gây ra tăng 0.2%, tối đa tăng 32%."
+            "vn": "Khi vào chiến đấu, nếu Giới Hạn Năng Lượng của người trang bị lớn hơn hoặc bằng 200 điểm, cứ vượt quá 1 điểm sẽ khiến sát thương do người trang bị gây ra tăng 0.2%, tối đa tăng 32%.",
+            "cht": ""
         }
     },
     "duran-dynasty-of-running-wolves": {
@@ -832,7 +908,8 @@
         "2p": {
             "en": "When an ally uses Follow-Up ATKs, the wearer gains 1 stack of Merit, stacking up to 5 time(s). Each stack of Merit increases the DMG dealt by the wearer's Follow-Up ATKs by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%.",
             "ru": "Когда союзник выполняет бонус-атаку, владелец получает 1 ур. статуса Подвиг, до макс. 5 ур. Каждый уровень этого статуса повышает урон бонус-атаки владельца на 5%. Когда статус Подвиг достигает 5 ур., крит. урон владельца дополнительно повышается на 25%.",
-            "vn": "Khi nhân vật phe ta thi triển Đòn Đánh Theo Sau, người trang bị sẽ nhận 1 tầng Công Huân, tối đa cộng dồn 5 tầng. Mỗi tầng Công Huân sẽ khiến sát thương Đòn Đánh Theo Sau của người trang bị gây ra tăng 5%, khi cộng dồn đầy 5 tầng, tăng thêm 25% Sát Thương Bạo Kích của người trang bị."
+            "vn": "Khi nhân vật phe ta thi triển Đòn Đánh Theo Sau, người trang bị sẽ nhận 1 tầng Công Huân, tối đa cộng dồn 5 tầng. Mỗi tầng Công Huân sẽ khiến sát thương Đòn Đánh Theo Sau của người trang bị gây ra tăng 5%, khi cộng dồn đầy 5 tầng, tăng thêm 25% Sát Thương Bạo Kích của người trang bị.",
+            "cht": ""
         }
     },
     "fallen-star-anchorage": {
@@ -846,7 +923,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT Rate by 8%. When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32%.",
             "ru": "Повышает крит. шанс владельца на 8%. В начале боя, если владелец и ещё один союзник - компаньоны по Освоению, повышает крит. урон владельца на 32%.",
-            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi vào chiến đấu, nếu người trang bị và một đồng đội khác đều là nhân vật Đồng Hành Khai Phá, tăng 32% Sát Thương Bạo Kích của người trang bị."
+            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi vào chiến đấu, nếu người trang bị và một đồng đội khác đều là nhân vật Đồng Hành Khai Phá, tăng 32% Sát Thương Bạo Kích của người trang bị.",
+            "cht": ""
         }
     },
     "firmament-frontline-glamoth": {
@@ -860,7 +938,8 @@
         "2p": {
             "en": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
             "ru": "Повышает силу атаки владельца на 12%. Если скорость владельца выше или равна 135/160 ед., то наносимый им урон повышается на 12%/18%.",
-            "vn": "Tăng 12% Tấn Công của người trang bị. Khi tốc độ của người trang bị từ 135/160 trở lên, sát thương do người trang bị gây ra tăng 12%/18%."
+            "vn": "Tăng 12% Tấn Công của người trang bị. Khi tốc độ của người trang bị từ 135/160 trở lên, sát thương do người trang bị gây ra tăng 12%/18%.",
+            "cht": ""
         }
     },
     "fleet-of-the-ageless": {
@@ -874,7 +953,8 @@
         "2p": {
             "en": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
             "ru": "Повышает макс. НР владельца на 12%. Если скорость владельца выше или равна 120 ед., то сила атаки всех союзников повышается на доп. 8%.",
-            "vn": "Tăng 12% Giới Hạn HP của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, Tấn Công của toàn phe ta tăng 8%."
+            "vn": "Tăng 12% Giới Hạn HP của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, Tấn Công của toàn phe ta tăng 8%.",
+            "cht": "使裝備者的生命上限提高12%。當裝備者的速度大於等於120時，我方全體攻擊力提高8%。"
         }
     },
     "forge-of-the-kalpagni-lantern": {
@@ -888,7 +968,8 @@
         "2p": {
             "en": "Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn(s).",
             "ru": "Повышает скорость владельца на 6%. Если владелец поражает противника с огненной уязвимостью, его эффект пробития повышается на 40% на 1 ход.",
-            "vn": "Tăng 6% Tốc Độ của người trang bị. Khi người trang bị đánh trúng kẻ địch có Điểm Yếu Hỏa, Tấn Công Kích Phá tăng 40%, duy trì 1 hiệp."
+            "vn": "Tăng 6% Tốc Độ của người trang bị. Khi người trang bị đánh trúng kẻ địch có Điểm Yếu Hỏa, Tấn Công Kích Phá tăng 40%, duy trì 1 hiệp.",
+            "cht": "速度提高6%"
         }
     },
     "giant-tree-of-rapt-brooding": {
@@ -902,7 +983,8 @@
         "2p": {
             "en": "Increases the wearer's SPD by 6%. When the wearer's Speed is 135/180 or higher, increases the wearer and their memosprite's Outgoing Healing by 12%/20%.",
             "ru": "Повышает скорость владельца на 6%. Если скорость владельца выше или равна 135/180 ед., то исходящее исцеление владельца и его духа памяти повышается на 12%/20%.",
-            "vn": "Khiến Tốc Độ của người trang bị tăng 6%. Khi Tốc Độ của người trang bị từ 135/180 trở lên, thì Lượng Trị Liệu của người trang bị và Linh Hồn Ký Ức của người đó sẽ tăng 12%/20%."
+            "vn": "Khiến Tốc Độ của người trang bị tăng 6%. Khi Tốc Độ của người trang bị từ 135/180 trở lên, thì Lượng Trị Liệu của người trang bị và Linh Hồn Ký Ức của người đó sẽ tăng 12%/20%.",
+            "cht": "速度提高6%"
         }
     },
     "inert-salsotto": {
@@ -917,7 +999,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and Follow-Up ATK DMG increases by 15%.",
             "ru": "Повышает крит. шанс владельца на 8%. Если крит. шанс владельца не ниже 50%, урон его сверхспособности и бонус-атаки повышается на 15%.",
-            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi Tỷ Lệ Bạo Kích của người đó từ 50% trở lên, sẽ tăng 15% sát thương của Tuyệt Kỹ và Đòn Đánh Theo Sau."
+            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi Tỷ Lệ Bạo Kích của người đó từ 50% trở lên, sẽ tăng 15% sát thương của Tuyệt Kỹ và Đòn Đánh Theo Sau.",
+            "cht": ""
         }
     },
     "izumo-gensei-and-takama-divine-realm": {
@@ -931,7 +1014,8 @@
         "2p": {
             "en": "Increases the wearer's ATK by 12%. When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.",
             "ru": "Сила атаки владельца повышается на 12%. Если в начале боя есть хотя бы один союзник, идущий тем же Путём, что и владелец, крит. шанс владельца повышается на 12%.",
-            "vn": "Tăng 12% Tấn Công của người trang bị. Khi vào chiến đấu, nếu có ít nhất 1 đồng đội cùng Vận Mệnh với người trang bị, thì Tỷ Lệ Bạo Kích của người trang bị tăng 12%."
+            "vn": "Tăng 12% Tấn Công của người trang bị. Khi vào chiến đấu, nếu có ít nhất 1 đồng đội cùng Vận Mệnh với người trang bị, thì Tỷ Lệ Bạo Kích của người trang bị tăng 12%.",
+            "cht": ""
         }
     },
     "lushaka-the-sunken-seas": {
@@ -945,7 +1029,8 @@
         "2p": {
             "en": "Increases the wearer's Energy Regeneration Rate by 5%. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by 12%.",
             "ru": "Повышает скорость восстановления энергии владельца на 5%. Если владелец не находится на первом месте в отряде, то сила атаки персонажа, находящегося на первом месте в отряде, повышается на 12%.",
-            "vn": "Khiến Hiệu Suất Hồi Năng Lượng của người trang bị tăng 5%, nếu người trang bị không phải nhân vật vị trí đầu tiên trong đội, thì sẽ khiến Tấn Công của nhân vật ở vị trí đầu tiên trong đội tăng 12%."
+            "vn": "Khiến Hiệu Suất Hồi Năng Lượng của người trang bị tăng 5%, nếu người trang bị không phải nhân vật vị trí đầu tiên trong đội, thì sẽ khiến Tấn Công của nhân vật ở vị trí đầu tiên trong đội tăng 12%.",
+            "cht": ""
         }
     },
     "pan-cosmic-commercial-enterprise": {
@@ -959,7 +1044,8 @@
         "2p": {
             "en": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of Effect Hit Rate, up to a maximum of 25%.",
             "ru": "Повышает шанс попадания эффектов владельца на 10%. Также повышает силу атаки владельца на 25% от текущего шанса попадания эффектов. Этот эффект может складываться до 25%.",
-            "vn": "Tăng 10% Chính Xác Hiệu Ứng của người trang bị. Đồng thời tăng Tấn Công bằng 25% Chính Xác Hiệu Ứng hiện tại của người trang bị, tối đa tăng 25%."
+            "vn": "Tăng 10% Chính Xác Hiệu Ứng của người trang bị. Đồng thời tăng Tấn Công bằng 25% Chính Xác Hiệu Ứng hiện tại của người trang bị, tối đa tăng 25%.",
+            "cht": ""
         }
     },
 
@@ -974,7 +1060,8 @@
         "2p": {
             "en": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.",
             "ru": "Повышает скорость восстановления энергии на 5%. Увеличивает урон, наносимый союзниками одного типа с владельцем, на 10%.",
-            "vn": "Tăng 5% hiệu suất hồi Năng Lượng của người trang bị. Khiến nhân vật khác trong đội của phe ta có cùng thuộc tính với người trang bị tăng 10% sát thương gây ra."
+            "vn": "Tăng 5% hiệu suất hồi Năng Lượng của người trang bị. Khiến nhân vật khác trong đội của phe ta có cùng thuộc tính với người trang bị tăng 10% sát thương gây ra.",
+            "cht": ""
         }
     },
     "punklorde-stage-zero": {
@@ -988,7 +1075,8 @@
         "2p": {
             "en": "Increases the wearer's Elation by 8%. When Elation reaches 40%/80% for the first time in battle, increases the wearer's CRIT DMG by 20%/32%.",
             "ru": "Повышает уровень Радости владельца на 8%. Когда уровень Радости в бою впервые достигает 40%/80%, повышает крит. урон владельца на 20%/32%.",
-            "vn": "Khiến Độ Vui Vẻ của người trang bị tăng 8%. Trong chiến đấu, khi Độ Vui Vẻ lần đầu đạt 40%/80%, khiến Sát Thương Bạo Kích của người trang bị tăng 20%/32%."
+            "vn": "Khiến Độ Vui Vẻ của người trang bị tăng 8%. Trong chiến đấu, khi Độ Vui Vẻ lần đầu đạt 40%/80%, khiến Sát Thương Bạo Kích của người trang bị tăng 20%/32%.",
+            "cht": ""
         }
     },
     "sigonia-the-unclaimed-desolation": {
@@ -1002,7 +1090,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s).",
             "ru": "Крит. шанс владельца повышается на 4%. Победа над противником повышает крит. урон владельца на 4%. Этот эффект может складываться до 10 раз.",
-            "vn": "Khiến tỷ lệ Bạo Kích của người trang bị tăng 4%. Khi kẻ địch bị tiêu diệt, Sát Thương Bạo Kích của người trang bị tăng 4%, tối đa cộng dồn 10 tầng."
+            "vn": "Khiến tỷ lệ Bạo Kích của người trang bị tăng 4%. Khi kẻ địch bị tiêu diệt, Sát Thương Bạo Kích của người trang bị tăng 4%, tối đa cộng dồn 10 tầng.",
+            "cht": ""
         }
     },
     "revelry-by-the-sea": {
@@ -1016,7 +1105,8 @@
         "2p": {
             "en": "Increases the wearer's ATK by 12%. When the wearer's ATK is higher than or equal to 2,400/3,600, increases the DoT DMG dealt by 12%/24%.",
             "ru": "Сила атаки владельца повышается на 12%. Если сила атаки владельца выше или равна 2400/3600 ед., то наносимый периодический урон дополнительно повышается на 12%/24%.",
-            "vn": "Khiến Tấn Công của người trang bị tăng 12%. Khi Tấn Công của người trang bị lớn hơn hoặc bằng 2400/3600, sẽ khiến Sát Thương Duy Trì gây ra tăng thêm 12%/24%."
+            "vn": "Khiến Tấn Công của người trang bị tăng 12%. Khi Tấn Công của người trang bị lớn hơn hoặc bằng 2400/3600, sẽ khiến Sát Thương Duy Trì gây ra tăng thêm 12%/24%.",
+            "cht": ""
         }
     },
     "rutilant-arena": {
@@ -1031,7 +1121,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%.",
             "ru": "Повышает крит. шанс владельца на 8%. Если крит. шанс владельца не меньше 70%, наносимый базовой атакой и навыком урон повышается на 20%.",
-            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi Tỷ Lệ Bạo Kích của người đó từ 70% trở lên, sẽ tăng 20% sát thương gây ra khi thi triển Tấn Công Thường hoặc Chiến Kỹ"
+            "vn": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi Tỷ Lệ Bạo Kích của người đó từ 70% trở lên, sẽ tăng 20% sát thương gây ra khi thi triển Tấn Công Thường hoặc Chiến Kỹ",
+            "cht": ""
         }
     },
     "space-sealing-station": {
@@ -1044,7 +1135,8 @@
         "2p": {
             "en": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.",
             "ru": "Повышает силу атаки владельца на 12%. Если скорость владельца выше или равна 120 ед., то его сила атаки повышается на доп. 12%.",
-            "vn": "Tăng 12% Tấn Công của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, Tấn Công tăng thêm 12%."
+            "vn": "Tăng 12% Tấn Công của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, Tấn Công tăng thêm 12%.",
+            "cht": ""
         }
     },
 
@@ -1059,7 +1151,8 @@
         "2p": {
             "en": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.",
             "ru": "Повышает скорость восстановления энергии владельца на 5%. Если скорость владельца выше или равна 120 ед., то в начале боя его действие продвигается вперёд на 40%.",
-            "vn": "Tăng 5% hiệu suất hồi Năng Lượng của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, vào chiến đấu sẽ lập tức Ưu Tiên Hành Động 40%."
+            "vn": "Tăng 5% hiệu suất hồi Năng Lượng của người trang bị. Khi tốc độ của người trang bị từ 120 trở lên, vào chiến đấu sẽ lập tức Ưu Tiên Hành Động 40%.",
+            "cht": ""
         }
     },
     "talia-kingdom-of-banditry": {
@@ -1072,7 +1165,8 @@
         "2p": {
             "en": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%.",
             "ru": "Повышает эффект пробития владельца на 16%. Если скорость владельца выше или равна 145 ед., то его эффект пробития повышается на доп. 20%.",
-            "vn": "Tăng 16% Tấn Công Kích Phá của người trang bị. Khi tốc độ của người trang bị từ 145 trở lên, Tấn Công Kích Phá tăng thêm 20%."
+            "vn": "Tăng 16% Tấn Công Kích Phá của người trang bị. Khi tốc độ của người trang bị từ 145 trở lên, Tấn Công Kích Phá tăng thêm 20%.",
+            "cht": ""
         }
     },
     "tengoku-livestream": {
@@ -1086,7 +1180,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT DMG by 16%, If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32% for 3 turns.",
             "ru": "Повышает крит. урон владельца на 16%. Если в течение одного хода расходуется 3 или более очков навыков, крит. урон владельца дополнительно повышается на 32% на 3 хода.",
-            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng 16%. Nếu trong cùng một hiệp tiêu hao từ 3 Điểm Chiến Kỹ trở lên, sẽ khiến Sát Thương Bạo Kích của người trang bị tăng thêm 32%, duy trì 3 hiệp."
+            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng 16%. Nếu trong cùng một hiệp tiêu hao từ 3 Điểm Chiến Kỹ trở lên, sẽ khiến Sát Thương Bạo Kích của người trang bị tăng thêm 32%, duy trì 3 hiệp.",
+            "cht": ""
         }
     },
     "the-wondrous-bananamusement-park": {
@@ -1099,7 +1194,8 @@
         "2p": {
             "en": "Increases the wearer's CRIT DMG by 16%. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%.",
             "ru": "Повышает крит. урон владельца на 16%. Если на поле боя есть призванные владельцем существа, то крит. урон владельца повышается на доп. 32%.",
-            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng 16%, khi tồn tại mục tiêu mà người trang bị triệu hồi, Sát Thương Bạo Kích sẽ tăng thêm 32%."
+            "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng 16%, khi tồn tại mục tiêu mà người trang bị triệu hồi, Sát Thương Bạo Kích sẽ tăng thêm 32%.",
+            "cht": ""
         }
     }
     
