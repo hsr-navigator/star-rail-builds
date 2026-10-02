@@ -1,0 +1,189 @@
+{
+    "id": "archer",
+    "name": "Archer",
+    "rarity": 5,
+    "type": "quantum",
+    "path": "hunt",
+    "version_released": "3.4",
+    "collaboration": "Fate/stay night: Unlimited Blade Works",
+    "max_energy": 220,
+    "max_charge": 4,
+    "level_80_stats": {
+        "hp": 1011,
+        "atk": 739,
+        "def": 422,
+        "spd": 105
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "干將•莫邪",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "對指定敵方單體造成等同於Archer{{damage}}%攻擊力的量子屬性傷害。",
+            "scaling": {
+                "damage": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "偽•螺旋劍",
+            "tag": "單體攻擊",
+            "energy_gain": 30,
+            "break": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "進入【迴路連接】狀態。對指定敵方單體造成等同於Archer{{damage}}%攻擊力的量子屬性傷害。【迴路連接】狀態下施放戰技後，本回合不會結束，並使Archer戰技造成的傷害提高100%，該效果可以疊加2層，持續至退出【迴路連接】狀態。主動施放5次戰技後或戰技點不足以再次施放戰技則退出【迴路連接】狀態。每一波中的所有敵方目標被消滅後會退出【迴路連接】狀態。",
+            "scaling": {
+                "damage": [
+                    180.0,
+                    198.0,
+                    216.0,
+                    234.0,
+                    252.0,
+                    270.0,
+                    292.5,
+                    315.0,
+                    337.5,
+                    360.0,
+                    378.0,
+                    396.0
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "無限劍製",
+            "tag": "單體攻擊",
+            "energy_cost": 220,
+            "energy_gain": 5,
+            "break": 30,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "對指定敵方單體造成等同於Archer {{damage}}%攻擊力的量子屬性傷害，並獲得2點充能，最多可擁有4點充能。",
+            "scaling": {
+                "damage": [
+                    500.0,
+                    550.0,
+                    600.0,
+                    650.0,
+                    700.0,
+                    750.0,
+                    812.5,
+                    875.0,
+                    937.5,
+                    1000.0,
+                    1060.0,
+                    1120.0
+                ]
+            }
+        },
+        "talent": {
+            "type": "天賦",
+            "name": "心眼（真）",
+            "tag": "單體攻擊",
+            "energy_gain": 5,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "當Archer的隊友對敵方目標發動攻擊後，Archer消耗1點充能，立即對主目標發動追加攻擊，造成等同於Archer {{damage}}% 攻擊力的量子屬性傷害，並恢復1個戰技點。若本次追加攻擊施放前目標被消滅則對敵方隨機單體發動追加攻擊。",
+            "scaling": {
+                "damage": [
+                    100.0,
+                    110.0,
+                    120.0,
+                    130.0,
+                    140.0,
+                    150.0,
+                    162.5,
+                    175.0,
+                    187.5,
+                    200.0,
+                    210.0,
+                    220.0
+                ]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "千里眼",
+            "break": 20,
+            "description": "立即攻擊敵人，進入戰鬥後對敵方全體造成等同於Archer 200%攻擊力的量子屬性傷害，並獲得1點充能。"
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "投影魔術",
+            "description": "Archer在場時，戰技點上限額外增加2點。"
+        },
+        "4": {
+            "name": "正義夥伴",
+            "description": "Archer進入戰鬥時獲得1點充能。"
+        },
+        "6": {
+            "name": "守護者",
+            "description": "我方獲得戰技點後，若戰技點大於等於4點，Archer的暴擊傷害提高120%，持續1回合"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "傷害強化•量子",
+            "value": "+22.4%"
+        },
+        {
+            "stat": "攻擊強化",
+            "value": "+18%"
+        },
+        {
+            "stat": "暴擊率強化",
+            "value": "+6.7%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "未曾觸及的理想",
+            "description": "單個回合內施放3次戰技後，為我方恢復2個戰技點。"
+        },
+        {
+            "level": 2,
+            "name": "未能實現的幸福",
+            "description": "施放終結技時，使敵方目標的量子屬性的抗性降低20%，並為其附加量子屬性弱點，持續2回合。"
+        },
+        {
+            "level": 3,
+            "name": "難為凡庸的意氣",
+            "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 4,
+            "name": "難稱英雄的一生",
+            "description": "造成的終結技傷害提高150%。"
+        },
+        {
+            "level": 5,
+            "name": "無銘孤影的守望",
+            "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 6,
+            "name": "無盡徘徊的巡禮",
+            "description": "回合開始時為我方恢復1個戰技點。自身戰技提供的傷害提高效果可以疊加的上限層數提高1層。造成的戰技傷害無視20%的防禦力。"
+        }
+    ]
+}
