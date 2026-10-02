@@ -1,21 +1,25 @@
 {
     "best": true,
     "name": {
-        "en": "Main DPS"
+        "en": "Main DPS",
+        "cht": "主C"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- When Jingliu uses her Skill or Ultimate, she gains 1 stack of \"Syzygy\". When she has 2 \"Syzygy\" stacks, Jingliu enters the \"Spectral Transmigration\" state, advances herself, gains an extra \"Syzygy\" stack, and increase the \"Syzygy\" cap to 4. In this state, Jingliu gains [[stat:cr]] and can only use Enhanced Skill.\n- When Jingliu uses Enhanced Skill, she consumes allies' HP and a stack of \"Syzygy\" to launch a Blast ATK.\n- Whenever allies' HP is reduced, she gains Moonlight stacks, which increases [[stat:cd]]. Additionally, when allies' HP are reduced 20 times, gains 1 \"Syzygy\" stack.\n- Jingliu's performance is heavily dependent on Hyacine. Hyacine E0S1 is especially important for Jingliu, as they allow her to maintain a full uptime on her \"Spectral Transmigration\" state on top of a solid HP buff."
+            "en": "- When Jingliu uses her Skill or Ultimate, she gains 1 stack of \"Syzygy\". When she has 2 \"Syzygy\" stacks, Jingliu enters the \"Spectral Transmigration\" state, advances herself, gains an extra \"Syzygy\" stack, and increase the \"Syzygy\" cap to 4. In this state, Jingliu gains [[stat:cr]] and can only use Enhanced Skill.\n- When Jingliu uses Enhanced Skill, she consumes allies' HP and a stack of \"Syzygy\" to launch a Blast ATK.\n- Whenever allies' HP is reduced, she gains Moonlight stacks, which increases [[stat:cd]]. Additionally, when allies' HP are reduced 20 times, gains 1 \"Syzygy\" stack.\n- Jingliu's performance is heavily dependent on Hyacine. Hyacine E0S1 is especially important for Jingliu, as they allow her to maintain a full uptime on her \"Spectral Transmigration\" state on top of a solid HP buff.",
+            "cht": "- 當鏡流用戰技/終結技時，她會獲得一層【朔望】。有2層【朔望】後就進入【轉魄】狀態，行動提前，獲得更多【朔望】層數並提高上限至4層。在【轉魄】期間，鏡流的[[stat:cr]]提高，並且只能用強化戰技。\n- 當鏡流用強化戰技，會消耗隊友生命值和一層【朔望】來造成擴散傷害。\n- 每當隊友血量降低，她會獲得一層【月色】，並提高[[stat:cd]]。當隊友血量累積減少20次後會獲得一層【朔望】。\n- 鏡流的表現一定程度依賴01風堇，畢竟全隊燒血機制可以有效維持【轉魄】狀態，同時還能獲得生命加成和維持血線。"
 
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 > S1 [[light-cone:flame-of-blood-blaze-my-path]] > S1"
+                "en": "E1 > S1 [[light-cone:flame-of-blood-blaze-my-path]] > S1",
+                "cht": "星魂1 > 疊影1 [[light-cone:flame-of-blood-blaze-my-path]] > 疊影1 [[light-cone:i-shall-be-my-own-sword]]"
             },
             "details": {
-                "en": "- E1 increases her [[stat:cd]] and allows Jingliu to deal additional damage to the primary target, increasing Jingliu's strength in single-target combats.\n- S1 [[light-cone:flame-of-blood-blaze-my-path]] gives better damage increase than her own S1 [[light-cone:i-shall-be-my-own-sword]] and also contributes to generating \"Syzygy\" stacks."
+                "en": "- E1 increases her [[stat:cd]] and allows Jingliu to deal additional damage to the primary target, increasing Jingliu's strength in single-target combats.\n- S1 [[light-cone:flame-of-blood-blaze-my-path]] gives better damage increase than her own S1 [[light-cone:i-shall-be-my-own-sword]] and also contributes to generating \"Syzygy\" stacks.",
+                "cht": "- 她的星魂1提高[[stat:cd]]，讓她可以對主目標打出更高傷害，對單環境中比較有優勢。\n- 疊影1的[[light-cone:flame-of-blood-blaze-my-path]] 對她的提升比自己的專 [[light-cone:i-shall-be-my-own-sword]]還高，同時還能提供【朔望】疊層。"
             }
         }
     }
