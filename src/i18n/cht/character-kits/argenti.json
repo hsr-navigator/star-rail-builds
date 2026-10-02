@@ -1,0 +1,155 @@
+{
+    "id": "argenti",
+    "name": "銀枝",
+    "rarity": 5,
+    "type": "physical",
+    "path": "erudition",
+    "version_released": "1.5",
+    "max_energy": 180,
+    "level_80_stats": {
+        "hp": 1048,
+        "atk": 737,
+        "def": 364,
+        "spd": 103
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "芬芳一現",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "對指定敵方單體造成等同於銀枝{{damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "damage": [50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0]
+            }
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "公正，此處盛放",
+            "tag": "群體攻擊",
+            "energy_gain": 30,
+            "break_aoe": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "對敵方全體造成等同於銀枝{{skill_damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "skill_damage": [60.0, 66.0, 72.0, 78.0, 84.0, 90.0, 97.5, 105.0, 112.5, 120.0, 126.0, 132.0]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "駐於花庭，賜與盡美",
+            "tag": "群體攻擊",
+            "energy_cost": 90,
+            "energy_gain": 5,
+            "break_aoe": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "消耗90點能量，對敵方全體造成等同於銀枝{{ult_damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "ult_damage": [96.0, 102.4, 108.8, 115.2, 121.6, 128.0, 136.0, 144.0, 152.0, 160.0, 166.4, 172.8]
+            },
+            "variants": [
+                {
+                "type": "終結技",
+                "name": "駐「我」華庭，授予至勳",
+                "tag": "群體攻擊",
+                "energy_cost": 180,
+                "energy_gain": 5,
+                "break_aoe": 20,
+                "break_bounce": 5,
+                "break_total": 50,
+                "description_template": "消耗180點能量，對敵方全體造成等同於銀枝{{first_hit}}%攻擊力的物理屬性傷害，並額外造成6次傷害，每次傷害對敵方膸機單體造成等同於銀枝{{bounce_hit}}%攻擊力的物理屬性傷害。",
+                "scaling": {
+                "first_hit": [168.0, 179.2, 190.4, 201.6, 212.8, 224.0, 238.0, 252.0, 266.0, 280.0, 291.2, 302.4],
+                "bounce_hit": [57.0, 60.8, 64.6, 68.4, 72.2, 76.0, 80.75, 85.5, 90.25, 95.0, 98.8, 102.6]
+                }
+                }
+            ]
+        },
+        "talent": {
+            "type": "天賦",
+            "name": "崇高的客體",
+            "tag": "強化",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "使用普通攻擊、戰技、終結技時，每命中1個敵方目標。便為銀枝恢復3點能量並獲得1層【升格】,使銀枝暴擊率提高{{crit_buff}}%.，該效果最多疊加10層。",
+            "scaling": {
+                "crit_buff": [1.0, 1.15, 1.3, 1.45, 1.6, 1.75, 1.9375, 2.125, 2.3125, 2.5, 2.65, 2.8]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "純粹高潔宣言",
+            "tag": "妨害",
+            "description": "使用秘技後使一定區域內的敵人陷入10秒的暈眩狀態，暈眩狀態下敵人不會主動攻擊我方目標。\n若主動攻擊陷入暈眩狀態的敵人，則進入戰鬥時，對敵方全體造成等同於銀枝80%攻擊力的物理屬性傷害，並使銀枝恢復15點能量。"
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "虔誠",
+            "description": "回合開始時，立即獲得1層【升格】。"
+        },
+        "4": {
+            "name": "慷慨",
+            "description": "在敵方目標進入戰鬥時，自身立即恢復2點能量。"
+        },
+        "6": {
+            "name": "勇氣",
+            "description": "對現有生命值百分比小於等於50%的敵方目標造成的傷害提高15%。"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "生命強化",
+            "value": "+10%"
+        },
+        {
+            "stat": "攻擊強化",
+            "value": "+28%"
+        },
+        {
+            "stat": "傷害強化•物理",
+            "value": "+14.4%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "審美王國的缺口",
+            "description": "每層【升格】額外使暴擊傷害提高4%。"
+        },
+        {
+            "level": 2,
+            "name": "瑪瑙石的謙卑",
+            "description": "施放終結技時，若敵方目標數量大於等於3個時，攻擊力提高40%，持續1回合"
+        },
+        {
+            "level": 3,
+            "name": "荊棘路的榮光",
+            "description": "戰技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 4,
+            "name": "號角的奉獻",
+            "description": "戰鬥開始時，獲得2層【升格】，並天賦的效果可疊加上限提高2層。"
+        },
+        {
+            "level": 5,
+            "name": "宇宙某處的雪",
+            "description": "終結技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 6,
+            "name": "「你」的光芒",
+            "description": "施放終結技時，無視敵方目標30%的防禦力。"
+        }
+    ]
+}
