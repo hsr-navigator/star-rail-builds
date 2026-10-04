@@ -1,0 +1,165 @@
+{
+  "id": "arlan",
+  "name": "阿蘭",
+  "rarity": 4,
+  "type": "lightning",
+  "path": "destruction",
+  "version_released": "1.0",
+  "max_energy": 110,
+
+  "level_80_stats": {
+    "hp": 1199,
+    "atk": 599,
+    "def": 330,
+    "spd": 102
+  },
+
+  "abilities": {
+    "basic": {
+      "type": "普攻",
+      "name": "如雷疾行",
+      "tag": "單體攻擊",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "對指定敵方單體造成等同於阿蘭{{damage}}%攻擊力的雷屬性傷害。",
+      "scaling": {
+        "damage": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      }
+    },
+
+    "skill": {
+      "type": "戰技",
+      "name": "禁錮解除",
+      "tag": "單體攻擊",
+      "energy_gain": 30,
+      "break": 20,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "消耗等同於阿蘭生命上限15%的生命值對指定敵方單體造成等同於阿蘭{{damage}}%攻擊力的雷屬性傷害。若生命值不足，則施放戰技時阿蘭的生命值降至1點。",
+      "scaling": {
+        "damage": [120, 132, 144, 156, 168, 180, 195, 210, 225, 240, 252, 264]
+
+      }
+    },
+
+    "ultimate": {
+      "type": "終結技",
+      "name": "狂者制裁",
+      "tag": "擴散",
+      "energy_cost": 110,
+      "energy_gain": 5,
+      "break_main": 20,
+      "break_adjacent": 20,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "對指定敵方單體造成等同於阿蘭{{main_damage}}%攻擊力的雷屬性傷害，同時對其相鄰目標造成等同於阿蘭{{adjacent_damage}}%攻擊力的雷屬性傷害。",
+      "scaling": {
+        "main_damage": [192, 204.8, 217.6, 230.4, 243.2, 256, 272, 288, 304, 320, 332.8, 345.6],
+        "adjacent_damage": [96,102.4, 108.8, 115.2, 121.6, 128, 136, 144, 152, 160, 166.4 , 172.8]
+      }
+    },
+
+    "talent": {
+      "type": "天賦",
+      "name": "至痛至怒",
+      "tag": "強化",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "根據阿蘭目前損失的生命值百分比獲得傷害加成，最多使阿蘭造成的傷害提高{{dmg_boost}}%",
+      "scaling": {
+        "dmg_boost": [36, 39.6, 43.2, 46.8, 50.4, 54, 58.5, 63, 67.5, 72, 75.6, 79.2]
+      }
+    },
+
+    "technique": {
+      "type": "秘技",
+      "name": "極速收割",
+      "break": 20,
+      "description": "立即攻擊敵人，進入戰鬥後對敵方全體造成等同於阿蘭80%攻擊力的雷屬性傷害。"
+    }
+  },
+
+  "major_traces": {
+    "2": {
+      "name": "甦生",
+      "description": "消滅敵方目標時，若生命值小於等於自身生命上限的30%，立即回復等同於自身生命上限20%的生命值。"
+    },
+
+    "4": {
+      "name": "堅忍",
+      "description": "對持續傷害類負面狀態的效果抗性提高50%。"
+    },
+
+    "6": {
+      "name": "抗禦",
+      "description": "進入戰鬥時，若現有生命值百分比小於等於50%，則阿蘭可以抵抗除持續傷害外的所有傷害。當阿蘭受到攻擊後，該效果解除。"
+    }
+  },
+
+  "stat_bonuses": [
+    {
+      "stat": "生命強化",
+      "value": "+10%"
+    },
+    {
+      "stat": "攻擊強化",
+      "value": "+28%"
+    },
+    {
+      "stat": "效果抗性強化",
+      "value": "+18%"
+    }
+  ],
+
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "萬死不辭",
+      "description": "當前生命值百分比小於等於50%時，戰技造成的傷害提高10%。"
+    },
+
+    {
+      "level": 2,
+      "name": "除制去縛",
+      "description": "施放戰技、終結技時，解除自身的1個負面效果。"
+    },
+
+    {
+      "level": 3,
+      "name": "重劍強攻",
+      "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+
+    {
+      "level": 4,
+      "name": "絕處反擊",
+      "description": "進入戰鬥後，受到致命攻擊時阿蘭不會陷入無法戰斗狀態，並立即回復至自身生命上限的25%。該效果在觸發1次後或持續2回合後自動解除。"
+    },
+
+    {
+      "level": 5,
+      "name": "全力傾注",
+      "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+
+    {
+      "level": 6,
+      "name": "以身作引",
+      "description": "當前生命值百分比小於等於50%時，終結技造成的傷害提高20%，且對相鄰目標的傷害倍率提高到與主目標相同的傷害倍率。"
+    }
+  ]
+}
