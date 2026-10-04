@@ -1,0 +1,249 @@
+{
+    "id": "blade",
+    "name": "刃",
+    "rarity": "5",
+    "type": "wind",
+    "path": "destruction",
+    "version_released": "1.2",
+    "max_energy": 130,
+    "level_80_stats": {
+        "hp": 1358,
+        "atk": 543,
+        "def": 485,
+        "spd": 97
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "支離劍",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "對指定敵方單體造成等同於刃{{scaling1}}%生命上限的風屬性傷害。",
+            "scaling": {
+                "scaling1": [
+                    25,
+                    30,
+                    35,
+                    40,
+                    45,
+                    50,
+                    55
+                ]
+            },
+            "variants": [
+                {
+                    "type": "強化普攻",
+                    "name": "無間劍樹",
+                    "tag": "擴散",
+                    "energy_gain": 30,
+                    "break_main": 20,
+                    "break_adjacent": 10,
+                    "min_level": 1,
+                    "max_level": 7,
+                    "default_level": 6,
+                    "description_template": "消耗等同於刃生命值上限10%的生命值，對指定敵方單體造成等同於刃{{scaling1}}%生命上限的風屬性傷害，同時對其相鄰目標造成等同於刃{{scaling2}}%生命上限的風屬性傷害。\n若現有生命值不足，則施放【無間劍樹】時刃的現有生命值降低至1點。\n【無間劍樹】無法恢復戰技點。",
+                    "scaling": {
+                        "scaling1": [
+                            65,
+                            78,
+                            91,
+                            104,
+                            117,
+                            130,
+                            143
+                        ],
+                        "scaling2": [
+                            26,
+                            31.2,
+                            36.4,
+                            41.6,
+                            46.8,
+                            52,
+                            57.2
+                        ]
+                    }
+                }
+            ]
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "地獄變",
+            "tag": "強化",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "消耗等同於刃生命上限30%的生命值，進入【地獄變】狀態。\n處於【地獄變】狀態時無法施放戰技，同時使自身造成的傷害提高{{scaling1}}%，被敵方目標攻擊的機率大幅提高，普通攻擊【支離劍】強化為【無間劍樹】，持續3回合。\n若現有生命值不足，則施放戰技時刃的現有生命值降低至1點。\n該戰技無法恢復能量。施放該戰技後，本回合不會結束。",
+            "scaling": {
+                "scaling1": [
+                    12,
+                    14.8,
+                    17.6,
+                    20.4,
+                    23.2,
+                    26,
+                    29.5,
+                    33,
+                    36.5,
+                    40,
+                    42.8,
+                    45.6
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "大辟萬死",
+            "tag": "擴散",
+            "energy_gain": 5,
+            "break_main": 20,
+            "break_adjacent": 20,
+            "energy_cost": 130,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "將刃的現有生命值調整為生命上限的50%，並對敵方單體造成等同於刃{{scaling1}}%生命上限+{{scaling2}}%本場戰鬥累積已損失生命值的風屬性傷害，同時對其相鄰目標造成等同於刃{{scaling3}}%生命上限+{{scaling3}}%本場戰鬥累積已損失生命值的風屬性傷害。\n本場戰鬥累積已損失生命值最高不超過刃生命上限的90%，施放終結技後會清空並重新開始累積。",
+            "scaling": {
+                "scaling1": [
+                    90,
+                    96,
+                    102,
+                    108,
+                    114,
+                    120,
+                    127.5,
+                    135,
+                    142.5,
+                    150,
+                    156,
+                    162
+                ],
+                "scaling2": [
+                    72,
+                    76.8,
+                    81.6,
+                    86.4,
+                    91.2,
+                    96,
+                    102,
+                    108,
+                    114,
+                    120,
+                    124.8,
+                    129.6
+                ],
+                "scaling3": [
+                    36,
+                    38.4,
+                    40.8,
+                    43.2,
+                    45.6,
+                    48,
+                    51,
+                    54,
+                    57,
+                    60,
+                    62.4,
+                    64.8
+                ]
+            }
+        },
+        "talent": {
+            "type": "天賦",
+            "name": "倏忽恩賜",
+            "tag": "群體攻擊",
+            "energy_gain": 10,
+            "break_aoe": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "刃受到傷害或消耗生命值時，獲得1層充能，最多疊加5層。該效果每次受到攻擊時最多疊加1層。\n當充能疊加至上限時，立即對敵方全體發動一次追加攻擊，造成等同於刃{{scaling1}}%生命上限的風屬性傷害並回復等同於刃生命上限25%的生命值。發動追加攻擊後，消耗所有充能。",
+            "scaling": {
+                "scaling1": [
+                    65,
+                    71.5,
+                    78,
+                    84.5,
+                    91,
+                    97.5,
+                    105.625,
+                    113.75,
+                    121.875,
+                    130,
+                    136.5,
+                    143
+                ]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "業途風",
+            "tag": "",
+            "break": 20,
+            "description": "Tấn công kẻ địch ngay lập tức, sau khi vào chiến đấu, tiêu hao HP bằng 20% Giới Hạn HP của Blade, đồng thời gây Sát Thương Phong cho toàn bộ kẻ địch bằng 40% Giới Hạn HP của Blade.\nNếu HP hiện tại không đủ, khi thi triển Bí Kỹ, HP hiện tại của Blade sẽ giảm còn 1 điểm."
+        }
+    },
+    "major_traces": {
+        "6": {
+            "name": "壞劫隳亡",
+            "description": "天賦發動的追加攻擊傷害提高20%，並額外恢復15點能量。"
+        },
+        "4": {
+            "name": "吞忍百死",
+            "description": "受到治療時的回復量提高20%，接受治療後會將25%的治療數值轉化為終結技的累積已損生命值。"
+        },
+        "2": {
+            "name": "無盡形壽",
+            "description": "刃施放終結技歸零的累積已損失生命值改為50%。"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "暴擊率強化",
+            "value": "+12%"
+        },
+        {
+            "stat": "生命強化",
+            "value": "+28%"
+        },
+        {
+            "stat": "效果抗性強化",
+            "value": "+10%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "劍綠大限，地獄變相",
+            "description": "強化普通攻擊和終結技對指定敵方單體造成的傷害額外提高，提高數值等同於刃150%本場戰鬥中累積的已損失生命值。"
+        },
+        {
+            "level": 2,
+            "name": "支離舊夢，萬端遺恨",
+            "description": "刃處於【地獄變】狀態時，暴擊率提高15%"
+        },
+        {
+            "level": 3,
+            "name": "治煉玄鋼，銑淬寒芒",
+            "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 4,
+            "name": "泉台歧路，百駭回春",
+            "description": "現有生命值百分比從高於50%降低至小於等於50%時，生命上限提高20%，該效果最多疊加2層。"
+        },
+        {
+            "level": 5,
+            "name": "十王判死，業鏡懸照",
+            "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 6,
+            "name": "命留魂銷，復返此身",
+            "description": "充能的層數上限降低至4層。天賦觸發追加攻擊造成的傷害額外提高，提高數值等同於刃50%的生命上限。"
+        }
+    ]
+}
