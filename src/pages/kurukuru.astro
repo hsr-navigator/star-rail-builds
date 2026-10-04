@@ -1,0 +1,466 @@
+---
+import portrait from '../assets/character-assets/ice/4/herta/portrait.png';
+import { sitePath } from '../utils/paths';
+import '../styles/base.css';
+---
+
+<html lang="en">
+    <head
+        ><meta charset="utf-8" /><meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        /><title>Herta Shower | HSR Navigator</title><link
+            rel="icon"
+            href={sitePath('favicon.png')}
+        /></head
+    >
+    <body>
+        <main id="shower" data-image={portrait.src}>
+            <canvas id="field" aria-label="Click or tap to drop Hertas"
+            ></canvas>
+            <header>
+                <a href={sitePath('en/')}>← HSR Navigator</a><div class="title">
+                    <h1>Herta Shower</h1><p>Click anywhere to drop Herta!</p>
+                </div><div class="tools">
+                    <span>Hertas: <b id="count">0</b></span><button
+                        id="reset"
+                        type="button">Clear</button
+                    >
+                </div>
+            </header>
+            <p class="bottom">Normal · Silver · Gold · Rainbow ✦</p>
+        </main>
+    </body>
+</html>
+<style>
+    :global(html),
+    :global(body) {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    :global(body) {
+        font-family: system-ui, sans-serif;
+        color: #f4eeff;
+        background: #131426;
+    }
+    #shower {
+        position: relative;
+        width: 100%;
+        height: 100dvh;
+        overflow: hidden;
+        background: radial-gradient(
+            ellipse at 50% 25%,
+            #34305c,
+            #1b1d34 62%,
+            #101220
+        );
+    }
+    canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+        cursor: crosshair;
+        touch-action: none;
+    }
+    header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 16px;
+        pointer-events: none;
+    }
+    header > * {
+        pointer-events: auto;
+    }
+    a,
+    .tools {
+        background: #18172dbb;
+        border: 1px solid #ad99e777;
+        border-radius: 10px;
+        padding: 9px 12px;
+        color: #f4eeff;
+        text-decoration: none;
+        backdrop-filter: blur(8px);
+    }
+    .title {
+        text-align: center;
+        pointer-events: none;
+    }
+    .title h1 {
+        font-size: clamp(24px, 3.5vw, 39px);
+        margin: 0;
+    }
+    .title p {
+        margin: 3px 0;
+        color: #dcd2ee;
+        font-size: 14px;
+    }
+    .tools {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .tools button {
+        border: 0;
+        border-radius: 8px;
+        background: #906cce;
+        color: white;
+        padding: 7px 12px;
+        cursor: pointer;
+        font: inherit;
+    }
+    .bottom {
+        position: absolute;
+        left: 50%;
+        bottom: 8px;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        pointer-events: none;
+        font-size: 12px;
+        color: #dfd2ee9c;
+    }
+    @media (max-width: 640px) {
+        header {
+            flex-wrap: wrap;
+        }
+        .title {
+            order: -1;
+            flex-basis: 100%;
+        }
+        a,
+        .tools {
+            font-size: 12px;
+        }
+    }
+</style>
+<script>
+    type Kind = 'normal' | 'silver' | 'gold' | 'rainbow';
+    type Piece = {
+        x: number;
+        y: number;
+        vx: number;
+        vy: number;
+        r: number;
+        rot: number;
+        vr: number;
+        kind: Kind;
+    };
+    const root = document.querySelector<HTMLElement>('#shower')!;
+    const canvas = document.querySelector<HTMLCanvasElement>('#field')!;
+    const ctx = canvas.getContext('2d')!;
+    const counter = document.querySelector<HTMLElement>('#count')!;
+    const clear = document.querySelector<HTMLButtonElement>('#reset')!;
+    const sprite = document.createElement('video');
+    // Store the latest valid video frame
+    const frameCanvas = document.createElement('canvas');
+    const frameCtx = frameCanvas.getContext('2d')!;
+
+    let hasFrame = false;
+    sprite.src = '/star-rail-builds/animation/hertaspin.webm';
+    sprite.loop = true;
+    sprite.muted = true;
+    sprite.autoplay = true;
+    sprite.playsInline = true;
+
+    sprite.play().catch(() => {});
+    const pieces: Piece[] = [];
+    let w = 1,
+        h = 1,
+        dpr = 1,
+        last = 0,
+        acc = 0;
+    const dt = 1 / 60,
+        gravity = 1550,
+        maxPieces = 400;
+
+    // Herta size settings
+    const minSize = 1.25;
+    const maxSize = 3.0;
+    function resize() {
+        w = Math.max(1, root.clientWidth);
+        h = Math.max(1, root.clientHeight);
+        dpr = Math.min(2, window.devicePixelRatio || 1);
+        canvas.width = Math.round(w * dpr);
+        canvas.height = Math.round(h * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        for (const p of pieces) {
+            p.x = Math.max(p.r, Math.min(w - p.r, p.x));
+            p.y = Math.min(h - p.r - 6, p.y);
+        }
+    }
+    resize();
+    window.addEventListener('resize', resize);
+    // Web Audio is created on the first click/tap so browser autoplay rules are respected.
+    let audio: AudioContext | null = null;
+    const sounds = [
+        '/star-rail-builds/audio/kurukuru.mp3',
+        '/star-rail-builds/audio/kururin.mp3',
+    ];
+    function playDrop() {
+        const selected = sounds[Math.floor(Math.random() * sounds.length)];
+
+        const sound = new Audio(selected);
+
+        sound.volume = 0.15;
+        sound.play().catch(() => {});
+    }
+    function spawn(x: number, y: number) {
+        // Stop adding new Hertas when the safety limit is reached.
+        // Existing Hertas are NEVER removed.
+        if (pieces.length >= maxPieces) return;
+
+        // Randomized size
+        const base = Math.min(38, Math.max(24, w * 0.035));
+        const r = base * (minSize + Math.random() * (maxSize - minSize));
+
+        // Reject a spawn if the Herta would extend outside
+        // the visible canvas.
+        if (x - r < 0 || x + r > w || y - r < 0 || y + r > h - 6) {
+            return;
+        }
+
+        // Check if the new Herta would overlap
+        // any existing Herta at the cursor position.
+        const padding = 3;
+
+        for (const p of pieces) {
+            const dx = x - p.x;
+            const dy = y - p.y;
+
+            const distanceSquared = dx * dx + dy * dy;
+
+            const minimumDistance = r + p.r + padding;
+
+            // No space available: reject the drop.
+            if (distanceSquared < minimumDistance * minimumDistance) {
+                return;
+            }
+        }
+
+        // Determine rarity
+        const v = Math.random();
+
+        const kind: Kind =
+            v < 0.01
+                ? 'rainbow'
+                : v < 0.05
+                  ? 'gold'
+                  : v < 0.16
+                    ? 'silver'
+                    : 'normal';
+
+        // Spawn only when there's enough space.
+        pieces.push({
+            x,
+            y,
+            vx: (Math.random() - 0.5) * 130,
+            vy: 0,
+            r,
+            rot: (Math.random() - 0.5) * 0.5,
+            vr: (Math.random() - 0.5) * 3,
+            kind,
+        });
+
+        counter.textContent = String(pieces.length);
+
+        // Only play audio for successful drops.
+        playDrop();
+    }
+    let isDragging = false;
+    let lastDrop = 0;
+
+    const dropInterval = 100; // Milliseconds between drops
+
+    function dropAtPointer(e: PointerEvent) {
+        const bounds = canvas.getBoundingClientRect();
+
+        spawn(e.clientX - bounds.left, e.clientY - bounds.top);
+    }
+
+    canvas.addEventListener('pointerdown', (e) => {
+        if (e.pointerType === 'mouse' && e.button !== 0) return;
+
+        isDragging = true;
+        lastDrop = performance.now();
+
+        canvas.setPointerCapture(e.pointerId);
+        dropAtPointer(e);
+    });
+
+    canvas.addEventListener('pointermove', (e) => {
+        if (!isDragging) return;
+
+        const now = performance.now();
+
+        if (now - lastDrop >= dropInterval) {
+            dropAtPointer(e);
+            lastDrop = now;
+        }
+    });
+
+    function stopDragging() {
+        isDragging = false;
+    }
+
+    canvas.addEventListener('pointerup', stopDragging);
+    canvas.addEventListener('pointercancel', stopDragging);
+    canvas.addEventListener('lostpointercapture', stopDragging);
+    clear.addEventListener('click', () => {
+        pieces.length = 0;
+        counter.textContent = '0';
+    });
+    function physics() {
+        for (const p of pieces) {
+            p.vy += gravity * dt;
+            p.vx *= 0.996;
+            p.x += p.vx * dt;
+            p.y += p.vy * dt;
+            p.rot += p.vr * dt;
+        }
+        for (let pass = 0; pass < 4; pass++) {
+            for (const p of pieces) {
+                // TOP WALL
+                if (p.y < p.r) {
+                    p.y = p.r;
+
+                    if (p.vy < 0) {
+                        p.vy *= -0.13;
+                    }
+                }
+
+                if (p.x < p.r) {
+                    p.x = p.r;
+                    if (p.vx < 0) p.vx *= -0.25;
+                }
+                if (p.x > w - p.r) {
+                    p.x = w - p.r;
+                    if (p.vx > 0) p.vx *= -0.25;
+                }
+                if (p.y > h - p.r - 6) {
+                    p.y = h - p.r - 6;
+                    if (p.vy > 0) p.vy *= -0.13;
+                    p.vx *= 0.88;
+                    p.vr *= 0.83;
+                    if (Math.abs(p.vy) < 25) p.vy = 0;
+                }
+            }
+            for (let i = 0; i < pieces.length; i++)
+                for (let j = i + 1; j < pieces.length; j++) {
+                    const a = pieces[i],
+                        b = pieces[j],
+                        dx = b.x - a.x,
+                        dy = b.y - a.y,
+                        minimum = a.r + b.r - 3,
+                        d2 = dx * dx + dy * dy;
+                    if (d2 >= minimum * minimum) continue;
+                    const distance = Math.sqrt(d2) || 0.001,
+                        nx = distance < 0.01 ? 0 : dx / distance,
+                        ny = distance < 0.01 ? 1 : dy / distance,
+                        move = (minimum - distance) * 0.5;
+                    a.x -= nx * move;
+                    a.y -= ny * move;
+                    b.x += nx * move;
+                    b.y += ny * move;
+                    const relative = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
+                    if (relative < 0) {
+                        const impulse = -relative * 0.55;
+                        a.vx -= nx * impulse;
+                        a.vy -= ny * impulse;
+                        b.vx += nx * impulse;
+                        b.vy += ny * impulse;
+                    }
+                }
+        }
+    }
+    function updateVideoFrame() {
+        if (sprite.readyState < 2 || !sprite.videoWidth) {
+            return;
+        }
+
+        if (
+            frameCanvas.width !== sprite.videoWidth ||
+            frameCanvas.height !== sprite.videoHeight
+        ) {
+            frameCanvas.width = sprite.videoWidth;
+            frameCanvas.height = sprite.videoHeight;
+        }
+
+        frameCtx.drawImage(sprite, 0, 0, frameCanvas.width, frameCanvas.height);
+
+        hasFrame = true;
+    }
+    function draw() {
+        updateVideoFrame();
+        ctx.clearRect(0, 0, w, h);
+        for (const p of pieces) {
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rot);
+            const hue = (performance.now() / 17) % 360;
+            ctx.shadowBlur = p.kind === 'normal' ? 0 : 16;
+            ctx.shadowColor =
+                p.kind === 'gold'
+                    ? '#ffcf45'
+                    : p.kind === 'silver'
+                      ? '#dce8ff'
+                      : `hsl(${hue} 100% 70%)`;
+            ctx.fillStyle =
+                p.kind === 'gold'
+                    ? '#f6cb62'
+                    : p.kind === 'silver'
+                      ? '#e6eaff'
+                      : p.kind === 'rainbow'
+                        ? `hsl(${hue} 100% 70%)`
+                        : '#b2a1de';
+            ctx.beginPath();
+            ctx.arc(0, 0, p.r, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+            ctx.save();
+            ctx.beginPath();
+            ctx.arc(0, 0, p.r - 4, 0, Math.PI * 2);
+            ctx.clip();
+            if (hasFrame) {
+                const scale = Math.max(
+                    (p.r * 2 - 8) / frameCanvas.width,
+                    (p.r * 2 - 8) / frameCanvas.height,
+                );
+
+                ctx.drawImage(
+                    frameCanvas,
+                    (-frameCanvas.width * scale) / 2,
+                    (-frameCanvas.height * scale) / 2,
+                    frameCanvas.width * scale,
+                    frameCanvas.height * scale,
+                );
+            }
+            ctx.restore();
+            ctx.strokeStyle = p.kind === 'normal' ? '#d9caff' : '#fff3bd';
+            ctx.lineWidth = 2.5;
+            ctx.beginPath();
+            ctx.arc(0, 0, p.r - 2, 0, Math.PI * 2);
+            ctx.stroke();
+            ctx.restore();
+        }
+    }
+    function frame(ms: number) {
+        if (!last) last = ms;
+        acc += Math.min((ms - last) / 1000, 0.05);
+        last = ms;
+        let n = 0;
+        while (acc >= dt && n++ < 3) {
+            physics();
+            acc -= dt;
+        }
+        draw();
+        requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+</script>
