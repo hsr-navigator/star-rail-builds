@@ -1,70 +1,240 @@
 ---
-import '@pagefind/component-ui/css/pagefind-component-ui.css';
 import { Modal } from 'webcoreui/astro';
 import { t } from '../utils/i18n';
-import { sitePath } from '../utils/paths';
+import { getContentCharacters } from '../utils/content-tree';
+import { getPublicCharacterName } from '../utils/character-slugs';
+import { localizedPath } from '../utils/paths';
 
 type Props = {
-  lang?: string;
-  locale: any;
+    lang?: string;
+    locale: any;
 };
 
 const { lang = 'en', locale } = Astro.props as Props;
 const searchLabel = t(locale, 'ui', 'Search', undefined, false);
 const searchByNameLabel = t(locale, 'ui', 'Search by name', undefined, false);
+const noResultsLabel = t(locale, 'ui', 'No characters found', undefined, false);
 const hideShortcutBannerLabel = t(
-  locale,
-  'ui',
-  'Hide shortcut banner',
-  undefined,
-  false,
+    locale,
+    'ui',
+    'Hide shortcut banner',
+    undefined,
+    false,
 );
-const bundlePath = import.meta.env.DEV ? '/pagefind/' : sitePath('pagefind/');
-const baseUrl = sitePath();
-const resultTemplate = `
-<a
-  class="pf-searchbox-result"
-  id="{{ aria.result_id }}"
-  href="{{ meta.url | default(url) | safeUrl }}"
-  role="option"
-  aria-selected="false"
-  aria-labelledby="{{ aria.title_id }}"
->
-  <p class="pf-searchbox-result-title" id="{{ aria.title_id }}">
-    {{ meta.title | default("Untitled") }}
-  </p>
-</a>`;
+
+// Only include published, accessible character pages; WIP pages are excluded.
+const searchCharacters = getContentCharacters()
+    .map(({ character }) => ({
+        slug: character,
+        name: getPublicCharacterName(locale, { character }),
+        href: localizedPath(lang, character),
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <Modal id="site-search-modal" className="site-search-modal" title={searchLabel}>
-  <div class="site-search-shell">
-    <pagefind-config
-      instance="character-search"
-      bundle-path={bundlePath}
-      base-url={baseUrl}
-      lang={lang}
-    >
-    </pagefind-config>
-    <pagefind-searchbox
-      instance="character-search"
-      class="site-character-search"
-      placeholder={searchByNameLabel}
-      debounce="100"
-      max-results="8"
-      show-keyboard-hints="false"
-      show-sub-results="false"
-      hide-shortcut="true"
-      shortcut="__disabled__"
-    >
-      <script type="text/pagefind-template" set:html={resultTemplate} />
-    </pagefind-searchbox>
-    <label class="site-search-banner-toggle">
-      <input type="checkbox" data-search-banner-toggle />
-      <span>{hideShortcutBannerLabel}</span>
-    </label>
-  </div>
+    <div class="site-search-shell" data-character-search>
+        <input
+            class="site-character-search-input pf-searchbox-input"
+            type="search"
+            placeholder={searchByNameLabel}
+            aria-label={searchByNameLabel}
+            aria-controls="site-character-search-results"
+            aria-autocomplete="list"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            role="combobox"
+            autocomplete="off"
+            spellcheck="false"
+            data-character-search-input
+        />
+
+        <div
+            class="site-character-search-results"
+            id="site-character-search-results"
+            role="listbox"
+            data-character-search-results
+            hidden
+        >
+            {
+                searchCharacters.map((character, index) => (
+                    <a
+                        class="site-character-search-result"
+                        id={`site-character-search-result-${index}`}
+                        href={character.href}
+                        role="option"
+                        aria-selected="false"
+                        data-character-search-result
+                        data-search-name={character.name}
+                        data-search-slug={character.slug}
+                        hidden
+                    >
+                        {character.name}
+                    </a>
+                ))
+            }
+        </div>
+        <p class="site-character-search-empty" data-character-search-empty hidden>
+            {noResultsLabel}
+        </p>
+
+        <label class="site-search-banner-toggle">
+            <input type="checkbox" data-search-banner-toggle />
+            <span>{hideShortcutBannerLabel}</span>
+        </label>
+    </div>
 </Modal>
 
 <script>
-  import '@pagefind/component-ui';
+    const normalizeSearchText = (value: string) =>
+        value
+            .normalize('NFKD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLocaleLowerCase()
+            .trim();
+
+    const bindCharacterSearch = () => {
+        document.querySelectorAll<HTMLElement>('[data-character-search]').forEach((root) => {
+            if (root.dataset.searchBound === 'true') return;
+
+            const input = root.querySelector<HTMLInputElement>('[data-character-search-input]');
+            const results = root.querySelector<HTMLElement>('[data-character-search-results]');
+            const empty = root.querySelector<HTMLElement>('[data-character-search-empty]');
+            if (!input || !results || !empty) return;
+            root.dataset.searchBound = 'true';
+
+            const entries = Array.from(
+                results.querySelectorAll<HTMLAnchorElement>('[data-character-search-result]'),
+            ).map((link) => ({
+                link,
+                name: normalizeSearchText(link.dataset.searchName ?? ''),
+                slug: normalizeSearchText(link.dataset.searchSlug ?? ''),
+            }));
+            let visible: HTMLAnchorElement[] = [];
+            let active = -1;
+
+            const select = (index: number) => {
+                active = index;
+                visible.forEach((link, i) => {
+                    const selected = i === active;
+                    link.classList.toggle('is-active', selected);
+                    link.setAttribute('aria-selected', String(selected));
+                });
+                if (active >= 0) {
+                    input.setAttribute('aria-activedescendant', visible[active].id);
+                    visible[active].scrollIntoView({ block: 'nearest' });
+                } else {
+                    input.removeAttribute('aria-activedescendant');
+                }
+            };
+
+            const render = () => {
+                const query = normalizeSearchText(input.value);
+                const matches = query
+                    ? entries
+                          .filter((entry) => entry.name.includes(query) || entry.slug.includes(query))
+                          .sort((a, b) => {
+                              const aRank = a.name.startsWith(query) ? 0 : a.slug.startsWith(query) ? 1 : 2;
+                              const bRank = b.name.startsWith(query) ? 0 : b.slug.startsWith(query) ? 1 : 2;
+                              return aRank - bRank || a.name.localeCompare(b.name);
+                          })
+                          .slice(0, 8)
+                    : [];
+
+                visible = matches.map((entry) => entry.link);
+                const shown = new Set(visible);
+                entries.forEach(({ link }) => {
+                    link.hidden = !shown.has(link);
+                    link.classList.remove('is-active');
+                    link.setAttribute('aria-selected', 'false');
+                });
+                results.hidden = visible.length === 0;
+                empty.hidden = !query || visible.length !== 0;
+                input.setAttribute('aria-expanded', String(visible.length > 0));
+                select(-1);
+            };
+
+            input.addEventListener('input', render);
+            input.addEventListener('keydown', (event) => {
+                if (!visible.length) return;
+                if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    select(
+                        event.key === 'ArrowDown'
+                            ? (active + 1) % visible.length
+                            : active <= 0
+                              ? visible.length - 1
+                              : active - 1,
+                    );
+                } else if (event.key === 'Enter') {
+                    event.preventDefault();
+                    visible[active >= 0 ? active : 0].click();
+                }
+            });
+            render();
+        });
+    };
+
+    document.addEventListener('astro:after-swap', bindCharacterSearch);
+    bindCharacterSearch();
 </script>
+
+<style>
+    .site-character-search-input {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--pf-border, rgba(255, 255, 255, 0.2));
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.24);
+        color: var(--text);
+        font: inherit;
+        font-size: 1rem;
+    }
+
+    .site-character-search-input:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 1px;
+    }
+
+    .site-character-search-results:not([hidden]) {
+        display: grid;
+        gap: 3px;
+        max-height: min(360px, 50vh);
+        overflow-y: auto;
+        margin-top: 6px;
+        padding: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 8px;
+        background: rgba(5, 8, 12, 0.96);
+    }
+
+    .site-character-search-result {
+        display: block;
+        padding: 9px 11px;
+        border-radius: 6px;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .site-character-search-result[hidden],
+    .site-character-search-results[hidden],
+    .site-character-search-empty[hidden] {
+        display: none !important;
+    }
+
+    .site-character-search-result:hover,
+    .site-character-search-result:focus-visible,
+    .site-character-search-result.is-active {
+        background: color-mix(in srgb, var(--accent) 20%, transparent);
+        outline: none;
+    }
+
+    .site-character-search-empty {
+        margin: 10px 4px 0;
+        color: var(--pf-text-secondary, var(--text));
+        font-size: 0.9rem;
+    }
+</style>
