@@ -183,7 +183,7 @@
             "name": "業途風",
             "tag": "",
             "break": 20,
-            "description": "Tấn công kẻ địch ngay lập tức, sau khi vào chiến đấu, tiêu hao HP bằng 20% Giới Hạn HP của Blade, đồng thời gây Sát Thương Phong cho toàn bộ kẻ địch bằng 40% Giới Hạn HP của Blade.\nNếu HP hiện tại không đủ, khi thi triển Bí Kỹ, HP hiện tại của Blade sẽ giảm còn 1 điểm."
+            "description": "立即攻擊敵人，進入戰鬥後消耗等同於刃生命上限20%的生命值，同時對敵方全體造成等同於刃生命上限40%的風屬性傷害。\n若現有生命值不足，則施放秘技時刃的現有生命值降低至1點。"
         }
     },
     "major_traces": {
