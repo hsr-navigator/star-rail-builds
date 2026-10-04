@@ -1,0 +1,156 @@
+{
+  "id": "asta",
+  "name": "艾絲妲",
+  "rarity": 4,
+  "type": "fire",
+  "path": "harmony",
+  "version_released": "1.0",
+  "max_energy": 120,
+
+  "level_80_stats": {
+    "hp": 1023,
+    "atk": 511,
+    "def": 463,
+    "spd": 106
+  },
+
+  "abilities": {
+    "basic": {
+        "type": "普攻",
+        "name": "光譜射線",
+        "tag": "單體攻擊",
+        "energy_gain": 20,
+        "break": 10,
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "對指定敵方單體造成等同於艾絲妲{{value}}%攻擊力的火屬性傷害。",
+        "scaling": {
+            "value": [50, 60, 70, 80, 90, 100, 110]
+        }
+    },
+
+    "skill": {
+        "type": "戰技",
+        "name": "流星群落",
+        "tag": "彈射",
+        "energy_gain": 30,
+        "break_first_hit": 10,
+        "break_bounce": 5,
+        "break_total": 30,
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "對指定敵方單體造成等同於艾絲妲{{initial_damage}}%攻擊力的火屬性傷害，並額外造成4次傷害。每次傷害對隨機敵方單體造成等同於艾絲妲{{subsequent_damage}}%攻擊力的火屬性傷害。",
+        "scaling": {
+            "initial_damage": [25, 27.5, 30, 32.5, 35, 37.5, 40.63, 43.75, 46.88, 50, 52.5, 55],
+            "subsequent_damage": [25, 27.5, 30, 32.5, 35, 37.5, 40.63, 43.75, 46.88, 50, 52.5, 55]
+        }
+    },
+
+    "ultimate": {
+        "type": "終結技",
+        "name": "星空祝言",
+        "tag": "輔助",
+        "energy_cost": 120,
+        "energy_gain": 5,
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "使我方全體速度提高{{speed}}點，持續2回合。",
+        "scaling": {
+            "speed": [36, 37.4, 38.8, 40.2, 41.6, 43, 44.75, 46.5, 48.25, 50, 51.4, 52.8]
+        }
+    },
+
+    "talent": {
+        "type": "天賦",
+        "name": "天象學",
+        "tag": "輔助",
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "每擊中1名不同的敵方目標獲得1層蓄能，若受到攻擊的敵方目標弱點為火屬性，則額外獲得1層蓄能。\n艾絲妲每擁有1層蓄能，便使我方全體攻擊力提高{{atk_buff}}%，最多疊加5層。\n從自身的第2回合開始，艾絲妲每回合開始時蓄能層數減少3層。",
+        "scaling": {
+            "atk_buff": [7, 7.7, 8.4, 9.1, 9.8, 10.5, 11.375, 12.25, 13.125, 14, 14.7, 15.4]
+        }
+    },
+
+    "technique": {
+        "type": "秘技",
+        "name": "靈光一現",
+        "break": 20,
+        "description": "立即攻擊敵人，進入戰鬥後對敵方全體目標造成等同於艾絲妲50%攻擊力的火屬性傷害。"
+    }
+},
+
+"major_traces": {
+    "2": {
+        "name": "火花",
+        "description": "發動普通攻擊時，有80%的基礎機率使敵方目標陷入灼燒狀態，持續3回合。\n灼燒狀態下，敵方目標每回合開始時受到等同於艾絲妲普通攻擊50%的火屬性持續傷害。"
+    },
+
+    "4": {
+        "name": "點燃",
+        "description": "艾絲妲在場時，我方全體的火屬性傷害提高18%。"
+    },
+
+    "6": {
+        "name": "星座",
+        "description": "艾絲妲每擁有1層蓄能，自身防禦力便提高6%。"
+    }
+},
+
+"stat_bonuses": [
+    {
+        "stat": "傷害強化·火",
+        "value": "+22.4%"
+    },
+    {
+        "stat": "防禦強化",
+        "value": "+22.5%"
+    },
+    {
+        "stat": "暴擊率強化",
+        "value": "+6.7%"
+    }
+],
+
+"eidolons": [
+    {
+        "level": 1,
+        "name": "星有無言之歌",
+        "description": "施放戰技時，對敵方隨機單體額外造成1次傷害。"
+    },
+
+    {
+        "level": 2,
+        "name": "月見圓缺之意",
+        "description": "施放終結技時，艾絲妲下回合不會減少蓄能層數。"
+    },
+
+    {
+        "level": 3,
+        "name": "黃道隕石之變",
+        "description": "戰技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+
+    {
+        "level": 4,
+        "name": "極光顯現之時",
+        "description": "天賦的蓄能層數大於等於2時，艾絲妲的能量恢復效率提高15%。"
+    },
+
+    {
+        "level": 5,
+        "name": "深空天體之謎",
+        "description": "終結技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+
+    {
+        "level": 6,
+        "name": "眠於銀河之下",
+        "description": "天賦每回合減少的蓄能層數降低1。"
+    }
+  ]
+}
