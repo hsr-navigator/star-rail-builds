@@ -15,9 +15,10 @@ import '../styles/base.css';
         /></head
     >
     <body>
-        <main id="shower" data-image={portrait.src}>
+        <main id="shower" data-image={portrait.src} data-base={sitePath('')}>
             <canvas id="field" aria-label="Click or tap to drop Hertas"
             ></canvas>
+            <div id="kuru-layer" aria-hidden="true"></div>
             <header>
                 <a href={sitePath('en/')}>← HSR Navigator</a><div class="title">
                     <h1>Kuru Kuru</h1><p>Click anywhere to drop Herta!</p>
@@ -32,15 +33,17 @@ import '../styles/base.css';
                         >
                         <div id="rarity-counts" class="rarity-counts">
                             <div>Normal <b id="count-normal">0</b></div>
-                            <div class="silver">
-                                Silver <b id="count-silver">0</b>
-                            </div>
                             <div class="gold">
                                 Gold <b id="count-gold">0</b>
                             </div>
                             <div class="rainbow">
                                 Rainbow <b id="count-rainbow">0</b>
                             </div>
+                            <section
+                                id="variant-counts"
+                                aria-label="Drop variants"
+                            >
+                            </section>
                         </div>
                     </div><button id="chaos" type="button" aria-pressed="false"
                         >Chaos: Off</button
@@ -85,7 +88,22 @@ import '../styles/base.css';
         cursor: crosshair;
         touch-action: none;
     }
+    #kuru-layer {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+    #kuru-layer :global(img) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+        object-fit: cover;
+        pointer-events: none;
+    }
     header {
+        z-index: 2;
         position: absolute;
         left: 0;
         top: 0;
@@ -165,13 +183,13 @@ import '../styles/base.css';
     .count-details.open .rarity-counts {
         display: block;
     }
-    .rarity-counts div {
+    .rarity-counts :global(div) {
         display: flex;
         justify-content: space-between;
         gap: 24px;
         padding: 3px 0;
     }
-    .silver {
+    .rarity-counts :global(.variant-count) {
         color: #dce8ff;
     }
     .gold {
@@ -195,6 +213,7 @@ import '../styles/base.css';
     }
     @media (max-width: 640px) {
         header {
+            z-index: 2;
             flex-wrap: wrap;
         }
         .title {
@@ -208,7 +227,7 @@ import '../styles/base.css';
     }
 </style>
 <script>
-    type Kind = 'normal' | 'silver' | 'gold' | 'rainbow';
+    type Kind = 'normal' | 'gold' | 'rainbow';
     type Piece = {
         x: number;
         y: number;
@@ -218,6 +237,8 @@ import '../styles/base.css';
         rot: number;
         vr: number;
         kind: Kind;
+        variantId: string | null;
+        image?: HTMLImageElement;
     };
     const root = document.querySelector<HTMLElement>('#shower')!;
     const canvas = document.querySelector<HTMLCanvasElement>('#field')!;
@@ -230,7 +251,6 @@ import '../styles/base.css';
     const countDetails = document.querySelector<HTMLElement>('.count-details')!;
     const rarityCounts: Record<Kind, number> = {
         normal: 0,
-        silver: 0,
         gold: 0,
         rainbow: 0,
     };
@@ -240,11 +260,79 @@ import '../styles/base.css';
             document.querySelector<HTMLElement>(`#count-${kind}`)!,
         ]),
     ) as Record<Kind, HTMLElement>;
+    const kuruLayer = document.querySelector<HTMLElement>('#kuru-layer')!;
+    type DropVariant = {
+        id: string;
+        name: string;
+        src: string;
+        chance: number;
+    };
+    // Add variants here; their tooltip rows and counters are created automatically.
+    // src is relative to public/. chance is a decimal: 0.01 = 1%.
+    const dropVariants: DropVariant[] = [
+        {
+            id: 'the-kuru',
+            name: 'The Kuru',
+            src: 'animation/thekuru.webp',
+            chance: 0.0067,
+        },
+        {
+            id: 'kuru-cone',
+            name: 'Kuru Cone',
+            src: 'animation/kurucone.webp',
+            chance: 0.001,
+        },
+    ];
+    const totalVariantChance = dropVariants.reduce(
+        (sum, variant) => sum + variant.chance,
+        0,
+    );
+    if (
+        dropVariants.some(
+            (v) => !Number.isFinite(v.chance) || v.chance < 0 || v.chance > 1,
+        ) ||
+        totalVariantChance > 1 ||
+        new Set(dropVariants.map((v) => v.id)).size !== dropVariants.length
+    ) {
+        throw new Error(
+            'Variant IDs must be unique and chances must total at most 1.',
+        );
+    }
+    const variantCounts: Record<string, number> = Object.create(null);
+    const variantLabels: Record<string, HTMLElement> = Object.create(null);
+    const variantContainer =
+        document.querySelector<HTMLElement>('#variant-counts')!;
+    for (const variant of dropVariants) {
+        variantCounts[variant.id] = 0;
+        const row = document.createElement('div');
+        row.className = 'variant-count';
+        const label = document.createElement('span');
+        label.textContent = variant.name;
+        const count = document.createElement('b');
+        count.textContent = '0';
+        row.append(label, count);
+        variantContainer.append(row);
+        variantLabels[variant.id] = count;
+    }
+    function rollVariant(): DropVariant | null {
+        const roll = Math.random();
+        let cumulativeChance = 0;
+        for (const variant of dropVariants) {
+            cumulativeChance += variant.chance;
+            if (roll < cumulativeChance) return variant;
+        }
+        return null;
+    }
     let chaosMode = false;
     const worldPadding = 80;
     const maxChaosSpeed = 650;
     function updateCounts() {
         counter.textContent = String(pieces.length);
+        for (const variant of dropVariants) {
+            variantLabels[variant.id].textContent = String(
+                variantCounts[variant.id],
+            );
+        }
         for (const kind of Object.keys(rarityCounts) as Kind[]) {
             rarityLabels[kind].textContent = String(rarityCounts[kind]);
         }
@@ -301,7 +389,6 @@ import '../styles/base.css';
     // Drop rates
     const rainbowBaseRate = 0.006; // 0.6%
     const goldBaseRate = 0.051; // 5.1%
-    const silverRate = 0.11; // Custom silver chance
 
     // Pity settings
     const rainbowSoftPity = 74;
@@ -396,17 +483,12 @@ import '../styles/base.css';
         // Gold failed.
         goldPity++;
 
-        // Lower rarities
-        if (Math.random() < silverRate) {
-            return 'silver';
-        }
-
         return 'normal';
     }
     function spawn(x: number, y: number) {
-        // Stop adding new Hertas when the safety limit is reached.
+        // Normal Mode retains its cap; Chaos Mode has no count limit.
         // Existing Hertas are NEVER removed.
-        if (pieces.length >= maxPieces) return;
+        if (!chaosMode && pieces.length >= maxPieces) return;
 
         // Randomized size
         const base = Math.min(38, Math.max(24, w * 0.035));
@@ -438,6 +520,21 @@ import '../styles/base.css';
             }
         }
         const kind = rollRarity();
+        const variant = rollVariant();
+        let image: HTMLImageElement | undefined;
+        if (variant) {
+            // A real img keeps animated WebP playback, unlike canvas drawImage.
+            image = document.createElement('img');
+            image.src =
+                root.dataset.base!.replace(/\/?$/, '/') +
+                variant.src.replace(/^\//, '');
+            image.alt = '';
+            image.draggable = false;
+            image.style.width = `${2 * (r - 4)}px`;
+            image.style.height = `${2 * (r - 4)}px`;
+            image.style.visibility = 'hidden';
+            kuruLayer.append(image);
+        }
 
         // Spawn only when there's enough space.
         pieces.push({
@@ -449,9 +546,12 @@ import '../styles/base.css';
             rot: (Math.random() - 0.5) * 0.5,
             vr: (Math.random() - 0.5) * (chaosMode ? 2 : 3),
             kind,
+            variantId: variant?.id ?? null,
+            image,
         });
 
-        rarityCounts[kind]++;
+        if (variant) variantCounts[variant.id]++;
+        else rarityCounts[kind]++;
         updateCounts();
 
         // Only play audio for successful drops.
@@ -497,6 +597,8 @@ import '../styles/base.css';
     canvas.addEventListener('pointercancel', stopDragging);
     canvas.addEventListener('lostpointercapture', stopDragging);
     clear.addEventListener('click', () => {
+        kuruLayer.replaceChildren();
+        for (const variant of dropVariants) variantCounts[variant.id] = 0;
         pieces.length = 0;
 
         rainbowPity = 0;
@@ -622,25 +724,24 @@ import '../styles/base.css';
         updateVideoFrame();
         ctx.clearRect(0, 0, w, h);
         for (const p of pieces) {
+            if (p.image) {
+                const innerRadius = p.r - 4;
+                p.image.style.transform = `translate(${p.x - innerRadius}px, ${p.y - innerRadius}px) rotate(${p.rot}rad)`;
+                p.image.style.visibility = 'visible';
+            }
             ctx.save();
             ctx.translate(p.x, p.y);
             ctx.rotate(p.rot);
             const hue = (performance.now() / 17) % 360;
             ctx.shadowBlur = p.kind === 'normal' ? 0 : 16;
             ctx.shadowColor =
-                p.kind === 'gold'
-                    ? '#ffcf45'
-                    : p.kind === 'silver'
-                      ? '#dce8ff'
-                      : `hsl(${hue} 100% 70%)`;
+                p.kind === 'gold' ? '#ffcf45' : `hsl(${hue} 100% 70%)`;
             ctx.fillStyle =
                 p.kind === 'gold'
                     ? '#f6cb62'
-                    : p.kind === 'silver'
-                      ? '#e6eaff'
-                      : p.kind === 'rainbow'
-                        ? `hsl(${hue} 100% 70%)`
-                        : '#b2a1de';
+                    : p.kind === 'rainbow'
+                      ? `hsl(${hue} 100% 70%)`
+                      : '#b2a1de';
             ctx.beginPath();
             ctx.arc(0, 0, p.r, 0, Math.PI * 2);
             ctx.fill();
@@ -649,7 +750,7 @@ import '../styles/base.css';
             ctx.beginPath();
             ctx.arc(0, 0, p.r - 4, 0, Math.PI * 2);
             ctx.clip();
-            if (hasFrame) {
+            if (hasFrame && !p.variantId) {
                 const scale = Math.max(
                     (p.r * 2 - 8) / frameCanvas.width,
                     (p.r * 2 - 8) / frameCanvas.height,
