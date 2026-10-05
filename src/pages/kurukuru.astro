@@ -22,13 +22,34 @@ import '../styles/base.css';
                 <a href={sitePath('en/')}>← HSR Navigator</a><div class="title">
                     <h1>Kuru Kuru</h1><p>Click anywhere to drop Herta!</p>
                 </div><div class="tools">
-                    <span>Hertas: <b id="count">0</b></span><button
-                        id="reset"
-                        type="button">Clear</button
-                    >
+                    <div class="count-details">
+                        <button
+                            id="count-toggle"
+                            type="button"
+                            aria-expanded="false"
+                            aria-controls="rarity-counts"
+                            >Hertas: <b id="count">0</b></button
+                        >
+                        <div id="rarity-counts" class="rarity-counts">
+                            <div>Normal <b id="count-normal">0</b></div>
+                            <div class="silver">
+                                Silver <b id="count-silver">0</b>
+                            </div>
+                            <div class="gold">
+                                Gold <b id="count-gold">0</b>
+                            </div>
+                            <div class="rainbow">
+                                Rainbow <b id="count-rainbow">0</b>
+                            </div>
+                        </div>
+                    </div><button id="chaos" type="button" aria-pressed="false"
+                        >Chaos: Off</button
+                    ><button id="reset" type="button">Clear</button>
                 </div>
             </header>
-            <p class="bottom">Credits to @Seseren_kr for the Herta animation!</p>
+            <p class="bottom">
+                Credits to @Seseren_kr for the Herta animation!
+            </p>
         </main>
     </body>
 </html>
@@ -116,6 +137,52 @@ import '../styles/base.css';
         cursor: pointer;
         font: inherit;
     }
+    #chaos.active {
+        background: #c044d8;
+        box-shadow: 0 0 14px #c044d899;
+    }
+    .count-details {
+        position: relative;
+    }
+    .tools #count-toggle {
+        background: transparent;
+        padding: 7px 0;
+    }
+    .rarity-counts {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        min-width: 145px;
+        padding: 12px;
+        border-radius: 10px;
+        background: #18172df5;
+        border: 1px solid #ad99e777;
+        z-index: 2;
+    }
+    .count-details:hover .rarity-counts,
+    .count-details:focus-within .rarity-counts,
+    .count-details.open .rarity-counts {
+        display: block;
+    }
+    .rarity-counts div {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 3px 0;
+    }
+    .silver {
+        color: #dce8ff;
+    }
+    .gold {
+        color: #ffcf45;
+    }
+    .rainbow {
+        color: #f2a6ff;
+    }
+    .tools {
+        flex-wrap: wrap;
+    }
     .bottom {
         position: absolute;
         left: 50%;
@@ -157,6 +224,49 @@ import '../styles/base.css';
     const ctx = canvas.getContext('2d')!;
     const counter = document.querySelector<HTMLElement>('#count')!;
     const clear = document.querySelector<HTMLButtonElement>('#reset')!;
+    const chaosButton = document.querySelector<HTMLButtonElement>('#chaos')!;
+    const countToggle =
+        document.querySelector<HTMLButtonElement>('#count-toggle')!;
+    const countDetails = document.querySelector<HTMLElement>('.count-details')!;
+    const rarityCounts: Record<Kind, number> = {
+        normal: 0,
+        silver: 0,
+        gold: 0,
+        rainbow: 0,
+    };
+    const rarityLabels = Object.fromEntries(
+        Object.keys(rarityCounts).map((kind) => [
+            kind,
+            document.querySelector<HTMLElement>(`#count-${kind}`)!,
+        ]),
+    ) as Record<Kind, HTMLElement>;
+    let chaosMode = false;
+    const worldPadding = 80;
+    const maxChaosSpeed = 650;
+    function updateCounts() {
+        counter.textContent = String(pieces.length);
+        for (const kind of Object.keys(rarityCounts) as Kind[]) {
+            rarityLabels[kind].textContent = String(rarityCounts[kind]);
+        }
+    }
+    countToggle.addEventListener('click', () => {
+        const open = countDetails.classList.toggle('open');
+        countToggle.setAttribute('aria-expanded', String(open));
+    });
+    countDetails.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            countDetails.classList.remove('open');
+            countToggle.setAttribute('aria-expanded', 'false');
+            countToggle.blur();
+        }
+    });
+    chaosButton.addEventListener('click', () => {
+        chaosMode = !chaosMode;
+        chaosButton.textContent = chaosMode ? 'Chaos: On' : 'Chaos: Off';
+        chaosButton.classList.toggle('active', chaosMode);
+        chaosButton.setAttribute('aria-pressed', String(chaosMode));
+        for (const p of pieces) constrain(p);
+    });
     const sprite = document.createElement('video');
     // Store the latest valid video frame
     const frameCanvas = document.createElement('canvas');
@@ -164,6 +274,7 @@ import '../styles/base.css';
 
     let hasFrame = false;
     sprite.src = '/star-rail-builds/animation/hertaspin.webm';
+    sprite.preload = 'auto';
     sprite.loop = true;
     sprite.muted = true;
     sprite.autoplay = true;
@@ -171,6 +282,23 @@ import '../styles/base.css';
 
     sprite.play().catch(() => {});
     const pieces: Piece[] = [];
+    // Pity counters: successful drops since last rarity.
+    let rainbowPity = 0;
+    let goldPity = 0;
+
+    // Drop rates
+    const rainbowBaseRate = 0.006; // 0.6%
+    const goldBaseRate = 0.051; // 5.1%
+    const silverRate = 0.11; // Custom silver chance
+
+    // Pity settings
+    const rainbowSoftPity = 74;
+    const rainbowHardPity = 90;
+    const rainbowRateIncrease = 0.06;
+
+    const goldSoftPity = 9;
+    const goldSoftPityRate = 0.52;
+    const goldHardPity = 10;
     let w = 1,
         h = 1,
         dpr = 1,
@@ -190,15 +318,10 @@ import '../styles/base.css';
         canvas.width = Math.round(w * dpr);
         canvas.height = Math.round(h * dpr);
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        for (const p of pieces) {
-            p.x = Math.max(p.r, Math.min(w - p.r, p.x));
-            p.y = Math.min(h - p.r - 6, p.y);
-        }
+        for (const p of pieces) constrain(p);
     }
     resize();
     window.addEventListener('resize', resize);
-    // Web Audio is created on the first click/tap so browser autoplay rules are respected.
-    let audio: AudioContext | null = null;
     const sounds = [
         '/star-rail-builds/audio/kurukuru.mp3',
         '/star-rail-builds/audio/kururin.mp3',
@@ -211,6 +334,63 @@ import '../styles/base.css';
         sound.volume = 0.15;
         sound.play().catch(() => {});
     }
+    function rollRarity(): Kind {
+        const nextRainbow = rainbowPity + 1;
+        const nextGold = goldPity + 1;
+
+        // Calculate rainbow probability.
+        let rainbowChance = rainbowBaseRate;
+
+        if (nextRainbow >= rainbowSoftPity) {
+            rainbowChance +=
+                (nextRainbow - rainbowSoftPity + 1) * rainbowRateIncrease;
+        }
+
+        if (nextRainbow >= rainbowHardPity) {
+            rainbowChance = 1;
+        }
+
+        rainbowChance = Math.min(1, rainbowChance);
+
+        // Rainbow (5-star) takes priority.
+        if (Math.random() < rainbowChance) {
+            rainbowPity = 0;
+            goldPity = 0;
+
+            return 'rainbow';
+        }
+
+        // Rainbow failed, so increment its pity.
+        rainbowPity++;
+
+        // Calculate gold probability.
+        let goldChance = goldBaseRate;
+
+        if (nextGold === goldSoftPity) {
+            goldChance = goldSoftPityRate;
+        }
+
+        if (nextGold >= goldHardPity) {
+            goldChance = 1;
+        }
+
+        // Gold (4-star)
+        if (Math.random() < goldChance) {
+            goldPity = 0;
+
+            return 'gold';
+        }
+
+        // Gold failed.
+        goldPity++;
+
+        // Lower rarities
+        if (Math.random() < silverRate) {
+            return 'silver';
+        }
+
+        return 'normal';
+    }
     function spawn(x: number, y: number) {
         // Stop adding new Hertas when the safety limit is reached.
         // Existing Hertas are NEVER removed.
@@ -220,55 +400,47 @@ import '../styles/base.css';
         const base = Math.min(38, Math.max(24, w * 0.035));
         const r = base * (minSize + Math.random() * (maxSize - minSize));
 
-        // Reject a spawn if the Herta would extend outside
-        // the visible canvas.
-        if (x - r < 0 || x + r > w || y - r < 0 || y + r > h - 6) {
-            return;
-        }
-
-        // Check if the new Herta would overlap
-        // any existing Herta at the cursor position.
-        const padding = 3;
-
-        for (const p of pieces) {
-            const dx = x - p.x;
-            const dy = y - p.y;
-
-            const distanceSquared = dx * dx + dy * dy;
-
-            const minimumDistance = r + p.r + padding;
-
-            // No space available: reject the drop.
-            if (distanceSquared < minimumDistance * minimumDistance) {
+        if (!chaosMode) {
+            // Reject a spawn if the Herta would extend outside
+            // the visible canvas.
+            if (x - r < 0 || x + r > w || y - r < 0 || y + r > h - 6) {
                 return;
             }
+
+            // Check if the new Herta would overlap
+            // any existing Herta at the cursor position.
+            const padding = 3;
+
+            for (const p of pieces) {
+                const dx = x - p.x;
+                const dy = y - p.y;
+
+                const distanceSquared = dx * dx + dy * dy;
+
+                const minimumDistance = r + p.r + padding;
+
+                // No space available: reject the drop.
+                if (distanceSquared < minimumDistance * minimumDistance) {
+                    return;
+                }
+            }
         }
-
-        // Determine rarity
-        const v = Math.random();
-
-        const kind: Kind =
-            v < 0.01
-                ? 'rainbow'
-                : v < 0.05
-                  ? 'gold'
-                  : v < 0.16
-                    ? 'silver'
-                    : 'normal';
+        const kind = rollRarity();
 
         // Spawn only when there's enough space.
         pieces.push({
             x,
             y,
-            vx: (Math.random() - 0.5) * 130,
+            vx: (Math.random() - 0.5) * (chaosMode ? 80 : 130),
             vy: 0,
             r,
             rot: (Math.random() - 0.5) * 0.5,
-            vr: (Math.random() - 0.5) * 3,
+            vr: (Math.random() - 0.5) * (chaosMode ? 2 : 3),
             kind,
         });
 
-        counter.textContent = String(pieces.length);
+        rarityCounts[kind]++;
+        updateCounts();
 
         // Only play audio for successful drops.
         playDrop();
@@ -314,42 +486,69 @@ import '../styles/base.css';
     canvas.addEventListener('lostpointercapture', stopDragging);
     clear.addEventListener('click', () => {
         pieces.length = 0;
-        counter.textContent = '0';
+
+        rainbowPity = 0;
+        goldPity = 0;
+
+        for (const kind of Object.keys(rarityCounts) as Kind[])
+            rarityCounts[kind] = 0;
+        updateCounts();
     });
-    function physics() {
-        for (const p of pieces) {
-            p.vy += gravity * dt;
-            p.vx *= 0.996;
-            p.x += p.vx * dt;
-            p.y += p.vy * dt;
-            p.rot += p.vr * dt;
+    function constrain(p: Piece) {
+        const padding = chaosMode ? worldPadding : 0;
+        const left = -padding + p.r;
+        const right = w + padding - p.r;
+        const top = -padding + p.r;
+        const bottom = h - p.r - 6;
+        const wallBounce = chaosMode ? 0.36 : 0.25;
+        const floorBounce = chaosMode ? 0.28 : 0.13;
+        if (left > right) {
+            p.x = w / 2;
+            p.vx = 0;
+        } else {
+            if (p.x < left) {
+                p.x = left;
+                if (p.vx < 0) p.vx *= -wallBounce;
+            }
+            if (p.x > right) {
+                p.x = right;
+                if (p.vx > 0) p.vx *= -wallBounce;
+            }
         }
-        for (let pass = 0; pass < 4; pass++) {
-            for (const p of pieces) {
-                // TOP WALL
-                if (p.y < p.r) {
-                    p.y = p.r;
-
-                    if (p.vy < 0) {
-                        p.vy *= -0.13;
-                    }
-                }
-
-                if (p.x < p.r) {
-                    p.x = p.r;
-                    if (p.vx < 0) p.vx *= -0.25;
-                }
-                if (p.x > w - p.r) {
-                    p.x = w - p.r;
-                    if (p.vx > 0) p.vx *= -0.25;
-                }
-                if (p.y > h - p.r - 6) {
-                    p.y = h - p.r - 6;
-                    if (p.vy > 0) p.vy *= -0.13;
+        if (top > bottom) {
+            p.y = (h - 6) / 2;
+            p.vy = 0;
+        } else {
+            if (p.y < top) {
+                p.y = top;
+                if (p.vy < 0) p.vy *= -wallBounce;
+            }
+            if (p.y > bottom) {
+                p.y = bottom;
+                if (p.vy > 0) p.vy *= -floorBounce;
+                if (!chaosMode) {
                     p.vx *= 0.88;
                     p.vr *= 0.83;
                     if (Math.abs(p.vy) < 25) p.vy = 0;
                 }
+            }
+        }
+    }
+    function physics() {
+        for (const p of pieces) {
+            p.vy += gravity * dt;
+            p.vx *= chaosMode ? 0.99 : 0.996;
+            if (chaosMode) {
+                p.vy *= 0.995;
+                p.vr *= 0.99;
+            }
+            p.x += p.vx * dt;
+            p.y += p.vy * dt;
+            p.rot += p.vr * dt;
+        }
+        for (let pass = 0; pass < (chaosMode ? 6 : 4); pass++) {
+            for (const p of pieces) {
+                constrain(p);
             }
             for (let i = 0; i < pieces.length; i++)
                 for (let j = i + 1; j < pieces.length; j++) {
@@ -357,7 +556,7 @@ import '../styles/base.css';
                         b = pieces[j],
                         dx = b.x - a.x,
                         dy = b.y - a.y,
-                        minimum = a.r + b.r - 3,
+                        minimum = a.r + b.r,
                         d2 = dx * dx + dy * dy;
                     if (d2 >= minimum * minimum) continue;
                     const distance = Math.sqrt(d2) || 0.001,
@@ -370,13 +569,24 @@ import '../styles/base.css';
                     b.y += ny * move;
                     const relative = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
                     if (relative < 0) {
-                        const impulse = -relative * 0.55;
+                        // Gentle collisions lose energy; crowding creates the motion.
+                        const impulse = -relative * (chaosMode ? 0.68 : 0.55);
                         a.vx -= nx * impulse;
                         a.vy -= ny * impulse;
                         b.vx += nx * impulse;
                         b.vy += ny * impulse;
                     }
                 }
+        }
+        for (const p of pieces) {
+            if (chaosMode) {
+                const speed = Math.hypot(p.vx, p.vy);
+                if (speed > maxChaosSpeed) {
+                    p.vx *= maxChaosSpeed / speed;
+                    p.vy *= maxChaosSpeed / speed;
+                }
+            }
+            constrain(p);
         }
     }
     function updateVideoFrame() {
