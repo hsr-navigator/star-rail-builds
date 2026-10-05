@@ -6,7 +6,10 @@
         },
         {
             "name": "spd",
-            "recommended": "167+"
+            "recommended": "167+",
+            "note": {
+                "en": "Without [[relic:eagle]] and [[light-cone:dance-dance-dance]], 160 [[stat:spd]] is enough."
+            }
         }
     ]
 }
