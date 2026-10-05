@@ -261,6 +261,18 @@ import '../styles/base.css';
         }
     });
     chaosButton.addEventListener('click', () => {
+        if (!chaosMode) {
+            const confirmed = window.confirm(
+                'Flashing lights warning\n\n' +
+                    'Chaos Mode may produce flashing lights and rapid movement ' +
+                    'that could affect people with photosensitive epilepsy ' +
+                    'or sensitivity to flashing lights.\n\n' +
+                    'Enable Chaos Mode?',
+            );
+
+            if (!confirmed) return;
+        }
+
         chaosMode = !chaosMode;
         chaosButton.textContent = chaosMode ? 'Chaos: On' : 'Chaos: Off';
         chaosButton.classList.toggle('active', chaosMode);
