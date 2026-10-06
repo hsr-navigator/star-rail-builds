@@ -11,13 +11,13 @@
         "2p": {
             "en": "Increases CRIT DMG by 16%.",
             "ru": "",
-            "vn": "",
+            "vn": "Sát Thương Bạo Kích tăng 16%.",
             "cht": "暴擊傷害提高16%。"
         },
         "4p": {
             "en": "Increases DMG dealt by the wearer's Basic ATK by 36%. When the wearer uses a Basic ATK, increases the wearer's ATK by 20%, lasting for 2 turn(s).",
             "ru": "",
-            "vn": "",
+            "vn": "Khiến sát thương Tấn Công Thường của người trang bị gây ra tăng 36%. Khi người trang bị thi triển Tấn Công Thường, khiến Tấn Công của người trang bị tăng 20%, duy trì 2 hiệp.",
             "cht": "使裝備者普通攻擊造成的傷害提高36%。當裝備者發動普通攻擊時，使裝備者攻擊力提高20%，持續2回合。"
         }
     },
@@ -33,13 +33,13 @@
         "2p": {
             "en": "Increases SPD by 6%.",
             "ru": "",
-            "vn": "",
+            "vn": "Tốc Độ tăng 6%.",
             "cht": "速度提高6%"
         },
         "4p": {
             "en": "When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by 16%, lasting for 3 turn(s). If the wearer has 10 or more points of Certified Banger, additionally increases all ally targets' CRIT DMG by 12%, lasting for 3 turn(s).",
             "ru": "",
-            "vn": "",
+            "vn": "Khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên một mục tiêu khác của phe ta, khiến Độ Vui Vẻ của mục tiêu kỹ năng tăng 16%, duy trì 3 hiệp, nếu Việc Tốt Đáng Thưởng mà người trang bị sở hữu lớn hơn hoặc bằng 10 điểm, thì khiến Sát Thương Bạo Kích của toàn bộ mục tiêu phe ta tăng thêm 12%, duy trì 3 hiệp.",
             "cht": "當裝備者隊我方其他單體目標施放戰技或終結技時，使技能目標的歡愉度提高16%，持續3回合，若裝備著持有的好活當賞大於等於10點，則額外使我方全體目標的暴擊傷害提高12%，持續3回合。"
         }
     },

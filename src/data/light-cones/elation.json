@@ -46,6 +46,8 @@
         "source": "warp",
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies.",
+            "ru": "",
+            "vn": "Tăng {{value}}% Phòng Thủ của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ lên toàn phe ta, khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 3 hiệp, hồi cố định 10 điểm Năng Lượng cho người trang bị, đồng thời hồi cho toàn phe ta lượng HP bằng {{value}}% Phòng Thủ của người trang bị.",
             "cht": "使裝備者的防禦力提高{{value}}%。裝備者對我方全體施放歡愉技時，使敵方全體受到的傷害提高{{value}}%，持續3回合，為裝備者固定恢復10點能量，並為我方全體回復等同於裝備者防禦力的生命值。"
         },
         "s1": [
