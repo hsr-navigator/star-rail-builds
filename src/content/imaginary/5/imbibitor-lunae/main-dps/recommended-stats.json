@@ -2,15 +2,11 @@
     "stats": [
         {
             "name": "cr",
-            "recommended": "68%",
-            "note": {
-                "en": "Assumes [[set:poet-of-mourning-collapse]] is being used. Otherwise, 100% is recommended.",
-                "ru": "Предполагается, что используется [[set:poet-of-mourning-collapse]]. В противном случае рекомендуется 100%."
-            }
+            "recommended": "100%"
         },
         {
             "name": "cd",
-            "recommended": "200%+"
+            "recommended": "130%+"
         },
         {
             "name": "atk",

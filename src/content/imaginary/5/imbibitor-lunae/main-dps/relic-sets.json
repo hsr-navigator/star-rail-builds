@@ -18,7 +18,8 @@
                     "items": [
                         {
                             "name": "poet",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note_group": "poet"
                         }
                     ]
                 }

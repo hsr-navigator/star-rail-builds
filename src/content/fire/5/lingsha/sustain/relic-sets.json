@@ -112,16 +112,5 @@
                 }
             ]
         }
-    ],
-  "conditional": [
-    {
-      "items": [
-        {
-          "name": "sacerdos",
-          "pieces": 4,
-          "note_group": "skill-spam"
-        }
-      ]
-    }
-  ]
+    ]
 }
