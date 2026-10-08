@@ -4,7 +4,11 @@
             "items": [
                 {
                     "name": "ultimate"
-                },
+                }
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "skill"
                 }

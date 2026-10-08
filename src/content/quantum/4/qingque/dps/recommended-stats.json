@@ -2,16 +2,14 @@
     "stats": [
         {
             "name": "cr",
-            "baseline": "68% / 100%",
-            "recommended": "68% / 100%",
+            "recommended": "68%",
             "note": {
                 "en": "Assumes [[set:poet-of-mourning-collapse]] is being used. Otherwise, 100% is recommended."
             }
         },
         {
             "name": "cd",
-            "baseline":"120%",
-            "recommended":""
+            "recommended":"120%+"
         }
     ]
 }

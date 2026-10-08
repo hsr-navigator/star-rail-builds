@@ -3,20 +3,6 @@
         {
             "items": [
                 {
-                    "name": "ultimate"
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "talent"
-                }
-            ]
-        },
-        {
-            "items": [
-                {
                     "name": "elation-skill"
                 }
             ]
@@ -24,12 +10,18 @@
         {
             "items": [
                 {
-                    "name": "skill"
+                    "name": "talent"
+                },
+                {
+                    "name": "ultimate"
                 }
             ]
         },
         {
             "items": [
+                {
+                    "name": "skill"
+                },
                 {
                     "name": "basic"
                 }

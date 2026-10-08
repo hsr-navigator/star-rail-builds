@@ -17,6 +17,14 @@
                 {
                     "items":[
                         {
+                            "name": "heretic",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items":[
+                        {
                             "name": "genius",
                             "pieces": 4
                         }

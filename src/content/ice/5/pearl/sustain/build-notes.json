@@ -8,7 +8,7 @@
     ],
     "overview": {
         "summary": {
-            "en": "-",
+            "en": "- Pearl is an Elation sustain who performs best in Mono-Elation teams.\n- Pearl can hold up to 50 Certified Banger and gains 5 at the start of each ally’s turn. When allies are attacked, she can consume Certified Banger to reduce the damage they take. She provides additional damage reduction to allies below 50% HP.\n- Pearl’s Ultimate Action Advances one ally, with the Advance becoming larger based on the number of Elation characters in the team. With 4 Elation characters, the selected ally also gains an extra turn and receives 30 temporary Certified Banger and 60 temporary Punchline. Her next 3 Basic ATKs are Enhanced and heal allies.\n- Pearl designates the ally who enters combat after using her Technique, or the ally targeted by her Ultimate, as the Aesthetic Archetype. If that ally is of the Elation Path, she restores 90 Energy after they use their Ultimate, once per Pearl Ultimate.\n- Pearl’s Elation Skill grants allies additional Elation DMG on their next attack, scaling with the number of Elation characters on the team.",
             "cht": "- 真珠是主要利用【好活當賞】為隊友提供減傷盾來抵禦敵人傷害，根據自身防御力使用強化普攻或戰技來為隊友回復生命值，同時能為通過終結技歡愉命途的隊友提供臨時<ins>笑點</ins>、【好活當賞】、<ins>行動提前</ins>和<ins>額外回合</ins>等輔助效果的歡愉生存位。\n- 真珠的【好活當賞】沒有持續回合，但存在一定上限。她保隊友的方式是消耗【好活當賞】用來抵禦敵人造成的部分傷害，為此她獲取【好活當賞】的方式也比較多，包括原有的<ins>阿哈時刻</ins>、戰技、終結技和隊友回合開始。\n- 真珠的終結技是她的核心歡愉輔助能力。歡愉隊友越多時，她的終結技增益就越高，尤其是指定為【美學底本】的隊友行動提前和全隊歡愉才能觸發的額外行動。使用終結技後真珠也獲得3點強化普攻，可群攻可回血和解負面。\n- 真珠的歡愉技讓隊友下一次攻擊時額外造成傷害。"
         },
         "investment_priority": {
@@ -17,7 +17,7 @@
                 "cht": "星魂2 > 星魂1 > 疊影1 [[light-cone:colors-for-tomorrow]]"
             },
             "details": {
-                "en": "-",
+                "en": "- E2 merrymakes all Elation DMG by 15%, doubles the temporary Punchline and Certified Banger from her Ultimate, and grants the Action Advance effect to all Elation characters on the team, excluding Pearl.\n- E1 grants all allies 10%/20%/60% Elation when the team contains 2/3/4+ characters of the Elation Path. Additionally, Pearl allows allies to cheat death twice.\n- S1 [[light-cone:colors-for-tomorrow]] applies Vulnerability, provides Energy for Pearl, and increases her sustaining capability.",
                 "cht": ""
             }
         }

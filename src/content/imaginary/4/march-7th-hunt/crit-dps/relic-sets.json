@@ -5,6 +5,19 @@
                 {
                     "items": [
                         {
+                            "name": "heretic",
+                            "pieces": 4
+
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "musketeer",
                             "pieces": 4
                         

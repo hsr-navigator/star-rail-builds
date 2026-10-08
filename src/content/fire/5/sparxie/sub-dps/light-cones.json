@@ -11,6 +11,14 @@
         {
             "items": [
                 {
+                    "name": "until-the-flowers-bloom-again",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "todays-good-luck",
                     "superimposition": 5
                 }
@@ -20,6 +28,10 @@
             "items": [
                 {
                     "name": "mushy-shroomys-adventures",
+                    "superimposition": 5
+                },
+                {
+                    "name": "a-little-getaway",
                     "superimposition": 5
                 }
             ]
