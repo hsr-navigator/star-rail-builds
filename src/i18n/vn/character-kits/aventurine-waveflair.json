@@ -1,0 +1,317 @@
+{
+  "id": "aventurine-waveflair",
+  "name": "Aventurine - Waveflair",
+  "rarity": "5",
+  "type": "quantum",
+  "path": "elation",
+  "version_released": "4.5",
+  "max_energy": 130,
+  "level_80_stats": {
+    "hp": 1164,
+    "atk": 485,
+    "def": 606,
+    "spd": 107
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Nước Xiết, Trúng Hồng Tâm",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Lượng Tử cho 1 kẻ địch chỉ định bằng {{scaling1}}% Tấn Công của Aventurine - Waveflair..",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100
+        ]
+      }
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Tuyệt Sát, Cát Nóng Sục Sôi",
+      "tag": "Đánh Lan",
+      "energy_gain": 30,
+      "break_aoe": 10,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Gây Sát Thương Lượng Tử cho toàn phe địch bằng {{scaling1}}% Tấn Công của Aventurine - Waveflair, nhận 4 Điểm Hài Hước và 4 điểm \"Nhiệt Huyết\".",
+      "scaling": {
+        "scaling1": [
+          120,
+          132,
+          144,
+          156,
+          168,
+          180,
+          195,
+          210,
+          225,
+          240,
+          252,
+          264
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Đặt Cược, Lắng Nghe Tiếng Vọng Vực Thẳm",
+      "tag": "Cường Hóa",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Thời gian duy trì \"Việc Tốt Đáng Thưởng\" của Aventurine - Waveflair tăng 1 hiệp. Sau khi đồng đội thi triển tấn công, Aventurine - Waveflair nhận 1 điểm \"Nhiệt Huyết\" và 1 Điểm Hài Hước, giới hạn \"Nhiệt Huyết\" là 30 điểm.\n\nKhi \"Nhiệt Huyết\" đạt 10 điểm, Aventurine - Waveflair sẽ lập tức thi triển 1 lần \"Nâng Ly! Mừng Một Mùa Hè Rực Cháy\" tính cố định 20 Điểm Hài Hước, và sau khi thi triển sẽ khiến Kỹ Năng Vui Vẻ bản thân thi triển trong Thời Khắc Aha tiếp theo cường hóa thành \"All In! Mừng Một Mùa Hè Rực Cháy\".\n\nKhi Aventurine - Waveflair có \"Việc Tốt Đáng Thưởng\", Chiến Kỹ gây thêm {{scaling1}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho toàn bộ phe địch, Tuyệt Kỹ gây thêm {{scaling2}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho toàn bộ phe địch.",
+      "scaling": {
+        "scaling1": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32.5,
+          35,
+          37.5,
+          40,
+          42,
+          44
+        ],
+        "scaling2": [
+          36,
+          39.6,
+          43.2,
+          46.8,
+          50.4,
+          54,
+          58.5,
+          63,
+          67.5,
+          72,
+          75.6,
+          79.2
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Chiến Thắng, Lướt Qua Con Sóng Dữ",
+      "tag": "Đánh Lan",
+      "energy_gain": 5,
+      "energy_cost": 130,
+      "break_aoe": 20,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Gây Sát Thương Lượng Tử cho toàn thể phe địch bằng {{scaling1}}% Tấn Công của Aventurine - Waveflair, nhận 6 Điểm Hài Hước và 8 điểm \"Nhiệt Huyết\". Đồng thời tăng {{scaling2}}% Tốc Độ của bản thân, duy trì 4 hiệp.",
+      "scaling": {
+        "scaling1": [
+          240,
+          256,
+          272,
+          288,
+          304,
+          320,
+          340,
+          360,
+          380,
+          400,
+          416,
+          432
+        ],
+        "scaling2": [
+          12,
+          13.8,
+          15.6,
+          17.4,
+          19.2,
+          21,
+          23.25,
+          25.5,
+          27.75,
+          30,
+          31.8,
+          33.6
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Khơi Dậy Sóng Gió Làn Nước Tĩnh",
+      "description": "Di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch chạm phải, trong quá trình di chuyển nhanh có thể chống đỡ tất cả tấn công của kẻ địch. Sau khi chủ động tấn công kẻ địch vào chiến đấu, sẽ gây cho toàn phe địch Sát Thương Lượng Tử bằng 100% Tấn Công của Aventurine - Waveflair, đồng thời khiến bản thân nhận 2 điểm \"Nhiệt Huyết\" và 20 điểm \"Việc Tốt Đáng Thưởng\". Nếu không đánh trúng kẻ địch sẽ không tiêu hao điểm Bí Kỹ."
+    }
+  },
+  "elation": {
+    "skills": {
+      "skill": {
+        "type": "Kỹ Năng Vui Vẻ",
+        "name": "Nâng Ly! Mừng Một Mùa Hè Rực Cháy",
+        "tag": "Đánh Lan",
+        "energy_gain": 5,
+        "participant_id": 116,
+        "break_aoe": 10,
+        "break_bounce": 3.33,
+        "break_total": 45,
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "Gây {{scaling1}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho toàn phe địch, đồng thời gây thêm 10 lần sát thương, mỗi lần sát thương gây {{scaling2}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho 1 kẻ địch ngẫu nhiên.",
+        "scaling": {
+          "scaling1": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ],
+          "scaling2": [
+            9,
+            9.9,
+            10.8,
+            11.7,
+            12.6,
+            13.5,
+            14.625,
+            15.75,
+            16.875,
+            18,
+            18.9,
+            19.8
+          ]
+        },
+        "variants": [
+          {
+            "type": "Kỹ Năng Vui Vẻ Cường Hóa",
+            "name": "All In! Mừng Một Mùa Hè Rực Cháy",
+            "tag": "Đánh Lan",
+            "energy_gain": 20,
+            "break_aoe": 20,
+            "break_bounce": 5,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây {{scaling1}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho toàn bộ phe địch, và gây thêm 10 lần sát thương, mỗi lần sát thương gây {{scaling2}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho 1 kẻ địch ngẫu nhiên. Khi thi triển sẽ tiêu hao toàn bộ \"Nhiệt Huyết\", mỗi khi tiêu hao 1 điểm \"Nhiệt Huyết\" đều sẽ gây thêm 1 lần {{scaling3}}% Sát Thương Vui Vẻ thuộc tính Lượng Tử cho 1 kẻ địch ngẫu nhiên.",
+            "scaling": {
+              "scaling1": [
+                30,
+                33,
+                36,
+                39,
+                42,
+                45,
+                48.75,
+                52.5,
+                56.25,
+                60,
+                63,
+                66
+              ],
+              "scaling2": [
+                9,
+                9.9,
+                10.8,
+                11.7,
+                12.6,
+                13.5,
+                14.625,
+                15.75,
+                16.875,
+                18,
+                18.9,
+                19.8
+              ],
+              "scaling3": [
+                10.5,
+                11.55,
+                12.6,
+                13.65,
+                14.7,
+                15.75,
+                17.0625,
+                18.375,
+                19.6875,
+                21,
+                22.05,
+                23.1
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Bữa Tiệc Cực Lạc",
+      "description": "Khi Tốc Độ lớn hơn hoặc bằng 140, khiến Độ Vui Vẻ của bản thân tăng 30%, sau đó cứ vượt quá 1 điểm Tốc Độ sẽ khiến Độ Vui Vẻ của bản thân tăng thêm 1%, tối đa tính 200 điểm Tốc Độ vượt quá."
+    },
+    "4": {
+      "name": "Tận Hưởng Ngọn Sóng Lớn",
+      "description": "Khi bắt đầu chiến đấu, nếu trong đội có nhân vật vận mệnh \"Vui Vẻ\" khác ngoài Aventurine - Waveflair, khi Aventurine - Waveflair trong trận, Độ Vui Vẻ của toàn phe ta tăng 20%, Aventurine - Waveflair tăng thêm 80%.\n\nKhi bắt đầu chiến đấu, nếu trong đội chỉ có 1 nhân vật vận mệnh \"Vui Vẻ\" là Aventurine - Waveflair, khi Aventurine - Waveflair thi triển Kỹ Năng Vui Vẻ gây sát thương, sẽ được xem là phát động Đòn Đánh Theo Sau. Sau khi đồng đội thi triển tấn công, Aventurine - Waveflair nhận 2 điểm \"Việc Tốt Đáng Thưởng\" và 1 Điểm Hài Hước, đồng thời khiến Tốc Độ của Aha tăng 25, hiệu ứng tăng Tốc Độ duy trì đến khi Thời Khắc Aha kết thúc."
+    },
+    "6": {
+      "name": "Đào Vàng Giấc Mộng Xưa",
+      "description": "Sát Thương Bạo Kích tăng 48%. Sau khi đồng đội thi triển Tấn Công Thường, Chiến Kỹ, Đòn Đánh Theo Sau hoặc Tuyệt Kỹ, Sát Thương Bạo Kích của toàn phe ta tăng 48%, duy trì 3 hiệp, đồng thời khiến Aventurine - Waveflair nhận thêm 2 điểm \"Nhiệt Huyết\", hiệu ứng này tối đa kích hoạt 6 lần, khi Aventurine - Waveflair thi triển Chiến Kỹ sẽ làm mới số lần có thể kích hoạt."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "Tốc Độ",
+      "value": "+9"
+    },
+    {
+      "stat": "Tỷ Lệ Bạo Kích",
+      "value": "+18.7%"
+    },
+    {
+      "stat": "Độ Vui Vẻ",
+      "value": "+10%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Kỳ Nghỉ Đặt Cược",
+      "description": "Xuyên Kháng Toàn Thuộc Tính tăng 24%.\n\nThiên Phú được cường hóa: Khi \"Nhiệt Huyết\" đạt 10 điểm/20 điểm/30 điểm, đều sẽ lập tức thi triển \"Nâng Ly! Mừng Một Mùa Hè Rực Cháy\"."
+    },
+    {
+      "level": 2,
+      "name": "Thư Nhàn Như Thủy Triều Lên Xuống",
+      "description": "Giới hạn \"Nhiệt Huyết\" tăng đến 50 điểm, khi đạt 40 điểm/50 điểm, cũng sẽ kích hoạt Thiên Phú thi triển \"Nâng Ly! Mừng Một Mùa Hè Rực Cháy\". Sau khi thi triển Kỹ Năng Vui Vẻ nhận thêm 4 điểm \"Nhiệt Huyết\"."
+    },
+    {
+      "level": 4,
+      "name": "Không Cần Giao Dịch Với Ánh Mặt Trời",
+      "description": "Khi Aventurine - Waveflair thi triển Chiến Kỹ, khiến sát thương toàn thể phe ta gây ra bỏ qua 18% Phòng Thủ của mục tiêu phe địch, duy trì 3 hiệp."
+    },
+    {
+      "level": 6,
+      "name": "Đổi Quá Khứ Lấy Pha Lướt Gió",
+      "description": "Sát Thương Vui Vẻ do Aventurine - Waveflair gây ra tăng Hài Hước 25%. Sau khi Aventurine - Waveflair thi triển 2 lần Kỹ Năng Vui Vẻ, toàn bộ Kỹ Năng Vui Vẻ thi triển sau đó đều là \"All In! Mừng Một Mùa Hè Rực Cháy\", đồng thời khi thi triển Kỹ Năng Vui Vẻ \"All In! Mừng Một Mùa Hè Rực Cháy\" gây thêm sát thương ngoài Thời Khắc Aha sẽ không tiêu hao \"Nhiệt Huyết\" nữa."
+    },
+    {
+      "level": 3,
+      "name": "Lời Mời Buổi Chiều Ướp Lạnh",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+    },
+    {
+      "level": 5,
+      "name": "Gieo Mình Vào Cơn Bão Độc Đắc",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+    }
+  ]
+}

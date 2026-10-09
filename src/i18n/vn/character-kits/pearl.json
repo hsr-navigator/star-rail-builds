@@ -1,0 +1,352 @@
+{
+    "id": "pearl",
+    "name": "Pearl",
+    "rarity": 5,
+    "type": "ice",
+    "path": "elation",
+    "version_released": "4.6",
+    "abilities": {
+        "basic": {
+            "type": "Tấn Công Thường",
+            "name": "Hành Bút, Mô Phỏng Đoạn Thủy",
+            "tag": "Đánh Đơn",
+            "break": "10",
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Gây Sát Thương Băng cho 1 kẻ địch chỉ định bằng {{ice_dmg}}% Phòng Thủ của Pearl.",
+            "scaling": {
+                "ice_dmg": [
+                    45,
+                    54,
+                    63,
+                    72,
+                    81,
+                    90,
+                    99
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Tấn Công Thường Cường Hóa",
+                    "name": "Hành Bút, Huyễn Tạo Trăng Sao",
+                    "tag": "Đánh Lan",
+                    "break": "30",
+                    "description_template": "Gây Sát Thương Băng cho toàn bộ phe địch bằng {{ice_dmg}}% Phòng Thủ của Pearl, hồi phục HP cho toàn bộ mục tiêu phe ta bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}, hồi thêm HP cho mục tiêu phe ta có Phần Trăm HP hiện tại thấp nhất bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}. Khi có \"Việc Tốt Đáng Thưởng\", gây thêm {{ice_elation_dmg}}% Sát Thương Vui Vẻ thuộc tính Băng.",
+                    "scaling": {
+                        "ice_dmg": [
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100,
+                            110
+                        ],
+                        "def_healing": [
+                            4.0,
+                            4.8,
+                            5.6,
+                            6.4,
+                            7.2,
+                            8.0,
+                            8.8
+                        ],
+                        "flat_healing": [
+                            80,
+                            96,
+                            112,
+                            128,
+                            144,
+                            160,
+                            176
+                        ],
+                        "ice_elation_dmg": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16.25
+                        ]
+                    }
+                },
+                {
+                    "type": "Tấn Công Thường Cường Hóa",
+                    "name": "Hành Bút, Vẽ Ngọn Sóng Cuối",
+                    "tag": "Đánh Lan",
+                    "break": "30",
+                    "description_template": "Gây Sát Thương Băng cho toàn bộ phe địch bằng {{ice_dmg}}% Phòng Thủ của Pearl, hồi phục HP cho toàn bộ mục tiêu phe ta bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}, hồi thêm HP cho mục tiêu phe ta có Phần Trăm HP hiện tại thấp nhất bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}.",
+                    "scaling": {
+                        "ice_dmg": [
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100,
+                            110
+                        ],
+                        "def_healing": [
+                            4.0,
+                            4.8,
+                            5.6,
+                            6.4,
+                            7.2,
+                            8.0,
+                            8.8
+                        ],
+                        "flat_healing": [
+                            80,
+                            96,
+                            112,
+                            128,
+                            144,
+                            160,
+                            176
+                        ]
+                    }
+                }
+            ]
+        },
+        "skill": {
+            "type": "Chiến Kỹ",
+            "name": "Ánh Sáng Dịu Êm Chắp Vá Sinh Mệnh",
+            "tag": "Phòng Thủ",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Nhận 15 điểm \"Việc Tốt Đáng Thưởng\", hồi phục cho toàn bộ mục tiêu phe ta lượng HP bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}, hồi phục thêm cho mục tiêu phe ta có Phần Trăm HP hiện tại thấp nhất lượng HP bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}.",
+            "scaling": {
+                "def_healing": [
+                    6.0,
+                    6.6,
+                    7.2,
+                    7.8,
+                    8.4,
+                    9.0,
+                    9.75,
+                    10.5,
+                    11.25,
+                    12,
+                    12.6,
+                    13.2
+                ],
+                "flat_healing": [
+                    120,
+                    132,
+                    144,
+                    156,
+                    168,
+                    180,
+                    195,
+                    210,
+                    225,
+                    240,
+                    252,
+                    264
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Tuyệt Kỹ",
+            "name": "Soi Chiếu Bản Sắc Của Linh Hồn",
+            "tag": "Hỗ Trợ",
+            "energy_cost": "180",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Nhận 20 điểm \"Việc Tốt Đáng Thưởng\". \"Học Tập Chuyên Sâu\" 1 nhân vật chỉ định phe ta ngoài bản thân, khiến mục tiêu trở thành \"Bản Gốc Mỹ Học\".\nKhi số lượng nhân vật Vận Mệnh \"Vui Vẻ\" trong đội bằng 1/2/3 trở lên, khiến \"Bản Gốc Mỹ Học\" Ưu Tiên Hành Động 10%/15%/30%. Khi số lượng nhân vật Vận Mệnh \"Vui Vẻ\" trong đội bằng 4 trở lên, khiến \"Bản Gốc Mỹ Học\" nhận 1 hiệp tăng thêm. Khi hiệp tăng thêm này bắt đầu, \"Bản Gốc Mỹ Học\" nhận 30 điểm \"Việc Tốt Đáng Thưởng\", và nhận 60 Điểm Hài Hước, xóa bỏ khi hiệp tăng thêm kết thúc.\nKhi \"Học Tập Chuyên Sâu\", Tấn Công Thường \"Hành Bút, Mô Phỏng Đoạn Thủy\" cường hóa thành \"Hành Bút, Vẽ Ngọn Sóng Cuối\". Nếu \"Bản Gốc Mỹ Học\" là Vận Mệnh \"Vui Vẻ\", thì cường hóa thành \"Hành Bút, Huyễn Tạo Trăng Sao\", và sau khi tấn công, gây thêm {{ice_elation_dmg}}% Sát Thương Vui Vẻ thuộc tính Băng, Sát Thương Vui Vẻ lần này dùng điểm thuộc tính của \"Bản Gốc Mỹ Học\" để tính toán. \"Học Tập Chuyên Sâu\" có 3 điểm Nạp Năng Lượng, sau khi Pearl thi triển Tấn Công Thường Cường Hóa sẽ tiêu hao 1 điểm Nạp Năng Lượng, sau khi hành động nếu không có Nạp Năng Lượng sẽ kết thúc \"Học Tập Chuyên Sâu\".",
+            "scaling": {
+                "ice_elation_dmg": [
+                    30,
+                    33,
+                    36,
+                    39,
+                    42,
+                    45,
+                    48.75,
+                    52.5,
+                    56.25,
+                    60,
+                    63,
+                    66
+                ]
+            }
+        },
+        "talent": {
+            "type": "Thiên Phú",
+            "name": "Nuốt Chửng Cát Sỏi, Tạc Lại Sự Sống",
+            "tag": "Phòng Thủ",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Pearl có thể sử dụng \"Việc Tốt Đáng Thưởng\" làm Điểm Chống Đỡ, mỗi điểm \"Việc Tốt Đáng Thưởng\" tương đương 200 Điểm Chống Đỡ, khi mục tiêu phe ta chịu sát thương, Pearl có thể tiêu hao Điểm Chống Đỡ để chống đỡ 60% sát thương cho mục tiêu phe ta. \"Việc Tốt Đáng Thưởng\" của Pearl có thời gian duy trì vô hạn, và giới hạn sở hữu là 50 điểm.\nKhi Phần Trăm HP hiện tại của mục tiêu phe ta nhỏ hơn hoặc bằng 50%, sát thương phải chịu giảm {{dmg_reduction}}%.",
+            "scaling": {
+                "dmg_reduction": [
+                    15,
+                    16.5,
+                    18,
+                    19.5,
+                    21,
+                    22.5,
+                    24.375,
+                    26.25,
+                    28.125,
+                    30,
+                    31.5,
+                    33
+                ]
+            }
+        },
+        "technique": {
+            "type": "Bí Kỹ",
+            "name": "Ánh Ngọc Lấp Lánh, Tái Hiện Nguyên Tác",
+            "tag": "Hỗ Trợ",
+            "description": "Sau khi dùng Bí Kỹ nhận \"Bản Gốc Mỹ Học\", khi chuyển đổi nhân vật hành động, \"Bản Gốc Mỹ Học\" sẽ chuyển sang nhân vật hành động hiện tại. Khi bắt đầu trận chiến tiếp theo, Pearl nhận 20 điểm \"Việc Tốt Đáng Thưởng\", đồng thời \"Học Tập Chuyên Sâu\" nhân vật có \"Bản Gốc Mỹ Học\", \"Học Tập Chuyên Sâu\" có 2 điểm Nạp Năng Lượng. Pearl chỉ có thể \"Học Tập Chuyên Sâu\" nhân vật khác ngoài bản thân."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Nhìn Thấu Vạn Vật",
+            "description": "Khi Phòng Thủ của Pearl lớn hơn hoặc bằng 2.400, khiến Độ Vui Vẻ của bản thân tăng 32%, sau đó cứ vượt quá 100 điểm Phòng Thủ sẽ khiến Độ Vui Vẻ của bản thân tăng 3%, tối đa tính 3.600 điểm Phòng Thủ vượt quá. Pearl nhận được hiệu quả Tăng Lượng Trị Liệu bằng 20% Độ Vui Vẻ của bản thân."
+        },
+        "4": {
+            "name": "Dung Sai Cảm Nhận",
+            "description": "Khi sở hữu \"Việc Tốt Đáng Thưởng\", Kháng Hiệu Ứng của toàn bộ mục tiêu phe ta tăng 50%. Khi hiệp của mục tiêu phe ta bắt đầu, Pearl nhận 5 điểm \"Việc Tốt Đáng Thưởng\", tối đa nhận 50 điểm \"Việc Tốt Đáng Thưởng\", khi hiệp của Pearl bắt đầu sẽ làm mới số lượng \"Việc Tốt Đáng Thưởng\" có thể nhận. Khi thi triển Tấn Công Thường Cường Hóa và Chiến Kỹ, sẽ giải trừ 1 Hiệu Ứng Xấu của toàn bộ mục tiêu phe ta."
+        },
+        "6": {
+            "name": "Rào Cản Nghệ Thuật",
+            "description": "Sau khi vào chiến đấu và thi triển Tuyệt Kỹ, nếu \"Bản Gốc Mỹ Học\" là nhân vật Vận Mệnh \"Vui Vẻ\", khiến lần thi triển Tuyệt Kỹ tiếp theo của nhân vật này hồi phục cố định 90 điểm Năng Lượng cho Pearl. Hiệu ứng này không thể cộng dồn."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "Phòng Thủ",
+            "value": "+22.5%"
+        },
+        {
+            "stat": "Tốc Độ",
+            "value": "+9"
+        },
+        {
+            "stat": "Kháng Hiệu Ứng",
+            "value": "+10%"
+        },
+        {
+            "stat": "Độ Vui Vẻ",
+            "value": "+10.0%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Trân Châu, Ẩn Trong Khoảng Trống Của Biển",
+            "description": "Khi số lượng nhân vật Vận Mệnh \"Vui Vẻ\" trong đội từ 2/3/4 trở lên, khiến Độ Vui Vẻ của toàn bộ phe ta tăng 10%/20%/60%. Nếu mục tiêu phe ta chịu sát thương chí tử, sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời lập tức hồi phục HP bằng 50% Giới Hạn HP của bản thân. Hiệu ứng này có thể kích hoạt 2 lần trong một trận chiến."
+        },
+        {
+            "level": 2,
+            "name": "Bắt Trọn, Vệt Sáng Rạng Đông Trong Khoảnh Khắc",
+            "description": "Sát Thương Vui Vẻ của toàn bộ mục tiêu phe ta tăng Hài Hước 15%. Khi thi triển Tuyệt Kỹ, khiến các nhân vật vận mệnh \"Vui Vẻ\" khác của phe ta ngoại trừ Pearl và \"Bản Gốc Mỹ Học\" cũng kích hoạt hiệu ứng Ưu Tiên Hành Động, đồng thời khiến \"Việc Tốt Đáng Thưởng\" và Điểm Hài Hước nhận được khi bắt đầu hiệp tăng thêm do Tuyệt Kỹ cung cấp tăng 100%."
+        },
+        {
+            "level": 3,
+            "name": "Phác Họa, Khoảnh Khắc Sóng Dữ Ngưng Đọng",
+            "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+        },
+        {
+            "level": 4,
+            "name": "Giải Mã, Nụ Cười Mơ Hồ Nơi Khóe Môi",
+            "description": "Bội số Sát Thương Vui Vẻ do Kỹ Năng Vui Vẻ cung cấp cho toàn bộ mục tiêu phe ta tăng bằng 100% bội số ban đầu."
+        },
+        {
+            "level": 5,
+            "name": "Thấu Thị, Kết Cấu Đêm Sao Nơi Đầu Cọ",
+            "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+        },
+        {
+            "level": 6,
+            "name": "Dùng Một Thân Xác, Diễn Toán Sinh Mệnh",
+            "description": "Khi \"Học Tập Chuyên Sâu\", Xuyên Kháng Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng 20%. Tấn Công Thường Cường Hóa của Pearl gây thêm 240% Sát Thương Vui Vẻ thuộc tính Băng, Sát Thương Vui Vẻ lần này sử dụng điểm thuộc tính của \"Bản Gốc Mỹ Học\" để tính toán."
+        }
+    ],
+    "level_80_stats": {
+        "hp": 1203,
+        "atk": 465,
+        "def": 727,
+        "spd": 99
+    },
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Kỹ Năng Vui Vẻ",
+                "name": "Tô Vẽ Lý Trí, Phân Tích Vui Vẻ",
+                "tag": "Hỗ Trợ",
+                "participant_id": 104,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "Khi số lượng nhân vật Vận Mệnh \"Vui Vẻ\" trong đội bằng 1/2/3/4 trở lên, khiến toàn bộ mục tiêu phe ta sau lần tấn công tiếp theo, gây thêm cho mục tiêu tấn công {{elation_dmg_1}}%/{{elation_dmg_2}}%/{{elation_dmg_3}}%/{{elation_dmg_4}}% Sát Thương Vui Vẻ thuộc tính tương ứng.",
+                "scaling": {
+                    "elation_dmg_1": [
+                        5.0,
+                        5.5,
+                        6.0,
+                        6.5,
+                        7.0,
+                        7.5,
+                        8.125,
+                        8.75,
+                        9.375,
+                        10,
+                        10.5,
+                        11
+                    ],
+                    "elation_dmg_2": [
+                        7.5,
+                        8.25,
+                        9.0,
+                        9.75,
+                        10.5,
+                        11.25,
+                        12.1875,
+                        13.125,
+                        14.0625,
+                        15.0,
+                        15.75,
+                        16.5
+                    ],
+                    "elation_dmg_3": [
+                        10.0,
+                        11.0,
+                        12.0,
+                        13.0,
+                        14.0,
+                        15.0,
+                        16.25,
+                        17.5,
+                        18.75,
+                        20.0,
+                        21.0,
+                        22.0
+                    ],
+                    "elation_dmg_4": [
+                        20.0,
+                        22.0,
+                        24.0,
+                        26.0,
+                        28.0,
+                        30.0,
+                        32.5,
+                        35.0,
+                        37.5,
+                        40.0,
+                        42.0,
+                        44.0
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -8,7 +8,7 @@
     "abilities": {
         "basic": {
             "type": "Basic ATK",
-            "name": "Brushstroke: Trace the Severed Dream",
+            "name": "Brushstroke: Trace the Severed Stream",
             "tag": "Single Target",
             "break": "10",
             "min_level": 1,
@@ -30,7 +30,7 @@
                 {
                     "type": "Enhanced Basic ATK",
                     "name": "Brushstroke: Imagenate the Starry Night",
-                    "tag": "Aoe",
+                    "tag": "AoE",
                     "break": "30",
                     "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies, restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}. While holding \"Certified Banger\", additionally deals {{ice_elation_dmg}}% Ice Elation DMG.",
                     "scaling": {
@@ -75,7 +75,7 @@
                 {
                     "type": "Enhanced Basic ATK",
                     "name": "Brushstroke: Render the Great Wave",
-                    "tag": "Aoe",
+                    "tag": "AoE",
                     "break": "30",
                     "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies. Restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
                     "scaling": {
