@@ -32,8 +32,8 @@
 
     "skill": {
         "type": "Skill",
-        "name": "Fractal, Exiles Fallacy",
-        "tag": "Single",
+        "name": "Intellectual Midwifery",
+        "tag": "Single Target",
         "energy_gain": 30,
         "break": 20,
         "min_level": 1,
@@ -55,7 +55,7 @@
         "min_level": 1,
         "max_level": 12,
         "default_level": 10,
-        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's teammates attack a target afflicted with Wiseman's Folly, Dr. Ratio launches 1 instance of his Talent's Follow-up ATK against this target.\nWiseman's Folly can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's teammates attack a target afflicted with Wiseman's Folly, Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.\nWiseman's Folly can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
         "scaling": {
             "img_dmg": [144, 53.6, 163.2, 172.8, 182.4,	192, 204, 216, 228, 240, 249.6, 259.2]
         }
@@ -70,7 +70,7 @@
         "min_level": 1,
         "max_level": 12,
         "default_level": 10,
-        "description_template": "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-up ATK against his target for 1 time, dealing Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-up ATK increases by 20%. If the target enemy is defeated before the Follow-up ATK triggers, the Follow-up ATK will be directed at a single random enemy instead.",
+        "description_template": "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a Follow-Up ATK against his target for 1 time, dealing Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching Follow-Up ATK increases by 20%. If the target enemy is defeated before the Follow-Up ATK triggers, the Follow-Up ATK will be directed at a single random enemy instead.",
         "scaling": {
             "img_dmg": [135, 148.5, 162, 175.5, 189, 202.5, 219.375, 236.25, 253.125, 270, 283.5, 297]
         }
@@ -126,7 +126,7 @@
     {
         "level": 2,
         "name": "The Divine Is in the Details",
-        "description": "When his Talent's Follow-up ATK hits a target, for every debuff the target has, deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each Follow-up ATK."
+        "description": "When his Talent's Follow-Up ATK hits a target, for every debuff the target has, deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each Follow-Up ATK."
     },
 
     {
@@ -150,7 +150,7 @@
     {
         "level": 6,
         "name": "Vincit Omnia Veritas",
-        "description": "Additionally increases the trigger count for \"Wiseman's Folly\" by 1. The DMG dealt by the Talent's Follow-up ATK increases by 50%."
+        "description": "Additionally increases the trigger count for \"Wiseman's Folly\" by 1. The DMG dealt by the Talent's Follow-Up ATK increases by 50%."
     }
   ]
 }

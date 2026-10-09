@@ -1,0 +1,199 @@
+{
+    "id": "dan-heng",
+    "name": "Dan Heng",
+    "rarity": "4",
+    "type": "wind",
+    "path": "hunt",
+    "version_released": "1.0",
+    "max_energy": 100,
+    "level_80_stats": {
+        "hp": 882,
+        "atk": 546,
+        "def": 396,
+        "spd": 110
+    },
+    "abilities": {
+        "basic": {
+            "type": "Tấn Công Thường",
+            "name": "Thương Thuật Kỵ Sĩ - Gió Bắc",
+            "tag": "Đánh Đơn",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Gây Sát Thương Phong cho một kẻ địch chỉ định tương đương {{scaling1}}% Tấn Công của Dan Heng.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Chiến Kỹ",
+            "name": "Thương Thuật Kỵ Sĩ - Lũ Cuốn",
+            "tag": "Đánh Đơn",
+            "energy_gain": 20,
+            "break": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây Sát Thương Phong cho một kẻ địch chỉ định tương đương {{scaling1}}% Tấn Công của Dan Heng. Khi Chiến Kỹ gây sát thương kích hoạt bạo kích, có 100% xác suất cơ bản khiến mục tiêu phe địch bị tấn công giảm tốc 12%, duy trì 2 hiệp.",
+            "scaling": {
+                "scaling1": [
+                    130,
+                    143,
+                    156,
+                    169,
+                    182,
+                    195,
+                    211.25,
+                    227.5,
+                    243.75,
+                    260,
+                    273,
+                    286
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Tuyệt Kỹ",
+            "name": "Giấc Mơ Bồng Lai",
+            "tag": "Đánh Đơn",
+            "energy_gain": 5,
+            "break": 30,
+            "energy_cost": "100",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây Sát Thương Phong cho một kẻ địch chỉ định tương đương {{scaling1}}% Tấn Công của Dan Heng. Khi mục tiêu bị tấn công đang trong trạng thái Giảm Tốc, Bội Số Sát Thương Tuyệt Kỹ gây ra tăng {{scaling2}}%.",
+            "scaling": {
+                "scaling1": [
+                    240,
+                    256,
+                    272,
+                    288,
+                    304,
+                    320,
+                    340,
+                    360,
+                    380,
+                    400,
+                    416,
+                    432
+                ],
+                "scaling2": [
+                    72,
+                    76.8,
+                    81.6,
+                    86.4,
+                    91.2,
+                    96,
+                    102,
+                    108,
+                    114,
+                    120,
+                    124.8,
+                    129.6
+                ]
+            }
+        },
+        "talent": {
+            "type": "Thiên Phú",
+            "name": "Đi Một Ngày Đàng, Học Một Sàng Khôn",
+            "tag": "Cường Hóa",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Khi Dan Heng trở thành mục tiêu thi triển kỹ năng của phe ta, Xuyên Kháng Phong của lần tấn công tiếp theo tăng {{scaling1}}%. Hiệu ứng này sau 2 hiệp có thể kích hoạt lại.",
+            "scaling": {
+                "scaling1": [
+                    18,
+                    19.8,
+                    21.6,
+                    23.4,
+                    25.2,
+                    27,
+                    29.25,
+                    31.5,
+                    33.75,
+                    36,
+                    37.8,
+                    39.6
+                ]
+            }
+        },
+        "technique": {
+            "type": "Bí Kỹ",
+            "name": "Mũi Nhọn Tiên Phong",
+            "tag": "Cường Hóa",
+            "description": "Sau khi dùng Bí Kỹ, Tấn Công của Dan Heng khi bắt đầu lần chiến đấu tiếp theo tăng 40%, duy trì 3 hiệp."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Rồng Ẩn",
+            "description": "Nếu HP hiện tại thấp hơn hoặc bằng 50% Giới Hạn HP, thì xác suất Dan Heng bị địch tấn công sẽ giảm."
+        },
+        "4": {
+            "name": "Tuyệt Ảnh",
+            "description": "Sau khi tấn công có 50% xác suất cố định khiến Tốc Độ bản thân tăng 20%, duy trì 2 hiệp."
+        },
+        "6": {
+            "name": "Gió Lốc",
+            "description": "Sát thương tấn công thường gây ra cho mục tiêu địch đang ở trạng thái giảm tốc tăng 40%."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "Sát Thương - Phong",
+            "value": "+22.4%"
+        },
+        {
+            "stat": "Tấn Công",
+            "value": "+18%"
+        },
+        {
+            "stat": "Phòng Thủ",
+            "value": "+12.5%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Tận Cùng Trời Cao, Khó Vững Bền Lâu",
+            "description": "Khi đánh trúng kẻ địch có HP hiện tại lớn hơn hoặc bằng 50% Giới Hạn HP của bản thân, thì Tỷ Lệ Bạo Kích của Dan Heng sẽ tăng 12%."
+        },
+        {
+            "level": 2,
+            "name": "Áp Chế Chất Độc, Dập Tắt Ngọn Lửa",
+            "description": "Thời gian chờ của Thiên Phú rút ngắn 1 hiệp."
+        },
+        {
+            "level": 3,
+            "name": "Âm Dương Biến Hoá, Tự Do Tự Tại",
+            "description": "Cấp Chiến Kỹ +2, tối đa không quá 15 cấp; Cấp Tấn Công Thường +1, tối đa không quá 10 cấp."
+        },
+        {
+            "level": 4,
+            "name": "Tâm Tịnh Như Hư Không",
+            "description": "Khi thi triển Tuyệt Kỹ để tiêu diệt kẻ địch, Dan Heng sẽ hành động ngay."
+        },
+        {
+            "level": 5,
+            "name": "Thác Nước Thiên Không, Cuồn Cuộn Bốn Bề",
+            "description": "Cấp Tuyệt Kỹ +2, tối đa không quá 15 cấp; Cấp Thiên Phú +2, tối đa không quá 15 cấp."
+        },
+        {
+            "level": 6,
+            "name": "Buộc Chặt Trước Khi Lao",
+            "description": "Trạng thái Giảm Tốc được kích hoạt bởi Chiến Kỹ khiến Tốc Độ của mục tiêu giảm thêm 8%."
+        }
+    ]
+}
