@@ -74,7 +74,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by {{scaling1}}% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack. When Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
+      "description_template": "When entering combat, summons memosprite Evey. Evey has an initial SPD of 160 and its Max HP equals to 50% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by {{scaling1}}% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target for each received attack.\nWhen Evernight has 16 or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
       "scaling": {
         "scaling1": [
           30,
@@ -335,7 +335,7 @@
     {
       "level": 3,
       "name": "Fear Not, the Nightmare Lies Past",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10. Memosprite Talent Lv. +1, up to a maximum of Lv. 10."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 4,
@@ -345,7 +345,7 @@
     {
       "level": 5,
       "name": "Let Go, the \"Me\" in Memories",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15. Memosprite Skill Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 6,

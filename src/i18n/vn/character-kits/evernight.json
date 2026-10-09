@@ -1,0 +1,357 @@
+{
+  "id": "evernight",
+  "name": "Evernight",
+  "rarity": "5",
+  "type": "ice",
+  "path": "remembrance",
+  "version_released": "3.6",
+  "max_energy": 240,
+  "level_80_stats": {
+    "hp": 1319,
+    "atk": 543,
+    "def": 582,
+    "spd": 99
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Từ Đây Thời Gian Mịt Mù",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây cho 1 kẻ địch chỉ định Sát Thương Băng bằng {{scaling1}}% Giới Hạn HP của Evernight.",
+      "scaling": {
+        "scaling1": [
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ]
+      }
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Ngày Lặng Lẽ Rời Xa",
+      "tag": "Triệu Hồi",
+      "energy_gain": 30,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Tiêu hao 10% HP hiện tại của Evernight để triệu hồi Linh Hồn Ký Ức \"Đêm Dài\", và tăng Sát Thương Bạo Kích của toàn bộ Linh Hồn Ký Ức phe ta, mức tăng bằng {{scaling1}}% Sát Thương Bạo Kích của Evernight, duy trì 2 hiệp, số hiệp duy trì sẽ giảm 1 mỗi khi Evernight bắt đầu hiệp. Nếu Linh Hồn Ký Ức \"Đêm Dài\" đã trong trận, sẽ hồi cho nó HP tương đương 50% Giới Hạn HP của nó. Khi thi triển, nhận 2 điểm Chất Ký Ức, nếu đang ở trạng thái \"Bí Ẩn Tăm Tối\", sẽ nhận thêm 12 điểm Chất Ký Ức.",
+      "scaling": {
+        "scaling1": [
+          12,
+          13.2,
+          14.4,
+          15.6,
+          16.8,
+          18,
+          19.5,
+          21,
+          22.5,
+          24,
+          25.2,
+          26.4,
+          27.6,
+          28.8,
+          30
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "\tĐồng Hành Cùng Tôi Đêm Nay\t",
+      "tag": "Cường Hóa",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khi vào chiến đấu, triệu hồi Linh Hồn Ký Ức \"Đêm Dài\". Linh Hồn Ký Ức \"Đêm Dài\" ban đầu có 160 điểm Tốc Độ, Giới Hạn HP bằng 50% của Evernight. Mỗi khi HP của Evernight hoặc Linh Hồn Ký Ức \"Đêm Dài\" giảm, sẽ khiến Sát Thương Bạo Kích của bản thân và Linh Hồn Ký Ức \"Đêm Dài\" tăng {{scaling1}}%, duy trì 2 hiệp, và nhận được 2 điểm Chất Ký Ức. Hiệu ứng này mỗi mục tiêu mỗi lần bị tấn công tối đa kích hoạt 1 lần.\nKhi Chất Ký Ức Evernight sở hữu lớn hơn hoặc bằng 16 điểm, sẽ giải trừ và miễn dịch Hiệu Ứng Xấu loại khống chế, nếu Linh Hồn Ký Ức \"Đêm Dài\" trong trận, sẽ khiến nó lập tức hành động. Hiệu ứng lập tức hành động sẽ có thể kích hoạt lần nữa sau khi Linh Hồn Ký Ức \"Đêm Dài\" thi triển \"Mộng Mị, Mất Mát, Như Sương\".",
+      "scaling": {
+        "scaling1": [
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48.75,
+          52.5,
+          56.25,
+          60,
+          63,
+          66,
+          69,
+          72,
+          75
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Mong Mưa Lạnh Rơi",
+      "tag": "Hỗ Trợ",
+      "description": "Sau khi sử dụng Bí Kỹ, khi bắt đầu trận chiến tiếp theo, nhận hiệu ứng tăng Sát Thương Bạo Kích của toàn bộ Linh Hồn Ký Ức phe ta giống như Chiến Kỹ, đồng thời nhận 1 điểm Chất Ký Ức."
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Này Thế Giới Không Ngủ, Ngủ Yên Nhé",
+      "tag": "Đánh Lan",
+      "energy_gain": 5,
+      "break_aoe": 30,
+      "energy_cost": 240,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Triệu hồi Linh Hồn Ký Ức \"Đêm Dài\", sau đó khiến Linh Hồn Ký Ức \"Đêm Dài\" gây Sát Thương Băng bằng {{scaling1}}% Giới Hạn HP của \"Đêm Dài\" lên toàn bộ phe địch, và khiến Evernight vào trạng thái \"Bí Ẩn Tăm Tối\". Trong thời gian này, sát thương toàn bộ phe địch phải chịu tăng {{scaling3}}%, sát thương Evernight và Linh Hồn Ký Ức \"Đêm Dài\" gây ra tăng {{scaling2}}%, đồng thời miễn dịch Hiệu Ứng Xấu loại khống chế. Nhận 2 điểm Nạp Năng Lượng \"Bí Ẩn Tăm Tối\", tiêu hao 1 điểm sau khi Linh Hồn Ký Ức \"Đêm Dài\" thi triển \"Mộng Mị, Mất Mát, Như Sương\". Khi bắt đầu hiệp của Evernight, nếu không còn điểm Nạp Năng Lượng, sẽ thoát trạng thái \"Bí Ẩn Tăm Tối\".",
+      "scaling": {
+        "scaling1": [
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          162,
+          175,
+          188,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250
+        ],
+        "scaling2": [
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          49,
+          52,
+          56,
+          60,
+          63,
+          66,
+          69,
+          72,
+          75
+        ],
+        "scaling3": [
+          15,
+          16,
+          18,
+          20,
+          21,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          34,
+          36,
+          38
+        ]
+      }
+    }
+  },
+  "memosprite": {
+    "name": "Đêm Dài",
+    "initial_spd": 160,
+    "hp_source": "50% Giới Hạn HP của Evernight",
+    "skills": {
+      "memosprite_skill": {
+        "type": "Kỹ Năng Linh Hồn Ký Ức",
+        "name": "Hồi Ức, Bồng Bềnh, Như Mưa",
+        "tag": "Đánh Đơn",
+        "energy_gain": 20,
+        "break": 10,
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "Kỹ năng này tự động chọn mục tiêu thi triển, ưu tiên tấn công mục tiêu phe địch mà Evernight đã tấn công lần trước. Gây Sát Thương Băng bằng {{scaling1}}% Giới Hạn HP của \"Đêm Dài\" cho 1 kẻ địch, Evernight hiện tại cứ có 4 điểm Chất Ký Ức sẽ gây thêm Sát Thương Băng bằng {{scaling2}}% Giới Hạn HP của \"Đêm Dài\". Sau khi thi triển sẽ khiến Evernight nhận 1 điểm Chất Ký Ức.",
+        "scaling": {
+          "scaling1": [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70
+          ],
+          "scaling2": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        "variants": [
+          {
+            "type": "Kỹ Năng Linh Hồn Ký Ức",
+            "name": "Mộng Mị, Mất Mát, Như Sương",
+            "tag": "Đánh Lan",
+            "energy_gain": 10,
+            "break_aoe": 30,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Khi Chất Ký Ức của Evernight lớn hơn hoặc bằng 16 điểm, và Evernight không trong trạng thái bị khống chế, thì sẽ thi triển, hiện tại cứ có 1 điểm Chất Ký Ức sẽ gây Sát Thương Băng bằng {{scaling1}}% Giới Hạn HP của \"Đêm Dài\" lên mục tiêu chính, đồng thời gây Sát Thương Băng bằng {{scaling2}}% Giới Hạn HP của \"Đêm Dài\" lên các mục tiêu phe địch khác. Sau khi thi triển, tiêu hao toàn bộ Chất Ký Ức và HP, đồng thời khiến \"Đêm Dài\" biến mất.",
+            "scaling": {
+              "scaling1": [
+                6,
+                7.2,
+                8.4,
+                9.6,
+                10.8,
+                12,
+                13.2,
+                14.4,
+                15.6,
+                16.8
+              ],
+              "scaling2": [
+                3,
+                3.6,
+                4.2,
+                4.8,
+                5.4,
+                6,
+                6.6,
+                7.2,
+                7.8,
+                8.4
+              ]
+            }
+          }
+        ]
+      },
+      "memosprite_talent": {
+        "type": "Thiên Phú Linh Hồn Ký Ức",
+        "name": "Cô Độc, Trôi Nổi, Tăm Tối",
+        "tag": "Hỗ Trợ",
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "\"Đêm Dài\" miễn dịch Hiệu Ứng Xấu loại khống chế, xác suất bị tấn công tăng. Khi \"Đêm Dài\" trong trận, sát thương Evernight và \"Đêm Dài\" gây ra tăng {{scaling1}}%.",
+        "scaling": {
+          "scaling1": [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70
+          ]
+        },
+        "variants": [
+          {
+            "type": "Thiên Phú Linh Hồn Ký Ức",
+            "name": "Đêm Tối, Hình Bóng, Không Rời",
+            "tag": "Cường Hóa",
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description": "Khi được triệu hồi, khiến bản thân lập tức hành động."
+          },
+          {
+            "type": "Thiên Phú Linh Hồn Ký Ức",
+            "name": "Cùng Bạn, Tạm Biệt, Không Hẹn Gặp Lại",
+            "tag": "Cường Hóa",
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description": "Khi biến mất, sẽ khiến Tốc Độ của Evernight tăng 10%, nếu biến mất do thi triển \"Mộng Mị, Mất Mát, Như Sương\", thì lần tấn công này cứ tiêu hao 1 điểm \"Chất Ký Ức\" sẽ khiến Tốc Độ của Evernight tăng thêm 1%, tối đa tính 40 điểm Chất Ký Ức. Hiệu ứng Tăng Tốc không thể cộng dồn, xóa khi bắt đầu hiệp tiếp theo của Evernight."
+          }
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Trời Tối Đen, Trăng Tĩnh Mịch",
+      "description": "Tỷ Lệ Bạo Kích của Evernight và Linh Hồn Ký Ức \"Đêm Dài\" tăng 35%, khi thi triển kỹ năng sẽ tiêu hao 5% HP hiện tại của bản thân khiến Sát Thương Bạo Kích của cả hai tăng 15%, duy trì 2 hiệp. Sau khi Linh Hồn Ký Ức \"Đêm Dài\" thi triển \"Mộng Mị, Mất Mát, Như Sương\", sẽ hồi 1 Điểm Chiến Kỹ cho phe ta."
+    },
+    "4": {
+      "name": "Một Ánh Nến Bùng Lên, Một Ánh Nến Lụi Tàn",
+      "description": "Khi bắt đầu chiến đấu, Evernight hồi 70 điểm Năng Lượng và nhận được 1 điểm Chất Ký Ức. Khi Evernight hoặc Linh Hồn Ký Ức phe ta thi triển kỹ năng, Evernight sẽ hồi 5 điểm Năng Lượng và nhận 1 điểm Chất Ký Ức."
+    },
+    "6": {
+      "name": "Trời Đã Sáng, Mưa Đã Rơi",
+      "description": "Khi số lượng nhân vật vận mệnh \"Ký Ức\" trong đội là 1/2/3/4 hoặc nhiều hơn, trong thời gian duy trì Chiến Kỹ của Evernight sẽ khiến Sát Thương Bạo Kích của toàn bộ Linh Hồn Ký Ức phe ta tăng thêm 5%/15%/50%/65%."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "HP",
+      "value": "+18%"
+    },
+    {
+      "stat": "Tỷ Lệ Bạo Kích",
+      "value": "+18.7%"
+    },
+    {
+      "stat": "Sát Thương Bạo Kích",
+      "value": "+13.3%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Ngủ Đi, Đêm Dài Sẽ Dẫn Mộng",
+      "description": "Khi Evernight trong trận, khi số lượng mục tiêu phe địch trong trận từ 4 trở lên/3/2/1, thì sát thương Linh Hồn Ký Ức phe ta gây ra sẽ bằng 120%/125%/130%/150% sát thương gốc."
+    },
+    {
+      "level": 2,
+      "name": "Nghe Đi, Lời Thì Thầm Giữa Mê Sâu",
+      "description": "Sát Thương Bạo Kích của Evernight và Linh Hồn Ký Ức \"Đêm Dài\" tăng 40%, mỗi khi Evernight nhận được Chất Ký Ức, sẽ khiến số lượng Chất Ký Ức nhận được tăng 2 điểm. Khi thi triển Tuyệt Kỹ, nhận thêm 2 điểm Nạp Năng Lượng \"Bí Ẩn Tăm Tối\"."
+    },
+    {
+      "level": 3,
+      "name": "Đừng Sợ, Ác Mộng Đã Thành Quá Khứ",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Thiên Phú Linh Hồn Ký Ức +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Tỉnh Dậy, Là Ngày Mai Của Bạn",
+      "description": "Khi Evernight trong trận, Hiệu Suất Phá Vỡ Điểm Yếu của Linh Hồn Ký Ức phe ta tăng 25%, Hiệu Suất Phá Vỡ Điểm Yếu của Linh Hồn Ký Ức \"Đêm Dài\" tăng thêm 25%."
+    },
+    {
+      "level": 5,
+      "name": "Lãng Quên, \"Tôi\" Trong Ký Ức",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp kỹ năng của Linh Hồn Ký Ức +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 6,
+      "name": "Cứ Như Vậy, Mãi Mãi",
+      "description": "Khi Evernight trong trận, Xuyên Kháng Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng 20%. Sau khi Linh Hồn Ký Ức \"Đêm Dài\" thi triển \"Mộng Mị, Mất Mát, Như Sương\", Evernight sẽ nhận được 30% số lượng Chất Ký Ức lần tấn công này đã tiêu hao."
+    }
+  ]
+}
+
