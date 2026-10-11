@@ -7,14 +7,14 @@
     ],
     "overview": {
         "summary": {
-            "en": "- Ashveil is a strong CRIT-based DPS who excels in Single Target scenarios but is also decent in AoE, as his Enhanced Follow-Up ATK changes targets when it kills an enemy.\n- Supportive capabilities designed to benefit Follow-Up ATK units, including DEF Reduction and CRIT DMG buffs.\n- His kit is intended for a sub-DPS role alongside Aventurine • Waveflair, although he works just fine as a hypercarry."
+            "en": "- Ashveil is a strong CRIT-based DPS who excels in Single Target scenarios but is also decent in AoE, as his Enhanced Follow-Up ATK changes targets when it kills an enemy.\n- He has supportive capabilities designed to benefit Follow-Up ATK units, including DEF Reduction and CRIT DMG buffs.\n- His kit is intended for a sub-DPS role, for example alongside Aventurine • Waveflair, although he works just fine as a hypercarry."
         },
         "investment_priority": {
             "priority": {
                 "en": "E1 = S1 > E2"
             },
             "details": {
-                "en": "- E1: Increases DMG taken by enemies by 24%. When an enemy is below 50% health, this increases to 36% (provides more value if Ashveil is a sub-DPS).\n- S1 [[light-cone:the-finale-of-a-lie]] provides 18% CRIT Rate. Grants 40% ATK and applies 20% Vulnerability to all enemies at the start of the battle and for every 4 instances of Follow-Up ATK.\n- E2: Increases maximum \"Gluttony\" to 18 and refunds 35% of consumed \"Gluttony\" after an Enhanced Follow-Up ATK."
+                "en": "- E1 increases DMG taken by enemies by 24%. When an enemy is below 50% health, this increases to 36% (provides more value if Ashveil is a sub-DPS).\n- S1 [[light-cone:the-finale-of-a-lie]] provides 18% CRIT Rate. Grants 40% ATK and applies 20% Vulnerability to all enemies at the start of the battle and for every 4 instances of Follow-Up ATK.\n- E2 increases maximum \"Gluttony\" to 18 and refunds 35% of consumed \"Gluttony\" after an Enhanced Follow-Up ATK."
             }
         }
     }

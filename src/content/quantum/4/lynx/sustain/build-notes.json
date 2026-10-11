@@ -8,14 +8,14 @@
     ],
     "overview": {
         "summary": {
-            "en": "- "
+            "en": "- Lynx is a healer who keeps the team alive through her Skill and Ultimate.\n- Lynx's Skill and Ultimate provide immediate healing, while also applying a heal-over-time effect that restores HP at the start of allies’ turns. Her Ultimate can cleanse a debuff from all allies.\n- Lynx's Skill also increases the target ally's Max HP. Additionally, if the target ally follows the Path of Destruction or Preservation, the chance of them being attacked greatly increases."
         },
         "notable_eidolons": {
             "priority": {
-                "en": ""
+                "en": "E2"
             },
             "details": {
-                "en": "- "
+                "en": "- E2 allows the target of Lynx's Skill to resist debuff 1 time."
             }
         }
     }
