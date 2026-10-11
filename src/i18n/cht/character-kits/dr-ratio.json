@@ -47,7 +47,7 @@
 
     "ultimate": {
         "type": "終結技",
-        "name": "三段悖論,
+        "name": "三段悖論",
         "tag": "單體攻擊",
         "energy_cost": 140,
         "energy_gain": 5,
@@ -63,7 +63,7 @@
 
     "talent": {
         "type": "天賦",
-        "name": "我思故我在,
+        "name": "我思故我在",
         "tag": "單體攻擊",
         "energy_gain": 5,
         "break": 10,
