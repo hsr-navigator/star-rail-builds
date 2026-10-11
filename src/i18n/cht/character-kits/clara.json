@@ -1,0 +1,202 @@
+{
+    "id": "clara",
+    "name": "克拉拉",
+    "rarity": 5,
+    "type": "physical",
+    "path": "destruction",
+    "version_released": "1.0",
+    "max_energy": 110,
+    "level_80_stats": {
+        "hp": 1242,
+        "atk": 737,
+        "def": 485,
+        "spd": 90
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "我也想幫上忙",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "對指定敵方單體造成等同於克拉拉{{damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "damage": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "史瓦羅在看著你",
+            "tag": "群體攻擊",
+            "energy_gain": 30,
+            "break_aoe": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "對敵方全體造成等同於克拉拉{{skill_damage}}%攻擊力的物理屬性傷害，並對所有被史瓦羅標上【反擊標記】的敵方目標額外造成等同於克拉拉{{skill_damage}}%攻擊力物理屬性傷害。\n戰技施放後所有【反擊標記】失效。",
+            "scaling": {
+                "skill_damage": [
+                    60.0,
+                    66.0,
+                    72.0,
+                    78.0,
+                    84.0,
+                    90.0,
+                    97.5,
+                    105.0,
+                    112.5,
+                    120.0,
+                    126.0,
+                    132.0
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "是約定不是命令",
+            "tag": "強化",
+            "energy_cost": 110,
+            "energy_gain": 5,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "施放終結技後克拉拉的傷害承受額外降低{{damage_reduction}}%且被敵方攻擊的概率大幅提高，持續2回合。\n同時史瓦羅的反擊得到強化，當任意我方目標受到攻擊後，史瓦羅會立即發動反擊，對敵方目標造成的傷害倍率提高{{mv_increase}}%，並對其相鄰目標造成相當於主目標50%的傷害。強化效果可生效2次。",
+            "scaling": {
+                "damage_reduction": [
+                    15.0,
+                    16.0,
+                    17.0,
+                    18.0,
+                    19.0,
+                    20.0,
+                    21.25,
+                    22.5,
+                    23.75,
+                    25.0,
+                    26.0,
+                    27.0
+                ],
+                "mv_increase": [
+                    96.0,
+                    102.4,
+                    108.8,
+                    115.2,
+                    121.6,
+                    128.0,
+                    136.0,
+                    144.0,
+                    152.0,
+                    160,
+                    166.4,
+                    172.8
+                ]
+            }
+        },
+        "talent": {
+            "type": "天賦",
+            "name": "因為我們是家人",
+            "tag": "單體攻擊",
+            "energy_gain": 5,
+            "break": 10,
+            "break_main": "20 (強化反擊)",
+            "break_adjacent": "10 (強化反擊)",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "克拉拉在史瓦羅的保護下，承受自敵方目標攻擊的傷害降低10%。攻擊克拉拉的敵方目標會被史瓦羅標上【反擊標記】，並遭到史瓦羅的反擊，對其造成等同於克拉拉{{follow_up_damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "follow_up_damage": [
+                    80.0,
+                    88.0,
+                    96.0,
+                    104.0,
+                    112.0,
+                    120.0,
+                    130.0,
+                    140.0,
+                    150.0,
+                    160.0,
+                    168.0,
+                    176.0
+                ]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "勝利的小小代價",
+            "break": 20,
+            "description": "立即攻擊敵人，進入戰鬥後克拉拉受到敵方攻擊的機率提高，持續2回合。"
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "家人",
+            "description": "受到攻擊時有35%的固定概率為自身解除1個負面效果。"
+        },
+        "4": {
+            "name": "守護",
+            "description": "抵抗控制類負面狀態的機率提高35%。"
+        },
+        "6": {
+            "name": "復仇",
+            "description": "史瓦羅的反擊傷害提高30%。"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "生命強化",
+            "value": "+10%"
+        },
+        {
+            "stat": "傷害強化·物理",
+            "value": "+14.4%"
+        },
+        {
+            "stat": "攻擊強化",
+            "value": "+28.0%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "高大的背影",
+            "description": "施放戰技後，不會清除敵方目標的【反擊標記】。"
+        },
+        {
+            "level": 2,
+            "name": "緊緊的擁抱",
+            "description": "施放終結技後攻擊力提高30%，持續2回合。"
+        },
+        {
+            "level": 3,
+            "name": "冰冷的鋼甲",
+            "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 4,
+            "name": "家人的溫暖",
+            "description": "受到攻擊後，克拉拉受到的傷害降低30%，效果持續到自己的下個回合開始。"
+        },
+        {
+            "level": 5,
+            "name": "小小的承諾",
+            "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 6,
+            "name": "長久的陪伴",
+            "description": "我方其他目標遭到攻擊後，史瓦羅也有50%的固定概率觸發對攻擊者的反擊，並對攻擊目標添加【反擊標記】。施放終結技時，額外增加1次強化反擊的次數。"
+        }
+    ]
+}
