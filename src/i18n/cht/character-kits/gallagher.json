@@ -1,0 +1,240 @@
+{
+  "id": "gallagher",
+  "name": "加拉赫",
+  "rarity": "4",
+  "type": "fire",
+  "path": "abundance",
+  "version_released": "2.1",
+  "max_energy": 110,
+  "level_80_stats": {
+    "hp": 1305,
+    "atk": 529,
+    "def": 441,
+    "spd": 98
+  },
+  "abilities": {
+    "basic": {
+      "type": "普攻",
+      "name": "開瓶費",
+      "tag": "單體攻擊",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "對指定敵方單體造成等同於加拉赫{{scaling1}}%攻擊力的火屬性傷害。",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      },
+      "variants": [
+        {
+          "type": "強化普攻",
+          "name": "酒花奔湧",
+          "tag": "單體攻擊",
+          "energy_gain": "20",
+          "break": "30",
+          "min_level": 1,
+          "max_level": 7,
+          "default_level": 6,
+          "description_template": "對指定敵方單體造成等同於加拉赫{{scaling1}}%攻擊力的火屬性傷害。並使目標攻擊力降低{{scaling2}}%，持續2回合。",
+          "scaling": {
+            "scaling1": [
+              125,
+              150,
+              175,
+              200,
+              225,
+              250,
+              275
+            ],
+            "scaling2": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "type": "戰技",
+      "name": "罐裝特調",
+      "tag": "回復",
+      "energy_gain": 30,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "立即為指定我方單體回復{{scaling1}}點生命值。",
+      "scaling": {
+        "scaling1": [
+          200,
+          340,
+          480,
+          676,
+          830,
+          984,
+          1138,
+          1292,
+          1446,
+          1600,
+          1684,
+          1768,
+          1852,
+          1936,
+          2020
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "終結技",
+      "name": "香檳儀禮",
+      "tag": "群體攻擊",
+      "energy_gain": 5,
+      "break_aoe": 20,
+      "energy_cost": 110,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "使敵方全體陷入【酩酊】狀態，持續2回合，同時對敵方全體造成等同於加拉赫{{scaling1}}%攻擊力的火屬性傷害，並將下一次普通攻擊強化為【酒花奔湧】。",
+      "scaling": {
+        "scaling1": [
+          75,
+          82.5,
+          90,
+          97.5,
+          105,
+          112.5,
+          121.875,
+          131.25,
+          140.625,
+          150,
+          157.5,
+          165,
+          172.5,
+          180,
+          187.5
+        ]
+      }
+    },
+    "talent": {
+      "type": "天賦",
+      "name": "鏖戰正酣",
+      "tag": "回復",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "【酩酊】使目標受到的擊破傷害提高{{scaling1}}%。陷入【酩酊】狀態的目標每次受到我方角色攻擊後，會回復攻擊者{{scaling2}}點生命值。",
+      "scaling": {
+        "scaling1": [
+          6,
+          6.6,
+          7.2,
+          7.8,
+          8.4,
+          9,
+          9.75,
+          10.5,
+          11.25,
+          12,
+          12.6,
+          13.2,
+          13.8,
+          14.4,
+          15
+        ],
+        "scaling2": [
+          80,
+          136,
+          192,
+          270.4,
+          332,
+          393.6,
+          455.2,
+          516.8,
+          578.4,
+          640,
+          673.6,
+          707.2
+        ]
+      }
+    },
+    "technique": {
+      "type": "秘技",
+      "name": "親啟佳釀",
+      "break": 20,
+      "description": "立即攻擊敵人，進入戰鬥後使敵方全體陷入【酩酊】狀態，持續2回合，並對敵方全體造成等同於加拉赫50%攻擊力的火屬性傷害。"
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "嶄新配方",
+      "description": "使自身提供的治療量提高，提高數值等同於擊破特攻的50%，最多使提供的治療量提高75%。"
+    },
+    "4": {
+      "name": "天然酵母",
+      "description": "施放終結技後，立刻使自己行動提前100%。"
+    },
+    "6": {
+      "name": "敬請乾杯",
+      "description": "加拉赫施放【酒花奔湧】攻擊陷入【酩酊】狀態的目標時，此次天賦提供的生命回復效果也會對我方隊友生效。"
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "生命強化",
+      "value": "+18%"
+    },
+    {
+      "stat": "擊破強化",
+      "value": "+13.3%"
+    },
+    {
+      "stat": "效果抗性強化",
+      "value": "+28%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "鹽與犬",
+      "description": "加拉赫進入戰鬥後會恢復20點能量，效果抗性提高50%。"
+    },
+    {
+      "level": 2,
+      "name": "獅子之尾",
+      "description": "施放戰技時，解除指定我方單體的1個負面效果，同時使其效果抗性提高30%，持續2回合。"
+    },
+    {
+      "level": 3,
+      "name": "逝者的新生",
+      "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    {
+      "level": 4,
+      "name": "臨終的輕語",
+      "description": "加拉赫終結技造成的【酩酊】狀態持續時間延長1回合。"
+    },
+    {
+      "level": 5,
+      "name": "午後之死",
+      "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    {
+      "level": 6,
+      "name": "血與沙",
+      "description": "加拉赫的擊破特攻提高20%，弱點擊破效率提高20%。"
+    }
+  ]
+}
