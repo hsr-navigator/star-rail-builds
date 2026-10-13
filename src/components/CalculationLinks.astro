@@ -7,6 +7,7 @@ type CalculationTag =
     'character-calculations' | 'investment-chart' | 'team-guide';
 
 type CalculationCredit = {
+    label?: string;
     tag?: CalculationTag;
     author?: string;
     link?: string;
@@ -78,7 +79,7 @@ const sectionTitle =
                 {calculationCredits.map((credit) => (
                     <div class="build-calculation-link">
                         <a href={credit.link} target="_blank" rel="noreferrer">
-                            {getTagLabel(credit.tag)}
+                            {credit.label || getTagLabel(credit.tag)}
                         </a>
 
                         <div class="build-calculation-credit">

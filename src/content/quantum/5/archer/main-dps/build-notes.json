@@ -3,8 +3,7 @@
     "name": {
         "en": "Main DPS"
     },
-    "notes": [
-    ],
+    "notes": [],
     "overview": {
         "summary": {
             "en": "- Archer is a powerful DPS unit who excels in single to low target fights.\n- Acher deals damage to enemies through repeatedly using his Skill. His Skill costs two Skill Points per use and can be used five times a turn. After using his Ultimate, Archer gains two Charges. After an ally uses an attack, Archer consumes a Charge to unleash a Follow-Up ATK and recovers one Skill Point.\n- Archer's performance is heavily reliant on Sparkle and/or Rin Tohsaka for Skill Point generation."
@@ -17,5 +16,23 @@
                 "en": "- E1 refunds 2 Skill Points after his third consecutive Skill.\n- S1 [[light-cone:the-finale-of-a-lie]] grants the wearer an ATK% buff and applies a Vulnerability debuff to enemies. Archer can consistently satisfy the Light Cone's Follow-Up ATK requirement through his Talent and his Joint Follow-Up ATK with Rin Tohsaka.\n- E2 reduces the Quantum RES of enemies hit by his Ultimate for 2 turns."
             }
         }
-    }
-} 
+    },
+    "global": [
+        {
+            "tag": "investment-chart",
+            "label": {
+                "en": "Archer+Sparkle Investment Chart"
+            },
+            "author": "Houseplant",
+            "link": "https://imgur.com/a/archer-investment-fKj5Ccy"
+        },
+        {
+            "tag": "investment-chart",
+            "label": {
+                "en": "Archer+Summer Robin Investment Chart"
+            },
+            "author": "Houseplant",
+            "link": "https://imgur.com/a/archer-sobin-investment-VuvRtoy"
+        }
+    ]
+}

@@ -61,6 +61,7 @@ type LocalizedBuildNote = {
 };
 
 type BuildCalculationCredit = {
+    label?: string | Record<string, string>;
     author?: string;
     link?: string;
     detail?: string;
@@ -944,27 +945,23 @@ function buildLocalizedNotes(
             ? buildNoteData.notes
             : [];
 
-    const localizeCreditDetail = (
-        credit: BuildCalculationCredit,
-    ) =>
-        credit?.detail
-            ? {
-                ...credit,
-
-                detail:
-                    translator.translateNoteText(
-                        credit.detail,
-                        sourceFile,
-                        {
-                            lightConePopovers:
-                                true,
-                            relicPopovers: true,
-                            rotationPopovers:
-                                true,
-                        },
-                    ),
-            }
-            : credit;
+    const localizeCreditDetail = (credit: BuildCalculationCredit) => {
+        const rawLabel = credit?.label;
+        const label = typeof rawLabel === 'string'
+            ? rawLabel.trim()
+            : (rawLabel?.[lang]?.trim() || rawLabel?.en?.trim() || '');
+        return {
+            ...credit,
+            label,
+            ...(credit?.detail ? {
+                detail: translator.translateNoteText(
+                    credit.detail,
+                    sourceFile,
+                    { lightConePopovers: true, relicPopovers: true, rotationPopovers: true },
+                ),
+            } : {}),
+        };
+    };
 
     const localizeCreditDetails = (
         value:
