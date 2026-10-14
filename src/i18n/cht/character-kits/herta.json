@@ -1,0 +1,198 @@
+{
+  "id": "herta",
+  "name": "黑塔",
+  "rarity": "4",
+  "type": "ice",
+  "path": "erudition",
+  "version_released": "1.0",
+  "max_energy": 110,
+  "level_80_stats": {
+    "hp": 952,
+    "atk": 582,
+    "def": 396,
+    "spd": 100
+  },
+  "abilities": {
+    "basic": {
+      "type": "普攻",
+      "name": "看什麼看",
+      "tag": "單體攻擊",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "對指定敵方單體造成等同於黑塔{{scaling1}}%攻擊力的冰屬性傷害。",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130
+        ]
+      }
+    },
+    "skill": {
+      "type": "戰技",
+      "name": "一錘子買賣",
+      "tag": "群體攻擊",
+      "energy_gain": 30,
+      "break_aoe": 10,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "對敵方全體造成等同於黑塔{{scaling1}}%攻擊力的冰屬性傷害。若敵方目標生命值百分比大於等於50%，則對該目標造成的傷害提高20%。",
+      "scaling": {
+        "scaling1": [
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          81.25,
+          87.5,
+          93.75,
+          100,
+          105,
+          110,
+          115,
+          120,
+          125
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "終結技",
+      "name": "是魔法，我加了魔法",
+      "tag": "群體攻擊",
+      "energy_gain": 5,
+      "break_aoe": 20,
+      "energy_cost": 110,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "對敵方全體造成等同於黑塔{{scaling1}}%攻擊力的冰屬性傷害。",
+      "scaling": {
+        "scaling1": [
+          120,
+          128,
+          136,
+          144,
+          152,
+          160,
+          170,
+          180,
+          190,
+          200,
+          208,
+          216,
+          224,
+          232,
+          240
+        ]
+      }
+    },
+    "talent": {
+      "type": "天賦",
+      "name": "還是我來吧",
+      "tag": "群體攻擊",
+      "energy_gain": 5,
+      "break_aoe": 5,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "當任意我方目標的攻擊使敵方目標的生命值百分比小於等於50%時，黑塔發動追加攻擊，對敵方全體造成等同於黑塔{{scaling1}}%攻擊力的冰屬性傷害。",
+      "scaling": {
+        "scaling1": [
+          25,
+          26.5,
+          28,
+          29.5,
+          31,
+          32.5,
+          34.375,
+          36.25,
+          38.125,
+          40,
+          41.5,
+          43,
+          44.5,
+          46,
+          47.5
+        ]
+      }
+    },
+    "technique": {
+      "type": "秘技",
+      "name": "可以改良一下",
+      "tag": "Усиление",
+      "description": "使用秘技後，下一次戰鬥開始時黑塔攻擊力提高40%，持續3回合。"
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "效率",
+      "description": "施放戰技時，對目標造成的傷害提高效果額外再提高25%。"
+    },
+    "4": {
+      "name": "人偶",
+      "description": "對控制類負面狀態的效果抗性提高35%。"
+    },
+    "6": {
+      "name": "冰結",
+      "description": "施放終結技時，對凍結狀態下的敵人造成的傷害提高20%。"
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "防禦強化",
+      "value": "+22.5%"
+    },
+    {
+      "stat": "暴擊率強化",
+      "value": "+6.7%"
+    },
+    {
+      "stat": "傷害強化·冰",
+      "value": "+22.4%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "落井當下石",
+      "description": "施放普攻時，若指定敵方單體生命值百分比小於等於50%，則額外造成等同於黑塔40%攻擊力的冰屬性附加傷害。"
+    },
+    {
+      "level": 2,
+      "name": "得勝必追擊",
+      "description": "天賦每觸發1次，自身暴擊率提高3%，該效果最多疊加5層。"
+    },
+    {
+      "level": 3,
+      "name": "我就是這樣女子",
+      "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    {
+      "level": 4,
+      "name": "打人要打臉",
+      "description": "觸發天賦時造成的傷害提高10%。"
+    },
+    {
+      "level": 5,
+      "name": "罵人不留口",
+      "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    {
+      "level": 6,
+      "name": "世上沒人能負我",
+      "description": "施放終結技後，攻擊力提高25%，持續1回合。"
+    }
+  ]
+}
