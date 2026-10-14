@@ -93,7 +93,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "為我方全體提供強度等同於傑帕德{{scaling1}}%防禦力+{scaling2}}傷害的護盾，持續3回合。",
+      "description_template": "為我方全體提供強度等同於傑帕德{{scaling1}}%防禦力+{{scaling2}}傷害的護盾，持續3回合。",
       "scaling": {
         "scaling1": [
           30,
