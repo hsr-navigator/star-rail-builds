@@ -1,0 +1,295 @@
+{
+    "id": "imbibitor-lunae",
+    "name": "丹恆·飲月",
+    "rarity": "5",
+    "type": "imaginary",
+    "path": "destruction",
+    "version_released": "1.3",
+    "max_energy": 140,
+    "level_80_stats": {
+        "hp": 1241,
+        "atk": 698,
+        "def": 363,
+        "spd": 102
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "澤芝",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "發動2段攻擊，對指定敵方單體造成等同於丹恆•飲月{{two_hit_damage}}%攻擊力的虛數屬性傷害。",
+            "scaling": {
+                "two_hit_damage": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            },
+            "variants": [
+                {
+                    "type": "強化普攻",
+                    "name": "瞬華",
+                    "tag": "單體攻擊",
+                    "energy_gain": 30,
+                    "break": 20,
+                    "description_template": "發動3段攻擊，對指定敵方單體造成等同於丹恆•飲月{{three_hit_damage}}%攻擊力的虛數屬性傷害。",
+                    "scaling": {
+                        "three_hit_damage": [
+                            130,
+                            156,
+                            182,
+                            208,
+                            234,
+                            260,
+                            286
+                        ]
+                    }
+                },
+                {
+                    "type": "Усиленная базовая атака",
+                    "name": "Божественное копьё",
+                    "tag": "天矢陰",
+                    "energy_gain": 35,
+                    "break_main": 30,
+                    "break_adjacent": 10,
+                    "min_level": 1,
+                    "max_level": 7,
+                    "default_level": 6,
+                    "description_template": "發動5段攻擊，對指定敵方單體造成等同於丹恆•飲月{{damage_main}}%攻擊力的虛數屬性傷害。從第4段攻擊起，同時對其相鄰目標造成等同於丹恆•飲月{{damage_adjacent}}%攻擊力的虛數屬性傷害。",
+                    "scaling": {
+                        "damage_main": [
+                            190,
+                            228,
+                            266,
+                            304,
+                            342,
+                            380,
+                            418
+                        ],
+                        "damage_adjacent": [
+                            30,
+                            36,
+                            42,
+                            48,
+                            54,
+                            60,
+                            66
+                        ]
+                    }
+                },
+                {
+                    "type": "Усиленная базовая атака",
+                    "name": "Стремительный прыжок",
+                    "tag": "Взрывная атака",
+                    "energy_gain": 40,
+                    "break_main": 40,
+                    "break_adjacent": 20,
+                    "min_level": 1,
+                    "max_level": 7,
+                    "default_level": 6,
+                    "description_template": "發動7段攻擊，對指定敵方單體造成等同於丹恆•飲月{{seven_hit_damage}}%攻擊力的虛數屬性傷害。從第4段攻擊起，同時對其相鄰目標造成等同於丹恆•飲月{{after_fourth_hit_damage}}%攻擊力的虛數屬性傷害。",
+                    "scaling": {
+                        "seven_hit_damage": [
+                            250,
+                            300,
+                            350,
+                            400,
+                            450,
+                            500,
+                            550
+                        ],
+                        "after_fourth_hit_damage": [
+                            90,
+                            108,
+                            126,
+                            144,
+                            162,
+                            180,
+                            198
+                        ]
+                    }
+                }
+            ]
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "龍力自在",
+            "tag": "強化",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "使普通攻擊的效果得到強化，最多可連續強化3次，施放本技能不消耗戰技點且不視為使用戰技。\n強化1次，【澤芝】變為【瞬華】。\n強化2次，【澤芝】變為【天矢陰】。\n強化3次，【澤芝】變為【盤拏耀躍】。\n施放【天矢陰】或【盤拏耀躍】時，從第4段攻擊開始每段攻擊前獲得1層【叱吒】，使丹恒•飲月的暴擊傷害提高{{increased_crit_dmg}}%，該效果最多疊加4層，持續至自身回合結束。",
+            "scaling": {
+                "increased_crit_dmg": [
+                    6,
+                    7,
+                    7,
+                    8,
+                    8,
+                    9,
+                    10,
+                    10,
+                    11,
+                    12,
+                    13,
+                    13,
+                    14,
+                    14,
+                    15
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "蒼龍傲睨，劫水濯世",
+            "tag": "擴散",
+            "energy_gain": 5,
+            "break_main": 20,
+            "break_adjacent": 20,
+            "energy_cost": 140,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "發動3段攻擊，對指定敵方單體造成等同於丹恆•飲月{{post_three_hit_damage}}%攻擊力的虛數屬性傷害，同時對其相鄰目標造成等同於丹恆•飲月{{adjacent_damage}}%攻擊力的虛數屬性傷害。並使自身獲得2個【逆鱗】。\n【逆鱗】最多持有3個，可用來抵扣丹恆•飲月的戰技點消耗。消耗【逆鱗】視為消耗戰技點。",
+            "scaling": {
+                "post_three_hit_damage": [
+                    180,
+                    192,
+                    204,
+                    216,
+                    228,
+                    240,
+                    255,
+                    270,
+                    285,
+                    300,
+                    312,
+                    324,
+                    336,
+                    348,
+                    360
+                ],
+                "adjacent_damage": [
+                    84,
+                    90,
+                    95,
+                    101,
+                    106,
+                    112,
+                    119,
+                    126,
+                    133,
+                    140,
+                    146,
+                    151,
+                    157,
+                    162,
+                    168
+                ]
+            }
+        },
+        "talent": {
+            "type": "天賦",
+            "name": "亢心",
+            "tag": "強化",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "丹恆•飲月完成每段攻擊後皆會獲得1層【亢心】，使自身造成的傷害提高{{increased_damage}}%，該效果可以疊加6層，持續至自身回合結束。",
+            "scaling": {
+                "increased_damage": [
+                    5,
+                    6,
+                    6,
+                    6,
+                    7,
+                    8,
+                    8,
+                    9,
+                    9,
+                    10,
+                    10,
+                    11,
+                    12,
+                    12,
+                    12
+                ]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "掣空如虹",
+            "tag": "強化",
+            "description": "И使用秘技後進入持續20秒的【蟠躍】狀態。 【蟠躍】狀態下使用攻擊會快速向前移動一段距離並攻擊接觸到的敵人，在快速移動的過程中可抵擋敵人的所有攻擊。 【蟠躍】狀態下主動攻擊敵人進入戰鬥後，對敵方全體造成等同於丹恆•飲月120%攻擊力的虛數屬性傷害，並使自身獲得1個【逆鱗】。"
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "伏辰",
+            "description": "戰鬥開始時，立即恢復15點能量。"
+        },
+        "4": {
+            "name": "修禹",
+            "description": "抵抗控制類負面狀態的機率提高35%。"
+        },
+        "6": {
+            "name": "起蟄",
+            "description": "對擁有虛數屬性弱點的敵方目標造成傷害時，暴擊率提高12%。"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "暴擊率強化",
+            "value": "+12%"
+        },
+        {
+            "stat": "傷害強化•虛數",
+            "value": "+19.2%"
+        },
+        {
+            "stat": "生命強化",
+            "value": "+10%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "縈天",
+            "description": "使【亢心】的可疊加層數增加4層。且每段攻擊額外獲得1層【亢心】。"
+        },
+        {
+            "level": 2,
+            "name": "九斿",
+            "description": "施放終結技後，丹恆•飲月行動提前100%，並且會額外獲得1個【逆鱗】。"
+        },
+        {
+            "level": 3,
+            "name": "雲旂",
+            "description": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 4,
+            "name": "嘲風",
+            "description": "【叱吒】的增益效果會持續到下一個自身回合結束。"
+        },
+        {
+            "level": 5,
+            "name": "偃蹇",
+            "description": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 6,
+            "name": "見譙",
+            "description": "我方其他角色施放終結技後，丹恆•飲月下一次施放【盤拏耀躍】時虛數屬性抗性穿透提高20%，該效果最多疊加3層。"
+        }
+    ]
+}
