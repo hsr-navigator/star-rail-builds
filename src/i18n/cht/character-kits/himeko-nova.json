@@ -226,7 +226,7 @@
                 {
                     "type": "助戰技",
                     "name": "開拓，與你同行",
-                    "tag": ["群體攻擊","專屬"],
+                    "tag": "群體攻擊",
                     "energy_gain": 18,
                     "break_aoe": 10,
                     "break_bounce": 5,
