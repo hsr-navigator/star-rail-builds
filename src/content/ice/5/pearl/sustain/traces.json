@@ -13,6 +13,13 @@
                     "name": "talent"
                 },
                 {
+                    "name": "basic"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "ultimate"
                 }
             ]
@@ -21,9 +28,6 @@
             "items": [
                 {
                     "name": "skill"
-                },
-                {
-                    "name": "basic"
                 }
             ]
         }

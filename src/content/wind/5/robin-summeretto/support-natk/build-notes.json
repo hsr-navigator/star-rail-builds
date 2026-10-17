@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Support"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Robin • Summeretto is a support unit whose buffs scale with her Vibes stacks.\n- She gains Vibes whenever an ally attacks, heals, or Shields for the first time each turn. Her buffs become stronger as she accumulates more Vibes.\n- [[character:sobin]]'s Ultimate chooses an ally to immediately take action and restores Energy. It also increases the amount of Vibes they generate.\n- She is a strong generalist support who can fit into a  wide variety of teams."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E2 ≥ E1 ≥ S1"
+            },
+            "details": {
+                "en": "- E2 gives 18% RES PEN to the team, increases the maximum amount of Vibes by 20 (from 50 to 70), and increases the amount of Vibes she generates, increasing all of her buffs, including CRIT DMG%/ATK%, DEF Ignore, and the True DMG from her E1.\n- E1 is similar to Tribbie E1, but saves 50% of the recorded damage every time it is triggered and scales it with the amount of Vibes she has.\n- S1 [[light-cone:rise-and-sing]] gives Skill Points when using Ultimate, action advance on battle start, HP%, and a teamwide SPD boost with full uptime on herself. Especially great for Elation and Remembrance teams."
+            }
+        }
+    }
+}

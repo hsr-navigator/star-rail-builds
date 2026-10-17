@@ -1,0 +1,21 @@
+{
+    "best": false,
+    "name": {
+        "en": "Eagle Support"
+    },
+    "notes": [
+    ],
+    "overview": {
+        "summary": {
+            "en": "- Tribbie is a Harmony support capable of unleashing frequent Follow-Up ATKs and Ultimates.\n- At the start of combat or after Tribbie uses her Ultimate, the next time each ally uses their Ultimate, Tribbie will use an AoE Follow-Up ATK.\n- Tribbie is a core support for The Herta, contributing frequent AoE Follow-up ATKs helping stack \"Interpretation\" while also dealing solid sub-DPS.\n- Outside of The Herta teams, Tribbie often falls behind more specialized support units, though her general buffs still make her a strong secondary option."
+        },
+        "investment_priority": {
+            "priority": {
+                "en": "E1 > S1"
+            },
+            "details": {
+                "en": "- E1 causes the enemy with the highest HP to take True DMG equal to 24% of the non-True DMG dealt to enemies after an ally attacks. This Eidolon is a strong overall damage boost and is especially powerful with AoE damage dealers by concentrating damage onto higher priority targets.\n- S1 provides a large personal damage boost, grants Energy at the start of combat and after her Follow-Up ATKs, and gives the team a CRIT DMG% buff."
+            }
+        }
+    }
+}

@@ -12,8 +12,7 @@
             "fire-dmg"
         ],
         "link_rope": [
-            "err",
-            "hp%"
+            "err"
         ]
     }
 }

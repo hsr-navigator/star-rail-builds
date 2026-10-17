@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "spd",
+        "hp%",
+        {
+            "name": "cr",
+            "note_group": "personaldmg"
+        },
+        {
+            "name": "cd",
+            "note_group": "personaldmg"
+        }
+    ]
+}

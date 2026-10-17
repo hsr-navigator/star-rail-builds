@@ -1,7 +1,7 @@
 {
-    "best": true,
+    "best": false,
     "name": {
-        "en": "Support/Sub-DPS"
+        "en": "Sub-DPS"
     },
     "notes": [
     ],

@@ -1,0 +1,75 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deliverer",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sacerdos",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choices": [
+                        {
+                            "items": [
+                                {
+                                    "name": "2pc-hp", "pieces": 2
+                                }
+                            ]
+                        },
+                        {
+                            "items": [
+                                {
+                                    "name": "2pc-atk", "pieces": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "amphoreus",
+                            "pieces": 2,
+                            "note":{
+                                "en": "Assuming no one else on the team holds this set."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "vonwacq",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

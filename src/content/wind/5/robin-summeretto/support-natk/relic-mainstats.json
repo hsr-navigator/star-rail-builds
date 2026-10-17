@@ -1,0 +1,46 @@
+{
+    "main_stats": {
+        "body": [
+            {
+                "name": "hp%",
+                "note_group": "sobin-atk-scaler",
+                "note": {
+                    "en": "Paired with ATK-scaling DPS."
+                }
+            },
+            {
+                "name": "cd",
+                "note_group": "sobin-hp-scaler"
+            }
+        ],
+        "feet": [
+            {
+                "name": "spd",
+                "note_group": "sobin-hp-scaler",
+                "note": {
+                    "en": "Paired with HP-scaling DPS."
+                }
+            },
+            {
+                "name": "hp%",
+                "note_group": "sobin-atk-scaler"
+            }
+        ],
+        "planar_sphere": [
+            {
+                "name": "hp%",
+                "note_group": "sobin-atk-scaler"
+            },
+            {
+                "name": "wind-dmg",
+                "note_group": "personaldmg",
+                "note": {
+                    "en": "Optional, for her personal damage output."
+                }
+            }
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}

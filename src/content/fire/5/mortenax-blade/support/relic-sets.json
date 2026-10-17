@@ -1,0 +1,68 @@
+{
+    "relic_sets": [
+        
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "eagle",
+                            "pieces": 4,
+                            "note_group": "mblade-support"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups":[
+                {
+                    "items":[
+                        {
+                            "name": "guard",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Viable set for sustainless runs."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "divine-querying-master-smith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [{
+                    "items": [
+                        {
+                            "name": "vonwacq",
+                            "pieces": 2,
+                            "note_group": "mblade-support"
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "bone",
+                            "pieces": 2
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

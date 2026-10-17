@@ -1,0 +1,28 @@
+{
+    "stats": [
+        {
+            "name": "hp",
+            "recommended": "6000+",
+            "note":{
+                "en": "HP and ATK stat recommendations differ for HP- and ATK-scaling DPS. HP-scaling DPS want [[character:sobin]] to have lots of SPD and more ATK than them to ensure CRIT DMG buffing. ATK-scaling DPS want full HP% Main Stats for more ATK buffing."
+            }
+        },
+        {
+            "name": "spd",
+            "recommended": "120+ / 160+ / 180+",
+            "note": {
+                "en" : "120+ SPD for ATK-scaling DPS. 160+/180+ SPD for HP-scaling DPS."
+            }
+        },
+        {
+            "name": "cr",
+            "recommended": "50%",
+            "note_group": "personaldmg"
+        },
+        {
+            "name": "cd",
+            "recommended": "120%+",
+            "note_group": "personaldmg"
+        }
+    ]
+}

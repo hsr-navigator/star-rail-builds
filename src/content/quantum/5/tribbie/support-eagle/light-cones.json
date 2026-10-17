@@ -1,0 +1,44 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "ddd",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "if-time-were-a-flower",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "cogs",
+                    "superimposition": 5
+                },
+                {
+                    "name": "motp",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "planetary-rendezvous",
+                    "superimposition": 5,
+                    "note_group": "type",
+                    "note": {
+                        "en": "This can only be used if the wearer is of the same Type as the DPS."
+                    }
+                }
+            ]
+        }
+    ]
+}

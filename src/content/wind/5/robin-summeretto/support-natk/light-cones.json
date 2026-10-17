@@ -1,0 +1,39 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "rise-and-sing",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "long-may-rainbows-adorn-the-sky",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "curtain",
+                    "superimposition": 5,
+                    "note": {
+                        "en": "Can also use any 1164+/1058+ base HP light cone from any path as an HP statstick."
+                    }
+                },
+                {
+                    "name": "the-storys-next-page",
+                    "superimposition": 5
+                },
+                {
+                    "name": "shadowburn",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}
