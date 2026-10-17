@@ -1,0 +1,310 @@
+{
+  "id": "firefly",
+  "name": "Firefly",
+  "rarity": "5",
+  "type": "fire",
+  "path": "destruction",
+  "version_released": "2.3",
+  "max_energy": 240,
+  "level_80_stats": {
+    "hp": 814,
+    "atk": 523,
+    "def": 776,
+    "spd": 104
+  },
+  "abilities": {
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Δ Chỉ Lệnh: Thiêu Đốt Sao Băng",
+      "break": 20,
+      "description": "Nhảy lên không trung và thực hiện di chuyển tự do, duy trì 5 giây, lúc này dùng tấn công từ trên cao sẽ kết thúc sớm thời gian duy trì. Sau khi hết thời gian duy trì, sẽ đáp xuống và tấn công ngay tất cả kẻ địch trong phạm vi nhất định, khi bắt đầu mỗi đợt sẽ thêm Điểm Yếu Hỏa cho toàn phe địch, duy trì 2 hiệp, sau đó sẽ gây Sát Thương Hỏa bằng 200% Tấn Công của Chiến Giáp SAM cho toàn phe địch."
+    },
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Chỉ Lệnh: Lực Đẩy Bùng Phát",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Chiến Giáp SAM cho một kẻ địch chỉ định.",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tấn Công Thường Cường Hóa",
+          "name": "Fyrefly Type-IV: Pyrogenic Decimation",
+          "tag": "Đánh Đơn",
+          "break": 15,
+          "min_level": 1,
+          "max_level": 7,
+          "default_level": 6,
+          "description_template": "Hồi HP bằng 20% Giới Hạn HP của bản thân. Gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Chiến Giáp SAM cho 1 kẻ địch chỉ định.",
+          "scaling": {
+            "scaling1": [
+              100,
+              120,
+              140,
+              160,
+              180,
+              200,
+              220
+            ]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Chỉ Lệnh: Oanh Tạc Trên Không",
+      "tag": "Đánh Đơn",
+      "break": 20,
+      "energy_gain": "60% Giới Hạn Năng Lượng",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Tiêu hao HP bằng 40% Giới Hạn HP của bản thân để hồi phục cố định một lượng Năng Lượng bằng {{scaling1}}% Giới Hạn Năng Lượng của bản thân, gây Sát Thương Hỏa bằng {{scaling2}}% Tấn Công của Chiến Giáp SAM cho một kẻ địch chỉ định. Nếu HP hiện tại không đủ, khi thi triển Chiến Kỹ thì HP hiện tại của Chiến Giáp SAM sẽ giảm còn 1 điểm. Khiến bản thân lần sau Ưu Tiên Hành Động 25%.",
+      "scaling": {
+        "scaling1": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56.25,
+          57.5,
+          58.75,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "scaling2": [
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          162.5,
+          175,
+          187.5,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250
+        ]
+      },
+      "variants": [
+        {
+          "type": "Chiến Kỹ Cường Hóa",
+          "name": "Đom Đóm IV - Sao Chết Quá Tải",
+          "tag": "Khuếch Tán",
+          "break_main": 30,
+          "break_adjacent": 15,
+          "min_level": 1,
+          "max_level": 12,
+          "default_level": 10,
+          "description_template": "Hồi HP bằng 25% Giới Hạn HP của bản thân. Thêm Điểm Yếu Hỏa cho 1 kẻ địch chỉ định và các mục tiêu ở gần kẻ đó, duy trì 2 hiệp. Gây Sát Thương Hỏa bằng (0.2*Tấn Công Kích Phá + {{scaling1}}%) Tấn Công của Chiến Giáp SAM cho mục tiêu này. Đồng thời gây Sát Thương Hỏa bằng (0.1*Tấn Công Kích Phá + {{scaling2}}%) Tấn Công của Chiến Giáp SAM cho các mục tiêu ở gần kẻ đó. Tối đa tính 360% Tấn Công Kích Phá.",
+          "scaling": {
+            "scaling1": [
+              100,
+              110,
+              120,
+              130,
+              140,
+              150,
+              162.5,
+              175,
+              187.5,
+              200,
+              210,
+              220
+            ],
+            "scaling2": [
+              50,
+              55,
+              60,
+              65,
+              70,
+              75,
+              81.25,
+              87.5,
+              93.75,
+              100,
+              105,
+              110,
+              115,
+              120,
+              125
+            ]
+          }
+        }
+      ]
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Đom Đóm IV: Thiêu Đốt Hoàn Toàn",
+      "tag": "Cường Hóa",
+      "energy_gain": 5,
+      "energy_cost": 240,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Bước vào trạng thái \"Thiêu Đốt Hoàn Toàn\", bản thân ưu tiên hành động 100% đồng thời nhận được Tấn Công Thường Cường Hóa và Chiến Kỹ Cường Hóa. Ở trạng thái \"Thiêu Đốt Hoàn Toàn\", Tốc Độ tăng {{scaling1}} điểm, hơn nữa khi thi triển Tấn Công Thường Cường Hóa và Chiến Kỹ Cường Hóa, hiệu suất Phá Vỡ Điểm Yếu của bản thân tăng 50%, khiến Sát Thương Phá Vỡ mà kẻ địch phải chịu do Chiến Giáp SAM gây ra tăng {{scaling2}}%, duy trì đến khi kết thúc lần tấn công này.\nỞ thứ tự hành động xuất hiện đếm ngược \"Thiêu Đốt Hoàn Toàn\", khi hiệp đếm ngược bắt đầu, Chiến Giáp SAM sẽ giải trừ trạng thái \"Thiêu Đốt Hoàn Toàn\", đếm ngược sở hữu cố định 70 Tốc Độ.\nỞ trạng thái Thiêu Đốt Hoàn Toàn, Chiến Giáp SAM không thể thi triển Tuyệt Kỹ.",
+      "scaling": {
+        "scaling2": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16.25,
+          17.5,
+          18.75,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "scaling1": [
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48.75,
+          52.5,
+          56.25,
+          60,
+          63,
+          66
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Trung Khu Kén Lửa",
+      "tag": "Phòng Thủ",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "HP càng thấp, sát thương phải chịu càng thấp, khi HP từ 20% trở xuống, hiệu ứng Giảm Sát Thương sẽ đạt mức tối đa, tối đa giảm {{scaling1}}%. Hiệu ứng Giảm Sát Thương trong trạng thái \"Thiêu Đốt Hoàn Toàn\" duy trì mức tối đa, Kháng Hiệu Ứng tăng {{scaling2}}%.\nNếu Năng Lượng không đủ 50% thì khi bắt đầu chiến đấu, Năng Lượng sẽ hồi đến 50%. Khi Năng Lượng hồi đến giới hạn sẽ giải trừ tất cả Hiệu Ứng Xấu của bản thân.",
+      "scaling": {
+        "scaling1": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32.5,
+          35,
+          37.5,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50
+        ],
+        "scaling2": [
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22.5,
+          25,
+          27.5,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Mô Đun α: Anti-lag Bùng Lửa",
+      "description": "Trong trạng thái \"Thiêu Đốt Hoàn Toàn\", Tấn Công Kích Phá của Chiến Giáp SAM tăng 25%, khi thi triển Tấn Công Thường Cường Hóa, Chiến Kỹ Cường Hóa khiến mục tiêu rơi vào trạng thái Phá Vỡ Điểm Yếu, Trì Hoãn Hành Động đếm ngược của \"Thiêu Đốt Hoàn Toàn\" 10%, hiệu ứng này kích hoạt tối đa 3 lần trong mỗi lần duy trì trạng thái \"Thiêu Đốt Hoàn Toàn\"."
+    },
+    "4": {
+      "name": "Mô Đun β: Chiến Giáp Tự Phản Ứng",
+      "description": "Ở trạng thái \"Thiêu Đốt Hoàn Toàn\", khi Tấn Công Kích Phá của Chiến Giáp SAM lớn hơn hoặc bằng 150%/300%, tấn công kẻ địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến Giảm Sức Bền của lần tấn công này chuyển hóa thành 1 lần 100%/150% Siêu Sát Thương Phá Vỡ."
+    },
+    "6": {
+      "name": "Mô Đun γ: Lõi Quá Tải",
+      "description": "Nếu Tấn Công của Áo Giáp Sam cao hơn 1800 điểm, mỗi 10 Điểm Tấn Công vượt quá sẽ giúp Tấn Công Kích Phá của bản thân tăng 0,8%."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "Tốc Độ",
+      "value": "+5"
+    },
+    {
+      "stat": "Tấn Công Kích Phá",
+      "value": "+37.5%"
+    },
+    {
+      "stat": "Kháng Hiệu Ứng",
+      "value": "+18%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Tôi Từng Ngủ Yên, Trong Chiếc Kén Đỏ",
+      "description": "Khi thi triển Chiến Kỹ Cường Hóa sẽ bỏ qua 15% Phòng Thủ của mục tiêu, Chiến Kỹ Cường Hóa không tiêu hao Điểm Chiến Kỹ."
+    },
+    {
+      "level": 2,
+      "name": "Rơi Xuống, Từ Bầu Trời Vỡ Vụn",
+      "description": "Khi đang ở trong trạng thái \"Thiêu Đốt Hoàn Toàn\", thi triển Tấn Công Thường Cường Hóa, Chiến Kỹ Cường Hóa tiêu diệt mục tiêu phe địch hoặc khiến mục tiêu rơi vào trạng thái Phá Vỡ Điểm Yếu, Chiến Giáp SAM sẽ nhận ngay 1 hiệp tăng thêm. Hiệu ứng này mỗi hiệp có thể kích hoạt 1 lần, khi bắt đầu hiệp của Chiến Giáp SAM sẽ làm mới số lần có thể kích hoạt."
+    },
+    {
+      "level": 3,
+      "name": "Ngủ Say Trong Thiên Hà Lặng Thinh",
+      "description": "Cấp Chiến Kỹ +2, tối đa không vượt quá cấp 15; Cấp Tấn Công Thường +1, tối đa không vượt quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Tôi Sẽ Nhìn Thấy, Ngọn Lửa Đom Đóm",
+      "description": "Ở trạng thái Thiêu Đốt Hoàn Toàn, Kháng Hiệu Ứng của Chiến Giáp SAM tăng 50%."
+    },
+    {
+      "level": 5,
+      "name": "Sáng Lên Từ Đêm Không Mộng Mị",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không vượt quá cấp 15; Cấp Thiên Phú +2, tối đa không vượt quá cấp 15."
+    },
+    {
+      "level": 6,
+      "name": "Nở Rộ Ở Ngày Mai Vô Tận",
+      "description": "Xuyên Kháng Hỏa của Chiến Giáp SAM ở trạng thái Thiêu Đốt Hoàn Toàn tăng 20%. Khi thi triển Tấn Công Thường Cường Hóa, Chiến Kỹ Cường Hóa, Hiệu Suất Phá Vỡ Điểm Yếu sẽ tăng 50%."
+    }
+  ]
+}

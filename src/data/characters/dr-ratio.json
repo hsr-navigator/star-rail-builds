@@ -24,7 +24,7 @@
         "min_level": 1,
         "max_level": 7,
         "default_level": 6,
-        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to a single target enemy.",
+        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to one designated enemy target.",
         "scaling": {
             "img_dmg": [50, 60, 70, 80, 90, 100, 110]
         }
@@ -39,7 +39,7 @@
         "min_level": 1,
         "max_level": 12,
         "default_level": 10,
-        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to a single target enemy.",
+        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to one designated enemy target.",
         "scaling": {
             "img_dmg": [75, 82.5, 90, 97.5, 105, 112.5, 121.875, 131.25, 14.625, 150, 157.5, 165]
         }
@@ -55,7 +55,7 @@
         "min_level": 1,
         "max_level": 12,
         "default_level": 10,
-        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's teammates attack a target afflicted with Wiseman's Folly, Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.\nWiseman's Folly can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+        "description_template": "Deals Imaginary DMG equal to {{img_dmg}}% of Dr. Ratio's ATK to one designated enemy target and applies \"Wiseman's Folly\". When Dr. Ratio's teammates attack a target afflicted with \"Wiseman's Folly\", Dr. Ratio launches 1 instance of his Talent's Follow-Up ATK against this target.\n\"Wiseman's Folly\" can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
         "scaling": {
             "img_dmg": [144, 53.6, 163.2, 172.8, 182.4,	192, 204, 216, 228, 240, 249.6, 259.2]
         }
