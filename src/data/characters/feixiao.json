@@ -211,7 +211,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of \"Flying Aureus\" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number. After Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to {{scaling1}}% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by {{scaling2}}%, lasting for 2 turn(s).",
+            "description_template": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. Feixiao gains 1 point of \"Flying Aureus\" for every 2 attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.\nAfter Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to {{scaling1}}% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by {{scaling2}}%, lasting for 2 turn(s).",
             "scaling": {
                 "scaling1": [
                     55,
@@ -298,7 +298,7 @@
         {
             "level": 3,
             "name": "Starward I Bode",
-            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
         },
         {
             "level": 4,
@@ -308,7 +308,7 @@
         {
             "level": 5,
             "name": "Heavenward I Leap",
-            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
         },
         {
             "level": 6,

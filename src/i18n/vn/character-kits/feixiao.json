@@ -1,0 +1,319 @@
+{
+    "id": "feixiao",
+    "name": "Feixiao",
+    "rarity": "5",
+    "type": "wind",
+    "path": "hunt",
+    "version_released": "2.5",
+    "level_80_stats": {
+        "hp": 1047,
+        "atk": 601,
+        "def": 388,
+        "spd": 112
+    },
+    "abilities": {
+        "basic": {
+            "type": "Tấn Công Thường",
+            "name": "Chém Tách Chớp Nhoáng",
+            "tag": "Đánh Đơn",
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng {{scaling1}}% tấn công của Feixiao.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Chiến Kỹ",
+            "name": "Rìu Chiến Xuyên Kích",
+            "tag": "Đánh Đơn",
+            "break": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng {{scaling1}}% tấn công của Feixiao, sau đó lập tức phát động thêm 1 lần Đòn Đánh Theo Sau của Thiên Phú lên mục tiêu này.",
+            "scaling": {
+                "scaling1": [
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    162.5,
+                    175,
+                    187.5,
+                    200,
+                    210,
+                    220,
+                    230,
+                    240,
+                    250
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Tuyệt Kỹ",
+            "name": "Trảm Phá Đại Địa",
+            "tag": "Đánh Đơn",
+            "break": 30,
+            "energy_cost": "6 Điểm Phi Hoàng",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây Sát Thương Phong tối đa bằng {{scaling1}}% Tấn Công của Feixao cho 1 kẻ địch chỉ định, trong thời gian đó có thể bỏ qua Điểm Yếu làm giảm Sức Bền của mục tiêu. Khi mục tiêu trong trạng thái Phá Vỡ Điểm Yếu, Hiệu Suất Phá Vỡ Điểm Yếu của Feixiao tăng 100%. Trong đó, Feixiao sẽ phát động Vũ Điệu Lưỡi Đao Chớp Nhoáng hoặc Chém Tách Trời Xanh lên mục tiêu này trước, tổng cộng 6 lần. Cuối cùng gây Sát Thương Phong bằng {{scaling2}}% Tấn Công của Feixiao lên mục tiêu này.",
+            "scaling": {
+                "scaling1": [
+                    96,
+                    102.4,
+                    108.8,
+                    115.2,
+                    121.6,
+                    128,
+                    136,
+                    144,
+                    152,
+                    160,
+                    166.4,
+                    172.8,
+                    179.2,
+                    185.6,
+                    192
+                ],
+                "scaling2": [
+                    402,
+                    431.8,
+                    461.6,
+                    491.4,
+                    521.2,
+                    551,
+                    588.25,
+                    625.5,
+                    662.75,
+                    700,
+                    729.8,
+                    759.6,
+                    789.4,
+                    819.2,
+                    849
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Tuyệt Kỹ",
+                    "name": "Chém Tách Trời Xanh",
+                    "tag": "Đánh Đơn",
+                    "break": 5,
+                    "min_level": 1,
+                    "max_level": 12,
+                    "default_level": 10,
+                    "description_template": "Gây sát thương Phong bằng {{scaling1}}% Tấn Công của Feixiao cho mục tiêu được chọn. Nếu mục tiêu không trong trạng thái Phá Vỡ Điểm Yếu thì Bội Số Sát Thương sẽ tăng {{scaling2}}%.",
+                    "scaling": {
+                        "scaling1": [
+                            36,
+                            38.4,
+                            40.8,
+                            43.2,
+                            45.6,
+                            48,
+                            51,
+                            54,
+                            57,
+                            60,
+                            62.4,
+                            64.8,
+                            67.2,
+                            69.6,
+                            72
+                        ],
+                        "scaling2": [
+                            15,
+                            16.5,
+                            18,
+                            19.5,
+                            21,
+                            22.5,
+                            24.375,
+                            26.25,
+                            28.125,
+                            30,
+                            31.5,
+                            33,
+                            34.5,
+                            36,
+                            37.5
+                        ]
+                    }
+                },
+                {
+                    "type": "Tuyệt Kỹ",
+                    "name": "Vũ Điệu Lưỡi Đao Chớp Nhoáng",
+                    "tag": "Đánh Đơn",
+                    "break": 5,
+                    "min_level": 1,
+                    "max_level": 12,
+                    "default_level": 10,
+                    "description_template": "Gây sát thương Phong bằng {{scaling1}}% Tấn Công của Feixiao cho mục tiêu được chọn. Nếu mục tiêu trong trạng thái Phá Vỡ Điểm Yếu thì Bội Số Sát Thương sẽ tăng {{scaling2}}%.",
+                    "scaling": {
+                        "scaling1": [
+                            36,
+                            38.4,
+                            40.8,
+                            43.2,
+                            45.6,
+                            48,
+                            51,
+                            54,
+                            57,
+                            60,
+                            62.4,
+                            64.8,
+                            67.2,
+                            69.6,
+                            72
+                        ],
+                        "scaling2": [
+                            15,
+                            16.5,
+                            18,
+                            19.5,
+                            21,
+                            22.5,
+                            24.375,
+                            26.25,
+                            28.125,
+                            30,
+                            31.5,
+                            33,
+                            34.5,
+                            36,
+                            37.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "talent": {
+            "type": "Thiên Phú",
+            "name": "Sấm Sét Săn Lùng",
+            "tag": "Đánh Đơn",
+            "break": 5,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Khi Phi Hoàng đạt 6 điểm có thể kích hoạt Tuyệt Kỹ, tối đa tích lũy 12 điểm. Mục tiêu phe ta mỗi 2 lần thi triển tấn công, Feixiao sẽ nhận được 1 điểm Phi Hoàng, tấn công từ Tuyệt Kỹ của Feixiao không tính vào số lần.\nSau khi đồng đội của Feixiao thi triển đòn tấn công lên mục tiêu phe địch, Feixiao sẽ lập tức phát động Đòn Đánh Theo Sau lên mục tiêu chính, gây Sát Thương Phong bằng {{scaling1}}% Tấn Công của Feixiao. Nếu không tồn tại mục tiêu chính có thể tấn công, thì sẽ tấn công 1 kẻ địch bất kỳ. Hiệu ứng này mỗi hiệp tối đa kích hoạt 1 lần, khi hiệp của Feixiao bắt đầu sẽ làm mới số lần kích hoạt. Khi phát động đòn tấn công này sẽ khiến sát thương bản thân gây ra tăng {{scaling2}}%, duy trì 2 hiệp.",
+            "scaling": {
+                "scaling1": [
+                    55,
+                    60.5,
+                    66,
+                    71.5,
+                    77,
+                    82.5,
+                    89.375,
+                    96.25,
+                    103.125,
+                    110,
+                    115.5,
+                    121,
+                    126.5,
+                    132,
+                    137.5
+                ],
+                "scaling2": [
+                    30,
+                    33,
+                    36,
+                    39,
+                    42,
+                    45,
+                    48.75,
+                    52.5,
+                    56.25,
+                    60,
+                    63,
+                    66,
+                    69,
+                    72,
+                    75
+                ]
+            }
+        },
+        "technique": {
+            "type": "Bí Kỹ",
+            "name": "Hóa Thân Bão Tố",
+            "tag": "Cường Hóa",
+            "description": "Sau khi dùng Bí Kỹ sẽ vào trạng thái Khí Thế Vây Hãm duy trì 20 giây. Khi trong trạng thái Khí Thế Vây Hãm sẽ lôi kéo kẻ địch trong phạm vi nhất định, và Tốc Độ của bản thân tăng 50%, sau khi vào chiến đấu sẽ nhận được 1 điểm Phi Hoàng.\nTrong trạng thái Khí Thế Vây Hãm, chủ động tấn công sẽ khiến tất cả kẻ địch bị lôi kéo vào chiến đấu. Sau khi vào chiến đấu, khi bắt đầu mỗi đợt, sẽ gây sát thương Phong bằng 200% Tấn Công của Feixiao cho toàn thể phe địch, sát thương này chắc chắn bạo kích. Nếu lôi kéo nhiều hơn 1 kẻ địch, thì với mỗi 1 kẻ địch bị lôi kéo thêm, bội số của sát thương này sẽ tăng 100%, tối đa tăng đến 1000%."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Thiên Thông",
+            "description": "Khi bắt đầu chiến đấu, sẽ nhận 3 điểm Phi Hoàng.\nKhi bắt đầu hiệp, nếu hiệp trước chưa phát động Đòn Đánh Theo Sau của Thiên Phú, thì đòn đó sẽ được tính vào 1 lần nhận được số đòn tấn công cần cho Phi Hoàng."
+        },
+        "4": {
+            "name": "Giải Hình",
+            "description": "Khi thi triển Tuyệt Kỹ tấn công mục tiêu phe địch tạo thành sát thương, sẽ được xem là phát động Đòn Đánh Theo Sau. Sát thương Bạo Kích của Đòn Đánh Theo Sau tăng 36%."
+        },
+        "6": {
+            "name": "Tia Chớp",
+            "description": "Khi thi triển Chiến Kỹ, Tấn Công tăng 48%, duy trì 3 hiệp."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "Tấn Công",
+            "value": "+28%"
+        },
+        {
+            "stat": "Tỷ Lệ Bạo Kích",
+            "value": "+12%"
+        },
+        {
+            "stat": "Phòng Thủ",
+            "value": "+12.5%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Chinh Phạt Thiên Đỉnh",
+            "description": "Sau khi phát động Vũ Điệu Lưỡi Đao Chớp Nhoáng hoặc Chém Tách Trời Xanh, sẽ khiến sát thương Tuyệt Kỹ do Feixiao gây ra tăng thêm, mức tăng bằng 10% sát thương gốc, tối đa cộng dồn 5 tầng, duy trì đến khi hành động Tuyệt Kỹ kết thúc."
+        },
+        {
+            "level": 2,
+            "name": "Lễ Thần Cầu Nguyệt",
+            "description": "Trong hiệu ứng Thiên Phú, mục tiêu phe ta mỗi khi thi triển 1 lần Đòn Đánh Theo Sau sẽ có thể khiến Feixiao nhận 1 điểm Phi Hoàng. Hiệu ứng này mỗi hiệp tối đa kích hoạt 6 lần."
+        },
+        {
+            "level": 3,
+            "name": "Cảnh Tinh Xuất Thế",
+            "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+        },
+        {
+            "level": 4,
+            "name": "Cẩn Trọng Phong Ba",
+            "description": "Điểm Giảm Sức Bền của Đòn Đánh Theo Sau từ Thiên Phú tăng 100%, đồng thời khi phát động, sẽ khiến tốc độ của bản thân tăng 8%, duy trì 2 hiệp."
+        },
+        {
+            "level": 5,
+            "name": "Phi Thăng Thiên Hà",
+            "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+        },
+        {
+            "level": 6,
+            "name": "Nhìn Về Cố Hương",
+            "description": "Xuyên Kháng Toàn Thuộc Tính của sát thương Tuyệt Kỹ do Feixiao gây ra tăng 20%. Sát thương Đòn Đánh Theo Sau của Thiên Phú đồng thời được xem là sát thương Tuyệt Kỹ, và Bội Số Sát Thương tăng 140%."
+        }
+    ]
+}
