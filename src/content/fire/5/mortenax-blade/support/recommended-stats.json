@@ -2,11 +2,14 @@
     "stats": [
         {
             "name": "hp",
-            "recommended": "5300+ / 7000+"
+            "recommended": "5300+"
         },
         {
             "name": "spd",
-            "recommended": "180+ / 160+"
+            "recommended": "170+",
+            "note": {
+                "en": "For S1 [[light-cone:lies-dance-on-the-breeze]]. For other Light Cones, it is possible to ignore [[character:mblade]]'s personal damage for more SPD."
+            }
         }
     ]
 }

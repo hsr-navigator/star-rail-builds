@@ -11,6 +11,30 @@
         {
             "items": [
                 {
+                    "name": "make-farewells-more-beautiful",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "to-evernights-stars",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "this-love-forever",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "long-may-rainbows-adorn-the-sky",
                     "superimposition": 1
                 }
@@ -20,11 +44,12 @@
             "items": [
                 {
                     "name": "curtain",
-                    "superimposition": 5,
-                    "note": {
-                        "en": "Can also use any 1164+/1058+ base HP light cone from any path as an HP statstick."
-                    }
-                },
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "the-storys-next-page",
                     "superimposition": 5

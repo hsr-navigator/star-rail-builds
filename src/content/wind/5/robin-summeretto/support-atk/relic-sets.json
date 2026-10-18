@@ -38,7 +38,7 @@
                         {
                             "items": [
                                 {
-                                    "name": "2pc-atk", "pieces": 2
+                                    "name": "2pc-spd", "pieces": 2
                                 }
                             ]
                         }
@@ -53,19 +53,35 @@
                 {
                     "items": [
                         {
+                            "name": "vonwacq",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "lushaka",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "amphoreus",
                             "pieces": 2,
                             "note":{
                                 "en": "Assuming no one else on the team holds this set."
                             }
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "vonwacq",
-                            "pieces": 2
                         }
                     ]
                 }

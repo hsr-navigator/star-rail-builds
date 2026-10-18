@@ -6,7 +6,10 @@
         },
         {
             "name": "spd",
-            "recommended": "160+"
+            "recommended": "160+",
+            "note": {
+                "en": "Tribbie's personal damage is ignored for more SPD and more turns."
+            }
         }
     ]
 }

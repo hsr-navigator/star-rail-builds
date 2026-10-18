@@ -44,15 +44,19 @@
                 {
                     "items": [
                         {
-                            "name": "lushaka",
+                            "name": "vonwacq",
                             "pieces": 2
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "items": [
                         {
-                            "name": "vonwacq",
+                            "name": "lushaka",
                             "pieces": 2
                         }
                     ]

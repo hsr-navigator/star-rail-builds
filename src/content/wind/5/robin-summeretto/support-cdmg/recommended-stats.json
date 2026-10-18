@@ -1,0 +1,22 @@
+{
+    "stats": [
+        {
+            "name": "hp",
+            "recommended": "6000+"
+        },
+        {
+            "name": "spd",
+            "recommended": "160+ / 180+"
+        },
+        {
+            "name": "cr",
+            "recommended": "50%",
+            "note_group": "personaldmg"
+        },
+        {
+            "name": "cd",
+            "recommended": "120%+",
+            "note_group": "personaldmg"
+        }
+    ]
+}

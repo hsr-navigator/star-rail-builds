@@ -4,15 +4,24 @@
             {
                 "name": "ehr",
                 "note": {
-                    "en": "Use an [[stat:ehr]] body if you cannot reach the desired [[stat:ehr]] target through substats."
+                    "en": "Use an [[stat:ehr]] body if you cannot reach the desired [[stat:ehr]] target through substats. Otherwise you can use HP%/DEF% Main Stat for better survivability."
                 }
-            }
+            },
+            "hp%",
+            "def%"
         ],
         "feet": [
             "spd"
         ],
         "planar_sphere": [
-            "ANY"
+            {
+                "name": "ANY",
+                "note": {
+                    "en": "Silver Wolf can use any Main Stat to reach recommended stats breakpoints. You can use HP%/DEF% Main Stat for better survivability."
+                }
+            },
+            "hp%",
+            "def%"
         ],
         "link_rope": [
             "err"

@@ -1,0 +1,222 @@
+{
+  "id": "fu-xuan",
+  "name": "Fu Xuan",
+  "rarity": 5,
+  "type": "quantum",
+  "path": "preservation",
+  "version_released": "1.3",
+  "max_energy": 135,
+
+  "level_80_stats": {
+    "hp": 1474,
+    "atk": 465,
+    "def": 606,
+    "spd": 100
+  },
+
+  "abilities": {
+    "basic": {
+      "type": "Basic ATK",
+      "name": "Novaburst",
+      "tag": "Single Target",
+      "energy_gain": 20,
+      "break": 10,
+
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+
+      "description_template": "Deals Quantum DMG equal to {{damage}}% of Fu Xuan's Max HP to one designated enemy.",
+
+      "scaling": {
+        "damage": [25.0, 30.0, 35.0, 40.0, 45.0, 50.0, 55.0]
+      }
+    },
+
+    "skill": {
+      "type": "Skill",
+      "name": "Known by Stars, Shown by Hearts",
+      "tag": "Defensive",
+      "energy_gain": 30,
+
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+
+      "description_template": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by {{hp_boost}}% of Fu Xuan's Max HP, and increases CRIT Rate by {{crit_rate}}%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+
+      "scaling": {
+        "hp_boost": [
+          3.0,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.875,
+          5.25,
+          5.625,
+          6.0,
+          6.3,
+          6.6
+        ],
+        "crit_rate": [
+          6.0,
+          6.6,
+          7.2,
+          7.8,
+          8.4,
+          9.0,
+          9.75,
+          10.5,
+          11.25,
+          12.0,
+          12.6,
+          13.2
+        ]
+      }
+    },
+
+    "ultimate": {
+      "type": "Ultimate",
+      "name": "Woes of Many Morphed to One",
+      "tag": "AoE",
+      "energy_cost": 135,
+      "energy_gain": 5,
+      "break_aoe": 20,
+
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+
+      "description_template": "Deals Quantum DMG equal to {{damage}}% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+
+      "scaling": {
+        "damage": [
+          50.0,
+          55.0,
+          60.0,
+          65.0,
+          70.0,
+          75.0,
+          81.25,
+          87.5,
+          93.75,
+          100.0,
+          105.0,
+          110.0
+        ]
+      }
+    },
+
+    "talent": {
+      "type": "Talent",
+      "name": "Bleak Breeds Bliss",
+      "tag": "Heal",
+
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+
+      "description_template": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take {{dmg_reduction}}% less DMG.\nWhen Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by {{hp_restore}}% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+
+      "scaling": {
+        "dmg_reduction": [
+          9.0,
+          9.9,
+          10.8,
+          11.7,
+          12.6,
+          13.5,
+          14.625,
+          15.75,
+          16.875,
+          18.0,
+          18.9,
+          19.8
+        ],
+        "hp_restore": [
+          80, 81, 82, 83, 84, 85, 86.25, 87.5, 88.75, 90, 91, 92
+
+        ]
+      }
+    },
+
+    "technique": {
+      "type": "Technique",
+      "name": "Of Fortune Comes Fate",
+      "tag": "Defensive",
+      "description": "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s)."
+    }
+  },
+
+  "major_traces": {
+    "2": {
+      "name": "Taiyi, the Macrocosmic",
+      "description": "When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill."
+    },
+
+    "4": {
+      "name": "Dunjia, the Metamystic",
+      "description": "When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133."
+    },
+
+    "6": {
+      "name": "Liuren, the Sexagenary",
+      "description": "If a target enemy applies Crowd Control debuffs to allies while the \"Matrix of Prescience\" is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When \"Matrix of Prescience\" is activated again, the number of times this effect can be triggered will reset."
+    }
+  },
+
+  "stat_bonuses": [
+    {
+      "stat": "CRIT Rate",
+      "value": "+18.7%"
+    },
+    {
+      "stat": "HP",
+      "value": "+18.0%"
+    },
+    {
+      "stat": "Effect RES",
+      "value": "+10.0%"
+    }
+  ],
+
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Dominus Pacis",
+      "description": "The Knowledge effect increases CRIT DMG by 30%."
+    },
+
+    {
+      "level": 2,
+      "name": "Optimus Felix",
+      "description": "If any ally target is struck by a killing blow while \"Matrix of Prescience\" is active, then all ally targets who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle."
+    },
+
+    {
+      "level": 3,
+      "name": "Apex Nexus",
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+
+    {
+      "level": 4,
+      "name": "Fortuna Stellaris",
+      "description": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy."
+    },
+
+    {
+      "level": 5,
+      "name": "Arbiter Primus",
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+
+    {
+      "level": 6,
+      "name": "Omnia Vita",
+      "description": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss.\nThis tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used."
+    }
+  ]
+}

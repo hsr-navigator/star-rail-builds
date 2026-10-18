@@ -1,0 +1,27 @@
+{
+    "main_stats": {
+        "body": [
+            "ANY",
+            {
+                "name": "cd",
+                "note_group": "personaldmg"
+            }
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            "hp%",
+            {
+                "name": "wind-dmg",
+                "note_group": "personaldmg",
+                "note": {
+                    "en": "Optional, for her personal damage output."
+                }
+            }
+        ],
+        "link_rope": [
+            "err"
+        ]
+    }
+}

@@ -32,6 +32,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sacerdos",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "messenger",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "planar_ornaments": [
