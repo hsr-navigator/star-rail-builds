@@ -1,0 +1,238 @@
+{
+  "id": "fugue",
+  "name": "Fugue",
+  "rarity": "5",
+  "type": "fire",
+  "path": "nihility",
+  "version_released": "2.7",
+  "max_energy": 130,
+  "level_80_stats": {
+    "hp": 1125,
+    "atk": 582,
+    "def": 557,
+    "spd": 102
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Vệt Đuôi Rực Rỡ",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Fugue cho 1 kẻ địch chỉ định.",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tấn Công Thường Cường Hóa",
+          "name": "Ngọn Lửa Bùng Cháy",
+          "tag": "Khuếch Tán",
+          "energy_gain": "20",
+          "break_main": 10,
+          "break_adjacent": 5,
+          "min_level": 1,
+          "max_level": 7,
+          "default_level": 6,
+          "description_template": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định tương đương {{scaling1}}% Tấn Công của Fugue, gây Sát Thương Hỏa cho mục tiêu lân cận tương đương {{scaling2}}% of Tấn Công của Fugue.",
+          "scaling": {
+            "scaling1": [
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ],
+            "scaling2": [
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              55
+            ]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Đức Hạnh Chân Chính, Phước Báu Sâu Dày",
+      "tag": "Hỗ Trợ",
+      "energy_gain": 30,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khiến 1 đồng đội chỉ định nhận Khẩn Nguyện Hồ Ly và khiến bản thân vào trạng thái Rực Lửa, duy trì 3 hiệp, mỗi khi Fugue bắt đầu hiệp sẽ giảm 1 hiệp duy trì, hơn nữa Khẩn Nguyện Hồ Ly chỉ có hiệu lực với mục tiêu mà Fugue thi triển Chiến Kỹ mới nhất.\nMục tiêu phe ta có Khẩn Nguyện Hồ Ly sẽ tăng {{scaling1}}% Tấn Công Kích Phá, tấn công kẻ địch không có điểm yếu thuộc tính tương ứng cũng có thể làm giảm Sức Bền, hiệu ứng bằng 50% điểm Giảm Sức Bền gốc, không thể cộng dồn với các hiệu ứng Giảm Sức Bền bỏ qua thuộc tính điểm yếu khác.\nKhi ở trạng thái Rực Lửa, Tấn Công Thường của Fugue được cường hóa. Mỗi lần mục tiêu phe ta có Khẩn Nguyện Hồ Ly tấn công, Fugue sẽ có 100% xác suất cơ bản khiến mục tiêu phe địch bị tấn công giảm {{scaling2}}% Phòng Thủ, duy trì 2 hiệp.",
+      "scaling": {
+        "scaling1": [
+          15,
+          16.5,
+          18,
+          19.5,
+          21,
+          22.5,
+          24.38,
+          26.25,
+          28.13,
+          30,
+          31.5,
+          33,
+          34.5,
+          36,
+          37.5
+        ],
+        "scaling2": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14.25,
+          15.5,
+          16.75,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Việc Thiện Tích Đức, Phúc Khí Dồi Dào",
+      "tag": "Quấy Nhiễu",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khi Fugue trong trận, mục tiêu phe địch sẽ được gắn thêm Vân Hỏa Chiêu bằng 40% giới hạn Sức Bền của bản thân, khi Sức Bền ban đầu giảm còn 0 sẽ tiếp tục giảm Vân Hỏa Chiêu, khi Vân Hỏa Chiêu giảm còn 0 sẽ chịu sát thương Phá Vỡ Điểm Yếu lần nữa.\nKhi Fugue trong trận, sau khi phe ta tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ chuyển hóa điểm Giảm Sức Bền của lần tấn công này thành 1 lần Siêu Sát Thương Phá Vỡ {{scaling1}}%.",
+      "scaling": {
+        "scaling1": [
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          81.25,
+          87.5,
+          93.75,
+          100,
+          105,
+          110
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Quán Chiếu Đại Địa",
+      "tag": "Quấy Nhiễu",
+      "description": "Sau khi dùng Bí Kỹ sẽ khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Choáng 10 giây, kẻ địch bị Choáng sẽ không chủ động tấn công mục tiêu phe ta.\nNếu chủ động tấn công kẻ địch rơi vào trạng thái Choáng, thì sau khi vào chiến đấu, Fugue sẽ Ưu Tiên Hành Động 40%, đồng thời có 100% xác suất cơ bản khiến mỗi 1 mục tiêu phe địch rơi vào trạng thái giảm phòng thủ giống với Chiến Kỹ của Fugue, duy trì 2 hiệp."
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Ánh Dương Chiếu Thế, Li Hỏa Che Trời",
+      "tag": "Đánh Lan",
+      "energy_gain": 5,
+      "break_aoe": 20,
+      "energy_cost": 130,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Fugue cho toàn bộ phe địch, lần tấn công này bỏ qua các thuộc tính Điểm Yếu và làm giảm Sức Bền của toàn bộ phe địch, khi phá vỡ điểm yếu, sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu thuộc tính Hỏa.",
+      "scaling": {
+        "scaling1": [
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          162.5,
+          175,
+          187.5,
+          200,
+          210,
+          220
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Thanh Khâu Trùng Quang",
+      "description": "Sau khi mục tiêu phe ta gây Phá Vỡ Điểm Yếu sẽ khiến mục tiêu phe địch Trì Hoãn Hành Động thêm 15%."
+    },
+    "4": {
+      "name": "Đồ Sơn Huyền Thiết",
+      "description": "Khiến Tấn Công Kích Phá của bản thân tăng 30%, sau khi thi triển Chiến Kỹ lần đầu tiên sẽ hồi ngay 1 điểm Chiến Kỹ."
+    },
+    "6": {
+      "name": "Cơ Tinh Thái Tố",
+      "description": "Khi điểm yếu của mục tiêu phe địch bị phá vỡ, sẽ khiến Tấn Công Kích Phá của đồng đội ngoại trừ bản thân tăng 6%, nếu Tấn Công Kích Phá của Fugue lớn hơn hoặc bằng 220%, thì hiệu ứng tăng Tấn Công Kích Phá sẽ tăng thêm 12%, duy trì 2 hiệp, hiệu ứng này tối đa có thể cộng dồn 2 tầng."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "HP",
+      "value": "+10%"
+    },
+    {
+      "stat": "Tốc Độ",
+      "value": "+14"
+    },
+    {
+      "stat": "Tấn Công Kích Phá",
+      "value": "+24%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Hồ Trần Đã Tận, Cưỡi Mây Về Trời",
+      "description": "Mục tiêu phe ta có Khẩn Nguyện Hồ Ly sẽ tăng 50% Hiệu Suất Phá Vỡ Điểm Yếu."
+    },
+    {
+      "level": 2,
+      "name": "Điềm Lành Trở Lại, Đức Hạnh Sinh Sôi",
+      "description": "Khi có điểm yếu của mục tiêu phe địch bị phá vỡ, sẽ hồi 3 điểm Năng Lượng cho Fugue. Sau khi thi triển Tuyệt Kỹ, toàn bộ phe ta Ưu Tiên Hành Động 24%."
+    },
+    {
+      "level": 3,
+      "name": "Chân Lý Bao Trùm, Sáng Tạo Thần Ý",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Hóa Hình Tiên Biến, Phải Mang Tên Nào",
+      "description": "Mục tiêu phe ta có Khẩn Nguyện Hồ Ly, Sát Thương Phá Vỡ gây ra sẽ tăng 20%."
+    },
+    {
+      "level": 5,
+      "name": "Ngũ Sắc Sinh Mây, Vạn Vật Kế Thừa",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    {
+      "level": 6,
+      "name": "Tương Lai Đơn Sắc, Vong Thịnh Đan Xen",
+      "description": "Hiệu suất Phá Vỡ Điểm Yếu của Fugue tăng 50%. Khi Fugue ở trạng thái Rực Lửa, hiệu ứng Khẩn Nguyện Hồ Ly sẽ có hiệu lực với toàn bộ phe ta."
+    }
+  ]
+}

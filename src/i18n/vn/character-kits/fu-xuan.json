@@ -16,9 +16,9 @@
 
   "abilities": {
     "basic": {
-      "type": "Basic ATK",
-      "name": "Novaburst",
-      "tag": "Single Target",
+      "type": "Tấn Công Thường",
+      "name": "Thủy Kích Tuế Tinh",
+      "tag": "Đánh Đơn",
       "energy_gain": 20,
       "break": 10,
 
@@ -26,24 +26,23 @@
       "max_level": 7,
       "default_level": 6,
 
-      "description_template": "Deals Quantum DMG equal to {{damage}}% of Fu Xuan's Max HP to one designated enemy.",
-
+      "description_template": "Gây cho 1 kẻ địch Sát Thương Lượng Tử bằng {{damage}}% Giới Hạn HP của Fu Xuan.",
       "scaling": {
         "damage": [25.0, 30.0, 35.0, 40.0, 45.0, 50.0, 55.0]
       }
     },
 
     "skill": {
-      "type": "Skill",
-      "name": "Known by Stars, Shown by Hearts",
-      "tag": "Defensive",
+      "type": "Chiến Kỹ",
+      "name": "Linh Đài Thị Ảnh",
+      "tag": "Phòng Thủ",
       "energy_gain": 30,
 
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by {{hp_boost}}% of Fu Xuan's Max HP, and increases CRIT Rate by {{crit_rate}}%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "description_template": "Mở Ma Trận Tiên Tri, khiến đồng đội của Fu Xuan chia sẻ 65% sát thương phải chịu (trước khi sát thương này được đỡ bởi Khiên) cho Fu Xuan trong 3 hiệp.\nTất cả thành viên phe ta đang trong trạng thái Ma Trận Tiên Tri sẽ nhận Giám Tri, và tăng Giới Hạn HP bằng {{hp_boost}}% Giới Hạn HP của Fu Xuan, Tỷ Lệ Bạo Kích tăng {{crit_rate}}%.\nKhi Fu Xuan vào trạng thái không thể chiến đấu, Ma Trận Tiên Tri cũng sẽ bị giải trừ.",
 
       "scaling": {
         "hp_boost": [
@@ -78,9 +77,9 @@
     },
 
     "ultimate": {
-      "type": "Ultimate",
-      "name": "Woes of Many Morphed to One",
-      "tag": "AoE",
+      "type": "Tuyệt Kỹ",
+      "name": "Lịch Kiếp Quy Nhất",
+      "tag": "Đánh Lan",
       "energy_cost": 135,
       "energy_gain": 5,
       "break_aoe": 20,
@@ -89,7 +88,7 @@
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "Deals Quantum DMG equal to {{damage}}% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+      "description_template": "Gây cho toàn thể địch Sát Thương Lượng Tử bằng {{damage}}% Giới Hạn HP của Fu Xuan, đồng thời nhận 1 lần kích hoạt hồi phục HP Thiên Phú của Fu Xuan.",
 
       "scaling": {
         "damage": [
@@ -110,15 +109,15 @@
     },
 
     "talent": {
-      "type": "Talent",
-      "name": "Bleak Breeds Bliss",
-      "tag": "Heal",
+      "type": "Thiên Phú",
+      "name": "Khổ Tận Cam Lai",
+      "tag": "Hồi Phục",
 
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
 
-      "description_template": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take {{dmg_reduction}}% less DMG.\nWhen Fu Xuan's current HP percentage falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by {{hp_restore}}% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+      "description_template": "Khi Fu Xuan ở trạng thái có thể chiến đấu, sẽ đính kèm \"Tránh Nguy\" cho toàn thể phe ta, sát thương phải chịu của mục tiêu phe ta ở trạng thái \"Tránh Nguy\" giảm {{dmg_reduction}}%.\nKhi Phần Trăm HP hiện tại của Fu Xuan nhỏ hơn hoặc bằng 50%, sẽ kích hoạt hồi phục HP, giúp bản thân hồi phục HP bằng {{hp_restore}}% HP đã tổn thất, khi chịu tấn công chí tử sẽ không thể kích hoạt hiệu ứng này. Hiệu ứng này ban đầu sẽ có 1 lần kích hoạt, tối đa có thể có 2 lần kích hoạt.",
 
       "scaling": {
         "dmg_reduction": [
@@ -143,33 +142,33 @@
     },
 
     "technique": {
-      "type": "Technique",
-      "name": "Of Fortune Comes Fate",
-      "tag": "Defensive",
-      "description": "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s)."
+      "type": "Bí Kỹ",
+      "name": "Lá Chắn Ma Trận",
+      "tag": "Phòng Thủ",
+      "description": "Sau khi dùng Bí Kỹ, toàn bộ phe ta nhận Lá Chắn duy trì 20 giây. Lá Chắn này có thể chống đỡ tất cả tấn công của kẻ địch khiến toàn bộ phe ta sẽ không vào chiến đấu. Khi chủ động chiến đấu trong thời gian duy trì Lá Chắn, Fu Xuan sẽ tự động kích hoạt Ma Trận Tiên Tri, duy trì 2 hiệp."
     }
   },
 
   "major_traces": {
     "2": {
-      "name": "Taiyi, the Macrocosmic",
-      "description": "When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill."
+      "name": "Thái Ất, Vũ Trụ",
+      "description": "Khi mở \"Ma Trận Tiên Tri\", Fu Xuan thi triển Chiến Kỹ sẽ hồi phục thêm 20 điểm năng lượng."
     },
 
     "4": {
-      "name": "Dunjia, the Metamystic",
-      "description": "When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133."
+      "name": "Độn Giáp, Tinh Kiệu",
+      "description": "Khi thi triển Tuyệt Kỹ, giúp mục tiêu khác của phe ta hồi phục HP bằng 5% Giới Hạn HP của Fu Xuan +133."
     },
 
     "6": {
-      "name": "Liuren, the Sexagenary",
-      "description": "If a target enemy applies Crowd Control debuffs to allies while the \"Matrix of Prescience\" is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When \"Matrix of Prescience\" is activated again, the number of times this effect can be triggered will reset."
+      "name": "Lục Nhâm, Can Chi",
+      "description": "Khi mở \"Ma Trận Tiên Tri\", nếu kẻ địch thi triển Hiệu Ứng Xấu dạng khống chế lên phe ta, thì toàn phe ta sẽ kháng tất cả Hiệu Ứng Xấu dạng khống chế do kẻ địch thi triển trong lần Hành Động này. Sau khi mở \"Ma Trận Tiên Tri\" lần nữa sẽ tạo mới số lần có thể kích hoạt hiệu ứng."
     }
   },
 
   "stat_bonuses": [
     {
-      "stat": "CRIT Rate",
+      "stat": "Tỷ Lệ Bạo Kích",
       "value": "+18.7%"
     },
     {
@@ -177,7 +176,7 @@
       "value": "+18.0%"
     },
     {
-      "stat": "Effect RES",
+      "stat": "Kháng Hiệu Ứng",
       "value": "+10.0%"
     }
   ],
@@ -185,38 +184,38 @@
   "eidolons": [
     {
       "level": 1,
-      "name": "Dominus Pacis",
-      "description": "The Knowledge effect increases CRIT DMG by 30%."
+      "name": "Tư Nguy",
+      "description": "Tất cả đơn vị trong \"Giám Tri\" sẽ tăng Sát Thương Bạo Kích 30%."
     },
 
     {
       "level": 2,
-      "name": "Optimus Felix",
-      "description": "If any ally target is struck by a killing blow while \"Matrix of Prescience\" is active, then all ally targets who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle."
+      "name": "Nhu Triệu",
+      "description": "Nếu bất kỳ mục tiêu phe ta chịu sát thương chí tử trong khi Ma Trận Tiên Tri đang kích hoạt, thì tất cả sát thương chí tử trong lần hành động này sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời hồi ngay HP bằng 70% Giới Hạn HP của bản thân nhân vật đó. Hiệu ứng này có thể kích hoạt 1 lần trong 1 trận đấu."
     },
 
     {
       "level": 3,
-      "name": "Apex Nexus",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "name": "Trực Phù",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá 15 cấp; Cấp Thiên Phú +2, tối đa không quá 15 cấp."
     },
 
     {
       "level": 4,
-      "name": "Fortuna Stellaris",
-      "description": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy."
+      "name": "Cách Trạch",
+      "description": "Sau khi mục tiêu khác của phe ta ở trạng thái \"Ma Trận Tiên Tri\" chịu tấn công, Fu Xuan hồi phục 5 điểm Năng Lượng."
     },
 
     {
       "level": 5,
-      "name": "Arbiter Primus",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "name": "Kế Thần",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá 15 cấp; Cấp Tấn Công Thường +1, tối đa không quá 10 cấp."
     },
 
     {
       "level": 6,
-      "name": "Omnia Vita",
-      "description": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss.\nThis tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used."
+      "name": "Chủng Lăng",
+      "description": "Một khi kích hoạt \"Ma Trận Tiên Tri\", sẽ tích lũy HP đã tổn thất của toàn thể phe ta trong trận này. Tăng sát thương Tuyệt Kỹ gây ra của Fu Xuan bằng 200% HP đã tổn thất được tích lũy trong trận này.\nHP đã tổn thất tích lũy trong trận này tối đa không quá 120% Giới Hạn HP của Fu Xuan, sau khi thi triển Tuyệt Kỹ sẽ xóa và tích lũy lại từ đầu."
     }
   ]
 }
