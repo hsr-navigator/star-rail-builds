@@ -198,6 +198,10 @@ const hasOverview = hasSummary || hasPrioritySection;
         const popup = document.querySelector<HTMLElement>(
             '#note-preview-popup',
         );
+        // Keep the shared popup outside panels that get hidden.
+        if (popup) {
+            document.body.appendChild(popup);
+        }
 
         let activeTrigger: HTMLElement | null = null;
         let showTimer: number | undefined;
