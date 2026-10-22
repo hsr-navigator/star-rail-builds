@@ -1931,6 +1931,22 @@ html[lang='ru'] .page-title {
         padding: 5px;
     }
 
+    .build-section-title {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.5em;
+    }
+
+    .build-title-separator {
+        opacity: 0.4;
+    }
+
+    .build-title-name {
+        color: #f1b44a;
+        font-weight: 800;
+    }
+
     .build-switcher {
         grid-area: builds;
         display: grid;
