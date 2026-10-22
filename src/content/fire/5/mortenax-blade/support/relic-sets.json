@@ -7,11 +7,8 @@
                     "items": [
                         {
                             "name": "eagle",
-                            "pieces": 4,
-                            "note_group": "mblade-support",
-                            "note": {
-                                "en": "Are best used if you want more of his supportive capabilities while sacrificing a bit of his personal damage."
-                            }
+                            "pieces": 4
+                            
                         }
                     ]
                 }
@@ -51,8 +48,7 @@
                     "items": [
                         {
                             "name": "vonwacq",
-                            "pieces": 2,
-                            "note_group": "mblade-support"
+                            "pieces": 2
                         }
                     ]
                 },
