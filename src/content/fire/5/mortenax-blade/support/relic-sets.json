@@ -1,6 +1,5 @@
 {
     "relic_sets": [
-        
         {
             "groups": [
                 {
@@ -8,22 +7,6 @@
                         {
                             "name": "eagle",
                             "pieces": 4
-                            
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups":[
-                {
-                    "items":[
-                        {
-                            "name": "guard",
-                            "pieces": 4,
-                            "note": {
-                                "en": "Viable set for sustainless runs."
-                            }
                         }
                     ]
                 }
@@ -40,11 +23,27 @@
                     ]
                 }
             ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "guard",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Viable set for sustainless runs."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "planar_ornaments": [
         {
-            "groups": [{
+            "groups": [
+                {
                     "items": [
                         {
                             "name": "vonwacq",
@@ -60,7 +59,6 @@
                         }
                     ]
                 }
-                
             ]
         }
     ]

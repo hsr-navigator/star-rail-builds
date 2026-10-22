@@ -1498,6 +1498,13 @@ html[lang='ru'] .page-title {
     text-align: left;
 }
 
+.build-switcher-heading {
+    color: #ebb963;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
 .artifact-aggregate-list {
     display: grid;
     margin-top: 10px;
@@ -2134,5 +2141,12 @@ html[lang='ru'] .page-title {
 
     .artifact-stats-card .recommendation-section {
         align-content: start;
+    }
+
+    .build-switcher-heading {
+        color: #f1b44a;
+        font-size: 0.9rem;
+        font-weight: 800;
+        margin-bottom: 3px;
     }
 }
