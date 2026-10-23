@@ -45,7 +45,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Gains \"King's Acknowledgement,\" allowing this unit to ignore {{scaling1}}% of the target's DEF when dealing DMG, lasting for 3 turn(s). Deals Lightning DMG equal to {{scaling2}}% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to {{scaling3}}% of Gilgamesh's ATK to adjacent targets.",
+      "description_template": "Gains \"King's Acknowledgement,\" allowing this unit to ignore {{scaling1}}% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to {{scaling2}}% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to {{scaling3}}% of Gilgamesh's ATK to adjacent targets.",
       "scaling": {
         "scaling1": [
           15,
@@ -142,7 +142,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by {{scaling1}}%, lasting for 3 turn(s). Initially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%. When \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
+      "description_template": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by {{scaling1}}%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
       "scaling": {
         "scaling1": [
           20,
@@ -169,7 +169,7 @@
           "min_level": 1,
           "max_level": 12,
           "default_level": 10,
-          "description_template": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint  Follow-Up ATK, dealing Lightning DMG equal to {{scaling1}}% of Gilgamesh's ATK and Wind DMG equal to {{scaling2}}% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes {{scaling3}}% of the original DMG. After using Joint Follow-Up ATK, resets the attack tally.",
+          "description_template": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to {{scaling1}}% of Gilgamesh's ATK and Wind DMG equal to {{scaling2}}% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes {{scaling3}}% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally.",
           "scaling": {
             "scaling1": [
               200,
@@ -248,7 +248,7 @@
       "value": "+18.7%"
     },
     {
-      "stat": "Lightning DMG Boost",
+      "stat": "Lightning DMG",
       "value": "+8%"
     }
   ],
@@ -266,7 +266,7 @@
     {
       "level": 3,
       "name": "Journey That Spanned Far",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 4,
@@ -276,7 +276,7 @@
     {
       "level": 5,
       "name": "Sword That Parted Gods from Man",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
     {
       "level": 6,

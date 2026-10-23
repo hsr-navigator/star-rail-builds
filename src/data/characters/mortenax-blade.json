@@ -68,7 +68,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by {{scaling1}}% and the DMG they receive increases by {{scaling2}}%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state. During the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by {{scaling3}}%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP. When gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state. If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
+      "description_template": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by {{scaling1}}% and the DMG they receive increases by {{scaling2}}%, lasting for 2 turn(s). Then, consumes HP equal to 20% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\nDuring the \"Infinite Fury\" state, increases CRIT Rate by 20%, increases CRIT DMG by {{scaling3}}%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to 50% of this unit's Max HP.\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of 70. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
       "scaling": {
         "scaling1": [
           20,
@@ -186,7 +186,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to {{scaling1}}% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to {{scaling2}}% of Mortenax Blade's Max HP to one random enemy. If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill. While not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill. Using Skill does not consume Skill Points.",
+      "description_template": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to {{scaling1}}% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to {{scaling2}}% of Mortenax Blade's Max HP to one random enemy.\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\nUsing Skill does not consume Skill Points.",
       "scaling": {
         "scaling1": [
           36,
@@ -271,12 +271,12 @@
     {
       "level": 3,
       "name": "Across the Shore, Wrath Laid Bare",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
     {
       "level": 5,
       "name": "I Severed My Woes, Knowing Death Begets Life",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     }
   ]
 }

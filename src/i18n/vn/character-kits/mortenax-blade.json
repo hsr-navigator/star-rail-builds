@@ -1,0 +1,283 @@
+{
+  "id": "mortenax-blade",
+  "name": "Mortenax Blade",
+  "rarity": "5",
+  "type": "fire",
+  "path": "nihility",
+  "version_released": "4.3",
+  "max_energy": 160,
+  "level_80_stats": {
+    "hp": 1358,
+    "atk": 543,
+    "def": 485,
+    "spd": 107
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Đánh Đơn",
+      "tag": "Single Target",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định bằng {{scaling1}}% Giới Hạn HP của Mortenax Blade, đồng thời khiến mục tiêu rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp.",
+      "scaling": {
+        "scaling1": [
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tấn Công Thường Cường Hóa",
+          "name": "Rèn Kiếm, Đoạn Phách",
+          "tag": "Đánh Đơn",
+          "energy_gain": 20,
+          "break": 10,
+          "min_level": 1,
+          "max_level": 7,
+          "default_level": 6,
+          "description_template": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định bằng {{scaling1}}% Giới Hạn HP của Mortenax Blade, đồng thời khiến mục tiêu rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp.",
+          "scaling": {
+            "scaling1": [
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          }
+        }
+      ]
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Fornax Ex Corpore",
+      "tag": "Enhance",
+      "energy_gain": 5,
+      "energy_cost": 160,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khiến toàn phe địch rơi vào trạng thái \"Sát Hỏa Quấn Thân\", Phòng Thủ của mục tiêu phe địch ở trạng thái \"Sát Hỏa Quấn Thân\" giảm {{scaling1}}%, sát thương phải chịu tăng {{scaling2}}%, duy trì 2 hiệp. Sau đó tiêu hao HP bằng 20% Giới Hạn HP của Mortenax Blade để triển khai Kết Giới, trong thời gian duy trì Kết Giới, Mortenax Blade nhận trạng thái \"Vô Lượng Phẫn Nộ\".\nTrong trạng thái \"Vô Lượng Phẫn Nộ\", Tỷ Lệ Bạo Kích tăng 20%, Sát Thương Bạo Kích tăng {{scaling3}}%, Tấn Công Thường được cường hóa, đồng thời giải phóng Chiến Kỹ và nhận Tuyệt Kỹ mới \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\", nếu chịu tấn công chí tử sẽ không rơi vào trạng thái không thể chiến đấu, nhưng sẽ giải trừ Kết Giới, thoát trạng thái \"Vô Lượng Phẫn Nộ\" và hồi HP bằng 50% Giới Hạn HP của bản thân.\nKhi nhận trạng thái \"Vô Lượng Phẫn Nộ\", trên thứ tự hành động xuất hiện đếm ngược tương ứng, đếm ngược cố định có 70 Tốc Độ, khi bắt đầu hiệp đếm ngược sẽ giải trừ Kết Giới và thoát trạng thái \"Vô Lượng Phẫn Nộ\".\nNếu HP hiện tại không đủ, khi thi triển kỹ năng này HP hiện tại của Mortenax Blade sẽ giảm xuống còn 1 điểm.",
+      "scaling": {
+        "scaling1": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26.25,
+          27.5,
+          28.75,
+          30,
+          31,
+          32
+        ],
+        "scaling2": [
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42.5,
+          45,
+          47.5,
+          50,
+          52,
+          54
+        ],
+        "scaling3": [
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48.75,
+          52.5,
+          56.25,
+          60,
+          63,
+          66
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tuyệt Kỹ",
+          "name": "Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt",
+          "tag": "Đánh Lan",
+          "energy_gain": 5,
+          "break_aoe": 20,
+          "energy_cost": 160,
+          "min_level": 1,
+          "max_level": 12,
+          "default_level": 10,
+          "description_template": "Gây cho toàn bộ phe địch Sát Thương Hỏa bằng {{scaling1}}% Giới Hạn HP của Mortenax Blade.",
+          "scaling": {
+            "scaling1": [
+              210,
+              224,
+              238,
+              252,
+              266,
+              280,
+              297.5,
+              315,
+              332.5,
+              350,
+              364,
+              378
+            ]
+          }
+        }
+      ]
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Trả Hết Nhân Quả",
+      "tag": "Hỗ Trợ",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Trong thời gian duy trì Kết Giới, sau mỗi lần mục tiêu phe ta tấn công phe địch, khiến mục tiêu phe địch tương ứng rơi vào trạng thái \"Sát Hỏa Quấn Thân\" và khiến Mortenax Blade nhận 1 điểm Nạp Năng Lượng, khi Nạp Năng Lượng đạt 9 điểm và HP hiện tại lớn hơn 1, sẽ tiêu hao 9 điểm Nạp Năng Lượng, hồi {{scaling1}} điểm Năng Lượng, đồng thời khiến Mortenax Blade thi triển thêm 1 lần Chiến Kỹ, Chiến Kỹ lần này được xem là Đòn Đánh Theo Sau.",
+      "scaling": {
+        "scaling1": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21.25,
+          22.5,
+          23.75,
+          25,
+          26,
+          27
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Thập Phương Vô Xá",
+      "break": 20,
+      "description": "Lập tức tấn công tất cả kẻ địch trong phạm vi nhất định, sau khi vào chiến đấu, khiến toàn bộ phe địch rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp, đồng thời khiến sát thương bản thân phải chịu giảm 90%, duy trì 2 hiệp."
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Mưa Kiếm, Quy Táng",
+      "tag": "Đánh Lan",
+      "energy_gain": 30,
+      "break_aoe": 10,
+      "break_bounce": 5,
+      "break_total": 30,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Tiêu hao HP bằng 10% Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng {{scaling1}}% Giới Hạn HP của Mortenax Blade, đồng thời gây thêm 4 lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng {{scaling2}}% Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
+      "description_template": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to {{scaling1}}% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to {{scaling2}}% of Mortenax Blade's Max HP to one random enemy. If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill. While not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill. Using Skill does not consume Skill Points.",
+      "scaling": {
+        "scaling1": [
+          36,
+          39.6,
+          43.2,
+          46.8,
+          50.4,
+          54,
+          58.5,
+          63,
+          67.5,
+          72,
+          75.6,
+          79.2
+        ],
+        "scaling2": [
+          12,
+          13.2,
+          14.4,
+          15.6,
+          16.8,
+          18,
+          19.5,
+          21,
+          22.5,
+          24,
+          25.2,
+          26.4
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Xương Cốt Trăm Lần Tinh Luyện",
+      "description": "Mortenax Blade có thể tích lũy tối đa 80 điểm Năng Lượng vượt mức, sau khi thi triển Tuyệt Kỹ sẽ xóa và hồi Năng Lượng tương ứng. Khi bắt đầu chiến đấu hoặc khi giải trừ Kết Giới, nếu Năng Lượng không đủ 75% thì lập tức hồi đến 75%. Khi Năng Lượng hồi đến giới hạn sẽ giải trừ toàn bộ Hiệu Ứng Xấu của bản thân."
+    },
+    "4": {
+      "name": "Hồn Phách Nghìn Lần Rèn Đúc",
+      "description": "Trong thời gian duy trì Kết Giới, tăng xác suất bị phe địch tấn công, sát thương bản thân phải chịu giảm 50%, lượng trị liệu nhận được tăng 50%, và sau khi bị tấn công sẽ khiến mục tiêu tương ứng rơi vào trạng thái \"Sát Hỏa Quấn Thân\", đồng thời khiến Mortenax Blade nhận 1 điểm Nạp Năng Lượng."
+    },
+    "6": {
+      "name": "Trái Tim Vạn Lần Tôi Luyện",
+      "description": "Trong thời gian duy trì Kết Giới, sát thương do mục tiêu phe ta gây ra tăng 50%, khi trong đội phe ta có nhân vật vận mệnh \"Hư Vô\" ngoại trừ Mortenax Blade, khiến Sát Thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng 75%, nếu không, khiến sát thương do Mortenax Blade gây ra tăng thêm 75%."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "HP",
+      "value": "+10%"
+    },
+    {
+      "stat": "Tỷ Lệ Bạo Kích",
+      "value": "+12%"
+    },
+    {
+      "stat": "Sát Thương - Hỏa",
+      "value": "+22.4%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Trước Khi Ta Chết, Ta Vẫn Chưa Thành Hình",
+      "description": "Trong thời gian duy trì Kết Giới, giảm 20% Kháng Toàn Thuộc Tính của toàn phe địch, sau khi thi triển Chiến Kỹ tăng thêm của Thiên Phú, khiến đếm ngược \"Vô Lượng Phẫn Nộ\" Trì Hoãn Hành Động 15%."
+    },
+    {
+      "level": 2,
+      "name": "Tâm Như Tro Tàn, Nhưng Lửa Lò Chưa Tắt",
+      "description": "Khi nhân vật phe ta thi triển Tuyệt Kỹ gây sát thương, sẽ xem như là phát động Đòn Đánh Theo Sau, sát thương Đòn Đánh Theo Sau\nĐòn Đánh Theo Sau\nHiệu ứng tự động kích hoạt khi đạt điều kiện, thi triển 1 lần tấn công thêm lên mục tiêu. do mục tiêu phe ta gây ra tăng 75%. Giới hạn điểm Nạp Năng Lượng của Mortenax Blade giảm xuống còn 7."
+    },
+    {
+      "level": 4,
+      "name": "Rèn Tan Di Hận, Cốt Kiếm Tự Thành Hình",
+      "description": "\"Trái Tim Vạn Lần Tôi Luyện\" khiến sát thương mục tiêu phe ta gây ra tăng thêm 50%."
+    },
+    {
+      "level": 6,
+      "name": "Nếu Thần Có Thể Chết, Thề Tự Tay Diệt Thọ Ôn",
+      "description": "Trong thời gian duy trì Kết Giới, khi Mortenax Blade chịu sát thương hoặc tiêu hao HP, nhận 1 điểm Nạp Năng Lượng, hiệu ứng này có thể kích hoạt lại sau khi hiệp của mục tiêu bất kỳ kết thúc. Bội Số Sát Thương của \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\" tăng bằng 150% bội số ban đầu."
+    },
+    {
+      "level": 3,
+      "name": "Thân Vượt Bỉ Ngạn, Bộc Lộ Bản Tướng Phẫn Nộ",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    {
+      "level": 5,
+      "name": "Đoạn Tuyệt Khổ Đau, Hiểu Cửa Tử Cầu Tân Sinh",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    }
+  ]
+}
