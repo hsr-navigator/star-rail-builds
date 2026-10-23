@@ -116,7 +116,18 @@ const buildGuideLabel = t(locale, 'ui', 'Builds', undefined, false);
                                     open
                                 >
                                     <summary class="section-collapse-summary">
-                                        <h2>{buildGuideLabel}</h2>
+                                        <h2 class="build-section-title">
+                                            {buildGuideLabel}
+                                            <span
+                                                class="build-title-separator"
+                                                aria-hidden="true"
+                                            >
+                                                &nbsp;|&nbsp;
+                                            </span>
+                                            <span class="build-title-name">
+                                                {build.name}
+                                            </span>
+                                        </h2>
 
                                         <span
                                             class="section-collapse-chevron"

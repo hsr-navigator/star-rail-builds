@@ -1,9 +1,12 @@
 {
-    "best": false,
+    "best": true,
     "name": {
         "en": "Sub-DPS"
     },
     "notes": [
+        {
+            "en": "Use the Support build for Mortenax Blade if pairing him with Acheron or Aventurine • Waveflair"
+        }
     ],
     "overview": {
         "summary": {
