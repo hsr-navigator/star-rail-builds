@@ -4,6 +4,9 @@
         "en": "Eagle Support"
     },
     "notes": [
+        {
+            "en": "- [[set:eagle]] is not a default replacement for [[set:poet]]. This build is an Ultimate-spam/Action Advance support build, built around Tribbie's low Ultimate cost. Ideally she would want [[set:eagle]], [[set:vonwacq]], and [[light-cone:ddd]]. The goal is to cycle her Ultimate as often as possible so the teama gets repeated Action Advance, rather than maximizing Tribbie's personal damage.\n- Use this over [[set:poet]] when your team benefits more from turn manipulation than from Tribbie's damage output, such as in sustainless teams, particularly in 0-cycle/low-cycle endgame content. For general use-case, [[set:poet]] should still be Best in Slot."
+        }
     ],
     "overview": {
         "summary": {
