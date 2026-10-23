@@ -170,53 +170,6 @@
                 ]
             }
         },
-    
-    "global_passives": {
-        "mcawolfee-999": {
-            "name": "999安全衛士",
-            "tag": "輔助",
-            "description": "獲得「銀狼LV.999」後或目前隊伍包含「銀狼LV.999」時獲得效果：戰鬥中，若敵方目標對我方施加了控制類負面狀態，則使我方全體獲得【防火牆】持續1回合。【防火牆】狀態下，我方目標免疫敵方目標施加的控制類負面狀態。該狀態每一波最多觸發1次。"
-        }
-    },
-        "elation": {
-            "skills": {
-                "skill": {
-                    "type": "歡愉技",
-                    "name": "殿堂級操作回放",
-                    "tag": "強化",
-                    "participant_id": 999,
-                    "description": "獲得15點【隱藏分】。"
-            },
-            "skill-2": {
-                "type": "強化歡愉技",
-                "name": "崩壞級傷害演示",
-                "tag": "彈射",
-                "participant_id": 999,
-                "break_bounce": 10,
-                "break_total": 60,
-                "min_level": 1,
-                "max_level": 12,
-                "default_level": 10,
-                "description_template": "造成6次傷害，每次對敵方隨機單體造成{{imaginary_elation_dmg}}%的虚數屬性歡愉傷害。將觸發【頭號補給盲盒】的固定機率重置為初始值。",
-                "scaling": {
-                    "imaginary_elation_dmg": [
-                        45,
-                        49.5,
-                        54,
-                        58.5,
-                        63,
-                        67.5,
-                        73.1,
-                        78.8,
-                        84.4,
-                        90,
-                        94.5,
-                        99
-                    ]
-                }
-            }
-        }
-    },
         "technique": {
             "type": "秘技",
             "name": "朋友，這才是T0級秘技",
@@ -283,5 +236,51 @@
             "name": "我獨自滿級！",
             "description": "強化普通攻擊期間造成的歡愉傷害增笑50%。\n敵方目標進入戰鬥時，會被植入【禁限弱點】：擁有全屬性弱點並且全屬性基礎抗性降低至0(若基礎抗性為0則改為對應屬性抗性降低20%)。"
         }
-    ]
+    ],
+    "global_passives": {
+            "mcawolfee-999": {
+                "name": "999安全衛士",
+                "tag": "輔助",
+                "description": "獲得「銀狼LV.999」後或目前隊伍包含「銀狼LV.999」時獲得效果：戰鬥中，若敵方目標對我方施加了控制類負面狀態，則使我方全體獲得【防火牆】持續1回合。【防火牆】狀態下，我方目標免疫敵方目標施加的控制類負面狀態。該狀態每一波最多觸發1次。"
+            }
+        },
+        "elation": {
+            "skills": {
+                "skill": {
+                    "type": "歡愉技",
+                    "name": "殿堂級操作回放",
+                    "tag": "強化",
+                    "participant_id": 999,
+                    "description": "獲得15點【隱藏分】。"
+            },
+            "skill-2": {
+                "type": "強化歡愉技",
+                "name": "崩壞級傷害演示",
+                "tag": "彈射",
+                "participant_id": 999,
+                "break_bounce": 10,
+                "break_total": 60,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "造成6次傷害，每次對敵方隨機單體造成{{imaginary_elation_dmg}}%的虚數屬性歡愉傷害。將觸發【頭號補給盲盒】的固定機率重置為初始值。",
+                "scaling": {
+                    "imaginary_elation_dmg": [
+                        45,
+                        49.5,
+                        54,
+                        58.5,
+                        63,
+                        67.5,
+                        73.1,
+                        78.8,
+                        84.4,
+                        90,
+                        94.5,
+                        99
+                    ]
+                }
+            }
+        }
+    }
 }
