@@ -27,6 +27,14 @@
         {
             "items": [
                 {
+                    "name": "yet-hope-is-priceless",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "milky-way",
                     "superimposition": 1
                 },

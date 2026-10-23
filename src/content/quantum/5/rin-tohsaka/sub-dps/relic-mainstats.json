@@ -16,7 +16,8 @@
             "atk%"
         ],
         "link_rope": [
-            "atk%"
+            "atk%",
+            "err"
         ]
     }
 }
