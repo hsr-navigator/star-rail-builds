@@ -6,7 +6,10 @@
         },
         {
             "name": "be",
-            "recommended": "100%+"
+            "recommended": "150%+",
+            "note": {
+                "en": "Aim for 200% [[stat:be]] if using S1 [[light-cone:scent-alone-stays-true]] or S5 [[light-cone:what-is-real]]."
+            }
         },
         {
             "name": "atk",
