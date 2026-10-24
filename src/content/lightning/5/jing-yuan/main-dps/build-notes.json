@@ -1,17 +1,17 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "Main DPS"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Jing Yuan's main source of damage is his Follow-Up ATK through his summon Lightning-Lord. You will not see a lot of damage from his own Skill or Ultimate.\n- Lightning-Lord can have a total of 10 stacks. Jing Yuan's Skill provides 2 and his Ultimate and Technique provide 3.\n- Jing Yuan works well with supports who provide advance actions, grant SPD, or grant Energy, helping him deal more DMG and gain Lightning-Lord stacks.\n- Note that Lightning-Lord cannot take action when Jing Yuan is Crowd Controlled or downed.\n- Jing Yuan's performance is heavily reliant on his teammates, particularly Sunday. Sunday is the most important part of Jing Yuan's team, as he solves the Lightning-Lord's low SPD. Sunday E1 allows Jing Yuan to ignore 16% DEF and Lightning-Lord to ignore 40% DEF. Tribbie provides a powerful RES PEN buff and contributes to overall team damage. [[character:dhpt]] is a powerful sustain, who provides a strong ATK% buff, and additionally a secondary summon to deal more damage and synergizes well with Sunday."
+            "en": "- Jing Yuan's main source of damage is his Follow-Up ATK through his summon Lightning-Lord. You will not see a lot of damage from his own Skill or Ultimate.\n- Lightning-Lord can have a total of 10 stacks. Jing Yuan's Skill provides 2 and his Ultimate and Technique provide 3.\n- Jing Yuan works well with supports who provide advance actions, grant SPD, or grant Energy, helping him deal more DMG and gain Lightning-Lord stacks.\n- Note that Lightning-Lord cannot take action when Jing Yuan is Crowd Controlled or downed.\n- Jing Yuan's performance is heavily reliant on his teammates, particularly Sunday. Sunday is the most important part of Jing Yuan's team, as he solves the Lightning-Lord's low SPD. Sunday E1 allows Jing Yuan to ignore 16% DEF and Lightning-Lord to ignore 40% DEF. [[character:dhpt]] is a powerful sustain, who provides a strong ATK% buff, and additionally a secondary summon to deal more damage and synergizes well with Sunday."
         },
         "investment_priority": {
             "priority": {
-                "en": "S1 > E1 > E2"
+                "en": "S1 > E1"
             },
             "details": {
                 "en": "- S1 [[light-cone:before-dawn]] boosts his [[stat:cd]], as well as increasing the DMG dealt by his Skill, Ultimate, and Follow-Up ATK.\n- E1 increases Lightning-Lord's DMG to enemies adjacent to the primary enemy target. This is overall an underwhelming increase."

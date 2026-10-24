@@ -11,10 +11,10 @@
         },
         "notable_eidolons": {
             "priority": {
-                "en": "E4, E2, E6"
+                "en": "E4, E2"
             },
             "details": {
-                "en": "- E4 reduces the All-Type RES of all enemies under the \"Weightless\" state by 30%.\n- E2 generates 3 extra energy for Welt every time he attacks a Slowed enemy, greatly speeding up his Ultimate recovery.\n- E6 grants Welt 30% CRIT Rate and 60% CRIT DMG for attacks against Slowed enemies."
+                "en": "- E4 reduces the All-Type RES of all enemies under the \"Weightless\" state by 30%.\n- E2 generates 3 extra energy for Welt every time he attacks a Slowed enemy, greatly speeding up his Ultimate recovery."
             }
         }
     }

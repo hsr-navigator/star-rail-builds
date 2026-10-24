@@ -1,6 +1,13 @@
 {
     "stats": [
         {
+            "name": "atk",
+            "recommended": "3600+",
+            "note": {
+                "en": "For [[set:revelry]]."
+            }
+        },
+        {
             "name": "spd",
             "recommended": "160+"
         },

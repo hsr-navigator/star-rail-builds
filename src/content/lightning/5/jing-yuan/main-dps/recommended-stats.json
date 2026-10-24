@@ -17,7 +17,10 @@
         },
         {
             "name": "cd",
-            "recommended": "210%+"
+            "recommended": "170%+",
+            "note": {
+                "en": "Aim for 210%+ [[stat:cd]] if using S1 [[light-cone:before-dawn]] or S1 [[light-cone:yet-hope-is-priceless]]."
+            }
         }
     ]
 }
