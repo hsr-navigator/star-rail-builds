@@ -1,0 +1,407 @@
+{
+    "id": "himeko-nova",
+    "name": "Himeko - Nova",
+    "rarity": 5,
+    "type": "fire",
+    "path": "erudition",
+    "version_released": "4.4",
+    "max_energy": 150,
+    "level_80_stats": {
+        "hp": 1125,
+        "atk": 756,
+        "def": 485,
+        "spd": 98
+    },
+    "abilities": {
+        "basic": {
+            "type": "Tấn Công Thường",
+            "name": "Enkindle the First Lodestar",
+            "tag": "Đánh Đơn",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Gây Sát Thương Hỏa cho 1 kẻ địch bằng {{value}}% Tấn Công của Himeko - Nova.",
+            "scaling": {
+                "value": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Chiến Kỹ",
+            "name": "Giương Cao Ngọn Lửa Dẫn Đường",
+            "tag": "Hỗ Trợ",
+            "energy_gain": 30,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Sau khi thi triển Chiến Kỹ, lập tức hồi phục tất cả số lần sử dụng Kỹ Năng Trợ Chiến, Himeko - Nova nhận được \"Cờ Hiệu Dẫn Đường\", duy trì 3 hiệp, khi bắt đầu mỗi hiệp của Himeko - Nova, số hiệp duy trì giảm 1. Khi Himeko - Nova có \"Cờ Hiệu Dẫn Đường\", sát thương do toàn phe ta gây ra tăng {{damage_increase}}%, khi bắt đầu mỗi hiệp, lập tức hồi phục 1 lần sử dụng Kỹ Năng Trợ Chiến.",
+            "scaling": {
+                "damage_increase": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.25,
+                    17.5,
+                    18.75,
+                    20,
+                    21,
+                    22
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Tuyệt Kỹ",
+            "name": "Chúng Ta, Cũng Hướng Đến Những Vì Sao",
+            "tag": "Đánh Lan",
+            "energy_cost": 150,
+            "energy_gain": 5,
+            "break_bounce": 4,
+            "break_final_hit": 4,
+            "break_total": 48,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Lập tức điều khiển \"Người Khai Phá Sao\", \"Người Khai Phá Sao\" sở hữu \"Chùm Tia Hạt Siêu Tần\" có thể phát động 6 lần lên phe địch hoặc \"Xung Mạch Hủy Diệt Quỹ Đạo\" được phát động bằng cách tiêu hao \"Nguyên Năng\", gây Sát Thương Hỏa tối đa bằng {{main_damage}}% Tấn Công của Himeko - Nova cho 1 kẻ địch chỉ định, gây Sát Thương Hỏa tối đa bằng {{other_damage}}% Tấn Công của Himeko - Nova cho các mục tiêu khác.\nKhi dùng hết số lần \"Chùm Tia Hạt Siêu Tần\", sẽ tự động phát động \"Xung Mạch Hủy Diệt Quỹ Đạo\", sau đó phát động Đòn Đánh Cuối Cùng, gây 3 lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa bằng {{bounce_damage}}% Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên.\nKhi thi triển \"Chùm Tia Hạt Siêu Tần\" hoặc \"Xung Mạch Hủy Diệt Quỹ Đạo\" gây sát thương chí tử cho toàn bộ phe địch trên sân hoặc khi phe địch không thể tiếp tục bị giảm HP, sẽ lập tức thi triển Đòn Đánh Cuối Cùng.",
+            "scaling": {
+                "main_damage": [
+                    381,
+                    419.1,
+                    457.2,
+                    495.3,
+                    533.4,
+                    571.5,
+                    619.125,
+                    666.75,
+                    714.375,
+                    762,
+                    800.1,
+                    838.2
+                ],
+                "other_damage": [
+                    126,
+                    138.6,
+                    151.2,
+                    163.8,
+                    176.4,
+                    189,
+                    204.75,
+                    220.5,
+                    236.25,
+                    252,
+                    264.6,
+                    277.2
+                ],
+                "bounce_damage": [
+                    40,
+                    44,
+                    48,
+                    52,
+                    56,
+                    60,
+                    65,
+                    70,
+                    75,
+                    80,
+                    84,
+                    88
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Tuyệt Kỹ",
+                    "name": "Chùm Tia Hạt Siêu Tần",
+                    "tag": "Đánh Lan",
+                    "energy_cost": 150,
+                    "break": 2,
+                    "description_template": "Gây Sát Thương Hỏa cho toàn bộ phe địch bằng {{damage}}% Tấn Công của Himeko - Nova, nhận 1 điểm \"Nguyên Năng\", tối đa nhận được 3 \"Nguyên Năng\".",
+                    "scaling": {
+                        "damage": [
+                            16,
+                            17.6,
+                            19.2,
+                            20.8,
+                            22.4,
+                            24,
+                            26,
+                            28,
+                            30,
+                            32,
+                            33.6,
+                            35.2
+                        ]
+                    }
+                },
+                {
+                    "type": "Tuyệt Kỹ",
+                    "name": "Xung Mạch Hủy Diệt Quỹ Đạo",
+                    "tag": "Đánh Lan",
+                    "energy_cost": 150,
+                    "break_aoe": 2,
+                    "break_bounce": 2,
+                    "description_template": "Tiêu hao 1 điểm \"Nguyên Năng\", gây Sát Thương Hỏa bằng {{damage}}% Tấn Công của Himeko - Nova cho toàn bộ phe địch. Khi \"Nguyên Năng\" hiện tại lớn hơn 1 điểm, cứ tiêu hao 1 điểm \"Nguyên Năng\", sẽ gây thêm 1 lần Sát Thương Hỏa bằng {{source_energy_damage}}% Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên.",
+                    "scaling": {
+                        "damage": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16.25,
+                            17.5,
+                            18.75,
+                            20,
+                            21,
+                            22
+                        ],
+                        "source_energy_damage": [
+                            15,
+                            16.5,
+                            18,
+                            19.5,
+                            21,
+                            22.5,
+                            24.375,
+                            26.25,
+                            28.125,
+                            30,
+                            31.5,
+                            33
+                        ]
+                    }
+                }
+            ]
+        },
+        "talent": {
+            "type": "Thiên Phú",
+            "name": "Cùng Bước Vào Cuộc Viễn Chinh Rực Cháy",
+            "tag": "Cường Hóa",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Khi Himeko - Nova ở trên sân sẽ lập tức mở ra Vùng Lãnh Thổ \"Tầm Nhìn Khai Phá Sao\", trên sân xuất hiện \"Người Khai Phá Sao\", đồng thời khiến toàn bộ nhân vật phe ta nhận 1 lần sử dụng Kỹ Năng Trợ Chiến. Nhân vật phe ta có thể sử dụng Kỹ Năng Trợ Chiến triệu hồi \"Người Khai Phá Sao\" tấn công kẻ địch.\nSử dụng Kỹ Năng Trợ Chiến được xem như Himeko - Nova thi triển Chiến Kỹ, Himeko - Nova được tăng {{res_pen}}% Xuyên Kháng Toàn Thuộc Tính, tăng {{crit_dmg}}% Sát Thương Bạo Kích, khi tấn công có thể bỏ qua Thuộc Tính Điểm Yếu làm giảm Sức Bền phe địch, khi Phá Vỡ Điểm Yếu, kích hoạt hiệu ứng Phá Vỡ Điểm Yếu thuộc tính Hỏa.\nKhi nhân vật phe ta ngoài Himeko - Nova sử dụng Kỹ Năng Trợ Chiến, sẽ hồi 4 điểm Năng Lượng.",
+            "scaling": {
+                "res_pen": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.25,
+                    17.5,
+                    18.75,
+                    20,
+                    21,
+                    22
+                ],
+                "crit_dmg": [
+                    40,
+                    44,
+                    48,
+                    52,
+                    56,
+                    60,
+                    65,
+                    70,
+                    75,
+                    80,
+                    84,
+                    88
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Kỹ Năng Trợ Chiến",
+                    "name": "Trailblaze, By Your Side",
+                    "tag": "Đánh Lan",
+                    "energy_gain": 18,
+                    "break_aoe": 10,
+                    "break_bounce": 5,
+                    "break_total": "25 (Đồng Minh) / 30 (Bản Thân)",
+                    "description_template": "Gây Sát Thương Hỏa bằng 80%-176% Tấn Công của Himeko - Nova cho toàn bộ phe địch, gây thêm 3 lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa bằng {{additional_instance_damage}}% Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên. Khi Himeko - Nova sử dụng, gây Sát Thương Hỏa bằng {{himeko_damage}}% Tấn Công của Himeko - Nova cho toàn bộ phe địch, gây thêm 4 lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa bằng {{himeko_instance_damage}}% Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên.\nNếu người sử dụng là nhân vật Đồng Hành Khai Phá khác ngoài Himeko - Nova, Himeko - Nova sẽ nhận 1 trong các Hiệu Ứng Đặc Biệt.\nKỹ Năng Trợ Chiến thêm do tất cả Hiệu Ứng Đặc Biệt phát động tối đa phát động 2 lần trong một trận chiến, sau khi Himeko - Nova thi triển Tuyệt Kỹ sẽ làm mới số lần phát động.",
+                    "scaling": {
+                        "damage": [
+                            80,
+                            88,
+                            96,
+                            104,
+                            112,
+                            120,
+                            130,
+                            140,
+                            150,
+                            160,
+                            168,
+                            176
+                        ],
+                        "additional_instance_damage": [
+                            12,
+                            13.2,
+                            14.4,
+                            15.6,
+                            16.8,
+                            18,
+                            19.5,
+                            21,
+                            22.5,
+                            24,
+                            25.2,
+                            26.4
+                        ],
+                        "himeko_damage": [
+                            100,
+                            110,
+                            120,
+                            130,
+                            140,
+                            150,
+                            162.5,
+                            175,
+                            187.5,
+                            200,
+                            210,
+                            220
+                        ],
+                        "himeko_instance_damage": [
+                            18,
+                            19.4,
+                            20.8,
+                            22.2,
+                            23.6,
+                            25,
+                            26.75,
+                            28.5,
+                            30.25,
+                            32,
+                            33.4,
+                            34.8
+                        ]
+                    }
+                },
+                {
+                    "type": "Kỹ Năng Trợ Chiến",
+                    "name": "Giao Ước Đồng Hành: Phán Quyết",
+                    "tag": "Đánh Lan",
+                    "description_template": "Vào trạng thái \"Giao Ước Đồng Hành: Phán Quyết\". Sát thương do Himeko - Nova gây ra tăng {{damage_increase}}%, Sát Thương Tuyệt Kỹ gây ra tăng thêm {{damage_increase}}%. Sau khi đồng đội của Himeko - Nova chủ động thi triển 2 lần Tuyệt Kỹ, Himeko - Nova lập tức phát động 1 lần Kỹ Năng Trợ Chiến không cần tiêu hao lên phe địch.",
+                    "scaling": {
+                        "damage_increase": [
+                            50,
+                            55,
+                            60,
+                            65,
+                            70,
+                            75,
+                            81.25,
+                            87.5,
+                            93.75,
+                            100,
+                            105,
+                            110
+                        ]
+                    }
+                },
+                {
+                    "type": "Kỹ Năng Trợ Chiến",
+                    "name": "Giao Ước Đồng Hành: Diệt Phá",
+                    "tag": "Đánh Lan",
+                    "description_template": "Vào trạng thái \"Giao Ước Đồng Hành: Diệt Phá\". Sát Thương Bạo Kích của toàn phe ta tăng {{crit_damage_increase}}%, Sát Thương Bạo Kích do Chiến Kỹ gây ra tăng thêm {{crit_damage_increase}}%. Mỗi khi phe ta đánh trúng 1 mục tiêu phe địch đều có thể nhận 1 điểm Nạp Năng Lượng, khi Nạp Năng Lượng đạt 9 điểm sẽ tiêu hao toàn bộ Nạp Năng Lượng, Himeko - Nova lập tức phát động 1 lần Kỹ Năng Trợ Chiến không cần tiêu hao lên phe địch. Kỹ Năng Trợ Chiến lần này không thể nhận Nạp Năng Lượng.",
+                    "scaling": {
+                        "crit_damage_increase": [
+                            50,
+                            55,
+                            60,
+                            65,
+                            70,
+                            75,
+                            81.25,
+                            87.5,
+                            93.75,
+                            100,
+                            105,
+                            110
+                        ]
+                    }
+                }
+            ]
+        },
+        "technique": {
+            "type": "Bí Kỹ",
+            "name": "Starcharter Cruise",
+            "tag": "Cường Hóa",
+            "description": "Khi Himeko - Nova ở trong đội, khiến giới hạn Điểm Bí Kỹ tăng 3 điểm.\nSau khi sử dụng Bí Kỹ sẽ vào trạng thái \"Du Hành\" duy trì 30 giây, chủ động thi triển Bí Kỹ tiêu hao 2 Điểm Bí Kỹ, lập tức tấn công toàn bộ kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, khi bắt đầu mỗi đợt lập tức thi triển 1 lần Chiến Kỹ.\nNếu tấn công kẻ địch thường sẽ lập tức tiêu diệt kẻ địch đó, không vào chiến đấu. Khi không đánh trúng kẻ địch sẽ không tiêu hao Điểm Bí Kỹ."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Nhân Loại Nên Đi Về Đâu?",
+            "description": "Himeko - Nova sử dụng Kỹ Năng Trợ Chiến không tiêu hao số lần sử dụng Kỹ Năng Trợ Chiến. Khi bắt đầu hiệp, nếu số lần sử dụng Kỹ Năng Trợ Chiến hiện tại bằng giới hạn số lần sử dụng hiện tại, Himeko - Nova hồi thêm #1[i] điểm Năng Lượng."
+        },
+        "4": {
+            "name": "Nhịp Đập Của Đội Tàu Đang Rền Vang",
+            "description": "Khi nhân vật Đồng Hành Khai Phá ngoại trừ Himeko - Nova sử dụng Kỹ Năng Trợ Chiến, nhân vật này sẽ lập tức nhận 1 hiệp tăng thêm có thể chen ngang thi triển Tuyệt Kỹ, hiệp tăng thêm nhận được từ Kỹ Năng Trợ Chiến sẽ không kích hoạt lặp lại hiệu ứng Vết Tích này."
+        },
+        "6": {
+            "name": "Đường Ray Bạc Lặng Im Giữa Ngàn Xưa",
+            "description": "Khi thi triển Tuyệt Kỹ, lập tức nhận 3 điểm \"Nguyên Năng\". Nếu \"Nguyên Năng\" hiện tại lớn hơn hoặc bằng 3 điểm khi thi triển \"Xung Mạch Hủy Diệt Quỹ Đạo\" tấn công, Bội Số Sát Thương mà \"Xung Mạch Hủy Diệt Quỹ Đạo\" gây cho 1 kẻ địch ngẫu nhiên tăng 30%."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "Tấn Công",
+            "value": "+28%"
+        },
+        {
+            "stat": "Tỷ Lệ Bạo Kích",
+            "value": "+12%"
+        },
+        {
+            "stat": "Sát Thương - Hỏa",
+            "value": "+8%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Thứ Chúng Ta Gọi Là Con Đường, Chính Là Khai Phá",
+            "description": "Số lần Thiên Phú phát động thêm hiệu ứng Kỹ Năng Trợ Chiến tăng thêm 1 lần. Trong trạng thái \"Giao Ước Đồng Hành: Phán Quyết\", số lần thi triển Tuyệt Kỹ cần để phát động Kỹ Năng Trợ Chiến giảm 1 lần. Trong trạng thái \"Giao Ước Đồng Hành: Diệt Phá\", Nạp Năng Lượng cần để phát động Kỹ Năng Trợ Chiến giảm 3 điểm. Khi Himeko - Nova phát động Kỹ Năng Trợ Chiến, số lần hiệu ứng gây thêm sát thương tăng 1 lần."
+        },
+        {
+            "level": 2,
+            "name": "Ngọn Cờ, Cánh Buồm Không Bao Giờ Hạ Xuống",
+            "description": "Giới hạn sử dụng Kỹ Năng Trợ Chiến của Himeko - Nova tăng đến 2 lần, sát thương do Tuyệt Kỹ và Kỹ Năng Trợ Chiến gây ra bằng 130% sát thương gốc. Trong trạng thái \"Cờ Hiệu Dẫn Đường\", khi bắt đầu mỗi hiệp, lập tức hồi phục thêm 1 lần sử dụng Kỹ Năng Trợ Chiến. Hiệu ứng Vết Tích \"Nhịp Đập Của Đội Tàu Đang Rền Vang\" khi nhân vật không phải Đồng Hành Khai Phá sử dụng Kỹ Năng Trợ Chiến, cũng sẽ nhận 1 hiệp tăng thêm."
+        },
+        {
+            "level": 3,
+            "name": "Đứa Con Của Tinh Tú, Cũng Đang Suy Tư Về Muôn Vì Sao",
+            "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+        },
+        {
+            "level": 4,
+            "name": "Nắm Lấy Tất Cả Những Bàn Tay Vươn Tới Bầu Trời",
+            "description": "Khi sử dụng Kỹ Năng Trợ Chiến của Thiên Phú \"Cùng Bước Vào Cuộc Viễn Chinh Rực Cháy\", hiệu ứng tăng Xuyên Kháng Toàn Thuộc Tính sẽ có hiệu lực với toàn bộ phe ta, khi Himeko - Nova nhận được hiệu ứng này, Xuyên Kháng Toàn Thuộc Tính tăng thêm 10%."
+        },
+        {
+            "level": 5,
+            "name": "Băng Qua Toàn Cõi Vũ Trụ",
+            "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+        },
+        {
+            "level": 6,
+            "name": "Khắc Ghi, Lời Thề Vươn Tới Những Vì Sao",
+            "description": "Xuyên Kháng Hỏa của Himeko - Nova tăng 20%. Giới hạn của \"Nguyên Năng\" tăng đến 6 điểm, khi phe ta sử dụng hoặc phát động Kỹ Năng Trợ Chiến, sát thương do Kỹ Năng Trợ Chiến gây ra tăng 75%, Himeko - Nova nhận 1 điểm \"Nguyên Năng\". Trong thời gian Tuyệt Kỹ, khi phát động \"Chùm Tia Hạt Siêu Tần\" tấn công, nhận thêm 1 điểm \"Nguyên Năng\". Khi phát động \"Xung Mạch Hủy Diệt Quỹ Đạo\", nếu \"Nguyên Năng\" hiện tại lớn hơn hoặc bằng 6 điểm, sẽ gây thêm cho toàn phe địch 1 lần Sát Thương Hỏa bằng 160% Tấn Công của Himeko - Nova."
+        }
+    ]
+}
