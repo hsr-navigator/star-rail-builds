@@ -166,7 +166,7 @@
             "type": "Technique",
             "name": "Shining Bright",
             "tag": "Impair",
-            "description": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets. When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action|Action Delayed by 25%."
+            "description": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for 10 second(s). Blinded enemies cannot detect ally targets. When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%."
         }
     },
     "major_traces": {
