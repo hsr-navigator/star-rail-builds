@@ -6,14 +6,17 @@
         },
         {
             "name": "be",
-            "recommended": "180%+"
+            "recommended": "140%+",
+            "note": {
+                "en": "Aim for 200%+ [[stat:be]] if using S1 [[light-cone:never-forget-her-flame]] or S1 [[light-cone:long-road-leads-home]] and [[stat:err]] Link Rope."
+            }
         },
         {
             "name": "ehr",
             "recommended": "66.7%",
             "note_group": "ehr",
             "note": {
-                "en": "In case you're not using her signature, you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs. Dahlia and her S1 [[light-cone:never-forget-her-flame]] do not require any."
+                "en": "**Optional**. In case you're not using her S1 [[light-cone:never-forget-her-flame]], you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs. The Dahlia and her S1 [[light-cone:never-forget-her-flame]] do not require any [[stat:ehr]]."
             }
         }
     ]

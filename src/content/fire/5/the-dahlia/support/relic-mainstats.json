@@ -14,7 +14,12 @@
             "ANY"
         ],
         "link_rope": [
-            "be",
+            {
+                "name": "be",
+                "note": {
+                    "en": "Break Effect% is preferred on E2+ Dahlia, as she does not rely on her Ultimate to apply \"Wilt\", while E0 and E1 would really appreciate Energy Regeneration Rate% for a faster \"Wilt\" application."
+                }
+            },
             "err"
         ]
     }
