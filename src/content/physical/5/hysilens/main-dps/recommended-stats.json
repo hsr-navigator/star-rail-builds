@@ -9,7 +9,10 @@
         },
         {
             "name": "spd",
-            "recommended": "134+"
+            "recommended": "134",
+            "note": {
+                "en": "Can be lowered to 129 if there is S1 [[light-cone:why-does-the-ocean-sing]] on the team."
+            }
         },
         {
             "name": "ehr",

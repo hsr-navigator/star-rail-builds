@@ -1,0 +1,57 @@
+{
+    "light_cones": [
+        {
+            "items": [
+                {
+                    "name": "to-evernights-stars",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "make-farewells-more-beautiful",
+                    "superimposition": 1,
+                    "note": {
+                        "en": "Can be better on Evernight than S1 [[light-cone:to-evernights-stars]] if another teammate can hold it instead."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-flower-remembers",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-storys-next-page",
+                    "superimposition": 5
+                }
+            ]
+        },
+        {
+            "items":[
+                {
+                    "name": "curtain",
+                    "superimposition": 5,
+                    "note": " Before resorting to [[lightcone:curtain]], use any high base HP light cone off Path, specifically 1164+ base HP light cones."
+                    
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "viab",
+                    "superimposition": 5
+                }
+            ]
+        }
+    ]
+}

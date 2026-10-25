@@ -11,7 +11,7 @@
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 = S1"
+                "en": "E1 > S1"
             },
             "details": {
                 "en": "- E1 provides DEF Ignore, a strong damage amplification when Coup de Main is triggered. Its Energy is rarely useful, but notably allows her to stack two of Phainon's \"Coreflame\" with one Skill usage. However, Cyrene makes this effect unnecessary.\n- S1 significantly improves Cerydra's ATK, and grants the DPS a sizeable buff to Skill DMG. Its improvements to Skill Point economy can allow the team to spam Skill more easily, sometimes resulting in more Coup de Main triggers."

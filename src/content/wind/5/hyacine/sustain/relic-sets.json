@@ -14,7 +14,10 @@
                     "items": [
                         {
                             "name": "deliverer",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "For higher invested mono-Remembrance teams."
+                            }
                         }
                     ]
                 }
