@@ -6,7 +6,10 @@
         },
         {
             "name": "spd",
-            "recommended": "106 / 134"
+            "recommended": "106 / 134",
+            "note": {
+                "en": "134 SPD when paired alongside [[character:waven]] E2 or [[character:acheron]]."
+            }
         },
         {
             "name": "cr",

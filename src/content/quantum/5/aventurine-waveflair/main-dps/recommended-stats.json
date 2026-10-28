@@ -2,18 +2,21 @@
     "stats": [
         {
             "name": "spd",
-            "recommended": "160+"
-        },
-        {
-            "name": "cr",
-            "recommended": "100%",
+            "recommended": "160+ / 170+",
+            "note-group": "waven-rec-stat",
             "note": {
-                "en": "Assuming [[set:magical-girl]] is being used. If using [[set:diviner]], aim for 82% [[stat:cr]] instead."
+                "en": "First set of numbers refer to [[set:magical-girl]], second refer to [[set:diviner]]. "
             }
         },
         {
+            "name": "cr",
+            "recommended": "100% / 82%",
+            "note-group": "waven-rec-stat"
+        },
+        {
             "name": "cd",
-            "recommended": "120%"
+            "recommended": "120% / 140%",
+            "note-group": "waven-rec-stat"
         }
     ]
 }
