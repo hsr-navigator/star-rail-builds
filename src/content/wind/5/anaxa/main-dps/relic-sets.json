@@ -18,7 +18,10 @@
                     "items": [
                         {
                             "name": "isee",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "Becomes Best in Slot if Anaxa overcaps on DEF Ignore/Reduction, especially with [[set:genius]] at higher investments."
+                            }
                         }
                     ]
                 }

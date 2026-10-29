@@ -7,7 +7,13 @@
             "atk%"
         ],
         "planar_sphere": [
-            "atk%"
+            "atk%",
+            {
+                "name": "wind-dmg",
+                "note": {
+                    "en": "Preferred if running Anaxa with [[character:sobin]] since she buffs a large amount of ATK."
+                }
+            }
         ],
         "link_rope": [
             "atk%"
