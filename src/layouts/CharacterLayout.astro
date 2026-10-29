@@ -82,14 +82,40 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
 
 <html lang={lang}>
     <head>
+        <script is:inline>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-TDZGPJ3W');
+        </script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <meta name="google-site-verification" content="gMtPbmeLs7Y1hkXMUDHOxfxkkm9MAoQzT-CCgR2cZsk" />
+        <meta
+            name="google-site-verification"
+            content="gMtPbmeLs7Y1hkXMUDHOxfxkkm9MAoQzT-CCgR2cZsk"
+        />
         <title>Star Rail Builds - {character}</title>
         <link rel="icon" type="image/png" href={sitePath('favicon.png')} />
     </head>
 
     <body data-type={type}>
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-TDZGPJ3W"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"
+                title="Google Tag Manager"></iframe>
+        </noscript>
         <!-- The header needs the URL slug, not the localized display name. -->
         <Header locale={locale} lang={lang} character={characterSlug} />
 
