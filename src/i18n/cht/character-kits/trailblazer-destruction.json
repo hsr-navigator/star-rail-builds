@@ -1,0 +1,178 @@
+{
+    "id": "trailblazer-destruction",
+    "name": "開拓者·毀滅",
+    "rarity": 5,
+    "type": "physical",
+    "path": "destruction",
+    "version_released": "1.0",
+    "max_energy": 120,
+    "level_80_stats": {
+        "hp": 1203,
+        "atk": 621,
+        "def": 461,
+        "spd": 100
+    },
+    "abilities": {
+        "basic": {
+            "type": "普攻",
+            "name": "再見安打",
+            "tag": "單體攻擊",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "對指定敵方單體造成等同於開拓者{{damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "damage": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "戰技",
+            "name": "安息全壘打",
+            "tag": "擴散",
+            "energy_gain": 30,
+            "break_main": 20,
+            "break_adjacent": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "對指定敵方單體及其相鄰目標造成等同於開拓者{{skill_damage}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+                "skill_damage": [62.5, 68.75, 75.0, 81.25, 87.5, 93.75, 101.5625, 109.375, 117.1875, 125.0, 131.25, 137.5]
+            }
+        },
+        "ultimate": {
+            "type": "終結技",
+            "name": "星塵王牌",
+            "tag": "強化",
+            "energy_cost": 120,
+            "energy_gain": 5,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "在兩種攻擊模式中選擇其一揮出全力一擊。\n【全勝•再見安打】：對指定敵方單體造成等同於開拓者{{ult_st}}%攻擊力的物理屬性傷害。\n【全勝•安息全壘打】：對指定敵方單體造成等同於開拓者{{ult_blast_main}}%攻擊力的物理屬性傷害，並對其相鄰目標造成等同於開拓者{{ult_blast_adj}}%攻擊力的物理屬性傷害。",
+            "scaling": {
+            "ult_st": [300.0, 315.0, 330.0, 345.0, 360.0, 375.0, 393.75, 412.5, 431.25, 450.0, 465.0, 480.0],
+            "ult_blast_main": [180.0, 189.0, 198.0, 207.0, 216.0, 225.0, 236.25, 247.5, 258.75, 270.0, 279.0, 288.0],
+            "ult_blast_adj": [108.0, 113.4, 118.8, 124.2, 129.6, 135.0, 141.75, 148.5, 155.25, 162.0, 167.4, 172.8]
+          },
+      "variants": [
+        {
+          "type": "終結技",
+          "name": "全勝•再見安打",
+          "tag": "單體攻擊",
+          "break": 30,
+          "min_level": 1,
+          "max_level": 12,
+          "default_level": 10,
+          "description_template": "對指定敵方單體造成等同於開拓者{{ult_st}}%攻擊力的物理屬性傷害。",
+          "scaling": {
+            "ult_st": [300.0, 315.0, 330.0, 345.0, 360.0, 375.0, 393.75, 412.5, 431.25, 450.0, 465.0, 480.0]
+          }
+        },
+        {
+          "type": "終結技",
+          "name": "全勝•安息全壘打",
+          "tag": "擴散",
+          "break_main": 20,
+          "break_adjacent": 10,
+          "min_level": 1,
+          "max_level": 12,
+          "default_level": 10,
+          "description_template": "對指定敵方單體造成等同於開拓者{{ult_blast_main}}%攻擊力的物理屬性傷害，並對其相鄰目標造成等同於開拓者{{ult_blast_adj}}%攻擊力的物理屬性傷害。",
+          "scaling": {
+            "ult_blast_main": [180.0, 189.0, 198.0, 207.0, 216.0, 225.0, 236.25, 247.5, 258.75, 270.0, 279.0, 288.0],
+            "ult_blast_adj": [108.0, 113.4, 118.8, 124.2, 129.6, 135.0, 141.75, 148.5, 155.25, 162.0, 167.4, 172.8]
+          }
+        }
+      ]
+    },
+        "talent": {
+            "type": "天賦",
+            "name": "牽制盜壘",
+            "tag": "強化",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "每次擊破敵方單位的弱點時，攻擊力提高{{atk_buff}}%，最多疊加2次。",
+            "scaling": {
+                "atk_buff": [10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.25, 17.5, 18.75, 20.0, 21.0, 22.0]
+            }
+        },
+        "technique": {
+            "type": "秘技",
+            "name": "不滅三振",
+            "tag": "回復",
+            "description": "使用秘技後立即為我方全體回復等同於各自生命上限15%的生命值。"
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "蓄勢",
+            "description": "戰鬥開始時，立即恢復15點能量。"
+        },
+        "4": {
+            "name": "堅韌",
+            "description": "天賦的效果每層同時使開拓者的防禦力提高10%。"
+        },
+        "6": {
+            "name": "鬥志",
+            "description": "施放戰技或終結技【全勝•安息全壘打】時，對指定敵方目標造成的傷害提高25%。"
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "生命強化",
+            "value": "+18%"
+        },
+        {
+            "stat": "攻擊強化",
+            "value": "+18%"
+        },
+        {
+            "stat": "防禦強化",
+            "value": "+12.5%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "墜臨萬界的星芒",
+            "description": "施放終結技消滅敵方目標時，開拓者額外恢復10點能量，該效果每次攻擊只能觸發1次。"
+        },
+        {
+            "level": 2,
+            "name": "因緣假合的人身",
+            "description": "發動攻擊後，若擊中的敵方目標弱點為物理屬性，則回復等同於開拓者5%攻擊力的生命值。"
+        },
+        {
+            "level": 3,
+            "name": "揭示前路的言靈",
+            "description": "戰技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+        },
+        {
+            "level": 4,
+            "name": "凝眸毀滅的瞬間",
+            "description": "擊中處於弱點擊破狀態的敵方目標時，暴擊率提高25%。"
+        },
+        {
+            "level": 5,
+            "name": "劫餘重生的希望",
+            "description": "終結技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+        },
+        {
+            "level": 6,
+            "name": "拓宇行天的意志",
+            "description": "開拓者消滅敵方目標時，也會觸發天賦。"
+        }
+    ]
+}
