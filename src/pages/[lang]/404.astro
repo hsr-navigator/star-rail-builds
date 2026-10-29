@@ -20,6 +20,21 @@ const locale = getLocale(lang);
 
 <html lang={lang}>
     <head>
+        <script is:inline>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-TDZGPJ3W');
+        </script>
         <meta charset="utf-8" />
         <link rel="icon" type="image/webp" href={sitePath('favicon.png')} />
         <meta name="viewport" content="width=device-width" />
@@ -27,6 +42,14 @@ const locale = getLocale(lang);
         <title>{t(locale, 'ui', 'Page Not Found')} - Genshin Builds</title>
     </head>
     <body data-type="base">
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-TDZGPJ3W"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"
+                title="Google Tag Manager"></iframe>
+        </noscript>
         <Header locale={locale} lang={lang} page="404" />
         <NotFoundContent locale={locale} lang={lang} />
         <Footer lang={lang} />
