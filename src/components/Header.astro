@@ -210,4 +210,26 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
 <script>
     import '../scripts/header';
     import '../scripts/site-search';
+    const feedbackMessage =
+        'Feedback is temporarily unavailable. Please ping @xaale or @houseplant_official on the Honkai: Star Rail discord for any questions or to report any issues!';
+
+    document.addEventListener(
+        'click',
+        (event) => {
+            if (!(event.target instanceof Element)) return;
+
+            const button = event.target.closest(
+                '[data-feedback-open], a[href="#feedback-modal"]',
+            );
+
+            if (!button) return;
+
+            event.preventDefault();
+            event.stopImmediatePropagation();
+
+            window.alert(feedbackMessage);
+        },
+        { capture: true },
+    );
+
 </script>
