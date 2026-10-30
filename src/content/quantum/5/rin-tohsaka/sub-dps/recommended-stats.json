@@ -12,7 +12,8 @@
             "name": "spd",
             "recommended": "140+",
             "note": {
-                "en": "SPD is variable, general rule of thumb is being able to always get 1 turn in between Sparkle's (note of her self 20% SPD buff)."
+                "en": "SPD is variable, general rule of thumb is being able to always get 1 turn in between Sparkle's (note of her self 20% SPD buff).",
+                "ru": "Скорость может варьироваться; общее правило таково: у вас должна быть возможность совершить как минимум один ход в промежутке между действиями Искорки (учитывая её собственный бафф скорости в 20%)."
             }
         },
         {

@@ -1,19 +1,23 @@
 {
     "name": {
-        "en": "Main DPS"
+        "en": "Main DPS",
+        "ru": "Основной ДД"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Whenever allies gain or consume Skill Points, Rin Tohsaka gains \"Gem Energy\". If she has 15 or more \"Gem Energy\", or if the team has more than 7 Skill Points, she can use her Enhanced Skill. This Enhanced Skill deals increased damage based on her current \"Gem Energy\" and consumes all Skill Points except for two.\n- Rin Tohsaka's performance is heavily reliant on Sparkle and Cerydra. Sparkle provides the Skill Points needed for more \"Gem Energy\". Cerydra can duplicate the powerful Enhanced Skill."
+            "en": "- Whenever allies gain or consume Skill Points, Rin Tohsaka gains \"Gem Energy\". If she has 15 or more \"Gem Energy\", or if the team has more than 7 Skill Points, she can use her Enhanced Skill. This Enhanced Skill deals increased damage based on her current \"Gem Energy\" and consumes all Skill Points except for two.\n- Rin Tohsaka's performance is heavily reliant on Sparkle and Cerydra. Sparkle provides the Skill Points needed for more \"Gem Energy\". Cerydra can duplicate the powerful Enhanced Skill.",
+            "ru": "- Каждый раз, когда союзники получают или расходуют очки навыков, Рин Тосака накапливает энергию драгоценных камней. Если у неё накапливается 15 или более ед. энергии драгоценных камней либо если у команды имеется более 7 очков навыков, она может использоать свой усиленный навык. Этот навык наносит повышенный урон, зависящий от текущего количества энергии драгоценных камней, и расходует все очки навыков, за исключением двух.\n- Эффективность Рин Тосаки во многом зависит от Искорки и Керидры. Искорка обеспечивает получение очков навыков, необходимых для накопления энергии драгоценных камней, а Керидра может дублировать её мощный усиленный навык."
         },
         "investment_priority": {
             "priority": {
-                "en": "S1 > E1 > E2"
+                "en": "S1 > E1 > E2",
+                "ru": "S1 > E1 > E2"
             },
             "details": {
-                "en": "- S1 [[light-cone:flickering-stars]] grants Rin Tohsaka CRIT Rate, Skill DMG, and a teamwide DEF Ignore buff. This provides a significant boost to Main DPS Rin.\n- E1 allows her to utilize a new resource called \"Shadow Gem\" in addition to her normal \"Gem Energy\" and Skill Points. This makes her bursts of Skill DMG much more consistent, greatly increasing her personal DPS.\n- E2 increases Rin Tohsaka's personal Skill DMG while also increasing the Skill multiplier for all allies. This is a significant increase to her own damage."
+                "en": "- S1 [[light-cone:flickering-stars]] grants Rin Tohsaka CRIT Rate, Skill DMG, and a teamwide DEF Ignore buff. This provides a significant boost to Main DPS Rin Tohsaka.\n- E1 allows her to utilize a new resource called \"Shadow Gem\" in addition to her normal \"Gem Energy\" and Skill Points. This makes her bursts of Skill DMG much more consistent, greatly increasing her personal DPS.\n- E2 increases Rin Tohsaka's personal Skill DMG while also increasing the Skill multiplier for all allies. This is a significant increase to her own damage.",
+                "ru": "- S1 [[light-cone:flickering-stars]] даёт Рин Тосаке крит. шанс, урон навыка, а также даёт всей команде игнорирование защиты противника. Это значительно усиливает Рин, если она выступает в роли основного ДД.\n- E1 позволяет использовать новый ресурс — теневые драгоценные камни — в дополнение к стандартной энергии драгоценных камней и очкам навыков. Благодаря этому всплески урона от навыков становятся более стабильными, что существенно повышает её личный показатель урона.\n- E2 увеличивает собственный урон навыка Рин Тосаки, а также повышает множитель урона навыков для всех союзников. Это приводит к значительному росту её личного урона."
             }
         }
     }
