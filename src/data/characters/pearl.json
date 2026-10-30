@@ -31,7 +31,7 @@
                     "type": "Enhanced Basic ATK",
                     "name": "Brushstroke: Imagenate the Starry Night",
                     "tag": "AoE",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies, restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}. While holding \"Certified Banger\", additionally deals {{ice_elation_dmg}}% Ice Elation DMG.",
                     "scaling": {
                         "ice_dmg": [
@@ -76,7 +76,7 @@
                     "type": "Enhanced Basic ATK",
                     "name": "Brushstroke: Render the Great Wave",
                     "tag": "AoE",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "Deals Ice DMG equal to {{ice_dmg}}% of Pearl's DEF to all enemies. Restores HP for all ally targets equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to {{def_healing}}% of Pearl's DEF plus {{flat_healing}}.",
                     "scaling": {
                         "ice_dmg": [
