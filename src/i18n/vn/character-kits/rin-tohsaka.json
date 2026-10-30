@@ -1,0 +1,296 @@
+{
+    "id": "rin-tohsaka",
+    "name": "Rin Tohsaka",
+    "rarity": 5,
+    "type": "quantum",
+    "path": "erudition",
+    "version_released": "3.4",
+    "collaboration": "Fate/stay night: Unlimited Blade Works",
+    "max_energy": 160,
+    "level_80_stats": {
+        "hp": 1047,
+        "atk": 698,
+        "def": 460,
+        "spd": 102
+    },
+    "abilities": {
+        "basic": {
+            "type": "Tấn Công Thường",
+            "name": "Bát Cực Quyền",
+            "tag": "Đánh Đơn",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Gây cho 1 kẻ địch chỉ định Sát Thương Lượng Tử bằng {{damage}}% Tấn Công của Rin Tohsaka.",
+            "scaling": {
+                "damage": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Chiến Kỹ",
+            "name": "Bảo Thạch Kiếm Zelretch",
+            "tag": "Đánh Đơn",
+            "energy_gain": 30,
+            "break": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây cho 1 kẻ địch chỉ định Sát Thương Lượng Tử bằng {{damage}}% Tấn Công của Rin Tohsaka.",
+            "scaling": {
+                "damage": [
+                    100.0,
+                    108.0,
+                    116.0,
+                    124.0,
+                    132.0,
+                    140.0,
+                    150.0,
+                    160.0,
+                    170.0,
+                    180.0,
+                    188.0,
+                    196.0
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Chiến Kỹ Cường Hóa",
+                    "name": "Thí Nghiệm Đệ Nhị Ma Pháp",
+                    "tag": "Nảy Bật",
+                    "energy_gain": 30,
+                    "break_aoe": 20,
+                    "break_bounce": 2,
+                    "description_template": "Gây Sát Thương Lượng Tử cho toàn bộ phe địch bằng {{aoe_damage}}% Tấn Công của Rin Tohsaka. Sau đó, tiêu hao 3 điểm \"Năng Lượng Bảo Thạch\", gây thêm Sát Thương Lượng Tử bằng {{bounce_damage}}% Tấn Công của Rin Tohsaka cho 1 mục tiêu phe địch ngẫu nhiên, lặp lại cho đến khi \"Năng Lượng Bảo Thạch\" không đủ 3 điểm hoặc không có mục tiêu phe địch nào có HP hiện tại lớn hơn 0, lặp lại tối đa 33 vòng. Khi thi triển, nếu Điểm Chiến Kỹ hiện tại lớn hơn 2 điểm, sẽ tiêu hao Điểm Chiến Kỹ xuống còn 2 điểm, mỗi khi tiêu hao 1 điểm lập tức nhận 2 điểm \"Năng Lượng Bảo Thạch\".",
+                    "scaling": {
+                        "aoe_damage": [
+                            50.0,
+                            54.0,
+                            58.0,
+                            62.0,
+                            66.0,
+                            70.0,
+                            75.0,
+                            80.0,
+                            85.0,
+                            90.0,
+                            94.0,
+                            98.0
+                        ],
+                        "bounce_damage": [
+                            50.0,
+                            54.0,
+                            58.0,
+                            62.0,
+                            66.0,
+                            70.0,
+                            75.0,
+                            80.0,
+                            85.0,
+                            90.0,
+                            94.0,
+                            98.0
+                        ]
+                    }
+                }
+            ]
+        },
+        "ultimate": {
+            "type": "Tuyệt Kỹ",
+            "name": "An Gal Ta Ki Gal Šè",
+            "tag": "Đánh Lan",
+            "energy_cost": 160,
+            "energy_gain": 5,
+            "break_main": 30,
+            "break_aoe": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gây Sát Thương Lượng Tử bằng {{main_damage}}% Tấn Công của Rin Tohsaka cho 1 kẻ địch chỉ định, đồng thời gây Sát Thương Lượng Tử bằng {{aoe_damage}}% Tấn Công của Rin Tohsaka cho các mục tiêu phe địch khác. Khi thi triển, hồi cho phe ta 1 Điểm Chiến Kỹ, và khiến sát thương toàn bộ phe địch phải chịu tăng {{dmg_taken}}%, duy trì 3 hiệp.",
+            "scaling": {
+                "main_damage": [
+                    300.0,
+                    330.0,
+                    360.0,
+                    390.0,
+                    420.0,
+                    450.0,
+                    487.5,
+                    525.0,
+                    562.5,
+                    600.0,
+                    630.0,
+                    660.0
+                ],
+                "aoe_damage": [
+                    100.0,
+                    110.0,
+                    120.0,
+                    130.0,
+                    140.0,
+                    150.0,
+                    162.5,
+                    175.0,
+                    187.5,
+                    200.0,
+                    210.0,
+                    220.0
+                ],
+                "dmg_taken": [
+                    10.0,
+                    11.0,
+                    12.0,
+                    13.0,
+                    14.0,
+                    15.0,
+                    16.25,
+                    17.5,
+                    18.75,
+                    20.0,
+                    21.0,
+                    22.0
+                ]
+            }
+        },
+        "talent": {
+            "type": "Thiên Phú",
+            "name": "Ma Thuật Bảo Thạch",
+            "tag": "Cường Hóa",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Khi vào chiến đấu, nhận 20 điểm \"Năng Lượng Bảo Thạch\". Khi mục tiêu phe ta tiêu hao hoặc hồi phục Điểm Chiến Kỹ, khiến Sát Thương Bạo Kích của mục tiêu đó tăng {{crit_dmg}}%, duy trì 2 hiệp, đồng thời mỗi khi tiêu hao hoặc hồi phục 1 Điểm Chiến Kỹ sẽ khiến Rin Tohsaka nhận 1 điểm \"Năng Lượng Bảo Thạch\". Nếu \"Năng Lượng Bảo Thạch\" mà Rin Tohsaka đang sở hữu lớn hơn hoặc bằng 15 điểm hoặc Điểm Chiến Kỹ hiện tại lớn hơn hoặc bằng 7 điểm, Chiến Kỹ cường hóa thành \"Thí Nghiệm Đệ Nhị Ma Pháp\".",
+            "scaling": {
+                "crit_dmg": [
+                    35.0,
+                    38.5,
+                    42.0,
+                    45.5,
+                    49.0,
+                    52.5,
+                    56.875,
+                    61.25,
+                    65.625,
+                    70.0,
+                    73.5,
+                    77.0
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Thiên Phú",
+                    "name": "Trường Phái Tohsaka Tự Tại",
+                    "tag": "Đánh Lan",
+                    "energy_gain": 10,
+                    "break_aoe": 20,
+                    "description_template": "Sau khi Archer thi triển Chiến Kỹ \"Caladbolg II: Kiếm Xoắn Ốc Giả\" tấn công, nếu Điểm Chiến Kỹ nhỏ hơn hoặc bằng 3 điểm hoặc trong trạng thái \"Kết Nối Mạch\" lần này đã chủ động thi triển 5 lần \"Caladbolg II: Kiếm Xoắn Ốc Giả\" và chưa kích hoạt Đòn Đánh Theo Sau Phối Hợp của \"Trường Phái Tohsaka Tự Tại\", Rin Tohsaka và Archer sẽ phát động Đòn Đánh Theo Sau Phối Hợp lên toàn phe địch, lần lượt gây Sát Thương Lượng Tử bằng {{rin_damage}}% Tấn Công của Rin Tohsaka và {{archer_damage}}% Tấn Công của Archer, đồng thời hồi cho phe ta 4 Điểm Chiến Kỹ. Đòn Đánh Theo Sau Phối Hợp này chỉ có thể kích hoạt 1 lần, khi hiệp của Rin Tohsaka kết thúc sẽ làm mới số lần có thể kích hoạt.",
+                    "scaling": {
+                        "rin_damage": [
+                            150.0,
+                            165.0,
+                            180.0,
+                            195.0,
+                            210.0,
+                            225.0,
+                            243.75,
+                            262.5,
+                            281.25,
+                            300.0,
+                            315.0,
+                            330.0
+                        ],
+                        "archer_damage": [
+                            150.0,
+                            165.0,
+                            180.0,
+                            195.0,
+                            210.0,
+                            225.0,
+                            243.75,
+                            262.5,
+                            281.25,
+                            300.0,
+                            315.0,
+                            330.0
+                        ]
+                    }
+                }
+            ]
+        },
+        "technique": {
+            "type": "Bí Kỹ",
+            "name": "Chuyển Đổi Nạp Năng Lượng",
+            "tag": "Cường Hóa",
+            "description": "Sau khi dùng Bí Kỹ, khi bắt đầu trận tiếp theo, nhận 10 điểm \"Năng Lượng Bảo Thạch\"."
+        }
+    },
+    "major_traces": {
+        "2": {
+            "name": "Luôn Luôn Thanh Lịch",
+            "description": "Khi Rin Tohsaka trong trận, giới hạn Điểm Chiến Kỹ tăng thêm 2 điểm. Khi vào chiến đấu, Tấn Công của Rin Tohsaka tăng 150%, Xuyên Kháng Lượng Tử tăng 15%, nếu Archer có trong đội, Archer cũng sẽ nhận được hiệu ứng này."
+        },
+        "4": {
+            "name": "Phong Thái Thục Nữ",
+            "description": "Khi vào chiến đấu và sau khi thi triển Chiến Kỹ Cường Hóa, Tốc Độ của Rin Tohsaka tăng 20%, duy trì 3 hiệp."
+        },
+        "6": {
+            "name": "Tài Vật Dồi Dào",
+            "description": "Khi Rin Tohsaka thi triển Tuyệt Kỹ, nhận 12 điểm \"Năng Lượng Bảo Thạch\"."
+        }
+    },
+    "stat_bonuses": [
+        {
+            "stat": "Sát Thương Bạo Kích",
+            "value": "+37.3%"
+        },
+        {
+            "stat": "Tấn Công",
+            "value": "+18.0%"
+        },
+        {
+            "stat": "Sát Thương - Lượng Tử",
+            "value": "+8.0%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Học Trò Của Zelretch",
+            "description": "Nếu số lượng \"Năng Lượng Bảo Thạch\" tiêu hao trong một lần Chiến Kỹ Cường Hóa lớn hơn hoặc bằng 30 điểm, Rin Tohsaka nhận được \"Bảo Thạch Bóng Tối\" có số lượng bằng với \"Năng Lượng Bảo Thạch\" đã tiêu hao.\nKhi sở hữu \"Bảo Thạch Bóng Tối\", Chiến Kỹ cường hóa thành \"Thí Nghiệm Đệ Nhị Ma Pháp\", Chiến Kỹ Cường Hóa sẽ tiêu hao toàn bộ \"Bảo Thạch Bóng Tối\", không kích hoạt hiệu ứng chuyển hóa Điểm Chiến Kỹ thành \"Năng Lượng Bảo Thạch\" và không tiêu hao \"Năng Lượng Bảo Thạch\"."
+        },
+        {
+            "level": 2,
+            "name": "Nhà Du Hành Vị Diện",
+            "description": "Sát thương Chiến Kỹ do Rin Tohsaka gây ra tăng 30%. Khi Rin Tohsaka trong trận, sát thương Chiến Kỹ do toàn bộ phe ta gây ra bằng 130% sát thương gốc."
+        },
+        {
+            "level": 3,
+            "name": "Cuộc Chiến Chén Thánh: Kỷ Niệm Chiến Thắng",
+            "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+        },
+        {
+            "level": 4,
+            "name": "Ác Quỷ Màu Đỏ - Tốc Độ Gấp 3 Lần",
+            "description": "Khi hiệu ứng Tăng Sát Thương Bạo Kích của Thiên Phú \"Ma Thuật Bảo Thạch\" có hiệu lực với Rin Tohsaka, hiệu ứng có thể cộng dồn, tối đa cộng dồn 2 tầng."
+        },
+        {
+            "level": 5,
+            "name": "Sự Ưu Ái Của Thần Sao Kim",
+            "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+        },
+        {
+            "level": 6,
+            "name": "Lần Này Không Sơ Suất Nữa!",
+            "description": "Xuyên Kháng Toàn Thuộc Tính của Rin Tohsaka tăng 20%. Khi thi triển Tuyệt Kỹ, nhận 24 điểm \"Năng Lượng Bảo Thạch\" và 1 hiệp tăng thêm."
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "saber",
+  "name": "Saber",
+  "rarity": "5",
+  "type": "wind",
+  "path": "destruction",
+  "version_released": "3.4",
+  "max_energy": 360,
+  "level_80_stats": {
+    "hp": 1241,
+    "atk": 601,
+    "def": 654,
+    "spd": 101
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Invisible Air: Barrier of the Wind King",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng {{scaling1}}% Tấn Công của Saber.",
+      "scaling": {
+        "scaling1": [
+          50.0,
+          60.0,
+          70.0,
+          80.0,
+          90.0,
+          100,
+          110.0
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tấn Công Thường Cường Hóa",
+          "name": "Vương Quyền Vàng Giải Phóng",
+          "tag": "Đánh Lan",
+          "energy_gain": 30,
+          "break_aoe": 20,
+          "min_level": 1,
+          "max_level": 7,
+          "default_level": 6,
+          "description_template": "Nhận 2 điểm \"Cộng Hưởng Lõi Trung Tâm\", và gây Sát Thương Phong bằng {{scaling1}}% Tấn Công của Saber cho toàn bộ phe địch. Nếu khi thi triển, số lượng mục tiêu phe địch là 2/1, sẽ gây thêm Sát Thương Phong bằng {{scaling2}}%/{{scaling3}}% Tấn Công của Saber cho toàn bộ địch.",
+          "scaling": {
+            "scaling1": [
+              75.0,
+              90.0,
+              105.0,
+              120.0,
+              135.0,
+              150.0,
+              165.0
+            ],
+            "scaling2": [
+              75.0,
+              90.0,
+              105.0,
+              120.0,
+              135.0,
+              150.0,
+              165.0
+            ],
+            "scaling3": [
+              110.0,
+              132.0,
+              154.0,
+              176.0,
+              198.0,
+              220.0,
+              242.0
+            ]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Búa Sắt Vua Gió",
+      "tag": "Khuếch Tán",
+      "energy_gain": 30,
+      "break_main": 20,
+      "break_adjacent": 10,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Gây Sát Thương Phong cho 1 kẻ địch chỉ định bằng {{scaling1}}% Tấn Công của Saber, gây Sát Thương Phong cho mục tiêu lân cận bằng {{scaling2}}% Tấn Công của Saber. Nếu đang có \"Cộng Hưởng Lõi Trung Tâm\", và sau lần tấn công Chiến Kỹ này có thể hồi đầy năng lượng cho Saber bằng cách tiêu hao \"Cộng Hưởng Lõi Trung Tâm\", thì sẽ tăng Bội Số của Chiến Kỹ lần này, mỗi 1 điểm \"Cộng Hưởng Lõi Trung Tâm\" sẽ tăng {{scaling3}}% Bội Số Sát Thương của Chiến Kỹ lần này, đồng thời sau khi tấn công sẽ tiêu hao tất cả \"Cộng Hưởng Lõi Trung Tâm\" hồi năng lượng cho Saber, nếu không sẽ lập tức nhận 3 điểm \"Cộng Hưởng Lõi Trung Tâm\".",
+      "scaling": {
+        "scaling1": [
+          75.0,
+          82.5,
+          90.0,
+          97.5,
+          105.0,
+          112.5,
+          121.875,
+          131.25,
+          140.625,
+          150.0,
+          157.5,
+          165.0
+        ],
+        "scaling2": [
+          37.5,
+          41.25,
+          45.0,
+          48.75,
+          52.5,
+          56.25,
+          60.9375,
+          65.625,
+          70.3125,
+          75.0,
+          78.75,
+          82.5
+        ],
+        "scaling3": [
+          7.0,
+          7.7,
+          8.4,
+          9.1,
+          9.8,
+          10.5,
+          11.375,
+          12.25,
+          13.125,
+          14.0,
+          14.7,
+          15.4
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "Ultimate",
+      "name": "Excalibur",
+      "tag": "Đánh Lan",
+      "energy_gain": 5,
+      "break_aoe": 40,
+      "break_bounce": 2,
+      "break_total": 60,
+      "energy_cost": 360,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Gây Sát Thương Phong bằng {{scaling1}}% Tấn Công của Saber lên toàn bộ phe địch. Đồng thời gây thêm 10 lần sát thương, mỗi lần sát thương gây Sát Thương Phong bằng {{scaling2}}% Tấn Công của Saber lên 1 kẻ địch ngẫu nhiên. Sau khi thi triển Tuyệt Kỹ, lần Tấn Công Thường tiếp theo sẽ bị thay thế bằng \"Vương Quyền Vàng Giải Phóng\" và chỉ có thể thi triển \"Vương Quyền Vàng Giải Phóng\".",
+      "scaling": {
+        "scaling1": [
+          140.0,
+          154.0,
+          168.0,
+          182.0,
+          196.0,
+          210.0,
+          227.5,
+          245.0,
+          262.5,
+          280.0,
+          294.0,
+          308.0
+        ],
+        "scaling2": [
+          55.0,
+          60.5,
+          66.0,
+          71.5,
+          77.0,
+          82.5,
+          89.375,
+          96.25,
+          103.125,
+          110.0,
+          115.5,
+          121.0
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Lõi Phản Ứng Rồng",
+      "tag": "Cường Hóa",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khi vào chiến đấu, nhận 1 điểm \"Cộng Hưởng Lõi Trung Tâm\". Khi mục tiêu bất kỳ của phe ta thi triển Tuyệt Kỹ, sát thương Saber gây ra sẽ tăng {{scaling1}}%, duy trì 2 hiệp, và nhận 3 điểm \"Cộng Hưởng Lõi Trung Tâm\". Mỗi khi tiêu hao 1 điểm \"Cộng Hưởng Lõi Trung Tâm\" sẽ cố định hồi cho Saber 8 điểm Năng Lượng.",
+      "scaling": {
+        "scaling1": [
+          30.0,
+          33.0,
+          36.0,
+          39.0,
+          42.0,
+          45.0,
+          48.75,
+          52.5,
+          56.25,
+          60.0,
+          63.0,
+          66.0
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Vua Kỵ Sĩ Ra Trận",
+      "tag": "Cường Hóa",
+      "description": "Sau khi dùng Bí Kỹ, khi bắt đầu lần chiến đấu tiếp theo, Tấn Công của Saber sẽ tăng 35,0%, duy trì 2 hiệp, và nhận 2 điểm \"Cộng Hưởng Lõi Trung Tâm\"."
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Kỵ Sĩ Rồng",
+      "description": "Tỷ Lệ Bạo Kích của Saber tăng 20%. Khi vào chiến đấu và thi triển Tấn Công Thường Cường Hóa sẽ nhận hiệu ứng Ma Lực Phóng Thích, dưới hiệu ứng này, nếu Saber có Cộng Hưởng Lõi Trung Tâm, đồng thời thi triển Chiến Kỹ và tiêu hao Cộng Hưởng Lõi Trung Tâm có thể hồi đầy năng lượng cho Saber, sẽ tiêu hao Ma Lực Phóng Thích hồi 1 Điểm Chiến Kỹ cho phe ta và khiến Saber lập tức hành động."
+    },
+    "4": {
+      "name": "Phước Lành Hồ Thiêng",
+      "description": "Saber có thể tích lũy tối đa 120 Năng Lượng vượt mức, sau khi thi triển Tuyệt Kỹ sẽ xóa và hồi Năng Lượng tương ứng. Khi bắt đầu chiến đấu nếu Năng Lượng không đủ 60% thì sẽ hồi phục đến 60%."
+    },
+    "6": {
+      "name": "Vương Miện Của Những Vì Sao",
+      "description": "Khi thi triển Chiến Kỹ, khiến Sát Thương Bạo Kích của Saber tăng 50%, duy trì 2 hiệp. Trong trận này mỗi khi nhận được 1 điểm Cộng Hưởng Lõi Trung Tâm, khiến Sát Thương Bạo Kích của Saber tăng 4%, hiệu ứng này tối đa cộng dồn 8 tầng."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "Sát Thương - Phong",
+      "value": "+22.4%"
+    },
+    {
+      "stat": "Tỷ Lệ Bạo Kích",
+      "value": "+12%"
+    },
+    {
+      "stat": "HP",
+      "value": "+10%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Bức Tường Phấn Trắng Thất Lạc",
+      "description": "Sát Thương Tuyệt Kỹ Saber gây ra tăng 60%. Sau khi Saber thi triển Tấn Công Thường hoặc Chiến Kỹ, sẽ nhận 1 điểm \"Cộng Hưởng Lõi Trung Tâm\"."
+    },
+    {
+      "level": 2,
+      "name": "The Lost Oath of the Round Table",
+      "description": "Trong trận đấu mỗi khi nhận 1 điểm Cộng Hưởng Lõi Trung Tâm sẽ khiến sát thương Saber gây ra bỏ qua 1,0% Phòng Thủ của mục tiêu, hiệu ứng này tối đa cộng dồn 15 tầng. Khi kích hoạt hiệu ứng tăng Bội Số Chiến Kỹ của Cộng Hưởng Lõi Trung Tâm, mỗi điểm Cộng Hưởng Lõi Trung Tâm sẽ khiến Bội Số Sát Thương của Chiến Kỹ lần này tăng thêm 7%."
+    },
+    {
+      "level": 3,
+      "name": "Ước Nguyện Suốt 15 Thế Kỷ",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Kỳ Ngộ 16 Ngày Đông",
+      "description": "Increases Saber's Wind RES PEN  by 8%. After using Ultimate, increases Saber's Wind RES PEN  by 4%. This effect can stack up to 3 time(s)."
+    },
+    {
+      "level": 5,
+      "name": "Khi Chạm Đến Bình Minh Lý Tưởng",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    {
+      "level": 6,
+      "name": "Đêm Dài Bảo Vệ Vận Mệnh",
+      "description": "Xuyên Kháng Phong của Sát Thương Tuyệt Kỹ Saber gây ra tăng 20%, Năng Lượng vượt mức mà Vết Tích \"Phước Lành Hồ Thiêng\" có thể tích lũy tăng đến 200 điểm. Sau khi vào chiến đấu, lần đầu thi triển Tuyệt Kỹ sẽ cố định hồi cho Saber 300 điểm Năng Lượng. Hiệu ứng này mỗi khi thi triển thêm 3 lần Tuyệt Kỹ có thể kích hoạt 1 lần."
+    }
+  ]
+}
