@@ -8,11 +8,21 @@
         ],
         "planar_sphere": [
             "atk%",
-            "quantum-dmg"
+            {
+                "name": "quantum-dmg",
+                 "note": {
+                    "en": "Preferred over ATK%."
+                 }
+            }
         ],
         "link_rope": [
             "atk%",
-            "err"
+            {
+                "name": "err",
+                 "note": {
+                    "en": "Can be better than [[stat:atk%]], especially when paired with Rin Tohsaka and Sparkle due to their large ATK buff, or in Pure Fiction where you get more Energy."
+                 }
+            }
         ]
     }
 }
