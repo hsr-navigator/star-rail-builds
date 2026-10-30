@@ -8,7 +8,13 @@
             "spd"
         ],
         "planar_sphere": [
-            "hp"
+            "hp",
+            {
+                "name": "ice-dmg",
+                "note": {
+                    "en": "Preferred with Evernight and Castorice teams. However, lower invested Castorice teams prefer HP% orb. "
+                }
+            }
         ],
         "link_rope": [
             "hp"
