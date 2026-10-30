@@ -46,7 +46,7 @@
         "source": "warp",
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies.",
-            "ru": "",
+            "ru": "Повышает защиту владельца на {{value}}%. Когда владелец использует навык Радости на всех союзниках, получаемый всеми противниками урон повышается на {{value}}% на 3 хода, владелец восстанавливает фиксированные 10 ед. энергии, а все союзники восстанавливают НР в размере {{value}}% от защиты владельца.",
             "vn": "Tăng {{value}}% Phòng Thủ của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ lên toàn phe ta, khiến sát thương toàn phe địch phải chịu tăng {{value}}%, duy trì 3 hiệp, hồi cố định 10 điểm Năng Lượng cho người trang bị, đồng thời hồi cho toàn phe ta lượng HP bằng {{value}}% Phòng Thủ của người trang bị.",
             "cht": "使裝備者的防禦力提高{{value}}%。裝備者對我方全體施放歡愉技時，使敵方全體受到的傷害提高{{value}}%，持續3回合，為裝備者固定恢復10點能量，並為我方全體回復等同於裝備者防禦力的生命值。"
         },
@@ -296,7 +296,7 @@
         "source": "limited-warp",
         "passive": {
             "en": "Increases the wearer's CRIT Rate by {{value}}%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by {{value}}%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by {{value}}%.\nWhen every wave starts or after the wearer uses Elation Skill 3 time(s), recovers 1 Skill Point.",
-            "ru": "",
+            "ru": "Повышает крит. шанс владельца на {{value}}%. Когда владелец применяет навык Радости, он получает эффект Ажиотаж, который повышает скорость владельца на {{value}}%. Если использованный навык Радости отличается от предыдущего, дополнительно получает эффект Тренд, который повышает уровень Радости владельца на {{value}}%.\nВ начале каждой волны или после каждых 3 раз использования навыка Радости восстанавливает 1 очко навыков.",
             "vn": "Tăng {{value}}% Tỷ Lệ Bạo Kích của người trang bị. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, nhận \"Làn Gió Mới\", \"Làn Gió Mới\" khiến Tốc Độ của người trang bị tăng {{value}}%. Nếu Kỹ Năng Vui Vẻ thi triển khác với Kỹ Năng Vui Vẻ thi triển lần trước, sẽ nhận thêm \"Trào Lưu\", \"Trào Lưu\" khiến Độ Vui Vẻ của người trang bị tăng {{value}}%.\nKhi bắt đầu mỗi đợt hoặc sau mỗi khi người trang bị thi triển 3 lần Kỹ Năng Vui Vẻ, hồi 1 Điểm Chiến Kỹ.",
             "cht": "使裝備者的暴擊率提高{{value}}%。裝備者施放歡愉技時，獲得【風口】，【風口】使裝備者的速度提高{{value}}%。若施放的歡愉技與上一次施放的歡愉技不同，則額外獲得【潮流】，【潮流】使裝備者的歡愉度提高{{value}}%。每一波開始時或裝備者每施放3次歡愉技後，恢復1個戰技點。"
         },
