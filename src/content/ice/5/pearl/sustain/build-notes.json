@@ -15,8 +15,8 @@
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 > S1 [[light-cone:colors-for-tomorrow]]",
-                "ru": "E2 > E1 > S1 [[light-cone:colors-for-tomorrow]]",
+                "en": "E2 > E1 > S1",
+                "ru": "E2 > E1 > S1",
                 "cht": "星魂2 > 星魂1 > 疊影1 [[light-cone:colors-for-tomorrow]]"
             },
             "details": {
