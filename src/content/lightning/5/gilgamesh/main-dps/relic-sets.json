@@ -25,7 +25,8 @@
                             "pieces": 4,
                             "note_group": "saber",
                             "note": {
-                                "en": "Can be used if Gilgamesh is in a team with Saber."
+                                "en": "Can be used if Gilgamesh is in a team with Saber.",
+                                "ru": "Можно использовать, если Гильгамеш используется в команде с Сэйбер."
                             }
                         }
                     ]
@@ -70,7 +71,8 @@
                             "name": "izumo",
                             "pieces": 2,
                             "note": {
-                                "en": "Requires a teammate of the Destruction Path on the team."
+                                "en": "Requires a teammate of the Destruction Path on the team.",
+                                "ru": "Требуется союзник пути Разрушения в команде."
                             }
                         }
                     ]

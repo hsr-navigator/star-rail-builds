@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "Main/Sub-DPS"
+        "en": "Main/Sub-DPS",
+        "ru": "Основной/Саб ДД"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Gilgamesh is a sub-DPS who has a unique Joint Follow-Up ATK mechanic with Saber.\n- Whenever an ally takes an action, Gilgamesh gains 1 \"Interest\". Each stack of \"Interest\" increases his SPD by 10%. Using his Skill consumes all \"Interest\" stacks.\n- When Gilgamesh and Saber perform a combined total of 8 attacks, they launch a Joint Follow-Up ATK. After it triggers, Saber gains Energy, and her next Ultimate deals significantly increased damage.\n- Gilgamesh is a core support for Saber, but he can also be played as a main DPS in dedicated teams."
+            "en": "- Gilgamesh is a sub-DPS who has a unique Joint Follow-Up ATK mechanic with Saber.\n- Whenever an ally takes an action, Gilgamesh gains 1 \"Interest\". Each stack of \"Interest\" increases his SPD by 10%. Using his Skill consumes all \"Interest\" stacks.\n- When Gilgamesh and Saber perform a combined total of 8 attacks, they launch a Joint Follow-Up ATK. After it triggers, Saber gains Energy, and her next Ultimate deals significantly increased damage.\n- Gilgamesh is a core support for Saber, but he can also be played as a main DPS in dedicated teams.",
+            "ru": "- Гильгамеш — саб-ДД, обладающий уникальной механикой совместной бонус-атаки с Сэйбер.\n- Каждый раз, когда союзник совершает действие, Гильгамеш получает 1 ед. Энтузиазма. Каждая единица Энтузиазма повышает его скорость на 10%. При использовании навыка расходуется весь Энтузиазм.\n- Когда Гильгамеш и Сэйбер в сумме совершают 8 атак, они проводят совместную бонусную-атаку. После её срабатывания Сэйбер получает энергию, а её следующее использование сверхспособности наносит значительно увеличенный урон.\n- Гильгамеш является ключевым саппортом для Сэйбер, однако его также можно использовать в качестве основного ДД в специально подобранных для этого командах."
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 > S1 > E2 / E6"
+                "en": "E1 > S1 > E2 / E6",
+                "ru": "E1 > S1 > E2 / E6"
             },
             "details": {
-                "en": "- E1 grants Gilgamesh additional fixed Energy whenever he uses his Skill, while also giving allies DEF Ignore. A strong Eidolon that can speed up his Ultimate rotation while supporting the team.\n- S1 [[light-cone:i-am-as-you-behold]] increases his Ultimate DMG, ATK%, and Energy Regeneration Rate, while also granting allies CRIT DMG%. Since most of Gilgamesh's Energy generation is fixed, the Energy Regeneration Rate% provides relatively little benefit.\n- E2 primarily improves his personal damage, making it an upgrade for his Main DPS teams.\n- E6 greatly increases the damage of his Ultimate."
+                "en": "- E1 grants Gilgamesh additional fixed Energy whenever he uses his Skill, while also giving allies DEF Ignore. A strong Eidolon that can speed up his Ultimate rotation while supporting the team.\n- S1 [[light-cone:i-am-as-you-behold]] increases his Ultimate DMG, ATK%, and Energy Regeneration Rate, while also granting allies CRIT DMG%. Since most of Gilgamesh's Energy generation is fixed, the Energy Regeneration Rate% provides relatively little benefit.\n- E2 primarily improves his personal damage, making it an upgrade for his Main DPS teams.\n- E6 greatly increases the damage of his Ultimate.",
+                "ru": "- E1 даёт Гильгамешу дополнительное фиксированное количество энергии при использовании навыка, а также даёт союзникам игнорирование защиты. Это сильный Эйдолон, который позволяет чаще использовать сверхспособность и одновременно приносит пользу команде.\n- S1 [[light-cone:i-am-as-you-behold]] увеличивает урон от его сверхспособности, силу атаки и скорость восстановления энергии, а также повышает крит. урон союзников. Поскольку большая часть энергии Гильгамеша генерируется в фиксированном объёме, бонус к скорости восстановления энергии дает относительно небольшой прирост.\n- E2 в основном повышает его личный урон, что делает этот Эйдолон полезным при использовании Гильгамеша в качестве основного ДД.\n- E6 значительно увеличивает урон от его сверхспособности."
             }
         }
     }
