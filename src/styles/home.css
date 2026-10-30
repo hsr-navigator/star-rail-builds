@@ -5,20 +5,26 @@
 }
 
 body[data-type="base"].browser-background {
+    position: relative;
+    isolation: isolate;
     min-height: 100vh;
+    background: #080a0e;
+}
 
-    background-color: #080a0e;
+body[data-type="base"].browser-background::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+
     background-image: var(--browser-background-image);
-    /*
-    background-image:
-        linear-gradient(rgba(4, 6, 10, 0.25),
-            rgba(4, 6, 10, 0.25)),
-        var(--browser-background-image);
-*/
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    /* Encourage the browser to composite this as a separate layer. */
+    will-change: transform;
 }
 
 .home-page {
