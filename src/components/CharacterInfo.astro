@@ -14,7 +14,7 @@ const { character, locale } = Astro.props as {
 };
 
 const ui = (id: string) => t(locale, 'ui', id, undefined, false);
-const ascensionTracesLabel = ui('Ascension Traces');    
+const ascensionTracesLabel = ui('Ascension Traces');
 /*
  * Prefer the current human-readable UI key, but fall back to the
  * older snake_case key used by some locale files. This keeps labels
@@ -902,7 +902,7 @@ const renderVariantDescription = (
 
         <details class="character-kit-collapse" open>
             <summary class="character-kit-collapse-summary">
-                <h3>{ui('Ascension')} {ui('Traces')}</h3>
+                <h3>{ui('Ascension Traces')}</h3>
 
                 <span class="character-kit-collapse-chevron" aria-hidden="true"
                 ></span>
