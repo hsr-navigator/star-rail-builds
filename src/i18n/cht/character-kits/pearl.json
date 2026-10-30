@@ -31,7 +31,7 @@
                     "type": "強化普攻",
                     "name": "行筆，幻造星月",
                     "tag": "群體攻擊",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "對敵方全體造成等同於真珠{{ice_dmg}}%防禦力的冰屬性傷害，為我方全體目標回復等同於真珠{{def_healing}}%防禦力+{{flat_healing}}的生命值，額外為當前生命值百分比最低的我方目標回復等同於真珠{{def_healing}}%防禦力+{{flat_healing}}的生命值。持有【好活當賞】時，額外造成{{ice_elation_dmg}}%的冰屬性歡愉傷害。",
                     "scaling": {
                         "ice_dmg": [
@@ -76,7 +76,7 @@
                     "type": "強化普攻",
                     "name": "行筆，繪製末浪",
                     "tag": "群體攻擊",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "對敵方全體造成等同於真珠{{ice_dmg}}%防禦力的冰屬性傷害，為我方全體目標回復等同於真珠{{def_healing}}%防禦力+{{flat_healing}}的生命值，額外為當前生命值百分比最低的我方目標回復等同於真珠{{def_healing}}%防禦力+{{flat_healing}}的生命值。",
                     "scaling": {
                         "ice_dmg": [

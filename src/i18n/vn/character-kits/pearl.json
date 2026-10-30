@@ -31,7 +31,7 @@
                     "type": "Tấn Công Thường Cường Hóa",
                     "name": "Hành Bút, Huyễn Tạo Trăng Sao",
                     "tag": "Đánh Lan",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "Gây Sát Thương Băng cho toàn bộ phe địch bằng {{ice_dmg}}% Phòng Thủ của Pearl, hồi phục HP cho toàn bộ mục tiêu phe ta bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}, hồi thêm HP cho mục tiêu phe ta có Phần Trăm HP hiện tại thấp nhất bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}. Khi có \"Việc Tốt Đáng Thưởng\", gây thêm {{ice_elation_dmg}}% Sát Thương Vui Vẻ thuộc tính Băng.",
                     "scaling": {
                         "ice_dmg": [
@@ -76,7 +76,7 @@
                     "type": "Tấn Công Thường Cường Hóa",
                     "name": "Hành Bút, Vẽ Ngọn Sóng Cuối",
                     "tag": "Đánh Lan",
-                    "break": "30",
+                    "break_aoe": "30",
                     "description_template": "Gây Sát Thương Băng cho toàn bộ phe địch bằng {{ice_dmg}}% Phòng Thủ của Pearl, hồi phục HP cho toàn bộ mục tiêu phe ta bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}, hồi thêm HP cho mục tiêu phe ta có Phần Trăm HP hiện tại thấp nhất bằng {{def_healing}}% Phòng Thủ của Pearl +{{flat_healing}}.",
                     "scaling": {
                         "ice_dmg": [
