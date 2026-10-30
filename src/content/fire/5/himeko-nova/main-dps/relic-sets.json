@@ -78,7 +78,8 @@
                             "name": "banana",
                             "pieces": 2,
                             "note": {
-                                "en": "Only viable when paired with [[character:dhpt]]."
+                                "en": "Only viable when paired with [[character:dhpt]].",
+                                "ru": "Подходит только в паре с [[character:dhpt|Дань Хэном: Освободителем Пустошей]]."
                             }
                         }
                     ]
