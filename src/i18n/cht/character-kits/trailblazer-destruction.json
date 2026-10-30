@@ -59,7 +59,9 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "在兩種攻擊模式中選擇其一揮出全力一擊。"
+            "description_template": "在兩種攻擊模式中選擇其一揮出全力一擊。",
+            "scaling": {
+            "ult_st": [300.0, 315.0, 330.0, 345.0, 360.0, 375.0, 393.75, 412.5, 431.25, 450.0, 465.0, 480.0]
           },
       "variants": [
         {
