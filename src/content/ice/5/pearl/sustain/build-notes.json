@@ -2,22 +2,26 @@
     "best": true,
     "name": {
         "en": "Sustain",
+        "ru": "Хилер",
         "cht": "生存位"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Pearl is an Elation sustain who performs best in Mono-Elation teams.\n- Pearl can hold up to 50 Certified Banger and gains 5 at the start of each ally’s turn. When allies are attacked, she can consume Certified Banger to reduce the damage they take. She provides additional damage reduction to allies below 50% HP.\n- Pearl’s Ultimate Action Advances one ally, with the Advance becoming larger based on the number of Elation characters in the team. With 4 Elation characters, the selected ally also gains an extra turn and receives 30 temporary Certified Banger and 60 temporary Punchline. Her next 3 Basic ATKs are Enhanced and heal allies.\n- Pearl designates the ally who enters combat after using her Technique, or the ally targeted by her Ultimate, as the Aesthetic Archetype. If that ally is of the Elation Path, she restores 90 Energy after they use their Ultimate, once per Pearl Ultimate.\n- Pearl’s Elation Skill grants allies additional Elation DMG on their next attack, scaling with the number of Elation characters on the team.",
+            "en": "- Pearl is an Elation sustain who performs best in Mono-Elation teams.\n- Pearl can hold up to 50 \"Certified Banger\" and gains 5 at the start of each ally’s turn. When allies are attacked, she can consume \"Certified Banger\" to reduce the damage they take. She provides additional damage reduction to allies below 50% HP.\n- Pearl’s Ultimate Action Advances one ally, with the Advance becoming larger based on the number of Elation characters in the team. With 4 Elation characters, the selected ally also gains an extra turn and receives 30 temporary \"Certified Banger\" and 60 temporary Punchline. Her next 3 Basic ATKs are Enhanced and heal allies.\n- Pearl designates the ally who enters combat after using her Technique, or the ally targeted by her Ultimate, as the \"Aesthetic Archetype\". If that ally is of the Elation Path, she restores 90 Energy after they use their Ultimate, once per Pearl Ultimate.\n- Pearl’s Elation Skill grants allies additional Elation DMG on their next attack, scaling with the number of Elation characters on the team.",
+            "ru": "- Жемчуг — хилер пути Радости, которая наиболее эффективно проявляет себя в командах, состоящих только из персонажей пути Радости.\n- Жемчуг может накапливать до 50 ур. статуса Настоящий хит, получая 5 единиц в начале хода каждого союзника. Когда союзники подвергаются атаке, Жемчуг может расходовать ур. статуса Настоящий хит, чтобы снизить получаемый ими урон. Кроме того, она обеспечивает дополнительное снижение урона для союзников, чьё HP опускается ниже 50%.\n- Сверхспособность Жемчуг продвигает действие одного из союзников вперёд; величина этого продвижения увеличивается от количества персонажей пути Радости в команде. Если в команде 4 персонажа пути Радости, выбранный союзник также получает дополнительный ход, а также 30 временных ур. статуса Настоящий хит и 60 временных ед. Юмора. Следующие 3 базовые атаки Жемчуг становятся усиленными и восстанавливают HP союзникам.\n- При использовании техники или сверхспособности Жемчуг назначает одного из союзников Эстетическим образцом. Если этот союзник принадлежит к пути Радости, то после использования им своей сверхспособности Жемчуг восстанавливает себе 90 энергии (эффект срабатывает один раз за каждое применение сверхспособности Жемчуг).\n- Навык Радости Жемчуг даёт союзникам бонус к урону Радости для их следующей атаки; величина этого бонуса увеличивается от количества персонажей пути Радости в команде.",
             "cht": "- 真珠是主要利用【好活當賞】為隊友提供減傷盾來抵禦敵人傷害，根據自身防御力使用強化普攻或戰技來為隊友回復生命值，同時能為通過終結技歡愉命途的隊友提供臨時<ins>笑點</ins>、【好活當賞】、<ins>行動提前</ins>和<ins>額外回合</ins>等輔助效果的歡愉生存位。\n- 真珠的【好活當賞】沒有持續回合，但存在一定上限。她保隊友的方式是消耗【好活當賞】用來抵禦敵人造成的部分傷害，為此她獲取【好活當賞】的方式也比較多，包括原有的<ins>阿哈時刻</ins>、戰技、終結技和隊友回合開始。\n- 真珠的終結技是她的核心歡愉輔助能力。歡愉隊友越多時，她的終結技增益就越高，尤其是指定為【美學底本】的隊友行動提前和全隊歡愉才能觸發的額外行動。使用終結技後真珠也獲得3點強化普攻，可群攻可回血和解負面。\n- 真珠的歡愉技讓隊友下一次攻擊時額外造成傷害。"
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 > S1",
+                "en": "E2 > E1 > S1 [[light-cone:colors-for-tomorrow]]",
+                "ru": "E2 > E1 > S1 [[light-cone:colors-for-tomorrow]]",
                 "cht": "星魂2 > 星魂1 > 疊影1 [[light-cone:colors-for-tomorrow]]"
             },
             "details": {
                 "en": "- E2 merrymakes all Elation DMG by 15%, doubles the temporary Punchline and Certified Banger from her Ultimate, and grants the Action Advance effect to all Elation characters on the team, excluding Pearl.\n- E1 grants all allies 10%/20%/60% Elation when the team contains 2/3/4+ characters of the Elation Path. Additionally, Pearl allows allies to cheat death twice.\n- S1 [[light-cone:colors-for-tomorrow]] applies Vulnerability, provides Energy for Pearl, and increases her sustaining capability.",
+                "ru": "- E2 увеселяет весь урон Радости на 15%, удваивает временные Юмор и Настоящий хит от её сверхспособности, а также продвигает действие всех персонажей пути Радости в команде, кроме Жемчуг.\n- E1 даёт всем союзникам 10%/20%/60% Радости, если в команде 2/3/4+ персонажа пути Радости. Кроме того, Жемчуг позволяет союзникам дважды избежать смерти.\n- S1 [[light-cone:colors-for-tomorrow]] повышает получаемый противниками урон, даёт энергию Жемчуг и повышает её эффективность лечения.",
                 "cht": ""
             }
         }

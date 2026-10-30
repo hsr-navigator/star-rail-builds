@@ -64,7 +64,8 @@
                             "pieces": 2,
                             "note_group": "eagle",
                             "note": {
-                                "en": "The [[stat:err]] from [[set:vonwacq]] can enable Pearl to potentially maintain a 2-turn Ultimate rotation, increasing the value of [[set:eagle]]."
+                                "en": "The [[stat:err]] from [[set:vonwacq]] can enable Pearl to potentially maintain a 2-turn Ultimate rotation, increasing the value of [[set:eagle]].",
+                                "ru": "[[stat:err]] от [[set:vonwacq]] позволяет Жемчуг использовать сверхспособности каждые 2 хода, что повышает ценность [[set:eagle]]."
                             }
                         }
                     ]
@@ -79,7 +80,8 @@
                             "name": "keel",
                             "pieces": 2,
                             "note": {
-                                "en": "Pearl increases all allies’ Effect RES by 50%."
+                                "en": "Pearl increases all allies’ Effect RES by 50%.",
+                                "ru": "Жемчуг увеличивает сопротивление эффектам всех союзников на 50%."
                             }
                         }
                     ]

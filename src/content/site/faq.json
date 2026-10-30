@@ -303,13 +303,13 @@
         {
             "question": {
                 "en": "Do you use unreleased information for character guides?",
-                "ru": "",
+                "ru": "Вы используете невыпущенную информацию для руководств по персонажам?",
                 "vn": "Bạn có sử dụng thông tin rò rỉ hoặc dữ liệu từ bản thử nghiệm (beta) để làm hướng dẫn xây dựng Nhân Vật không?",
                 "cht": "你們會用未公佈的內容來做攻略嗎？"
             },
             "answer": {
                 "en": "No. The public build guide is intended to be based on officially released Honkai: Star Rail content. Unreleased content is not used as the basis for published build recommendations.",
-                "ru": "",
+                "ru": "Нет. Публичное руководство по сборке предназначено для того, чтобы основываться на официально выпущенном контенте Honkai: Star Rail. Невыпущенный контент не используется в качестве основы для публикуемых рекомендаций по сборке.",
                 "vn": "Không. Các hướng dẫn build Nhân Vật được công bố chỉ dựa trên nội dung chính thức của Honkai: Star Rail. Các Nhân Vật, Nón Ánh Sáng, Di Vật chưa ra mắt và những thay đổi trong bản thử nghiệm (beta) sẽ không được sử dụng làm cơ sở cho các hướng dẫn build Nhân Vật.",
                 "cht": "不會。這面向大眾的出裝攻略會以官方《崩壞：星穹鐵道》正式服的內容為準。未公佈的內容不會考量在內。"
             }
