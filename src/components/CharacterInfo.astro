@@ -14,7 +14,7 @@ const { character, locale } = Astro.props as {
 };
 
 const ui = (id: string) => t(locale, 'ui', id, undefined, false);
-const ascensionTracesLabel = `${ui('Ascension')} ${ui('Traces')}`;
+const ascensionTracesLabel = ui('Ascension Traces');    
 /*
  * Prefer the current human-readable UI key, but fall back to the
  * older snake_case key used by some locale files. This keeps labels
