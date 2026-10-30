@@ -12,7 +12,8 @@
                 "name": "wind-dmg",
                 "note_group": "personaldmg",
                 "note": {
-                    "en": "Optional, for her personal damage output."
+                    "en": "Optional, for her personal damage output.",
+                    "ru": "Необязательно, для увеличения личного урона."
                 }
             }
         ],

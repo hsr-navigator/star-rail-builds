@@ -54,7 +54,8 @@
                     "name": "curtain",
                     "superimposition": 5,
                     "note": {
-                        "en": "Can also use any 1164+/1058+ base HP light cone from any path as an HP statstick."
+                        "en": "Can also use any 1164+/1058+ base HP light cone from any path as an HP statstick.",
+                        "ru": "Также можно использовать любой Световой конус (любого пути) с базовым HP 1164+ или 1058+ в качестве источника прибавки к HP."
                     }
                 },
                 {

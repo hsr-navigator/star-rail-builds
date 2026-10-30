@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "ATK Support"
+        "en": "ATK Support",
+        "ru": "Саппорт (сила атаки)"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Robin • Summeretto is a support unit whose buffs scale with her Vibes stacks.\n- She gains Vibes whenever an ally attacks, heals, or Shields for the first time each turn. Her buffs become stronger as she accumulates more Vibes.\n- [[character:sobin]]'s Ultimate chooses an ally to immediately take action and restores Energy. It also increases the amount of Vibes they generate.\n- She is a strong generalist support who can fit into a  wide variety of teams."
+            "en": "- Robin • Summeretto is a support unit whose buffs scale with her Vibes stacks.\n- She gains Vibes whenever an ally attacks, heals, or Shields for the first time each turn. Her buffs become stronger as she accumulates more Vibes.\n- [[character:sobin]]'s Ultimate chooses an ally to immediately take action and restores Energy. It also increases the amount of Vibes they generate.\n- She is a strong generalist support who can fit into a  wide variety of teams.",
+            "ru": "- Зарянка: Яснопея — персонаж поддержки, чьи усиления зависят от количества накопленных ед. Настроения.\n- Она получает Настроение каждый раз, когда союзник впервые за ход совершает атаку, исцеление или накладывает щит. По мере накопления Настроения её усиления становятся сильнее.\n- Сверхспособность Зарянки: Яснопеи позволяет выбрать союзника, который немедленно совершает действие; при этом союзнику восстанавливается энергия, а также увеличивается количество ед. Настроения, которые он может генерировать.\n- Она — универсальный персонаж поддержки, который отлично впишется в самые разные составы команд."
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 ≥ E1 ≥ S1"
+                "en": "E2 ≥ E1 ≥ S1",
+                "ru": "E2 ≥ E1 ≥ S1"
             },
             "details": {
-                "en": "- E2 gives 18% RES PEN to the team, increases the maximum amount of Vibes by 20 (from 50 to 70), and increases the amount of Vibes she generates, increasing all of her buffs, including CRIT DMG%/ATK%, DEF Ignore, and the True DMG from her E1.\n- E1 is similar to Tribbie E1, but saves 50% of the recorded damage every time it is triggered and scales it with the amount of Vibes she has.\n- S1 [[light-cone:rise-and-sing]] gives Skill Points when using Ultimate, action advance on battle start, HP%, and a teamwide SPD boost with full uptime on herself. Especially great for Elation and Remembrance teams."
+                "en": "- E2 gives 18% RES PEN to the team, increases the maximum amount of Vibes by 20 (from 50 to 70), and increases the amount of Vibes she generates, increasing all of her buffs, including CRIT DMG%/ATK%, DEF Ignore, and the True DMG from her E1.\n- E1 is similar to Tribbie E1, but saves 50% of the recorded damage every time it is triggered and scales it with the amount of Vibes she has.\n- S1 [[light-cone:rise-and-sing]] gives Skill Points when using Ultimate, action advance on battle start, HP%, and a teamwide SPD boost with full uptime on herself. Especially great for Elation and Remembrance teams.",
+                "ru": "- E2 даёт команде 18% пробития сопротивления, увеличивает максимальный лимит Настроения на 20 ед. (с 50 до 70), а также повышает эффективность их генерации, увеличивает все её баффы, включая крит. урон%/силу атаки%, игнорирование защиты, и истинный урон от её E1.\n- E1 работает по принципу, схожему с E1 Трибби: каждый раз сохраняется 50% от зафиксированного урона, а итоговый показатель масштабируется в зависимости от текущего количества Настроения.\n- S1 [[light-cone:rise-and-sing]] позволяет получать очки навыков при использовании сверхспособности, дает продвижение действия в начале боя, бонус к HP%, а также повышает скорость всей команды, при этом для самой Зарянки: Яснопеи этот бонус действует постоянно. Особенно эффективно в командах пути Радости и Памяти."
             }
         }
     }
