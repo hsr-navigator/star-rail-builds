@@ -9,14 +9,16 @@
             "recommended": "140+ / 134+ / 107",
             "note_group": "mblade-spd",
             "note": {
-                "en": "E0: 140+, E1: 134+, E2: Base SPD or 134."
+                "en": "E0: 140+, E1: 134+, E2: Base SPD or 134.",
+                "ru": "E0: 140+, E1: 134+, E2: базовая скорость или 134."
             }
         },
         {
             "name": "cr",
             "recommended": "80%",
             "note": {
-                "en": "Mortenax Blade self buffs 20% CRIT Rate."
+                "en": "Mortenax Blade self buffs 20% CRIT Rate.",
+                "ru": "Мортенакс Блэйд сам увеличивает свой крит. шанс на 20%."
             }
         },
         {

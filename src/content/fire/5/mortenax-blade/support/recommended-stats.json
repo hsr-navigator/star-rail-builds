@@ -8,7 +8,8 @@
             "name": "spd",
             "recommended": "170+",
             "note": {
-                "en": "For S1 [[light-cone:lies-dance-on-the-breeze]]. For other Light Cones, it is possible to ignore [[character:mblade]]'s personal damage for more SPD."
+                "en": "For S1 [[light-cone:lies-dance-on-the-breeze]]. For other Light Cones, it is possible to ignore [[character:mblade]]'s personal damage for more SPD.",
+                "ru": "Для S1 [[light-cone:lies-dance-on-the-breeze]]. Для других Световых конусов можно игнорировать личный урон [[character:mblade|Мортенакс Блэйда]] ради большей скорости."
             }
         }
     ]

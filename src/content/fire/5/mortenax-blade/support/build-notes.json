@@ -1,20 +1,24 @@
 {
     "best": false,
     "name": {
-        "en": "Support"
+        "en": "Support",
+        "ru": "Саппорт"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- A Support/Sub-DPS unit with extremely strong buffs provided through his Ultimate's \"Zone\" effect. \n- This \"Zone\" reduces enemy DEF while providing Vulnerability, 50% teamwide DMG, and either 75% Ultimate DMG or 75% self DMG if he is the sole Nihility character on the team. Enemy attacks will cause them to be debuffed, granting Blade \"Charges\" for his Follow-Up ATK. It also buffs his own CRIT Rate and CRIT DMG, increasing his personal damage potential. While the \"Zone\" is active, increases his Incoming Healing and decreases DMG taken for himself.\n- Due to his very broad amplifications, he can slot into any team and opens up the possibility of sustainless gameplay through his \"Taunt\" increase."
+            "en": "- A Support/Sub-DPS unit with extremely strong buffs provided through his Ultimate's \"Zone\" effect. \n- This \"Zone\" reduces enemy DEF while providing Vulnerability, 50% teamwide DMG, and either 75% Ultimate DMG or 75% self DMG if he is the sole Nihility character on the team. Enemy attacks will cause them to be debuffed, granting Blade \"Charges\" for his Follow-Up ATK. It also buffs his own CRIT Rate and CRIT DMG, increasing his personal damage potential. While the \"Zone\" is active, increases his Incoming Healing and decreases DMG taken for himself.\n- Due to his very broad amplifications, he can slot into any team and opens up the possibility of sustainless gameplay through his \"Taunt\" increase.",
+            "ru": "- Персонаж поддержки / саб-ДД, предоставляющий чрезвычайно мощные усиления благодаря зоне, которая создаётся его сверхспособностью. \n- Эта зона понижает защиту противников, повышает получаемый ими урон, повышает наносимый всей командой урон на 50%, а также даёт бонус 75% к урону сверхспособностей (или 75% собственного урона, если он — единственный герой пути Небытия в команде). Атаки противников накладывают на них ослабления, что позволяет накапливать ед. заряда для проведения бонус-атаки. Кроме того, зона повышает крит. шанс и крит. урон Мортенакс Блэйда, увеличивая его личный потенциал нанесения урона. Пока зона активна, он получает больше входящего лечения, а получаемый им урон снижается. \n- Благодаря широкому спектру усилений Мортенакс Блэйд может вписаться в любую команду, а за счёт Насмешки он открывает возможность игры без персонажа пути хилера/щитовика."
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 > S1"
+                "en": "E2 > E1 > S1",
+                "ru": "E2 > E1 > S1"
             },
             "details": {
-                "en": "- E2 allows any ally's Ultimate to be considered a Follow-Up ATK. It also increases the damage of Follow-Up ATKs while lowering the charges required for his own Follow-Up ATK. This E2 is the single largest boost for any team with Ashveil, since now any Ultimate will have his Follow-Up ATK buffs.\n- E1 reduces All-Type RES of all enemies by 20%. It also delays the countdown on his Ultimate every time Mortenax Blade uses his Follow-Up ATK, allowing for more uptime on his \"Zone\".\n- S1 [[lightcone:reforged-in-hellfire]] has the highest HP values of any Nihility light cones, allows a first-turn Ultimate for himself, but lacks value for teamwide damage amplification. S1 has higher value if you choose to use him as the carry of the team."
+                "en": "- E2 allows any ally's Ultimate to be considered a Follow-Up ATK. It also increases the damage of Follow-Up ATKs while lowering the charges required for his own Follow-Up ATK. This E2 is the single largest boost for any team with Ashveil, since now any Ultimate will have his Follow-Up ATK buffs.\n- E1 reduces All-Type RES of all enemies by 20%. It also delays the countdown on his Ultimate every time Mortenax Blade uses his Follow-Up ATK, allowing for more uptime on his \"Zone\".\n- S1 [[lightcone:reforged-in-hellfire]] has the highest HP values of any Nihility light cones, allows a first-turn Ultimate for himself, but lacks value for teamwide damage amplification. S1 has higher value if you choose to use him as the carry of the team.",
+                "ru": "- E2 позволяет делает сверхспособность любого союзника бонус-атакой. Кроме того, оно увеличивает урон бонус-атак и сокращает количество зарядов, необходимых для активации его собственной бонус-атаки. Для любой команды, в состав которой входит Эшвейл, этот Эйдолон является наиболее значимым усилением, поскольку теперь любая сверхспособность будет получать бонусы, предназначенные для бонус-атак.\n- E1 понижает все типы сопротивления у противников на 20%. Кроме того, каждый раз, когда Мортенакс Блэйд совершает бонус-атаку, отсчёт времени до окончания действия его сверхспособности замедляется, что позволяет дольше поддерживать активной его зону.\n- S1 [[lightcone:reforged-in-hellfire]] обладает самым высоким показателем HP среди всех световых конусов пути Небытия и позволяет ему использовать сверхспособность уже на первом ходу, однако он не даёт существенного прироста урона для всей команды. Этот конус становится более ценным, если вы используете Мортенакс Блэйда в качестве основного ДД."
             }
         }
     }

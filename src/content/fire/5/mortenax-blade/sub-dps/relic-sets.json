@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note_group": "mblade-support",
                             "note": {
-                                "en": "Are best used if you want more of his supportive capabilities while sacrificing a bit of his personal damage."
+                                "en": "Are best used if you want more of his supportive capabilities while sacrificing a bit of his personal damage.",
+                                "ru": "Лучше всего использовать, если вы хотите усилить его баффы, пожертвовав при этом частью его личного урона."
                             }
                         }
                     ]
@@ -32,7 +33,8 @@
                             "name": "guard",
                             "pieces": 4,
                             "note": {
-                                "en": "Viable set for sustainless runs."
+                                "en": "Viable set for sustainless runs.",
+                                "ru": "Подходит для команд без хилера/щитовика."
                             }
                         }
                     ]

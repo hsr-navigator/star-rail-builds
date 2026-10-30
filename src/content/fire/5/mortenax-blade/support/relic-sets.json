@@ -32,7 +32,8 @@
                             "name": "guard",
                             "pieces": 4,
                             "note": {
-                                "en": "Viable set for sustainless runs."
+                                "en": "Viable set for sustainless runs.",
+                                "ru": "Подходит для команд без хилера/щитовика."
                             }
                         }
                     ]
