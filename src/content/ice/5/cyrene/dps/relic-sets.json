@@ -20,7 +20,8 @@
                             "name": "messenger",
                             "pieces": 4,
                             "note": {
-                                "en": "Can be Best in Slot if Cyrene can maintain 100% uptime."
+                                "en": "Can be Best in Slot if Cyrene can maintain 100% uptime.",
+                                "ru": "Может быть лучшим вариантом, если Кирене удастся поддерживать 100% время действия эффекта."
                             }
                         }
                     ]
@@ -50,7 +51,8 @@
                             "name": "amphoreus",
                             "pieces": 2,
                             "note": {
-                                "en": "Assuming no one else on the team holds this set."
+                                "en": "Assuming no one else on the team holds this set.",
+                                "ru": "При условии, что никто другой в команде не использует этот набор."
                             }
                         }
                     ]
@@ -61,7 +63,8 @@
                             "name": "bone",
                             "pieces": 2,
                             "note": {
-                                "en": "For [[character:evernight]] and personal Main DPS teams."
+                                "en": "For [[character:evernight]] and personal Main DPS teams.",
+                                "ru": "Для [[character:evernight|темени]] и команд, где Кирена является основным ДД."
                             }
                         }
                     ]

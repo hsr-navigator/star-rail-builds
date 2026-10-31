@@ -8,7 +8,8 @@
                             "name": "eagle",
                             "pieces": 4,
                             "note": {
-                                "en": "Preferred over [[set:deliverer]] for [[character:aglaea]], [[character:anaxa]], [[character:mydei]], [[character:hysilens]]. "
+                                "en": "Preferred over [[set:deliverer]] for [[character:aglaea]], [[character:anaxa]], [[character:mydei]], [[character:hysilens]].",
+                                "ru": "Предпочтительнее, чем [[set:deliverer]], для [[character:aglaea|Аглаи]], [[character:anaxa|Анаксы]], [[character:mydei|Мидея]], [[character:hysilens|Гисиленсы]]."
                             }
                         }
                     ]
@@ -19,7 +20,8 @@
                             "name": "deliverer",
                             "pieces": 4,
                             "note": {
-                                "en": "For [[character:castorice]], [[character:evernight]], [[character:hyacine]] teams."
+                                "en": "For [[character:castorice]], [[character:evernight]], [[character:hyacine]] teams.",
+                                "ru": "Для команд с [[character:castorice|Касторией]], [[character:evernight|Теменью]], [[character:hyacine|Гиациной]]."
                             }
                         }
                     ]
@@ -35,7 +37,8 @@
                             "name": "2pc-spd",
                             "pieces": 2,
                             "note": {
-                                "en": "Can be used for a temporary build while farming for [[set:deliverer]] or [[set:eagle]]. Used for Phainon teams because Cyrene cannot proc [[set:deliverer]] in this team."
+                                "en": "Can be used for a temporary build while farming for [[set:deliverer]] or [[set:eagle]]. Used for Phainon teams because Cyrene cannot proc [[set:deliverer]] in this team.",
+                                "ru": "Можно использовать для временного билда, пока фармятся [[set:deliverer]] или [[set:eagle]]. Используется в командах с Фаеноном, так как Кирена не может активировать эффект [[set:deliverer|Воссоздающего мир спасителя]] в этой команде."
                             }
                         }
                     ]
@@ -64,7 +67,8 @@
                             "name": "amphoreus",
                             "pieces": 2,
                             "note": {
-                                "en": "Assuming no one else on the team holds this set."
+                                "en": "Assuming no one else on the team holds this set.",
+                                "ru": "При условии, что никто другой в команде не использует этот набор."
                             }
                         }
                     ]
