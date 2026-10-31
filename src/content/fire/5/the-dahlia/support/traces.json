@@ -20,7 +20,8 @@
                     "name": "skill",
                     "note_group": "skillba",
                     "note": {
-                        "en": "Skill and Basic ATK can be ignored."
+                        "en": "Skill and Basic ATK can be ignored.",
+                        "ru": "Навык и базовую атаку можно не прокачивать."
                     }
                 },
                 {

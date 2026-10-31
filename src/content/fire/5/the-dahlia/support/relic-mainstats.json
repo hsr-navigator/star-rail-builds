@@ -17,7 +17,8 @@
             {
                 "name": "be",
                 "note": {
-                    "en": "Break Effect% is preferred on E2+ Dahlia, as she does not rely on her Ultimate to apply \"Wilt\", while E0 and E1 would really appreciate Energy Regeneration Rate% for a faster \"Wilt\" application."
+                    "en": "Break Effect% is preferred on E2+ Dahlia, as she does not rely on her Ultimate to apply \"Wilt\", while E0 and E1 would really appreciate Energy Regeneration Rate% for a faster \"Wilt\" application.",
+                    "ru": "Для E2 Георгины и выше предпочтительно использовать эффект пробития%, поскольку ей не требуется использовать свою сверхспособность для наложения статуса Увядание, в то время как для E0 и E1 было бы очень полезно использовать скорость восстановления энергии% для более быстрого наложения статуса Увядание."
                 }
             },
             "err"

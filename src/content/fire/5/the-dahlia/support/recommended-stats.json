@@ -8,7 +8,8 @@
             "name": "be",
             "recommended": "140%+",
             "note": {
-                "en": "Aim for 200%+ [[stat:be]] if using S1 [[light-cone:never-forget-her-flame]] or S1 [[light-cone:long-road-leads-home]] and [[stat:err]] Link Rope."
+                "en": "Aim for 200%+ [[stat:be]] if using S1 [[light-cone:never-forget-her-flame]] or S1 [[light-cone:long-road-leads-home]] and [[stat:err]] Link Rope.",
+                "ru": "Стремитесь к 200%+ [[stat:be|эффекта пробития]], если используете S1 [[light-cone:never-forget-her-flame]] или S1 [[light-cone:long-road-leads-home]] и соединительную вязь на [[stat:err|скорость восстановления энергии]]."
             }
         },
         {
@@ -16,7 +17,8 @@
             "recommended": "66.7%",
             "note_group": "ehr",
             "note": {
-                "en": "**Optional**. In case you're not using her S1 [[light-cone:never-forget-her-flame]], you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs. The Dahlia and her S1 [[light-cone:never-forget-her-flame]] do not require any [[stat:ehr]]."
+                "en": "**Optional**. In case you're not using her S1 [[light-cone:never-forget-her-flame]], you might need 66.7% Effect Hit Rate due to the lightcone's own requirement to apply debuffs. The Dahlia and her S1 [[light-cone:never-forget-her-flame]] do not require any [[stat:ehr]].",
+                "ru": "**Необязательно**. Если вы не используете её S1 [[light-cone:never-forget-her-flame]], вам может потребоваться 66,7% шанса попадания эффектов, поскольку для наложения ослаблений без этого конуса необходим данный показатель. При использовании Георгины вместе с её S1 [[light-cone:never-forget-her-flame]] дополнительный шанс попадания эффектов не требуется."
             }
         }
     ]
