@@ -15,7 +15,8 @@
                     "name": "the-hell-where-ideals-burn",
                     "superimposition": 1,
                     "note": {
-                        "en": "Only viable with Sparkle on the team."
+                        "en": "Only viable with Sparkle on the team.",
+                        "ru": "Эффективно только в команде с Искоркой."
                     }
                 }
             ]
@@ -46,14 +47,16 @@
                     "name": "osr",
                     "superimposition": 5,
                     "note": {
-                        "en": "Only viable in 1-2 target scenario."
+                        "en": "Only viable in 1-2 target scenario.",
+                        "ru": "Эффективно только в боях с 1-2 противниками."
                     }
                 },
                 {
                     "name": "swordplay",
                     "superimposition": 5,
                     "note": {
-                        "en": "Assuming no target switching."
+                        "en": "Assuming no target switching.",
+                        "ru": "При условии, что цель не меняется."
                     }
                 }
             ]

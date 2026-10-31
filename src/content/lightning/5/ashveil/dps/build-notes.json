@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Ashveil is a strong CRIT-based DPS who excels in Single Target scenarios but is also decent in AoE, as his Enhanced Follow-Up ATK changes targets when it kills an enemy.\n- He has supportive capabilities designed to benefit Follow-Up ATK units, including DEF Reduction and CRIT DMG buffs.\n- His kit is intended for a sub-DPS role, for example alongside Aventurine • Waveflair, although he works just fine as a hypercarry."
+            "en": "- Ashveil is a strong CRIT-based DPS who excels in Single Target scenarios but is also decent in AoE, as his Enhanced Follow-Up ATK changes targets when it kills an enemy.\n- He has supportive capabilities designed to benefit Follow-Up ATK units, including DEF Reduction and CRIT DMG buffs.\n- His kit is intended for a sub-DPS role, for example alongside Aventurine • Waveflair, although he works just fine as main DPS.",
+            "ru": "- Эшвейл — сильный ДД от критов. Он особенно эффективен в сражениях с одной целью, но также неплохо показывает себя в боях против нескольких противников, поскольку его усиленная бонус-атака при уничтожении противника переключается на другую цель.\n- У него есть баффы, полезные для персонажей, использующих бонус-атаки: понижение защиты противников и повышение крит. урона союзников.\n- Его набор способностей лучше всего подходит для роли саб-ДД (например, в связке с Авантюрином: Прибоем), хотя он вполне может выступать и в качестве основного ДД."
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 = S1 > E2"
+                "en": "E1 = S1 > E2",
+                "ru": "E1 = S1 > E2"
             },
             "details": {
-                "en": "- E1 increases DMG taken by enemies by 24%. When an enemy is below 50% health, this increases to 36% (provides more value if Ashveil is a sub-DPS).\n- S1 [[light-cone:the-finale-of-a-lie]] provides 18% CRIT Rate. Grants 40% ATK and applies 20% Vulnerability to all enemies at the start of the battle and for every 4 instances of Follow-Up ATK.\n- E2 increases maximum \"Gluttony\" to 18 and refunds 35% of consumed \"Gluttony\" after an Enhanced Follow-Up ATK."
+                "en": "- E1 increases DMG taken by enemies by 24%. When an enemy is below 50% health, this increases to 36% (provides more value if Ashveil is a sub-DPS).\n- S1 [[light-cone:the-finale-of-a-lie]] provides 18% CRIT Rate. Grants 40% ATK and applies 20% Vulnerability to all enemies at the start of the battle and for every 4 instances of Follow-Up ATK.\n- E2 increases maximum \"Gluttony\" to 18 and refunds 35% of consumed \"Gluttony\" after an Enhanced Follow-Up ATK.",
+                "ru": "- E1 увеличивает получаемый противниками урон на 24%. Если уровень здоровья противника ниже 50%, этот показатель возрастает до 36% (особенно полезно, если Эшвейл используется в роли саб-ДД).\n- S1 [[light-cone:the-finale-of-a-lie]] даёт 18% крит. шанса. В начале боя, а также после каждых 4 бонус-атак он получает бафф 40% силы атаки, а все противники получают на 20% больше урона.\n- увеличивает максимальное количество уровней статуса Прожорливость до 18, а также возвращает 35% от количества зарядов, потраченных на усиленную бонус-атаку."
             }
         }
     }

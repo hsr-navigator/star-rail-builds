@@ -64,7 +64,8 @@
                             "name": "izumo",
                             "pieces": 2,
                             "note":{
-                                "en":"There must be another character in the team following the path of The Hunt."
+                                "en":"There must be another character in the team following the path of The Hunt.",
+                                "ru":"В команде должен быть хотя бы один другой персонаж пути Охоты."
                             }
                         }
                     ]
