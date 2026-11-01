@@ -13,7 +13,7 @@
   },
   "abilities": {
     "basic": {
-      "type": "普攻",
+      "type": "普通攻擊",
       "name": "逐火救世，行則將至",
       "tag": "單體攻擊",
       "break": 10,
@@ -34,7 +34,7 @@
       },
       "variants": [
         {
-          "type": "強化普攻",
+          "type": "強化普通攻擊",
           "name": "創生‧血棘渡亡",
           "tag": "擴散",
           "break_main": 30,
