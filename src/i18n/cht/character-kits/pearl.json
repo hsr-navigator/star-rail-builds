@@ -7,7 +7,7 @@
     "version_released": "4.6",
     "abilities": {
         "basic": {
-            "type": "普攻",
+            "type": "普通攻擊",
             "name": "行筆，臨摹斷水",
             "tag": "單體攻擊",
             "break": "10",
@@ -28,7 +28,7 @@
             },
             "variants": [
                 {
-                    "type": "強化普攻",
+                    "type": "強化普通攻擊",
                     "name": "行筆，幻造星月",
                     "tag": "群體攻擊",
                     "break_aoe": "30",
@@ -73,7 +73,7 @@
                     }
                 },
                 {
-                    "type": "強化普攻",
+                    "type": "強化普通攻擊",
                     "name": "行筆，繪製末浪",
                     "tag": "群體攻擊",
                     "break_aoe": "30",
