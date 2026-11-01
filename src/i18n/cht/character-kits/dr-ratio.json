@@ -16,7 +16,7 @@
 
   "abilities": {
     "basic": {
-        "type": "普攻",
+        "type": "普通攻擊",
         "name": "知識就是力量",
         "tag": "單體攻擊",
         "energy_gain": 20,
