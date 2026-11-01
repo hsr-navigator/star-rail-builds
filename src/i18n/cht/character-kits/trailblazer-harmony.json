@@ -15,7 +15,7 @@
 
   "abilities": {
     "basic": {
-      "type": "普攻",
+      "type": "普通攻擊",
       "name": "搖擺的禮儀",
       "tag": "單體攻擊",
       "energy_gain": 20,
