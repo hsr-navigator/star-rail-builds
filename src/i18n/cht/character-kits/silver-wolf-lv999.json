@@ -13,7 +13,7 @@
     },
     "abilities": {
         "basic": {
-            "type": "普攻",
+            "type": "普通攻擊",
             "name": "拳頭硬了！",
             "tag": "單體攻擊",
             "break": "10",
@@ -34,7 +34,7 @@
             },
             "variants": [
                 {
-                    "type": "強化普攻",
+                    "type": "強化普通攻擊",
                     "name": "獎勵關：「狼尊時刻」",
                     "tag": "彈射",
                     "break_bounce": 0.1,
