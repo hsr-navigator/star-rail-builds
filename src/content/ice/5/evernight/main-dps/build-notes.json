@@ -1,18 +1,22 @@
 {
     "name": {
-        "en": "Main DPS"
+        "en": "Main DPS",
+        "ru": "Основной ДД"
     },
     "notes": [],
     "overview": {
         "summary": {
-            "en": "- [[character:evernight]]'s Skill summons Evey, who has two Skills. When [[character:evernight]] has fewer than 16 \"Memoria\" stacks, Evey deals single-target DMG. At 16+ \"Memoria\" stacks, Evey detonates, dealing AoE DMG and increasing [[character:evernight]]'s SPD based on the number of \"Memoria\" stacks consumed.\n- Evernight gains \"Memoria\" whenever she or Evey take an action, or whenever she loses HP.\n- [[character:evernight]]'s Ultimate grants 2 stacks of \"Darkest Riddle\", increasing her \"Memoria\" generation. [[character:evernight]]'s loses 1 stack of \"Darkest Riddle\" whenever Evey detonates.\n- [[character:evernight]]'s performance is heavily reliant on [[character:cyrene]] for her buffs and Sub-DPS contribution."
+            "en": "- [[character:evernight]]'s Skill summons Evey, who has two Skills. When [[character:evernight]] has fewer than 16 \"Memoria\" stacks, Evey deals single-target DMG. At 16+ \"Memoria\" stacks, Evey detonates, dealing AoE DMG and increasing [[character:evernight]]'s SPD based on the number of \"Memoria\" stacks consumed.\n- Evernight gains \"Memoria\" whenever she or Evey take an action, or whenever she loses HP.\n- [[character:evernight]]'s Ultimate grants 2 stacks of \"Darkest Riddle\", increasing her \"Memoria\" generation. [[character:evernight]]'s loses 1 stack of \"Darkest Riddle\" whenever Evey detonates.\n- [[character:evernight]]'s performance is heavily reliant on [[character:cyrene]] for her buffs and Sub-DPS contribution.",
+            "ru": "- Навык [[character:evernight|Темени]] призывает Эви, у которой есть два умения. Если у [[character:evernight|Темени]] менее 16 ед. заряда Мемория, Эви наносит урон по одной цели. При наличии 16 и более ед. заряда Мемория Эви детонирует, нанося урон по площади, а скорость [[character:evernight|Темени]] повышается в зависимости от количества потраченных ед. заряда Мемория.\n- [[character:evernight]] получает ед. заряда Мемория каждый раз, когда она или Эви совершают действие, а также при потере ею HP.\n- Сверхспособность [[character:evernight|Темени]] даёт 2 ед. заряда Загадка тьмы, который ускоряет накопление ед. заряда Мемория. При каждой детонации Эви [[character:evernight]] теряет 1 ед. заряда Загадка тьмы.\n- Эффективность [[character:evernight|Темени]] в значительной степени зависит от [[character:cyrene|Кирены]], которая предоставляет ей баффы и является саб-ДД."
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 > S1"
+                "en": "E2 > E1 > S1",
+                "ru": "E2 > E1 > S1"
             },
             "details": {
-                "en": "- E2 greatly increases her \"Memoria\" generation and grants her two additional \"Darkest Riddle\" stacks after using her Ultimate. The increased \"Memoria\" generation and improved \"Darkest Riddle\" uptime significantly increase her personal damage output.\n- E1 increases the damage dealt by allied Memosprites when fewer enemies are present. A strong support Eidolon thanks to its unique damage multiplier.\n- S1 [[light-cone:to-evernights-stars]] grants teamwide DEF ignore for Memosprites, increases her personal damage, and restores additional Energy whenever Evey detonates. A strong Light Cone option that both improves her personal damage, provides team utility, and supports her Ultimate rotation."
+                "en": "- E2 greatly increases her \"Memoria\" generation and grants her two additional \"Darkest Riddle\" stacks after using her Ultimate. The increased \"Memoria\" generation and improved \"Darkest Riddle\" uptime significantly increase her personal damage output.\n- E1 increases the damage dealt by allied Memosprites when fewer enemies are present. A strong support Eidolon thanks to its unique damage multiplier.\n- S1 [[light-cone:to-evernights-stars]] grants teamwide DEF ignore for Memosprites, increases her personal damage, and restores additional Energy whenever Evey detonates. A strong Light Cone option that both improves her personal damage, provides team utility, and supports her Ultimate rotation.",
+                "ru": "- E2 значительно ускоряет накопление ед. заряда Мемория и даёт две дополнительные ед. заряда Загадка тьмы после использования сверхспособности. Улучшенное накопление ед. заряда Мемория и более частое использование заряда Загадка тьмы заметно повышают её личный урон.\n- E1 увеличивает урон, наносимый союзными духами памяти, если на поле боя находится небольшое количество противников. Это сильный саппортский Эйдолон благодаря уникальному множителю урона.\n- S1 [[light-cone:to-evernights-stars]] даёт всей команде бафф игнорирования защиты для духов памяти, повышает личный урон Темени, а также восстанавливает дополнительную энергию каждый раз, когда Эви активирует детонацию. Это мощный Световой конус, который одновременно увеличивает её собственный урон, приносит пользу всей команде и помогает поддерживать цикл использования сверхспособности."
             }
         }
     }

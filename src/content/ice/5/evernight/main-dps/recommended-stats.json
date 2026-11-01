@@ -8,7 +8,8 @@
             "name": "cr",
             "recommended": "65%",
             "note": {
-                "en": "[[character:evernight]]'s A2 buffs her [[stat:cr]] by 35%, for 100% [[stat:cr]] in battle.. Substract appropriate CRIT Rate buffers."
+                "en": "[[character:evernight]]'s A2 buffs her [[stat:cr]] by 35%, for 100% [[stat:cr]] in battle. Substract appropriate CRIT Rate buffers.",
+                "ru": "A2 [[character:evernight|Темени]] даёт ей 35% [[stat:cr|крит. шанса]], что в сумме даёт 100% [[stat:cr|крит. шанса]] в бою. Вычтите другие баффы крит. шанса в бою."
             }
         },
         {

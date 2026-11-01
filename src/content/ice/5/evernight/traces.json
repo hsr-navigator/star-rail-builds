@@ -27,7 +27,10 @@
             "items": [
                 {
                     "name": "basic",
-                    "note": "[[ability:basic]] can be ignored."
+                    "note": { 
+                        "en": "[[ability:basic]] can be ignored.",
+                        "ru": "Базовую атаку можно не прокачивать."
+                    }
                 }
             ]
         }
