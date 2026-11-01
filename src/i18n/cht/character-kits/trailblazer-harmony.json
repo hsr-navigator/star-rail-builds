@@ -1,0 +1,151 @@
+{
+  "id": "trailblazer-harmony",
+  "name": "開拓者·同諧",
+  "rarity": "5",
+  "type": "imaginary",
+  "path": "harmony",
+  "version_released": "2.2",
+  "max_energy": 140,
+  "level_80_stats": {
+    "hp": 1086,
+    "atk": 446,
+    "def": 679,
+    "spd": 105
+  },
+
+  "abilities": {
+    "basic": {
+      "type": "普攻",
+      "name": "搖擺的禮儀",
+      "tag": "單體攻擊",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "對指定敵方單體造成等同於開拓者{{scaling1}}%攻擊力的虛數屬性傷害。",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      }
+    },
+    "skill": {
+      "type": "戰技",
+      "name": "中場饋贈的雨",
+      "tag": "彈射",
+      "energy_gain": 30,
+      "break_first_hit": 10,
+      "break_bounce": 5,
+      "break_total": "30 / 40 (6星魂)",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "對指定敵方單體造成等同於開拓者{{damage}}%攻擊力的虛數屬性傷害，並額外造成4次傷害。每次傷害對隨機敵方單體造成等同於開拓者{{damage}}%攻擊力的虛數屬性傷害。",
+      "scaling": {
+        "damage": [25, 27.5, 30, 32.5, 35, 37.5, 40.625, 43.75, 46.875, 50, 52.5, 55]
+      }
+    },
+    "talent": {
+      "type": "天賦",
+      "name": "全屏段的高空踏歌",
+      "tag": "輔助",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "當有敵方目標的弱點被擊破時，開拓者立即恢復{{energy}}點能量。",
+      "scaling": {
+        "energy": [5, 5.5, 6, 6.5, 7, 7.5, 8.125, 8.75, 9.375, 10, 10.5, 11]
+      }
+    },
+    "technique": {
+      "type": "秘技",
+      "name": "即刻！獨奏團",
+      "tag": "Поддержка",
+      "description": "使用秘技後，下一次戰鬥開始時使我方全體的擊破特攻提高30%，持續2回合。"
+    },
+    "ultimate": {
+      "type": "終結技",
+      "name": "喧囂的舞燈巡遊",
+      "tag": "輔助",
+      "energy_gain": 5,
+      "energy_cost": 140,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "為我方全體附上【伴舞】效果，持續3回合，開拓者每回合開始時持續回合數減1。持有【伴舞】的我方目標擊破特攻提高{{break_effect}}%，並且攻擊處於弱點擊破狀態下的敵方目標後，會將本次攻擊的削韌值轉化為1次超擊破傷害。",
+      "scaling": {
+        "break_effect": [15, 16.5, 18, 19.5, 21, 22.5, 24.375, 26.25, 28.125, 30, 31.5, 33]
+      }
+    }
+  },
+
+  "major_traces": {
+    "2": {
+      "name": "衛我起舞",
+      "description": "若場上敵方目標數量為1/2/3/4/5以上，則【伴舞】效果觸發的超擊破傷害提高60%/50%/40%/30%/20%/。"
+    },
+    "4": {
+      "name": "隨波逐流",
+      "description": "施放戰技時，第一次傷害的削韌值額外提高100%。"
+    },
+    "6": {
+      "name": "劇院之帽",
+      "description": "我方目標造成弱點擊破後額外使敵方目標行動延後30%。"
+    }
+  },
+
+  "stat_bonuses": [
+    {
+      "stat": "擊破強化",
+      "value": "+37.3%"
+    },
+    {
+      "stat": "效果抗性強化",
+      "value": "+10%"
+    },
+    {
+      "stat": "傷害強化•虛數",
+      "value": "+14.4%"
+    }
+  ],
+
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "您的最佳觀眾席",
+      "description": "施放首次戰技後立即回復1點戰技點。"
+    },
+    {
+      "level": 2,
+      "name": "越獄的跨洋彩虹",
+      "description": "戰鬥開始時，開拓者的能量恢復效率提高25%，持續3回合。"
+    },
+    {
+      "level": 3,
+      "name": "休止符的療養院",
+      "description": "戰技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    {
+      "level": 4,
+      "name": "袒護白鴿的冠冕",
+      "description": "開拓者在場時，使除自身以外的隊友擊破特攻提高，提高數值等同於開拓者15%的擊破特攻。"
+    },
+    {
+      "level": 5,
+      "name": "包庇舊節拍的詩",
+      "description": "終結技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    {
+      "level": 6,
+      "name": "明天，棲息聚光之下",
+      "description": "戰技的額外傷害次數增加2次。"
+    }
+  ]
+}
