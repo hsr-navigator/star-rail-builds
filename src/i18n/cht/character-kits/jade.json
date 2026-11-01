@@ -16,7 +16,7 @@
 
   "abilities": {
     "basic": {
-      "type": "普攻",
+      "type": "普通攻擊",
       "name": "撻楚抽薪",
       "tag": "擴散",
       "energy_gain": 20,
