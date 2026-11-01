@@ -14,7 +14,7 @@
     },
     "abilities": {
         "basic": {
-            "type": "普攻",
+            "type": "普通攻擊",
             "name": "澤芝",
             "tag": "單體攻擊",
             "energy_gain": 20,
@@ -36,7 +36,7 @@
             },
             "variants": [
                 {
-                    "type": "強化普攻",
+                    "type": "強化普通攻擊",
                     "name": "瞬華",
                     "tag": "單體攻擊",
                     "energy_gain": 30,
@@ -55,9 +55,9 @@
                     }
                 },
                 {
-                    "type": "Усиленная базовая атака",
-                    "name": "Божественное копьё",
-                    "tag": "天矢陰",
+                    "type": "強化普通攻擊",
+                    "name": "天矢陰",
+                    "tag": "擴散",
                     "energy_gain": 35,
                     "break_main": 30,
                     "break_adjacent": 10,
@@ -87,9 +87,9 @@
                     }
                 },
                 {
-                    "type": "Усиленная базовая атака",
-                    "name": "Стремительный прыжок",
-                    "tag": "Взрывная атака",
+                    "type": "強化普通攻擊",
+                    "name": "盤拏耀躍",
+                    "tag": "擴散",
                     "energy_gain": 40,
                     "break_main": 40,
                     "break_adjacent": 20,
