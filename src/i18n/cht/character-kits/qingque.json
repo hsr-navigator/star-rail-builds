@@ -14,7 +14,7 @@
   },
   "abilities": {
     "basic": {
-      "type": "普攻",
+      "type": "普通攻擊",
       "name": "門前清",
       "tag": "單體攻擊",
       "energy_gain": 20,
@@ -36,7 +36,7 @@
       },
       "variants": [
         {
-          "type": "強化普攻",
+          "type": "強化普通攻擊",
           "name": "槓上開花！",
           "tag": "擴散",
           "energy_gain": 20,
