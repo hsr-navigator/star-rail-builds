@@ -14,7 +14,7 @@
   },
   "abilities": {
     "basic": {
-      "type": "普攻",
+      "type": "普通攻擊",
       "name": "開瓶費",
       "tag": "單體攻擊",
       "energy_gain": 20,
@@ -36,7 +36,7 @@
       },
       "variants": [
         {
-          "type": "強化普攻",
+          "type": "強化普通攻擊",
           "name": "酒花奔湧",
           "tag": "單體攻擊",
           "energy_gain": "20",
