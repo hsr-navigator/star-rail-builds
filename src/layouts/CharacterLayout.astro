@@ -23,6 +23,7 @@ import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
+import BuildSwitcher from '../components/BuildSwitcher.astro';
 import { t } from '../utils/i18n';
 import { sitePath } from '../utils/paths';
 
@@ -219,47 +220,13 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
                         </div>
                     </div>
 
-                    {
-                        builds.length > 0 && (
-                            <nav class="build-switcher" aria-label={buildLabel}>
-                                {builds.map((build: any, index: number) => {
-                                    const isDefaultBuild =
-                                        build.slug === defaultBuildSlug ||
-                                        (!defaultBuildSlug && index === 0);
-
-                                    return (
-                                        <button
-                                            id={`build-tab-${build.slug}`}
-                                            class={`build-switcher-button${
-                                                isDefaultBuild
-                                                    ? ' is-active'
-                                                    : ''
-                                            }`}
-                                            type="button"
-                                            data-build-tab
-                                            data-id={build.slug}
-                                            aria-controls={`build-content-${build.slug}`}
-                                            aria-pressed={
-                                                isDefaultBuild
-                                                    ? 'true'
-                                                    : 'false'
-                                            }
-                                        >
-                                            <span class="build-switcher-name">
-                                                {build.name}
-                                            </span>
-
-                                            {build.isBest && (
-                                                <span class="build-badge">
-                                                    {bestRoleLabel}
-                                                </span>
-                                            )}
-                                        </button>
-                                    );
-                                })}
-                            </nav>
-                        )
-                    }
+                    <BuildSwitcher
+                        builds={builds}
+                        defaultBuildSlug={defaultBuildSlug}
+                        buildLabel={buildLabel}
+                        bestRoleLabel={bestRoleLabel}
+                        placement="mobile"
+                    />
 
                     {
                         builds.length > 0 && (
@@ -302,6 +269,13 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
 
                 <!-- MAIN CHARACTER BUILD CONTENT -->
                 <div class="character-main">
+                    <BuildSwitcher
+                        builds={builds}
+                        defaultBuildSlug={defaultBuildSlug}
+                        buildLabel={buildLabel}
+                        bestRoleLabel={bestRoleLabel}
+                        placement="desktop"
+                    />
                     <slot />
                 </div>
             </div>

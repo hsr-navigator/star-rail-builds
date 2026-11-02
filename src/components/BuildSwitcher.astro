@@ -1,0 +1,35 @@
+---
+type Props = {
+    builds: { slug: string; name: string; isBest?: boolean }[];
+    defaultBuildSlug?: string;
+    buildLabel: string;
+    bestRoleLabel: string;
+    placement: 'desktop' | 'mobile';
+};
+
+const { builds, defaultBuildSlug, buildLabel, bestRoleLabel, placement } = Astro.props as Props;
+---
+
+{
+    builds.length > 0 && (
+        <nav class={`build-switcher build-switcher-${placement}`} aria-label={buildLabel}>
+            {builds.map((build, index) => {
+                const isDefaultBuild = build.slug === defaultBuildSlug || (!defaultBuildSlug && index === 0);
+                return (
+                    <button
+                        id={`build-tab-${placement}-${build.slug}`}
+                        class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
+                        type="button"
+                        data-build-tab
+                        data-id={build.slug}
+                        aria-controls={`build-content-${build.slug}`}
+                        aria-pressed={isDefaultBuild ? 'true' : 'false'}
+                    >
+                        <span class="build-switcher-name">{build.name}</span>
+                        {build.isBest && <span class="build-badge">{bestRoleLabel}</span>}
+                    </button>
+                );
+            })}
+        </nav>
+    )
+}

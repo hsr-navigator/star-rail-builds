@@ -2166,3 +2166,92 @@ html[lang='ru'] .page-title {
         margin-bottom: 3px;
     }
 }
+
+/* The mobile selector stays in the character header. */
+.build-switcher-desktop {
+    display: none;
+}
+
+/* Desktop builds are folder tabs attached to the build panel below. */
+@media (min-width: 721px) {
+    .build-switcher-mobile {
+        display: none;
+    }
+
+    .character-main {
+        --build-folder-surface: color-mix(in srgb, var(--type) 7%, #1b1921);
+        --build-folder-border: color-mix(in srgb, var(--type) 38%, #59535f);
+    }
+
+    .build-switcher-desktop {
+        position: relative;
+        z-index: 31;
+        display: flex;
+        align-items: stretch;
+        gap: 4px;
+        min-width: 0;
+        margin: 0 0 -1px;
+        padding: 4px 8px 0 0;
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+
+    .build-switcher-desktop .build-switcher-button {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6px 10px;
+        width: auto;
+        min-width: 140px;
+        max-width: 280px;
+        min-height: 48px;
+        margin: 0;
+        padding: 10px 18px;
+        overflow: visible;
+        border: 1px solid var(--build-folder-border);
+        border-radius: 10px 14px 0 0;
+        background: color-mix(in srgb, var(--build-folder-surface) 80%, #08080c);
+        box-shadow: none;
+        color: var(--text);
+        text-align: center;
+    }
+
+    .build-switcher-desktop .build-switcher-button::before,
+    .build-switcher-desktop .build-switcher-button::after {
+        display: none;
+    }
+
+    .build-switcher-desktop .build-switcher-button:hover {
+        background: color-mix(in srgb, var(--type) 12%, #1b1921);
+    }
+
+    .build-switcher-desktop .build-switcher-button.is-active {
+        border-bottom-color: var(--build-folder-surface);
+        background: var(--build-folder-surface);
+        color: var(--accent);
+        box-shadow: inset 0 2px 0 var(--accent);
+    }
+
+    .build-switcher-desktop .build-switcher-button:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: -4px;
+    }
+
+    .build-switcher-desktop .build-switcher-name {
+        color: inherit;
+        font-size: 0.9rem;
+    }
+
+    .character-main:has(> .build-switcher-desktop) .build-card {
+        border: 1px solid var(--build-folder-border);
+        border-radius: 0 8px 8px 8px;
+        background: var(--build-folder-surface);
+        box-shadow: none;
+    }
+
+    .character-main:has(> .build-switcher-desktop) .build-card::before {
+        display: none;
+    }
+}
