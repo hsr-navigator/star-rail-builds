@@ -192,13 +192,13 @@
             "question": {
                 "en": "Do I need to level every Trace?",
                 "ru": "Нужно ли прокачивать все следы?",
-                "vn": "Tôi có cần thăng cấp mọi Vết Tích không?",
+                "vn": "Tôi có cần nâng cấp mọi Vết Tích không?",
                 "cht": "那我需要拉滿全部行跡嗎？"
             },
             "answer": {
                 "en": "No. Some characters gain little or no practical benefit from leveling certain abilities. The Trace priority is intended to show where your materials provide the most value. Major Traces and useful stat nodes should generally be unlocked as appropriate for the character.",
                 "ru": "Нет. Некоторые персонажи получают мало или совсем никакой практической пользы от прокачки определенных способностей. Приоритет прокачки cледов призван показать, где ваши материалы приносят наибольшую пользу. Основные следы и полезные узлы со статами, как правило, следует разблокировать по мере необходимости для персонажа.",
-                "vn": "Không. Một số Nhân Vật nhận được rất ít hoặc không có lợi ích thực tế nào từ việc thăng cấp một số khả năng nhất định. Ưu tiên Dấu vết nhằm mục đích hiển thị nơi tài liệu của bạn mang lại giá trị cao nhất. Dấu vết chính và nút chỉ số hữu ích nói chung phải được mở khóa phù hợp với Nhân Vật.",
+                "vn": "Không. Một số Nhân Vật nhận được rất ít hoặc không có lợi ích thực tế nào từ việc nâng cấp một số khả năng nhất định. Ưu tiên Dấu vết nhằm mục đích hiển thị nơi tài liệu của bạn mang lại giá trị cao nhất. Dấu vết chính và nút chỉ số hữu ích nói chung phải được mở khóa phù hợp với Nhân Vật.",
                 "cht": "並非。部分行跡等級對特定角色並沒有或只有些許收益。行跡優先度就明確告訴你了你的材料優先花在哪裡更有性價比。額外能力和有用的詞條提升行跡都盡可能解鎖來提升角色能力。"
             }
         },

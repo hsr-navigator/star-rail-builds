@@ -1,0 +1,158 @@
+{
+  "id": "hysilens",
+  "name": "Hysilens",
+  "rarity": 5,
+  "type": "physical",
+  "path": "nihility",
+  "version_released": "3.5",
+  "max_energy": 110,
+
+  "level_80_stats": {
+    "hp": 1203,
+    "atk": 601,
+    "def": 485,
+    "spd": 102
+  },
+
+  "abilities": {
+    "basic": {
+        "type": "Tấn Công Thường",
+        "name": "Âm Giai Thứ, Vang Trong Làn Nước Tĩnh",
+        "tag": "Đánh Đơn",
+        "energy_gain": 20,
+        "break": 10,
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "Gây Sát Thương Vật Lý bằng {{value}}% Tấn Công của Hysilens cho 1 kẻ địch chỉ định.",
+        "scaling": {
+            "value": [50, 60, 70, 80, 90, 100, 110]
+        }
+    },
+
+    "skill": {
+        "type": "Chiến Kỹ",
+        "name": "Bồi Âm, Hòa Thanh Sau Dòng Chảy Ngầm",
+        "tag": "Đánh Lan",
+        "energy_gain": 30,
+        "break_aoe": 10,
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "Có 100% xác suất cơ bản khiến Sát Thương toàn bộ phe địch phải chịu tăng {{damage_taken}}%, duy trì 3 hiệp, đồng thời gây cho toàn bộ phe địch Sát Thương Vật Lý bằng {{damage}}% Tấn Công của Hysilens.",
+        "scaling": {
+            "damage": [70, 77, 84, 91, 98, 105, 113.75, 122.5, 131.25, 140, 147, 154],
+            "damage_taken": [10, 11, 12, 13, 14, 15, 13.25, 17.5, 18.75, 20, 21, 22]
+        }
+    },
+
+    "ultimate": {
+        "type": "Tuyệt Kỹ",
+        "name": "Sóng Ngược Biển Khơi, Hứng Khúc Say Hồn",
+        "tag": "Đánh Lan",
+        "energy_cost": 110,
+        "energy_gain": 5,
+        "break_aoe": 20,
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "Hysilens triển khai kết giới, khiến Tấn Công của mục tiêu phe địch giảm 15%, Phòng Thủ giảm {{defense_reduction}}%, gây Sát Thương Vật Lý bằng {{damage}}% Tấn Công của Hysilens cho toàn bộ phe địch.\nMục tiêu phe địch trong kết giới cứ chịu 1 lần Sát Thương Duy Trì, thì Hysilens sẽ gây cho kẻ đó Sát Thương Vật Lý Duy Trì bằng {{additional_damage}}% Tấn Công của bản thân, sát thương này sẽ kích hoạt khi bắt đầu mỗi hiệp hoặc sau một lần tấn công của mục tiêu phe ta, và tối đa kích hoạt 8 lần. Sát thương này sẽ không kích hoạt lại hiệu ứng này.\nKết giới duy trì 3 hiệp, mỗi khi bắt đầu hiệp của bản thân, hiệp duy trì kết giới sẽ giảm 1. Khi Hysilens rơi vào trạng thái không thể chiến đấu, kết giới cũng sẽ bị giải trừ.",
+        "scaling": {
+            "damage": [120, 128, 136, 144, 152, 160, 170, 180, 190, 200, 208, 216],
+            "defense_reduction": [15, 16, 17, 18, 19, 20, 21.25, 22.5, 23.75, 25, 26, 27],
+            "additional_damage": [32, 37.28, 42.56, 47.84, 53.12, 58.4, 63.2, 68, 74, 80, 84, 88]
+        }
+    },
+
+    "talent": {
+        "type": "Thiên Phú",
+        "name": "Siren Đang Ca Hát",
+        "tag": "Quấy Nhiễu",
+        "min_level": 1,
+        "max_level": 12,
+        "default_level": 10,
+        "description_template": "Khi mục tiêu phe ta tấn công, Hysilens có 100% xác suất cơ bản khiến mục tiêu phe địch bị đánh trúng rơi vào 1 trong các trạng thái Bào Mòn/Chảy Máu/Thiêu Đốt/Sốc Điện, và sẽ ưu tiên rơi vào các trạng thái khác nhau.\nTrong trạng thái Bào Mòn/Thiêu Đốt/Sốc Điện, mục tiêu phe địch mỗi khi bắt đầu hiệp sẽ chịu Sát Thương Duy Trì thuộc tính Phong/Hỏa/Lôi bằng {{damage}}% Tấn Công của Hysilens, duy trì 2 hiệp.\nTrong trạng thái Chảy Máu, mục tiêu phe địch khi bắt đầu mỗi hiệp sẽ chịu Sát Thương Vật Lý Duy Trì bằng 20% Giới Hạn HP của bản thân, tối đa không vượt quá {{physical_damage}}% Tấn Công của Hysilens, duy trì 2 hiệp.",
+        "scaling": {
+            "damage": [10, 11.65, 13.3, 14.95, 16.6, 18.25, 19.75, 21.25, 23.125, 25, 26.25, 27.5],
+            "physical_damage": [10, 11.65, 13.3, 14.95, 16.6, 18.25, 19.75, 21.25, 23.125, 25, 26.25, 27.5]
+        }
+    },
+
+    "technique": {
+        "type": "Bí Kỹ",
+        "name": "Chốn Cư Ngụ Giữa Biển",
+        "tag": "Quấy Nhiễu",
+        "description": "Sau khi dùng Bí Kỹ, tạo một vùng đặc biệt duy trì 20 giây và tự động di chuyển về phía trước, kẻ địch trong vùng đặc biệt sẽ rơi vào trạng thái \"Say Mê\". Kẻ địch trong trạng thái \"Say Mê\" sẽ không tấn công mục tiêu phe ta và đi theo vùng trong thời gian duy trì vùng.\nKhi vào chiến đấu với kẻ địch đang trong trạng thái \"Say Mê\", có 100% xác suất cơ bản khiến mỗi mục tiêu địch rơi vào 2 trạng thái trong số các trạng thái Bào Mòn/Chảy Máu/Thiêu Đốt/Sốc Điện giống như hiệu ứng Thiên Phú của Hysilens. Cùng một lúc tối đa chỉ tồn tại 1 hiệu ứng vùng do phe ta tạo ra."
+    }
+  },
+
+  "major_traces": {
+    "2": {
+        "name": "Kiếm Kỳ Chinh Phục",
+        "description": "Khi bắt đầu chiến đấu, Hysilens sẽ triển khai kết giới có hiệu ứng giống với Tuyệt Kỹ, kết giới duy trì 3 hiệp. Mỗi khi Hysilens triển khai kết giới, sẽ hồi 1 Điểm Chiến Kỹ."
+    },
+
+    "4": {
+        "name": "Bọt Bóng Của Yến Tiệc",
+        "description": "Khi Hysilens thi triển Tuyệt Kỹ, nếu mục tiêu phe địch ở trạng thái Sát Thương Duy Trì, sẽ khiến tất cả Sát Thương Duy Trì mà mục tiêu đó phải chịu lập tức sinh ra sát thương bằng 150% sát thương gốc."
+    },
+
+    "6": {
+        "name": "Dây Đàn Ngọc Trai",
+        "description": "Nếu Chính Xác Hiệu Ứng của Hysilens cao hơn 10%, mỗi 60% vượt quá sẽ khiến sát thương bản thân gây ra tăng 15%, tối đa tăng 90%."
+    }
+  },
+
+  "stat_bonuses": [
+    {
+        "stat": "Tấn Công",
+        "value": "+18%"
+    },
+    {
+        "stat": "Tốc Độ",
+        "value": "+14"
+    },
+    {
+        "stat": "Chính Xác Hiệu Ứng",
+        "value": "+10%"
+    }
+  ],
+
+  "eidolons": [
+    {
+        "level": 1,
+        "name": "Người Hỏi, Sao Tôi Lại Buồn Bã",
+        "description": "Khi Hysilens trong trận, Sát Thương Duy Trì mà mục tiêu phe ta gây ra sẽ bằng 116% của sát thương gốc, khi Hysilens dùng Thiên Phú khiến kẻ địch rơi vào trạng thái Bào Mòn/Chảy Máu/Thiêu Đốt/Sốc Điện, có 100% xác suất cơ bản khiến kẻ đó rơi vào thêm một lần trạng thái Bào Mòn/Chảy Máu/Thiêu Đốt/Sốc Điện giống với hiệu ứng Thiên Phú ban đầu và có thể cùng tồn tại."
+    },
+
+    {
+        "level": 2,
+        "name": "Người Hỏi, Sao Sóng Lại Ồn Ã",
+        "description": "Trong thời gian duy trì kết giới, hiệu ứng tăng sát thương do Vết Tích \"Dây Đàn Ngọc Trai\" gây ra sẽ có hiệu lực với toàn bộ phe ta."
+    },
+
+    {
+        "level": 3,
+        "name": "Người Hỏi, Sao Ánh Đèn Bị Lãng Quên",
+        "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+
+    {
+        "level": 4,
+        "name": "Đưa Mắt Nhìn Kìa, Sao Năm Tháng Lại Trôi",
+        "description": "Trong thời gian duy trì kết giới, khiến Kháng Toàn Thuộc Tính của toàn bộ phe địch giảm 20%."
+    },
+
+    {
+        "level": 5,
+        "name": "Vươn Tay Chải Chuốt, Ngâm Nga Tôi Khẽ Hát",
+        "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+
+    {
+        "level": 6,
+        "name": "Người Đã Trầm Luân, Liệu Có Tỏ Ngày Về",
+        "description": "Trong thời gian kết giới duy trì, khi bắt đầu mỗi hiệp hoặc sau 1 lần tấn công của mục tiêu phe ta, giới hạn số lần kích hoạt hiệu ứng Sát Thương Vật Lý Duy Trì của Hysilens tăng đến 12 lần, và Bội Số Sát Thương gây ra tăng 20%."
+    }
+  ]
+}

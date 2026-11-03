@@ -43,7 +43,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Summons memosprite Little Ica, restores HP equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}}% for all allies aside from Little Ica, and restores HP equal to {{scaling3}} of Hyacine's Max HP plus {{scaling4}} for Little Ica.",
+      "description_template": "Summons memosprite Little Ica, restores HP equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}} for all allies aside from Little Ica, and restores HP equal to {{scaling3}}% of Hyacine's Max HP plus {{scaling4}} for Little Ica.",
       "scaling": {
         "scaling1": [
           4,
@@ -280,7 +280,7 @@
         "min_level": 1,
         "max_level": 7,
         "default_level": 6,
-        "description_template": "Little Ica's SPD remains at 0, is immune to debuffs, and they will not appear on the Action Order. \nIf ally targets (except Little Ica) have their HP reduced, then Little Ica will consume HP equal to 4% of their own Max HP and restore HP equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}} for the ally target with reduced HP at the start of any target's turn or after any target takes action. \nWhile Hyacine is in the \"After Rain\" state, Little Ica immediately obtains 1 extra turn and automatically uses \"Rainclouds, Time to Go!\" after Hyacine uses an ability. Moreover, when Little Ica triggers their Talent's healing effect, additionally restores HP for all ally targets by an amount equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}}. After Little Ica uses an ability, all Continuous Effects' duration decreases by 1 turn.",
+        "description_template": "Little Ica's SPD remains at 0, is immune to debuffs, and they will not appear on the Action Order. \nIf ally targets (except Little Ica) have their HP reduced, then Little Ica will consume HP equal to 4% of their own Max HP and restore HP equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}} for the ally target with reduced HP at the start of any target's turn or after any target takes action.\nWhile Hyacine is in the \"After Rain\" state, Little Ica immediately obtains 1 extra turn and automatically uses \"Rainclouds, Time to Go!\" after Hyacine uses an ability. Moreover, when Little Ica triggers their Talent's healing effect, additionally restores HP for all ally targets by an amount equal to {{scaling1}}% of Hyacine's Max HP plus {{scaling2}}. After Little Ica uses an ability, all Continuous Effects' duration decreases by 1 turn.",
         "scaling": {
           "scaling1": [
             1,
@@ -360,7 +360,7 @@
     {
       "level": 3,
       "name": "Depart, Unto the Sun!",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10. Memosprite Skill Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 4,
@@ -370,12 +370,12 @@
     {
       "level": 5,
       "name": "Twilight Drapes the Tide",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15. Memosprite Talent Lv. +1, up to a maximum of Lv. 10."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 6,
       "name": "O Sky, Heed My Plea",
-      "description": "Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to 12%. When Little Ica is on the field, increases all ally targets' All-Type RES PEN  by 20%."
+      "description": "Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to 12%. When Little Ica is on the field, increases all ally targets' All-Type RES PEN by 20%."
     }
   ]
 }

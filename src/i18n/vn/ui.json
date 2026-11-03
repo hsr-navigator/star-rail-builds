@@ -119,7 +119,7 @@
     "Level 80 Stats": "Chỉ Số Cấp Độ 80",
     "SPD": "Tốc Độ",
     "Energy": "Năng Lượng",
-    "Abilities": "Các Vết Tích",
+    "Abilities": "Các Kỹ Năng",
     "Memosprite": "Linh Hồn Ký Ức",
     "Elation": "Vui Vẻ",
     "Initial SPD": "Tốc Độ Ban Đầu",
@@ -158,5 +158,7 @@
     "Notable Eidolons": "Các Tinh Hồn đáng chú ý",
     "Base HP - Highest": "HP Cơ Bản - Cao nhất",
     "Base ATK - Highest": "Tấn Công Cơ Bản - Cao nhất",
-    "Base DEF - Highest": "Phòng Thủ Cơ Bản - Cao nhất"
+    "Base DEF - Highest": "Phòng Thủ Cơ Bản - Cao nhất",
+    "Ascension Traces": "Các Vết Tích",
+    "Builds": "Build"
 }

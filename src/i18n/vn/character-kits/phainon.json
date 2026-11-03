@@ -1,0 +1,361 @@
+{
+  "id": "phainon",
+  "name": "Phainon",
+  "rarity": 5,
+  "type": "physical",
+  "path": "destruction",
+  "version_released": "3.4",
+  "level_80_stats": {
+    "hp": 1436,
+    "atk": 582,
+    "def": 703,
+    "spd": 94
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Săn Đuổi Lửa Cứu Thế, Cứ Đi Sẽ Đến",
+      "tag": "Đánh Đơn",
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Vật Lý bằng {{damage}}% Tấn Công của Phainon cho 1 kẻ địch chỉ định.",
+      "scaling": {
+        "damage": [
+          50.0,
+          60.0,
+          70.0,
+          80.0,
+          90.0,
+          100.0,
+          110.0
+        ]
+      },
+      "variants": [
+        {
+          "type": "Tấn Công Thường Cường Hóa",
+          "name": "Sáng Thế - Gai Máu Độ Vong",
+          "tag": "Khuếch Tán",
+          "break_main": 30,
+          "break_adjacent": 20,
+          "description_template": "Nhận 2 điểm Phá Hủy, gây Sát Thương Vật Lý bằng {{main_damage}}% Tấn Công của Khaslana cho 1 kẻ địch chỉ định, gây Sát Thương Vật Lý bằng {{adj_damage}}% Tấn Công của Khaslana cho mục tiêu lân cận.",
+          "scaling": {
+            "main_damage": [
+              125.0,
+              150.0,
+              175.0,
+              200.0,
+              225.0,
+              250.0,
+              275.0
+            ],
+            "adj_damage": [
+              37.5,
+              45.0,
+              52.5,
+              60.0,
+              67.5,
+              75.0,
+              82.5
+            ]
+          }
+        }
+      ]
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Bình Minh Sáng Thế, Đất Trời Mở Lối",
+      "tag": "Khuếch Tán",
+      "break_main": 20,
+      "break_adjacent": 10,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Nhận 2 điểm \"Ngọn Lửa\", gây Sát Thương Vật Lý bằng {{skill_main}}% Tấn Công của Phainon cho 1 kẻ địch chỉ định, gây Sát Thương Vật Lý bằng {{skill_adj}}% Tấn Công của Phainon cho mục tiêu lân cận.",
+      "scaling": {
+        "skill_main": [
+          150.0,
+          165.0,
+          180.0,
+          195.0,
+          210.0,
+          225.0,
+          243.75,
+          262.5,
+          281.25,
+          300.0,
+          315.0,
+          330.0
+        ],
+        "skill_adj": [
+          60.0,
+          66.0,
+          72.0,
+          78.0,
+          84.0,
+          90.0,
+          97.5,
+          105.0,
+          112.5,
+          120.0,
+          126.0,
+          132.0
+        ]
+      },
+      "variants": [
+        {
+          "type": "Chiến Kỹ Cường Hóa (I)",
+          "name": "Tai Ương - Chiếu Chỉ Thiêu Đốt Linh Hồn",
+          "tag": "Cường Hóa",
+          "break_main": 10,
+          "break_bounce": 5,
+          "break_total": 30,
+          "description_template": "Nhận Phá Hủy bằng với số lượng toàn bộ phe địch và 1 tầng Ngọn Lửa Diệt Hồn, sau đó khiến toàn bộ phe địch lập tức hành động.\nỞ trạng thái \"Ngọn Lửa Diệt Hồn\", sát thương Khaslana phải chịu giảm 75,0%, sau khi mục tiêu phe địch tấn công hoặc hành động sẽ cộng dồn 1 tầng \"Ngọn Lửa Diệt Hồn\". Sau khi mục tiêu phe địch nêu trên hành động xong sẽ lập tức phát động Phản Kích, gây Sát Thương Vật Lý bằng {{main_damage}}% Tấn Công của Khaslana cho toàn bộ phe địch, đồng thời gây thêm 4 lần sát thương, mỗi lần gây Sát Thương Vật Lý bằng {{bounce_damage}}% Tấn Công của Khaslana cho 1 kẻ địch ngẫu nhiên, sau đó giải trừ \"Ngọn Lửa Diệt Hồn\". Mỗi tầng \"Ngọn Lửa Diệt Hồn\" khiến Bội Số Sát Thương của lần Phản Kích này tăng 20,0% của bội số gốc.\nKhi gây sát thương thông qua kỹ năng này, sẽ được xem là gây sát thương Chiến Kỹ. Nếu khi hiệp tăng thêm của Khaslana bắt đầu mà vẫn còn \"Ngọn Lửa Diệt Hồn\", sẽ lập tức phát động Phản Kích.",
+          "scaling": {
+            "main_damage": [
+              20.0,
+              22.0,
+              24.0,
+              26.0,
+              28.0,
+              30.0,
+              32.5,
+              35.0,
+              37.5,
+              40.0,
+              42.0,
+              44.0
+            ],
+            "bounce_damage": [
+              15.0,
+              16.5,
+              18.0,
+              19.5,
+              21.0,
+              22.5,
+              24.375,
+              26.25,
+              28.125,
+              30.0,
+              31.5,
+              33.0
+            ]
+          }
+        },
+        {
+          "type": "Chiến Kỹ Cường Hóa (II)",
+          "name": "Trụ Cột - Phán Quyết Tử Tinh",
+          "tag": "Nảy Bật",
+          "break_bounce": 3.33,
+          "break_aoe": 20,
+          "break_total": "73 (Nếu sử dụng 4 điểm \"Phá Hủy\")",
+          "description_template": "Giải trừ tất cả Hiệu Ứng Xấu của bản thân, sau đó gây Sát Thương Vật Lý tối đa bằng {{total_damage}}% Tấn Công của Khaslana.\nTrong đó, mỗi khi tiêu hao 1 điểm Phá Hủy sẽ gây 4 lần sát thương, mỗi lần gây Sát Thương Vật Lý bằng {{bounce_damage}}% Tấn Công của Khaslana cho 1 kẻ địch ngẫu nhiên. Khi tiêu hao 4 điểm Phá Hủy, sẽ gây thêm Sát Thương Vật Lý bằng {{final_hit}}% Tấn Công của Khaslana, chia đều cho toàn bộ phe địch.",
+          "scaling": {
+            "total_damage": [
+              585.0,
+              643.5,
+              702.0,
+              760.5,
+              819.0,
+              877.5,
+              950.625,
+              1023.75,
+              1096.875,
+              1170.0,
+              1228.5,
+              1287.0
+            ],
+            "bounce_damage": [
+              22.5,
+              24.75,
+              27.0,
+              29.25,
+              31.5,
+              33.75,
+              36.5625,
+              39.375,
+              42.1875,
+              45.0,
+              47.25,
+              49.5
+            ],
+            "final_hit": [
+              225.0,
+              247.5,
+              270.0,
+              292.5,
+              315.0,
+              337.5,
+              365.625,
+              393.75,
+              421.875,
+              450.0,
+              472.5,
+              495.0
+            ]
+          }
+        }
+      ]
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Vĩnh Kiếp Thiêu Thế, Một Mình Gánh Mang",
+      "tag": "Đánh Lan",
+      "energy_cost": "12 điểm \"Ngọn Lửa\"",
+      "break_aoe": 20,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Biến thân thành Khaslana, triển khai Vùng Lãnh Thổ \"Irontomb Tàn Phá\" trong thời gian biến thân. Đồng đội khác trong Vùng Lãnh Thổ Rời Trận và không thể hành động, toàn bộ phe địch từ đầu đến cuối sẽ luôn mang Điểm Yếu Vật Lý.\nKhaslana sẽ không vào hiệp của bản thân, nhưng có 8 Hiệp Tăng Thêm Của Khaslana, Tốc Độ cố định là 60,0% Tốc Độ cơ bản của Khaslana. Khi hiệp tăng thêm cuối cùng của Khaslana bắt đầu, sẽ lập tức phát động Đòn Đánh Cuối Cùng, gây Sát Thương Tuyệt Kỹ Vật Lý bằng {{detransformation}}% Tấn Công của Khaslana, chia đều cho toàn bộ phe địch.",
+      "scaling": {
+        "detransformation": [
+          480.0,
+          528.0,
+          576.0,
+          624.0,
+          672.0,
+          720.0,
+          780.0,
+          840.0,
+          900.0,
+          960.0,
+          1008.0,
+          1056.0
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Thân Này Là Đuốc",
+      "tag": "Cường Hóa",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Thiên phú của Phainon. Khi Ngọn Lửa đạt 12 điểm có thể kích hoạt Tuyệt Kỹ, sau khi đạt giới hạn còn có thể vượt mức tối đa 3 điểm, khi kết thúc biến thân sẽ nhận Ngọn Lửa dựa trên số điểm vượt mức.\nKhi Phainon trở thành mục tiêu kỹ năng của bất kỳ mục tiêu nào khác, sẽ nhận 1 điểm Ngọn Lửa. Nếu người thi triển là đồng đội của Phainon, sẽ có thể khiến sát thương bạo kích của Phainon tăng {{crit_buff}}%, duy trì 3 hiệp.",
+      "scaling": {
+        "crit_buff": [
+          15.0,
+          16.5,
+          18.0,
+          19.5,
+          21.0,
+          22.5,
+          24.375,
+          26.25,
+          28.125,
+          30.0,
+          31.5,
+          33.0
+        ]
+      },
+      "variants": [
+        {
+          "type": "Thiên Phú",
+          "name": "Vận Mệnh - Thân Này Là Thần",
+          "tag": "Cường Hóa",
+          "min_level": 1,
+          "max_level": 12,
+          "default_level": 10,
+          "description_template": "Thiên Phú của Khaslana. Khi biến thân sẽ nhận 4 điểm Phá Hủy. Nếu lúc này ở hiệp của mục tiêu phe ta, sẽ khiến tất cả hiệu ứng buff của mục tiêu này kéo dài 1 hiệp và kết thúc hiệp này.\nKhaslana miễn dịch Hiệu Ứng Xấu loại khống chế, có 1 Tấn Công Thường Cường Hóa và 2 Chiến Kỹ Cường Hóa, không thể thi triển Tuyệt Kỹ. Trong thời gian biến thân, Tấn Công tăng {{atk_buff}}%, Giới Hạn HP tăng {{hp_buff}}%, sau khi tấn công sẽ hồi HP bằng 20% Giới Hạn HP của bản thân. Khaslana khi chịu tấn công chí tử sẽ không rơi vào trạng thái không thể chiến đấu, mà sẽ hồi HP bằng 25% Giới Hạn HP của bản thân và lập tức phát động Đòn Đánh Cuối Cùng. Mỗi 1 hiệp tăng thêm còn lại của Khaslana, Bội Số Sát Thương của Đòn Đánh Cuối Cùng sẽ giảm 12.5% so với bội số gốc.\nKhi kết thúc biến thân, sẽ khiến Tốc Độ toàn bộ phe ta tăng 15%, duy trì 1 hiệp.",
+          "scaling": {
+            "atk_buff": [
+              40.0,
+              44.5,
+              48.0,
+              52.0,
+              56.0,
+              60.0,
+              65.0,
+              70.0,
+              75.0,
+              80.0,
+              84.0,
+              88.0
+            ],
+            "hp_buff": [
+              135.0,
+              148.5,
+              162.0,
+              175.5,
+              189.0,
+              202.5,
+              219.375,
+              236.25,
+              253.125,
+              270.0,
+              283.5,
+              297.0
+            ]
+          }
+        }
+      ]
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Khởi Đầu Của Kết Thúc",
+      "break": 20,
+      "description": "Khi có Phainon trong đội, giới hạn Điểm Bí Kỹ sẽ tăng 3 điểm.\nChủ động thi triển Bí Kỹ tiêu hao 2 điểm Bí Kỹ, lập tức tấn công tất cả kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, hồi 25 điểm Năng Lượng cho đồng đội, nhận 2 điểm Phá Hủy và 1 Điểm Chiến Kỹ, đồng thời khi bắt đầu mỗi đợt sẽ gây Sát Thương Vật Lý bằng 200% Tấn Công của Phainon cho toàn bộ phe địch.\nNếu tấn công kẻ địch bình thường sẽ lập tức tiêu diệt kẻ đó, không vào chiến đấu. Khi chưa đánh trúng kẻ địch sẽ không tiêu hao điểm Bí Kỹ."
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Đi Đến Điểm Tận Cùng",
+      "description": "Khi bắt đầu chiến đấu, nhận 1 điểm Ngọn Lửa. Khi kết thúc Biến Thân, nhận 3 điểm Ngọn Lửa."
+    },
+    "4": {
+      "name": "Thân Mang Nghìn Ngọn Lửa",
+      "description": "Khi nhận Khiên hoặc hiệu ứng trị liệu từ đồng đội, Sát Thương gây ra tăng 45%, duy trì 4 hiệp. Hiệu ứng này không thể kích hoạt trùng lặp trong 1 hiệp.\nKhi nhận hiệu ứng kỹ năng hồi Năng Lượng từ đồng đội, sẽ nhận 1 điểm \"Ngọn Lửa\"."
+    },
+    "6": {
+      "name": "Sáng Soi Bản Sắc Anh Hùng",
+      "description": "Khi vào chiến đấu hoặc kết thúc biến thân, Tấn Công tăng 50%. Hiệu ứng này tối đa cộng dồn 2 tầng."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "Tốc Độ",
+      "value": "+5"
+    },
+    {
+      "stat": "Tỷ Lệ Bạo Kích",
+      "value": "+12%"
+    },
+    {
+      "stat": "Sát Thương Bạo Kích",
+      "value": "+37.3%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Lửa Và Ánh Sáng, Hóa Thân Của Thiện Và Ác",
+      "description": "Tỷ lệ kế thừa Tốc Độ cơ bản của Hiệp Tăng Thêm Của Khaslana tăng đến 66%. Trong một trận đấu cứ có 1 mục tiêu phe địch bị tiêu diệt thì sẽ tăng thêm 1.5%, tối đa tăng đến 84%.\nKhi thi triển Tuyệt Kỹ, Sát Thương Bạo Kích tăng 50%, duy trì 3 hiệp."
+    },
+    {
+      "level": 2,
+      "name": "Trời Và Đất, Bọt Bóng Của Thế Gian",
+      "description": "Xuyên Kháng Vật Lý của Khaslana tăng 20%. Thi triển 1 lần \"Trụ Cột - Phán Quyết Tử Tinh\" tiêu hao điểm Phá Hủy đạt 1 điểm sẽ nhận 1 hiệp tăng thêm."
+    },
+    {
+      "level": 3,
+      "name": "Mấy Tầng Tĩnh Mịch, Chôn Sâu Vào Phế Tích",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Bao Nhiêu Titan, Mờ Nhạt Theo Thời Gian",
+      "description": "Khi thi triển Tai Ương - Chiếu Chỉ Thiêu Đốt Linh Hồn, sẽ nhận thêm 4 tầng Ngọn Lửa Diệt Hồn."
+    },
+    {
+      "level": 5,
+      "name": "Kim Đồng Hồ Vĩnh Kiếp, Quay Ba Mươi Triệu Vòng",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    {
+      "level": 6,
+      "name": "Trỗi Dậy Từ Xa Xưa, Lửa Nuốt Chửng Mặt Trời",
+      "description": "Điểm có thể vượt mức của Ngọn Lửa sẽ không còn giới hạn nữa. Khi bắt đầu chiến đấu, nhận 6 điểm Ngọn Lửa.\nSau khi thi triển \"Trụ Cột - Phán Quyết Tử Tinh\" tấn công, sẽ gây thêm cho mục tiêu phe địch có HP cao nhất Sát Thương Chuẩn bằng 36% tổng sát thương của lần tấn công này."
+    }
+  ]
+}

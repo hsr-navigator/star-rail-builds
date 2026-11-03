@@ -1,0 +1,381 @@
+{
+  "id": "hyacine",
+  "name": "Hyacine",
+  "rarity": "5",
+  "type": "wind",
+  "path": "remembrance",
+  "version_released": "3.3",
+  "max_energy": 140,
+  "level_80_stats": {
+    "hp": 1086,
+    "atk": 388,
+    "def": 630,
+    "spd": 110
+  },
+  "abilities": {
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Khi Gió Nhẹ Hôn Mây Trời",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây cho 1 kẻ địch chỉ định sát thương Lượng Tử bằng {{scaling1}}% Giới Hạn HP của Hyacine.",
+      "scaling": {
+        "scaling1": [
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55
+        ]
+      }
+    },
+    "skill": {
+      "type": "Skill",
+      "name": "Love Over the Rainbow",
+      "tag": "Restore",
+      "energy_gain": 30,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Triệu hồi Linh Hồn Ký Ức Nhóc Ica, hồi phục cho toàn thể mục tiêu phe ta ngoại trừ Nhóc Ica lượng HP bằng {{scaling1}}% Giới Hạn HP của Hyacine +{{scaling2}}. Hồi phục cho Nhóc Ica lượng HP bằng {{scaling3}}% Giới Hạn HP của Hyacine +{{scaling4}}.",
+      "scaling": {
+        "scaling1": [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.4,
+          6.8,
+          7.2,
+          7.6,
+          8,
+          8.4,
+          8.8,
+          9.2,
+          9.6,
+          10
+        ],
+        "scaling2": [
+          40,
+          64,
+          82,
+          100,
+          112,
+          124,
+          133,
+          142,
+          151,
+          160,
+          169,
+          178,
+          187,
+          196,
+          205
+        ],
+        "scaling3": [
+          5,
+          5.6,
+          6.3,
+          6.9,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12,
+          12.5
+        ],
+        "scaling4": [
+          50,
+          80,
+          102.5,
+          125,
+          140,
+          155,
+          166.25,
+          177.5,
+          188.75,
+          200,
+          211.25,
+          222.5,
+          233.75,
+          245,
+          256.25
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Chúng Ta Bay Vào Hoàng Hôn",
+      "tag": "Hỗ Trợ",
+      "energy_gain": 5,
+      "energy_cost": 140,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Triệu hồi Linh Hồn Ký Ức Nhóc Ica, hồi phục cho toàn bộ mục tiêu phe ta ngoại trừ Nhóc Ica lượng HP bằng {{scaling1}}% Giới Hạn HP của Hyacine +{{scaling2}}, hồi phục cho Nhóc Ica lượng HP bằng {{scaling3}}% Giới Hạn HP của Hyacine +{{scaling4}}. Hyacine vào trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", duy trì 3 hiệp, khi hiệp của Hyacine bắt đầu, số hiệp duy trì sẽ trừ 1. Khi trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", Giới Hạn HP của toàn bộ mục tiêu phe ta tăng {{scaling5}}% + {{scaling6}} điểm.",
+      "scaling": {
+        "scaling1": [
+          5,
+          5.625,
+          6.25,
+          6.875,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11
+        ],
+        "scaling2": [
+          50,
+          80,
+          102.5,
+          125,
+          140,
+          155,
+          166.25,
+          177.5,
+          188.75,
+          200,
+          211.25,
+          222.5
+        ],
+        "scaling3": [
+          15,
+          16.5,
+          18,
+          19.5,
+          21,
+          22.5,
+          24.375,
+          26.25,
+          28.125,
+          30,
+          31.5,
+          33
+        ],
+        "scaling4": [
+          150,
+          240,
+          307.5,
+          375,
+          420,
+          465,
+          498.75,
+          532.5,
+          566.25,
+          600,
+          633.75,
+          667.5
+        ],
+        "scaling5": [
+          6,
+          6.75,
+          7.5,
+          8.25,
+          9,
+          9.6,
+          10.2,
+          10.8,
+          11.4,
+          12,
+          12.6,
+          13.2
+        ],
+        "scaling6": [
+          60,
+          96,
+          123,
+          150,
+          168,
+          186,
+          199.5,
+          213,
+          226.5,
+          240,
+          253.5,
+          267
+        ]
+      }
+    },
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Ánh Bình Minh Chữa Lành Thế Gian",
+      "tag": "Cường Hóa",
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Linh Hồn Ký Ức Nhóc Ica ban đầu có Giới Hạn HP bằng 50% Giới Hạn HP của Hyacine. Khi Hyacine hoặc Nhóc Ica cung cấp trị liệu, sát thương Nhóc Ica gây ra sẽ tăng {{scaling1}}%, duy trì 2 hiệp, tối đa cộng dồn 3 tầng.",
+      "scaling": {
+        "scaling1": [
+          40,
+          44,
+          48,
+          52,
+          56,
+          60,
+          65,
+          70,
+          75,
+          80,
+          84,
+          88
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Thời Tiết Thật Đẹp, Vạn Vật Thật Đáng Yêu!",
+      "tag": "Hồi Phục",
+      "description": "Khi bắt đầu trận kế tiếp, sẽ hồi cho toàn phe ta lượng HP bằng 30% Giới Hạn HP của Hyacine +600 và tăng 20% Giới Hạn HP, duy trì 2 hiệp."
+    }
+  },
+  "memosprite": {
+    "name": "Nhóc Ica",
+    "initial_spd": 0,
+    "hp_source": "50% of Hyacine's Max HP",
+    "skills": {
+      "memosprite_skill": {
+        "type": "Kỹ Năng Linh Hồn Ký Ức",
+        "name": "Mây Đen Hãy Tan Biến!",
+        "tag": "Đánh Lan",
+        "energy_gain": 5,
+        "break_aoe": 10,
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "Gây cho toàn phe địch Sát Thương Phong bằng {{scaling1}}% lượng trị liệu Hyacine và Nhóc Ica tích lũy trong trận này. Đồng thời xóa 50% lượng trị liệu tích lũy.",
+        "scaling": {
+          "scaling1": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26
+          ]
+        }
+      },
+      "memosprite_talent": {
+        "type": "Thiên Phú Linh Hồn Ký Ức",
+        "name": "Take Sky in Hand",
+        "tag": "Hồi Phục",
+        "min_level": 1,
+        "max_level": 7,
+        "default_level": 6,
+        "description_template": "Tốc độ của Nhóc Ica duy trì bằng 0, miễn Hiệu Ứng Xấu, đồng thời sẽ không xuất hiện trong thứ tự hành động.\nNếu mục tiêu phe ta ngoại trừ Nhóc Ica bị giảm HP, thì khi bắt đầu hiệp của mục tiêu bất kỳ hoặc sau khi hành động, Nhóc Ica sẽ tiêu hao HP bằng 4% Giới Hạn HP của bản thân, và giúp mục tiêu bị giảm HP của phe ta hồi HP bằng {{scaling1}}% Giới Hạn HP của Hyacine +{{scaling2}}.\nKhi Hyacine trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", sau khi Hyacine thi triển kỹ năng, Nhóc Ica sẽ nhận ngay 1 hiệp tăng thêm và tự động thi triển \"Mây Đen Hãy Tan Biến!\", đồng thời khi Nhóc Ica kích hoạt hiệu ứng trị liệu của Thiên Phú sẽ hồi thêm cho toàn thể mục tiêu phe ta lượng HP bằng {{scaling1}}% Giới Hạn HP của Hyacine +{{scaling2}}. Sau khi Nhóc Ica thi triển kỹ năng, sẽ khiến số hiệp duy trì của tất cả hiệu ứng duy trì của bản thân giảm 1.",
+        "scaling": {
+          "scaling1": [
+            1,
+            1.2,
+            1.4,
+            1.6,
+            1.8,
+            2,
+            2.2
+          ],
+          "scaling2": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+          ]
+        },
+        "variants": [
+          {
+            "type": "Thiên Phú Linh Hồn Ký Ức",
+            "name": "Dang Cánh, Hướng Về Mặt Trời",
+            "tag": "Cường Hóa",
+            "description": "Khi được triệu hồi, hồi phục 15 Năng Lượng cho Hyacine, lần đầu triệu hồi, sẽ hồi phục thêm 30 Năng Lượng."
+          },
+          {
+            "type": "Thiên Phú Linh Hồn Ký Ức",
+            "name": "Rơi Xuống Rồi Bay Lên",
+            "tag": "Cường Hóa",
+            "description": "Khi biến mất, sẽ khiến Hyacine Ưu Tiên Hành Động 30%."
+          }
+        ]
+      }
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Mây Đen Mỉm Cười",
+      "description": "Tỷ Lệ Bạo Kích của Hyacine và Nhóc Ica tăng 100%, khi trị liệu cho mục tiêu phe ta có HP hiện tại nhỏ hơn hoặc bằng 50% Giới Hạn HP của bản thân, lượng trị liệu của Hyacine và Nhóc Ica tăng 25%."
+    },
+    "4": {
+      "name": "Mưa Dông Dịu Dàng",
+      "description": "Kháng Hiệu Ứng của Hyacine tăng 50%. Khi thi triển Chiến Kỹ và Tuyệt Kỹ sẽ giải trừ 1 Hiệu Ứng Xấu của toàn bộ mục tiêu phe ta."
+    },
+    "6": {
+      "name": "Bão Tố Dừng Lại",
+      "description": "Khi Tốc Độ của Hyacine lớn hơn 200, Giới Hạn HP của Hyacine và Nhóc Ica sẽ tăng 20%, sau đó cứ mỗi 1 điểm Tốc Độ vượt quá, Lượng Trị Liệu Hyacine và Nhóc Ica cung cấp sẽ tăng 1%, tối đa tính 200 điểm Tốc Độ vượt quá."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "HP",
+      "value": "+10%"
+    },
+    {
+      "stat": "Tốc Độ",
+      "value": "+14"
+    },
+    {
+      "stat": "Kháng Hiệu Ứng",
+      "value": "+18%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Bảo Vệ Ngọn Nến Trong Đêm Tối",
+      "description": "Khi Hyacine ở trạng thái Sau Cơn Mưa Trời Lại Sáng, Giới Hạn HP của toàn bộ mục tiêu phe ta tăng 50%, và sau khi thi triển tấn công sẽ hồi ngay HP bằng 8% Giới Hạn HP của Hyacine."
+    },
+    {
+      "level": 2,
+      "name": "Mời Đến Đình Viện Ngồi Chơi",
+      "description": "Khi HP của mục tiêu phe ta giảm, Tốc Độ sẽ tăng 30%, duy trì 2 hiệp."
+    },
+    {
+      "level": 3,
+      "name": "Xuất Phát! Hướng Về Mặt Trời",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Linh Hồn Ký Ức +1, tối đa không vượt quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Tặng Bạn Hổ Phách Hoàng Hôn",
+      "description": "Vết Tích Bão Tố Dừng Lại được cường hóa, mỗi 1 điểm Tốc Độ vượt quá, Sát Thương Bạo Kích của Hyacine và Nhóc Ica sẽ tăng thêm 2%."
+    },
+    {
+      "level": 5,
+      "name": "Ráng Chiều Nhuộm Đỏ Biển Sâu",
+      "description": "Cấp Chiến Kỹ +2, tối đa không vượt quá cấp 15; Cấp Thiên Phú +2, tối đa không vượt quá cấp 15; Cấp Thiên Phú Linh Hồn Ký Ức +1, tối đa không vượt quá cấp 10."
+    },
+    {
+      "level": 6,
+      "name": "Bầu Trời... Đáp Lời Nguyện Cầu",
+      "description": "Nhóc Ica thi triển Kỹ Năng Linh Hồn Ký Ức xóa điểm trị liệu tích lũy sửa thành 12%. Khi Nhóc Ica ở trong trận, Xuyên Kháng Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng 20%."
+    }
+  ]
+}

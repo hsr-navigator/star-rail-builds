@@ -111,7 +111,7 @@
           "break_main": 10,
           "break_bounce": 5,
           "break_total": 30,
-          "description_template": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action. While in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to {{main_damage}}% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to {{bounce_damage}}% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value. DMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter.",
+          "description_template": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\nWhile in the \"Soulscorch\" state, Khaslana takes 75% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to {{main_damage}}% of Khaslana's ATK, and additionally deals 4 instance(s) of DMG, with each instance being Physical DMG equal to {{bounce_damage}}% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by 20% of its original multiplier value.\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter.",
           "scaling": {
             "main_damage": [
               20.0,
@@ -149,8 +149,8 @@
           "tag": "Bounce",
           "break_bounce": 3.33,
           "break_aoe": 20,
-          "break_total": "73 (If cosumed 4 points of \"Scourge\")",
-          "description_template": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of {{total_damage}}% of Khaslana's ATK. For every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to {{bounce_damage}}% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to {{final_hit}}% of Khaslana's ATK, which is evenly distributed across all enemies.",
+          "break_total": "73 (If consumed 4 points of \"Scourge\")",
+          "description_template": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of {{total_damage}}% of Khaslana's ATK.\nFor every 1 point of \"Scourge\" consumed, deals 4 instance(s) of DMG, with each instance being Physical DMG equal to {{bounce_damage}}% of Khaslana's ATK dealt to one random enemy. When consuming 4 point(s) of \"Scourge\", additionally deals Physical DMG equal to {{final_hit}}% of Khaslana's ATK, which is evenly distributed across all enemies.",
           "scaling": {
             "total_damage": [
               585.0,
@@ -207,7 +207,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses. Khaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to {{detransformation}}% of Khaslana's ATK that is distributed evenly across all enemies.",
+      "description_template": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s), with a SPD set at 60% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to {{detransformation}}% of Khaslana's ATK that is distributed evenly across all enemies.",
       "scaling": {
         "detransformation": [
           480.0,
@@ -232,7 +232,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points. When Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by {{crit_buff}}% for 3 turn(s).",
+      "description_template": "Phainon's Talent. When \"Coreflame\" reaches 12 point(s), can activate Ultimate. Even after reaching the limit, can still hold up to 3 overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by {{crit_buff}}% for 3 turn(s).",
       "scaling": {
         "crit_buff": [
           15.0,
@@ -257,7 +257,7 @@
           "min_level": 1,
           "max_level": 12,
           "default_level": 10,
-          "description_template": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends. Khaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by {{atk_buff}}% and Max HP by {{hp_buff}}%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value. When the transformation ends, increases all allies' SPD by 15% for 1 turn.",
+          "description_template": "Khaslana's Talent. Upon transformation, gains 4 point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by {{atk_buff}}% and Max HP by {{hp_buff}}%. After using an attack, restores HP equal to 20% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to 25% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by 12.5% of its original multiplier value.\nWhen the transformation ends, increases all allies' SPD by 15% for 1 turn.",
           "scaling": {
             "atk_buff": [
               40.0,
@@ -295,7 +295,7 @@
       "type": "Technique",
       "name": "Beginning of the End",
       "break": 20,
-      "description": "While Phainon is in the team, increases Max Technique Points by 3. When actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 \"Scourge\" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave. If attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit."
+      "description": "While Phainon is in the team, increases Max Technique Points by 3.\nWhen actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates 25 Energy for allies and gains 2 \"Scourge\" and 1 Skill Point(s). Deals Physical DMG equal to 200% of Phainon's ATK to all enemies at the start of each wave.\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit."
     }
   },
   "major_traces": {
@@ -305,7 +305,7 @@
     },
     "4": {
       "name": "Bide in Flames",
-      "description": "When receiving healing or a Shield from a teammate, deals 45% increased DMG for 4 turn(s). This effect cannot trigger repeatedly within one turn. When receiving an Energy Regeneration effect from a teammate's ability, gains 1 point(s) of \"Coreflame.\""
+      "description": "When receiving healing or a Shield from a teammate, deals 45% increased DMG for 4 turn(s). This effect cannot trigger repeatedly within one turn.\nWhen receiving an Energy Regeneration effect from a teammate's ability, gains 1 point(s) of \"Coreflame.\""
     },
     "6": {
       "name": "Shine with Valor",
@@ -330,7 +330,7 @@
     {
       "level": 1,
       "name": "Fire and Light Bind Virtue and Vice",
-      "description": "The base SPD inheritance ratio for Khaslana's extra turn increases to 66%. For every enemy target defeated in one battle, additionally increases this ratio by 1.5%, up to a max of 84%. When using Ultimate, increases CRIT DMG by 50%, lasting for 3 turn(s)."
+      "description": "The base SPD inheritance ratio for Khaslana's extra turn increases to 66%. For every enemy target defeated in one battle, additionally increases this ratio by 1.5%, up to a max of 84%.\nWhen using Ultimate, increases CRIT DMG by 50%, lasting for 3 turn(s)."
     },
     {
       "level": 2,
@@ -340,7 +340,7 @@
     {
       "level": 3,
       "name": "Depths of Quiet, Entombed in Ruin",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 4,
@@ -350,7 +350,7 @@
     {
       "level": 5,
       "name": "The Wheel Spins Forevermore",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
     {
       "level": 6,
