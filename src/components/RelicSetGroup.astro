@@ -91,7 +91,10 @@ const rows: RelicSetRow[] = group.choose
         ? group.choices.map((choice, index) => ({
               items: choice.items,
               alt: index > 0,
-              prefix: index > 0 ? 'and ' : '',
+              prefix:
+                  index > 0
+                      ? `${t(locale, 'ui', 'and', undefined, false)} `
+                      : '',
               chooseOne: true,
           }))
         : [
