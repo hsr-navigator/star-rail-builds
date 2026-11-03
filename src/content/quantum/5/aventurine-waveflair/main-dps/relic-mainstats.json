@@ -13,7 +13,8 @@
                 {
                     "en": "Use any Main Stats as he does not scale off of ATK, HP, or DEF.",
                     "ru": "Используйте любые основные статы, так как его урон не зависит от силы атаки, HP или защиты.",
-                    "vn": "Dùng bất kỳ Thuộc Tính Chính nào, bởi vì anh ấy không phụ thuộc vào Tấn Công, HP, hoặc Phòng Thủ."
+                    "vn": "Dùng bất kỳ Thuộc Tính Chính nào, bởi vì anh ấy không phụ thuộc vào Tấn Công, HP, hoặc Phòng Thủ.",
+                    "cht": "由於他的主要輸出是歡愉傷害，任何主詞條都影響不了他實際輸出，選副詞條優秀的即可。若面對生存壓力則可以考慮生/防主詞條。"
                 }
             }
         ],
