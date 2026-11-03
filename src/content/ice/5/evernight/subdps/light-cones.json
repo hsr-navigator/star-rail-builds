@@ -37,8 +37,10 @@
                 {
                     "name": "curtain",
                     "superimposition": 5,
-                    "note": " Before resorting to [[lightcone:curtain]], use any high base HP light cone off Path, specifically 1164+ base HP light cones."
-                    
+                    "note": {
+                        "en": "Before resorting to [[lightcone:curtain]], use any high base HP Light Cone off Path, specifically 1164+ base HP Light Cones.",
+                        "ru": "Прежде чем использовать [[lightcone:curtain]], используйте любой Cветовой конус другого Пути с высоким базовым HP, особенно Cветовые конусы с базовым HP 1164+."
+                    }
                 }
             ]
         },
