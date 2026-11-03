@@ -17,7 +17,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[set:diviner]] can be used to avoid overcapping DEF Reduction/DEF Ignore.",
-                                "ru": "[[set:diviner]] можно использовать, чтобы избежать превышения понижения защиты/игнорирования защиты."
+                                "ru": "[[set:diviner]] можно использовать, чтобы избежать превышения понижения защиты/игнорирования защиты.",
+                                "cht": "[[set:diviner]]在可避免減防/無視防御溢出。"
                             }
                         }
                     ]
