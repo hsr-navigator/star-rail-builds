@@ -35,7 +35,8 @@
                     "superimposition": 5,
                     "note_group": "type",
                     "note": {
-                        "en": "This can only be used if the wearer is of the same Type as the DPS."
+                        "en": "This can only be used if the wearer is of the same Type as the DPS.",
+                        "ru": "Можно использовать, только если основной ДД имеет тот же тип (ветряной), что и Керидра."
                     }
                 }
             ]

@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "Support"
+        "en": "Support",
+        "ru": "Саппорт"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Cerydra's Talent grants one ally \"Military Merit\". That ally gains 1 Charge whenever Cerydra uses her Skill, or whenever the \"Military Merit\" holder uses a Basic ATK or Skill. Cerydra's Ultimate additionally grants 2 Charges. Up to 8 Charges can be stored. Upon reaching 6 or more Charges, the ally's next Skill is automatically duplicated, and 6 Charges are consumed.\n- Cerydra provides powerful Skill-focused buffs, including ATK%, All-Type RES PEN, CRIT DMG%, Additional DMG, and SPD for both herself and the \"Military Merit\" holder.\n- She excels at supporting DPS characters who deal most of their damage through frequent Skill usage, such as Phainon and Anaxa. However, her limited general-purpose buffs make her highly specialized for this niche."
+            "en": "- Cerydra's Talent grants one ally \"Military Merit\". That ally gains 1 Charge whenever Cerydra uses her Skill, or whenever the \"Military Merit\" holder uses a Basic ATK or Skill. Cerydra's Ultimate additionally grants 2 Charges. Up to 8 Charges can be stored. Upon reaching 6 or more Charges, the ally's next Skill is automatically duplicated, and 6 Charges are consumed.\n- Cerydra provides powerful Skill-focused buffs, including ATK%, All-Type RES PEN, CRIT DMG%, Additional DMG, and SPD for both herself and the \"Military Merit\" holder.\n- She excels at supporting DPS characters who deal most of their damage through frequent Skill usage, such as Phainon and Anaxa. However, her limited general-purpose buffs make her highly specialized for this niche.",
+            "ru": "- Талант Керидры даёт одному союзнику статус Боевые заслуги. Этот союзник получает 1 ед. заряда каждый раз, когда Керидра использует свой навык, а также когда сам носитель статуса Боевые заслуги применяет базовую атаку или навык. Сверхспособность Керидры дополнительно даёт 2 ед. заряда. Всего можно накопить до 8 ед. заряда. При достижении 6 или более ед. заряда следующий навык этого союзника автоматически дублируется, а 6 ед. заряда при этом расходуются.\n- Керидра предоставляет мощные усиления, ориентированные на использование навыков: силу атаки%, пробитие всех типов сопротивления, крит. урон%, дополнительный урон и повышение скорости — как для себя, так и для носителя статуса Боевые заслуги.\n- Она отлично подходит для поддержки персонажей, наносящих основной урон за счёт частого использования навыков (например, Фаенон или Анакса). Однако из-за того, что её универсальные усиления ограничены, она остаётся узкоспециализированным персонажем, предназначенным именно для этой ниши."
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 > S1"
+                "en": "E1 > S1",
+                "ru": "E1 > S1"
             },
             "details": {
-                "en": "- E1 provides DEF Ignore, a strong damage amplification when Coup de Main is triggered. Its Energy is rarely useful, but notably allows her to stack two of Phainon's \"Coreflame\" with one Skill usage. However, Cyrene makes this effect unnecessary.\n- S1 significantly improves Cerydra's ATK, and grants the DPS a sizeable buff to Skill DMG. Its improvements to Skill Point economy can allow the team to spam Skill more easily, sometimes resulting in more Coup de Main triggers."
+                "en": "- E1 provides DEF Ignore, a strong damage amplification when Coup de Main is triggered. Its Energy is rarely useful, but notably allows her to stack two of Phainon's \"Coreflame\" with one Skill usage. However, Cyrene makes this effect unnecessary.\n- S1 significantly improves Cerydra's ATK, and grants the DPS a sizeable buff to Skill DMG. Its improvements to Skill Point economy can allow the team to spam Skill more easily, sometimes resulting in more Coup de Main triggers.",
+                "ru": "- E1 даёт игнорирование защиты, которое значительно усиливает урон при срабатывании Внезапной атаки. Бонус к энергии редко бывает полезен, однако он позволяет получить сразу ед. заряда Ядро пламени Фаенона за одно использование навыка. Впрочем, в присутствии Кирены в команде этот эффект становится излишним.\n- S1 существенно повышает силу атаки Керидры и даёт значительный бонус к урону навыка. Оно также даёт дополнительное очко навыка и позволяет команде чаще использовать навыки, что зачастую приводит к более частому срабатыванию Внезапной атаки."
             }
         }
     }

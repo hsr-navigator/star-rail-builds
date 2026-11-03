@@ -8,7 +8,8 @@
             "name": "spd",
             "recommended": "114 / 140",
             "note": {
-                "en": "Cerydra prefers to be slower than the DPS for [[set:sacerdos]] uptime, but can be made fast for marginally more Skill Points or \"Military Merit\" Charges."
+                "en": "Cerydra prefers to be slower than the DPS for [[set:sacerdos]] uptime, but can be made fast for marginally more Skill Points or \"Military Merit\" Charges.",
+                "ru": "Керидра предпочитает иметь меньшую скорость, чем ДД-персонаж, чтобы поддерживать эффект от [[set:sacerdos]], однако её можно сделать быстрее — это даст незначительный прирост очков навыков или ед. заряда Боевые заслуги."
             }
         }
     ]
