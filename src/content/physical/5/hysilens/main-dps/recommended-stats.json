@@ -4,14 +4,16 @@
             "name": "atk",
             "recommended": "3600+",
             "note": {
-                "en": "For [[set:revelry]]. Aim for 4000+ [[stat:atk]] with S1 [[light-cone:reforged-remembrance]] or S1 [[light-cone:why-does-the-ocean-sing]]."
+                "en": "For [[set:revelry]]. Aim for 4000+ [[stat:atk]] with S1 [[light-cone:reforged-remembrance]] or S1 [[light-cone:why-does-the-ocean-sing]].",
+                "ru": "Для [[set:revelry|Хмельной бухты]]. Старайтесь достичь 4000+  [[stat:atk|силы атаки]] с S1 [[light-cone:reforged-remembrance]] или S1 [[light-cone:why-does-the-ocean-sing]]."
             }
         },
         {
             "name": "spd",
             "recommended": "134",
             "note": {
-                "en": "Can be lowered to 129 if there is S1 [[light-cone:why-does-the-ocean-sing]] on the team."
+                "en": "Can be lowered to 129 if there is S1 [[light-cone:why-does-the-ocean-sing]] on the team.",
+                "ru": "Можно снизить до 129, если в команде кто-нибудь использует S1 [[light-cone:why-does-the-ocean-sing]]."
             }
         },
         {
