@@ -21,6 +21,9 @@ type Props = {
 const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
+const homePath = localizedPath(currentLang);
+const isHomepage =
+    Astro.url.pathname.replace(/\/+$/, '') === homePath.replace(/\/+$/, '');
 const searchShortcutBannerDismissedStorageKey =
     'star-rail-builds:search-shortcut-banner-dismissed';
 const searchShortcutBannerDisabledStorageKey =
@@ -73,9 +76,10 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
 <header class="site-header">
     <div class="navbar">
         <a
-            href={localizedPath(currentLang)}
+            href={homePath}
             class="logo-link"
             aria-label="Star Rail Builds home"
+            data-home-scroll={isHomepage ? 'true' : undefined}
         >
             <span>Star Rail Builds</span>
         </a>
@@ -231,5 +235,26 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
         },
         { capture: true },
     );
+    document
+        .querySelector<HTMLAnchorElement>('.logo-link[data-home-scroll="true"]')
+        ?.addEventListener('click', (event) => {
+            // Preserve normal Ctrl/Cmd-click behavior.
+            if (
+                event.ctrlKey ||
+                event.metaKey ||
+                event.shiftKey ||
+                event.altKey
+            )
+                return;
 
+            event.preventDefault();
+
+            window.scrollTo({
+                top: 0,
+                behavior: window.matchMedia('(prefers-reduced-motion: reduce)')
+                    .matches
+                    ? 'instant'
+                    : 'smooth',
+            });
+        });
 </script>
