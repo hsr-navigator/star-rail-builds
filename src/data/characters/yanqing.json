@@ -238,15 +238,15 @@
   "stat_bonuses": [
     {
       "stat": "HP",
-      "value": "+6%"
+      "value": "+10%"
     },
     {
       "stat": "ATK",
-      "value": "+18%"
+      "value": "+28%"
     },
     {
       "stat": "Ice DMG",
-      "value": "+10.8%"
+      "value": "+14.4%"
     }
   ],
 

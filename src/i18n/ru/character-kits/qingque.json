@@ -7,9 +7,9 @@
   "version_released": "1.0",
   "max_energy": 140,
   "level_80_stats": {
-    "hp": 904,
-    "atk": 712,
-    "def": 390,
+    "hp": 1023,
+    "atk": 652,
+    "def": 441,
     "spd": 98
   },
   "abilities": {

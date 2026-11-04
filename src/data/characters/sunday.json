@@ -189,11 +189,11 @@
   "stat_bonuses": [
     {
       "stat": "DEF",
-      "value": "+7.5%"
+      "value": "+12.5%"
     },
     {
       "stat": "CRIT DMG",
-      "value": "+32%"
+      "value": "+37.3%"
     },
     {
       "stat": "Effect RES",
