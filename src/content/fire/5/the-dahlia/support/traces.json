@@ -21,7 +21,8 @@
                     "note_group": "skillba",
                     "note": {
                         "en": "Skill and Basic ATK can be ignored.",
-                        "ru": "Навык и базовую атаку можно не прокачивать."
+                        "ru": "Навык и базовую атаку можно не прокачивать.",
+                        "vn": "Có thể bỏ qua [[ability:skill]] và [[ability:basic]]."
                     }
                 },
                 {

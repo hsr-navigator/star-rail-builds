@@ -1,0 +1,230 @@
+{
+  "id": "the-dahlia",
+  "name": "Dahlia",
+  "rarity": "5",
+  "type": "fire",
+  "path": "nihility",
+  "version_released": "3.8",
+  "max_energy": 130,
+  "level_80_stats": {
+    "hp": 1086,
+    "atk": 679,
+    "def": 606,
+    "spd": 96
+  },
+  "abilities": {
+    "talent": {
+      "type": "Thiên Phú",
+      "name": "Ai Đang Sợ Constance?",
+      "tag": "Nảy Bật",
+      "energy_gain": 10,
+      "break_bounce": 3,
+      "break_total": 15,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khi vào chiến đấu, Dahlia sẽ hồi phục 35 điểm Năng Lượng, đồng thời khiến bản thân và 1 đồng đội khai chiến khác cùng trở thành \"Bạn Nhảy\". Mỗi khi trong trận không tồn tại \"Bạn Nhảy\" khác, sẽ khiến bản thân và đồng đội có Tấn Công Kích Phá cao nhất cùng trở thành \"Bạn Nhảy\". Sau khi \"Bạn Nhảy\" tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến giá trị Giảm Sức Bền của lần tấn công này chuyển hóa thành 1 lần Siêu Sát Thương Phá Vỡ {{scaling1}}%.\nSau khi mục tiêu phe địch chịu đòn tấn công từ \"Bạn Nhảy\" khác, Dahlia sẽ phát động Đòn Đánh Theo Sau, gây 5 lần sát thương, mỗi lần gây cho một kẻ địch ngẫu nhiên Sát Thương Hỏa bằng {{scaling2}}% Tấn Công của Dahlia. Sau mỗi lần gây sát thương cho mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến giá trị Giảm Sức Bền của lần sát thương này chuyển hóa thành 1 lần Siêu Sát Thương Phá Vỡ {{scaling3}}%.\nHiệu ứng này mỗi hiệp tối đa kích hoạt 1 lần, nếu trước khi thi triển Đòn Đánh Theo Sau mục tiêu bị tiêu diệt thì sẽ phát động lên một mục tiêu bất kỳ của phe địch.",
+      "scaling": {
+        "scaling1": [
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          49,
+          53,
+          56,
+          60,
+          63,
+          66
+        ],
+        "scaling2": [
+          15,
+          16.5,
+          18,
+          19.5,
+          21,
+          22.5,
+          24.3,
+          26,
+          28,
+          30,
+          32,
+          33
+        ],
+        "scaling3": [
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          163,
+          175,
+          188,
+          200,
+          210,
+          220
+        ]
+      }
+    },
+    "skill": {
+      "type": "Chiến Kỹ",
+      "name": "Liếm Láp... Chiếc Lưỡi Phản Bội Rực Lửa",
+      "tag": "Khuếch Tán",
+      "energy_gain": 30,
+      "break_main": 10,
+      "break_adjacent": 10,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Mở kết giới, duy trì 3 hiệp, khi hiệp của Dahlia bắt đầu, số hiệp duy trì sẽ giảm 1. Sau đó gây Sát Thương Hỏa lên 1 kẻ địch chỉ định và các mục tiêu lân cận bằng {{scaling1}}% Tấn Công của Dahlia.\nTrong thời gian duy trì kết giới, Hiệu Suất Phá Vỡ Điểm Yếu của toàn bộ phe ta tăng 50%, khi mục tiêu phe địch không ở trong trạng thái Phá Vỡ Điểm Yếu, giá trị Giảm Sức Bền phải chịu cũng có thể được chuyển hóa thành Siêu Sát Thương Phá Vỡ.",
+      "scaling": {
+        "scaling1": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          130,
+          140,
+          150,
+          160,
+          168
+        ]
+      }
+    },
+    "ultimate": {
+      "type": "Tuyệt Kỹ",
+      "name": "Chìm Đắm... Tro Tàn Mời Gọi Vào Nấm Mồ",
+      "tag": "Đánh Lan",
+      "energy_gain": 5,
+      "break_aoe": 20,
+      "energy_cost": 130,
+      "min_level": 1,
+      "max_level": 12,
+      "default_level": 10,
+      "description_template": "Khiến toàn bộ phe địch rơi vào trạng thái \"Tàn Bại\", duy trì 4 hiệp. Sau đó gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Dahlia, chia đều cho toàn bộ phe địch.\nTrong trạng thái \"Tàn Bại\", Phòng Thủ của mục tiêu phe địch giảm {{scaling2}}%, đồng thời sẽ bị thêm Điểm Yếu mang thuộc tính của tất cả \"Bạn Nhảy\".",
+      "scaling": {
+        "scaling1": [
+          180,
+          192,
+          204,
+          216,
+          228,
+          240,
+          255,
+          270,
+          285,
+          300,
+          312,
+          324
+        ],
+        "scaling2": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14.2,
+          15.5,
+          16.7,
+          18,
+          19,
+          20
+        ]
+      }
+    },
+    "basic": {
+      "type": "Tấn Công Thường",
+      "name": "Đùa Giỡn... Ký Ức Nở Rộ Vết Nứt",
+      "tag": "Đánh Đơn",
+      "energy_gain": 20,
+      "break": 10,
+      "min_level": 1,
+      "max_level": 7,
+      "default_level": 6,
+      "description_template": "Gây Sát Thương Hỏa bằng {{scaling1}}% Tấn Công của Dahlia cho 1 kẻ địch chỉ định.",
+      "scaling": {
+        "scaling1": [
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110
+        ]
+      }
+    },
+    "technique": {
+      "type": "Bí Kỹ",
+      "name": "Trái Tim Là Nấm Mồ Tốt Nhất",
+      "tag": "Quấy Nhiễu",
+      "description": "Sau khi sử dụng Bí Kỹ, tạo ra 1 vùng đặc biệt duy trì trong 20 giây. Kẻ địch trong vùng đặc biệt sẽ không chủ động tấn công mục tiêu phe ta. Sau khi vào chiến đấu với kẻ địch trong vùng đặc biệt, Dahlia sẽ lập tức kích hoạt kết giới của Chiến Kỹ, và đối với mục tiêu phe địch trong trạng thái Siêu Sát Thương Phá Vỡ , sẽ chuyển hóa giá trị Giảm Sức Bền khi vào trận thành 1 lần Phá Vỡ Điểm Yếu 60%.\nTối đa chỉ tồn tại 1 hiệu ứng vùng do phe ta tạo ra."
+    }
+  },
+  "major_traces": {
+    "2": {
+      "name": "Lại Một Tang Lễ Nữa",
+      "description": "Khi vào trận, khiến Tấn Công Kích Phá của các nhân vật khác tăng, mức tăng bằng 24% Tấn Công Kích Phá của Dahlia +50%, duy trì 1 hiệp. Khi Dahlia nhận được hiệu ứng trị liệu hoặc Khiên do đồng đội cung cấp, sẽ kích hoạt lại hiệu ứng này, duy trì 3 hiệp, trong 1 hiệp không thể kích hoạt lại nhiều lần."
+    },
+    "4": {
+      "name": "Thương Tiếc, Cố Nhân",
+      "description": "Khi thi triển Đòn Đánh Theo Sau của Thiên Phú, sẽ hồi phục 1 Điểm Chiến Kỹ cho phe ta, hiệu ứng này sẽ kích hoạt 1 lần mỗi khi thi triển 2 lần Đòn Đánh Theo Sau của Thiên Phú."
+    },
+    "6": {
+      "name": "Bỏ Cũ, Đón Mới",
+      "description": "Khi mục tiêu phe ta gắn thêm Điểm Yếu cho mục tiêu phe địch, Tốc Độ sẽ tăng 30%, duy trì 2 hiệp. Nếu nhân vật thuộc tính Hỏa phe ta từng gắn Điểm Yếu trong quá trình thi triển tấn công, thì sau khi tấn công sẽ gây thêm 20 điểm Giảm Sức Bền cố định thuộc tính Hỏa lên mỗi mục tiêu bị gắn Điểm Yếu, đồng thời hồi phục Năng Lượng bằng 10% Giới Hạn Năng Lượng, tối đa có thể hồi phục đến 50% Giới Hạn Năng Lượng thông qua hiệu ứng này."
+    }
+  },
+  "stat_bonuses": [
+    {
+      "stat": "Tốc Độ",
+      "value": "+5"
+    },
+    {
+      "stat": "Tấn Công Kích Phá",
+      "value": "+37.3%"
+    },
+    {
+      "stat": "Kháng Hiệu Ứng",
+      "value": "+18%"
+    }
+  ],
+  "eidolons": [
+    {
+      "level": 1,
+      "name": "Khi Nụ Hoa Chờ Nở Rộ",
+      "description": "Bội số Siêu Sát Thương Phá Vỡ mà Thiên Phú cung cấp cho \"Bạn Nhảy\" có hiệu lực với toàn bộ nhân vật phe ta, trong đó bội số của \"Bạn Nhảy\" tăng thêm 40%. Sau khi \"Bạn Nhảy\" thi triển tấn công, gây thêm cho mục tiêu phe địch bị tấn công một lượng Giảm Sức Bền cố định bằng 25% Giới Hạn Sức Bền của kẻ đó (Tối thiểu 10 điểm, tối đa 300 điểm). Hiệu ứng này mỗi mục tiêu phe địch chỉ có thể kích hoạt 1 lần, sau khi mục tiêu phe địch chịu tấn công chí tử sẽ làm mới số lần có thể kích hoạt của mục tiêu này."
+    },
+    {
+      "level": 2,
+      "name": "Tái Sinh, Tươi Mới, Yêu Thương",
+      "description": "Khi Dahlia có mặt trên sân, Kháng Toàn Thuộc Tính của toàn bộ phe địch giảm 20%. Khi mục tiêu phe địch vào trận, lập tức rơi vào trạng thái \"Tàn Bại\", duy trì 3 hiệp."
+    },
+    {
+      "level": 3,
+      "name": "Tiếc Thay Cánh Hoa Mỏng Như Cánh Ve",
+      "description": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+    {
+      "level": 4,
+      "name": "Tiếc Thay Cánh Hoa Bị Sâu Bọ Bào Mòn",
+      "description": "Số lần gây sát thương của Đòn Đánh Theo Sau từ Thiên Phú tăng 5 lần, khi thi triển khiến sát thương toàn phe địch phải chịu tăng 12%, duy trì 2 hiệp."
+    },
+    {
+      "level": 5,
+      "name": "Tàn Lụi, Mục Nát, Căm Hận",
+      "description": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    {
+      "level": 6,
+      "name": "Tuy Nhiên Nó Vẫn Luôn, Đẹp Đến Chết Người",
+      "description": "Tấn Công Kích Phá của \"Bạn Nhảy\" tăng 150%. Khi thi triển Đòn Đánh Theo Sau của Thiên Phú, sẽ khiến tất cả \"Bạn Nhảy\" lần sau Ưu Tiên Hành Động 20%."
+    }
+  ]
+}
