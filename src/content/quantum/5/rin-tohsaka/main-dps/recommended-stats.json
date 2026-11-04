@@ -13,7 +13,8 @@
             "recommended": "102",
             "note": {
                 "en": "This build does not require [[stat:spd]].",
-                "ru": "Этот билд не требует [[stat:spd|скорость]]."
+                "ru": "Этот билд не требует [[stat:spd|скорость]].",
+                "vn": "Build này không cần [[stat:spd]]."
             }
         },
         {

@@ -33,7 +33,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Useful for niche situations/rotations.",
-                                "ru": "Полезно в нишевых ситуациях/ротациях."
+                                "ru": "Полезно в нишевых ситуациях/ротациях.",
+                                "vn": "Hữu ích trong các tình huống đặc thù."
                             }
                         }
                     ]
@@ -95,7 +96,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Only viable if using S1 [[light-cone:life-should-be-cast-to-flames]].",
-                                "ru": "Подходит только при использовании S1 [[light-cone:life-should-be-cast-to-flames]]."
+                                "ru": "Подходит только при использовании S1 [[light-cone:life-should-be-cast-to-flames]].",
+                                "vn": "Chỉ khả thi nếu sử dụng S1 [[light-cone:life-should-be-cast-to-flames]]."
                             }
                         }
                     ]

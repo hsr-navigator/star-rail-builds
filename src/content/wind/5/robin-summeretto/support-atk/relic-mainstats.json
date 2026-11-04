@@ -13,7 +13,8 @@
                 "note_group": "personaldmg",
                 "note": {
                     "en": "Optional, for her personal damage output.",
-                    "ru": "Необязательно, для увеличения личного урона."
+                    "ru": "Необязательно, для увеличения личного урона.",
+                    "vn": "Tùy chọn, dành cho sát thương cá nhân của cô ấy."
                 }
             }
         ],

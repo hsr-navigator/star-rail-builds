@@ -10,8 +10,9 @@
           {
             "name": "quantum-dmg",
              "note": {
-             "en": "Preferred over ATK%.",
-             "ru": "Предпочтительнее, чем [[stat:atk%|сила атаки%]]."
+                "en": "Preferred over ATK%.",
+                "ru": "Предпочтительнее, чем [[stat:atk%|сила атаки%]].",
+                "vn": "Ưu tiên hơn [[stat:atk%]]."
             }
         },
             "atk%"
