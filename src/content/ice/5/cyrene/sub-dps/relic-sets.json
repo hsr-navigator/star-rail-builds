@@ -1,0 +1,84 @@
+{
+    "relic_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deliverer",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "messenger",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Can be Best in Slot if Cyrene can maintain 100% uptime."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "2pc-spd",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "amphoreus",
+                            "pieces": 2,
+                            "note": {
+                                "en": "For [[character:castorice]] and assuming no one else on the team holds this set."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "bone",
+                            "pieces": 2,
+                            "note": {
+                                "en": "For [[character:evernight]] Main DPS team."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "vonwacq",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "substats_priority": [
+        "spd",
+        "cr",
+        {
+            "name": "hp",
+            "note_group": "cyrenesig",
+            "note": {
+                "en": "With S1 [[lightcone:this-love-forever]], HP% == Crit DMG%"
+            }
+
+        },
+        {
+            "name": "cd",
+            "note_group": "cyrenesig"
+            
+        }
+    ]
+}

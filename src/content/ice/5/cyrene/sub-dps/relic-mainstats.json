@@ -1,0 +1,27 @@
+{
+    "main_stats": {
+        "body": [
+            "cd",
+            {
+                "name": "hp",
+                "note_group": "cyrenebody",
+                "note": {
+                    "en": "If using S1 [[lightcone:this-love-forever]], HP% chest is viable, otherwise use Crit DMG% body."
+                }
+            },
+            "hp"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            {
+                "name": "ice-dmg"
+            },
+            "hp"
+        ],
+        "link_rope": [
+            "hp"
+        ]
+    }
+}

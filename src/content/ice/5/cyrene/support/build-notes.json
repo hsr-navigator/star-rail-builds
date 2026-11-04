@@ -4,7 +4,11 @@
         "en": "Support",
         "ru": "Саппорт"
     },
-    "notes": [],
+    "notes": [
+        {
+            "en": "Use the Sub-DPS build for Cyrene if pairing her with Castorice or Evernight."
+        }
+    ],
     "overview": {
         "summary": {
             "en": "- [[character:cyrene]] is a support character who provides unique buffs tailored to the Chrysos Heirs.\n- She gains \"Recollection\" points at the start of combat based on the number of Chrysos Heirs and Remembrance characters on the team. [[character:cyrene]] also gains \"Recollection\" after using her Skill or Enhanced Basic ATK, when allies take their first action after she acts, and whenever Memosprites take action. She needs 24 \"Recollection\" to use her first Ultimate and 12 points for each Ultimate onwards.\n- She can choose between attacking enemies or buffing allies when using her Ultimate.\n- [[character:cyrene]] is a core support for most Chrysos Heirs, particularly [[character:anaxa]], [[character:phainon]], [[character:evernight]], [[character:mydei]], and [[character:aglaea]].",
