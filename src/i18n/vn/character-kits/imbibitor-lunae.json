@@ -96,7 +96,7 @@
                     "min_level": 1,
                     "max_level": 7,
                     "default_level": 6,
-                    "description_template": "Thi triển 7 đòn tấn công lên 1 kẻ địch chỉ định và gây ra Sát Thương Số Ảo bằng {{seven_hit_damage}}%{{seven_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt. Bắt đầu từ đòn tấn công thứ 4, cùng lúc gây ra Sát Thương Số Ảo bằng {{after_fourth_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt lên mục tiêu lân cận.",
+                    "description_template": "Thi triển 7 đòn tấn công lên 1 kẻ địch chỉ định và gây ra Sát Thương Số Ảo bằng {{seven_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt. Bắt đầu từ đòn tấn công thứ 4, cùng lúc gây ra Sát Thương Số Ảo bằng {{after_fourth_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt lên mục tiêu lân cận.",
                     "scaling": {
                         "seven_hit_damage": [
                             250,
@@ -127,7 +127,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Khiến hiệu ứng Tấn Công Thường được cường hóa, tối đa có thể liên tục cường hóa 3 lần, thi triển kỹ năng này không tiêu hao Điểm Chiến Kỹ và không tính là sử dụng Chiến Kỹ.\nCường hóa 1 lần, \"Trạch Chi\" biến thành \"Tối Thượng\".\nCường hóa 2 lần, \"Trạch Chi\" biến thành \"Ngọn Giáo Thánh Thần\".\nCường hóa 3 lần, \"Trạch Chi\" biến thành \"Bàn Nã Diệu Dược\".\nKhi thi triển \"Ngọn Giáo Thánh Thần\" hoặc \"Bàn Nã Diệu Dược\", bắt đầu từ đòn tấn công thứ 4, trước mỗi đòn tấn công sẽ nhận 1 tầng \"Hô Phong Hoán Vũ\", tăng {{increased_crit_dmg}}% Sát Thương Bạo Kích của Dan Heng - Ẩm Nguyệt, hiệu ứng này tối đa cộng dồn tầng, duy trì đến khi hiệp của bản thân kết thúc.",
+            "description_template": "Khiến hiệu ứng Tấn Công Thường được cường hóa, tối đa có thể liên tục cường hóa 3 lần, thi triển kỹ năng này không tiêu hao Điểm Chiến Kỹ và không tính là sử dụng Chiến Kỹ.\nCường hóa 1 lần, \"Trạch Chi\" biến thành \"Tối Thượng\".\nCường hóa 2 lần, \"Trạch Chi\" biến thành \"Ngọn Giáo Thánh Thần\".\nCường hóa 3 lần, \"Trạch Chi\" biến thành \"Bàn Nã Diệu Dược\".\nKhi thi triển \"Ngọn Giáo Thánh Thần\" hoặc \"Bàn Nã Diệu Dược\", bắt đầu từ đòn tấn công thứ 4, trước mỗi đòn tấn công sẽ nhận 1 tầng \"Hô Phong Hoán Vũ\", tăng {{increased_crit_dmg}}% Sát Thương Bạo Kích của Dan Heng - Ẩm Nguyệt, hiệu ứng này tối đa cộng dồn 4 tầng, duy trì đến khi hiệp của bản thân kết thúc.",
             "scaling": {
                 "increased_crit_dmg": [
                     6,
@@ -159,7 +159,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Thi triển 3 đòn tấn công gây Sát Thương Số Ảo cho 1 kẻ địch bằng {{post_three_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt, đồng thời gây Sát Thương Số Ảo cho mục tiêu lân cận bằng {{adjacent_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt. Và khiến bản thân nhận Nghịch Lân.\nTối đa sở hữu Nghịch Lân, dùng để khấu trừ tiêu hao điểm Chiến Kỹ của Dan Heng - Ẩm Nguyệt. Tiêu hao Nghịch Lân được xem là tiêu hao điểm Chiến Kỹ.",
+            "description_template": "Thi triển 3 đòn tấn công gây Sát Thương Số Ảo cho 1 kẻ địch bằng {{post_three_hit_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt, đồng thời gây Sát Thương Số Ảo cho mục tiêu lân cận bằng {{adjacent_damage}}% Tấn Công của Dan Heng - Ẩm Nguyệt. Và khiến bản thân nhận 2 Nghịch Lân.\nTối đa sở hữu 3 Nghịch Lân, dùng để khấu trừ tiêu hao điểm Chiến Kỹ của Dan Heng - Ẩm Nguyệt. Tiêu hao Nghịch Lân được xem là tiêu hao điểm Chiến Kỹ.",
             "scaling": {
                 "post_three_hit_damage": [
                     180,
@@ -204,7 +204,7 @@
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
-            "description_template": "Mỗi đòn tấn công của Dan Heng - Ẩm Nguyệt sẽ nhận 1 tầng Trái Tim Ngay Thẳng, tăng {{increased_damage}}% sát thương bản thân gây ra, hiệu ứng này có thể cộng dồn tầng, duy trì đến khi hiệp của bản thân kết thúc.",
+            "description_template": "Mỗi đòn tấn công của Dan Heng - Ẩm Nguyệt sẽ nhận 1 tầng Trái Tim Ngay Thẳng, tăng {{increased_damage}}% sát thương bản thân gây ra, hiệu ứng này có thể cộng dồn 6 tầng, duy trì đến khi hiệp của bản thân kết thúc.",
             "scaling": {
                 "increased_damage": [
                     5,
@@ -229,7 +229,7 @@
             "type": "Bí Kỹ",
             "name": "Long Thần Phá Hư Không",
             "tag": "Cường Hóa",
-            "description": "Sau khi dùng Bí Kỹ sẽ vào trạng thái Bàn Diệu trong giây. Ở trạng thái này, dùng tấn công sẽ di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc, trong lúc di chuyển nhanh có thể chống đỡ tất cả tấn công của kẻ địch. Ở trạng thái Bàn Diệu, sau khi chủ động tấn công kẻ địch vào chiến đấu, sẽ gây cho toàn bộ kẻ địch Sát Thương Số Ảo bằng Tấn Công của Dan Heng - Ẩm Nguyệt, đồng thời khiến bản thân nhận Nghịch Lân."
+            "description": "Sau khi dùng Bí Kỹ sẽ vào trạng thái Bàn Diệu trong 20 giây. Ở trạng thái này, dùng tấn công sẽ di chuyển nhanh về phía trước một đoạn và tấn công kẻ địch tiếp xúc, trong lúc di chuyển nhanh có thể chống đỡ tất cả tấn công của kẻ địch. Ở trạng thái Bàn Diệu, sau khi chủ động tấn công kẻ địch vào chiến đấu, sẽ gây cho toàn bộ kẻ địch Sát Thương Số Ảo bằng 120% Tấn Công của Dan Heng - Ẩm Nguyệt, đồng thời khiến bản thân nhận 1 Nghịch Lân."
         }
     },
     "major_traces": {

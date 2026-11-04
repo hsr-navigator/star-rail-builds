@@ -107,7 +107,7 @@
       "min_level": 1,
       "max_level": 12,
       "default_level": 10,
-      "description_template": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy. The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "description_template": "Summons Lightning-Lord at the start of the battle.\nLightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
       "scaling": {
         "scaling1": [
           33,
@@ -177,7 +177,7 @@
     {
       "level": 3,
       "name": "Strike, Suns Subdued",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
     },
     {
       "level": 4,
@@ -187,12 +187,12 @@
     {
       "level": 5,
       "name": "Stride, Spoils Seized",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
     },
     {
       "level": 6,
       "name": "Sweep, Souls Slain",
-      "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
+      "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
     }
   ]
 }
