@@ -2,14 +2,16 @@
     "best": true,
     "name": {
         "en": "DPS",
-        "ru": "ДД"
+        "ru": "ДД",
+        "vn": "DPS"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
             "en": "- Ashveil is a strong CRIT-based DPS who excels in Single Target scenarios but is also decent in AoE, as his Enhanced Follow-Up ATK changes targets when it kills an enemy.\n- He has supportive capabilities designed to benefit Follow-Up ATK units, including DEF Reduction and CRIT DMG buffs.\n- His kit is intended for a sub-DPS role, for example alongside Aventurine • Waveflair, although he works just fine as main DPS.",
-            "ru": "- Эшвейл — сильный ДД от критов. Он особенно эффективен в сражениях с одной целью, но также неплохо показывает себя в боях против нескольких противников, поскольку его усиленная бонус-атака при уничтожении противника переключается на другую цель.\n- У него есть баффы, полезные для персонажей, использующих бонус-атаки: понижение защиты противников и повышение крит. урона союзников.\n- Его набор способностей лучше всего подходит для роли саб-ДД (например, в связке с Авантюрином: Прибоем), хотя он вполне может выступать и в качестве основного ДД."
+            "ru": "- Эшвейл — сильный ДД от критов. Он особенно эффективен в сражениях с одной целью, но также неплохо показывает себя в боях против нескольких противников, поскольку его усиленная бонус-атака при уничтожении противника переключается на другую цель.\n- У него есть баффы, полезные для персонажей, использующих бонус-атаки: понижение защиты противников и повышение крит. урона союзников.\n- Его набор способностей лучше всего подходит для роли саб-ДД (например, в связке с Авантюрином: Прибоем), хотя он вполне может выступать и в качестве основного ДД.",
+            "vn": "- Ashveil là một DPS mạnh mẽ dựa trên CRIT, xuất sắc trong các tình huống đánh đơn nhưng cũng khá tốt trong các tình huống tấn công diện rộng, vì Đòn Đánh Theo Sau Cường Hóa của anh sẽ thay đổi mục tiêu khi nó tiêu diệt kẻ địch.\n- Anh có các khả năng hỗ trợ được thiết kế để mang lại lợi ích cho các đơn vị Đòn Đánh Theo Sau, bao gồm giảm Phòng Thủ và tăng [[stat:cd]].\n- Bộ kỹ năng của anh được thiết kế cho vai trò DPS Phụ, ví dụ như cùng với [[character:waven]], mặc dù anh cũng hoạt động tốt với vai trò DPS Chính."
         },
         "investment_priority": {
             "priority": {
@@ -18,7 +20,8 @@
             },
             "details": {
                 "en": "- E1 increases DMG taken by enemies by 24%. When an enemy is below 50% health, this increases to 36% (provides more value if Ashveil is a sub-DPS).\n- S1 [[light-cone:the-finale-of-a-lie]] provides 18% CRIT Rate. Grants 40% ATK and applies 20% Vulnerability to all enemies at the start of the battle and for every 4 instances of Follow-Up ATK.\n- E2 increases maximum \"Gluttony\" to 18 and refunds 35% of consumed \"Gluttony\" after an Enhanced Follow-Up ATK.",
-                "ru": "- E1 увеличивает получаемый противниками урон на 24%. Если уровень здоровья противника ниже 50%, этот показатель возрастает до 36% (особенно полезно, если Эшвейл используется в роли саб-ДД).\n- S1 [[light-cone:the-finale-of-a-lie]] даёт 18% крит. шанса. В начале боя, а также после каждых 4 бонус-атак он получает бафф 40% силы атаки, а все противники получают на 20% больше урона.\n- увеличивает максимальное количество уровней статуса Прожорливость до 18, а также возвращает 35% от количества зарядов, потраченных на усиленную бонус-атаку."
+                "ru": "- E1 увеличивает получаемый противниками урон на 24%. Если уровень здоровья противника ниже 50%, этот показатель возрастает до 36% (особенно полезно, если Эшвейл используется в роли саб-ДД).\n- S1 [[light-cone:the-finale-of-a-lie]] даёт 18% крит. шанса. В начале боя, а также после каждых 4 бонус-атак он получает бафф 40% силы атаки, а все противники получают на 20% больше урона.\n- увеличивает максимальное количество уровней статуса Прожорливость до 18, а также возвращает 35% от количества зарядов, потраченных на усиленную бонус-атаку.",
+                "vn": "- E1 tăng sát thương mà kẻ địch phải chịu lên 24%. Khi kẻ địch còn dưới 50% HP, hiệu ứng này tăng lên 36% (có giá trị hơn nếu Ashveil là DPS Phụ).\n- S1 [[light-cone:the-finale-of-a-lie]] tăng 18% [[stat:cr]]. Tăng 40% [[stat:atk]] và áp dụng 20% Trọng Thương cho tất cả kẻ địch khi bắt đầu trận chiến và cứ sau mỗi 4 Đòn Đánh Theo Sau.\n- E2 tăng tối đa \"Tham Lam\" lên 18 và hoàn trả 35% \"Tham Lam\" đã tiêu hao sau khi thực hiện Đòn Đánh Theo Sau Cường Hóa."
             }
         }
     }

@@ -16,7 +16,8 @@
                     "superimposition": 1,
                     "note": {
                         "en": "Only viable with Sparkle on the team.",
-                        "ru": "Эффективно только в команде с Искоркой."
+                        "ru": "Эффективно только в команде с Искоркой.",
+                        "vn": "Chỉ khả thi khi có Sparkle trong đội."
                     }
                 }
             ]
@@ -48,7 +49,8 @@
                     "superimposition": 5,
                     "note": {
                         "en": "Only viable in 1-2 target scenario.",
-                        "ru": "Эффективно только в боях с 1-2 противниками."
+                        "ru": "Эффективно только в боях с 1-2 противниками.",
+                        "vn": "Chỉ khả thi trong trường hợp có 1-2 mục tiêu."
                     }
                 },
                 {
@@ -56,7 +58,8 @@
                     "superimposition": 5,
                     "note": {
                         "en": "Assuming no target switching.",
-                        "ru": "При условии, что цель не меняется."
+                        "ru": "При условии, что цель не меняется.",
+                        "vn": "Giả sử không có sự chuyển đổi mục tiêu."
                     }
                 }
             ]

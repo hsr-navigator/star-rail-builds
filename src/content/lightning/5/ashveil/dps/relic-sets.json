@@ -65,7 +65,8 @@
                             "pieces": 2,
                             "note":{
                                 "en":"There must be another character in the team following the path of The Hunt.",
-                                "ru":"В команде должен быть хотя бы один другой персонаж пути Охоты."
+                                "ru":"В команде должен быть хотя бы один другой персонаж пути Охоты.",
+                                "vn": "Phải có một nhân vật khác trong nhóm thuộc Vận Mệnh [[path:hunt]]."
                             }
                         }
                     ]

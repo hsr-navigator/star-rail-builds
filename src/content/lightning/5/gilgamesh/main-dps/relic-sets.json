@@ -26,7 +26,8 @@
                             "note_group": "saber",
                             "note": {
                                 "en": "Can be used if Gilgamesh is in a team with Saber.",
-                                "ru": "Можно использовать, если Гильгамеш используется в команде с Сэйбер."
+                                "ru": "Можно использовать, если Гильгамеш используется в команде с Сэйбер.",
+                                "vn": "Có thể sử dụng nếu Gilgamesh ở trong đội cùng với Saber."
                             }
                         }
                     ]
@@ -72,7 +73,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "Requires a teammate of the Destruction Path on the team.",
-                                "ru": "Требуется союзник пути Разрушения в команде."
+                                "ru": "Требуется союзник пути Разрушения в команде.",
+                                "vn": "Cần có một đồng đội thuộc Vận Mệnh [[path:destruction]] trong đội."
                             }
                         }
                     ]

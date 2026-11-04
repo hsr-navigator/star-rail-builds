@@ -2,23 +2,27 @@
     "best": true,
     "name": {
         "en": "Main/Sub-DPS",
-        "ru": "Основной/Саб ДД"
+        "ru": "Основной/Саб ДД",
+        "vn": "DPS Chính/Phụ"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
             "en": "- Gilgamesh is a sub-DPS who has a unique Joint Follow-Up ATK mechanic with Saber.\n- Whenever an ally takes an action, Gilgamesh gains 1 \"Interest\". Each stack of \"Interest\" increases his SPD by 10%. Using his Skill consumes all \"Interest\" stacks.\n- When Gilgamesh and Saber perform a combined total of 8 attacks, they launch a Joint Follow-Up ATK. After it triggers, Saber gains Energy, and her next Ultimate deals significantly increased damage.\n- Gilgamesh is a core support for Saber, but he can also be played as a main DPS in dedicated teams.",
-            "ru": "- Гильгамеш — саб-ДД, обладающий уникальной механикой совместной бонус-атаки с Сэйбер.\n- Каждый раз, когда союзник совершает действие, Гильгамеш получает 1 ед. Энтузиазма. Каждая единица Энтузиазма повышает его скорость на 10%. При использовании навыка расходуется весь Энтузиазм.\n- Когда Гильгамеш и Сэйбер в сумме совершают 8 атак, они проводят совместную бонусную-атаку. После её срабатывания Сэйбер получает энергию, а её следующее использование сверхспособности наносит значительно увеличенный урон.\n- Гильгамеш является ключевым саппортом для Сэйбер, однако его также можно использовать в качестве основного ДД в специально подобранных для этого командах."
+            "ru": "- Гильгамеш — саб-ДД, обладающий уникальной механикой совместной бонус-атаки с Сэйбер.\n- Каждый раз, когда союзник совершает действие, Гильгамеш получает 1 ед. Энтузиазма. Каждая единица Энтузиазма повышает его скорость на 10%. При использовании навыка расходуется весь Энтузиазм.\n- Когда Гильгамеш и Сэйбер в сумме совершают 8 атак, они проводят совместную бонусную-атаку. После её срабатывания Сэйбер получает энергию, а её следующее использование сверхспособности наносит значительно увеличенный урон.\n- Гильгамеш является ключевым саппортом для Сэйбер, однако его также можно использовать в качестве основного ДД в специально подобранных для этого командах.",
+            "vn": "- Gilgamesh là một DPS Phụ sở hữu cơ chế Đòn Đánh Theo Sau Phối Hợp độc đáo với Saber.\n- Mỗi khi đồng minh thực hiện hành động, Gilgamesh nhận được 1 điểm \"Hứng Thú\". Mỗi điểm \"Hứng Thú\" sẽ tăng Tốc Độ của anh lên 10%. Sử dụng [[ability:skill]] sẽ tiêu hao tất cả điểm \"Hứng Thú\".\n- Khi Gilgamesh và Saber thực hiện tổng cộng 8 đòn tấn công, họ sẽ tung ra một đòn Đòn Đánh Theo Sau Phối Hợp. Sau khi kích hoạt đòn đánh này, Saber nhận được Năng Lượng, và [[ability:ultimate]] tiếp theo của cô ấy gây sát thương tăng đáng kể.\n- Gilgamesh là một hỗ trợ cốt lõi cho Saber, nhưng anh cũng có thể được chơi như một DPS Chính trong các đội hình chuyên dụng."
         },
         "investment_priority": {
             "priority": {
                 "en": "E1 > S1 > E2 / E6",
-                "ru": "E1 > S1 > E2 / E6"
+                "ru": "E1 > S1 > E2 / E6",
+                "vn": "E1 > S1 > E2 / E6"
             },
             "details": {
                 "en": "- E1 grants Gilgamesh additional fixed Energy whenever he uses his Skill, while also giving allies DEF Ignore. A strong Eidolon that can speed up his Ultimate rotation while supporting the team.\n- S1 [[light-cone:i-am-as-you-behold]] increases his Ultimate DMG, ATK%, and Energy Regeneration Rate, while also granting allies CRIT DMG%. Since most of Gilgamesh's Energy generation is fixed, the Energy Regeneration Rate% provides relatively little benefit.\n- E2 primarily improves his personal damage, making it an upgrade for his Main DPS teams.\n- E6 greatly increases the damage of his Ultimate.",
-                "ru": "- E1 даёт Гильгамешу дополнительное фиксированное количество энергии при использовании навыка, а также даёт союзникам игнорирование защиты. Это сильный Эйдолон, который позволяет чаще использовать сверхспособность и одновременно приносит пользу команде.\n- S1 [[light-cone:i-am-as-you-behold]] увеличивает урон от его сверхспособности, силу атаки и скорость восстановления энергии, а также повышает крит. урон союзников. Поскольку большая часть энергии Гильгамеша генерируется в фиксированном объёме, бонус к скорости восстановления энергии дает относительно небольшой прирост.\n- E2 в основном повышает его личный урон, что делает этот Эйдолон полезным при использовании Гильгамеша в качестве основного ДД.\n- E6 значительно увеличивает урон от его сверхспособности."
+                "ru": "- E1 даёт Гильгамешу дополнительное фиксированное количество энергии при использовании навыка, а также даёт союзникам игнорирование защиты. Это сильный Эйдолон, который позволяет чаще использовать сверхспособность и одновременно приносит пользу команде.\n- S1 [[light-cone:i-am-as-you-behold]] увеличивает урон от его сверхспособности, силу атаки и скорость восстановления энергии, а также повышает крит. урон союзников. Поскольку большая часть энергии Гильгамеша генерируется в фиксированном объёме, бонус к скорости восстановления энергии дает относительно небольшой прирост.\n- E2 в основном повышает его личный урон, что делает этот Эйдолон полезным при использовании Гильгамеша в качестве основного ДД.\n- E6 значительно увеличивает урон от его сверхспособности.",
+                "vn": "- E1 cung cấp cho Gilgamesh thêm Năng Lượng cố định mỗi khi anh sử dụng [[ability:skill]], đồng thời ban khả năng Bỏ Qua Phòng Thủ cho đồng minh. Một Tinh Hồn mạnh mẽ có thể tăng tốc chu kỳ sử dụng [[ability:ultimate]] của anh trong khi hỗ trợ đồng đội.\n- S1 [[light-cone:i-am-as-you-behold]] tăng sát thương [[ability:ultimate]], [[stat:atk%]] và [[stat:err]], đồng thời tăng [[stat:cd]] cho đồng minh. Vì hầu hết Năng Lượng mà Gilgamesh tạo ra là cố định, nên [[stat:err]] mang lại lợi ích tương đối nhỏ.\n- E2 chủ yếu cải thiện sát thương cá nhân của anh, biến nó thành một nâng cấp cho các đội DPS chính của anh ấy.\n- E6 tăng đáng kể sát thương của [[ability:ultimate]]."
             }
         }
     }
