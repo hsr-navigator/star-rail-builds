@@ -25,7 +25,8 @@
                     "note": {
                         "en": "Skill and Basic ATK can be ignored.",
                         "ru": "Навык и базовую атаку можно не прокачивать.",
-                        "cht": "戰技和普攻等級可以不提升。"
+                        "cht": "戰技和普攻等級可以不提升。",
+                        "vn": "Có thể bỏ qua [[ability:skill]] và [[ability:basic]]."
                     }
                 },
                 {

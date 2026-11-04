@@ -65,7 +65,8 @@
                             "note_group": "eagle",
                             "note": {
                                 "en": "The [[stat:err]] from [[set:vonwacq]] can enable Pearl to potentially maintain a 2-turn Ultimate rotation, increasing the value of [[set:eagle]].",
-                                "ru": "[[stat:err]] от [[set:vonwacq]] позволяет Жемчуг использовать сверхспособности каждые 2 хода, что повышает ценность [[set:eagle]]."
+                                "ru": "[[stat:err]] от [[set:vonwacq]] позволяет Жемчуг использовать сверхспособности каждые 2 хода, что повышает ценность [[set:eagle]].",
+                                "vn": "Chỉ số [[stat:err]] từ [[set:vonwacq]] có thể giúp Pearl duy trì [[ability:ultimate]] 2 lượt, làm tăng giá trị của [[set:eagle]]."
                             }
                         }
                     ]
@@ -81,7 +82,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "Pearl increases all allies’ Effect RES by 50%.",
-                                "ru": "Жемчуг увеличивает сопротивление эффектам всех союзников на 50%."
+                                "ru": "Жемчуг увеличивает сопротивление эффектам всех союзников на 50%.",
+                                "vn": "Pearl tăng 50% [[stat:effect-res]] cho các đồng minh."
                             }
                         }
                     ]
