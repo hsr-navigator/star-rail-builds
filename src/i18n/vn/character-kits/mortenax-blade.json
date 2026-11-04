@@ -187,7 +187,6 @@
       "max_level": 12,
       "default_level": 10,
       "description_template": "Tiêu hao HP bằng 10% Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng {{scaling1}}% Giới Hạn HP của Mortenax Blade, đồng thời gây thêm 4 lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng {{scaling2}}% Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
-      "description_template": "Consumes HP equal to 10% of Mortenax Blade's Max HP and deals Fire DMG equal to {{scaling1}}% of Mortenax Blade's Max HP to all enemies, and additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to {{scaling2}}% of Mortenax Blade's Max HP to one random enemy. If the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill. While not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill. Using Skill does not consume Skill Points.",
       "scaling": {
         "scaling1": [
           36,

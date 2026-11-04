@@ -27,7 +27,8 @@
                     "name": "basic",
                     "note": {
                         "en": "Basic ATK can be ignored.",
-                        "ru": "Базовую атаку можно не прокачивать."
+                        "ru": "Базовую атаку можно не прокачивать.",
+                        "vn": "Có thể bỏ qua [[ability:basic]]."
                     }
                 }
             ]

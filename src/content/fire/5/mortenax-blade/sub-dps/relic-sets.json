@@ -10,7 +10,8 @@
                             "note_group": "mblade-support",
                             "note": {
                                 "en": "Are best used if you want more of his supportive capabilities while sacrificing a bit of his personal damage.",
-                                "ru": "Лучше всего использовать, если вы хотите усилить его баффы, пожертвовав при этом частью его личного урона."
+                                "ru": "Лучше всего использовать, если вы хотите усилить его баффы, пожертвовав при этом частью его личного урона.",
+                                "vn": "Nên sử dụng nếu bạn muốn có nhiều khả năng hỗ trợ hơn từ anh ấy đồng thời phải hy sinh một chút sát thương cá nhân."
                             }
                         }
                     ]
@@ -34,7 +35,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Viable set for sustainless runs.",
-                                "ru": "Подходит для команд без хилера/щитовика."
+                                "ru": "Подходит для команд без хилера/щитовика.",
+                                "vn": "Bộ khả thi nếu chơi không bảo kê."
                             }
                         }
                     ]
