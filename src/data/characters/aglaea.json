@@ -253,7 +253,7 @@
             "min_level": 1,
             "max_level": 7,
             "default_level": 6,
-            "description": "When Garmentmaker is summoned, this unit's action advances|Action Advanced by 100%."
+            "description": "When Garmentmaker is summoned, this unit's action advances by 100%."
           },
           {
             "type": "Memosprite Talent",
