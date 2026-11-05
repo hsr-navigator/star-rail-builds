@@ -22,6 +22,7 @@
                         {
                             "name": "duke",
                             "pieces": 4,
+                            "note_group": "fua",
                             "note": {
                                 "en": "Viable when used with E2 Mortenax Blade."
                             }
@@ -67,6 +68,19 @@
                         {
                             "name": "izumo",
                             "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "duran",
+                            "pieces": 2,
+                            "note_group": "fua"
                         }
                     ]
                 }
