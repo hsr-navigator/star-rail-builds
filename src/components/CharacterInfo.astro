@@ -218,9 +218,9 @@ const effectGroups = [
                 : [],
     },
 ].filter(({ entries }) => entries.length > 0);
-const affinityEidolon = hiddenKitSections.includes('affinity_eidolon')
+const affinitiveEidolon = hiddenKitSections.includes('affinitive_eidolon')
     ? undefined
-    : character.affinity_eidolon;
+    : character.affinitive_eidolon;
 const abilitySections = [
     {
         id: 'normal',
@@ -1000,10 +1000,10 @@ const renderVariantDescription = (
         </details>
 
         {
-            affinityEidolon && (
+            affinitiveEidolon && (
                 <details class="character-kit-collapse" open>
                     <summary class="character-kit-collapse-summary">
-                        <h3>{ui('Affinity Eidolon')}</h3>
+                        <h3>{ui('Affinitive Eidolon')}</h3>
                         <span
                             class="character-kit-collapse-chevron"
                             aria-hidden="true"
@@ -1014,17 +1014,17 @@ const renderVariantDescription = (
                         <article class="character-global-passive-card">
                             <div class="character-global-passive-body">
                                 <h4 class="character-affinity-name">
-                                    {affinityEidolon.name}
+                                    {affinitiveEidolon.name}
                                 </h4>
-                                {affinityEidolon.tag && (
+                                {affinitiveEidolon.tag && (
                                     <p class="character-ability-tag">
                                         <strong>{ui('Type')}:</strong>{' '}
-                                        {affinityEidolon.tag}
+                                        {affinitiveEidolon.tag}
                                     </p>
                                 )}
                                 <p>
                                     <HighlightedText
-                                        text={affinityEidolon.description}
+                                        text={affinitiveEidolon.description}
                                     />
                                 </p>
                             </div>

@@ -114,7 +114,7 @@ export type CharacterGlobalPassive = {
     description: string;
 };
 
-type CharacterAffinityEidolon = Omit<CharacterEidolon, 'level'> & {
+type CharacterAffinitiveEidolon = Omit<CharacterEidolon, 'level'> & {
     tag?: string;
 };
 
@@ -149,8 +149,8 @@ export type CharacterData = {
     >;
 
     aha_buffs?: Record<string, CharacterGlobalPassive>;
-    affinity_eidolon?: CharacterAffinityEidolon;
-    hidden_kit_sections?: Array<'affinity_eidolon' | 'aha_buffs'>;
+    affinitive_eidolon?: CharacterAffinitiveEidolon;
+    hidden_kit_sections?: Array<'affinitive_eidolon' | 'aha_buffs'>;
     major_traces: Record<
         string,
         CharacterMajorTrace
@@ -235,7 +235,7 @@ type CharacterKitTranslation = {
 
     global_passives?: Record<string, Partial<CharacterGlobalPassive>>;
     aha_buffs?: Record<string, Partial<CharacterGlobalPassive>>;
-    affinity_eidolon?: Partial<CharacterAffinityEidolon>;
+    affinitive_eidolon?: Partial<CharacterAffinitiveEidolon>;
 
     major_traces?: Record<
         string,
@@ -634,11 +634,11 @@ function applyCharacterKitTranslation(
             translation.aha_buffs,
         ),
 
-        affinity_eidolon: character.affinity_eidolon && {
-            tag: translation.affinity_eidolon?.tag ?? character.affinity_eidolon.tag,
-            name: translation.affinity_eidolon?.name ?? character.affinity_eidolon.name,
+        affinitive_eidolon: character.affinitive_eidolon && {
+            tag: translation.affinitive_eidolon?.tag ?? character.affinitive_eidolon.tag,
+            name: translation.affinitive_eidolon?.name ?? character.affinitive_eidolon.name,
             description:
-                translation.affinity_eidolon?.description ?? character.affinity_eidolon.description,
+                translation.affinitive_eidolon?.description ?? character.affinitive_eidolon.description,
         },
 
         major_traces:
