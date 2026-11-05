@@ -1,4 +1,7 @@
 {
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
     "id": "silver-wolf-lv999",
     "name": "Silver Wolf LV.999",
     "rarity": 5,
@@ -242,6 +245,12 @@
             "name": "McAwolfee 999",
             "tag": "Support",
             "description": "After obtaining \"Silver Wolf LV.999\" or when \"Silver Wolf LV.999\" is present in the current team, gains the following effect: During combat, if an enemy target inflicts a Crowd Control debuff on an ally, all allies gain \"Firewall\" for 1 turn. While in the \"Firewall\" state, ally targets are immune to Crowd Control debuffs inflicted by enemy targets.\nThis effect can trigger at most 1 time per wave."
+        }
+    },
+    "aha_buffs": {
+        "holographic-mirage": {
+            "name": "Holographic Mirage",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, \"Hidden MMR\" can output up to 360 overflow when it reaches its max limit. Increases CRIT DMG by 40%, and for every 1 point of \"Party Trick\" gained, simultaneously grants \"Hidden MMR\" equal to 20% of that amount.\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, \"Hidden MMR\" can output up to 999 overflow when it reaches its max limit. Increases CRIT DMG by 40%, and for every 1 point of \"Party Trick\" gained, simultaneously grants \"Hidden MMR\" equal to 40% of that amount."
         }
     },
     "elation": {

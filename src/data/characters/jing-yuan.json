@@ -1,198 +1,201 @@
 {
-  "id": "jing-yuan",
-  "name": "Jing Yuan",
-  "rarity": "5",
-  "type": "lightning",
-  "path": "erudition",
-  "version_released": "1.0",
-  "max_energy": 130,
-  "level_80_stats": {
-    "hp": 1164,
-    "atk": 698,
-    "def": 485,
-    "spd": 99
-  },
-  "abilities": {
-    "basic": {
-      "type": "Basic ATK",
-      "name": "Glistening Light",
-      "tag": "Single Target",
-      "energy_gain": 20,
-      "break": 10,
-      "min_level": 1,
-      "max_level": 7,
-      "default_level": 6,
-      "description_template": "Jing Yuan deals Lightning DMG equal to {{scaling1}}% of his ATK to a single enemy.",
-      "scaling": {
-        "scaling1": [
-          50,
-          60,
-          70,
-          80,
-          90,
-          100,
-          110,
-          120,
-          130
-        ]
-      }
+    "hidden_kit_sections": [
+        "affinity_eidolon"
+    ],
+    "id": "jing-yuan",
+    "name": "Jing Yuan",
+    "rarity": "5",
+    "type": "lightning",
+    "path": "erudition",
+    "version_released": "1.0",
+    "max_energy": 130,
+    "level_80_stats": {
+        "hp": 1164,
+        "atk": 698,
+        "def": 485,
+        "spd": 99
     },
-    "skill": {
-      "type": "Skill",
-      "name": "Rifting Zenith",
-      "tag": "AoE",
-      "energy_gain": 30,
-      "break_aoe": 10,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
-      "scaling": {
-        "scaling1": [
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          81.25,
-          87.5,
-          93.75,
-          100,
-          105,
-          110,
-          115,
-          120,
-          125
-        ]
-      }
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Glistening Light",
+            "tag": "Single Target",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Jing Yuan deals Lightning DMG equal to {{scaling1}}% of his ATK to a single enemy.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130
+                ]
+            }
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Rifting Zenith",
+            "tag": "AoE",
+            "energy_gain": 30,
+            "break_aoe": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    55,
+                    60,
+                    65,
+                    70,
+                    75,
+                    81.25,
+                    87.5,
+                    93.75,
+                    100,
+                    105,
+                    110,
+                    115,
+                    120,
+                    125
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "Lightbringer",
+            "tag": "AoE",
+            "energy_gain": 5,
+            "break_aoe": 20,
+            "energy_cost": 130,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
+            "scaling": {
+                "scaling1": [
+                    120,
+                    128,
+                    136,
+                    144,
+                    152,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    208,
+                    216,
+                    224,
+                    232,
+                    240
+                ]
+            }
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "Prana Extirpated",
+            "tag": "Bounce",
+            "break_bounce": 5,
+            "break_total": "50 (10 Hits)",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Summons Lightning-Lord at the start of the battle.\nLightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+            "scaling": {
+                "scaling1": [
+                    33,
+                    36.3,
+                    39.6,
+                    42.9,
+                    46.2,
+                    49.5,
+                    53.625,
+                    57.75,
+                    61.875,
+                    66,
+                    69.3,
+                    72.6,
+                    75.9,
+                    79.2,
+                    82.5
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "Spiritus Invocation",
+            "tag": "Enhance",
+            "description": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle."
+        }
     },
-    "ultimate": {
-      "type": "Ultimate",
-      "name": "Lightbringer",
-      "tag": "AoE",
-      "energy_gain": 5,
-      "break_aoe": 20,
-      "energy_cost": 130,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
-      "scaling": {
-        "scaling1": [
-          120,
-          128,
-          136,
-          144,
-          152,
-          160,
-          170,
-          180,
-          190,
-          200,
-          208,
-          216,
-          224,
-          232,
-          240
-        ]
-      }
+    "major_traces": {
+        "2": {
+            "name": "Battalia Crush",
+            "description": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn."
+        },
+        "4": {
+            "name": "Savant Providence",
+            "description": "At the start of the battle, immediately regenerates 15 Energy."
+        },
+        "6": {
+            "name": "War Marshal",
+            "description": "After the Skill is used, the CRIT Rate increases by 10% for 2 turn(s)."
+        }
     },
-    "talent": {
-      "type": "Talent",
-      "name": "Prana Extirpated",
-      "tag": "Bounce",
-      "break_bounce": 5,
-      "break_total": "50 (10 Hits)",
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Summons Lightning-Lord at the start of the battle.\nLightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to {{scaling1}}% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the primary target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      "scaling": {
-        "scaling1": [
-          33,
-          36.3,
-          39.6,
-          42.9,
-          46.2,
-          49.5,
-          53.625,
-          57.75,
-          61.875,
-          66,
-          69.3,
-          72.6,
-          75.9,
-          79.2,
-          82.5
-        ]
-      }
-    },
-    "technique": {
-      "type": "Technique",
-      "name": "Spiritus Invocation",
-      "tag": "Enhance",
-      "description": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle."
-    }
-  },
-  "major_traces": {
-    "2": {
-      "name": "Battalia Crush",
-      "description": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn."
-    },
-    "4": {
-      "name": "Savant Providence",
-      "description": "At the start of the battle, immediately regenerates 15 Energy."
-    },
-    "6": {
-      "name": "War Marshal",
-      "description": "After the Skill is used, the CRIT Rate increases by 10% for 2 turn(s)."
-    }
-  },
-  "stat_bonuses": [
-    {
-      "stat": "ATK",
-      "value": "+28%"
-    },
-    {
-      "stat": "DEF",
-      "value": "+12.5%"
-    },
-    {
-      "stat": "CRIT Rate",
-      "value": "+12%"
-    }
-  ],
-  "eidolons": [
-    {
-      "level": 1,
-      "name": "Slash, Seas Split",
-      "description": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the primary target enemy."
-    },
-    {
-      "level": 2,
-      "name": "Swing, Skies Squashed",
-      "description": "After Lightning-Lord takes action, DMG dealt by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20%, lasting for 2 turn(s)."
-    },
-    {
-      "level": 3,
-      "name": "Strike, Suns Subdued",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
-    },
-    {
-      "level": 4,
-      "name": "Spin, Stars Sieged",
-      "description": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy."
-    },
-    {
-      "level": 5,
-      "name": "Stride, Spoils Seized",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 6,
-      "name": "Sweep, Souls Slain",
-      "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
-    }
-  ]
+    "stat_bonuses": [
+        {
+            "stat": "ATK",
+            "value": "+28%"
+        },
+        {
+            "stat": "DEF",
+            "value": "+12.5%"
+        },
+        {
+            "stat": "CRIT Rate",
+            "value": "+12%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Slash, Seas Split",
+            "description": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the primary target enemy."
+        },
+        {
+            "level": 2,
+            "name": "Swing, Skies Squashed",
+            "description": "After Lightning-Lord takes action, DMG dealt by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20%, lasting for 2 turn(s)."
+        },
+        {
+            "level": 3,
+            "name": "Strike, Suns Subdued",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+            "level": 4,
+            "name": "Spin, Stars Sieged",
+            "description": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy."
+        },
+        {
+            "level": 5,
+            "name": "Stride, Spoils Seized",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 6,
+            "name": "Sweep, Souls Slain",
+            "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
+        }
+    ]
 }

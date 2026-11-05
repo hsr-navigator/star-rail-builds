@@ -74,8 +74,13 @@ export function getContentCharacters(
                                 return [];
                             }
 
+                            const metadata = readJSONFile(metadataPath);
+                            if (metadata?.hidden === true) {
+                                return [];
+                            }
+
                             const isWip =
-                                String(readJSONFile(metadataPath)?.last_updated ?? '')
+                                String(metadata?.last_updated ?? '')
                                     .trim()
                                     .toUpperCase() === 'WIP';
 

@@ -1,4 +1,7 @@
 {
+    "hidden_kit_sections": [
+        "affinity_eidolon"
+    ],
     "id": "imbibitor-lunae",
     "name": "Dan Heng • Imbibitor Lunae",
     "rarity": "5",

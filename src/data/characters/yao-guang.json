@@ -1,241 +1,244 @@
 {
-  "id": "yao-guang",
-  "name": "Yao Guang",
-  "rarity": "5",
-  "type": "physical",
-  "path": "elation",
-  "version_released": "4.0",
-  "max_energy": 180,
-  "level_80_stats": {
-    "hp": 1241,
-    "atk": 465,
-    "def": 654,
-    "spd": 101
-  },
-  "abilities": {
-    "basic": {
-      "type": "Basic ATK",
-      "name": "Whistlebolt Sings Joy",
-      "tag": "Blast",
-      "energy_gain": 30,
-      "break_main": 10,
-      "break_adjacent": 5,
-      "min_level": 1,
-      "max_level": 7,
-      "default_level": 6,
-      "description_template": "Deals Physical DMG equal to {{scaling1}}% of Yao Guang's ATK to one designated enemy and Physical DMG equal to {{scaling2}}% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
-      "scaling": {
-        "scaling1": [
-          45,
-          54,
-          63,
-          72,
-          81,
-          90,
-          99
-        ],
-        "scaling2": [
-          15,
-          18,
-          21,
-          24,
-          27,
-          30,
-          33
-        ]
-      }
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
+    "id": "yao-guang",
+    "name": "Yao Guang",
+    "rarity": "5",
+    "type": "physical",
+    "path": "elation",
+    "version_released": "4.0",
+    "max_energy": 180,
+    "level_80_stats": {
+        "hp": 1241,
+        "atk": 465,
+        "def": 654,
+        "spd": 101
     },
-    "skill": {
-      "type": "Skill",
-      "name": "Decalight Unveils All",
-      "tag": "Support",
-      "energy_gain": 30,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to {{scaling1}}% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
-      "scaling": {
-        "scaling1": [
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16.3,
-          17.5,
-          18.8,
-          20,
-          21,
-          22
-        ]
-      }
-    },
-    "talent": {
-      "type": "Talent",
-      "name": "Behold Wherever Light Unfolds",
-      "tag": "Support",
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "While Yao Guang holds \"Certified Banger\":\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of {{scaling1}}% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation. Triggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
-      "scaling": {
-        "scaling1": [
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16.3,
-          17.5,
-          18.8,
-          20,
-          21,
-          22
-        ]
-      }
-    },
-    "ultimate": {
-      "type": "Ultimate",
-      "name": "Hexagram of Feathered Fortune",
-      "tag": "Support",
-      "energy_gain": 5,
-      "energy_cost": 180,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn, does not consume Punchline, and increases all allies' All-Type RES PEN by {{scaling1}}% for 3 turn(s).",
-      "scaling": {
-        "scaling1": [
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16.3,
-          17.5,
-          18.8,
-          20,
-          21,
-          22
-        ]
-      }
-    },
-    "technique": {
-      "type": "Technique",
-      "name": "Untethered Glimmer Sails Far",
-      "tag": "Support",
-      "description": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week."
-    }
-  },
-  "elation": {
-    "skills": {
-      "skill": {
-        "type": "Elation Skill",
-        "name": "Let Thy Fortune Burst in Flames",
-        "tag": "AoE",
-        "energy_gain": 5,
-        "participant_id": 116,
-        "break_aoe": 20,
-        "break_bounce": 5,
-        "break_total": 45,
-        "min_level": 1,
-        "max_level": 12,
-        "default_level": 10,
-        "description_template": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals {{scaling1}}% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of {{scaling2}}% Physical Elation DMG to one random enemy.",
-        "scaling": {
-          "scaling1": [
-            50,
-            55,
-            60,
-            65,
-            70,
-            75,
-            81.3,
-            87.5,
-            93.8,
-            100,
-            105,
-            110
-          ],
-          "scaling2": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16.3,
-            17.5,
-            18.8,
-            20,
-            21,
-            22
-          ]
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Whistlebolt Sings Joy",
+            "tag": "Blast",
+            "energy_gain": 30,
+            "break_main": 10,
+            "break_adjacent": 5,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Deals Physical DMG equal to {{scaling1}}% of Yao Guang's ATK to one designated enemy and Physical DMG equal to {{scaling2}}% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
+            "scaling": {
+                "scaling1": [
+                    45,
+                    54,
+                    63,
+                    72,
+                    81,
+                    90,
+                    99
+                ],
+                "scaling2": [
+                    15,
+                    18,
+                    21,
+                    24,
+                    27,
+                    30,
+                    33
+                ]
+            }
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Decalight Unveils All",
+            "tag": "Support",
+            "energy_gain": 30,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to {{scaling1}}% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.",
+            "scaling": {
+                "scaling1": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.3,
+                    17.5,
+                    18.8,
+                    20,
+                    21,
+                    22
+                ]
+            }
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "Behold Wherever Light Unfolds",
+            "tag": "Support",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "While Yao Guang holds \"Certified Banger\":\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of {{scaling1}}% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation. Triggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
+            "scaling": {
+                "scaling1": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.3,
+                    17.5,
+                    18.8,
+                    20,
+                    21,
+                    22
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "Hexagram of Feathered Fortune",
+            "tag": "Support",
+            "energy_gain": 5,
+            "energy_cost": 180,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn, does not consume Punchline, and increases all allies' All-Type RES PEN by {{scaling1}}% for 3 turn(s).",
+            "scaling": {
+                "scaling1": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.3,
+                    17.5,
+                    18.8,
+                    20,
+                    21,
+                    22
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "Untethered Glimmer Sails Far",
+            "tag": "Support",
+            "description": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week."
         }
-      }
-    }
-  },
-  "major_traces": {
-    "2": {
-      "name": "Amaze-In Grace",
-      "description": "When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect."
     },
-    "4": {
-      "name": "Poised and Sated",
-      "description": "Increases this unit's CRIT DMG by 60%. After using Elation Skill, recovers 1 Skill Point(s) for the team."
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Elation Skill",
+                "name": "Let Thy Fortune Burst in Flames",
+                "tag": "AoE",
+                "energy_gain": 5,
+                "participant_id": 116,
+                "break_aoe": 20,
+                "break_bounce": 5,
+                "break_total": 45,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals {{scaling1}}% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of {{scaling2}}% Physical Elation DMG to one random enemy.",
+                "scaling": {
+                    "scaling1": [
+                        50,
+                        55,
+                        60,
+                        65,
+                        70,
+                        75,
+                        81.3,
+                        87.5,
+                        93.8,
+                        100,
+                        105,
+                        110
+                    ],
+                    "scaling2": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16.3,
+                        17.5,
+                        18.8,
+                        20,
+                        21,
+                        22
+                    ]
+                }
+            }
+        }
     },
-    "6": {
-      "name": "Felicity Ensemble",
-      "description": "When Yao Guang gains \"Certified Banger,\" its duration increases by 1 turn(s)."
-    }
-  },
-  "stat_bonuses": [
-    {
-      "stat": "SPD",
-      "value": "+9"
+    "major_traces": {
+        "2": {
+            "name": "Amaze-In Grace",
+            "description": "When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeded, increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect."
+        },
+        "4": {
+            "name": "Poised and Sated",
+            "description": "Increases this unit's CRIT DMG by 60%. After using Elation Skill, recovers 1 Skill Point(s) for the team."
+        },
+        "6": {
+            "name": "Felicity Ensemble",
+            "description": "When Yao Guang gains \"Certified Banger,\" its duration increases by 1 turn(s)."
+        }
     },
-    {
-      "stat": "CRIT Rate",
-      "value": "+18.7%"
-    },
-    {
-      "stat": "Elation",
-      "value": "+10%"
-    }
-  ],
-  "eidolons": [
-    {
-      "level": 1,
-      "name": "Chuckle Chimes Where Jade Falls",
-      "description": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF."
-    },
-    {
-      "level": 2,
-      "name": "Blind Arrows Guided by Feathers",
-      "description": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%."
-    },
-    {
-      "level": 4,
-      "name": "Threads of Fate Colored by Plumes",
-      "description": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG."
-    },
-    {
-      "level": 6,
-      "name": "Ferried Along the Astral Arc",
-      "description": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier."
-    },
-    {
-      "level": 3,
-      "name": "Auspices Mirrored In Decalight",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 5,
-      "name": "Bejeweled in Radiant Grace",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    }
-  ]
+    "stat_bonuses": [
+        {
+            "stat": "SPD",
+            "value": "+9"
+        },
+        {
+            "stat": "CRIT Rate",
+            "value": "+18.7%"
+        },
+        {
+            "stat": "Elation",
+            "value": "+10%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Chuckle Chimes Where Jade Falls",
+            "description": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF."
+        },
+        {
+            "level": 2,
+            "name": "Blind Arrows Guided by Feathers",
+            "description": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%."
+        },
+        {
+            "level": 4,
+            "name": "Threads of Fate Colored by Plumes",
+            "description": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG."
+        },
+        {
+            "level": 6,
+            "name": "Ferried Along the Astral Arc",
+            "description": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier."
+        },
+        {
+            "level": 3,
+            "name": "Auspices Mirrored In Decalight",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 5,
+            "name": "Bejeweled in Radiant Grace",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        }
+    ]
 }

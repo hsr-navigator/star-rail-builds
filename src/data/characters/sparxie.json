@@ -1,332 +1,335 @@
 {
-  "id": "sparxie",
-  "name": "Sparxie",
-  "rarity": "5",
-  "type": "fire",
-  "path": "elation",
-  "version_released": "4.0",
-  "max_energy": 160,
-  "level_80_stats": {
-    "hp": 1047,
-    "atk": 640,
-    "def": 460,
-    "spd": 107
-  },
-  "abilities": {
-    "basic": {
-      "type": "Basic ATK",
-      "name": "Cat Got Your Flametongue?",
-      "tag": "Single Target",
-      "energy_gain": 20,
-      "break": 10,
-      "min_level": 1,
-      "max_level": 7,
-      "default_level": 6,
-      "description_template": "Deals Fire DMG equal to {{scaling1}}% of Sparxie's ATK to one designated enemy.",
-      "scaling": {
-        "scaling1": [
-          50,
-          60,
-          70,
-          80,
-          90,
-          100,
-          110
-        ]
-      },
-      "variants": [
-        {
-          "type": "Enhanced Basic ATK",
-          "name": "Bloom! Winner Takes All",
-          "tag": "Blast",
-          "energy_gain": 40,
-          "break_main": 10,
-          "break_adjacent": 5,
-          "min_level": 1,
-          "max_level": 7,
-          "default_level": 6,
-          "description_template": "Finalizes the livestream. Deals Fire DMG equal to {{scaling1}}% of Sparxie's ATK to one designated enemy, and Fire DMG equal to {{scaling2}}% of Sparxie's ATK to adjacent targets.",
-          "scaling": {
-            "scaling1": [
-              50,
-              60,
-              70,
-              80,
-              90,
-              100,
-              110
-            ],
-            "scaling2": [
-              25,
-              30,
-              35,
-              40,
-              45,
-              50,
-              55
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
+    "id": "sparxie",
+    "name": "Sparxie",
+    "rarity": "5",
+    "type": "fire",
+    "path": "elation",
+    "version_released": "4.0",
+    "max_energy": 160,
+    "level_80_stats": {
+        "hp": 1047,
+        "atk": 640,
+        "def": 460,
+        "spd": 107
+    },
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Cat Got Your Flametongue?",
+            "tag": "Single Target",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Deals Fire DMG equal to {{scaling1}}% of Sparxie's ATK to one designated enemy.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            },
+            "variants": [
+                {
+                    "type": "Enhanced Basic ATK",
+                    "name": "Bloom! Winner Takes All",
+                    "tag": "Blast",
+                    "energy_gain": 40,
+                    "break_main": 10,
+                    "break_adjacent": 5,
+                    "min_level": 1,
+                    "max_level": 7,
+                    "default_level": 6,
+                    "description_template": "Finalizes the livestream. Deals Fire DMG equal to {{scaling1}}% of Sparxie's ATK to one designated enemy, and Fire DMG equal to {{scaling2}}% of Sparxie's ATK to adjacent targets.",
+                    "scaling": {
+                        "scaling1": [
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100,
+                            110
+                        ],
+                        "scaling2": [
+                            25,
+                            30,
+                            35,
+                            40,
+                            45,
+                            50,
+                            55
+                        ]
+                    }
+                }
             ]
-          }
-        }
-      ]
-    },
-    "skill": {
-      "type": "Skill",
-      "name": "Boom! Sparxicle's Poppin'",
-      "tag": "Enhance",
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.",
-      "variants": [
-        {
-          "type": "Enhanced Skill",
-          "name": "Engagement Farming",
-          "tag": "Enhance",
-          "min_level": 1,
-          "max_level": 12,
-          "default_level": 10,
-          "description_template": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by {{scaling1}}% and the DMG multiplier against adjacent targets by {{scaling2}}%. Randomly gains one of the following gifts:\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\n\"Unreal Banger\": 1 Punchline point(s).\nUsing this ability is not considered as using a Skill.",
-          "scaling": {
-            "scaling1": [
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16.25,
-              17.5,
-              18.75,
-              20,
-              21,
-              22
-            ],
-            "scaling2": [
-              5,
-              5.5,
-              6,
-              6.5,
-              7,
-              7.5,
-              8.125,
-              8.75,
-              9.375,
-              10,
-              10.5,
-              11
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Boom! Sparxicle's Poppin'",
+            "tag": "Enhance",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to 20 time(s). Using this ability is not considered as using a Skill.",
+            "variants": [
+                {
+                    "type": "Enhanced Skill",
+                    "name": "Engagement Farming",
+                    "tag": "Enhance",
+                    "min_level": 1,
+                    "max_level": 12,
+                    "default_level": 10,
+                    "description_template": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by {{scaling1}}% and the DMG multiplier against adjacent targets by {{scaling2}}%. Randomly gains one of the following gifts:\n\"Straight Fire\": 2 Punchline point(s) and 2 Skill point(s).\n\"Unreal Banger\": 1 Punchline point(s).\nUsing this ability is not considered as using a Skill.",
+                    "scaling": {
+                        "scaling1": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16.25,
+                            17.5,
+                            18.75,
+                            20,
+                            21,
+                            22
+                        ],
+                        "scaling2": [
+                            5,
+                            5.5,
+                            6,
+                            6.5,
+                            7,
+                            7.5,
+                            8.125,
+                            8.75,
+                            9.375,
+                            10,
+                            10.5,
+                            11
+                        ]
+                    }
+                }
             ]
-          }
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "Sleight of Sparx Hand",
+            "tag": "Enhance",
+            "break": 5,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "While Sparxie holds \"Certified Banger\":\nUsing Enhanced Basic ATK deals {{scaling1}}% Fire Elation DMG to one designated enemy, and {{scaling2}}% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of {{scaling3}}% Fire Elation DMG to 1 random attacked enemy target.\nUsing Ultimate deals {{scaling4}}% Fire Elation DMG to all enemies.",
+            "scaling": {
+                "scaling1": [
+                    20,
+                    22,
+                    24,
+                    26,
+                    28,
+                    30,
+                    32.5,
+                    35,
+                    37.5,
+                    40,
+                    42,
+                    44
+                ],
+                "scaling2": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.25,
+                    17.5,
+                    18.75,
+                    20,
+                    21,
+                    22
+                ],
+                "scaling3": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16.25,
+                    17.5,
+                    18.75,
+                    20,
+                    21,
+                    22
+                ],
+                "scaling4": [
+                    24,
+                    26.4,
+                    28.8,
+                    31.2,
+                    33.6,
+                    36,
+                    39,
+                    42,
+                    45,
+                    48,
+                    50.4,
+                    54.8
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "Party's Wildin' and Camera's Rollin'",
+            "tag": "AoE",
+            "energy_gain": 5,
+            "break_aoe": 20,
+            "energy_cost": 160,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gains 2 Punchline. Deals Fire DMG equal to (0.6 × Elation + {{scaling1}}%) of Sparxie's ATK to all enemies.",
+            "scaling": {
+                "scaling1": [
+                    30,
+                    32,
+                    34,
+                    36,
+                    38,
+                    40,
+                    42.5,
+                    45,
+                    47.5,
+                    50,
+                    52,
+                    54
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "Content Monetization",
+            "tag": "Impair",
+            "description": "After using the Technique, inflicts enemies within a set area with \"Block\" for 10 second(s). \"Blocked\" enemies cannot detect ally targets. After entering combat via actively attacking a \"Blocked\" enemy, deals Fire DMG to all enemies equal to 50% of Sparxie's ATK and recovers 2 Skill Point(s) for allies."
         }
-      ]
     },
-    "talent": {
-      "type": "Talent",
-      "name": "Sleight of Sparx Hand",
-      "tag": "Enhance",
-      "break": 5,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "While Sparxie holds \"Certified Banger\":\nUsing Enhanced Basic ATK deals {{scaling1}}% Fire Elation DMG to one designated enemy, and {{scaling2}}% Fire Elation DMG to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of {{scaling3}}% Fire Elation DMG to 1 random attacked enemy target.\nUsing Ultimate deals {{scaling4}}% Fire Elation DMG to all enemies.",
-      "scaling": {
-        "scaling1": [
-          20,
-          22,
-          24,
-          26,
-          28,
-          30,
-          32.5,
-          35,
-          37.5,
-          40,
-          42,
-          44
-        ],
-        "scaling2": [
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16.25,
-          17.5,
-          18.75,
-          20,
-          21,
-          22
-        ],
-        "scaling3": [
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16.25,
-          17.5,
-          18.75,
-          20,
-          21,
-          22
-        ],
-        "scaling4": [
-          24,
-          26.4,
-          28.8,
-          31.2,
-          33.6,
-          36,
-          39,
-          42,
-          45,
-          48,
-          50.4,
-          54.8
-        ]
-      }
-    },
-    "ultimate": {
-      "type": "Ultimate",
-      "name": "Party's Wildin' and Camera's Rollin'",
-      "tag": "AoE",
-      "energy_gain": 5,
-      "break_aoe": 20,
-      "energy_cost": 160,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Gains 2 Punchline. Deals Fire DMG equal to (0.6 × Elation + {{scaling1}}%) of Sparxie's ATK to all enemies.",
-      "scaling": {
-        "scaling1": [
-          30,
-          32,
-          34,
-          36,
-          38,
-          40,
-          42.5,
-          45,
-          47.5,
-          50,
-          52,
-          54
-        ]
-      }
-    },
-    "technique": {
-      "type": "Technique",
-      "name": "Content Monetization",
-      "tag": "Impair",
-      "description": "After using the Technique, inflicts enemies within a set area with \"Block\" for 10 second(s). \"Blocked\" enemies cannot detect ally targets. After entering combat via actively attacking a \"Blocked\" enemy, deals Fire DMG to all enemies equal to 50% of Sparxie's ATK and recovers 2 Skill Point(s) for allies."
-    }
-  },
-  "elation": {
-    "skills": {
-      "skill": {
-        "type": "Elation Skill",
-        "name": "Signal Overflow: The Great Encore!",
-        "tag": "AoE",
-        "participant_id": 144,
-        "break_bounce":20,
-        "break_aoe": 6,
-        "break_total":26,
-        "min_level": 1,
-        "max_level": 12,
-        "default_level": 10,
-        "description_template": "Deals {{scaling1}}% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals {{scaling2}}% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
-        "scaling": {
-          "scaling1": [
-            25,
-            27.5,
-            30,
-            32.5,
-            35,
-            37.5,
-            40.625,
-            43.75,
-            46.875,
-            50,
-            52.5,
-            55
-          ],
-          "scaling2": [
-            12.5,
-            13.75,
-            15,
-            16.25,
-            17.5,
-            18.75,
-            20.3125,
-            21.875,
-            23.4375,
-            25,
-            26.25,
-            27.5
-          ]
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Elation Skill",
+                "name": "Signal Overflow: The Great Encore!",
+                "tag": "AoE",
+                "participant_id": 144,
+                "break_bounce": 20,
+                "break_aoe": 6,
+                "break_total": 26,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "Deals {{scaling1}}% Fire Elation DMG to all enemies and deals 20 additional instance(s) of DMG. Each instance deals {{scaling2}}% Fire Elation DMG to one random enemy. Grants 2 \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
+                "scaling": {
+                    "scaling1": [
+                        25,
+                        27.5,
+                        30,
+                        32.5,
+                        35,
+                        37.5,
+                        40.625,
+                        43.75,
+                        46.875,
+                        50,
+                        52.5,
+                        55
+                    ],
+                    "scaling2": [
+                        12.5,
+                        13.75,
+                        15,
+                        16.25,
+                        17.5,
+                        18.75,
+                        20.3125,
+                        21.875,
+                        23.4375,
+                        25,
+                        26.25,
+                        27.5
+                    ]
+                }
+            }
         }
-      }
-    }
-  },
-  "major_traces": {
-    "2": {
-      "name": "Sweet! Punchline Signing",
-      "description": "For every 100 of Sparxie's ATK that exceeds 2000, increases this unit's Elation by 5%, up to a maximum increase of 80%."
     },
-    "4": {
-      "name": "Dazzling! Persona Kaleidoscope",
-      "description": "When there are 1/2/(3 or more) Elation characters in the team, using Sparxie's Ultimate will additionally gain 2/4/8 Punchline and 1/1/4 \"Thrill\"."
+    "major_traces": {
+        "2": {
+            "name": "Sweet! Punchline Signing",
+            "description": "For every 100 of Sparxie's ATK that exceeds 2000, increases this unit's Elation by 5%, up to a maximum increase of 80%."
+        },
+        "4": {
+            "name": "Dazzling! Persona Kaleidoscope",
+            "description": "When there are 1/2/(3 or more) Elation characters in the team, using Sparxie's Ultimate will additionally gain 2/4/8 Punchline and 1/1/4 \"Thrill\"."
+        },
+        "6": {
+            "name": "Frenzy! Palette of Truth and Lies",
+            "description": "For every 1 Punchline currently owned, increases all allies' CRIT DMG by 8%, up to a max increase of 80%."
+        }
     },
-    "6": {
-      "name": "Frenzy! Palette of Truth and Lies",
-      "description": "For every 1 Punchline currently owned, increases all allies' CRIT DMG by 8%, up to a max increase of 80%."
-    }
-  },
-  "stat_bonuses": [
-    {
-      "stat": "CRIT Rate",
-      "value": "+12%"
-    },
-    {
-      "stat": "CRIT DMG",
-      "value": "+13.3%"
-    },
-    {
-      "stat": "Elation",
-      "value": "+28%"
-    }
-  ],
-  "eidolons": [
-    {
-      "level": 1,
-      "name": "#GoingViral #WhoIsShe",
-      "description": "When Aha Instant ends, gains 5 Punchline. For every 1 Punchline owned, increases All-Type RES PEN for all allies by 1.5%, up to a max increase of 15%."
-    },
-    {
-      "level": 2,
-      "name": "#AudienceKnows",
-      "description": "When Aha Instant ends, Sparxie gains 1 extra turn and 2 \"Thrill.\" For every 1 \"Thrill\" consumed, increases this unit's CRIT DMG by 10%, lasting for 2 turn(s) and stacking up to 4 time(s)."
-    },
-    {
-      "level": 3,
-      "name": "#LinkUp #HeartSkip",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 4,
-      "name": "#LockedIn #FaceCard",
-      "description": "When using Ultimate, additionally gains 5 Punchline and increases this unit's Elation by 36% for 3 turn(s)."
-    },
-    {
-      "level": 5,
-      "name": "#HealingTheWorld #GoodVibesOnly",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 6,
-      "name": "#BuiltDifferent #GoingExtinct",
-      "description": "Increases All-Type RES PEN by 20%. For every 1 Punchline taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of 40."
-    }
-  ]
+    "stat_bonuses": [
+        {
+            "stat": "CRIT Rate",
+            "value": "+12%"
+        },
+        {
+            "stat": "CRIT DMG",
+            "value": "+13.3%"
+        },
+        {
+            "stat": "Elation",
+            "value": "+28%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "#GoingViral #WhoIsShe",
+            "description": "When Aha Instant ends, gains 5 Punchline. For every 1 Punchline owned, increases All-Type RES PEN for all allies by 1.5%, up to a max increase of 15%."
+        },
+        {
+            "level": 2,
+            "name": "#AudienceKnows",
+            "description": "When Aha Instant ends, Sparxie gains 1 extra turn and 2 \"Thrill.\" For every 1 \"Thrill\" consumed, increases this unit's CRIT DMG by 10%, lasting for 2 turn(s) and stacking up to 4 time(s)."
+        },
+        {
+            "level": 3,
+            "name": "#LinkUp #HeartSkip",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 4,
+            "name": "#LockedIn #FaceCard",
+            "description": "When using Ultimate, additionally gains 5 Punchline and increases this unit's Elation by 36% for 3 turn(s)."
+        },
+        {
+            "level": 5,
+            "name": "#HealingTheWorld #GoodVibesOnly",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 6,
+            "name": "#BuiltDifferent #GoingExtinct",
+            "description": "Increases All-Type RES PEN by 20%. For every 1 Punchline taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of 40."
+        }
+    ]
 }

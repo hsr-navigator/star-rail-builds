@@ -1,241 +1,309 @@
 {
-  "id": "evanescia",
-  "name": "Evanescia",
-  "rarity": "5",
-  "type": "physical",
-  "path": "elation",
-  "version_released": "4.2",
-  "max_energy": 480,
-  "level_80_stats": {
-    "hp": 1047,
-    "atk": 737,
-    "def": 460,
-    "spd": 104
-  },
-  "abilities": {
-    "basic": {
-      "type": "Basic ATK",
-      "name": "Syllabus: Pop Quiz",
-      "tag": "Single Target",
-      "energy_gain": 20,
-      "break": 10,
-      "min_level": 1,
-      "max_level": 7,
-      "default_level": 6,
-      "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to one designated enemy.",
-      "scaling": {
-        "scaling1": [
-          50,
-          60,
-          70,
-          80,
-          90,
-          100,
-          110
-        ]
-      }
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
+    "id": "evanescia",
+    "name": "Evanescia",
+    "rarity": "5",
+    "type": "physical",
+    "path": "elation",
+    "version_released": "4.2",
+    "max_energy": 480,
+    "level_80_stats": {
+        "hp": 1047,
+        "atk": 737,
+        "def": 460,
+        "spd": 104
     },
-    "skill": {
-      "type": "Skill",
-      "name": "Discipline: Final Verdict",
-      "tag": "Blast",
-      "energy_gain": 30,
-      "break_main": 20,
-      "break_adjacent": 10,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to one designated enemy and Physical DMG equal to {{scaling2}}% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
-      "scaling": {
-        "scaling1": [
-          150,
-          165,
-          180,
-          195,
-          210,
-          225,
-          243.8,
-          262.5,
-          281.3,
-          300,
-          315,
-          330
-        ],
-        "scaling2": [
-          75,
-          82.5,
-          90,
-          97.5,
-          105,
-          112.5,
-          121.9,
-          131.3,
-          140.6,
-          150,
-          157.5,
-          165
-        ]
-      }
-    },
-    "ultimate": {
-      "type": "Ultimate",
-      "name": "Swordsong: Absolution Denied",
-      "tag": "AoE",
-      "energy_gain": 5,
-      "break_aoe": 20,
-      "break_bounce": 5,
-      "break_total": 45,
-      "energy_cost": 240,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to {{scaling2}}% of Evanescia's ATK to one random enemy.",
-      "scaling": {
-        "scaling1": [
-          80,
-          88,
-          96,
-          104,
-          112,
-          120,
-          130,
-          140,
-          150,
-          160,
-          168,
-          176
-        ],
-        "scaling2": [
-          72,
-          76.8,
-          81.6,
-          86.4,
-          91.2,
-          96,
-          102,
-          108,
-          114,
-          120,
-          124.8,
-          129.6
-        ]
-      }
-    },
-    "technique": {
-      "type": "Technique",
-      "name": "Petalfall: Floral Reminiscence",
-      "break": 20,
-      "description": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\""
-    },
-    "talent": {
-      "type": "Talent",
-      "name": "Youth: Halcyon Evermore",
-      "tag": "Enhance",
-      "energy_gain": 10,
-      "break_aoe": 10,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance. After accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to {{scaling1}}% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\nUsing Skill can deal {{scaling2}}% Physical Elation DMG to the attacked enemy targets.\nUsing Ultimate can deal {{scaling3}}% Physical Elation DMG to all enemies and also deals {{scaling4}}% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\nMaster Fox's Follow-Up ATK deals {{scaling5}}% Physical Elation DMG to all enemies.",
-      "scaling": {
-        "scaling1": [50,55,60,65,70,75,81.3,87.5,93.8,100,105,110],
-        "scaling2": [8,8.8,9.6,10.4,11.2,12,13,14,15,16,16.8,17.6],
-        "scaling3": [12,13.2,14.4,15.6,16.8,18,19.5,21,22.5,24,25.2,26.4],
-        "scaling4": [14,15.4,16.8,18.2,19.6,21,22.8,24.5,26.3,28,29.4,30.8],
-        "scaling5": [12.5,13.8,15,16.3,17.5,18.8,20.3,21.9,23.4,25,26.3,27.5]
-      }
-    }
-  },
-  "elation": {
-    "skills": {
-      "skill": {
-        "type": "Elation Skill",
-        "name": "Scarlet: Elation or Execution",
-        "tag": "AoE",
-        "energy_gain": 5,
-        "participant_id": 146,
-        "break_aoe": 20,
-        "min_level": 1,
-        "max_level": 12,
-        "default_level": 10,
-        "description_template": "Deals {{scaling1}}% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
-        "scaling": {
-          "scaling1": [
-            55,
-            60.5,
-            66,
-            71.5,
-            77,
-            82.5,
-            89.4,
-            96.3,
-            103.1,
-            110,
-            115.5,
-            121
-          ]
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Syllabus: Pop Quiz",
+            "tag": "Single Target",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to one designated enemy.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Discipline: Final Verdict",
+            "tag": "Blast",
+            "energy_gain": 30,
+            "break_main": 20,
+            "break_adjacent": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to one designated enemy and Physical DMG equal to {{scaling2}}% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
+            "scaling": {
+                "scaling1": [
+                    150,
+                    165,
+                    180,
+                    195,
+                    210,
+                    225,
+                    243.8,
+                    262.5,
+                    281.3,
+                    300,
+                    315,
+                    330
+                ],
+                "scaling2": [
+                    75,
+                    82.5,
+                    90,
+                    97.5,
+                    105,
+                    112.5,
+                    121.9,
+                    131.3,
+                    140.6,
+                    150,
+                    157.5,
+                    165
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "Swordsong: Absolution Denied",
+            "tag": "AoE",
+            "energy_gain": 5,
+            "break_aoe": 20,
+            "break_bounce": 5,
+            "break_total": 45,
+            "energy_cost": 240,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deals Physical DMG equal to {{scaling1}}% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to {{scaling2}}% of Evanescia's ATK to one random enemy.",
+            "scaling": {
+                "scaling1": [
+                    80,
+                    88,
+                    96,
+                    104,
+                    112,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    168,
+                    176
+                ],
+                "scaling2": [
+                    72,
+                    76.8,
+                    81.6,
+                    86.4,
+                    91.2,
+                    96,
+                    102,
+                    108,
+                    114,
+                    120,
+                    124.8,
+                    129.6
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "Petalfall: Floral Reminiscence",
+            "break": 20,
+            "description": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\""
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "Youth: Halcyon Evermore",
+            "tag": "Enhance",
+            "energy_gain": 10,
+            "break_aoe": 10,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance. After accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to {{scaling1}}% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\nUsing Skill can deal {{scaling2}}% Physical Elation DMG to the attacked enemy targets.\nUsing Ultimate can deal {{scaling3}}% Physical Elation DMG to all enemies and also deals {{scaling4}}% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\nMaster Fox's Follow-Up ATK deals {{scaling5}}% Physical Elation DMG to all enemies.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    55,
+                    60,
+                    65,
+                    70,
+                    75,
+                    81.3,
+                    87.5,
+                    93.8,
+                    100,
+                    105,
+                    110
+                ],
+                "scaling2": [
+                    8,
+                    8.8,
+                    9.6,
+                    10.4,
+                    11.2,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    16.8,
+                    17.6
+                ],
+                "scaling3": [
+                    12,
+                    13.2,
+                    14.4,
+                    15.6,
+                    16.8,
+                    18,
+                    19.5,
+                    21,
+                    22.5,
+                    24,
+                    25.2,
+                    26.4
+                ],
+                "scaling4": [
+                    14,
+                    15.4,
+                    16.8,
+                    18.2,
+                    19.6,
+                    21,
+                    22.8,
+                    24.5,
+                    26.3,
+                    28,
+                    29.4,
+                    30.8
+                ],
+                "scaling5": [
+                    12.5,
+                    13.8,
+                    15,
+                    16.3,
+                    17.5,
+                    18.8,
+                    20.3,
+                    21.9,
+                    23.4,
+                    25,
+                    26.3,
+                    27.5
+                ]
+            }
         }
-      }
-    }
-  },
-  "major_traces": {
-    "2": {
-      "name": "Watch All Revels",
-      "description": "Increases Evanescia's CRIT Rate by 30%. When there are (≥3)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\""
     },
-    "4": {
-      "name": "Weigh All Truths",
-      "description": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s)."
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Elation Skill",
+                "name": "Scarlet: Elation or Execution",
+                "tag": "AoE",
+                "energy_gain": 5,
+                "participant_id": 146,
+                "break_aoe": 20,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "Deals {{scaling1}}% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
+                "scaling": {
+                    "scaling1": [
+                        55,
+                        60.5,
+                        66,
+                        71.5,
+                        77,
+                        82.5,
+                        89.4,
+                        96.3,
+                        103.1,
+                        110,
+                        115.5,
+                        121
+                    ]
+                }
+            }
+        }
     },
-    "6": {
-      "name": "Best All Blooms",
-      "description": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\""
-    }
-  },
-  "stat_bonuses": [
-    {
-      "stat": "SPD",
-      "value": "+5"
+    "major_traces": {
+        "2": {
+            "name": "Watch All Revels",
+            "description": "Increases Evanescia's CRIT Rate by 30%. When there are (≥3)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\""
+        },
+        "4": {
+            "name": "Weigh All Truths",
+            "description": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s)."
+        },
+        "6": {
+            "name": "Best All Blooms",
+            "description": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\""
+        }
     },
-    {
-      "stat": "CRIT Rate",
-      "value": "+18.7%"
-    },
-    {
-      "stat": "Elation",
-      "value": "+18%"
-    }
-  ],
-  "eidolons": [
-    {
-      "level": 1,
-      "name": "Home: A Prayer in Dance",
-      "description": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s)."
-    },
-    {
-      "level": 2,
-      "name": "Voyage: A Wish for Everbloom",
-      "description": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time."
-    },
-    {
-      "level": 4,
-      "name": "Meadow: A Ruin by Vice",
-      "description": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF."
-    },
-    {
-      "level": 6,
-      "name": "Maiden: A Step into Dreams",
-      "description": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used."
-    },
-    {
-      "level": 3,
-      "name": "Blade: A Feast on Evils",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 5,
-      "name": "Arcadia: A Glimpse of Fates",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    }
-  ]
+    "stat_bonuses": [
+        {
+            "stat": "SPD",
+            "value": "+5"
+        },
+        {
+            "stat": "CRIT Rate",
+            "value": "+18.7%"
+        },
+        {
+            "stat": "Elation",
+            "value": "+18%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Home: A Prayer in Dance",
+            "description": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s)."
+        },
+        {
+            "level": 2,
+            "name": "Voyage: A Wish for Everbloom",
+            "description": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time."
+        },
+        {
+            "level": 4,
+            "name": "Meadow: A Ruin by Vice",
+            "description": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF."
+        },
+        {
+            "level": 6,
+            "name": "Maiden: A Step into Dreams",
+            "description": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used."
+        },
+        {
+            "level": 3,
+            "name": "Blade: A Feast on Evils",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 5,
+            "name": "Arcadia: A Glimpse of Fates",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        }
+    ]
 }

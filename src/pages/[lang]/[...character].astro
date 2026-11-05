@@ -136,6 +136,13 @@ const buildGuideLabel = t(locale, 'ui', 'Builds', undefined, false);
                                     </summary>
 
                                     <div class="section-collapse-body">
+                                        {build.buildNote?.featured_note && (
+                                            <aside
+                                                class="featured-build-note"
+                                                set:html={build.buildNote.featured_note}
+                                            />
+                                        )}
+
                                         {hasNoteMarkerHint && (
                                             <div class="build-note-hint">
                                                 <span

@@ -114,6 +114,10 @@ export type CharacterGlobalPassive = {
     description: string;
 };
 
+type CharacterAffinityEidolon = Omit<CharacterEidolon, 'level'> & {
+    tag?: string;
+};
+
 export type CharacterData = {
     id: string;
     name: string;
@@ -144,6 +148,9 @@ export type CharacterData = {
         CharacterGlobalPassive
     >;
 
+    aha_buffs?: Record<string, CharacterGlobalPassive>;
+    affinity_eidolon?: CharacterAffinityEidolon;
+    hidden_kit_sections?: Array<'affinity_eidolon' | 'aha_buffs'>;
     major_traces: Record<
         string,
         CharacterMajorTrace
@@ -226,14 +233,9 @@ type CharacterKitTranslation = {
         >;
     };
 
-    global_passives?: Record<
-        string,
-        {
-            name?: string;
-            tag?: string;
-            description?: string;
-        }
-    >;
+    global_passives?: Record<string, Partial<CharacterGlobalPassive>>;
+    aha_buffs?: Record<string, Partial<CharacterGlobalPassive>>;
+    affinity_eidolon?: Partial<CharacterAffinityEidolon>;
 
     major_traces?: Record<
         string,
@@ -291,7 +293,7 @@ function localizeAbility(
         tag:
             translation.tag ??
             ability.tag,
-     
+
 
         energy_gain:
             translation.energy_gain ??
@@ -496,6 +498,25 @@ function getEidolonTranslation(
     return eidolons[String(level)];
 }
 
+function localizeKitEffects(
+    effects: CharacterData['global_passives'],
+    translations: CharacterKitTranslation['global_passives'],
+) {
+    if (!effects) return undefined;
+
+    return Object.fromEntries(
+        Object.entries(effects).map(([id, effect]) => [
+            id,
+            {
+                ...effect,
+                name: translations?.[id]?.name ?? effect.name,
+                tag: translations?.[id]?.tag ?? effect.tag,
+                description: translations?.[id]?.description ?? effect.description,
+            },
+        ]),
+    );
+}
+
 function applyCharacterKitTranslation(
     character: CharacterData,
     translation: CharacterKitTranslation,
@@ -603,49 +624,22 @@ function applyCharacterKitTranslation(
                 }
                 : undefined,
 
-        global_passives:
-            character.global_passives
-                ? Object.fromEntries(
-                    Object.entries(
-                        character
-                            .global_passives,
-                    ).map(
-                        ([
-                            id,
-                            passive,
-                        ]) => {
-                            const translated =
-                                translation
-                                    .global_passives?.[
-                                id
-                                ];
+        global_passives: localizeKitEffects(
+            character.global_passives,
+            translation.global_passives,
+        ),
 
-                            return [
-                                id,
-                                {
-                                    ...passive,
+        aha_buffs: localizeKitEffects(
+            character.aha_buffs,
+            translation.aha_buffs,
+        ),
 
-                                    name:
-                                        translated
-                                            ?.name ??
-                                        passive.name,
-
-                                    tag:
-                                        translated
-                                            ?.tag ??
-                                        passive.tag,
-
-                                    description:
-                                        translated
-                                            ?.description ??
-                                        passive
-                                            .description,
-                                },
-                            ];
-                        },
-                    ),
-                )
-                : undefined,
+        affinity_eidolon: character.affinity_eidolon && {
+            tag: translation.affinity_eidolon?.tag ?? character.affinity_eidolon.tag,
+            name: translation.affinity_eidolon?.name ?? character.affinity_eidolon.name,
+            description:
+                translation.affinity_eidolon?.description ?? character.affinity_eidolon.description,
+        },
 
         major_traces:
             Object.fromEntries(

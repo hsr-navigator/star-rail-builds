@@ -1,4 +1,7 @@
 {
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
     "id": "pearl",
     "name": "Pearl",
     "rarity": 5,

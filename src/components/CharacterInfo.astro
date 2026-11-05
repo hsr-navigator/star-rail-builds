@@ -203,14 +203,24 @@ const elationAbilities = Object.entries(character.elation?.skills ?? {}).map(
         ability,
     }),
 );
-
-const globalPassives = Object.entries(character.global_passives ?? {}).map(
-    ([id, passive]) => ({
-        id,
-        passive,
-    }),
-);
-
+const hiddenKitSections = character.hidden_kit_sections ?? [];
+const effectGroups = [
+    {
+        labels: [ui('Global'), ui('Passive')],
+        entries: Object.entries(character.global_passives ?? {}),
+    },
+    {
+        labels: null,
+        entries:
+            character.path.toLowerCase() === 'elation' &&
+            !hiddenKitSections.includes('aha_buffs')
+                ? Object.entries(character.aha_buffs ?? {})
+                : [],
+    },
+].filter(({ entries }) => entries.length > 0);
+const affinityEidolon = hiddenKitSections.includes('affinity_eidolon')
+    ? undefined
+    : character.affinity_eidolon;
 const abilitySections = [
     {
         id: 'normal',
@@ -855,50 +865,75 @@ const renderVariantDescription = (
                         </section>
                     ))
                 }
-
-                {
-                    globalPassives.length > 0 && (
-                        <section class="character-info-section">
-                            <h3>{ui('Global Passives')}</h3>
-
-                            <div class="character-global-passive-grid">
-                                {globalPassives.map(({ id, passive }) => (
-                                    <article
-                                        class="character-global-passive-card"
-                                        data-global-passive={id}
-                                    >
-                                        <div class="character-global-passive-header">
-                                            <strong class="character-global-passive-type">
-                                                {ui('Global')}
-                                                <small>{ui('Passive')}</small>
-                                            </strong>
-
-                                            <div class="character-global-passive-title">
-                                                <span class="character-ability-name">
-                                                    {passive.name}
-                                                </span>
-
-                                                {passive.tag && (
-                                                    <small>{passive.tag}</small>
-                                                )}
-                                            </div>
-                                        </div>
-
-                                        <div class="character-global-passive-body">
-                                            <p>
-                                                <HighlightedText
-                                                    text={passive.description}
-                                                />
-                                            </p>
-                                        </div>
-                                    </article>
-                                ))}
-                            </div>
-                        </section>
-                    )
-                }
             </div>
         </details>
+
+        {
+            effectGroups.length > 0 && (
+                <details class="character-kit-collapse" open>
+                    <summary class="character-kit-collapse-summary">
+                        <h3>{ui('Global Passives')}</h3>
+                        <span
+                            class="character-kit-collapse-chevron"
+                            aria-hidden="true"
+                        />
+                    </summary>
+
+                    <div class="character-kit-collapse-body">
+                        {effectGroups.map(({ labels, entries }) => (
+                            <section class="character-info-section">
+                                <div class="character-global-passive-grid">
+                                    {entries.map(([id, passive]) => (
+                                        <article
+                                            class="character-global-passive-card"
+                                            data-kit-effect={id}
+                                        >
+                                            <div
+                                                class:list={[
+                                                    'character-global-passive-header',
+                                                    { 'is-unbadged': !labels },
+                                                ]}
+                                            >
+                                                {labels && (
+                                                    <strong class="character-global-passive-type">
+                                                        {labels[0]}
+                                                        <small>
+                                                            {labels[1]}
+                                                        </small>
+                                                    </strong>
+                                                )}
+
+                                                <div class="character-global-passive-title">
+                                                    <span class="character-ability-name">
+                                                        {passive.name}
+                                                    </span>
+
+                                                    {passive.tag && (
+                                                        <small>
+                                                            {passive.tag}
+                                                        </small>
+                                                    )}
+                                                </div>
+                                            </div>
+
+                                            <div class="character-global-passive-body">
+                                                <p>
+                                                    <HighlightedText
+                                                        text={
+                                                            passive.description
+                                                        }
+                                                    />
+                                                </p>
+                                            </div>
+                                        </article>
+                                    ))}
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                </details>
+            )
+        }
 
         <details class="character-kit-collapse" open>
             <summary class="character-kit-collapse-summary">
@@ -963,6 +998,41 @@ const renderVariantDescription = (
                 </section>
             </div>
         </details>
+
+        {
+            affinityEidolon && (
+                <details class="character-kit-collapse" open>
+                    <summary class="character-kit-collapse-summary">
+                        <h3>{ui('Affinity Eidolon')}</h3>
+                        <span
+                            class="character-kit-collapse-chevron"
+                            aria-hidden="true"
+                        />
+                    </summary>
+
+                    <div class="character-kit-collapse-body">
+                        <article class="character-global-passive-card">
+                            <div class="character-global-passive-body">
+                                <h4 class="character-affinity-name">
+                                    {affinityEidolon.name}
+                                </h4>
+                                {affinityEidolon.tag && (
+                                    <p class="character-ability-tag">
+                                        <strong>{ui('Type')}:</strong>{' '}
+                                        {affinityEidolon.tag}
+                                    </p>
+                                )}
+                                <p>
+                                    <HighlightedText
+                                        text={affinityEidolon.description}
+                                    />
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </details>
+            )
+        }
 
         <details class="character-kit-collapse" open>
             <summary class="character-kit-collapse-summary">
@@ -1770,6 +1840,10 @@ const renderVariantDescription = (
         min-width: 0;
     }
 
+    .character-global-passive-header.is-unbadged {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
     .character-global-passive-type {
         display: grid;
         place-content: center;
@@ -1830,6 +1904,10 @@ const renderVariantDescription = (
         border-top: 1px solid rgba(255, 255, 255, 0.06);
 
         background: rgba(0, 0, 0, 0.18);
+    }
+
+    .character-affinity-name {
+        margin: 0 0 0.35rem;
     }
 
     .character-global-passive-body p {
@@ -2003,6 +2081,10 @@ const renderVariantDescription = (
     }
     .character-ability-description p,
     .character-detail-body > p,
+    .character-affinity-name {
+        margin: 0 0 0.35rem;
+    }
+
     .character-global-passive-body p {
         white-space: pre-line;
     }

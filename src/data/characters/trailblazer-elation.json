@@ -1,230 +1,233 @@
 {
-  "id": "trailblazer-elation",
-  "name": "Trailblazer: Elation",
-  "rarity": 5,
-  "type": "lightning",
-  "path": "elation",
-  "version_released": "4.2",
-  "max_energy": 160,
-  "level_80_stats": {
-    "hp": 1087,
-    "atk": 465,
-    "def": 630,
-    "spd": 106
-  },
-  "abilities": {
-    "basic": {
-      "type": "Basic ATK",
-      "name": "Make Some Noise",
-      "tag": "Single Target",
-      "energy_gain": 20,
-      "break": 10,
-      "min_level": 1,
-      "max_level": 7,
-      "default_level": 6,
-      "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Trailblazer's ATK to one designated enemy.",
-      "scaling": {
-        "scaling1": [
-          50,
-          60,
-          70,
-          80,
-          90,
-          100,
-          110
-        ]
-      }
+    "hidden_kit_sections": [
+        "aha_buffs"
+    ],
+    "id": "trailblazer-elation",
+    "name": "Trailblazer: Elation",
+    "rarity": 5,
+    "type": "lightning",
+    "path": "elation",
+    "version_released": "4.2",
+    "max_energy": 160,
+    "level_80_stats": {
+        "hp": 1087,
+        "atk": 465,
+        "def": 630,
+        "spd": 106
     },
-    "skill": {
-      "type": "Skill",
-      "name": "Let the Storm Rage On",
-      "tag": "AoE",
-      "energy_gain": 30,
-      "break_aoe": 20,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Deals Lightning DMG equal to {{scaling1}}% of the Trailblazer's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
-      "scaling": {
-        "scaling1": [
-          30,
-          33,
-          36,
-          39,
-          42,
-          45,
-          48.8,
-          52.5,
-          56.3,
-          60,
-          63,
-          66
-        ]
-      }
-    },
-    "ultimate": {
-      "type": "Ultimate",
-      "name": "May the Trailblaze Fly You Starward",
-      "tag": "Support",
-      "energy_gain": 5,
-      "energy_cost": 160,
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "Gains 5 Punchline point(s). Increases the CRIT DMG of one designated ally by {{scaling1}}% for 3 turn(s), and dispels Crowd Control debuffs on them.\nIf the target has Elation Skill, they additionally gain 10 point(s) of \"Certified Banger\" and immediately use their Elation Skill 1 time, taking into account a fixed amount of 20 Punchline point(s).\nIf the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target. If the target does not have Elation Skill, their action advances by 50%.",
-      "scaling": {
-        "scaling1": [
-          30,
-          32,
-          34,
-          36,
-          38,
-          40,
-          42.5,
-          45,
-          47.5,
-          50,
-          52,
-          54
-        ]
-      }
-    },
-    "talent": {
-      "type": "Talent",
-      "name": "That Smile Hits Different",
-      "tag": "Support",
-      "min_level": 1,
-      "max_level": 12,
-      "default_level": 10,
-      "description_template": "After using an attack, regenerates a fixed amount of 10 Energy and gains 3 Punchline point(s).\nWhen the Trailblazer holds \"Certified Banger,\" their Skill additionally deals {{scaling1}}% Lightning Elation DMG to all enemies. This DMG is calculated using the highest \"Certified Banger\" value among all allies.",
-      "scaling": {
-        "scaling1": [
-          15,
-          16.5,
-          18,
-          19.5,
-          21,
-          22.5,
-          24.4,
-          26.3,
-          28.1,
-          30,
-          31.5,
-          33
-        ]
-      }
-    },
-    "technique": {
-      "type": "Technique",
-      "name": "We Are So Back!",
-      "tag": "Enhance",
-      "description": "After using Technique, randomly gains 1 of the following effects:\nA low chance to gain \"Hearty Laughter\": Increases Elation by 30%.\nA high chance to gain \"Irrepressible Laughter\": Increases Elation by 20%.\nWhen the next battle begins, increases all allies' Elation stat by the corresponding amount for 3 turn(s)."
-    }
-  },
-  "elation": {
-    "skills": {
-      "skill": {
-        "type": "Elation Skill",
-        "name": "I Said \"Elation,\" Did I Stutter?",
-        "tag": "AoE",
-        "energy_gain": 5,
-        "participant_id": 120,
-        "break_aoe": 20,
-        "min_level": 1,
-        "max_level": 12,
-        "default_level": 10,
-        "description_template": "Deals 8 instances of DMG, with each instance dealing {{scaling1}}% Lightning Elation DMG to one random enemy. At last, deals {{scaling2}}% Lightning Elation DMG, which is split evenly among all enemies.",
-        "scaling": {
-          "scaling1": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16.3,
-            17.5,
-            18.8,
-            20,
-            21,
-            22
-          ],
-          "scaling2": [
-            30,
-            33,
-            36,
-            39,
-            42,
-            45,
-            48.8,
-            52.5,
-            56.3,
-            60,
-            63,
-            66
-          ]
+    "abilities": {
+        "basic": {
+            "type": "Basic ATK",
+            "name": "Make Some Noise",
+            "tag": "Single Target",
+            "energy_gain": 20,
+            "break": 10,
+            "min_level": 1,
+            "max_level": 7,
+            "default_level": 6,
+            "description_template": "Deals Lightning DMG equal to {{scaling1}}% of Trailblazer's ATK to one designated enemy.",
+            "scaling": {
+                "scaling1": [
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110
+                ]
+            }
+        },
+        "skill": {
+            "type": "Skill",
+            "name": "Let the Storm Rage On",
+            "tag": "AoE",
+            "energy_gain": 30,
+            "break_aoe": 20,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Deals Lightning DMG equal to {{scaling1}}% of the Trailblazer's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
+            "scaling": {
+                "scaling1": [
+                    30,
+                    33,
+                    36,
+                    39,
+                    42,
+                    45,
+                    48.8,
+                    52.5,
+                    56.3,
+                    60,
+                    63,
+                    66
+                ]
+            }
+        },
+        "ultimate": {
+            "type": "Ultimate",
+            "name": "May the Trailblaze Fly You Starward",
+            "tag": "Support",
+            "energy_gain": 5,
+            "energy_cost": 160,
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "Gains 5 Punchline point(s). Increases the CRIT DMG of one designated ally by {{scaling1}}% for 3 turn(s), and dispels Crowd Control debuffs on them.\nIf the target has Elation Skill, they additionally gain 10 point(s) of \"Certified Banger\" and immediately use their Elation Skill 1 time, taking into account a fixed amount of 20 Punchline point(s).\nIf the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target. If the target does not have Elation Skill, their action advances by 50%.",
+            "scaling": {
+                "scaling1": [
+                    30,
+                    32,
+                    34,
+                    36,
+                    38,
+                    40,
+                    42.5,
+                    45,
+                    47.5,
+                    50,
+                    52,
+                    54
+                ]
+            }
+        },
+        "talent": {
+            "type": "Talent",
+            "name": "That Smile Hits Different",
+            "tag": "Support",
+            "min_level": 1,
+            "max_level": 12,
+            "default_level": 10,
+            "description_template": "After using an attack, regenerates a fixed amount of 10 Energy and gains 3 Punchline point(s).\nWhen the Trailblazer holds \"Certified Banger,\" their Skill additionally deals {{scaling1}}% Lightning Elation DMG to all enemies. This DMG is calculated using the highest \"Certified Banger\" value among all allies.",
+            "scaling": {
+                "scaling1": [
+                    15,
+                    16.5,
+                    18,
+                    19.5,
+                    21,
+                    22.5,
+                    24.4,
+                    26.3,
+                    28.1,
+                    30,
+                    31.5,
+                    33
+                ]
+            }
+        },
+        "technique": {
+            "type": "Technique",
+            "name": "We Are So Back!",
+            "tag": "Enhance",
+            "description": "After using Technique, randomly gains 1 of the following effects:\nA low chance to gain \"Hearty Laughter\": Increases Elation by 30%.\nA high chance to gain \"Irrepressible Laughter\": Increases Elation by 20%.\nWhen the next battle begins, increases all allies' Elation stat by the corresponding amount for 3 turn(s)."
         }
-      }
-    }
-  },
-  "major_traces": {
-    "2": {
-      "name": "On Cloud Nine",
-      "description": "For every 200 point(s) of Trailblazer's ATK that exceeds 1000, increases this unit's Elation stat by 10%, up to a maximum increase of 60%."
     },
-    "4": {
-      "name": "Screw It, We Ball",
-      "description": "Increases this unit's CRIT Rate by 15%. After using Ultimate, recovers 1 Skill Point(s) for the team."
+    "elation": {
+        "skills": {
+            "skill": {
+                "type": "Elation Skill",
+                "name": "I Said \"Elation,\" Did I Stutter?",
+                "tag": "AoE",
+                "energy_gain": 5,
+                "participant_id": 120,
+                "break_aoe": 20,
+                "min_level": 1,
+                "max_level": 12,
+                "default_level": 10,
+                "description_template": "Deals 8 instances of DMG, with each instance dealing {{scaling1}}% Lightning Elation DMG to one random enemy. At last, deals {{scaling2}}% Lightning Elation DMG, which is split evenly among all enemies.",
+                "scaling": {
+                    "scaling1": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16.3,
+                        17.5,
+                        18.8,
+                        20,
+                        21,
+                        22
+                    ],
+                    "scaling2": [
+                        30,
+                        33,
+                        36,
+                        39,
+                        42,
+                        45,
+                        48.8,
+                        52.5,
+                        56.3,
+                        60,
+                        63,
+                        66
+                    ]
+                }
+            }
+        }
     },
-    "6": {
-      "name": "Aha, Sic 'Em!",
-      "description": "After an ally target uses Elation Skill, Trailblazer additionally gains 2 point(s) of \"Certified Banger\" the next time they use their Skill."
-    }
-  },
-  "stat_bonuses": [
-    {
-      "stat": "ATK",
-      "value": "+28%"
+    "major_traces": {
+        "2": {
+            "name": "On Cloud Nine",
+            "description": "For every 200 point(s) of Trailblazer's ATK that exceeds 1000, increases this unit's Elation stat by 10%, up to a maximum increase of 60%."
+        },
+        "4": {
+            "name": "Screw It, We Ball",
+            "description": "Increases this unit's CRIT Rate by 15%. After using Ultimate, recovers 1 Skill Point(s) for the team."
+        },
+        "6": {
+            "name": "Aha, Sic 'Em!",
+            "description": "After an ally target uses Elation Skill, Trailblazer additionally gains 2 point(s) of \"Certified Banger\" the next time they use their Skill."
+        }
     },
-    {
-      "stat": "CRIT Rate",
-      "value": "+12%"
-    },
-    {
-      "stat": "CRIT DMG",
-      "value": "+13.3%"
-    }
-  ],
-  "eidolons": [
-    {
-      "level": 1,
-      "name": "Believe In the Light",
-      "description": "After using Skill, the next Ultimate increases the amount of \"Certified Banger\" gained by ally targets by 2. This effect can stack up to 3 time(s)."
-    },
-    {
-      "level": 2,
-      "name": "History in the Making...",
-      "description": "Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s)."
-    },
-    {
-      "level": 3,
-      "name": "Into the Spotlight",
-      "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 4,
-      "name": "Save the World. Just Because.",
-      "description": "When using Elation Skill, increases the DMG taken by enemy targets by 10%, lasting for 2 turn(s)."
-    },
-    {
-      "level": 5,
-      "name": "Love & Courage: Always in Style",
-      "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
-    },
-    {
-      "level": 6,
-      "name": "The Cosmic Legend Cometh!",
-      "description": "When using Elation Skill, increases this unit's CRIT DMG by 100% for 3 turns."
-    }
-  ]
+    "stat_bonuses": [
+        {
+            "stat": "ATK",
+            "value": "+28%"
+        },
+        {
+            "stat": "CRIT Rate",
+            "value": "+12%"
+        },
+        {
+            "stat": "CRIT DMG",
+            "value": "+13.3%"
+        }
+    ],
+    "eidolons": [
+        {
+            "level": 1,
+            "name": "Believe In the Light",
+            "description": "After using Skill, the next Ultimate increases the amount of \"Certified Banger\" gained by ally targets by 2. This effect can stack up to 3 time(s)."
+        },
+        {
+            "level": 2,
+            "name": "History in the Making...",
+            "description": "Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s)."
+        },
+        {
+            "level": 3,
+            "name": "Into the Spotlight",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 4,
+            "name": "Save the World. Just Because.",
+            "description": "When using Elation Skill, increases the DMG taken by enemy targets by 10%, lasting for 2 turn(s)."
+        },
+        {
+            "level": 5,
+            "name": "Love & Courage: Always in Style",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+        },
+        {
+            "level": 6,
+            "name": "The Cosmic Legend Cometh!",
+            "description": "When using Elation Skill, increases this unit's CRIT DMG by 100% for 3 turns."
+        }
+    ]
 }

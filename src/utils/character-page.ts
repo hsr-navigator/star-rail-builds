@@ -1057,6 +1057,8 @@ function buildLocalizedNotes(
                 ),
             );
         }),
+        featured_note: renderLocalizedBuildText(buildNoteData.featured_note),
+
         overview: buildNoteData.overview
             ? {
                 summary:

@@ -289,5 +289,10 @@
             "name": "Apocalypse, the Emancipator",
             "description": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can Reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect."
         }
-    ]
+    ],
+    "affinity_eidolon": {
+        "name": "A Glance Through Rime to Bone",
+        "tag": "AoE",
+        "description": "When a teammate attacks an enemy target with \"Crimson Knot,\" Acheron deals 1 instance of Lightning Additional DMG equal to 80% of this unit's ATK to the target and launches a Follow-Up ATK, dealing Lightning DMG equal to 300% of Acheron's ATK to all enemies, then gains 1 point(s) of Slashed Dream and inflicts 1 stack(s) of \"Crimson Knot\" on the enemy target with the most \"Crimson Knot.\"\nThis effect can trigger up to 1 time(s) per turn. The trigger count resets at the start of Acheron's turn."
+    }
 }
