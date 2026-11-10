@@ -8,7 +8,8 @@
                             "name": "genius",
                             "pieces": 4,
                             "note": {
-                                "en": "Best in Slot if there are other sources of DEF Ignore/Reduction on the team without overcapping."
+                                "en": "Best in Slot if there are other sources of DEF Ignore/Reduction on the team without overcapping.",
+                                "ru": "Лучший вариант, если в команде есть другие источники игнорирования/понижения защиты без превышения лимита."
                             }
 
                         }
@@ -64,7 +65,8 @@
                             "name": "banana",
                             "pieces": 2,
                             "note": {
-                                "en": "Only viable when paired with [[character:dhpt]]."
+                                "en": "Only viable when paired with [[character:dhpt]].",
+                                "ru": "Подходит только в команде с [[character:dhpt|Дань Хэном: Освободителем Пустошей]]."
                             }
                         }
                     ]

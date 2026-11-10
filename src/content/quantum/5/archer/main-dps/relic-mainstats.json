@@ -11,7 +11,8 @@
             {
                 "name": "quantum-dmg",
                  "note": {
-                    "en": "Preferred over ATK%."
+                    "en": "Preferred over ATK%.",
+                    "ru": "Предпочтительнее, чем [[stat:atk%|сила атаки%]]."
                  }
             }
         ],
@@ -20,7 +21,8 @@
             {
                 "name": "err",
                  "note": {
-                    "en": "Can be better than [[stat:atk%]], especially when paired with Rin Tohsaka and Sparkle due to their large ATK buff, or in Pure Fiction where you get more Energy."
+                    "en": "Can be better than [[stat:atk%]], especially when paired with Rin Tohsaka and Sparkle due to their large ATK buff, or in Pure Fiction where you get more Energy.",
+                    "ru": "Может быть лучше, чем [[stat:atk%|сила атаки%]], особенно в команде с Рин Тосака и Искоркой из-за их большого баффа к силе атаки, или в Чистом вымысле, где вы получаете больше энергии."
                  }
             }
         ]

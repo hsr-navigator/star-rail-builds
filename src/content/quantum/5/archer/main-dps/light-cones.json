@@ -47,14 +47,16 @@
                     "name": "osr",
                     "superimposition": 5,
                     "note": {
-                        "en": "Only viable in 1-2 target scenario."
+                        "en": "Only viable in 1-2 target scenario.",
+                        "ru": "Подходит только для боя с 1-2 целями."
                     }
                 },
                 {
                     "name": "swordplay",
                     "superimposition": 5,
                     "note": {
-                        "en": "Assuming no target switching."
+                        "en": "Assuming no target switching.",
+                        "ru": "При условии, что цель не меняются."
                     }
                 }
             ]
