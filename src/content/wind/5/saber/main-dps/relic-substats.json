@@ -7,7 +7,8 @@
             "name": "spd",
             "note_group": "spd",
             "note": {
-                "en": "Depends on team. 134 SPD or base SPD."
+                "en": "Depends on team. 134 SPD or base SPD.",
+                "ru": "Зависит от команды. 134 скорости или базовая скорость."
             }
         }
     ]
