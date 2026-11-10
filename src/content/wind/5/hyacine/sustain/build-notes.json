@@ -8,14 +8,17 @@
     ],
     "overview": {
         "summary": {
-            "en": "- [[character:hyacine]] is a very strong general sustain, with strong on turn and out of turn healing. Her Skill and Ultimate have strong amounts of healing, and her Memosprite Little Ica heals allies when they lose HP.\n- [[character:hyacine]] excels in HP scaling teams, like [[character:castorice]]'s team, where the team's HP loss synergizes with her Memosprite Talent healing."
+            "en": "- [[character:hyacine]] is a very strong general sustain, with strong on turn and out of turn healing. Her Skill and Ultimate have strong amounts of healing, and her Memosprite Little Ica heals allies when they lose HP.\n- [[character:hyacine]] excels in HP scaling teams, like [[character:castorice]]'s team, where the team's HP loss synergizes with her Memosprite Talent healing.",
+            "ru": "- [[character:hyacine]] — очень сильный хилер, обеспечивающий эффективное восстановление HP как во время её хода, так и вне его. Её навык и сверхспособность восстанавливают много HP, а её дух памяти Ика исцеляет союзников, когда те теряют HP.\n- [[character:hyacine]] особенно хороша в командах, эффективность которых зависит от макс. HP — например, в команде [[character:castorice|Кастории]]. В таких командах потеря здоровья союзниками создаёт синергию с лечением её духа памяти."
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 = S1"
+                "en": "E2 > E1 = S1",
+                "ru": "E2 > E1 = S1"
             },
             "details": {
-                "en": "-  E2 gives a huge 30% SPD boost to all allies when they lose HP for 2 turns. This effect can easily be permanent with her S1 [[light-cone:long-may-rainbows-adorn-the-sky]], but still has high uptime without it.\n- E1 gives 50% Max HP to all allies, while also giving allies sustain after they attack. This greatly improves [[character:hyacine]]'s already strong sustain capabilities.\n- S1 [[light-cone:long-may-rainbows-adorn-the-sky]] gives her a SPD boost while also causing all of [[character:hyacine]]'s actions to drain a small amount of HP from all allies, enabling [[character:hyacine]]'s Memosprite Talent as well as her E2."
+                "en": "-  E2 gives a huge 30% SPD boost to all allies when they lose HP for 2 turns. This effect can easily be permanent with her S1 [[light-cone:long-may-rainbows-adorn-the-sky]], but still has high uptime without it.\n- E1 gives 50% Max HP to all allies, while also giving allies sustain after they attack. This greatly improves [[character:hyacine]]'s already strong sustain capabilities.\n- S1 [[light-cone:long-may-rainbows-adorn-the-sky]] gives her a SPD boost while also causing all of [[character:hyacine]]'s actions to drain a small amount of HP from all allies, enabling [[character:hyacine]]'s Memosprite Talent as well as her E2.",
+                "ru": "-  E2 даёт всем союзникам значительный бафф скорости в размере 30% на 2 хода, если они теряют HP. Этот эффект легко сделать постоянным при использовании её S1 [[light-cone:long-may-rainbows-adorn-the-sky]], однако он сохраняется на протяжении большей части боя даже без него.\n- E1 увеличивает макс. HP всех союзников на 50%, а также обеспечивает им восстановление HP после совершения ими атаки. Это существенно усиливает и без того отличное лечение [[character:hyacine|Гиацины]].\n- S1 [[light-cone:long-may-rainbows-adorn-the-sky]] даёт ей бафф скорости и заставляет за каждое действие Гиацины отнимать небольшое количество HP у всех союзников. Это активирует талант духа памяти, а также эффект E2."
             }
         }
     }
