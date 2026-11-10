@@ -5,7 +5,7 @@
     "type": "imaginary",
     "path": "hunt",
     "version_released": "2.4",
-    "max_energy": 140,
+    "max_energy": 110,
     "level_80_stats": {
         "hp": 1058,
         "atk": 564,
@@ -190,7 +190,7 @@
             "level": 1,
             "name": "My Sword Stirs Starlight",
             "description": "When Shifu is on the field, increases March 7th's SPD by 10%."
-        },
+        },    
         {
             "level": 2,
             "name": "Blade Dances on Waves' Fight",
