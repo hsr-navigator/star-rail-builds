@@ -5,7 +5,7 @@
     "type": "imaginary",
     "path": "hunt",
     "version_released": "2.4",
-    "max_energy": 140,
+    "max_energy": 110,
     "level_80_stats": {
         "hp": 1058,
         "atk": 564,
