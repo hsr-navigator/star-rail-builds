@@ -3,24 +3,32 @@
         {
             "items": [
                 {
-                    "name": "talent"
+                    "name": "talent",
+                    "note_group": "traces",
+                    "note": {
+                        "en": "Cipher's traces only need to be leveled if she's being run as a Sub-DPS.",
+                        "ru": "Следы Цифер нужно прокачивать, только если используете её как сап-ДД."
+                    }
                 },
                 {
-                    "name": "skill"
+                    "name": "skill",
+                    "note_group": "traces"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "ultimate"
+                    "name": "ultimate",
+                    "note_group": "traces"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "basic"
+                    "name": "basic",
+                    "note_group": "traces"
                 }
             ]
         }
