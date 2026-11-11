@@ -1,0 +1,34 @@
+{
+    "traces": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                },
+                {
+                    "name": "talent"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ultimate"
+                },
+                {
+                    "name": "elation-skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "basic",
+                    "note": {
+                        "en": "[[ability:basic]] can be ignored."
+                    }
+                }
+            ]
+        }
+    ]
+}

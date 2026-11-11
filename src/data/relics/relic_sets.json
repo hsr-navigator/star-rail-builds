@@ -1197,6 +1197,36 @@
             "vn": "Khiến Sát Thương Bạo Kích của người trang bị tăng 16%, khi tồn tại mục tiêu mà người trang bị triệu hồi, Sát Thương Bạo Kích sẽ tăng thêm 32%.",
             "cht": "使裝備者的暴擊傷害提高16%，當存在裝備者召喚的目標時，暴擊傷害額外提高32%。"
         }
+    },
+    "gods-moment-of-joy": {
+        "type": "planar",
+        "rarity": 5,
+        "version_released": "4.7",
+        "tags": [
+            "spd",
+            "action-advance"
+        ],
+        "2p": {
+            "en": "Increases the wearer's SPD by 6%. When the wearer's Elation stat reaches 40% or higher, advances the wearer's action by 40% immediately upon entering combat.",
+            "ru": "",
+            "vn": "Tăng 6% Tốc Độ của người trang bị. Khi Độ Vui Vẻ của người trang bị lớn hơn hoặc bằng 40%, khi vào chiến đấu sẽ lập tức Ưu Tiên Hành Động 40%.",
+            "cht": ""
+        }
+    },
+    "subspace-asc-center": {
+        "type": "planar",
+        "rarity": 5,
+        "version_released": "4.7",
+        "tags": [
+            "spd",
+            "break-effect"
+        ],
+        "2p": {
+            "en": "Increases the wearer's SPD by 6%. When the wearer's SPD reaches 145 or higher, increases all allies' Break Effect by 18% after entering combat. This effect cannot stack.",
+            "ru": "",
+            "vn": "Tăng 6% Tốc Độ của người trang bị, khi Tốc Độ ca người trang bị lớn hơn hoặc bằng 145, sau khi vào chiến đấu sẽ tăng 18% Tấn Công Kích Phá của toàn phe ta, hiệu ứng này không thể cộng dồn.",
+            "cht": ""
+        }
     }
     
     

@@ -1,0 +1,16 @@
+{
+    "stats": [
+        {
+            "name": "spd",
+            "recommended": "160+"
+        },
+        {
+            "name": "cr",
+            "recommended": "88%"
+        },
+        {
+            "name": "cd",
+            "recommended": "120%"
+        }
+    ]
+}

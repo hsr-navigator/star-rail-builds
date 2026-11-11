@@ -195,5 +195,10 @@
             "name": "Sweep, Souls Slain",
             "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
         }
-    ]
+    ],
+    "affinitive_eidolon": {
+        "name": "One Quiet Cup of Thunder",
+        "tag": "Enhance",
+        "description": "The Max Hits Per Action for \"Lightning-Lord\" increases by 20. When Lightning-Lord's Hits Per Action reaches its upper limit, it immediately takes action. At the start of combat and after every 1 time(s) \"Lightning-Lord\" takes action, \"Lightning-Lord\" gets enhanced, and Jing Yuan's DMG dealt increases by 240%. When using Skill/Ultimate, additionally increases Lightning-Lord's Hits Per Action by 6/12 respectively, lasting for 4 turn(s)."
+    }
 }

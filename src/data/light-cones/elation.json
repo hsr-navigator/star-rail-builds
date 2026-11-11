@@ -1,4 +1,91 @@
 {
+    "see-you-at-the-worlds-end": {
+        "rarity": 4,
+        "version_released": "4.7",
+        "source": "story",
+        "passive": {
+            "en": "For every Elation character on the team, increase the wearer's CRIT DMG by {{value}}%. When Aeon ★ Aha is on the field, the wearer's CRIT DMG additionally increases by {{value}}%.",
+            "ru": "",
+            "vn": "Trong đội cứ có 1 nhân vật Vận Mệnh \"Vui Vẻ\", Sát Thương Bạo Kích của người trang bị tăng {{value}}%, khi Aeon ★ Aha trong trận, Sát Thương Bạo Kích của người trang bị tăng thêm {{value}}%.",
+            "cht": ""
+        },
+        "s1": [
+            6,
+            12
+        ],
+        "s2": [
+            7,
+            14
+        ],
+        "s3": [
+            8,
+            16
+        ],
+        "s4": [
+            9,
+            18
+        ],
+        "s5": [
+            10,
+            20
+        ],
+        "level_1": {
+            "hp": 38,
+            "atk": 22,
+            "def": 18
+        },
+        "level_max": {
+            "hp": 847,
+            "atk": 476,
+            "def": 397
+        }
+    },
+    "upon-the-first-echo-of-aha": {
+        "rarity": 5,
+        "version_released": "4.7",
+        "source": "warp",
+        "passive": {
+            "en": "Increases the wearer's base SPD by {{value}}. When using Skill on one other ally, gains {{value}} Punchline. This effect can trigger at most once after a gap of every 1 turn(s). Then, enables all allies to ignore {{value}}% of the enemy target's DEF when they deal DMG during this battle. This effect cannot be stacked.",
+            "ru": "",
+            "vn": "Tốc Độ cơ bản của người trang bị tăng {{value}} điểm. Khi thi triển Chiến Kỹ lên một mục tiêu khác của phe ta, nhận {{value}} Điểm Hài Hước, hiệu ứng này cách 1 hiệp tối đa kích hoạt một lần, sau đó khiến toàn bộ phe ta trong trân khi gây sát thương sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu phe địch, hiệu ứng này không thể cộng dồn.",
+            "cht": ""
+        },
+        "s1": [
+            12,
+            10,
+            16
+        ],
+        "s2": [
+            14,
+            12,
+            18
+        ],
+        "s3": [
+            16,
+            14,
+            20
+        ],
+        "s4": [
+            18,
+            16,
+            22
+        ],
+        "s5": [
+            20,
+            18,
+            24
+        ],
+        "level_1": {
+            "hp": 43,
+            "atk": 26,
+            "def": 24
+        },
+        "level_max": {
+            "hp": 953,
+            "atk": 583,
+            "def": 529
+        }
+    },
     "a-little-getaway": {
         "rarity": 4,
         "version_released": "4.5",

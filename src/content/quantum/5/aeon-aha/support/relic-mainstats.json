@@ -1,0 +1,26 @@
+{
+    "main_stats": {
+        "body": [
+            "cr/cd"
+        ],
+        "feet": [
+            "spd"
+        ],
+        "planar_sphere": [
+            {
+            "name": "ANY",
+            "note_group": "planarmains",
+            "note":
+                {
+                    "en": "Use any Main Stats as THEY does not scale off of ATK, HP, or DEF."
+                }
+            }
+        ],
+        "link_rope": [
+            {
+                "name": "ANY",
+                "note_group": "planarmains"
+            }
+        ]
+    }
+}

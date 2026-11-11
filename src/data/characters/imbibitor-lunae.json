@@ -292,5 +292,10 @@
             "name": "Reign, Returned",
             "description": "After another ally character uses their Ultimate, the Imaginary RES PEN of Dan Heng • Imbibitor Lunae's next \"Fulgurant Leap\" attack increases by 20%. This effect can stack up to 3 time(s)."
         }
-    ]
+    ],
+    "affinitive_eidolon": {
+        "name": "Moonset Stills the Deep",
+        "tag": "AoE",
+        "description": "The upper limit of Squama Sacrosancta increases by 1. For every 5 Skill Point(s) consumed by allies, Dan Heng • Imbibitor Lunae launches Follow-Up ATK and increases own DMG dealt by 240%, lasting for 3 turns. Then, he uses a 6-hit attack, dealing Imaginary DMG equal to 500% of Dan Heng • Imbibitor Lunae's ATK to all enemies, and this unit gains 1 Squama Sacrosancta. When this instance of Follow-Up ATK deals DMG, it is considered as dealing Basic ATK DMG."
+    }
 }
