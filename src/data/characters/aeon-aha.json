@@ -32,6 +32,7 @@
             "type": "Skill",
             "name": "This Emanator Was Certified by Aha™",
             "tag": "Support",
+            "break_aoe": 10,
             "min_level": 1,
             "max_level": 12,
             "default_level": 10,
@@ -186,8 +187,8 @@
         },
         {
             "level": 2,
-            "name": "It's a Feature, Not a Bug",
-            "description": "After entering the \"Godmode Player\" state, extends the duration of all buffs on this unit by 1 turn. In the current \"Godmode Player\" state, for every 120 point(s) of \"Hidden MMR\" increased (including the initial \"Hidden MMR\"), Silver Wolf LV.999 gains 1 extra turn and regains 1 use of Enhanced Basic ATK."
+            "name": "Between THEIR Eyes and Yours",
+            "description": "Enhances the \"Elation\" Path Ascension effects."
         },
         {
             "level": 3,
@@ -234,6 +235,7 @@
                 "name": "Yes Aha At Full Moon",
                 "tag": "AoE",
                 "participant_id": 0,
+                "break_aoe": 10,
                 "min_level": 1,
                 "max_level": 12,
                 "default_level": 10,
