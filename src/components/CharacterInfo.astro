@@ -896,10 +896,17 @@ const renderVariantDescription = (
                                             >
                                                 {labels && (
                                                     <strong class="character-global-passive-type">
-                                                        {labels[0]}
-                                                        <small>
-                                                            {labels[1]}
-                                                        </small>
+                                                        {id ===
+                                                        'innate-trace' ? (
+                                                            ui('Innate Trace')
+                                                        ) : (
+                                                            <>
+                                                                {labels[0]}
+                                                                <small>
+                                                                    {labels[1]}
+                                                                </small>
+                                                            </>
+                                                        )}
                                                     </strong>
                                                 )}
 

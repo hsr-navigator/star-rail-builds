@@ -1,7 +1,5 @@
 {
-    "hidden_kit_sections": [
-        "aha_buffs"
-    ],
+    "hidden_kit_sections": [],
     "id": "pearl",
     "name": "Pearl",
     "rarity": 5,
