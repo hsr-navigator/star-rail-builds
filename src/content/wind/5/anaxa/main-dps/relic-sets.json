@@ -20,7 +20,8 @@
                             "name": "isee",
                             "pieces": 4,
                             "note": {
-                                "en": "Becomes Best in Slot if Anaxa overcaps on DEF Ignore/Reduction, especially with [[set:genius]] at higher investments."
+                                "en": "Becomes Best in Slot if Anaxa overcaps on DEF Ignore/Reduction, especially with [[set:genius]] at higher investments.",
+                                "ru": "Становится лучшим выбором, если Анакса превышает лимит игнорирования/снижения защиты, особенно при использовании [[set:genius|Гения бриллиантовых звёзд]] на высоких инвестициях."
                             }
                         }
                     ]
@@ -61,7 +62,8 @@
                             "name": "banana",
                             "pieces": 2,
                             "note": {
-                                "en": "Only viable when paired with [[character:dhpt]]."
+                                "en": "Only viable when paired with [[character:dhpt]].",
+                                "ru": "Подходит только в паре с [[character:dhpt|Дань Хэном: Освободителем Пустошей]]."
                             }
                         }
                     ]

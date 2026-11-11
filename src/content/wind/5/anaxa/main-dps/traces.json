@@ -26,7 +26,8 @@
                 {
                     "name": "basic",
                     "note": {
-                        "en": "Basic ATK is worth leveling if you oftentimes struggle with Skill Point management. His A2 Trace \"Roaming Signifier\" grants 10 additional Energy upon Basic ATK usage, and Basic ATK triggers his additional Skill if requirements are met."
+                        "en": "Basic ATK is worth leveling if you oftentimes struggle with Skill Point management. His A2 Trace \"Roaming Signifier\" grants 10 additional Energy upon Basic ATK usage, and Basic ATK triggers his additional Skill if requirements are met.",
+                        "ru": "Базовую атаку стоит прокачивать, если у вас часто возникают трудности с управлением очками навыков. Его А2 след «Бродячий указатель» даёт 10 дополнительных ед. энергии при использовании базовой атаки, а базовая атака активирует его дополнительный навык, если выполнены условия."
                     }
                 }
             ]
