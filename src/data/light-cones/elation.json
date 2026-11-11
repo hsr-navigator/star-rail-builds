@@ -3,9 +3,10 @@
         "rarity": 4,
         "version_released": "4.7",
         "source": "story",
+        "free": true,
         "passive": {
             "en": "For every Elation character on the team, increase the wearer's CRIT DMG by {{value}}%. When Aeon ★ Aha is on the field, the wearer's CRIT DMG additionally increases by {{value}}%.",
-            "ru": "",
+            "ru": "За каждого персонажа Пути Радости в отряде повышает крит. урон владельца на {{value}}%. Когда Эон ★ Аха находится на поле боя, дополнительно повышает крит. урон владельца на {{value}}%.",
             "vn": "Trong đội cứ có 1 nhân vật Vận Mệnh \"Vui Vẻ\", Sát Thương Bạo Kích của người trang bị tăng {{value}}%, khi Aeon ★ Aha trong trận, Sát Thương Bạo Kích của người trang bị tăng thêm {{value}}%.",
             "cht": ""
         },
@@ -46,7 +47,7 @@
         "source": "warp",
         "passive": {
             "en": "Increases the wearer's base SPD by {{value}}. When using Skill on one other ally, gains {{value}} Punchline. This effect can trigger at most once after a gap of every 1 turn(s). Then, enables all allies to ignore {{value}}% of the enemy target's DEF when they deal DMG during this battle. This effect cannot be stacked.",
-            "ru": "",
+            "ru": "Повышает базовую скорость владельца на {{value}} ед. При применении навыка к другому союзнику даёт {{value}} ед. Юмора. Этот эффект срабатывает не чаще 1 раза за 1 ход, после чего все союзники в этом бою при нанесении урона игнорируют {{value}}% защиты выбранного противника. Этот эффект не складывается.",
             "vn": "Tốc Độ cơ bản của người trang bị tăng {{value}} điểm. Khi thi triển Chiến Kỹ lên một mục tiêu khác của phe ta, nhận {{value}} Điểm Hài Hước, hiệu ứng này cách 1 hiệp tối đa kích hoạt một lần, sau đó khiến toàn bộ phe ta trong trân khi gây sát thương sẽ bỏ qua {{value}}% Phòng Thủ của mục tiêu phe địch, hiệu ứng này không thể cộng dồn.",
             "cht": ""
         },

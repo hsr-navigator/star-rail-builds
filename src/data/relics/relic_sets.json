@@ -1208,7 +1208,7 @@
         ],
         "2p": {
             "en": "Increases the wearer's SPD by 6%. When the wearer's Elation stat reaches 40% or higher, advances the wearer's action by 40% immediately upon entering combat.",
-            "ru": "",
+            "ru": "Повышает скорость владельца на 6%. Если уровень Радости владельца выше или равен 40%, то в начале боя его действие продвигается вперёд на 40%.",
             "vn": "Tăng 6% Tốc Độ của người trang bị. Khi Độ Vui Vẻ của người trang bị lớn hơn hoặc bằng 40%, khi vào chiến đấu sẽ lập tức Ưu Tiên Hành Động 40%.",
             "cht": ""
         }
@@ -1223,7 +1223,7 @@
         ],
         "2p": {
             "en": "Increases the wearer's SPD by 6%. When the wearer's SPD reaches 145 or higher, increases all allies' Break Effect by 18% after entering combat. This effect cannot stack.",
-            "ru": "",
+            "ru": "Повышает скорость владельца на 6%. Если скорость владельца больше или равна 145, в начале боя повышает эффект пробития всех союзников на 18%. Этот эффект не складывается.",
             "vn": "Tăng 6% Tốc Độ của người trang bị, khi Tốc Độ ca người trang bị lớn hơn hoặc bằng 145, sau khi vào chiến đấu sẽ tăng 18% Tấn Công Kích Phá của toàn phe ta, hiệu ứng này không thể cộng dồn.",
             "cht": ""
         }
