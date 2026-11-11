@@ -6,7 +6,8 @@
     },
     "overview": {
         "summary": {
-            "en": "- Cipher is a general support capable of storing damage taken by enemies.\n- Cipher's Ultimate records a percentage of the DMG enemies take, excluding overkill, and deals it later. This ability to backload damage allows her teams to skip difficult phases or focus damage onto high priority targets."
+            "en": "- Cipher is a general support who is capable of storing damage taken by enemies and unleashing it later.\n- Her Talent allows her to record a percentage of the DMG enemies take, excluding fatal damage, and then deals it upon activating her Ultimate. This ability allows her teams to skip difficult phases, or focus damage onto high priority targets.",
+            "ru": "- Цифер — общий саппорт, способный накапливать урон, полученный врагами, чтобы высвободить его позднее.\n- Её талант позволяет записывать часть урона, который получают противники (за исключением избыточного урона), а затем наносить этот накопленный урон при активации её сверхспособности. Это умение помогает команде пропускать сложные этапы боя или концентрировать урон на приоритетных целях."
         },
         "investment_priority": {
             "priority": {
