@@ -28,5 +28,15 @@
                 "cht": "- 緋英的星魂1是整個遊戲中其中一個最強的星魂1，一共提供了3個效果：提供抗性穿透、增加歡愉技頻率、以及歡愉技提供更多【好活當賞】。保守提升有所浮動，平均有40%甚至更高。\n - 她的專屬光錐《[[light-cone:until-the-flowers-bloom-again]]》主要還是個機制光錐，除了提供暴擊傷害、易傷，還有關鍵的充能效率。給緋英提升還算不錯，但星魂1的提升更明顯。\n - 星魂2能提高緋英通過兩個行跡從隊友獲取的【好活當賞】，間接提高能量獲取。這個星魂的提升效果會在未來歡愉隊湊齊後會更顯著。"
             }
         }
-    }
+    },
+    "global": [
+        {
+            "tag": "investment-chart",
+            "label": {
+                "en": "Evanescia Investment Priority"
+            },
+            "author": "Nymphia05",
+            "link": "https://imgur.com/a/PuEvtaf"
+        }
+    ]
 }

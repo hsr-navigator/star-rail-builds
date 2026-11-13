@@ -5,8 +5,7 @@
         "ru": "ДД Радости",
         "vn": "DPS Vui Vẻ"
     },
-    "notes": [
-    ],
+    "notes": [],
     "overview": {
         "summary": {
             "en": "- Silver Wolf LV.999 is an Elation DPS unit who deals damage primarily through her Enhanced Basic ATK while in the \"Godmode Player\" state.\n- She gains \"Hidden MMR\" after gaining Punchline, using her normal Elation Skill, and using an Elation Skill at 20/40 Punchline. Silver Wolf LV. 999 can consume 60 \"Hidden MMR\" to use her Ultimate and enters the \"Godmode Player\" state.\n- While in the \"Godmode Player\" state, whenever allies consume Skill Points, Silver Wolf LV.999 has a chance to trigger a \"Top Loot Box\" that activates additional effects. Her Enhanced Elation Skill while in \"Godmode Player\" refreshes the \"Top Loot Box\" trigger chance.\n- Silver Wolf LV.999's performance is currently heavily reliant on Yao Guang for \"Hidden MMR\" generation.",
@@ -25,5 +24,15 @@
                 "vn": "- E2 kéo dài thời gian duy trì các hiệu ứng buff Sói Bạc LV.999 lên thêm một hiệp khi cô bước vào trạng thái \"Người Chơi Vô Địch\". Ngoài ra, cứ mỗi 120 \"Điểm Ẩn\" tích lũy được, cô sẽ nhận một hiệp tăng thêm.\n- S1 [[light-cone:welcome-to-the-cosmic-city]] mang lại cho bản thân chỉ số Tốc Độ và khả năng Bỏ qua Phòng Thủ, đồng thời cung cấp 20 Điểm Hài Hước sau khi cô sử dụng Tuyệt Kỹ.\n- E1 cho phép Sói Bạc LV.999 giữ lại 20% \"Điểm Ẩn\" khi thoát khỏi trạng thái \"Người Chơi Vô Địch\", đồng thời cung cấp hiệu ứng tăng 20% Trọng Thương lên kẻ địch."
             }
         }
-    }
+    },
+    "global": [
+        {
+            "tag": "investment-chart",
+            "label": {
+                "en": "Silver Wolf LV.999 Investment Priority"
+            },
+            "author": "Nymphia05",
+            "link": "https://imgur.com/a/Pmrc3gb"
+        }
+    ]
 }
