@@ -1,6 +1,16 @@
 {
     "groups": [
         {
+            "version": "4.7",
+            "entries": [
+                {
+                    "date" : "November 10, 2026",
+                    "changes": "Aeon Aha added to the database along with Affinitive Eidelons and new Lightcones.",
+                    "appliedBy": "Navigator Team"
+                }
+            ]
+        },
+        {
             "version": "Site Conversion",
             "entries": [
                 {
