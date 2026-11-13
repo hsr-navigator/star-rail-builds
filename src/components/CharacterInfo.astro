@@ -1848,12 +1848,15 @@ const renderVariantDescription = (
     }
 
     .character-global-passive-header.is-unbadged {
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: fit-content(45%) minmax(0, 1fr);
     }
 
     .character-global-passive-type {
         display: grid;
-        place-content: center;
+        grid-template-columns: minmax(0, 1fr);
+        align-content: center;
+        min-width: 0;
+        overflow-wrap: anywhere;
 
         min-height: 58px;
 
