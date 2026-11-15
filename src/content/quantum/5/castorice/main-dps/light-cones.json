@@ -38,7 +38,10 @@
                     "name": "viab",
                     "superimposition": 5,
                     "note_group": "high-hp-lc",
-                    "note": " Before resorting to [[lightcone:viab]], use any high base HP light cone off Path, specifically 1164+/1058+ base HP light cones."
+                    "note": {
+                        "en": " Before resorting to [[lightcone:viab]], use any high base HP light cone off Path, specifically 1164+/1058+ base HP light cones.",
+                        "ru": " Перед тем как использовать [[lightcone:viab]], используйте любой Световой конус с высоким базовым НР другого Пути, в частности, Световые конусы с базовым НP 1164+/1058+."
+                    }
                 }
             ]
         }
