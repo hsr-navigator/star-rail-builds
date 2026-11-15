@@ -8,14 +8,16 @@
             "name": "spd",
             "recommended": "102",
             "note": {
-                "en": "You can aim for 149 SPD if [[character:aglaea]] holds [[light-cone:time-woven-into-gold]] and [[character:robin-summeretto]] holds [[relic:amphoreus]]."
+                "en": "You can aim for 149 SPD if [[character:aglaea]] holds [[light-cone:time-woven-into-gold]] and [[character:robin-summeretto]] holds [[relic:amphoreus]].",
+                "ru": "Вы можете стремиться к 149 скорости, если [[character:aglaea]] использует [[light-cone:time-woven-into-gold]], а [[character:robin-summeretto]] использует [[relic:amphoreus]]."
             }
         },
         {
             "name": "cr",
             "recommended": "100%",
             "note": {
-                "en": "Modify her CRIT Rate based on in battle buffs from teammates."
+                "en": "Modify her CRIT Rate based on in battle buffs from teammates.",
+                "ru": "Изменяйте её крит. шанс в зависимости от баффов от союзников в бою."
             }
         },
         {

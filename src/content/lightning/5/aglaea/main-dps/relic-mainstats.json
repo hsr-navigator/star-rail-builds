@@ -14,7 +14,8 @@
                 "name": "err",
                 "note_group": "aglaea-err",
                 "note": {
-                    "en": "At E1, ATK% rope is preferred with Sunday or Cyrene."
+                    "en": "At E1, ATK% Link Rope is preferred with Sunday or Cyrene.",
+                    "ru": "На E1 предпочтительнее использовать соединительную вязь на силу атаки%, если в команде есть Воскресенье или Кирена."
                 }
             },
             {

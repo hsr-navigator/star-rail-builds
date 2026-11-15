@@ -39,7 +39,10 @@
             "items": [
                 {
                     "name": "skill",
-                    "note": "[[ability:skill]] can be ignored."
+                    "note": {
+                        "en": "[[ability:skill]] can be ignored.",
+                        "ru": "[[ability:skill]] можно не прокачивать."
+                    }
                 }
             ]
         }

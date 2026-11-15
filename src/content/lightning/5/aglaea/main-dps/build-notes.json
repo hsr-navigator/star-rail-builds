@@ -1,19 +1,23 @@
 {
     "best": true,
     "name": {
-        "en": "Main DPS"
+        "en": "Main DPS",
+        "ru": "Основной ДД"
     },
     "notes": [],
     "overview": {
         "summary": {
-            "en": "- [[character:aglaea]] is a strong Blast DPS who converts SPD to ATK and has huge SPD self-buffs, allowing her to take an extremely high number of turns.\n- Ultimate activates \"Supreme Stance\". Here, she deals damaged through her Enhanced Basic ATK; this is a Joint ATK with her Memosprite, Garmentmaker. Her and Garmentmaker have a relatively even total damage share.\n- Damage outside of \"Supreme Stance\" is pitiful, and she has a whopping 350 Energy cost. As such, she is one of the most Energy-reliant DPS, but generally cannot ensure 100% \"Supreme Stance\" uptime without at least two of the following: her E1, [[character:sunday]], and [[character:cyrene]].\n- High turn frequency means that ally buffs expire quickly on her. Her damage per action is also somewhat low."
+            "en": "- [[character:aglaea]] is a strong Blast DPS who converts SPD to ATK and has huge SPD self-buffs, allowing her to take an extremely high number of turns.\n- Ultimate activates \"Supreme Stance\". Here, she deals damaged through her Enhanced Basic ATK; this is a Joint ATK with her Memosprite, Garmentmaker. Her and Garmentmaker have a relatively even total damage share.\n- Damage outside of \"Supreme Stance\" is pitiful, and she has a whopping 350 Energy cost. As such, she is one of the most Energy-reliant DPS, but generally cannot ensure 100% \"Supreme Stance\" uptime without at least two of the following: her E1, [[character:sunday]], and [[character:cyrene]].\n- High turn frequency means that ally buffs expire quickly on her. Her damage per action is also somewhat low.",
+            "ru": "- [[character:aglaea]] — сильный ДД, чья сила атаки зависит от скорости. Благодаря мощным бонусам к собственной скорости она способна совершать огромное количество ходов.\n- Использовав сверхспособность, Аглая входит в состояние Высшая форма. В этом состоянии основной урон наносится с помощью усиленной базовой атаки, которая выполняется совместно с её духом памяти по имени Швея. Вклад Аглаи и Швеи в общий урон примерно сопоставим.\n- Вне состояния Высшая форма наносимый ею урон крайне мал. Кроме того, её сверхспособность требует внушительных 350 ед. энергии. Из-за этого Аглая крайне сильно зависит от восстановления энергии; поддерживать состояние Высшая форма практически постоянно без сторонней помощи невозможно. Для этого обычно требуется наличие как минимум двух из следующих условий: её E1, а также присутствие в команде [[character:sunday]] и/или [[character:cyrene|Кирены]].\n- Из-за высокой частоты ходов баффы, наложенные союзниками, заканчиваются на ней очень быстро. При этом урон за одно отдельное действие у неё относительно невысок."
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 > E2 > S1"
+                "en": "E1 > E2 > S1",
+                "ru": "E1 > E2 > S1"
             },
             "details": {
-                "en": "- E1 grants her additional Energy every time she or Garmentmaker attacks her \"Seam Stitch\" target, greatly improving Ultimate uptime, resulting in a massive upgrade. Also inflicts 15% Vulnerability on this enemy.\n- Even in teams where she has 100% Ultimate uptime, her E1 can grant her more turns.\n- E2 grants her and Garmentmaker 14% DEF Ignore for each consecutive action they take, up to 3 stacks. This is strongest when paired with DEF Ignore from [[character:cyrene]]."
+                "en": "- E1 grants her additional Energy every time she or Garmentmaker attacks her \"Seam Stitch\" target, greatly improving Ultimate uptime, resulting in a massive upgrade. Also inflicts 15% Vulnerability on this enemy. Even in teams where she has 100% Ultimate uptime, her E1 can grant her more turns.\n- E2 grants her and Garmentmaker 14% DEF Ignore for each consecutive action they take, up to 3 stacks. This is strongest when paired with DEF Ignore from [[character:cyrene]].",
+                "ru": "- E1 даёт ей дополнительную энергию каждый раз, когда она или Швея атакуют цель со статусом Связующая нить. Это значительно повышает частоту использования сверхспособности, что является существенным усилением. Кроме того, получаемый этой целью урон увеличивается на 15%.\n- Даже в тех командах, где сверхспособность не действует постоянно, E1 позволяет совершать дополнительные ходы.\n- E2 даёт ей и Швее 14% игнорирования защиты за каждое последовательное действие (эффект суммируется до 3 раз). Это наиболее эффективно в сочетании с игнорированием защиты от [[character:cyrene|Кирены]]."
             }
         }
     }
