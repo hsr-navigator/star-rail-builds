@@ -6,7 +6,8 @@
             "name": "hp",
             "note_group": "cyrenesig",
             "note": {
-                "en": "With S1 [[lightcone:this-love-forever]], HP% == Crit DMG%"
+                "en": "With S1 [[lightcone:this-love-forever]], HP% = CRIT DMG%",
+                "ru": "С S1 [[lightcone:this-love-forever]], HP% = крит. урон%"
             }
 
         },

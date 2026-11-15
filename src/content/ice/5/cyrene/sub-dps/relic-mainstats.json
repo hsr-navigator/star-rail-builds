@@ -6,7 +6,8 @@
                 "name": "hp",
                 "note_group": "cyrenebody",
                 "note": {
-                    "en": "If using S1 [[lightcone:this-love-forever]], HP% chest is viable, otherwise use Crit DMG% body."
+                    "en": "If using S1 [[lightcone:this-love-forever]], HP% Body is viable, otherwise use CRIT DMG% Body.",
+                    "ru": "Если используется S1 [[lightcone:this-love-forever]], то допустим вариант с телом на HP%, в противном случае используйте вариант с телом на крит. урон."
                 }
             }
         ],
