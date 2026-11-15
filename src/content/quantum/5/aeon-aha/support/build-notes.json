@@ -1,7 +1,8 @@
 {
     "best": true,
     "name": {
-        "en": "Elation Support"
+        "en": "Elation Support",
+        "ru": "Саппорт Радости"
     },
     "notes": [
     ],
@@ -11,7 +12,8 @@
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > E1 > S1"
+                "en": "E2 > E1 > S1",
+                "ru": "E2 > E1 > S1"
             },
             "details": {
                 "en": ""

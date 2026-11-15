@@ -12,7 +12,8 @@
             "note_group": "planarmains",
             "note":
                 {
-                    "en": "Use any Main Stats as THEY does not scale off of ATK, HP, or DEF."
+                    "en": "Use any Main Stats as THEY does not scale off of ATK, HP, or DEF.",
+                    "ru": "Используйте любые основные статы, так как её урон не зависит от силы атаки, HP или защиты."
                 }
             }
         ],

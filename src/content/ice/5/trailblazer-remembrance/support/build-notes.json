@@ -1,19 +1,23 @@
 {
     "best": true,
     "name": {
-        "en": "Support"
+        "en": "Support",
+        "ru": "Саппорт"
     },
     "notes": [],
     "overview": {
         "summary": {
-            "en": "- [[character:rmc]] is a general support, providing CRIT Rate and True DMG to a target ally.\n- [[character:rmc]]'s Memosprite Mem gains charge when allies gain energy, with 10 Energy from allies granting Mem 1% Charge. At 100% Charge, Mem can grant advance the action of 1 ally by 100%, granting a True DMG and CRIT Rate buff. Mem also constantly gives the entire team a CRIT DMG boost.\n- The True DMG given by Mem increases when the target ally has more Max Energy, up to 200 Max Energy. For units that do not use Energy, [[character:rmc]]'s E4 allows Mem to gain 3% Charge from their action while also giving an increase in True DMG buff."
+            "en": "- [[character:rmc]] is a general support, providing CRIT Rate and True DMG to a target ally.\n- [[character:rmc]]'s Memosprite Mem gains charge when allies gain energy, with 10 Energy from allies granting Mem 1% Charge. At 100% Charge, Mem can grant advance the action of 1 ally by 100%, granting a True DMG and CRIT Rate buff. Mem also constantly gives the entire team a CRIT DMG boost.\n- The True DMG given by Mem increases when the target ally has more Max Energy, up to 200 Max Energy. For units that do not use Energy, [[character:rmc]]'s E4 allows Mem to gain 3% Charge from their action while also giving an increase in True DMG buff.",
+            "ru": "- [[character:rmc]] — универсальный саппорт, предоставляющий выбранному союзнику крит. шанс и дополнительный истинный урон.\n-  Мемо - дух памяти [[character:rmc|Первопроходца (Память)]]. Она накапливает заряд, когда союзники получают энергию: каждые 10 единиц энергии, полученные союзниками, дают 1% заряда. При достижении 100% заряда Мемо может продвинуть действие одного союзника на 100%, а также наложить на него усиление, дающее истинный урон и повышающее крит. шанс. Кроме того, Мемо постоянно увеличивает крит. урон всей команды.\n- Величина истинного урона, предоставляемого Мемо, возрастает в зависимости от максимального запаса энергии выбранного союзника (вплоть до 200 единиц). Для персонажей, которые не используют энергию, E4 [[character:rmc|Первопроходца (Память)]] позволяет Мемо получать 3% заряда за каждое их действие, а также увеличивает бонус к истинному урону"
         },
         "notable_eidolons": {
             "priority": {
-                "en": "E1"
+                "en": "E1",
+                "ru": "E1"
             },
             "details": {
-                "en": "- E1 increases CRIT Rate of a selected ally target by 10% when Mem's Charge reaches 100%."
+                "en": "- E1 increases CRIT Rate of a selected ally target by 10% when Mem's Charge reaches 100%.",
+                "ru": "- E1 увеличивает крит. шанс выбранного союзника на 10%, когда заряд Мемо достигает 100%."
             }
         }
     }

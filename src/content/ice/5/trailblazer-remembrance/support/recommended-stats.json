@@ -13,7 +13,8 @@
             "recommended": "28%",
             "note_group": "cr",
             "note": {
-                "en": "Only relevant if Cyrene is on the team."
+                "en": "Only relevant if Cyrene is on the team.",
+                "ru": "Актуально только если в команде есть Кирена."
             }
         }
     ]
