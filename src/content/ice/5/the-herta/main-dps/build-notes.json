@@ -1,19 +1,23 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [],
     "overview": {
         "summary": {
-            "en": "- The Herta is an AoE DPS with her damage concentrated in her Enhanced Skill. Each time The Herta uses her Ultimate, she immediately takes action and gains access to her Enhanced Skill, while also boosting her ATK%.\n- When enemies are hit, they gain \"Interpretation\" stacks, up to 42, increasing the damage multiplier of her Enhanced Skill and granting The Herta Energy. For every stack of \"Interpretation\" the team inflicts, she gains 1 stack of \"Answer\", until 99, raising her Ultimate's damage. \"Answer\" stacks do not go away.\n- She is reliant on Tribbie or Mortenax Blade in order to feed her high energy Ultimate as well as to apply \"Interpretation\" to enemies. She also needs another character on the path of Erudition to boost the team's CRIT DMG%, while making \"Interpretation\" stacking and energy gain easier."
+            "en": "- The Herta is an AoE DPS with her damage concentrated in her Enhanced Skill. Each time The Herta uses her Ultimate, she immediately takes action and gains access to her Enhanced Skill, while also boosting her ATK%.\n- When enemies are hit, they gain \"Interpretation\" stacks, up to 42, increasing the damage multiplier of her Enhanced Skill and granting The Herta Energy. For every stack of \"Interpretation\" the team inflicts, she gains 1 stack of \"Answer\", until 99, raising her Ultimate's damage. \"Answer\" stacks do not go away.\n- She is reliant on Tribbie or Mortenax Blade in order to feed her high energy Ultimate as well as to apply \"Interpretation\" to enemies. She also needs another character on the path of Erudition to boost the team's CRIT DMG%, while making \"Interpretation\" stacking and energy gain easier.",
+            "ru": "- Великая Герта — это AoE-ДД, урон которой сконцентрирован в её усиленном навыке. Каждый раз, когда Великая Герта использует свою сверхспособность, она немедленно совершает действие и получает доступ к своему усиленному навыку, одновременно повышая свою силу атаки.\n- Когда противники поражены, они получают ур. статуса Интерпретация до 42, увеличивая множитель урона её усиленного навыка и давая энергию Великой Герте. За каждый ур. статуса Интерпретация, наложенный командой, она получает 1 ур. статуса Ответ, вплоть до 99, что увеличивает урон её сверхспособности. Уровни статуса Ответ не исчезают.\n- Она полагается на Трибби или Мортенакс Блэйда, чтобы наполнить свою высокоэнергозатратную сверхспособность, а также наложить ур. статуса Интерпретация на противников. Ей также нужен ещё один персонаж пути Эрудиции, чтобы повысить крит. урон всей команды, одновременно упрощая наложение ур. статуса Интерпретация и получение энергии."
         },
         "investment_priority": {
             "priority": {
-                "en": "E2 > S1 ≥ E1"
+                "en": "E2 > S1 ≥ E1",
+                "ru": "E2 > S1 ≥ E1"
             },
             "details": {
-                "en": "- E2 starts with 1 Enhanced Skill and gains an additional charge when using Ultimate.\n- S1 [[light-cone:into-the-unreachable-veil]] grants CRIT Rate and increases Skill and Ultimate DMG. Lower priority if using [[light-cone:peaceful-day]]."
+                "en": "- E2 starts with 1 Enhanced Skill and gains an additional charge when using Ultimate.\n- S1 [[light-cone:into-the-unreachable-veil]] grants CRIT Rate and increases Skill and Ultimate DMG. Lower priority if using [[light-cone:peaceful-day]].",
+                "ru": "- На E2 начинает бой с 1 зарядом усиленного навыка, а также при использовании сверхспособности получает 2 заряда вместо 1.\n- S1 [[light-cone:into-the-unreachable-veil]] повышает крит. шанс, а также увеличивает урон навыка и сверхспособности. Если используется [[light-cone:peaceful-day]], приоритет этого варианта ниже."
             }
         }
     }

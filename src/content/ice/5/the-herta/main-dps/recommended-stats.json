@@ -8,7 +8,8 @@
             "name": "cr",
             "recommended": "88%",
             "note": {
-                "en": "Assuming [[set:izumo]] is being used, otherwise aim for 100% [[stat:cr]]."
+                "en": "Assuming [[set:izumo]] is being used, otherwise aim for 100% [[stat:cr]].",
+                "ru": "При использовании [[set:izumo]], иначе стремитесь к 100% [[stat:cr|крит. шанса]]."
             }
         },
         {
