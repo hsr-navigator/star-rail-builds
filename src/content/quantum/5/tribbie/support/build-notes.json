@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "Sub-DPS / Support"
+        "en": "Sub-DPS / Support",
+        "ru": "Сап-ДД / Саппорт"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Tribbie is a Harmony support capable of unleashing frequent Follow-Up ATKs and Ultimates.\n- At the start of combat or after Tribbie uses her Ultimate, the next time each ally uses their Ultimate, Tribbie will use an AoE Follow-Up ATK.\n- Tribbie is a core support for The Herta, contributing frequent AoE Follow-up ATKs helping stack \"Interpretation\" while also dealing solid sub-DPS.\n- Outside of The Herta teams, Tribbie often falls behind more specialized support units, though her general buffs still make her a strong secondary option."
+            "en": "- Tribbie is a Harmony support capable of unleashing frequent Follow-Up ATKs and Ultimates.\n- At the start of combat or after Tribbie uses her Ultimate, the next time each ally uses their Ultimate, Tribbie will use an AoE Follow-Up ATK.\n- Tribbie is a core support for The Herta, contributing frequent AoE Follow-up ATKs helping stack \"Interpretation\" while also dealing solid sub-DPS.\n- Outside of The Herta teams, Tribbie often falls behind more specialized support units, though her general buffs still make her a strong secondary option.",
+            "ru": "- Трибби — саппорт пути Гармонии, способный часто активировать бонус-атаки и использовать сверхспособность.\n- В начале боя или после того, как Трибби применяет свою сверхспособность, при следующем использовании сверхспособности каждым из союзников Трибби проводит бонус-атаку по всем противникам.\n- Трибби является ключевым саппортом для команд с Великой Гертой: она часто совершает бонус-атаки, атакующие всех противников, помогая накапливать ур. статуса Интерпретация, а также вносит ощутимый урон как сап-ДД.\n- Вне команд с Великой Гертой Трибби зачастую уступает более специализированным саппортам, однако её универсальные усиления всё равно делают её достойным вспомогательным вариантом."
         },
         "investment_priority": {
             "priority": {
-                "en": "E1 > S1"
+                "en": "E1 > S1",
+                "ru": "E1 > S1"
             },
             "details": {
-                "en": "- E1 causes the enemy with the highest HP to take True DMG equal to 24% of the non-True DMG dealt to enemies after an ally attacks. This Eidolon is a strong overall damage boost and is especially powerful with AoE damage dealers by concentrating damage onto higher priority targets.\n- S1 provides a large personal damage boost, grants Energy at the start of combat and after her Follow-Up ATKs, and gives the team a CRIT DMG% buff."
+                "en": "- E1 causes the enemy with the highest HP to take True DMG equal to 24% of the non-True DMG dealt to enemies after an ally attacks. This Eidolon is a strong overall damage boost and is especially powerful with AoE damage dealers by concentrating damage onto higher priority targets.\n- S1 [[lightcone:if-time-were-a-flower]] provides a large personal damage boost, grants Energy at the start of combat and after her Follow-Up ATKs, and gives the team a CRIT DMG% buff.",
+                "ru": "- E1 заставляет противника с наибольшим количеством HP получать истинный урон, равный 24% от урона (не являющегося истинным), нанесённого противникам после атаки союзника. Этот Эйдолон значительно повышает общий урон и особенно эффективен в сочетании с персонажами, наносящими урон по площади, так как позволяет сконцентрировать урон на наиболее приоритетных целях.\n- S1 [[lightcone:if-time-were-a-flower]] существенно увеличивает собственный урон Трибби, даёт энергию в начале боя и после выполнения ею бонус-атак, а также предоставляет всей команде бонус к крит. урону."
             }
         }
     }
