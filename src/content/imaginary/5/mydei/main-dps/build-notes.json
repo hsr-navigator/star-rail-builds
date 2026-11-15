@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "Main DPS"
+        "en": "Main DPS",
+        "ru": "Основной ДД"
     },
     "notes": [
     ],
     "overview": {
         "summary": {
-            "en": "- Mydei's normal Skill depletes his HP and does not require Skill Points. Upon losing 1% HP, gains 1 point of Charge. At 100 Charge, Mydei consumes 100 Charge to enter the \"Vendetta\" state. While in the \"Vendetta\" state, Mydei gains increased Max HP and sets his DEF to 0, allowing him to lose more HP and gain more Charge. He also becomes immune to Crowd Control debuffs. On his turn, he launches an Enhanced Skill. If 150 Charge is gained in this state, he consumes it to obtain one Extra Turn and launch an even stronger Enhanced Skill.\n- When receiving a killing blow in the \"Vendetta\" state, Mydei will not be knocked down and will return to the \"Vendetta\" state, up to 3 times in battle. If Mydei is knocked down and is not in the \"Vendetta\" state, he will not be revived.\n- Ultimate heals, gives Charge, and deals a Blast attack, Taunting all enemies hit for 2 turns. The primary target of the Ultimate will also be targeted by his Enhanced Skill. This allows for some control over his automatic playstyle."
+            "en": "- Mydei's normal Skill depletes his HP and does not require Skill Points. Upon losing 1% HP, gains 1 point of Charge. At 100 Charge, Mydei consumes 100 Charge to enter the \"Vendetta\" state. While in the \"Vendetta\" state, Mydei gains increased Max HP and sets his DEF to 0, allowing him to lose more HP and gain more Charge. He also becomes immune to Crowd Control debuffs. On his turn, he launches an Enhanced Skill. If 150 Charge is gained in this state, he consumes it to obtain one Extra Turn and launch an even stronger Enhanced Skill.\n- When receiving a killing blow in the \"Vendetta\" state, Mydei will not be knocked down and will return to the \"Vendetta\" state, up to 3 times in battle. If Mydei is knocked down and is not in the \"Vendetta\" state, he will not be revived.\n- Ultimate heals, gives Charge, and deals a Blast attack, Taunting all enemies hit for 2 turns. The primary target of the Ultimate will also be targeted by his Enhanced Skill. This allows for some control over his automatic playstyle.",
+            "ru": "- Обычный навык Мидея расходует его HP и не требует очков навыков. При потере 1% HP он получает 1 ед. заряда. Накопив 100 ед. заряда, Мидей тратит их, чтобы войти в состояние Кровная месть. В этом состоянии макс. HP Мидея увеличивается, а защита становится равной 0, что позволяет ему терять ещё больше HP и накапливать дополнительные ед. заряда. Кроме того, он получает иммунитет к эффектам контроля. В свой ход Мидей применяет усиленный навык. Если в состоянии Кровная месть он накапливает 150 ед. заряда, то расходует их, чтобы получить дополнительный ход и применить ещё более мощный усиленный навык.\n- Если в состоянии Кровная месть Мидей получает добивающий удар, он не погибает и возвращается в состояние Кровная месть (эффект может сработать до 3 раз за бой). Если же Мидей получает добивающий удар, не находясь в состоянии Кровная месть, он не возрождается.\n- Его сверхспособность восстанавливает здоровье, даёт ед. заряда и наносит урон по трём целям, а также накладывает Насмешку на всех поражённых противников на 2 хода. Основная цель сверхспособности также становится целью его усиленного навыка. Это позволяет частично контролировать его действия в автоматическом режиме боя."
         },
         "investment_priority": {
             "priority": {
-                "en": "S1 ≥ E1 > E2"
+                "en": "S1 ≥ E1 > E2",
+                "ru": "S1 ≥ E1 > E2"
             },
             "details": {
-                "en": "- S1 buffs Max HP and Incoming Healing; consumes 6% Max HP when using Skill or Ultimate for +30% DMG to that attack, plus another 30% if at least 500 HP is consumed. Overall strong for its DMG enhancement and buff to Charge gain.\n- E1 increases the Enhanced Skill's multiplier by 30% and allows it to attack all targets, letting Mydei work better in AoE battles.\n- E2 in \"Vendetta\" state, DMG dealt ignores 15% DEF. When he receives healing, 40% of the amount healed is converted to Charge."
+                "en": "- S1 [[lightcone:flame-of-blood-blaze-my-path]] buffs Max HP and Incoming Healing; consumes 6% Max HP when using Skill or Ultimate for +30% DMG to that attack, plus another 30% if at least 500 HP is consumed. Overall strong for its DMG enhancement and buff to Charge gain.\n- E1 increases the Enhanced Skill's multiplier by 30% and allows it to attack all targets, letting Mydei work better in AoE battles.\n- E2 in \"Vendetta\" state, DMG dealt ignores 15% DEF. When he receives healing, 40% of the amount healed is converted to Charge.",
+                "ru": "- S1 [[lightcone:flame-of-blood-blaze-my-path]] повышает макс. HP и эффективность получаемого лечения. При использовании навыка или сверхспособности теряет 6% от своего макс. HP, увеличивая при этом урон на 30%; если же при этом теряется не менее 500 ед. HP, бонус увеличивается ещё на 30%. В целом это сильный вариант, обеспечивающий как прибавку к урону, так и ускорение накопления заряда.\n- E1 увеличивает множитель усиленного навыка на 30% и позволяет ему поражать всех противников, что делает Мидея более эффективным в боях с большим количеством целей.\n- E2: в состоянии Кровная месть наносимый урон игнорирует 15% защиты противника. Кроме того, при получении лечения 40% от объёма восстановленного здоровья преобразуется в заряд."
             }
         }
     }

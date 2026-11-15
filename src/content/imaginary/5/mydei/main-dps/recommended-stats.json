@@ -4,14 +4,16 @@
             "name": "hp",
             "recommended": "8000+",
             "note": {
-                "en": "As long as Mydei has 8,000+ HP at the VERY start of Combat, he will gain 48% CRIT Rate from his A6 Trace Bloodied Chiton."
+                "en": "As long as Mydei has 8,000+ HP at the VERY start of Combat, he will gain 48% CRIT Rate from his A6 Trace Bloodied Chiton.",
+                "ru": "Если у Мидея в самом начале боя будет 8,000+ HP, он получит 48% к крит. шансу от его следа A6 Окровавленный хитон."
             }
         },
         {
             "name": "spd",
             "recommended": "95",
             "note": {
-                "en": "This build does not require [[stat:spd]]."
+                "en": "This build does not require [[stat:spd]].",
+                "ru": "Этот билд не требует [[stat:spd|скорость]]."
             }
         },
         {
