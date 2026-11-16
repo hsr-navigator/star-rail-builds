@@ -2,7 +2,13 @@
     "main_stats": {
         "body": [
             "cd",
-            "hp"
+            {
+                "name": "hp",
+                "note_group": "cyrene-hp",
+                "note": {
+                    "en": "If using S1 This Love, Forever, HP% chest is viable and HP% substats are equal to CRIT DMG% substats, otherwise use CRIT DMG% body."
+                }
+            }
         ],
         "feet": [
             "spd"
@@ -10,7 +16,8 @@
         "planar_sphere": [
             {
                 "name": "ice-dmg"
-            }
+            },
+            "hp"
         ],
         "link_rope": [
             "hp"

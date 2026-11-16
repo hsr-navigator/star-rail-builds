@@ -1,13 +1,17 @@
 {
     "best": true,
     "name": {
-        "en": "Support",
+        "en": "Non-Remembrance",
         "ru": "Саппорт"
     },
     "notes": [
         {
+<<<<<<< Updated upstream
             "en": "Use the Sub-DPS build for Cyrene if pairing her with Castorice or Evernight.",
             "ru": "Используйте билд саб-ДД для Кирены, если она в команде с Касторией или Теменью."
+=======
+            "en": "Use the Remembrance build for Cyrene if running Castorice, Evernight Main DPS, or Cyrene Main DPS team."
+>>>>>>> Stashed changes
         }
     ],
     "overview": {

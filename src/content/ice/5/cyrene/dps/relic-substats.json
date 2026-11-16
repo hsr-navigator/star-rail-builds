@@ -2,7 +2,13 @@
     "substats_priority": [
         "spd",
         "cr",
-        "hp",
-        "cd"
+        {
+            "name": "hp",
+            "note_group": "cyrene-hp"
+        },
+        {
+            "name": "cd",
+            "note_group": "cyrene-hp"
+        }
     ]
 }

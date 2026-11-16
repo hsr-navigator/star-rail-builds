@@ -8,7 +8,7 @@
                             "name": "eagle",
                             "pieces": 4,
                             "note": {
-                                "en": "Preferred over [[set:deliverer]] for [[character:aglaea]], [[character:anaxa]], [[character:mydei]], [[character:hysilens]].",
+                                "en": "Preferred over [[set:deliverer]] for [[character:aglaea]], [[character:anaxa]], [[character:mydei]], [[character:hysilens]] for more turns.",
                                 "ru": "Предпочтительнее, чем [[set:deliverer]], для [[character:aglaea|Аглаи]], [[character:anaxa|Анаксы]], [[character:mydei|Мидея]], [[character:hysilens|Гисиленсы]]."
                             }
                         }
@@ -37,7 +37,7 @@
                             "name": "2pc-spd",
                             "pieces": 2,
                             "note": {
-                                "en": "Can be used for a temporary build while farming for [[set:deliverer]] or [[set:eagle]]. Used for Phainon teams because Cyrene cannot proc [[set:deliverer]] in this team.",
+                                "en": "With Ode to Worldbearing active and Phainon transformed into Khaslana, Cyrene would be departed from the field, and thus unable to proc the effects of [[set:deliverer]] and [[set:eagle]].",
                                 "ru": "Можно использовать для временного билда, пока фармятся [[set:deliverer]] или [[set:eagle]]. Используется в командах с Фаеноном, так как Кирена не может активировать эффект [[set:deliverer|Воссоздающего мир спасителя]] в этой команде."
                             }
                         }

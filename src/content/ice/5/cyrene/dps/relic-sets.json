@@ -27,19 +27,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "groups": [
-                {
-                    "choose": true,
-                    "items": [
-                        {
-                            "name": "2pc-spd",
-                            "pieces": 2
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "planar_ornaments": [
@@ -51,7 +38,7 @@
                             "name": "amphoreus",
                             "pieces": 2,
                             "note": {
-                                "en": "Assuming no one else on the team holds this set.",
+                                "en": "For Castorice team and assuming no one else on the team holds this set.",
                                 "ru": "При условии, что никто другой в команде не использует этот набор."
                             }
                         }
@@ -66,18 +53,6 @@
                                 "en": "For [[character:evernight]] and personal Main DPS teams.",
                                 "ru": "Для [[character:evernight|темени]] и команд, где Кирена является основным ДД."
                             }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "vonwacq",
-                            "pieces": 2
                         }
                     ]
                 }

@@ -2,7 +2,12 @@
     "main_stats": {
         "body": [
             "cd",
-            "hp"
+            {
+                "name": "hp",
+                "note": {
+                    "en": "If using S1 This Love, Forever, HP% chest is viable, otherwise use CRIT DMG% body."
+                }
+            }
         ],
         "feet": [
             "spd"
@@ -12,7 +17,7 @@
             {
                 "name": "ice-dmg",
                 "note": {
-                    "en": "Preferred with Evernight and Castorice teams. However, lower invested Castorice teams prefer HP% Planar Sphere.",
+                    "en": "Optional, for her personal damage output.",
                     "ru": "Предпочтительно для команд с Теменью и Касторией. Однако в команде с Касторией с низкими инвестициями лучше использовать планарную сферу на HP%."
                 }
             }
