@@ -18,11 +18,7 @@
                     "items": [
                         {
                             "name": "deliverer",
-                            "pieces": 4,
-                            "note": {
-                                "en": "For [[character:castorice]], [[character:evernight]], [[character:hyacine]] teams.",
-                                "ru": "Для команд с [[character:castorice|Касторией]], [[character:evernight|Теменью]], [[character:hyacine|Гиациной]]."
-                            }
+                            "pieces": 4
                         }
                     ]
                 }
