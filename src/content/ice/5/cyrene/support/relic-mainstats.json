@@ -5,7 +5,8 @@
             {
                 "name": "hp",
                 "note": {
-                    "en": "If using S1 This Love, Forever, HP% chest is viable, otherwise use CRIT DMG% body."
+                    "en": "If using S1 [[light-cone:this-love-forever]], HP% Body is viable, otherwise use CRIT DMG% Body.",
+                    "ru": "Если используете S1 [[light-cone:this-love-forever]], то можно использовать тело на HP%, в противном случае используйте тело на крит. урон%."
                 }
             }
         ],
