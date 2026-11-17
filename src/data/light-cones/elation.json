@@ -44,7 +44,7 @@
     "upon-the-first-echo-of-aha": {
         "rarity": 5,
         "version_released": "4.7",
-        "source": "warp",
+        "source": "limited-warp",
         "passive": {
             "en": "Increases the wearer's base SPD by {{value}}. When using Skill on one other ally, gains {{value}} Punchline. This effect can trigger at most once after a gap of every 1 turn(s). Then, enables all allies to ignore {{value}}% of the enemy target's DEF when they deal DMG during this battle. This effect cannot be stacked.",
             "ru": "Повышает базовую скорость владельца на {{value}} ед. При применении навыка к другому союзнику даёт {{value}} ед. Юмора. Этот эффект срабатывает не чаще 1 раза за 1 ход, после чего все союзники в этом бою при нанесении урона игнорируют {{value}}% защиты выбранного противника. Этот эффект не складывается.",
@@ -131,7 +131,7 @@
     "colors-for-tomorrow": {
         "rarity": 5,
         "version_released": "4.6",
-        "source": "warp",
+        "source": "limited-warp",
         "passive": {
             "en": "Increases the wearer's DEF by {{value}}%. When the wearer uses an Elation Skill on all allies, increases DMG taken by all enemies by {{value}}%, lasting for 3 turn(s). Regenerates a fixed 10 Energy for the wearer, and restores HP equal to {{value}}% of the wearer's DEF for all allies.",
             "ru": "Повышает защиту владельца на {{value}}%. Когда владелец использует навык Радости на всех союзниках, получаемый всеми противниками урон повышается на {{value}}% на 3 хода, владелец восстанавливает фиксированные 10 ед. энергии, а все союзники восстанавливают НР в размере {{value}}% от защиты владельца.",
