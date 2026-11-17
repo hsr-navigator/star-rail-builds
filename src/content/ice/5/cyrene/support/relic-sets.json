@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Preferred over [[set:deliverer]] for [[character:aglaea]], [[character:anaxa]], [[character:mydei]], [[character:hysilens]] for more turns.",
-                                "ru": "Предпочтительнее, чем [[set:deliverer]], для [[character:aglaea|Аглаи]], [[character:anaxa|Анаксы]], [[character:mydei|Мидея]], [[character:hysilens|Гисиленсы]]."
+                                "ru": "Предпочтительнее, чем [[set:deliverer]], для [[character:aglaea|Аглаи]], [[character:anaxa|Анаксы]], [[character:mydei|Мидея]], [[character:hysilens|Гисиленсы]].",
+                                "cht": "當與[[character:aglaea]]、[[character:anaxa]]、[[character:mydei]]或[[character:hysilens]]組隊時，更建議這套來高頻行動。"
                             }
                         }
                     ]
@@ -34,7 +35,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "With Ode to Worldbearing active and Phainon transformed into Khaslana, Cyrene would be departed from the field, and thus unable to proc the effects of [[set:deliverer]] and [[set:eagle]].",
-                                "ru": "Можно использовать для временного билда, пока фармятся [[set:deliverer]] или [[set:eagle]]. Используется в командах с Фаеноном, так как Кирена не может активировать эффект [[set:deliverer|Воссоздающего мир спасителя]] в этой команде."
+                                "ru": "Можно использовать для временного билда, пока фармятся [[set:deliverer]] или [[set:eagle]]. Используется в командах с Фаеноном, так как Кирена не может активировать эффект [[set:deliverer|Воссоздающего мир спасителя]] в этой команде.",
+                                "cht": "在【獻予「負世」之詩】激活且白厄已經開大變成卡厄斯蘭那時，昔漣會處於“離場”狀態，因此無法觸發[[set:deliverer]]或[[set:eagle]]的效果。"
                             }
                         }
                     ]
@@ -64,7 +66,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "Assuming no one else on the team holds this set.",
-                                "ru": "При условии, что никто другой в команде не использует этот набор."
+                                "ru": "При условии, что никто другой в команде не использует этот набор.",
+                                "cht": "前提是隊里沒有其他人已經在配戴這套。"
                             }
                         }
                     ]
