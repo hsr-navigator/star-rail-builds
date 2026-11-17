@@ -80,7 +80,10 @@
                         {
                             "name": "duran",
                             "pieces": 2,
-                            "note_group": "fua"
+                            "note_group": "e2-mblade-bis",
+                            "note": {
+                                "en": "Best in Slot when used with E2 Mortenax Blade."
+                            }
                         }
                     ]
                 }

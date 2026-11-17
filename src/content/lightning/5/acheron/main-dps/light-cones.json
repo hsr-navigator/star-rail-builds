@@ -11,6 +11,14 @@
         {
             "items": [
                 {
+                    "name": "thermae",
+                    "superimposition": 5
+                },
+                {
+                    "name": "boundless-choreo",
+                    "superimposition": 5
+                },
+                {
                     "name": "incessant-rain",
                     "superimposition": 1
                 }
@@ -20,22 +28,6 @@
             "items": [
                 {
                     "name": "gnsw",
-                    "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "boundless-choreo",
-                    "superimposition": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "fermata",
                     "superimposition": 5
                 }
             ]
