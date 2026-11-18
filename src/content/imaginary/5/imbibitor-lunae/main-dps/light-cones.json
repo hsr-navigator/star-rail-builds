@@ -3,6 +3,22 @@
         {
             "items": [
                 {
+                    "name": "brighter-than-the-sun",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "i-am-as-you-behold",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "thus-burns-the-dawn",
                     "superimposition": 1,
                     "note_group": "poet",
@@ -15,7 +31,7 @@
         {
             "items": [
                 {
-                    "name": "brighter-than-the-sun",
+                    "name": "a-thankless-coronation",
                     "superimposition": 1
                 }
             ]

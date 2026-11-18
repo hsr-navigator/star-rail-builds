@@ -3,6 +3,22 @@
         {
             "items": [
                 {
+                    "name": "a-star-that-lights-the-night",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "life-should-be-cast-to-flames",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "before-dawn",
                     "superimposition": 1
                 }
@@ -19,6 +35,14 @@
         {
             "items": [
                 {
+                    "name": "into-the-unreachable-veil",
+                    "superimposition": 1
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "a-dream-scented-in-wheat",
                     "superimposition": 5
                 }
@@ -27,7 +51,7 @@
         {
             "items": [
                 {
-                    "name": "peaceful-day",
+                    "name": "repose",
                     "superimposition": 5
                 }
             ]
@@ -43,7 +67,7 @@
         {
             "items": [
                 {
-                    "name": "repose",
+                    "name": "peaceful-day",
                     "superimposition": 5
                 },
                 {

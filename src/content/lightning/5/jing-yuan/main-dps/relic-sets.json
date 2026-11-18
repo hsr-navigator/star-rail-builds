@@ -11,16 +11,14 @@
                     ]
                 }
             ]
-        }
-    ],
-    "planar_ornaments": [
+        },
         {
             "groups": [
                 {
                     "items": [
                         {
-                            "name": "banana",
-                            "pieces": 2
+                            "name": "genius",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -31,7 +29,21 @@
                 {
                     "items": [
                         {
-                            "name": "salsotto",
+                            "name": "poet",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "planar_ornaments": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "banana",
                             "pieces": 2
                         }
                     ]

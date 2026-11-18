@@ -6,20 +6,20 @@
         },
         {
             "name": "spd",
-            "recommended": "134+"
+            "recommended": "99 / 134+"
         },
         {
             "name": "cr",
-            "recommended": "70%",
+            "recommended": "90%",
             "note": {
-                "en": "As he gets 10% CRIT Rate upon Skill, and 20% from Sunday, you only need 70% CRIT Rate out-of-combat."
+                "en": "As he gets 10% CRIT Rate upon Skill, you only need 90% CRIT Rate out-of-combat."
             }
         },
         {
             "name": "cd",
-            "recommended": "170%+",
+            "recommended": "120%+",
             "note": {
-                "en": "Aim for 210%+ [[stat:cd]] if using S1 [[light-cone:before-dawn]] or S1 [[light-cone:yet-hope-is-priceless]]."
+                "en": "Aim for 160%+ [[stat:cd]] if using S1 [[light-cone:before-dawn]] or S1 [[light-cone:yet-hope-is-priceless]]."
             }
         }
     ]

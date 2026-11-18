@@ -17,33 +17,24 @@
                 {
                     "items": [
                         {
+                            "name": "genius",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Assuming Quantum-weak enemies and supports providing DEF Ignore/Reduction."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "poet",
                             "pieces": 4,
                             "note_group": "poet"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "genius",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "wastelander",
-                            "pieces": 4
                         }
                     ]
                 }
