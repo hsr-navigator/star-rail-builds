@@ -2,7 +2,14 @@
     "main_stats": {
         "body": [
             "cd",
-            "hp"
+            {
+                "name": "hp",
+                "note": {
+                    "en": "If using S1 [[light-cone:this-love-forever]], HP% Body is viable, otherwise use CRIT DMG% Body.",
+                    "ru": "Если используете S1 [[light-cone:this-love-forever]], то можно использовать тело на HP%, в противном случае используйте тело на крит. урон%.",
+                    "cht": "若使用疊影1的《[[light-cone:this-love-forever]]》，軀幹用生命%主詞條是可行的，否則乾脆用暴擊傷害%主詞條。"
+                }
+            }
         ],
         "feet": [
             "spd"
@@ -12,8 +19,9 @@
             {
                 "name": "ice-dmg",
                 "note": {
-                    "en": "Preferred with Evernight and Castorice teams. However, lower invested Castorice teams prefer HP% Planar Sphere.",
-                    "ru": "Предпочтительно для команд с Теменью и Касторией. Однако в команде с Касторией с низкими инвестициями лучше использовать планарную сферу на HP%."
+                    "en": "Optional, for her personal damage output.",
+                    "ru": "Предпочтительно для команд с Теменью и Касторией. Однако в команде с Касторией с низкими инвестициями лучше использовать планарную сферу на HP%.",
+                    "cht": "可選項，主要為了提高自身輸出。在非記憶隊更建議生命%主詞來提高生存能力。"
                 }
             }
         ],

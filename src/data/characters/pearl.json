@@ -269,7 +269,7 @@
         {
             "level": 6,
             "name": "Compute Life From One Shell",
-            "description": "While \"Deep Learning,\" all ally targets' All-Type RES PEN increases by 200%. Pearl's Enhanced Basic ATK additionally deals 400% Ice Elation DMG, which is calculated based on the stats of \"Aesthetic Archetype.\""
+            "description": "While \"Deep Learning,\" all ally targets' All-Type RES PEN increases by 20%. Pearl's Enhanced Basic ATK additionally deals 240% Ice Elation DMG, which is calculated based on the stats of \"Aesthetic Archetype.\""
         }
     ],
     "level_80_stats": {

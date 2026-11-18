@@ -35,7 +35,12 @@
 
             "items": [
                 {
-                    "name": "basic"
+                    "name": "basic",
+                    "note": {
+                        "en": "Basic ATK can be ignored.",
+                        "ru": "Базовую атаку можно не прокачивать.",
+                        "cht": "普攻可無視。"
+                    }
                 }
             ]
         }
