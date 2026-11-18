@@ -112,6 +112,26 @@ body[data-type="base"].browser-background::before {
     font-weight: 760;
 }
 
+.home-last-update {
+    position: relative;
+    isolation: isolate;
+}
+
+.home-last-update::before {
+    content: "";
+    position: absolute;
+    inset: 4px -8px;
+    z-index: -1;
+    pointer-events: none;
+
+    background: rgba(25, 25, 30, 0.75);
+    filter: blur(18px);
+}
+
+.home-last-update>* {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
 .simple-page .card {
     line-height: 1.6;
 }
@@ -1396,4 +1416,7 @@ body[data-type="base"].browser-background::before {
             height: 23px;
         }
     }
+
+
+
 }
