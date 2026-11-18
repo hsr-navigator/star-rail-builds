@@ -39,6 +39,14 @@
                     "note_group": "s1-comparison"
                 }
             ]
+        },
+        {
+            "items": [
+                {
+                    "name": "see-you-at-the-worlds-end",
+                    "superimposition": 5
+                }
+            ]
         }
     ]
 }
