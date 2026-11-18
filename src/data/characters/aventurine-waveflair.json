@@ -315,5 +315,11 @@
             "name": "Into the Eye of the Jackpot",
             "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
         }
-    ]
+    ],
+    "global_passives": {
+        "innate-trace": {
+            "name": "Faces of Elation ★ Three-Card Monte",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, if Aeon ★ Aha is the only Elation teammate, then in the Trace \"Revel in Raging Tides,\" the effect that normally requires Aventurine • Waveflair to be the only Elation character will also become active. And this effect is enhanced: The SPD of all allies increases by 15%. After a teammate attacks, Aventurine • Waveflair additionally gains 1 \"Fervor\" and 1 Bliss.\n\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, if Aeon ★ Aha is the only Elation teammate, then in the Trace \"Revel in Raging Tides,\" the effect that normally requires Aventurine • Waveflair to be the only Elation character will also become active. And this effect is enhanced: The SPD of all allies increases by 25%. After a teammate attacks, Aventurine • Waveflair additionally gains 2 \"Fervor\" and 2 Bliss."
+        }
+    }
 }

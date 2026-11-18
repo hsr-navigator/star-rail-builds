@@ -329,5 +329,11 @@
             "name": "#BuiltDifferent #GoingExtinct",
             "description": "Increases All-Type RES PEN by 20%. For every 1 Punchline taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of 40."
         }
-    ]
+    ],
+    "global_passives": {
+        "innate-trace": {
+            "name": "Faces of Elation ★ Hat Trick",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, Elation Skill's DMG multiplier increases by 50% of its original multiplier, and ally targets ignore 15% of the enemy target's DEF when dealing DMG. For every 10 \"Party Trick\" held, triggering \"Straight Fire\" additionally provides 1 Bliss, up to 8.\n\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, Elation Skill's DMG multiplier increases by 120% of its original multiplier, and ally targets ignore 20% of the enemy target's DEF when dealing DMG. For every 10 \"Party Trick\" held, triggering \"Straight Fire\" additionally provides 1 Bliss, up to 12."
+        }
+    }
 }

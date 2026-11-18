@@ -225,7 +225,7 @@
         },
         "innate-trace": {
             "name": "Faces of Elation ★ Ex Nihilo",
-            "description": "While possessing the \"Faces of Elation\" state, Aeon ★ Aha causes allies' Path of Elation to ascend, enhancing Punchline and the \"Certified Banger\" state into Bliss and the \"Party Trick\" state. Bliss recovers 10% of the consumed Punchline at the end of the \"Aha Instant\" turn. During \"Faces of Elation,\" Aeon ★ Aha's CRIT Rate increases by (12%/20%), and the DMG dealt by Aeon ★ Aha ignores (30%/60%) of the enemy target's DEF."
+            "description": "At Aeon ★ Aha E0:\nWhile possessing the \"Faces of Elation\" state, Aeon ★ Aha causes allies' Path of Elation to ascend, enhancing Punchline and the \"Certified Banger\" state into Bliss and the \"Party Trick\" state. Bliss recovers 10% of the consumed Punchline at the end of the \"Aha Instant\" turn. During \"Faces of Elation,\" Aeon ★ Aha's CRIT Rate increases by 12%, and the DMG dealt by Aeon ★ Aha ignores 30% of the enemy target's DEF.\n\nAt Aeon ★ Aha E2:\nWhile holding the \"Faces of Elation\" state, Aeon ★ Aha enables allies' Path of Elation to ascend, and enhances Punchline and \"Certified Banger\" into Bliss and \"Party Trick,\" respectively. Bliss recovers 10% of its consumed amount when Aha Instant ends. During \"Faces of Elation,\" Aeon ★ Aha's CRIT Rate increases by 20%, and the DMG dealt ignores 60% of the enemy target's DEF."
         }
     },
     "elation": {

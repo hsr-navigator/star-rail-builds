@@ -303,5 +303,11 @@
             "name": "Arcadia: A Glimpse of Fates",
             "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
         }
-    ]
+    ],
+    "global_passives": {
+        "innate-trace": {
+            "name": "Faces of Elation ★ Pages to Petals",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, overflow Energy can accumulate up to 60. After using Ultimate, clears this accumulation to regenerate an equal amount of Energy. This instance of regeneration will not trigger the Talent's Certified Banger gain effect. The DMG dealt ignores 10% of the enemy target's DEF. For every 480 \"Party Trick\" accumulated, the DMG multiplier of the next Ultimate and the multiplier of the Elation DMG dealt by that Ultimate via the Talent increases by 75% of their respective original values. This effect cannot stack.\n\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, overflow Energy can accumulate up to 240. After using Ultimate, clears this accumulation to regenerate an equal amount of Energy. This instance of regeneration will not trigger the Talent's Certified Banger gain effect. The DMG dealt ignores 24% of the enemy target's DEF. For every 480 \"Party Trick\" accumulated, the DMG multiplier of the next Ultimate and the multiplier of the Elation DMG dealt by that Ultimate via the Talent increases by 150% of their respective original values. This effect cannot stack."
+        }
+    }
 }

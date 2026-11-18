@@ -294,6 +294,6 @@
     "affinitive_eidolon": {
         "name": "A Glance Through Rime to Bone",
         "tag": "AoE",
-        "description": "When a teammate attacks an enemy target with \"Crimson Knot,\" Acheron deals 1 instance of Lightning Additional DMG equal to 80% of this unit's ATK to the target and launches a Follow-Up ATK, dealing Lightning DMG equal to 300% of Acheron's ATK to all enemies, then gains 1 point(s) of Slashed Dream and inflicts 1 stack(s) of \"Crimson Knot\" on the enemy target with the most \"Crimson Knot.\"\nThis effect can trigger up to 1 time(s) per turn. The trigger count resets at the start of Acheron's turn."
+        "description": "After a teammate attacks an enemy target with \"Crimson Knot,\" Acheron launches Follow-Up ATK, dealing Lightning DMG equal to 300% of Acheron's ATK to all enemies. Then, deals 6 instances of DMG, with each hit dealing Lightning DMG equal to 80% of Acheron's ATK to one random enemy. Gains 1 point(s) of Slashed Dream, and inflicts 1 stack(s) of \"Crimson Knot\" on the enemy target with the most \"Crimson Knot.\" When this instance of Follow-Up ATK deals DMG, it is considered as dealing Ultimate DMG. This effect can trigger up to 1 time(s) per turn. The trigger count resets at the start of Acheron's turn. The Trace \"The Abyss\" will also take effect on this instance of Follow-Up ATK."
     }
 }

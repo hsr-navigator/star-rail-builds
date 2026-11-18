@@ -349,5 +349,11 @@
                 }
             }
         }
+    },
+    "global_passives": {
+        "innate-trace": {
+            "name": "Faces of Elation ★ Leaping Off the Page",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, the upper limit for Pearl's \"Party Trick\" increases to 75. When the extra turn granted by the Ultimate ends, 10% of the \"Certified Banger\" and 10% of the Punchline gained at the start of the extra turn are retained.\n\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, the upper limit for Pearl's \"Party Trick\" increases to 75. When the extra turn granted by the Ultimate ends, 20% of the \"Certified Banger\" and 20% of the Punchline gained at the start of the extra turn are retained."
+        }
     }
 }

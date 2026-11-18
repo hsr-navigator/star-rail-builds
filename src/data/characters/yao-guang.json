@@ -238,5 +238,11 @@
             "name": "Bejeweled in Radiant Grace",
             "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
         }
-    ]
+    ],
+    "global_passives": {
+        "innate-trace": {
+            "name": "Faces of Elation ★ Mind Reading",
+            "description": "At Aeon ★ Aha E0:\nWhen the Path of Elation ascends, the DMG multiplier of the \"Great Boon\" effect increases by an amount equal to 20% of its original value. After using Ultimate, Yao Guang regenerates a fixed amount of 12 Energy and gains 10 Bliss.\n\nAt Aeon ★ Aha E2:\nWhen the Path of Elation ascends, the DMG multiplier of the \"Great Boon\" effect increases by an amount equal to 40% of its original value. After using Ultimate, Yao Guang regenerates a fixed amount of 30 Energy and gains 10 Bliss."
+        }
+    }
 }
