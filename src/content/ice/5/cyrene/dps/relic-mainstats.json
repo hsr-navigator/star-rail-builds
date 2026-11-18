@@ -8,7 +8,8 @@
                 "note": {
                     "en": "If using S1 [[light-cone:this-love-forever]], HP% Body is viable and HP% substats are equal to CRIT DMG% substats, otherwise use CRIT DMG% Body",
                     "ru": "Если используете S1 [[light-cone:this-love-forever]], тело на HP% — вполне рабочий вариант, а сабстаты на HP% равноценны сабстатам на крит. урон%; в противном случае используйте тело на крит. урон%.",
-                    "cht": "若在配戴疊影1的[[light-cone:this-love-forever]]，生命%主詞的軀幹也可以用，並且生命和暴傷的副詞均有效，否則就用暴傷衣。"
+                    "cht": "若在配戴疊影1的[[light-cone:this-love-forever]]，生命%主詞的軀幹也可以用，並且生命和暴傷的副詞均有效，否則就用暴傷衣。",
+                    "vn": "Thân [[stat:hp%]] khả thi hơn nếu dùng S1 [[light-cone:this-love-forever]], trong trường hợp này thì thuộc tính [[stat:hp%]] và [[stat:cd]] ngang nhau. Nếu không thì dùng thân [[stat:cd]]."
                 }
             }
         ],

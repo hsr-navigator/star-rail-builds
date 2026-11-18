@@ -39,7 +39,8 @@
                     "note": {
                         "en": "Basic ATK can be ignored.",
                         "ru": "Базовую атаку можно не прокачивать.",
-                        "cht": "普攻可無視。"
+                        "cht": "普攻可無視。",
+                        "vn": "Có thể bỏ qua [[ability:basic]]."
                     }
                 }
             ]
