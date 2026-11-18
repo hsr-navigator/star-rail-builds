@@ -9,7 +9,7 @@ let activePopover: HTMLElement | null = null;
 let pinned = false;
 let pointerX: number | null = null;
 let hideTimer: ReturnType<typeof setTimeout> | undefined;
-
+let pointerEnableTimer: ReturnType<typeof setTimeout> | undefined;
 const getPopover = (target: EventTarget | null) => {
     if (!(target instanceof Element)) return null;
     if (card.contains(target)) return null;
@@ -43,7 +43,7 @@ function scheduleHide() {
     // Allow crossing the gap between the option and the popup.
     hideTimer = setTimeout(() => {
         if (!pinned) hidePopover();
-    }, 200);
+    }, 40);
 }
 
 function positionCard(popover: HTMLElement) {
@@ -69,6 +69,14 @@ function positionCard(popover: HTMLElement) {
             window.innerHeight - cardRect.height - edge,
         ),
     )}px`;
+    // Briefly ignore the popup while it follows the cursor.
+    // This lets quick sweeps reach the next option underneath.
+    card.style.pointerEvents = 'none';
+
+    clearTimeout(pointerEnableTimer);
+    pointerEnableTimer = setTimeout(() => {
+        card.style.pointerEvents = '';
+    }, 60);
 }
 
 function showPopover(popover: HTMLElement, pin = false) {
