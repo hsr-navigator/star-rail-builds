@@ -4,6 +4,11 @@
             "version": "4.7",
             "entries": [
                 {
+                    "date" : "November 18, 2026",
+                    "changes": "Added the pin feature and enabled localStorage support. Users can now pin selected units to the top of the character list, which is saved locally.",
+                    "appliedBy": "Xaale"
+                },
+                {
                     "date" : "November 10, 2026",
                     "changes": "Aeon Aha added to the database along with Affinitive Eidolons and new Light Cones.",
                     "appliedBy": "Navigator Team"
