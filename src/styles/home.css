@@ -1486,3 +1486,17 @@ body[data-type="base"].browser-background::before {
 .roster-list-header {
     flex-wrap: wrap;
 }
+
+.roster-character {
+    overflow: visible;
+}
+
+.roster-pin-indicator {
+    top: -4px;
+    left: -4px;
+}
+
+.roster-character-art {
+    overflow: hidden;
+    border-radius: 7px 7px 0 0;
+}
