@@ -127,9 +127,26 @@ const rosterCharacters: ReturnType<typeof getCharacterViewModel>[] =
                     class="roster-pin-toggle"
                     data-pin-toggle
                     aria-pressed="false"
+                    aria-label={t(locale, 'ui', 'Pinning', undefined, false)}
+                    title={t(locale, 'ui', 'Pinning', undefined, false)}
                     aria-describedby="roster-pin-help"
-                    >{t(locale, 'ui', 'Pinning', undefined, false)}</button
                 >
+                    <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M16 9V4l1-1H7l1 1v5l-3 3v2h6v7l1 2 1-2v-7h6v-2z"
+                        ></path>
+                    </svg>
+                </button>
                 <label class="roster-sort">
                     {sortByLabel}
                     <select

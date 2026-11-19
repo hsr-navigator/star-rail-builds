@@ -1500,3 +1500,20 @@ body[data-type="base"].browser-background::before {
     overflow: hidden;
     border-radius: 7px 7px 0 0;
 }
+
+.roster-pin-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 52px;
+    padding: 8px;
+    color: #fff;
+}
+
+.roster-pin-toggle[aria-pressed='true'] {
+    color: #ffd580;
+}
+
+.roster-pin-toggle svg {
+    transform: rotate(45deg);
+}
