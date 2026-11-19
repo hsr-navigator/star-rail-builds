@@ -1420,3 +1420,69 @@ body[data-type="base"].browser-background::before {
 
 
 }
+
+/* Character pins live on the card corner, outside the portrait markup. */
+.roster-preference-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-end;
+    gap: 8px;
+    min-width: 0;
+}
+
+.roster-pin-toggle {
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.045);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.82rem;
+    cursor: pointer;
+}
+
+.roster-pin-toggle[aria-pressed='true'] {
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 18%, #15171c);
+    color: var(--accent);
+}
+
+.roster-pin-help {
+    margin: 4px 14px;
+    font-size: 0.82rem;
+    color: var(--accent);
+}
+
+.roster-pin-help[hidden] {
+    display: none;
+}
+
+.roster-pin-indicator {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 3;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 2px #181a20;
+    pointer-events: none;
+}
+
+.roster-character[data-pinned='true']>.roster-pin-indicator {
+    display: block;
+}
+
+.is-pinning .roster-character:hover,
+.is-pinning .roster-character:focus-visible,
+.roster-pin-toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+}
+
+.roster-list-header {
+    flex-wrap: wrap;
+}

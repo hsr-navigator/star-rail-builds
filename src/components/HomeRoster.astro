@@ -88,8 +88,7 @@ function getCharacterViewModel(character: any) {
 
     const rarityLabel = `${character.rarity}\u2605`;
 
-    const typeIcon =
-        typeIcons[character.type as keyof typeof typeIcons];
+    const typeIcon = typeIcons[character.type as keyof typeof typeIcons];
 
     const pathIcon = pathIcons[character.path as keyof typeof pathIcons];
 
@@ -122,27 +121,48 @@ const rosterCharacters: ReturnType<typeof getCharacterViewModel>[] =
                     {resultsLabel}
                 </p>
             </div>
-            <label class="roster-sort">
-                {sortByLabel}
-                <select
-                    class="home-native-select"
-                    name="sort"
-                    form="character-filters"
-                    aria-label={sortByLabel}
+            <div class="roster-preference-controls">
+                <button
+                    type="button"
+                    class="roster-pin-toggle"
+                    data-pin-toggle
+                    aria-pressed="false"
+                    aria-describedby="roster-pin-help"
+                    >{t(locale, 'ui', 'Pinning', undefined, false)}</button
                 >
-                    {
-                        sortOptions.map((option) => (
-                            <option
-                                value={option.value}
-                                selected={option.value === 'release'}
-                            >
-                                {option.label}
-                            </option>
-                        ))
-                    }
-                </select>
-            </label>
+                <label class="roster-sort">
+                    {sortByLabel}
+                    <select
+                        class="home-native-select"
+                        name="sort"
+                        form="character-filters"
+                        aria-label={sortByLabel}
+                    >
+                        {
+                            sortOptions.map((option) => (
+                                <option
+                                    value={option.value}
+                                    selected={option.value === 'release'}
+                                >
+                                    {option.label}
+                                </option>
+                            ))
+                        }
+                    </select>
+                </label>
+            </div>
         </div>
+        <p id="roster-pin-help" class="roster-pin-help" data-pin-help hidden>
+            {
+                t(
+                    locale,
+                    'ui',
+                    'Click characters to pin or unpin. Turn pinning off to open builds.',
+                    undefined,
+                    false,
+                )
+            }
+        </p>
 
         <div class="roster-list" data-roster-list>
             {
@@ -163,6 +183,21 @@ const rosterCharacters: ReturnType<typeof getCharacterViewModel>[] =
                             }
                             aria-disabled={character.isWip ? 'true' : undefined}
                             data-character-card
+                            data-character-slug={character.slug}
+                            data-pin-label={t(
+                                locale,
+                                'ui',
+                                'Pin',
+                                undefined,
+                                false,
+                            )}
+                            data-unpin-label={t(
+                                locale,
+                                'ui',
+                                'Unpin',
+                                undefined,
+                                false,
+                            )}
                             data-type={character.type}
                             data-last-updated={character.lastUpdated}
                             data-name={character.name}
@@ -174,6 +209,10 @@ const rosterCharacters: ReturnType<typeof getCharacterViewModel>[] =
                             data-version-released={character.versionReleased}
                             data-path={character.path}
                         >
+                            <span
+                                class="roster-pin-indicator"
+                                aria-hidden="true"
+                            />
                             <span class="roster-character-art">
                                 {character.portrait && (
                                     <Image

@@ -1,4 +1,8 @@
 {
+    "Pinning": "Pinning",
+    "Pin": "Pin",
+    "Unpin": "Unpin",
+    "Click characters to pin or unpin. Turn pinning off to open builds.": "Click characters to pin or unpin. Turn pinning off to open builds.",
     "Search shortcut banner": "Use / or \\ to quickly access a character page",
     "Hide shortcut banner": "Hide shortcut banner",
     "Notes": "Notes",

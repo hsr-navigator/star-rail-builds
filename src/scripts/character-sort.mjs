@@ -25,6 +25,11 @@ const typeRank = (type) => {
         : index;
 };
 export function compareCharacterCards(left, right, sort) {
+    const pinnedFirst =
+        Number(value(right, 'pinned') === 'true') -
+        Number(value(left, 'pinned') === 'true');
+    if (pinnedFirst) return pinnedFirst;
+
     const byName = compareText(value(left, 'name'), value(right, 'name'));
 
     if (sort === 'name') return byName;
