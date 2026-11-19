@@ -73,7 +73,8 @@ function openSearch() {
 function searchShortcutBannerDisabled() {
     try {
         return (
-            localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
+            localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true' ||
+            localStorage.getItem(searchShortcutBannerDismissedStorageKey) === 'true'
         );
     } catch {
         return false;
@@ -86,6 +87,7 @@ function setSearchShortcutBannerDisabled(disabled: boolean) {
             localStorage.setItem(searchShortcutBannerDisabledStorageKey, 'true');
         } else {
             localStorage.removeItem(searchShortcutBannerDisabledStorageKey);
+            localStorage.removeItem(searchShortcutBannerDismissedStorageKey);
             sessionStorage.removeItem(searchShortcutBannerDismissedStorageKey);
         }
     } catch {

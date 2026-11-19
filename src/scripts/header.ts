@@ -10,7 +10,7 @@ import {
 function searchShortcutBannerDismissed() {
     try {
         return (
-            sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
+            localStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
             'true' ||
             localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
         );
@@ -71,7 +71,7 @@ document.addEventListener(
         }
 
         try {
-            sessionStorage.setItem(searchShortcutBannerDismissedStorageKey, 'true');
+            localStorage.setItem(searchShortcutBannerDismissedStorageKey, 'true');
         } catch {
             // ignore storage failure
         }

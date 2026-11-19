@@ -195,6 +195,66 @@ if (kind) {
     const sortSelect = form?.elements.namedItem('sort');
     const sortStorageKey = sortStorageKeys[kind];
 
+    // Keep filter values separate for each catalog, shared across languages.
+    // Search text stays temporary; sorting retains its existing storage keys.
+    const filterStorageKey = `star-rail-builds:${kind}-filters`;
+    const filterControls = Array.from(
+        form?.querySelectorAll<HTMLInputElement | HTMLSelectElement>(
+            'input[name], select[name]',
+        ) ?? [],
+    ).filter((control) =>
+        !['search', 'sort'].includes(control.name) &&
+        (control instanceof HTMLSelectElement ||
+            ['radio', 'checkbox'].includes(control.type)),
+    );
+
+    try {
+        const saved: unknown = JSON.parse(
+            localStorage.getItem(filterStorageKey) ?? '{}',
+        );
+        if (saved && typeof saved === 'object' && !Array.isArray(saved)) {
+            for (const control of filterControls) {
+                const value = (saved as Record<string, unknown>)[control.name];
+                if (typeof value !== 'string') continue;
+
+                if (control instanceof HTMLSelectElement) {
+                    if ([...control.options].some((option) => option.value === value)) {
+                        control.value = value;
+                    }
+                } else if (control.type === 'checkbox') {
+                    if (value === '' || value === control.value) {
+                        control.checked = value === control.value;
+                    }
+                } else {
+                    const valid = filterControls.some((candidate) =>
+                        candidate.name === control.name && candidate.value === value,
+                    );
+                    if (valid) control.checked = control.value === value;
+                }
+            }
+        }
+    } catch {
+        // Invalid or unavailable storage must not prevent browsing.
+    }
+
+    form?.addEventListener('change', () => {
+        const filters: Record<string, string> = {};
+        for (const control of filterControls) {
+            if (control instanceof HTMLSelectElement) {
+                filters[control.name] = control.value;
+            } else if (control.type === 'checkbox') {
+                filters[control.name] = control.checked ? control.value : '';
+            } else if (control.checked) {
+                filters[control.name] = control.value;
+            }
+        }
+        try {
+            localStorage.setItem(filterStorageKey, JSON.stringify(filters));
+        } catch {
+            // Filtering still works when storage is blocked.
+        }
+    });
+
     const getElementYPosition = (element: HTMLElement) => {
         let currentElement: HTMLElement | null = element;
         let elementYPosition = 0;

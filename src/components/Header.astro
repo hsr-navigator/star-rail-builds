@@ -177,7 +177,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
 >
     try {
         if (
-            sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
+            localStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
                 'true' ||
             localStorage.getItem(searchShortcutBannerDisabledStorageKey) ===
                 'true'
